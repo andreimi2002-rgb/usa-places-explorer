@@ -9,7 +9,7 @@ Every record in `src/data/` is listed here with its verification status and what
 Sources are preferred in this order: official website → Wikidata → Wikipedia → reputable news.
 All sources were fetched and read on the date shown in `src/data/sources.ts`.
 
-_Last updated: 2026-11-01 (Phase 2)._
+_Last updated: 2026-11-01 (Phase 3)._
 
 ## Brands
 
@@ -36,22 +36,61 @@ Place type pages are explanatory. Definitions are written for this atlas from th
 | Master-Planned Community | partial | 2026-11-01 | Wikipedia (Planned community) | Only one general source so far. The Villages (Phase 3) will add a concrete, sourced example. |
 | National Park | partial | 2026-11-01 | NPS FAQ (434 areas, NPS created 1916, Yellowstone 1872) | The commonly cited "63 national parks" figure is **not used**: we could not confirm it on nps.gov. |
 | Route 66 Landmark | verified | 2026-11-01 | NPS Route 66 Overview (1926, ~2,400 miles, 8 states, decommissioned 1985), NPS Corridor Preservation Program (1999 act, 1926–1985 period) | — |
+| Seaport | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Airport | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Sports Venue | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Space Center Visitor Complex | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Landmark Bridge | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Public Garden & Aquarium | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Regional Mall | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Roadside Attraction | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Historic Landmark | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| Off-Grid Community | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
 
 ## Images
 
-All 16 images are from Wikimedia Commons. For each one we fetched the file page metadata (author, license, size), checked the image by eye to confirm it shows the named place, and confirmed the URL loads. Rejected: `02178 Grand Canyon Mather Point` (a group of people is the main subject) and `Costco Wholesale Club.jpg` (location not identified).
+All 38 images are from Wikimedia Commons. For each one we fetched the file page metadata (author, license, size), checked the image by eye to confirm it shows the named place, and confirmed the URL loads. Rejected: `02178 Grand Canyon Mather Point` (a group of people is the main subject), `Costco Wholesale Club.jpg` (location not identified) and `Greg Abbott Buc-ee's Luling Texas 2024.jpg` (a person is the main subject).
 
 ## Places
 
-| Record | State | Status | Last verified | Missing / notes |
-|---|---|---|---|---|
-| — | — | — | — | Researched in Phase 3 |
+All 26 research targets were published (none skipped). Text is written for this atlas; every fact in a place section carries its own source and date.
+
+**Coordinates.** Taken from Wikidata where available. For stores missing from Wikidata, we used the store's official page (Love's) or **OpenStreetMap** (Buc-ee's Daytona Beach and Goodyear, Bass Pro Shops Grapevine), only where the OSM feature has the same brand and the same street address as the official source. OSM use was approved by the project owner on 2026-11-01. For large areas (parks, ports, districts, communities) the Wikidata point marks the area, not a single entrance.
+
+**Address.** Shown only when an official page or Wikipedia infobox gives it. For areas (parks, ports, resorts, districts, communities, airports) a single street address does not apply and the field stays empty.
+
+| Place | State | Status | Last verified | Main sources | Missing / notes |
+|---|---|---|---|---|---|
+| Universal Orlando Resort | FL | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a (resort area). |
+| Kennedy Space Center Visitor Complex | FL | verified | 2026-11-01 | Wikipedia, Wikidata | Street address not sourced; located on Merritt Island. |
+| The Villages | FL | verified | 2026-11-01 | Wikipedia, Wikidata | Population is the 2020 census figure for the CDP only. |
+| Daytona International Speedway | FL | verified | 2026-11-01 | Wikipedia (infobox address), Wikidata | — |
+| Everglades National Park | FL | verified | 2026-11-01 | Wikipedia, Wikidata | Visitor centers not listed yet (no clean source fetched). |
+| Buc-ee's Daytona Beach | FL | verified | 2026-11-01 | Buc-ee's Locations page, Wikipedia (opening date), OSM (coordinates) | — |
+| Buc-ee's Luling | TX | **partial** | 2026-11-01 | Buc-ee's Locations page, Wikipedia | **No coordinates**: not in Wikidata, Wikipedia or OpenStreetMap, so no map marker. Photos show the original store (2008), since replaced. |
+| Love's Travel Stop, Italy (Store #628) | TX | verified | 2026-11-01 | Official store page (address, coordinates, amenities) | Chosen because the official page lists full details and a Commons photo exists. Opening year (2015) **not used**: the official news page could no longer be read. |
+| Bass Pro Shops Grapevine | TX | verified | 2026-11-01 | Official store page, OSM (coordinates) | **No photo** on Commons, so a placeholder is shown. The brief called it "Outdoor World"; the official page does not use that name. Opening year not found. |
+| AT&T Stadium | TX | verified | 2026-11-01 | Wikipedia (infobox address), Wikidata | ZIP code not sourced. |
+| Fort Worth Stockyards | TX | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a (historic district). |
+| Port of Houston | TX | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a; coordinates are the Wikidata point near Barbours Cut. Rankings ("busiest") deliberately not shown. |
+| Space Center Houston | TX | verified | 2026-11-01 | Wikipedia (infobox address), Wikidata | — |
+| Grand Canyon National Park | AZ | verified | 2026-11-01 | Wikipedia, Wikidata | Visitor numbers are for 2024. |
+| Buc-ee's Goodyear | AZ | verified | 2026-11-01 | FOX 10 Phoenix (opening, size, pumps), Buc-ee's Locations page, OSM (coordinates) | Size and pump count are as reported at opening (June 22, 2026). |
+| Wigwam Motel, Holbrook | AZ | verified | 2026-11-01 | Wikipedia (infobox address and coordinates) | No Wikidata item for this motel; official website not sourced. |
+| Taliesin West | AZ | **partial** | 2026-11-01 | Wikipedia, Wikidata | Street address and official website not sourced. |
+| Desert Botanical Garden | AZ | verified | 2026-11-01 | Wikipedia (address), Wikidata | ZIP code not sourced. |
+| Phoenix Sky Harbor International Airport | AZ | verified | 2026-11-01 | Wikipedia, Wikidata | Rank (11th by boardings) is for 2025. |
+| Disneyland Resort | CA | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a (resort area). |
+| Golden Gate Bridge | CA | verified | 2026-11-01 | Wikipedia, Wikidata | — |
+| Port of Los Angeles | CA | verified | 2026-11-01 | Wikipedia, Wikidata | Trading-partner data is for 2020. |
+| Monterey Bay Aquarium | CA | **partial** | 2026-11-01 | Wikipedia, Wikidata | Street address not sourced (Cannery Row only). |
+| Cabazon Dinosaurs | CA | **partial** | 2026-11-01 | Wikipedia, Wikidata | Street address not sourced. |
+| Slab City | CA | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a (informal settlement). |
+| South Coast Plaza | CA | verified | 2026-11-01 | Wikipedia (infobox address), Wikidata | Anchor stores and retailer count change over time. |
 
 ## Skipped research targets
 
-| Target | Reason |
-|---|---|
-| — | — |
+None. All 26 targets from the brief were published.
 
 ## Editorial (non-factual) content
 

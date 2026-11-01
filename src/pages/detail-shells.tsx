@@ -1,33 +1,16 @@
 /**
- * Detail routes still waiting for their full layouts: places (Phase 3),
- * categories and collections (Phase 4). Each resolves its record through
+ * Detail routes still waiting for their full layouts: categories and
+ * collections (Phase 4). Each resolves its record through
  * data-access and falls back to the 404 page.
  */
 import { useParams } from 'react-router';
 import { PlaceTypeCard } from '../components/cards/cards';
 import { Breadcrumbs, PageHeader, SectionHeading } from '../components/ui/layout-primitives';
 import { Seo } from '../components/ui/Seo';
-import { VerificationBadge } from '../components/ui/VerificationBadge';
 import {
-  getCategoryBySlug, getCollectionBySlug, getPlaceBySlug, getPlaceTypesByCategory,
+  getCategoryBySlug, getCollectionBySlug, getPlaceTypesByCategory,
 } from '../lib/data-access';
 import { NotFoundPage } from './NotFound/NotFoundPage';
-
-export function PlaceDetailPage() {
-  const { slug = '' } = useParams();
-  const place = getPlaceBySlug(slug);
-  if (!place) return <NotFoundPage />;
-  return (
-    <>
-      <Seo title={place.name} description={place.summary} />
-      <PageHeader eyebrow={place.city} title={place.name} intro={<p>{place.summary}</p>}>
-        <div className="mt-6">
-          <VerificationBadge status={place.verificationStatus} lastVerified={place.lastVerified} />
-        </div>
-      </PageHeader>
-    </>
-  );
-}
 
 export function CategoryDetailPage() {
   const { slug = '' } = useParams();

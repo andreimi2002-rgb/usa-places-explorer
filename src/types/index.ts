@@ -60,6 +60,7 @@ export type SourceKind =
   | 'wikidata'
   | 'wikipedia'
   | 'news'
+  | 'openstreetmap'
   | 'other';
 
 export interface Source {
@@ -75,10 +76,13 @@ export interface Source {
 export type ImageLicense =
   | 'CC0'
   | 'Public domain'
+  | 'Attribution'
   | 'CC BY 2.0'
+  | 'CC BY 2.5'
   | 'CC BY 3.0'
   | 'CC BY 4.0'
   | 'CC BY-SA 2.0'
+  | 'CC BY-SA 2.5'
   | 'CC BY-SA 3.0'
   | 'CC BY-SA 4.0';
 
@@ -252,6 +256,8 @@ export interface Place extends Verifiable {
   address: string | null;
   lat: number | null;
   lng: number | null;
+  /** Where the coordinates come from (Wikidata, official site or OpenStreetMap). */
+  coordinatesSourceId: string | null;
   summary: string;
   sections: PlaceSections;
   imageIds: string[];

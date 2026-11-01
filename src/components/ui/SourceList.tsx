@@ -8,6 +8,7 @@ const KIND_LABELS: Record<SourceKind, string> = {
   wikidata: 'Wikidata',
   wikipedia: 'Wikipedia',
   news: 'News',
+  openstreetmap: 'OpenStreetMap',
   other: 'Other',
 };
 

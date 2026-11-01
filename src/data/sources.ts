@@ -47,4 +47,86 @@ export const sources: Source[] = [
   { id: 'src-nps-faq', title: 'Frequently Asked Questions', publisher: 'National Park Service', url: 'https://www.nps.gov/aboutus/faqs.htm', kind: 'government', accessed: '2026-11-01' },
   { id: 'src-nps-route66-overview', title: 'Route 66 Overview', publisher: 'National Park Service', url: 'https://www.nps.gov/articles/route-66-overview.htm', kind: 'government', accessed: '2026-11-01' },
   { id: 'src-nps-route66-program', title: 'Route 66 Corridor Preservation Program', publisher: 'National Park Service', url: 'https://www.nps.gov/orgs/1453/rosi.htm', kind: 'government', accessed: '2026-11-01' },
+
+  // --- Place types added in Phase 3 (Wikipedia concept articles) ------------
+  ...[
+    ['src-wiki-port', 'Port', 'Port'],
+    ['src-wiki-airport', 'Airport', 'Airport'],
+    ['src-wiki-stadium', 'Stadium', 'Stadium'],
+    ['src-wiki-race-track', 'Race track', 'Race_track'],
+    ['src-wiki-botanical-garden', 'Botanical garden', 'Botanical_garden'],
+    ['src-wiki-public-aquarium', 'Public aquarium', 'Public_aquarium'],
+    ['src-wiki-shopping-mall', 'Shopping mall', 'Shopping_mall'],
+    ['src-wiki-roadside-attraction', 'Roadside attraction', 'Roadside_attraction'],
+    ['src-wiki-nhl', 'National Historic Landmark', 'National_Historic_Landmark'],
+    ['src-wiki-off-the-grid', 'Off-the-grid', 'Off-the-grid'],
+    ['src-wiki-suspension-bridge', 'Suspension bridge', 'Suspension_bridge'],
+    ['src-wiki-visitor-center', 'Visitor center', 'Visitor_center'],
+  ].map(([id, title, path]) => wikipedia(id!, title!, path!)),
+
+  // --- Places: Wikipedia articles ------------------------------------------
+  ...[
+    ['src-wiki-universal-orlando', 'Universal Orlando', 'Universal_Orlando'],
+    ['src-wiki-ksc-visitor-complex', 'Kennedy Space Center Visitor Complex', 'Kennedy_Space_Center_Visitor_Complex'],
+    ['src-wiki-the-villages', 'The Villages, Florida', 'The_Villages,_Florida'],
+    ['src-wiki-daytona-speedway', 'Daytona International Speedway', 'Daytona_International_Speedway'],
+    ['src-wiki-everglades', 'Everglades National Park', 'Everglades_National_Park'],
+    ['src-wiki-bucees', "Buc-ee's", 'Buc-ee%27s'],
+    ['src-wiki-att-stadium', 'AT&T Stadium', 'AT%26T_Stadium'],
+    ['src-wiki-fw-stockyards', 'Fort Worth Stockyards', 'Fort_Worth_Stockyards'],
+    ['src-wiki-port-houston', 'Port of Houston', 'Port_of_Houston'],
+    ['src-wiki-space-center-houston', 'Space Center Houston', 'Space_Center_Houston'],
+    ['src-wiki-grand-canyon', 'Grand Canyon National Park', 'Grand_Canyon_National_Park'],
+    ['src-wiki-wigwam-motel', 'Wigwam Motel', 'Wigwam_Motel'],
+    ['src-wiki-taliesin-west', 'Taliesin West', 'Taliesin_West'],
+    ['src-wiki-desert-botanical-garden', 'Desert Botanical Garden', 'Desert_Botanical_Garden'],
+    ['src-wiki-sky-harbor', 'Phoenix Sky Harbor International Airport', 'Phoenix_Sky_Harbor_International_Airport'],
+    ['src-wiki-disneyland-resort', 'Disneyland Resort', 'Disneyland_Resort'],
+    ['src-wiki-golden-gate', 'Golden Gate Bridge', 'Golden_Gate_Bridge'],
+    ['src-wiki-port-la', 'Port of Los Angeles', 'Port_of_Los_Angeles'],
+    ['src-wiki-monterey-aquarium', 'Monterey Bay Aquarium', 'Monterey_Bay_Aquarium'],
+    ['src-wiki-cabazon', 'Cabazon Dinosaurs', 'Cabazon_Dinosaurs'],
+    ['src-wiki-slab-city', 'Slab City, California', 'Slab_City,_California'],
+    ['src-wiki-south-coast-plaza', 'South Coast Plaza', 'South_Coast_Plaza'],
+  ].map(([id, title, path]) => wikipedia(id!, title!, path!)),
+
+  // --- Places: Wikidata items (coordinates, dates, official websites) ------
+  ...[
+    ['src-wd-universal-orlando', 'Universal Orlando Resort', 'Q778011'],
+    ['src-wd-ksc-visitor-complex', 'Kennedy Space Center Visitor Complex', 'Q6389687'],
+    ['src-wd-the-villages', 'The Villages', 'Q279537'],
+    ['src-wd-daytona-speedway', 'Daytona International Speedway', 'Q1179250'],
+    ['src-wd-everglades', 'Everglades National Park', 'Q274131'],
+    ['src-wd-att-stadium', 'AT&T Stadium', 'Q838284'],
+    ['src-wd-fw-stockyards', 'Fort Worth Stockyards', 'Q1895076'],
+    ['src-wd-port-houston', 'Port of Houston', 'Q1921365'],
+    ['src-wd-space-center-houston', 'Space Center Houston', 'Q2749172'],
+    ['src-wd-grand-canyon', 'Grand Canyon National Park', 'Q220289'],
+    ['src-wd-taliesin-west', 'Taliesin West', 'Q1208310'],
+    ['src-wd-desert-botanical-garden', 'Desert Botanical Garden', 'Q2566136'],
+    ['src-wd-sky-harbor', 'Phoenix Sky Harbor International Airport', 'Q912916'],
+    ['src-wd-disneyland-resort', 'Disneyland Resort', 'Q1229066'],
+    ['src-wd-golden-gate', 'Golden Gate Bridge', 'Q44440'],
+    ['src-wd-port-la', 'Port of Los Angeles', 'Q1308991'],
+    ['src-wd-monterey-aquarium', 'Monterey Bay Aquarium', 'Q1754233'],
+    ['src-wd-cabazon', 'Cabazon Dinosaurs', 'Q5015264'],
+    ['src-wd-slab-city', 'Slab City', 'Q1017618'],
+    ['src-wd-south-coast-plaza', 'South Coast Plaza', 'Q1027465'],
+  ].map(([id, label, qid]) => wikidata(id!, label!, qid!)),
+
+  // --- Places: official pages, news and OpenStreetMap ----------------------
+  { id: 'src-loves-italy-store', title: "Love's Travel Stop in Italy, TX (Store #628)", publisher: "Love's Travel Stops", url: 'https://www.loves.com/locations/tx/italy/loves-travel-stop-italy-628', kind: 'official', accessed: '2026-11-01' },
+  { id: 'src-basspro-grapevine-store', title: 'Bass Pro Shops Grapevine, TX', publisher: 'Bass Pro Shops', url: 'https://stores.basspro.com/us/tx/grapevine/2501-bass-pro-dr.html', kind: 'official', accessed: '2026-11-01' },
+  { id: 'src-fox10-bucees-goodyear', title: "'God bless America': Buc-ee's officially opens in Goodyear (June 22, 2026)", publisher: 'FOX 10 Phoenix', url: 'https://www.fox10phoenix.com/news/god-bless-america-buc-ees-officially-opens-goodyear', kind: 'news', accessed: '2026-11-01' },
+  { id: 'src-osm-bucees-daytona', title: "Buc-ee's, 2330 Gateway North Drive (way 1092384508)", publisher: 'OpenStreetMap', url: 'https://www.openstreetmap.org/way/1092384508', kind: 'openstreetmap', accessed: '2026-11-01' },
+  { id: 'src-osm-bucees-goodyear', title: "Buc-ee's, 1001 North Bullard Avenue (way 1531456081)", publisher: 'OpenStreetMap', url: 'https://www.openstreetmap.org/way/1531456081', kind: 'openstreetmap', accessed: '2026-11-01' },
+  { id: 'src-osm-basspro-grapevine', title: 'Bass Pro Shops, 2501 Bass Pro Drive (way 30264059)', publisher: 'OpenStreetMap', url: 'https://www.openstreetmap.org/way/30264059', kind: 'openstreetmap', accessed: '2026-11-01' },
 ];
+
+function wikipedia(id: string, title: string, path: string): Source {
+  return { id, title, publisher: 'Wikipedia', url: `https://en.wikipedia.org/wiki/${path}`, kind: 'wikipedia', accessed: '2026-11-01' };
+}
+
+function wikidata(id: string, label: string, qid: string): Source {
+  return { id, title: `${label} (${qid})`, publisher: 'Wikidata', url: `https://www.wikidata.org/wiki/${qid}`, kind: 'wikidata', accessed: '2026-11-01' };
+}

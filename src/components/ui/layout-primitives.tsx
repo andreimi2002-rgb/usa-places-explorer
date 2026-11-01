@@ -71,3 +71,13 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
     </nav>
   );
 }
+
+/** A titled block inside a long-form article. */
+export function ArticleSection({ id, title, children }: { id: string; title: string; children: ReactNode }) {
+  return (
+    <section aria-labelledby={id} className="scroll-mt-24">
+      <h2 id={id} className="text-h3">{title}</h2>
+      <div className="mt-4">{children}</div>
+    </section>
+  );
+}

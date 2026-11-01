@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router';
 import { Layout } from './components/layout/Layout';
 import { AboutPage } from './pages/About/AboutPage';
+import { BrandDetailPage } from './pages/Brands/BrandDetailPage';
 import { BrandsIndexPage } from './pages/Brands/BrandsIndexPage';
 import { CollectionsIndexPage } from './pages/Collections/CollectionsIndexPage';
-import {
-  BrandDetailPage, CategoryDetailPage, CollectionDetailPage, PlaceDetailPage, TypeDetailPage,
-} from './pages/detail-shells';
+import { CategoryDetailPage, CollectionDetailPage, PlaceDetailPage } from './pages/detail-shells';
+import { TypeDetailPage } from './pages/Types/TypeDetailPage';
 import { HomePage } from './pages/Home/HomePage';
 import { MapPage } from './pages/Map/MapPage';
 import { NotFoundPage } from './pages/NotFound/NotFoundPage';

@@ -8,6 +8,8 @@ interface Props {
   aspect?: string;
   /** Show the attribution line under the image. */
   showAttribution?: boolean;
+  /** Show the descriptive caption (off in compact cards). */
+  showCaption?: boolean;
   className?: string;
   loading?: 'lazy' | 'eager';
 }
@@ -24,9 +26,13 @@ export function PhotoPlaceholder({ aspect = 'aspect-[16/9]', className = '' }: {
   );
 }
 
-export function ImageAttribution({ image }: { image: ImageAsset }) {
+/**
+ * Credit line: author, license and Commons link. `relative z-10` keeps the
+ * links clickable inside cards that use a stretched link overlay.
+ */
+export function ImageAttribution({ image, className = 'mt-2' }: { image: ImageAsset; className?: string }) {
   return (
-    <p className="mt-2 text-caption text-ink-subtle">
+    <p className={`relative z-10 text-caption text-ink-subtle ${className}`}>
       Photo:{' '}
       {image.authorUrl ? (
         <a href={image.authorUrl} target="_blank" rel="noopener noreferrer" className="link">
@@ -52,7 +58,9 @@ export function ImageAttribution({ image }: { image: ImageAsset }) {
 }
 
 /** A Commons image with attribution, or a placeholder if missing or broken. */
-export function AtlasImage({ image, aspect = 'aspect-[16/9]', showAttribution = true, className = '', loading = 'lazy' }: Props) {
+export function AtlasImage({
+  image, aspect = 'aspect-[16/9]', showAttribution = true, showCaption = true, className = '', loading = 'lazy',
+}: Props) {
   const [failed, setFailed] = useState(false);
 
   if (!image || failed) return <PhotoPlaceholder aspect={aspect} className={className} />;
@@ -71,9 +79,9 @@ export function AtlasImage({ image, aspect = 'aspect-[16/9]', showAttribution = 
           className="h-full w-full object-cover"
         />
       </div>
-      {(image.caption || showAttribution) && (
+      {((showCaption && image.caption) || showAttribution) && (
         <figcaption>
-          {image.caption && <p className="mt-2 text-small text-ink-muted">{image.caption}</p>}
+          {showCaption && image.caption && <p className="mt-2 text-small text-ink-muted">{image.caption}</p>}
           {showAttribution && <ImageAttribution image={image} />}
         </figcaption>
       )}

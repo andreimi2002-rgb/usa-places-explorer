@@ -6,7 +6,7 @@ import {
 } from '../../lib/data-access';
 import { pluralize } from '../../lib/format';
 import type { Brand, Category, Collection, Place, PlaceType, State } from '../../types';
-import { AtlasImage } from '../ui/AtlasImage';
+import { AtlasImage, ImageAttribution } from '../ui/AtlasImage';
 import { categoryIcons } from '../ui/icons';
 
 const cardBase =
@@ -61,7 +61,8 @@ export function PlaceTypeCard({ type }: { type: PlaceType }) {
   const image = type.imageIds[0] ? getImage(type.imageIds[0]) : undefined;
   return (
     <article className={cardBase}>
-      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} className="rounded-none" />
+      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} showCaption={false} className="rounded-none" />
+      {image && <ImageAttribution image={image} className="px-5 pt-2" />}
       <div className="flex flex-1 flex-col p-5">
         {category && <p className="eyebrow">{category.name}</p>}
         <h3 className="mt-1 text-h4">
@@ -78,7 +79,8 @@ export function BrandCard({ brand }: { brand: Brand }) {
   const types = brand.placeTypeIds.map((id) => getPlaceTypeById(id)?.name).filter(Boolean);
   return (
     <article className={cardBase}>
-      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} />
+      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} showCaption={false} />
+      {image && <ImageAttribution image={image} className="px-5 pt-2" />}
       <div className="flex flex-1 flex-col p-5">
         {types.length > 0 && <p className="eyebrow">{types.join(' · ')}</p>}
         <h3 className="mt-1 text-h4">
@@ -96,7 +98,8 @@ export function PlaceCard({ place }: { place: Place }) {
   const state = getStateByCode(place.stateCode);
   return (
     <article className={cardBase}>
-      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} />
+      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} showCaption={false} />
+      {image && <ImageAttribution image={image} className="px-5 pt-2" />}
       <div className="flex flex-1 flex-col p-5">
         {type && <p className="eyebrow">{type.name}</p>}
         <h3 className="mt-1 text-h4">

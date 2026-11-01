@@ -1,4 +1,285 @@
 import type { PlaceType } from '../types';
 
-/** Populated with verified records in later phases. */
-export const placeTypes: PlaceType[] = [];
+/**
+ * Place type records. Definitions are written for this project from the
+ * cited sources. Comparison tables describe typical features; individual
+ * sites vary, which is why most types are marked "partial".
+ */
+export const placeTypes: PlaceType[] = [
+  {
+    id: 'type-travel-center',
+    slug: 'travel-center',
+    name: 'Travel Center',
+    pluralName: 'Travel Centers',
+    categoryId: 'roadside-travel',
+    summary:
+      'A large highway stop that combines fuel, food, shopping and services for drivers, from families on a road trip to long-haul truckers.',
+    definition: [
+      'A travel center is a commercial stop built for people on long drives. It sells fuel, but the format is defined by everything around the pumps: a large store, restaurants or food counters, restrooms, parking and services that let a driver rest, eat and keep going.',
+      'The term overlaps with "truck stop". Truck stops appeared in the United States in the 1940s as reliable places to buy diesel, which ordinary filling stations rarely sold. As the big chains grew and began serving cars as well as trucks, many started calling their sites travel centers. The industry\'s trade association, NATSO, represents both.',
+      "Today the difference is mostly one of emphasis. A truck stop is organized around professional drivers; a travel center signals a stop for everyone on the road. Some brands push the format even further: Buc-ee's builds stores big enough to be destinations in their own right, while Love's and Pilot Flying J run large networks with services aimed at truckers.",
+    ],
+    comparison: {
+      caption: 'Travel center compared with other roadside stops (typical features; individual sites vary)',
+      columns: ['Travel center', 'Truck stop', 'Gas station / convenience store', 'Public rest area'],
+      rows: [
+        { aspect: 'Run by', values: ['Private company, often a national chain', 'Private company or independent owner', 'Private company or independent owner', 'Government agency'] },
+        { aspect: 'Main users', values: ['All drivers, cars and trucks', 'Mainly professional truck drivers', 'Local customers and passing cars', 'All drivers'] },
+        { aspect: 'Fuel', values: ['Gasoline and diesel, often with separate truck lanes', 'Diesel lanes sized for tractor-trailers', 'Mainly gasoline', 'None'] },
+        { aspect: 'Food', values: ['Large store plus restaurants or food counters', 'Diner or restaurant, trucker supplies', 'Packaged food and drinks', 'Usually vending machines only'] },
+        { aspect: 'Truck parking', values: ['Usually', 'Central to the site', 'Rarely', 'Often, in dedicated spaces'] },
+        { aspect: 'Driver services', values: ['Restrooms, often showers and truck maintenance', 'Showers, laundry, scales, lounges', 'Restrooms', 'Restrooms'] },
+      ],
+    },
+    anatomy: [
+      { title: 'Fuel plaza', description: 'A long canopy over many pumps. Sites that serve trucks add separate diesel lanes wide and tall enough for tractor-trailers.' },
+      { title: 'The store', description: 'Far larger than a typical gas station shop, selling drinks, snacks, travel supplies and branded merchandise.' },
+      { title: 'Food', description: 'Fast-food counters, sit-down restaurants or in-house kitchens, so a meal stop and a fuel stop become the same stop.' },
+      { title: 'Restrooms and showers', description: 'Clean restrooms are a selling point for travelers. Truck-oriented sites also offer showers and laundry for drivers who live on the road.' },
+      { title: 'Truck services', description: 'Parking for big rigs, truck scales and, at some chains, maintenance bays for oil changes and preventive service.' },
+    ],
+    whereCommon: [
+      'Travel centers sit where long-distance traffic is heaviest: at interchanges on the Interstate highways and major U.S. routes. Because trucking companies tend to send their drivers to specific chains, the biggest brands compete to cover entire freight corridors.',
+      "The national chains now reach most of the country. Buc-ee's is the exception: it remains concentrated in Texas, where it began, although it has been opening stores across the South and beyond.",
+    ],
+    relatedTypeIds: ['type-route-66-landmark'],
+    sectionKeys: ['overview', 'facilities', 'fuel', 'food', 'parking', 'history', 'access'],
+    imageIds: ['img-bucees-sevierville', 'img-loves-laramie'],
+    featured: true,
+    sourceIds: ['src-wiki-truck-stop', 'src-natso-about', 'src-loves-about', 'src-bucees-about'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-theme-park-resort',
+    slug: 'theme-park-resort',
+    name: 'Theme Park Resort',
+    pluralName: 'Theme Park Resorts',
+    categoryId: 'tourism-destinations',
+    summary:
+      'A destination that bundles several theme parks with hotels, dining and entertainment, designed for multi-day stays rather than a single visit.',
+    definition: [
+      'A theme park is an amusement park built around stories and settings: its rides, buildings and shows belong to themed areas rather than standing alone. A theme park resort takes the next step and surrounds one or more parks with hotels, restaurants, shopping districts and transport, so that a visit becomes a vacation.',
+      'The modern version began in the United States. Disneyland opened in California in 1955, and its success revived the American amusement industry. Walt Disney World in Florida and later Universal Orlando Resort turned single parks into complexes of several parks, water parks and resort hotels.',
+    ],
+    comparison: {
+      caption: 'Theme park resort compared with related attractions (typical features)',
+      columns: ['Theme park resort', 'Single theme park', 'Amusement park'],
+      rows: [
+        { aspect: 'Scale', values: ['Several parks plus hotels and entertainment districts', 'One gated park', 'One park'] },
+        { aspect: 'Design', values: ['Every area themed, including hotels and transport', 'Themed lands inside the park', 'Rides grouped with little or no story'] },
+        { aspect: 'Typical visit', values: ['Several days, often with an on-site hotel stay', 'One day', 'A day or an evening'] },
+        { aspect: 'Visitors', values: ['National and international tourists', 'Regional and tourist visitors', 'Mostly local and regional'] },
+      ],
+    },
+    anatomy: [
+      { title: 'Theme parks', description: 'Gated parks divided into themed lands, each with rides, shows, food and shops matched to a story or setting.' },
+      { title: 'Water parks', description: 'Separate parks built around slides, wave pools and lazy rivers, often with their own theme.' },
+      { title: 'Resort hotels', description: 'On-site hotels at several price levels, themed to match the parks and connected to them by the resort\'s own transport.' },
+      { title: 'Entertainment district', description: 'A free-entry zone of restaurants, shops and nightlife, such as CityWalk at Universal, between the hotels and the park gates.' },
+    ],
+    whereCommon: [
+      'In the United States the best-known theme park resorts are in Central Florida, around Orlando, and in Southern California, around Los Angeles and Anaheim.',
+      'New formats are spreading the idea further. Universal opened a resort designed for young children in Frisco, Texas, in 2026, showing that the resort model can work at a smaller, regional scale.',
+    ],
+    relatedTypeIds: [],
+    sectionKeys: ['overview', 'parks', 'hotels', 'attractions', 'history', 'access'],
+    imageIds: ['img-universal-orlando-2023', 'img-disneyland-castle'],
+    featured: false,
+    sourceIds: ['src-wiki-theme-park', 'src-wiki-udx', 'src-disney-experiences', 'src-nbcu-kids-resort-open'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-outdoor-superstore',
+    slug: 'outdoor-superstore',
+    name: 'Outdoor Superstore',
+    pluralName: 'Outdoor Superstores',
+    categoryId: 'retail-shopping',
+    summary:
+      'A very large store for fishing, hunting, camping and boating gear, designed as an attraction with aquariums, wildlife displays and themed architecture.',
+    definition: [
+      'An outdoor superstore is a specialty big-box store for people who fish, hunt, camp and boat. What sets it apart from an ordinary sporting goods store is that the building itself is meant to be visited, not just shopped.',
+      'Retailers in this format describe their stores as destinations. Typical features include indoor aquariums, mounted wildlife in natural settings, lodge-style architecture, and space for events and outdoor education. Bass Pro Shops pitches a store visit as "a mini-vacation" rather than a shopping trip.',
+      'In the United States the format is closely tied to Bass Pro Shops and Cabela\'s, which have operated as one company since 2017.',
+    ],
+    comparison: {
+      caption: 'Outdoor superstore compared with other sporting goods retail (typical features)',
+      columns: ['Outdoor superstore', 'Sporting goods chain store', 'Local tackle or gun shop'],
+      rows: [
+        { aspect: 'Size', values: ['Very large, often a standalone landmark building', 'Large box in a shopping center', 'Small shop'] },
+        { aspect: 'Range', values: ['Fishing, hunting, camping, boats and outdoor clothing', 'Many sports, lighter on outdoor gear', 'Narrow specialty'] },
+        { aspect: 'Experience', values: ['Aquariums, wildlife displays, themed design, events', 'Standard retail layout', 'Personal advice and local knowledge'] },
+        { aspect: 'Catchment', values: ['Regional, sometimes a tourist stop', 'Local', 'Local'] },
+      ],
+    },
+    anatomy: [
+      { title: 'Lodge-style building', description: 'Timber, stone and rustic detailing that signals "outdoors" from the parking lot and makes each store look different.' },
+      { title: 'Aquariums and water features', description: 'Large freshwater tanks, ponds and indoor streams that turn the sales floor into a landscape.' },
+      { title: 'Wildlife displays', description: 'Mounted animals posed in natural scenes, part museum and part decoration.' },
+      { title: 'Departments', description: 'Separate sections for fishing, hunting, camping, clothing and footwear, with boats and vehicles displayed inside or out front.' },
+      { title: 'Extras', description: 'At the largest stores, restaurants and even hotels, such as Big Cypress Lodge inside the Memphis Pyramid store.' },
+    ],
+    whereCommon: [
+      'Outdoor superstores are spread across North America. Many sit beside major highways or in large shopping developments, where their size and design work as a billboard.',
+      'Some have become tourist attractions. The Bass Pro Shops store inside the Pyramid in Memphis and the original Outdoor World in Springfield, Missouri, are visited as sights in their own right.',
+    ],
+    relatedTypeIds: ['type-warehouse-club'],
+    sectionKeys: ['overview', 'architecture', 'attractions', 'facilities', 'food', 'history', 'access'],
+    imageIds: ['img-basspro-memphis-pyramid', 'img-basspro-springfield'],
+    featured: false,
+    sourceIds: ['src-basspro-college-station', 'src-basspro-about', 'src-wiki-big-box'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-warehouse-club',
+    slug: 'warehouse-club',
+    name: 'Warehouse Club',
+    pluralName: 'Warehouse Clubs',
+    categoryId: 'retail-shopping',
+    summary:
+      'A membership-only store selling a limited range of goods in bulk from a no-frills warehouse building, to households and small businesses alike.',
+    definition: [
+      'A warehouse club is a large retail store that only members can shop in. Customers pay an annual fee and show a membership card to enter and to buy. In return the club keeps prices low by stocking a limited assortment, selling in large pack sizes and running a plain, warehouse-like building.',
+      'The format grew out of wholesale trade but opened it to ordinary consumers as well as businesses. It took off in the United States in the 1980s: Sam\'s Club opened its first club in 1983, the year Costco was founded, and BJ\'s Wholesale Club followed in 1984. Costco and Sam\'s Club remain the largest chains.',
+    ],
+    comparison: {
+      caption: 'Warehouse club compared with other large stores (typical features)',
+      columns: ['Warehouse club', 'Supercenter / hypermarket', 'Supermarket'],
+      rows: [
+        { aspect: 'Entry', values: ['Members only, annual fee', 'Open to all', 'Open to all'] },
+        { aspect: 'Assortment', values: ['Limited, rotating selection', 'Very wide general merchandise and groceries', 'Wide grocery range'] },
+        { aspect: 'Pack sizes', values: ['Bulk and multipacks', 'Mostly standard', 'Standard'] },
+        { aspect: 'Building', values: ['Bare warehouse: concrete floors, steel racks, pallets', 'Large big-box store', 'Conventional store'] },
+        { aspect: 'Customers', values: ['Households and small businesses', 'Households', 'Households'] },
+      ],
+    },
+    anatomy: [
+      { title: 'Membership desk', description: 'Where memberships are sold and renewed and cards are checked at the door.' },
+      { title: 'Warehouse floor', description: 'High ceilings, concrete floors and steel racking, with stock stored on pallets directly above the selling floor.' },
+      { title: 'Rotating merchandise', description: 'A shifting mix of electronics, clothing, seasonal goods and household items alongside groceries, so the range changes from visit to visit.' },
+      { title: 'Bulk groceries', description: 'Fresh and packaged food sold in large sizes and multipacks.' },
+      { title: 'Services on the lot', description: 'Some clubs add services on the same lot, such as tire centers.' },
+    ],
+    whereCommon: [
+      'Warehouse clubs need large sites and a big catchment, so they are usually found in suburbs and on the edges of cities, near highways and other big-box retail. Costco is the largest name in the format, with most of its warehouses in the United States.',
+    ],
+    relatedTypeIds: ['type-outdoor-superstore'],
+    sectionKeys: ['overview', 'facilities', 'operations', 'food', 'history', 'access'],
+    imageIds: ['img-costco-ssf'],
+    featured: false,
+    sourceIds: ['src-wiki-warehouse-club', 'src-costco-sales-2026-09'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-master-planned-community',
+    slug: 'master-planned-community',
+    name: 'Master-Planned Community',
+    pluralName: 'Master-Planned Communities',
+    categoryId: 'communities-living',
+    summary:
+      'A large community designed from the start by a single developer, with homes, shops, parks and amenities laid out according to one plan.',
+    definition: [
+      'A master-planned community is a place that was designed as a whole before it was built, usually on open land and usually by a single developer. Instead of growing street by street over decades, it follows one plan that sets out neighborhoods, roads, shopping areas, schools, parks and amenities in advance.',
+      'In the United States the term usually describes large private developments built in phases over many years. Many are organized around a lifestyle, from family suburbs to active retirement, and their shared spaces are typically looked after by homeowners associations.',
+      'They are especially common in the fast-growing Sunbelt states. Texas examples include The Woodlands near Houston and Las Colinas in Irving, near Dallas.',
+    ],
+    comparison: {
+      caption: 'Master-planned community compared with other kinds of settlement (typical features)',
+      columns: ['Master-planned community', 'Conventional subdivision', 'Traditional town'],
+      rows: [
+        { aspect: 'Planning', values: ['One overall plan for homes, shops and amenities', 'Plan covers housing only', 'Grew gradually over time'] },
+        { aspect: 'Developer', values: ['Usually one master developer', 'One builder per tract', 'Many owners and builders'] },
+        { aspect: 'Amenities', values: ['Built in: parks, trails, pools, golf, town centers', 'Few or none', 'Public parks and facilities'] },
+      ],
+    },
+    anatomy: [
+      { title: 'Villages or neighborhoods', description: 'The community is divided into smaller sections, often with their own names, built one after another.' },
+      { title: 'Town center', description: 'A planned main street or square with shops, restaurants and community events, intended to give the place a focal point.' },
+      { title: 'Amenities', description: 'Parks, trails, pools, golf courses and recreation centers, usually opened early to attract buyers.' },
+      { title: 'Governance', description: 'Homeowners associations that look after common areas and set design rules.' },
+    ],
+    whereCommon: [
+      'Master-planned communities are most common in the Sunbelt, from Florida and Texas to Arizona and California, where there is open land at the edge of growing metro areas.',
+    ],
+    relatedTypeIds: [],
+    sectionKeys: ['overview', 'community', 'facilities', 'history', 'access'],
+    imageIds: ['img-villages-spanish-springs'],
+    featured: false,
+    sourceIds: ['src-wiki-planned-community'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-national-park',
+    slug: 'national-park',
+    name: 'National Park',
+    pluralName: 'National Parks',
+    categoryId: 'nature-wildlife',
+    summary:
+      'A protected landscape of national importance, managed by the National Park Service for conservation and for public enjoyment.',
+    definition: [
+      'A national park is a large area set aside by the federal government to protect exceptional landscapes, ecosystems or geology, and to let the public experience them. The United States created the world\'s first, Yellowstone, in 1872.',
+      'National parks are managed by the National Park Service, created in 1916. "National park" is one of several kinds of site in the National Park System, alongside national monuments, historic sites, seashores, recreation areas and others. The full system covers hundreds of areas.',
+      'Parks try to protect nature while also welcoming visitors, with roads, trails, lodges and visitor centers built around the landscape.',
+    ],
+    comparison: null,
+    anatomy: [
+      { title: 'Protected landscape', description: 'The core reason for the park: a canyon, wetland, mountain range or coastline protected from development.' },
+      { title: 'Entrances and roads', description: 'Entrance stations and scenic roads that funnel visitors to the main viewpoints.' },
+      { title: 'Visitor centers', description: 'Exhibits, ranger programs and information that explain the landscape and its history.' },
+      { title: 'Trails and viewpoints', description: 'Paved overlooks for quick visits and backcountry trails for longer ones.' },
+      { title: 'Lodging and camping', description: 'Historic lodges, campgrounds and gateway towns just outside the boundary.' },
+    ],
+    whereCommon: [
+      'National parks are found across the country, from deserts and canyons in the West to wetlands and coasts in the East. Arizona, California and Florida all have national parks.',
+    ],
+    relatedTypeIds: ['type-route-66-landmark'],
+    sectionKeys: ['overview', 'landscape', 'wildlife', 'visitorCenters', 'history', 'access'],
+    imageIds: ['img-grand-canyon-mather-inversion'],
+    featured: false,
+    sourceIds: ['src-nps-faq'],
+    verificationStatus: 'partial',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+  {
+    id: 'type-route-66-landmark',
+    slug: 'route-66-landmark',
+    name: 'Route 66 Landmark',
+    pluralName: 'Route 66 Landmarks',
+    categoryId: 'unique-unusual',
+    summary:
+      'A surviving motel, diner, gas station or roadside attraction from the heyday of U.S. Route 66, the highway that linked Chicago and Los Angeles.',
+    definition: [
+      'U.S. Route 66 was established in 1926 as part of the new federal highway system. It ran about 2,400 miles from Chicago to Los Angeles, through Illinois, Missouri, Kansas, Oklahoma, Texas, New Mexico, Arizona and California.',
+      'Travelers needed fuel, food and somewhere to sleep, and a whole roadside economy grew up to serve them: motels, cafes, gas stations and attractions designed to catch the eye of passing drivers. Many were small family businesses.',
+      'Interstate highways gradually replaced the route, and it was officially decommissioned in 1985. Many of the businesses along it closed, but those that survived, or were restored, are now landmarks of American road culture. The National Park Service runs a Route 66 Corridor Preservation Program, created by Congress in 1999, that funds preservation of significant sites from the 1926 to 1985 period.',
+    ],
+    comparison: null,
+    anatomy: [
+      { title: 'Eye-catching design', description: 'Big signs and unusual buildings meant to be noticed from a moving car.' },
+      { title: 'Motels', description: 'Places to sleep for road travelers, some built in memorable themed shapes.' },
+      { title: 'Cafes and gas stations', description: 'Small roadside businesses offering fuel and meals, often family-run.' },
+      { title: 'Historic status', description: 'Some survivors, such as the Wigwam Motel in Holbrook, Arizona, are listed on the National Register of Historic Places.' },
+    ],
+    whereCommon: [
+      'Route 66 landmarks line the old route across eight states. In Arizona and California the road crossed long stretches of desert, and towns such as Holbrook, Arizona, still keep roadside icons from that era.',
+    ],
+    relatedTypeIds: ['type-travel-center', 'type-national-park'],
+    sectionKeys: ['overview', 'history', 'architecture', 'access'],
+    imageIds: ['img-wigwam-holbrook'],
+    featured: false,
+    sourceIds: ['src-nps-route66-overview', 'src-nps-route66-program'],
+    verificationStatus: 'verified',
+    lastVerified: '2026-11-01',
+    createdAt: '2026-11-01',
+  },
+];

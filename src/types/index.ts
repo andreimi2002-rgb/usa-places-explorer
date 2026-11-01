@@ -26,8 +26,10 @@ export interface SourcedValue<T> {
   value: T | null;
   sourceId: string | null;
   asOf: ISODate | null;
-  /** Optional short qualifier, e.g. "U.S. stores only". */
+  /** Optional short qualifier, e.g. "in 42 states". */
   note?: string;
+  /** For numbers the source gives as "more than 900" or "nearly 200". */
+  approximate?: 'more-than' | 'nearly';
 }
 
 /** Name of a Lucide icon registered in `src/components/ui/icons.ts`. */
@@ -221,8 +223,14 @@ export interface Brand extends Verifiable {
   distinctive: string[];
   founded: SourcedValue<number>;
   headquarters: SourcedValue<string>;
-  locationCount: SourcedValue<number>;
+  /** What a "location" is for this brand, e.g. "Locations", "Warehouses". */
+  locationLabel: string;
+  /** Count in the United States. */
+  locationsUS: SourcedValue<number>;
+  /** Count across all countries; null when the brand is U.S.-only or no figure exists. */
+  locationsWorldwide: SourcedValue<number> | null;
   officialWebsite: string | null;
+  wikidataId: string | null;
   relatedBrandIds: string[];
   imageIds: string[];
   featured: boolean;

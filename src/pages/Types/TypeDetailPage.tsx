@@ -1,9 +1,9 @@
 import { Building2, Layers } from 'lucide-react';
 import { Link, useParams } from 'react-router';
-import { PlaceCard } from '../../components/cards/cards';
+import { PlaceBrowser } from '../../components/places/PlaceBrowser';
 import { AtlasImage } from '../../components/ui/AtlasImage';
 import { ImageGallery } from '../../components/ui/ImageGallery';
-import { ArticleSection, Breadcrumbs, PageHeader } from '../../components/ui/layout-primitives';
+import { ArticleSection, Breadcrumbs, PageHeader, SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { SourceList } from '../../components/ui/SourceList';
 import { VerificationBadge } from '../../components/ui/VerificationBadge';
@@ -117,13 +117,6 @@ export function TypeDetailPage() {
             </ArticleSection>
           )}
 
-          {places.length > 0 && (
-            <ArticleSection id="examples" title="Notable examples in the atlas">
-              <ul className="grid gap-6 sm:grid-cols-2">
-                {places.map((p) => <li key={p.id}><PlaceCard place={p} /></li>)}
-              </ul>
-            </ArticleSection>
-          )}
 
           {moreImages.length > 0 && (
             <ArticleSection id="gallery" title="Gallery">
@@ -177,6 +170,13 @@ export function TypeDetailPage() {
           </section>
         </aside>
       </div>
+
+      {places.length > 0 && (
+        <section aria-labelledby="examples-title" className="container-page pb-section">
+          <SectionHeading id="examples-title" eyebrow="In the atlas" title={`${type.pluralName} in the atlas`} />
+          <PlaceBrowser places={places} filters={['state']} />
+        </section>
+      )}
     </>
   );
 }

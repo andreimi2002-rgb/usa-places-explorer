@@ -1,0 +1,164 @@
+/**
+ * Turns the imported Wikidata records (listings.json, built by
+ * scripts/import/wikidata-listings.mjs) into atlas places, photos and sources.
+ *
+ * Text here is template-only: type, location and Wikidata facts. Nothing is
+ * paraphrased from articles, so no listing claims more than its sources say.
+ */
+import type { ImageAsset, ImageLicense, Place, Source } from '../../types';
+import data from './listings.json';
+import { photoReview } from './photo-review';
+
+interface ListingRecord {
+  qid: string;
+  name: string;
+  typeId: string;
+  state: string;
+  city: string;
+  lat: number;
+  lng: number;
+  sitelinks: number;
+  wikipedia: string;
+  year: number | null;
+  website: string | null;
+  address: string | null;
+  nrhp: boolean;
+  image: {
+    fileUrl: string;
+    commonsPageUrl: string;
+    author: string;
+    authorUrl: string | null;
+    license: string;
+    licenseUrl: string | null;
+    width: number;
+    height: number;
+  } | null;
+}
+
+const { importedOn, records } = data as { importedOn: string; records: ListingRecord[] };
+
+const STATE_NAMES: Record<string, string> = { FL: 'Florida', TX: 'Texas', AZ: 'Arizona', CA: 'California' };
+
+/** How the Wikidata "inception" date reads for each type. */
+const INCEPTION: Record<string, string> = {
+  'national-park': 'Established', 'national-monument': 'Established', 'state-park': 'Established',
+  'wildlife-refuge': 'Established', 'garden-aquarium': 'Established', zoo: 'Established', ranch: 'Established',
+  museum: 'Founded', 'art-museum': 'Founded', 'spanish-mission': 'Founded', 'ghost-town': 'Founded',
+  winery: 'Founded', university: 'Founded',
+  'amusement-park': 'Opened', airport: 'Opened', 'regional-mall': 'Opened',
+  lighthouse: 'Built', 'historic-fort': 'Built', dam: 'Built', 'landmark-bridge': 'Built', pier: 'Built',
+};
+
+/** Lower-case type noun for sentences, keeping proper names. */
+const TYPE_NOUNS: Record<string, string> = {
+  'national-park': 'national park', 'national-monument': 'national monument', 'state-park': 'state park',
+  'wildlife-refuge': 'national wildlife refuge', 'garden-aquarium': 'public garden or aquarium', zoo: 'zoo',
+  'natural-spring': 'natural spring', cave: 'cave', museum: 'museum', 'art-museum': 'art museum',
+  'spanish-mission': 'Spanish mission', 'historic-fort': 'historic fort', 'ghost-town': 'ghost town',
+  lighthouse: 'lighthouse', 'landmark-hotel': 'landmark hotel', 'landmark-restaurant': 'landmark restaurant',
+  'amusement-park': 'amusement park', pier: 'pier', 'performing-arts-venue': 'performing arts venue',
+  'sports-venue': 'sports venue', airport: 'international airport', 'landmark-bridge': 'bridge',
+  'regional-mall': 'shopping center', dam: 'dam', winery: 'winery', ranch: 'ranch', university: 'university',
+};
+
+const article = (noun: string) => (/^[aeiou]/i.test(noun) ? 'An' : 'A');
+
+const slugify = (s: string) =>
+  s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' and ')
+    .replace(/['’.]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+const wdSourceId = (qid: string) => `src-wd-${qid}`;
+const wpSourceId = (qid: string) => `src-wp-${qid}`;
+export const listingImageId = (qid: string) => `img-wd-${qid}`;
+
+export function buildListings(takenSlugs: Set<string>) {
+  const places: Place[] = [];
+  const images: ImageAsset[] = [];
+  const sources: Source[] = [];
+  const slugs = new Set(takenSlugs);
+
+  const uniqueSlug = (r: ListingRecord) => {
+    for (const candidate of [
+      slugify(r.name),
+      slugify(`${r.name} ${r.city}`),
+      slugify(`${r.name} ${r.city} ${r.state}`),
+      slugify(`${r.name} ${r.qid}`),
+    ]) {
+      if (candidate && !slugs.has(candidate)) {
+        slugs.add(candidate);
+        return candidate;
+      }
+    }
+    throw new Error(`No free slug for ${r.qid}`);
+  };
+
+  for (const r of records) {
+    const stateName = STATE_NAMES[r.state] ?? r.state;
+    const noun = TYPE_NOUNS[r.typeId] ?? 'place';
+    const verb = INCEPTION[r.typeId];
+    const yearClause = r.year ? `, ${verb ? verb.toLowerCase() + ' in' : 'dating from'} ${r.year}` : '';
+
+    sources.push(
+      {
+        id: wdSourceId(r.qid), title: `${r.name} (${r.qid})`, publisher: 'Wikidata',
+        url: `https://www.wikidata.org/wiki/${r.qid}`, kind: 'wikidata', accessed: importedOn,
+      },
+      {
+        id: wpSourceId(r.qid), title: r.wikipedia, publisher: 'Wikipedia',
+        url: `https://en.wikipedia.org/wiki/${encodeURIComponent(r.wikipedia.replace(/ /g, '_'))}`,
+        kind: 'wikipedia', accessed: importedOn,
+      },
+    );
+
+    const facts = [];
+    if (r.year) facts.push({ label: verb ?? 'Dates from', value: String(r.year), sourceId: wdSourceId(r.qid), asOf: importedOn });
+    if (r.nrhp) facts.push({ label: 'National Register of Historic Places', value: 'Listed', sourceId: wdSourceId(r.qid), asOf: importedOn });
+
+    const rejected = photoReview.rejected[r.qid];
+    const hasPhoto = r.image && !rejected;
+    if (r.image && hasPhoto) {
+      images.push({
+        id: listingImageId(r.qid),
+        fileUrl: r.image.fileUrl,
+        commonsPageUrl: r.image.commonsPageUrl,
+        alt: r.name,
+        caption: null,
+        author: r.image.author,
+        authorUrl: r.image.authorUrl,
+        license: r.image.license as ImageLicense,
+        licenseUrl: r.image.licenseUrl,
+        width: r.image.width,
+        height: r.image.height,
+        retrieved: importedOn,
+        reviewed: photoReview.reviewed.has(r.qid),
+      });
+    }
+
+    places.push({
+      id: `place-wd-${r.qid}`,
+      slug: uniqueSlug(r),
+      name: r.name,
+      placeTypeId: `type-${r.typeId}`,
+      brandId: null,
+      stateCode: r.state,
+      city: r.city,
+      address: r.address,
+      lat: r.lat,
+      lng: r.lng,
+      coordinatesSourceId: wdSourceId(r.qid),
+      summary: `${article(noun)} ${noun} in ${r.city}, ${stateName}${yearClause}.`,
+      sections: facts.length ? { overview: { facts } } : {},
+      imageIds: hasPhoto ? [listingImageId(r.qid)] : [],
+      officialWebsite: r.website,
+      featured: false,
+      createdAt: importedOn,
+      sourceIds: [wpSourceId(r.qid), wdSourceId(r.qid)],
+      verificationStatus: 'partial',
+      lastVerified: importedOn,
+      profile: 'basic',
+      wikidataId: r.qid,
+      rank: r.sitelinks,
+    });
+  }
+  return { places, images, sources };
+}

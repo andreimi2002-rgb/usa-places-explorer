@@ -1,4 +1,5 @@
 import { SearchX } from 'lucide-react';
+import { useState } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { SearchField } from '../../components/search/SearchField';
 import { EmptyState, PageHeader } from '../../components/ui/layout-primitives';
@@ -13,6 +14,8 @@ const KIND_LABELS: Record<SearchResultKind, string> = {
 };
 const KINDS = Object.keys(KIND_LABELS) as SearchResultKind[];
 
+const PAGE = 30;
+
 const isKind = (v: string | null): v is SearchResultKind => KINDS.includes(v as SearchResultKind);
 
 /** Phase 1 version: query + result-kind filter. Category/state filters arrive in Phase 5. */
@@ -24,6 +27,10 @@ export function SearchPage() {
 
   const allResults = searchAll(query);
   const results = kind ? allResults.filter((r) => r.kind === kind) : allResults;
+  const [limit, setLimit] = useState({ key: '', count: PAGE });
+  const key = `${query}|${kind ?? ''}`;
+  const shownCount = limit.key === key ? limit.count : PAGE;
+  const shown = results.slice(0, shownCount);
 
   function setKind(next: SearchResultKind | null) {
     const p = new URLSearchParams(params);
@@ -87,9 +94,12 @@ export function SearchPage() {
           </EmptyState>
         ) : (
           <>
-            <p className="mb-4 text-small text-ink-muted" aria-live="polite">{pluralize(results.length, 'result')}</p>
+            <p className="mb-4 text-small text-ink-muted" aria-live="polite">
+              {pluralize(results.length, 'result')}
+              {shown.length < results.length && ` · showing the first ${shown.length}`}
+            </p>
             <ul className="divide-y divide-line rounded border border-line bg-paper-white">
-              {results.map((r) => (
+              {shown.map((r) => (
                 <li key={`${r.kind}-${r.id}`} className="p-5">
                   <p className="eyebrow">{r.meta}</p>
                   <Link to={r.href} className="mt-1 block text-h4 font-semibold text-navy-900 hover:underline">{r.title}</Link>
@@ -97,6 +107,17 @@ export function SearchPage() {
                 </li>
               ))}
             </ul>
+            {shown.length < results.length && (
+              <div className="mt-6 flex justify-center">
+                <button
+                  type="button"
+                  onClick={() => setLimit({ key, count: shownCount + PAGE })}
+                  className="rounded border border-navy-700 px-5 py-2.5 text-small font-semibold text-navy-700 hover:bg-navy-700 hover:text-paper-white"
+                >
+                  Show more results
+                </button>
+              </div>
+            )}
           </>
         )}
       </div>

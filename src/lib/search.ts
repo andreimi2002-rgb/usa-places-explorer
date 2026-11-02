@@ -91,5 +91,6 @@ export function searchAll(rawQuery: string, filters: SearchFilters = {}): Search
     .filter((r) => !filters.categoryId || r.categoryId === filters.categoryId)
     // Types and brands are not tied to a state, so a state filter keeps only places.
     .filter((r) => !filters.stateCode || r.stateCode === filters.stateCode)
-    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
+    // Stable sort: equal scores keep types, brands, then places by prominence.
+    .sort((a, b) => b.score - a.score);
 }

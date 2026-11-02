@@ -102,6 +102,11 @@ export interface ImageAsset {
   width: number | null;
   height: number | null;
   retrieved: ISODate;
+  /**
+   * False when nobody has yet checked by eye that the photo shows the place
+   * (imported listings). Absent means checked.
+   */
+  reviewed?: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -245,6 +250,12 @@ export interface Brand extends Verifiable {
 // Places
 // ---------------------------------------------------------------------------
 
+/**
+ * "full": a hand-written profile with type-specific sections.
+ * "basic": an imported listing built from Wikidata, with template text only.
+ */
+export type PlaceProfile = 'full' | 'basic';
+
 export interface Place extends Verifiable {
   id: string;
   slug: string;
@@ -264,6 +275,14 @@ export interface Place extends Verifiable {
   officialWebsite: string | null;
   featured: boolean;
   createdAt: ISODate;
+  /** Defaults to "full". */
+  profile?: PlaceProfile;
+  wikidataId?: string | null;
+  /**
+   * Ordering signal for listings: the number of Wikipedia language editions
+   * that cover the place (from Wikidata). Not shown as a fact.
+   */
+  rank?: number;
 }
 
 // ---------------------------------------------------------------------------
@@ -277,6 +296,8 @@ export interface Collection {
   /** Short editorial intro. */
   intro: string;
   placeIds: string[];
+  /** Optional one-line note per place id: why it belongs here. Our own words. */
+  notes?: Record<string, string>;
   featured: boolean;
   createdAt: ISODate;
 }

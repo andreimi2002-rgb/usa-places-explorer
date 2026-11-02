@@ -5,10 +5,9 @@
 import { brands } from '../src/data/brands';
 import { categories } from '../src/data/categories';
 import { collections } from '../src/data/collections';
-import { images } from '../src/data/images';
-import { places } from '../src/data/places';
-import { placeTypes } from '../src/data/placeTypes';
-import { sources } from '../src/data/sources';
+import {
+  allImages as images, allPlaces as places, allPlaceTypes as placeTypes, allSources as sources,
+} from '../src/data/all';
 import { states } from '../src/data/states';
 import type { SourcedValue } from '../src/types';
 
@@ -107,6 +106,15 @@ export function validate(): string[] {
         if (!f.sourceId || !f.asOf) err(`${o}: fact "${f.label}" has no source or as-of date`);
         else refs(o, [f.sourceId], sourceIds, 'source');
       }
+    }
+  }
+
+  // An imported listing must not duplicate a hand-written profile.
+  const full = places.filter((p) => p.profile !== 'basic' && p.lat !== null && p.lng !== null);
+  for (const l of places.filter((p) => p.profile === 'basic')) {
+    for (const f of full) {
+      const km = Math.hypot((l.lat! - f.lat!) * 111, (l.lng! - f.lng!) * 111 * Math.cos((f.lat! * Math.PI) / 180));
+      if (km < 0.5) err(`listing ${l.id} (${l.name}) is ${km.toFixed(2)} km from full profile ${f.id} (${f.name}); exclude it in the import config`);
     }
   }
 

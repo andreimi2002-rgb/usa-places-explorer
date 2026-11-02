@@ -7,9 +7,11 @@ import { SearchField } from '../../components/search/SearchField';
 import { SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import {
-  getCategoriesWithData, getCollections, getFeaturedBrand, getFeaturedPlaceType,
-  getPlaceTypesByCategory, getRecentlyAdded, getStates,
+  getCategoriesWithData, getCategoryPlaceCount, getCollections, getFeaturedBrand, getFeaturedPlaceType,
+  getFullProfiles, getPlaces, getPlaceTypesByCategory, getRecentlyAdded, getSiteCounts, getStates,
+  isBasicListing,
 } from '../../lib/data-access';
+import { formatNumber } from '../../lib/format';
 
 const layers = [
   {
@@ -29,7 +31,7 @@ const layers = [
   {
     icon: MapPin,
     title: 'Places',
-    text: 'Individual locations, documented with verified details, credited photography and the sources behind every fact.',
+    text: 'Individual locations: in-depth profiles written for the atlas, plus basic listings built from Wikidata. Every fact links to its source.',
     to: '/states',
     cta: 'Browse by state',
   },
@@ -41,7 +43,15 @@ export function HomePage() {
   const categories = getCategoriesWithData();
   const states = getStates();
   const collections = getCollections();
-  const recent = getRecentlyAdded(6);
+  const counts = getSiteCounts();
+  const profiles = getRecentlyAdded(6, getFullProfiles());
+  const newListings = getRecentlyAdded(6, getPlaces().filter(isBasicListing));
+  const stats = [
+    { label: 'Places', value: counts.places },
+    { label: 'In-depth profiles', value: counts.fullProfiles },
+    { label: 'Place types', value: counts.placeTypes },
+    { label: 'Categories', value: counts.categories },
+  ];
 
   return (
     <>
@@ -66,7 +76,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="hidden border-l border-line pl-8 lg:block">
-            <p className="eyebrow">Version 1 coverage</p>
+            <p className="eyebrow">Coverage so far</p>
             <ul className="mt-3 space-y-1">
               {states.map((s) => (
                 <li key={s.code}>
@@ -78,6 +88,19 @@ export function HomePage() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* The atlas in numbers, computed from the data */}
+      <section aria-labelledby="numbers-title" className="container-page pt-section">
+        <h2 id="numbers-title" className="sr-only">The atlas in numbers</h2>
+        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded border border-line bg-line md:grid-cols-4">
+          {stats.map((st) => (
+            <div key={st.label} className="bg-paper-white p-5">
+              <dt className="text-caption font-semibold uppercase tracking-wider text-ink-muted">{st.label}</dt>
+              <dd className="mt-1 text-h2 font-semibold text-navy-900 md:text-h1">{formatNumber(st.value)}</dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
       {/* Three layers */}
@@ -107,13 +130,26 @@ export function HomePage() {
         </section>
       )}
 
+      {collections.length > 0 && (
+        <section aria-labelledby="collections-title" className="container-page pb-section">
+          <SectionHeading id="collections-title" eyebrow="Collections" title="Curated collections" action={{ label: 'All collections', to: '/collections' }} />
+          <ul className="grid gap-4 md:grid-cols-3">
+            {collections.slice(0, 6).map((c) => (
+              <li key={c.id}>
+                <CollectionCard collection={c} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {categories.length > 0 && (
         <section aria-labelledby="categories-title" className="container-page pb-section">
           <SectionHeading id="categories-title" eyebrow="Categories" title="Explore by category" />
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((c) => (
               <li key={c.id}>
-                <CategoryCard category={c} typeCount={getPlaceTypesByCategory(c.id).length} />
+                <CategoryCard category={c} typeCount={getPlaceTypesByCategory(c.id).length} placeCount={getCategoryPlaceCount(c.id)} />
               </li>
             ))}
           </ul>
@@ -131,24 +167,24 @@ export function HomePage() {
         </ul>
       </section>
 
-      {collections.length > 0 && (
-        <section aria-labelledby="collections-title" className="container-page pb-section">
-          <SectionHeading id="collections-title" eyebrow="Collections" title="Curated collections" action={{ label: 'All collections', to: '/collections' }} />
-          <ul className="grid gap-4 md:grid-cols-3">
-            {collections.slice(0, 3).map((c) => (
-              <li key={c.id}>
-                <CollectionCard collection={c} />
+      {profiles.length > 0 && (
+        <section aria-labelledby="profiles-title" className="container-page pb-section">
+          <SectionHeading id="profiles-title" eyebrow="Read in depth" title="In-depth profiles" />
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {profiles.map((p) => (
+              <li key={p.id}>
+                <PlaceCard place={p} />
               </li>
             ))}
           </ul>
         </section>
       )}
 
-      {recent.length > 0 && (
+      {newListings.length > 0 && (
         <section aria-labelledby="recent-title" className="container-page pb-section">
-          <SectionHeading id="recent-title" eyebrow="New in the atlas" title="Recently added" />
+          <SectionHeading id="recent-title" eyebrow="New in the atlas" title="Recently added listings" action={{ label: 'Browse by state', to: '/states' }} />
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {recent.map((p) => (
+            {newListings.map((p) => (
               <li key={p.id}>
                 <PlaceCard place={p} />
               </li>

@@ -8,7 +8,8 @@
     "build": "npm run validate && tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
     "validate": "node scripts/run-validate.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "import:wikidata": "node scripts/import/wikidata-listings.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

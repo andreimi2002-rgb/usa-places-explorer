@@ -109,12 +109,18 @@ export function validate(): string[] {
     }
   }
 
-  // An imported listing must not duplicate a hand-written profile.
+  // An imported listing must not duplicate a hand-written profile: same spot,
+  // or close by with one name contained in the other.
+  const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\b(the|resort|park)\b/g, '').trim();
   const full = places.filter((p) => p.profile !== 'basic' && p.lat !== null && p.lng !== null);
   for (const l of places.filter((p) => p.profile === 'basic')) {
     for (const f of full) {
       const km = Math.hypot((l.lat! - f.lat!) * 111, (l.lng! - f.lng!) * 111 * Math.cos((f.lat! * Math.PI) / 180));
-      if (km < 0.5) err(`listing ${l.id} (${l.name}) is ${km.toFixed(2)} km from full profile ${f.id} (${f.name}); exclude it in the import config`);
+      const [a, b] = [norm(l.name), norm(f.name)];
+      const sameName = a.length > 2 && b.length > 2 && (a.includes(b) || b.includes(a));
+      if (km < 0.03 || (km < 0.5 && sameName)) {
+        err(`listing ${l.id} (${l.name}) looks like a duplicate of full profile ${f.id} (${f.name}), ${km.toFixed(2)} km apart; exclude it in the import config`);
+      }
     }
   }
 

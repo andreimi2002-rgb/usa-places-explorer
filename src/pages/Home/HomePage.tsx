@@ -1,13 +1,13 @@
 import { Building2, Layers, MapPin } from 'lucide-react';
 import { Link } from 'react-router';
 import {
-  BrandCard, CategoryCard, CollectionCard, PlaceCard, PlaceTypeCard, StateCard,
+  BrandCard, CategoryCard, CityCard, CollectionCard, PlaceCard, PlaceTypeCard, StateCard,
 } from '../../components/cards/cards';
 import { SearchField } from '../../components/search/SearchField';
 import { SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import {
-  getCategoriesWithData, getCategoryPlaceCount, getCollections, getFeaturedBrand, getFeaturedPlaceType,
+  getCategoriesWithData, getCategoryPlaceCount, getCities, getCollections, getFeaturedBrand, getFeaturedPlaceType,
   getFullProfiles, getPlaces, getPlaceTypesByCategory, getRecentlyAdded, getSiteCounts, getStates,
   isBasicListing,
 } from '../../lib/data-access';
@@ -44,6 +44,7 @@ export function HomePage() {
   const states = getStates();
   const collections = getCollections();
   const counts = getSiteCounts();
+  const cities = getCities();
   const profiles = getRecentlyAdded(6, getFullProfiles());
   const newListings = getRecentlyAdded(6, getPlaces().filter(isBasicListing));
   const stats = [
@@ -139,6 +140,15 @@ export function HomePage() {
                 <CollectionCard collection={c} />
               </li>
             ))}
+          </ul>
+        </section>
+      )}
+
+      {cities.length > 0 && (
+        <section aria-labelledby="cities-title" className="container-page pb-section">
+          <SectionHeading id="cities-title" eyebrow="In depth" title="Cities in depth" action={{ label: 'All cities', to: '/cities' }} />
+          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {cities.map((c) => <li key={c.id}><CityCard city={c} /></li>)}
           </ul>
         </section>
       )}

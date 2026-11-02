@@ -57,3 +57,46 @@ export const EXCLUDED = {
   Q4966209: 'Bridge Canyon Dam: proposed, never built',
   Q815352: 'California State University: a university system, not a single campus',
 };
+
+/**
+ * Regions imported in depth: every notable place, with no cap per type.
+ * "Notable" = has an English Wikipedia article, and either is a visitor-facing
+ * type (`visitorTypes`) or is covered by at least `minSitelinks` Wikipedia
+ * language editions. This keeps out residential districts, minor stations
+ * and similar entries that only matter locally.
+ */
+export const REGIONS = [
+  {
+    id: 'orlando',
+    state: 'FL',
+    // Orlando–Kissimmee–Sanford metro area: Lake, Orange, Osceola, Seminole counties.
+    countyFips: ['12069', '12095', '12097', '12117'],
+    box: [27.6, 29.3, -82.05, -80.85],
+    minSitelinks: 2,
+    visitorTypes: [
+      'theme-park', 'water-park', 'amusement-park', 'landmark-hotel', 'landmark-restaurant', 'sports-venue',
+      'performing-arts-venue', 'convention-center', 'museum', 'art-museum', 'regional-mall', 'city-park',
+      'garden-aquarium', 'zoo', 'state-park', 'national-park', 'national-monument', 'wildlife-refuge',
+    ],
+  },
+];
+
+/**
+ * Extra classes for in-depth regions, on top of GROUPS (which run uncapped
+ * there). `first: true` groups are matched before GROUPS, so a theme park is
+ * not filed as a generic amusement park, nor a resort hotel as a convention center.
+ */
+export const REGION_GROUPS = [
+  { typeId: 'theme-park', classes: ['Q2416723'], first: true },
+  { typeId: 'water-park', classes: ['Q740326'], first: true },
+  { typeId: 'landmark-hotel', classes: ['Q27686', 'Q875157'], first: true },
+  { typeId: 'garden-aquarium', classes: ['Q2281788', 'Q167346'], first: true },
+  { typeId: 'lake', classes: ['Q23397'] },
+  { typeId: 'city-park', classes: ['Q22746', 'Q22698'] },
+  { typeId: 'neighborhood', classes: ['Q123705', 'Q15243209'] },
+  { typeId: 'convention-center', classes: ['Q1378975'] },
+  { typeId: 'train-station', classes: ['Q55488', 'Q22808404'] },
+  { typeId: 'sports-venue', classes: ['Q641226', 'Q595452', 'Q1076486'] },
+  { typeId: 'performing-arts-venue', classes: ['Q3469910', 'Q1060829', 'Q57660343'] },
+  { typeId: 'university', classes: ['Q189004'] },
+];

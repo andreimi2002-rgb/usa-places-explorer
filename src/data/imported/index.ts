@@ -6,7 +6,9 @@
  * paraphrased from articles, so no listing claims more than its sources say.
  */
 import type { ImageAsset, ImageLicense, Place, Source } from '../../types';
-import data from './listings.json';
+import statewide from './listings.json';
+import orlando from './region-orlando.json';
+import osmOrlando from './osm-brands-orlando.json';
 import { photoReview } from './photo-review';
 
 interface ListingRecord {
@@ -23,6 +25,7 @@ interface ListingRecord {
   website: string | null;
   address: string | null;
   nrhp: boolean;
+  region?: string;
   image: {
     fileUrl: string;
     commonsPageUrl: string;
@@ -35,7 +38,25 @@ interface ListingRecord {
   } | null;
 }
 
-const { importedOn, records } = data as { importedOn: string; records: ListingRecord[] };
+type ListingFile = { importedOn: string; records: ListingRecord[] };
+
+interface OsmBrandRecord {
+  osm: string;
+  brandId: string;
+  typeId: string;
+  name: string;
+  state: string;
+  city: string;
+  lat: number;
+  lng: number;
+  address: string | null;
+  website: string | null;
+}
+type OsmFile = { importedOn: string; records: OsmBrandRecord[] };
+
+/** Statewide listings plus in-depth regions (Greater Orlando). */
+const files = [statewide, orlando] as ListingFile[];
+const records = files.flatMap((f) => f.records.map((r) => ({ ...r, importedOn: f.importedOn })));
 
 const STATE_NAMES: Record<string, string> = { FL: 'Florida', TX: 'Texas', AZ: 'Arizona', CA: 'California' };
 
@@ -101,18 +122,18 @@ export function buildListings(takenSlugs: Set<string>) {
     sources.push(
       {
         id: wdSourceId(r.qid), title: `${r.name} (${r.qid})`, publisher: 'Wikidata',
-        url: `https://www.wikidata.org/wiki/${r.qid}`, kind: 'wikidata', accessed: importedOn,
+        url: `https://www.wikidata.org/wiki/${r.qid}`, kind: 'wikidata', accessed: r.importedOn,
       },
       {
         id: wpSourceId(r.qid), title: r.wikipedia, publisher: 'Wikipedia',
         url: `https://en.wikipedia.org/wiki/${encodeURIComponent(r.wikipedia.replace(/ /g, '_'))}`,
-        kind: 'wikipedia', accessed: importedOn,
+        kind: 'wikipedia', accessed: r.importedOn,
       },
     );
 
     const facts = [];
-    if (r.year) facts.push({ label: verb ?? 'Dates from', value: String(r.year), sourceId: wdSourceId(r.qid), asOf: importedOn });
-    if (r.nrhp) facts.push({ label: 'National Register of Historic Places', value: 'Listed', sourceId: wdSourceId(r.qid), asOf: importedOn });
+    if (r.year) facts.push({ label: verb ?? 'Dates from', value: String(r.year), sourceId: wdSourceId(r.qid), asOf: r.importedOn });
+    if (r.nrhp) facts.push({ label: 'National Register of Historic Places', value: 'Listed', sourceId: wdSourceId(r.qid), asOf: r.importedOn });
 
     const rejected = photoReview.rejected[r.qid];
     const hasPhoto = r.image && !rejected;
@@ -129,7 +150,7 @@ export function buildListings(takenSlugs: Set<string>) {
         licenseUrl: r.image.licenseUrl,
         width: r.image.width,
         height: r.image.height,
-        retrieved: importedOn,
+        retrieved: r.importedOn,
         reviewed: photoReview.reviewed.has(r.qid),
       });
     }
@@ -151,14 +172,63 @@ export function buildListings(takenSlugs: Set<string>) {
       imageIds: hasPhoto ? [listingImageId(r.qid)] : [],
       officialWebsite: r.website,
       featured: false,
-      createdAt: importedOn,
+      createdAt: r.importedOn,
       sourceIds: [wpSourceId(r.qid), wdSourceId(r.qid)],
       verificationStatus: 'partial',
-      lastVerified: importedOn,
+      lastVerified: r.importedOn,
       profile: 'basic',
       wikidataId: r.qid,
       rank: r.sitelinks,
     });
   }
+
+  // Brand locations from OpenStreetMap (city areas only).
+  const BRAND_NOUNS: Record<string, [string, string]> = {
+    'warehouse-club': ['Costco', 'warehouse club'],
+    'outdoor-superstore': ['Bass Pro Shops', 'outdoor superstore'],
+    'travel-center': ['', 'travel center'],
+  };
+  for (const file of [osmOrlando] as OsmFile[]) {
+    for (const r of file.records) {
+      const sourceId = `src-osm-${r.osm.replace('/', '-')}`;
+      sources.push({
+        id: sourceId, title: `${r.name} (${r.osm})`, publisher: 'OpenStreetMap',
+        url: `https://www.openstreetmap.org/${r.osm}`, kind: 'openstreetmap', accessed: file.importedOn,
+      });
+      const noun = BRAND_NOUNS[r.typeId]?.[1] ?? 'location';
+      const brandName = r.name.split(' ').slice(0, r.typeId === 'outdoor-superstore' ? 3 : 1).join(' ');
+      const stateName = STATE_NAMES[r.state] ?? r.state;
+      const base = slugify(r.name);
+      let slug = base;
+      for (let i = 2; slugs.has(slug); i++) slug = `${base}-${i}`;
+      slugs.add(slug);
+      places.push({
+        id: `place-osm-${r.osm.replace('/', '-')}`,
+        slug,
+        name: r.name,
+        placeTypeId: `type-${r.typeId}`,
+        brandId: r.brandId,
+        stateCode: r.state,
+        city: r.city,
+        address: r.address,
+        lat: r.lat,
+        lng: r.lng,
+        coordinatesSourceId: sourceId,
+        summary: `${article(brandName)} ${brandName} ${noun} in ${r.city}, ${stateName}.`,
+        sections: {},
+        imageIds: [],
+        officialWebsite: r.website,
+        featured: false,
+        createdAt: file.importedOn,
+        sourceIds: [sourceId],
+        verificationStatus: 'partial',
+        lastVerified: file.importedOn,
+        profile: 'basic',
+        wikidataId: null,
+        rank: 0,
+      });
+    }
+  }
+
   return { places, images, sources };
 }

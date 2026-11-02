@@ -5,7 +5,7 @@ import { mainNavItems } from '../navigation/nav-items';
 import { SearchField } from '../search/SearchField';
 
 const desktopLink = ({ isActive }: { isActive: boolean }) =>
-  `relative px-3 py-2 text-small font-medium transition-colors ${
+  `relative whitespace-nowrap px-3 py-2 text-small font-medium transition-colors ${
     isActive
       ? 'text-paper-white after:absolute after:inset-x-3 after:-bottom-px after:h-0.5 after:bg-gold'
       : 'text-navy-100 hover:text-paper-white'
@@ -43,7 +43,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="Main" className="ml-auto hidden lg:block">
+        <nav aria-label="Main" className="ml-auto hidden xl:block">
           <ul className="flex items-center">
             {mainNavItems.map((item) => (
               <li key={item.to}>
@@ -55,13 +55,13 @@ export function SiteHeader() {
           </ul>
         </nav>
 
-        <div className="ml-auto hidden w-64 md:block lg:ml-2 xl:w-72">
+        <div className="ml-auto hidden w-64 md:block xl:ml-2 xl:w-72">
           <SearchField key={location.search} />
         </div>
 
         <button
           type="button"
-          className="-mr-2 ml-auto inline-flex h-10 w-10 items-center justify-center rounded text-paper-white hover:bg-navy-700 md:ml-0 lg:hidden"
+          className="-mr-2 ml-auto inline-flex h-10 w-10 items-center justify-center rounded text-paper-white hover:bg-navy-700 md:ml-0 xl:hidden"
           aria-expanded={open}
           aria-controls="mobile-menu"
           onClick={() => setOpen((v) => !v)}
@@ -72,7 +72,7 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <div id="mobile-menu" className="border-t border-line-dark bg-navy-900 lg:hidden">
+        <div id="mobile-menu" className="border-t border-line-dark bg-navy-900 xl:hidden">
           <div className="container-page pb-6 pt-4">
             <div className="md:hidden">
               <SearchField onSubmitted={() => setOpen(false)} />

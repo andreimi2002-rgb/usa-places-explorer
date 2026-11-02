@@ -10,6 +10,7 @@ export const mainNavItems: NavItem[] = [
   { label: 'Place Types', to: '/types' },
   { label: 'Brands', to: '/brands' },
   { label: 'States', to: '/states' },
+  { label: 'Cities', to: '/cities' },
   { label: 'Collections', to: '/collections' },
   { label: 'Map', to: '/map' },
   { label: 'About', to: '/about' },

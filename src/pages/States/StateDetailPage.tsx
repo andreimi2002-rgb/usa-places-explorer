@@ -1,12 +1,12 @@
 import { MapPin } from 'lucide-react';
 import { Link, useParams } from 'react-router';
-import { BrandCard, CollectionCard } from '../../components/cards/cards';
+import { BrandCard, CityCard, CollectionCard } from '../../components/cards/cards';
 import { PlaceBrowser } from '../../components/places/PlaceBrowser';
 import { Breadcrumbs, EmptyState, PageHeader, SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { categoryIcons } from '../../components/ui/icons';
 import {
-  getBrandsInState, getCategoryBreakdown, getCollectionPlaces, getCollections, getPlacesByState,
+  getBrandsInState, getCategoryBreakdown, getCitiesByState, getCollectionPlaces, getCollections, getPlacesByState,
   getStateBySlug, isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber, pluralize } from '../../lib/format';
@@ -20,6 +20,7 @@ export function StateDetailPage() {
   const places = getPlacesByState(state.code);
   const breakdown = getCategoryBreakdown(places);
   const brands = getBrandsInState(state.code);
+  const cities = getCitiesByState(state.code);
   const collections = getCollections().filter((c) => getCollectionPlaces(c).some((p) => p.stateCode === state.code));
   const fullCount = places.filter((p) => !isBasicListing(p)).length;
   const typeCount = new Set(places.map((p) => p.placeTypeId)).size;
@@ -90,9 +91,18 @@ export function StateDetailPage() {
             </ul>
           </section>
 
+          {cities.length > 0 && (
+            <section aria-labelledby="cities-title" className="container-page pt-section">
+              <SectionHeading id="cities-title" eyebrow="In depth" title={`Cities covered in depth in ${state.name}`} />
+              <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {cities.map((c) => <li key={c.id}><CityCard city={c} /></li>)}
+              </ul>
+            </section>
+          )}
+
           <section aria-labelledby="places-title" className="container-page py-section">
             <SectionHeading id="places-title" eyebrow="Browse" title={`All places in ${state.name}`} />
-            <PlaceBrowser places={places} filters={['category', 'type']} />
+            <PlaceBrowser places={places} filters={['area', 'city', 'category', 'type']} />
           </section>
 
           {brands.length > 0 && (

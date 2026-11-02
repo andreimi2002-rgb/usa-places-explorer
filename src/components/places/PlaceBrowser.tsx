@@ -2,14 +2,14 @@ import { MapPin } from 'lucide-react';
 import { useId, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router';
 import {
-  getCategoryById, getPlaceTypeById, getStateByCode, isBasicListing,
+  getCategoryById, getCityForPlace, getLocality, getPlaceTypeById, getStateByCode, isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber, pluralize } from '../../lib/format';
 import type { Place } from '../../types';
 import { PlaceCard } from '../cards/cards';
 import { EmptyState } from '../ui/layout-primitives';
 
-export type PlaceFilter = 'state' | 'category' | 'type';
+export type PlaceFilter = 'state' | 'area' | 'city' | 'category' | 'type';
 
 interface Option {
   value: string;
@@ -31,7 +31,17 @@ function optionsFor(places: Place[], key: (p: Place) => { value: string; label: 
   return [...map.values()].sort((a, b) => a.label.localeCompare(b.label));
 }
 
+const slug = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
 const keys: Record<PlaceFilter, (p: Place) => { value: string; label: string } | null> = {
+  area: (p) => {
+    const c = getCityForPlace(p);
+    return c ? { value: c.slug, label: c.areaName } : null;
+  },
+  city: (p) => {
+    const name = getLocality(p);
+    return { value: slug(`${name} ${p.stateCode}`), label: `${name}, ${p.stateCode}` };
+  },
   state: (p) => {
     const s = getStateByCode(p.stateCode);
     return s ? { value: s.code.toLowerCase(), label: s.name } : null;
@@ -47,8 +57,12 @@ const keys: Record<PlaceFilter, (p: Place) => { value: string; label: string } |
   },
 };
 
-const filterLabels: Record<PlaceFilter, string> = { state: 'State', category: 'Category', type: 'Place type' };
-const allLabels: Record<PlaceFilter, string> = { state: 'All states', category: 'All categories', type: 'All types' };
+const filterLabels: Record<PlaceFilter, string> = {
+  state: 'State', area: 'City area', city: 'City or town', category: 'Category', type: 'Place type',
+};
+const allLabels: Record<PlaceFilter, string> = {
+  state: 'All states', area: 'All areas', city: 'All cities and towns', category: 'All categories', type: 'All types',
+};
 
 /**
  * A filterable, paged grid of places. Filters live in the URL
@@ -97,7 +111,7 @@ export function PlaceBrowser({
     <div>
       <div className="flex flex-col gap-4 rounded border border-line bg-paper-white p-4 md:flex-row md:flex-wrap md:items-end">
         {filters.map((f) =>
-          options[f].length > 1 ? (
+          options[f].length > 1 || active[f] !== ALL ? (
             <div key={f} className="flex min-w-0 flex-col gap-1 md:w-56">
               <label htmlFor={`${baseId}-${f}`} className="text-caption font-semibold uppercase tracking-wider text-ink-muted">
                 {filterLabels[f]}

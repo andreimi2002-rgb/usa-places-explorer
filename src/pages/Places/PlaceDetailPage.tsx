@@ -11,7 +11,7 @@ import { VerificationBadge } from '../../components/ui/VerificationBadge';
 import { placeSectionDefinitions } from '../../config/place-sections';
 import {
   getBrandById, getCategoryForPlace, getImages, getNearbyPlaces, getPlaceBySlug, getPlaceTypeById,
-  getSource, getSources, getStateByCode, isBasicListing,
+  getCityForPlace, getPlaceGeo, getSource, getSources, getStateByCode, isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber } from '../../lib/format';
 import { NotFoundPage } from '../NotFound/NotFoundPage';
@@ -44,6 +44,8 @@ export function PlaceDetailPage() {
   const brand = place.brandId ? getBrandById(place.brandId) : undefined;
   const state = getStateByCode(place.stateCode);
   const category = getCategoryForPlace(place);
+  const cityArea = getCityForPlace(place);
+  const geo = getPlaceGeo(place);
   const [heroImage, ...moreImages] = getImages(place.imageIds);
   const sources = getSources(place.sourceIds);
   const coordSource = place.coordinatesSourceId ? getSource(place.coordinatesSourceId) : undefined;
@@ -66,6 +68,7 @@ export function PlaceDetailPage() {
           <Breadcrumbs
             items={[
               ...(state ? [{ label: state.name, to: `/states/${state.slug}` }] : []),
+              ...(cityArea ? [{ label: cityArea.areaName, to: `/cities/${cityArea.slug}` }] : []),
               ...(type ? [{ label: type.pluralName, to: `/types/${type.slug}` }] : []),
               { label: place.name },
             ]}
@@ -82,17 +85,29 @@ export function PlaceDetailPage() {
           >
             <Database aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-navy-700" />
             <p>
-              <strong className="font-semibold text-ink">Basic listing.</strong> Name, location, dates and
-              website come from{' '}
+              <strong className="font-semibold text-ink">Basic listing.</strong>{' '}
               {place.wikidataId ? (
-                <a href={`https://www.wikidata.org/wiki/${place.wikidataId}`} target="_blank" rel="noopener noreferrer" className="link">
-                  Wikidata<span className="sr-only"> (opens in a new tab)</span>
-                </a>
+                <>
+                  Name, location, dates and website come from{' '}
+                  <a href={`https://www.wikidata.org/wiki/${place.wikidataId}`} target="_blank" rel="noopener noreferrer" className="link">
+                    Wikidata<span className="sr-only"> (opens in a new tab)</span>
+                  </a>
+                  , and the summary is generated from them. An in-depth profile has not been written yet; the
+                  Wikipedia article in the sources has the full story.
+                </>
               ) : (
-                'Wikidata'
+                <>
+                  Name, address and location come from{' '}
+                  {coordSource ? (
+                    <a href={coordSource.url} target="_blank" rel="noopener noreferrer" className="link">
+                      OpenStreetMap<span className="sr-only"> (opens in a new tab)</span>
+                    </a>
+                  ) : (
+                    'OpenStreetMap'
+                  )}
+                  , and the summary is generated from them. Check the brand's official store page before you visit.
+                </>
               )}
-              , and the summary is generated from them. An in-depth profile has not been written yet; the
-              Wikipedia article in the sources has the full story.
             </p>
           </aside>
         </div>
@@ -164,6 +179,14 @@ export function PlaceDetailPage() {
                   </>
                 )}
               </QuickFact>
+              {(geo?.county || cityArea) && (
+                <QuickFact label="County and area">
+                  {geo?.county && <span className="block">{geo.county}</span>}
+                  {cityArea && (
+                    <Link to={`/cities/${cityArea.slug}`} className="text-navy-700 hover:underline">{cityArea.areaName}</Link>
+                  )}
+                </QuickFact>
+              )}
               <QuickFact label="Address">{place.address ?? <NotVerified />}</QuickFact>
               <QuickFact label="Coordinates">
                 {hasCoords ? (

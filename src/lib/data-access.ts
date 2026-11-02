@@ -6,19 +6,21 @@ import { brands } from '../data/brands';
 import { categories } from '../data/categories';
 import { collections } from '../data/collections';
 import {
-  allImages as images, allPlaces as places, allPlaceTypes as placeTypes, allSources as sources,
+  allImages as images, allPlaces as places, allPlaceTypes as placeTypes, allSources as sources, placeGeo,
 } from '../data/all';
+import { cities } from '../data/cities';
 import { states } from '../data/states';
 import type {
-  Brand, Category, Collection, ImageAsset, Place, PlaceType, Source, State,
+  Brand, Category, City, Collection, ImageAsset, Place, PlaceGeo, PlaceType, Source, State,
 } from '../types';
 import { MIN_COLLECTION_SIZE } from '../types';
 
 const byName = <T extends { name: string }>(a: T, b: T) => a.name.localeCompare(b.name);
 
-/** Full profiles first, then listings by notability, then name. */
+/** Full profiles first (featured ones leading), then listings by notability, then name. */
 const byProminence = (a: Place, b: Place) =>
   Number(a.profile === 'basic') - Number(b.profile === 'basic') ||
+  Number(b.featured) - Number(a.featured) ||
   (b.rank ?? 0) - (a.rank ?? 0) ||
   a.name.localeCompare(b.name);
 const sortedPlaces = [...places].sort(byProminence);
@@ -200,6 +202,50 @@ export function getNearbyPlaces(place: Place, limit = 4, maxMiles = 250): Nearby
 }
 
 // ---------------------------------------------------------------------------
+// Cities and localities
+// ---------------------------------------------------------------------------
+
+export const getPlaceGeo = (place: Place): PlaceGeo | undefined => placeGeo[place.id];
+
+/** Official locality (city, town or CDP), else county, else the record's city. */
+export function getLocality(place: Place): string {
+  const g = placeGeo[place.id];
+  return g?.locality ?? g?.county ?? place.city;
+}
+
+export const getCities = (): City[] => [...cities].sort(byName);
+export const getCityBySlug = (slug: string) => cities.find((c) => c.slug === slug);
+
+/** The city area a place belongs to, by the county its coordinates fall in. */
+export function getCityForPlace(place: Place): City | undefined {
+  const fips = placeGeo[place.id]?.countyFips;
+  return fips ? cities.find((c) => c.stateCode === place.stateCode && c.countyFips.includes(fips)) : undefined;
+}
+
+export const getPlacesByCity = (city: City): Place[] =>
+  sortedPlaces.filter((p) => getCityForPlace(p)?.id === city.id);
+
+export const getCitiesByState = (stateCode: string): City[] =>
+  getCities().filter((c) => c.stateCode === stateCode);
+
+export interface LocalityCount {
+  name: string;
+  count: number;
+}
+
+/** Localities in a list of places, largest first. */
+export function getLocalityBreakdown(list: Place[]): LocalityCount[] {
+  const counts = new Map<string, number>();
+  for (const p of list) {
+    const name = getLocality(p);
+    counts.set(name, (counts.get(name) ?? 0) + 1);
+  }
+  return [...counts]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+}
+
+// ---------------------------------------------------------------------------
 // Collections
 // ---------------------------------------------------------------------------
 
@@ -234,6 +280,7 @@ export const getSiteCounts = () => ({
   fullProfiles: places.filter((p) => !isBasicListing(p)).length,
   listings: places.filter(isBasicListing).length,
   states: getStates().length,
+  cities: cities.length,
   categories: getCategoriesWithData().length,
   collections: getCollections().length,
 });

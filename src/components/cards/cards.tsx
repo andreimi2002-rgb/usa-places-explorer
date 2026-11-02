@@ -2,10 +2,10 @@ import { ArrowRight, BookOpen, MapPin } from 'lucide-react';
 import { Link } from 'react-router';
 import {
   getCategoryById, getCollectionPlaces, getImage, getPlaceTypeById, getStateByCode,
-  getStateRecordCounts, isBasicListing,
+  getLocalityBreakdown, getPlacesByCity, getStateRecordCounts, isBasicListing,
 } from '../../lib/data-access';
 import { pluralize } from '../../lib/format';
-import type { Brand, Category, Collection, Place, PlaceType, State } from '../../types';
+import type { Brand, Category, City, Collection, Place, PlaceType, State } from '../../types';
 import { AtlasImage, ImageAttribution } from '../ui/AtlasImage';
 import { categoryIcons } from '../ui/icons';
 
@@ -121,6 +121,28 @@ export function PlaceCard({ place }: { place: Place }) {
             </span>
           </p>
         )}
+      </div>
+    </article>
+  );
+}
+
+export function CityCard({ city }: { city: City }) {
+  const image = city.heroImageId ? getImage(city.heroImageId) : undefined;
+  const places = getPlacesByCity(city);
+  const towns = getLocalityBreakdown(places).length;
+  const state = getStateByCode(city.stateCode);
+  return (
+    <article className={cardBase}>
+      <AtlasImage image={image} aspect="aspect-[3/2]" showAttribution={false} showCaption={false} />
+      {image && <ImageAttribution image={image} className="px-5 pt-2" />}
+      <div className="flex flex-1 flex-col p-5">
+        <p className="eyebrow">City area · {state?.name ?? city.stateCode}</p>
+        <h3 className="mt-1 text-h3">
+          <Link to={`/cities/${city.slug}`} className={`${stretchedLink} group-hover:underline`}>{city.areaName}</Link>
+        </h3>
+        <p className="mt-2 text-small text-ink-muted">
+          {pluralize(places.length, 'place')} · {pluralize(towns, 'city or town', 'cities and towns')}
+        </p>
       </div>
     </article>
   );

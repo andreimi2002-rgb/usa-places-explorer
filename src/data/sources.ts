@@ -64,6 +64,32 @@ export const sources: Source[] = [
     ['src-wiki-visitor-center', 'Visitor center', 'Visitor_center'],
   ].map(([id, title, path]) => wikipedia(id!, title!, path!)),
 
+  // --- Phase 4: concepts behind the imported listing types ------------------
+  ...[
+    ['src-wiki-national-monument', 'National monument (United States)', 'National_monument_(United_States)'],
+    ['src-wiki-state-park', 'State park', 'State_park'],
+    ['src-wiki-nwr', 'National Wildlife Refuge', 'National_Wildlife_Refuge'],
+    ['src-wiki-zoo', 'Zoo', 'Zoo'],
+    ['src-wiki-spring', 'Spring (hydrology)', 'Spring_(hydrology)'],
+    ['src-wiki-cave', 'Cave', 'Cave'],
+    ['src-wiki-museum', 'Museum', 'Museum'],
+    ['src-wiki-art-museum', 'Art museum', 'Art_museum'],
+    ['src-wiki-ca-missions', 'Spanish missions in California', 'Spanish_missions_in_California'],
+    ['src-wiki-fortification', 'Fortification', 'Fortification'],
+    ['src-wiki-ghost-town', 'Ghost town', 'Ghost_town'],
+    ['src-wiki-lighthouse', 'Lighthouse', 'Lighthouse'],
+    ['src-wiki-hotel', 'Hotel', 'Hotel'],
+    ['src-wiki-restaurant', 'Restaurant', 'Restaurant'],
+    ['src-wiki-amusement-park', 'Amusement park', 'Amusement_park'],
+    ['src-wiki-pier', 'Pier', 'Pier'],
+    ['src-wiki-pac', 'Performing arts center', 'Performing_arts_center'],
+    ['src-wiki-dam', 'Dam', 'Dam'],
+    ['src-wiki-winery', 'Winery', 'Winery'],
+    ['src-wiki-california-wine', 'California wine', 'California_wine'],
+    ['src-wiki-ranch', 'Ranch', 'Ranch'],
+    ['src-wiki-university', 'University', 'University'],
+  ].map(([id, title, path]) => ({ ...wikipedia(id!, title!, path!), accessed: '2026-11-02' })),
+
   // --- Places: Wikipedia articles ------------------------------------------
   ...[
     ['src-wiki-universal-orlando', 'Universal Orlando', 'Universal_Orlando'],

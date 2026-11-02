@@ -1,8 +1,8 @@
-import { ArrowRight, MapPin } from 'lucide-react';
+import { ArrowRight, BookOpen, MapPin } from 'lucide-react';
 import { Link } from 'react-router';
 import {
   getCategoryById, getCollectionPlaces, getImage, getPlaceTypeById, getStateByCode,
-  getStateRecordCounts,
+  getStateRecordCounts, isBasicListing,
 } from '../../lib/data-access';
 import { pluralize } from '../../lib/format';
 import type { Brand, Category, Collection, Place, PlaceType, State } from '../../types';
@@ -37,7 +37,9 @@ export function StateCard({ state }: { state: State }) {
   );
 }
 
-export function CategoryCard({ category, typeCount }: { category: Category; typeCount: number }) {
+export function CategoryCard({
+  category, typeCount, placeCount,
+}: { category: Category; typeCount: number; placeCount?: number }) {
   const Icon = categoryIcons[category.icon];
   return (
     <article className={`${cardBase} flex-row items-start gap-4 p-5`}>
@@ -50,7 +52,9 @@ export function CategoryCard({ category, typeCount }: { category: Category; type
             {category.name}
           </Link>
         </h3>
-        <p className="mt-1 text-small text-ink-muted">{pluralize(typeCount, 'place type')}</p>
+        <p className="mt-1 text-small text-ink-muted">
+          {[placeCount !== undefined ? pluralize(placeCount, 'place') : null, pluralize(typeCount, 'place type')].filter(Boolean).join(' · ')}
+        </p>
       </div>
     </article>
   );
@@ -105,10 +109,18 @@ export function PlaceCard({ place }: { place: Place }) {
         <h3 className="mt-1 text-h4">
           <Link to={`/places/${place.slug}`} className={`${stretchedLink} group-hover:underline`}>{place.name}</Link>
         </h3>
-        <p className="mt-2 flex items-center gap-1 text-small text-ink-muted">
-          <MapPin aria-hidden="true" className="h-3.5 w-3.5" />
+        <p className="mt-2 flex items-start gap-1 text-small text-ink-muted">
+          <MapPin aria-hidden="true" className="mt-1 h-3.5 w-3.5 shrink-0" />
           {[place.city, state?.name].filter(Boolean).join(', ')}
         </p>
+        {!isBasicListing(place) && (
+          <p className="mt-auto pt-3">
+            <span className="inline-flex items-center gap-1 rounded-sm bg-gold-soft px-2 py-0.5 text-caption font-semibold text-gold-ink">
+              <BookOpen aria-hidden="true" className="h-3 w-3" />
+              In-depth profile
+            </span>
+          </p>
+        )}
       </div>
     </article>
   );

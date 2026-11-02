@@ -9,7 +9,7 @@ Every record in `src/data/` is listed here with its verification status and what
 Sources are preferred in this order: official website → Wikidata → Wikipedia → reputable news.
 All sources were fetched and read on the date shown in `src/data/sources.ts`.
 
-_Last updated: 2026-11-01 (Phase 3)._
+_Last updated: 2026-11-02 (Phase 4)._
 
 ## Brands
 
@@ -46,6 +46,27 @@ Place type pages are explanatory. Definitions are written for this atlas from th
 | Roadside Attraction | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
 | Historic Landmark | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
 | Off-Grid Community | partial | 2026-11-01 | Wikipedia concept article + the place articles it covers | Added in Phase 3; shorter page without a comparison table. |
+| National Monument | partial | 2026-11-02 | Wikipedia (National monument (United States)) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| State Park | partial | 2026-11-02 | Wikipedia (State park) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| National Wildlife Refuge | partial | 2026-11-02 | Wikipedia (National Wildlife Refuge) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Zoo | partial | 2026-11-02 | Wikipedia (Zoo) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Natural Spring | partial | 2026-11-02 | Wikipedia (Spring (hydrology)) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Cave | partial | 2026-11-02 | Wikipedia (Cave) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Museum | partial | 2026-11-02 | Wikipedia (Museum) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Art Museum | partial | 2026-11-02 | Wikipedia (Art museum) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| California Mission | partial | 2026-11-02 | Wikipedia (Spanish missions in California) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Historic Fort | partial | 2026-11-02 | Wikipedia (Fortification) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Ghost Town | partial | 2026-11-02 | Wikipedia (Ghost town) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Lighthouse | partial | 2026-11-02 | Wikipedia (Lighthouse) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Landmark Hotel | partial | 2026-11-02 | Wikipedia (Hotel) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Landmark Restaurant | partial | 2026-11-02 | Wikipedia (Restaurant) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Amusement Park | partial | 2026-11-02 | Wikipedia (Amusement park) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Pier | partial | 2026-11-02 | Wikipedia (Pier) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Performing Arts Venue | partial | 2026-11-02 | Wikipedia (Performing arts center) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Dam | partial | 2026-11-02 | Wikipedia (Dam) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Winery | partial | 2026-11-02 | Wikipedia (Winery, California wine) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Ranch | partial | 2026-11-02 | Wikipedia (Ranch) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| University Campus | partial | 2026-11-02 | Wikipedia (University) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
 
 ## Images
 
@@ -87,6 +108,39 @@ All 26 research targets were published (none skipped). Text is written for this 
 | Cabazon Dinosaurs | CA | **partial** | 2026-11-01 | Wikipedia, Wikidata | Street address not sourced. |
 | Slab City | CA | verified | 2026-11-01 | Wikipedia, Wikidata | Address n/a (informal settlement). |
 | South Coast Plaza | CA | verified | 2026-11-01 | Wikipedia (infobox address), Wikidata | Anchor stores and retailer count change over time. |
+
+## Imported listings (Phase 4)
+
+**818 basic listings** (FL 200, TX 205, AZ 141, CA 272) were imported on 2026-11-02 with `npm run import:wikidata` (`scripts/import/wikidata-listings.mjs`, settings in `scripts/import/config.mjs`). The project owner approved this two-tier approach on 2026-11-02. All listings are marked `partial` and labelled "Basic listing" on the site.
+
+**What gets in.** Wikidata items of selected classes (museum, lighthouse, state park, hotel and others; see the config) located in one of the four states, with coordinates, an English Wikipedia article and a Commons photo, and with no closure or demolition date. Items are ranked by how many Wikipedia language editions cover them, leaving out wikis known for bot-made stubs (Cebuano, Swedish, Waray and others), and capped per type and state. Places that already have a full profile are excluded.
+
+**What is shown, and from where.**
+- Name, coordinates, "inception" year, official website, street address (when present) and National Register of Historic Places listing all come from the item's **Wikidata** entry, which is linked as a source on every listing.
+- The **Wikipedia** article is linked as the second source. No text is taken from it.
+- **City or county** comes from Wikidata's "located in" value. Where Wikidata only gives the state, the county is looked up from the coordinates through the U.S. government's FCC Census Area API.
+- The **summary** is generated from a template ("A lighthouse in Pescadero, California, built in 1872.") and states nothing beyond those fields. The verb for the year depends on the type: established, founded, opened or built, and "dating from" where none fits.
+
+**Known limits.** Wikidata can be out of date or wrong. Its "inception" may mean construction, founding or official designation depending on the item. A ranking by Wikipedia coverage is only a rough signal of how notable a place is. The coordinates of large areas mark a representative point, not an entrance.
+
+**Excluded after review** (listed in `EXCLUDED` in the config):
+- Texas Stadium: demolished in 2010, but Wikidata has no end date.
+- Bridge Canyon Dam: proposed, never built.
+- California State University: a university system, not a single campus.
+
+**Photos.** Each listing's photo is the Wikidata "image" (P18). Author, license and size come from Commons metadata, and photos without a recognised license or a named author are dropped. **Every photo was checked by eye** on 2026-11-02, on contact sheets of all 789 thumbnails. 36 were rejected and replaced by the "Photo needed" placeholder, all listed with reasons in `src/data/imported/photo-review.ts`:
+- close-ups of animals or plants (12)
+- people as the main subject (5)
+- logos or emblems (7)
+- maps or plans (4)
+- place not clearly visible (6)
+- objects, such as a painting or a wine bottle (2)
+
+Photos added by a future import show "Photo not yet reviewed" until they are checked.
+
+## Collections
+
+Ten collections were published in Phase 4. Each one combines full profiles and listings. Their intros are editorial and make no factual claims beyond what the listed places' own pages source.
 
 ## Skipped research targets
 

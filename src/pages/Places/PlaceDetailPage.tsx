@@ -1,4 +1,4 @@
-import { ExternalLink, MapPin, Navigation } from 'lucide-react';
+import { Database, ExternalLink, MapPin, Navigation } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Link, useParams } from 'react-router';
 import { PlaceSectionBlock } from '../../components/places/PlaceSectionBlock';
@@ -11,7 +11,7 @@ import { VerificationBadge } from '../../components/ui/VerificationBadge';
 import { placeSectionDefinitions } from '../../config/place-sections';
 import {
   getBrandById, getCategoryForPlace, getImages, getNearbyPlaces, getPlaceBySlug, getPlaceTypeById,
-  getSource, getSources, getStateByCode,
+  getSource, getSources, getStateByCode, isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber } from '../../lib/format';
 import { NotFoundPage } from '../NotFound/NotFoundPage';
@@ -73,6 +73,30 @@ export function PlaceDetailPage() {
           <VerificationBadge status={place.verificationStatus} lastVerified={place.lastVerified} />
         </div>
       </PageHeader>
+
+      {isBasicListing(place) && (
+        <div className="container-page pt-8">
+          <aside
+            aria-label="About this listing"
+            className="flex gap-3 rounded border border-line bg-paper-white p-4 text-small text-ink-muted"
+          >
+            <Database aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-navy-700" />
+            <p>
+              <strong className="font-semibold text-ink">Basic listing.</strong> Name, location, dates and
+              website come from{' '}
+              {place.wikidataId ? (
+                <a href={`https://www.wikidata.org/wiki/${place.wikidataId}`} target="_blank" rel="noopener noreferrer" className="link">
+                  Wikidata<span className="sr-only"> (opens in a new tab)</span>
+                </a>
+              ) : (
+                'Wikidata'
+              )}
+              , and the summary is generated from them. An in-depth profile has not been written yet; the
+              Wikipedia article in the sources has the full story.
+            </p>
+          </aside>
+        </div>
+      )}
 
       <div className="container-page pt-10">
         <AtlasImage image={heroImage} aspect="aspect-[16/9] md:aspect-[21/9]" loading="eager" />
@@ -198,7 +222,11 @@ export function PlaceDetailPage() {
 
           <section aria-labelledby="sources-title">
             <h2 id="sources-title" className="text-h4">Sources</h2>
-            <p className="mt-1 text-caption text-ink-subtle">Text written for this atlas from the sources below.</p>
+            <p className="mt-1 text-caption text-ink-subtle">
+              {isBasicListing(place)
+                ? 'Data for this listing comes from the sources below.'
+                : 'Text written for this atlas from the sources below.'}
+            </p>
             <div className="mt-4">
               <SourceList sources={sources} />
             </div>

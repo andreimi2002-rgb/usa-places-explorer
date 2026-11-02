@@ -5,10 +5,9 @@
 import { brands } from '../data/brands';
 import { categories } from '../data/categories';
 import { collections } from '../data/collections';
-import { images } from '../data/images';
-import { places } from '../data/places';
-import { placeTypes } from '../data/placeTypes';
-import { sources } from '../data/sources';
+import {
+  allImages as images, allPlaces as places, allPlaceTypes as placeTypes, allSources as sources,
+} from '../data/all';
 import { states } from '../data/states';
 import type {
   Brand, Category, Collection, ImageAsset, Place, PlaceType, Source, State,
@@ -16,6 +15,13 @@ import type {
 import { MIN_COLLECTION_SIZE } from '../types';
 
 const byName = <T extends { name: string }>(a: T, b: T) => a.name.localeCompare(b.name);
+
+/** Full profiles first, then listings by notability, then name. */
+const byProminence = (a: Place, b: Place) =>
+  Number(a.profile === 'basic') - Number(b.profile === 'basic') ||
+  (b.rank ?? 0) - (a.rank ?? 0) ||
+  a.name.localeCompare(b.name);
+const sortedPlaces = [...places].sort(byProminence);
 
 function indexBy<T, K extends keyof T>(items: T[], key: K): Map<T[K], T> {
   return new Map(items.map((item) => [item[key], item]));
@@ -72,6 +78,10 @@ export const getCategoryById = (id: string) => categoryById.get(id);
 export const getCategoriesWithData = (): Category[] =>
   getAllCategories().filter((c) => getPlaceTypesByCategory(c.id).length > 0);
 
+/** Place count per category, computed from the data. */
+export const getCategoryPlaceCount = (categoryId: string) =>
+  places.filter((p) => placeTypeById.get(p.placeTypeId)?.categoryId === categoryId).length;
+
 /** Only categories with data are routable. */
 export const getCategoryBySlug = (slug: string) =>
   getCategoriesWithData().find((c) => c.slug === slug);
@@ -108,7 +118,10 @@ export const getFeaturedBrand = (): Brand | undefined =>
 // Places
 // ---------------------------------------------------------------------------
 
-export const getPlaces = (): Place[] => [...places].sort(byName);
+/** All places, full profiles first, then listings by notability. */
+export const getPlaces = (): Place[] => sortedPlaces;
+export const isBasicListing = (p: Place) => p.profile === 'basic';
+export const getFullProfiles = (): Place[] => sortedPlaces.filter((p) => !isBasicListing(p));
 export const getPlaceById = (id: string) => placeById.get(id);
 export const getPlaceBySlug = (slug: string) => places.find((p) => p.slug === slug);
 export const getPlacesByType = (placeTypeId: string): Place[] =>
@@ -130,9 +143,34 @@ export const getMappablePlaces = (list: Place[] = places) =>
     (p): p is Place & { lat: number; lng: number } => p.lat !== null && p.lng !== null,
   );
 
-export function getRecentlyAdded(limit = 6): Place[] {
-  return [...places].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, limit);
+/** Newest first; within the same day, the most prominent first. */
+export function getRecentlyAdded(limit = 6, list: Place[] = sortedPlaces): Place[] {
+  return [...list].sort((a, b) => b.createdAt.localeCompare(a.createdAt) || byProminence(a, b)).slice(0, limit);
 }
+
+export interface CategoryCount {
+  category: Category;
+  count: number;
+}
+
+/** How many places of each category a list contains, largest first. */
+export function getCategoryBreakdown(list: Place[]): CategoryCount[] {
+  const counts = new Map<string, number>();
+  for (const p of list) {
+    const id = placeTypeById.get(p.placeTypeId)?.categoryId;
+    if (id) counts.set(id, (counts.get(id) ?? 0) + 1);
+  }
+  return [...counts]
+    .flatMap(([id, count]) => {
+      const category = categoryById.get(id);
+      return category ? [{ category, count }] : [];
+    })
+    .sort((a, b) => b.count - a.count || a.category.order - b.category.order);
+}
+
+/** Brands with at least one place in the state. */
+export const getBrandsInState = (stateCode: string): Brand[] =>
+  getBrands().filter((b) => places.some((p) => p.brandId === b.id && p.stateCode === stateCode));
 
 /** Great-circle distance in miles. */
 function distanceMiles(lat1: number, lng1: number, lat2: number, lng2: number): number {
@@ -193,5 +231,9 @@ export const getSiteCounts = () => ({
   placeTypes: placeTypes.length,
   brands: brands.length,
   places: places.length,
+  fullProfiles: places.filter((p) => !isBasicListing(p)).length,
+  listings: places.filter(isBasicListing).length,
+  states: getStates().length,
+  categories: getCategoriesWithData().length,
   collections: getCollections().length,
 });

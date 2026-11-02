@@ -53,6 +53,12 @@ export function ImageAttribution({ image, className = 'mt-2' }: { image: ImageAs
       <a href={image.commonsPageUrl} target="_blank" rel="noopener noreferrer" className="link">
         Wikimedia Commons
       </a>
+      {image.reviewed === false && (
+        <>
+          {' · '}
+          <span title="Linked from Wikidata; not yet checked by eye for this atlas">Photo not yet reviewed</span>
+        </>
+      )}
     </p>
   );
 }

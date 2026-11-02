@@ -13315,31 +13315,6 @@
    }
   },
   {
-   "qid": "Q7085259",
-   "name": "Old Town",
-   "typeId": "amusement-park",
-   "state": "FL",
-   "city": "Kissimmee",
-   "lat": 28.3316,
-   "lng": -81.5158,
-   "sitelinks": 2,
-   "wikipedia": "Old Town (amusement park)",
-   "year": null,
-   "website": "https://www.myoldtownusa.com/",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Old_Town%2C_Orlando_02.JPG/1280px-Old_Town%2C_Orlando_02.JPG",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Old_Town,_Orlando_02.JPG",
-    "author": "Miosotis Jade",
-    "authorUrl": null,
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 1280,
-    "height": 960
-   }
-  },
-  {
    "qid": "Q24192030",
    "name": "Dezerland Park Orlando",
    "typeId": "amusement-park",
@@ -16267,31 +16242,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "width": 1280,
     "height": 609
-   }
-  },
-  {
-   "qid": "Q929859",
-   "name": "Orlando International Airport",
-   "typeId": "airport",
-   "state": "FL",
-   "city": "Orlando",
-   "lat": 28.42944,
-   "lng": -81.30889,
-   "sitelinks": 36,
-   "wikipedia": "Orlando International Airport",
-   "year": null,
-   "website": "https://www.orlandoairports.net/",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Orlando_International_Airport_terminal_from_arriving_airplane.jpg/1280px-Orlando_International_Airport_terminal_from_arriving_airplane.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Orlando_International_Airport_terminal_from_arriving_airplane.jpg",
-    "author": "Dough4872",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Dough4872",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "width": 1280,
-    "height": 960
    }
   },
   {

@@ -286,6 +286,44 @@ export interface Place extends Verifiable {
 }
 
 // ---------------------------------------------------------------------------
+// Cities (metro areas)
+// ---------------------------------------------------------------------------
+
+/**
+ * A city area: the metro area around a principal city, defined by its
+ * counties. Places belong to it by the county their coordinates fall in.
+ */
+export interface City {
+  id: string;
+  slug: string;
+  /** Short name, e.g. "Orlando". */
+  name: string;
+  /** Area name, e.g. "Greater Orlando". */
+  areaName: string;
+  stateCode: string;
+  /** Editorial intro in our own words. */
+  intro: string;
+  /** County FIPS codes that make up the area (official metro definition). */
+  countyFips: string[];
+  countyNames: string[];
+  population: SourcedValue<number>;
+  areaSqMi: SourcedValue<number>;
+  /** Map view. */
+  center: { lat: number; lng: number; zoom: number };
+  heroImageId: string | null;
+  sourceIds: string[];
+  createdAt: ISODate;
+}
+
+/** Official locality and county for a place, from the Census geocoder. */
+export interface PlaceGeo {
+  locality: string | null;
+  localityKind: 'incorporated' | 'cdp' | null;
+  county: string | null;
+  countyFips: string | null;
+}
+
+// ---------------------------------------------------------------------------
 // Collections
 // ---------------------------------------------------------------------------
 

@@ -6,6 +6,8 @@ import { BrandsIndexPage } from './pages/Brands/BrandsIndexPage';
 import { CollectionsIndexPage } from './pages/Collections/CollectionsIndexPage';
 import { CategoryDetailPage } from './pages/Categories/CategoryDetailPage';
 import { CollectionDetailPage } from './pages/Collections/CollectionDetailPage';
+import { CitiesIndexPage } from './pages/Cities/CitiesIndexPage';
+import { CityDetailPage } from './pages/Cities/CityDetailPage';
 import { PlaceDetailPage } from './pages/Places/PlaceDetailPage';
 import { TypeDetailPage } from './pages/Types/TypeDetailPage';
 import { HomePage } from './pages/Home/HomePage';
@@ -28,6 +30,8 @@ export const router = createBrowserRouter([
       { path: 'places/:slug', element: <PlaceDetailPage /> },
       { path: 'states', element: <StatesIndexPage /> },
       { path: 'states/:slug', element: <StateDetailPage /> },
+      { path: 'cities', element: <CitiesIndexPage /> },
+      { path: 'cities/:slug', element: <CityDetailPage /> },
       { path: 'categories/:slug', element: <CategoryDetailPage /> },
       { path: 'collections', element: <CollectionsIndexPage /> },
       { path: 'collections/:slug', element: <CollectionDetailPage /> },

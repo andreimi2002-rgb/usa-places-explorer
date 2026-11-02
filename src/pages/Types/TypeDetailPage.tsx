@@ -174,7 +174,7 @@ export function TypeDetailPage() {
       {places.length > 0 && (
         <section aria-labelledby="examples-title" className="container-page pb-section">
           <SectionHeading id="examples-title" eyebrow="In the atlas" title={`${type.pluralName} in the atlas`} />
-          <PlaceBrowser places={places} filters={['state']} />
+          <PlaceBrowser places={places} filters={['state', 'area', 'city']} />
         </section>
       )}
     </>

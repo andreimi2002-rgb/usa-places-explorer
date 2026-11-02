@@ -9,7 +9,7 @@ Every record in `src/data/` is listed here with its verification status and what
 Sources are preferred in this order: official website → Wikidata → Wikipedia → reputable news.
 All sources were fetched and read on the date shown in `src/data/sources.ts`.
 
-_Last updated: 2026-11-02 (Phase 4)._
+_Last updated: 2026-11-02 (Phase 4.5: cities and Orlando)._
 
 ## Brands
 
@@ -67,10 +67,17 @@ Place type pages are explanatory. Definitions are written for this atlas from th
 | Winery | partial | 2026-11-02 | Wikipedia (Winery, California wine) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
 | Ranch | partial | 2026-11-02 | Wikipedia (Ranch) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
 | University Campus | partial | 2026-11-02 | Wikipedia (University) | Added in Phase 4 for imported listings. General definition only; "where common" lines refer to this atlas's own data unless the source says more. |
+| Theme Park | partial | 2026-11-02 | Wikipedia (Amusement park) | Added in Phase 4.5 for the Orlando region import. |
+| Water Park | partial | 2026-11-02 | Wikipedia (Water park) | Added in Phase 4.5 for the Orlando region import. |
+| Lake | partial | 2026-11-02 | Wikipedia (Lake) | Added in Phase 4.5 for the Orlando region import. |
+| City Park | partial | 2026-11-02 | Wikipedia (Urban park) | Added in Phase 4.5 for the Orlando region import. |
+| Neighborhood & District | partial | 2026-11-02 | Wikipedia (Neighbourhood, Historic district) | Added in Phase 4.5 for the Orlando region import. |
+| Convention Center | partial | 2026-11-02 | Wikipedia (Convention center) | Added in Phase 4.5 for the Orlando region import. |
+| Train Station | partial | 2026-11-02 | Wikipedia (Train station) | Added in Phase 4.5 for the Orlando region import. |
 
 ## Images
 
-All 38 images are from Wikimedia Commons. For each one we fetched the file page metadata (author, license, size), checked the image by eye to confirm it shows the named place, and confirmed the URL loads. Rejected: `02178 Grand Canyon Mather Point` (a group of people is the main subject), `Costco Wholesale Club.jpg` (location not identified) and `Greg Abbott Buc-ee's Luling Texas 2024.jpg` (a person is the main subject).
+All hand-picked images (38 in Phases 2–3, 14 in Phase 4.5) are from Wikimedia Commons. For each one we fetched the file page metadata (author, license, size), checked the image by eye to confirm it shows the named place, and confirmed the URL loads. Rejected: `02178 Grand Canyon Mather Point` (a group of people is the main subject), `Costco Wholesale Club.jpg` (location not identified) and `Greg Abbott Buc-ee's Luling Texas 2024.jpg` (a person is the main subject).
 
 ## Places
 
@@ -141,6 +148,42 @@ Photos added by a future import show "Photo not yet reviewed" until they are che
 ## Collections
 
 Ten collections were published in Phase 4. Each one combines full profiles and listings. Their intros are editorial and make no factual claims beyond what the listed places' own pages source.
+
+## Cities and Greater Orlando (Phase 4.5)
+
+**City areas.** A city area is a metro area defined by its counties. Greater Orlando follows the official Orlando–Kissimmee–Sanford metro area: Lake, Orange, Osceola and Seminole counties (Wikipedia, "Greater Orlando", citing the U.S. Office of Management and Budget). Its population (2,673,376, 2020 census) and area (4,012 sq mi) are shown with that source. The project owner chose the metro definition, with towns as a sub-filter, on 2026-11-02.
+
+**Locality and county for every place.** `npm run geo:locate` (`scripts/geo/locate.mjs`) looks up each place's coordinates with the **U.S. Census Bureau geocoder**. The results are cached in `src/data/geo/place-geo.json`.
+- A place's town is the incorporated place (city or town), or else the census-designated place; where neither applies, the county is used.
+- A place belongs to a city area when its county is one of the area's counties.
+- Imported listings now show this Census locality, which is more consistent than Wikidata's "located in" values. Full profiles keep the city written for them.
+- 986 of 987 places were located. The exception is Buc-ee's Luling, which has no coordinates. Four offshore points (lighthouses, islands) have no county.
+
+**Regional import.** `npm run import:region -- orlando` (`scripts/import/wikidata-region.mjs`) brought in **135 listings** for Greater Orlando, with no cap per type, on top of the statewide import.
+- **Scope:** all statewide classes plus theme parks, water parks, lakes, parks, neighborhoods and historic districts, convention centers, train stations, arenas and resorts. A place is included only if its coordinates fall in one of the four counties (checked with the FCC Census Area API).
+- **No obscure places:** a place must either be visitor-facing (museum, park, hotel, venue and so on) with a photo or an official website, or be covered by at least 2 Wikipedia language editions. This dropped residential districts, minor stations and similar local-only entries (116 dropped).
+- **Never-built projects:** items whose Wikidata description says cancelled, unbuilt, proposed or planned are dropped. Several cancelled Disney resorts had no end date in Wikidata.
+- **Photos:** all 102 photos in this import were checked by eye on 2026-11-02. Two were rejected (logos).
+- **Duplicates removed:** Old Town and Orlando International Airport, which had been in the statewide import, were removed there because they now have full profiles.
+
+**Brand locations from OpenStreetMap.** `npm run import:osm-brands -- orlando` adds the locations of the atlas's brands inside the four counties: five Costco warehouses and Bass Pro Shops Orlando. The data comes from OpenStreetMap features tagged with the brand's Wikidata ID; only the main store is kept, not separate fuel stations or tire centers. Name, address and coordinates are as tagged in OSM, which is linked as the source. These were not checked one by one against the brands' store pages, so they are basic listings with a note telling visitors to confirm on the official page. The Love's travel stops near Orlando are in Polk and Brevard counties, outside the metro area, so they are not included.
+
+**In-depth profiles (10)**, all read on 2026-11-02:
+
+| Record | Status | Sources | Missing / notes |
+|---|---|---|---|
+| Walt Disney World Resort | verified | Wikipedia, Wikidata | Address n/a (resort area). Attendance is for 2024. |
+| SeaWorld Orlando | verified | Wikipedia (infobox address), Wikidata | Visitor figure is a 2022 estimate. |
+| ICON Park | **partial** | Wikipedia, Wikidata | No street address sourced. |
+| Lake Eola Park | verified | Wikipedia, Wikidata | The address comes from the Historic American Landscapes Survey record cited in the article. No official website sourced. |
+| Orlando International Airport | verified | Wikipedia, Wikidata | Passenger figure and rank are for 2025. The official website is the one in the Wikipedia infobox (flymco.com). |
+| Kia Center | verified | Wikipedia (infobox address), Wikidata | — |
+| Orlando Museum of Art | verified | Wikipedia (infobox address), Wikidata | Wikidata lists inception as 2007; we use 1924 from the article's history. |
+| Gatorland | verified | Wikipedia, Wikidata | No street address beyond "South Orange Blossom Trail". The photo dates from 2006, before the 2006 fire and the 2008 rebuild. |
+| University of Central Florida | verified | Wikipedia, Wikidata | Enrollment is for fall 2025. |
+| Old Town (Kissimmee) | **partial** | Wikipedia, Wikidata | No street address sourced. "Longest-running weekly car show" is shown as the venue's own billing. |
+
+The 14 new photos for these profiles were checked by eye. One candidate was rejected because Commons lists no author ("Magic Kingdom castle.jpg"), and two because a trainer or an animal close-up was the main subject.
 
 ## Skipped research targets
 

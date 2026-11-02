@@ -56,7 +56,7 @@ export function CategoryDetailPage() {
 
       <section aria-labelledby="places-title" className="container-page py-section">
         <SectionHeading id="places-title" eyebrow="Browse" title={`All ${category.name.toLowerCase()} places`} />
-        <PlaceBrowser places={places} filters={['state', 'type']} />
+        <PlaceBrowser places={places} filters={['state', 'area', 'city', 'type']} />
       </section>
     </>
   );

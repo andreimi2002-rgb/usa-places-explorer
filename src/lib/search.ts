@@ -1,7 +1,7 @@
 import type { Brand, Place, PlaceType } from '../types';
 import {
-  getBrands, getCategoryForPlace, getCategoryById, getPlaceTypeById, getPlaces,
-  getPlaceTypes, getStateByCode,
+  getBrands, getCategoryForPlace, getCategoryById, getCityForPlace, getLocality, getPlaceGeo, getPlaceTypeById,
+  getPlaces, getPlaceTypes, getStateByCode,
 } from './data-access';
 
 export type SearchResultKind = 'type' | 'brand' | 'place';
@@ -70,7 +70,10 @@ function placeResult(p: Place, q: string[]): SearchResult {
     kind: 'place', id: p.id, title: p.name, summary: p.summary, href: `/places/${p.slug}`,
     meta: [type?.name, [p.city, state?.name].filter(Boolean).join(', ')].filter(Boolean).join(' · '),
     categoryId: getCategoryForPlace(p)?.id ?? null, stateCode: p.stateCode,
-    score: score(q, p.name, [p.summary, p.city, state?.name ?? '', type?.name ?? '']),
+    score: score(q, p.name, [
+      p.summary, p.city, getLocality(p), getPlaceGeo(p)?.county ?? '', getCityForPlace(p)?.areaName ?? '',
+      state?.name ?? '', type?.name ?? '',
+    ]),
   };
 }
 

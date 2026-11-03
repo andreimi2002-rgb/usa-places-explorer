@@ -2,11 +2,11 @@ import { MapPin } from 'lucide-react';
 import { Link, useParams } from 'react-router';
 import { BrandCard, CityCard, CollectionCard } from '../../components/cards/cards';
 import { PlaceBrowser } from '../../components/places/PlaceBrowser';
-import { Breadcrumbs, EmptyState, PageHeader, SectionHeading } from '../../components/ui/layout-primitives';
+import { EmptyState, PageHero, SectionHeading, StatsBand } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { categoryIcons } from '../../components/ui/icons';
 import {
-  getBrandsInState, getCategoryBreakdown, getCitiesByState, getCollectionPlaces, getCollections, getPlacesByState,
+  getBrandsInState, getCategoryBreakdown, getCitiesByState, getImage, getCollectionPlaces, getCollections, getPlacesByState,
   getStateBySlug, isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber, pluralize } from '../../lib/format';
@@ -39,21 +39,14 @@ export function StateDetailPage() {
         title={`Places in ${state.name}`}
         description={`${formatNumber(places.length)} documented places in ${state.name}, from ${breakdown.slice(0, 3).map((b) => b.category.name.toLowerCase()).join(', ')} and more. ${state.intro}`}
       />
-      <PageHeader eyebrow={`State · ${state.code}`} title={state.name} intro={<p>{state.intro}</p>}>
-        <div className="mt-6">
-          <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'States', to: '/states' }, { label: state.name }]} />
-        </div>
-        {places.length > 0 && (
-          <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded border border-line bg-line sm:grid-cols-4">
-            {stats.map((s) => (
-              <div key={s.label} className="bg-paper p-4">
-                <dt className="text-caption font-semibold uppercase tracking-wider text-ink-muted">{s.label}</dt>
-                <dd className="mt-1 text-h2 font-semibold text-navy-900">{formatNumber(s.value)}</dd>
-              </div>
-            ))}
-          </dl>
-        )}
-      </PageHeader>
+      <PageHero
+        image={state.heroImageId ? getImage(state.heroImageId) : undefined}
+        crumbs={[{ label: 'Home', to: '/' }, { label: 'States', to: '/states' }, { label: state.name }]}
+        eyebrow={`State · ${state.code}`}
+        title={state.name}
+        intro={<p>{state.intro}</p>}
+      />
+      {places.length > 0 && <StatsBand stats={stats.map((s) => ({ label: s.label, value: formatNumber(s.value) }))} />}
 
       {places.length === 0 ? (
         <div className="container-page py-section">

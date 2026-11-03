@@ -228,32 +228,6 @@
    }
   },
   {
-   "qid": "Q3248109",
-   "name": "Wet 'n Wild Orlando",
-   "typeId": "water-park",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.4609,
-   "lng": -81.4648,
-   "sitelinks": 4,
-   "wikipedia": "Wet 'n Wild Orlando",
-   "year": 1977,
-   "website": "http://www.wetnwildorlando.com",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/WetandWildOrlando.jpg/1280px-WetandWildOrlando.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:WetandWildOrlando.jpg",
-    "author": "own work",
-    "authorUrl": null,
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 1280,
-    "height": 960
-   }
-  },
-  {
    "qid": "Q884556",
    "name": "Disney's Blizzard Beach",
    "typeId": "water-park",
@@ -327,32 +301,6 @@
     "authorUrl": "https://commons.wikimedia.org/wiki/User:Ebyabe",
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-    "width": 1280,
-    "height": 960
-   }
-  },
-  {
-   "qid": "Q5263955",
-   "name": "Desert Inn and Restaurant",
-   "typeId": "landmark-hotel",
-   "state": "FL",
-   "city": "Osceola County",
-   "region": "orlando",
-   "lat": 27.7,
-   "lng": -80.905,
-   "sitelinks": 1,
-   "wikipedia": "Desert Inn and Restaurant",
-   "year": null,
-   "website": null,
-   "address": null,
-   "nrhp": true,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Yeehaw_Junction_Desert_Inn05.jpg/1280px-Yeehaw_Junction_Desert_Inn05.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Yeehaw_Junction_Desert_Inn05.jpg",
-    "author": "Ebyabe",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Ebyabe",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 1280,
     "height": 960
    }
@@ -1007,23 +955,6 @@
    }
   },
   {
-   "qid": "Q7452662",
-   "name": "Seralago Hotel & Suites",
-   "typeId": "landmark-hotel",
-   "state": "FL",
-   "city": "Osceola County",
-   "region": "orlando",
-   "lat": 28.331,
-   "lng": -81.5113,
-   "sitelinks": 1,
-   "wikipedia": "Seralago Hotel & Suites Main Gate East",
-   "year": 1973,
-   "website": "http://www.seralagohotel.com/",
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
    "qid": "Q39046636",
    "name": "Disney's Riviera Resort",
    "typeId": "landmark-hotel",
@@ -1099,32 +1030,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "width": 1280,
     "height": 960
-   }
-  },
-  {
-   "qid": "Q4784900",
-   "name": "Arboretum of the University of Central Florida",
-   "typeId": "garden-aquarium",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.6038,
-   "lng": -81.193,
-   "sitelinks": 2,
-   "wikipedia": "Arboretum of the University of Central Florida",
-   "year": 1983,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/UCF_Arboretum.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:UCF_Arboretum.jpg",
-    "author": "User:Nemesis63",
-    "authorUrl": null,
-    "license": "Public domain",
-    "licenseUrl": null,
-    "width": 743,
-    "height": 507
    }
   },
   {
@@ -1352,32 +1257,6 @@
    }
   },
   {
-   "qid": "Q5461246",
-   "name": "Florida Carriage Museum & Resort",
-   "typeId": "museum",
-   "state": "FL",
-   "city": "Lake County",
-   "region": "orlando",
-   "lat": 28.9537,
-   "lng": -81.9049,
-   "sitelinks": 1,
-   "wikipedia": "Florida Carriage Museum & Resort",
-   "year": 1995,
-   "website": "http://www.thegrandoaks.com",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Florida_Carriage_Museum_and_Resort01.jpg/1280px-Florida_Carriage_Museum_and_Resort01.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Florida_Carriage_Museum_and_Resort01.jpg",
-    "author": "Ebyabe",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Ebyabe",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "width": 1280,
-    "height": 960
-   }
-  },
-  {
    "qid": "Q8031719",
    "name": "WonderWorks",
    "typeId": "museum",
@@ -1479,49 +1358,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "width": 1280,
     "height": 960
-   }
-  },
-  {
-   "qid": "Q8026222",
-   "name": "Winter Garden Heritage Foundation",
-   "typeId": "museum",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.5648,
-   "lng": -81.5862,
-   "sitelinks": 1,
-   "wikipedia": "Winter Garden Heritage Foundation",
-   "year": null,
-   "website": "http://www.wghf.org",
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
-   "qid": "Q24256820",
-   "name": "Skeletons: Animals Unveiled",
-   "typeId": "museum",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.4428,
-   "lng": -81.46915,
-   "sitelinks": 1,
-   "wikipedia": "Skeletons: Museum of Osteology",
-   "year": 2015,
-   "website": "http://skeletonmuseum.com/",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Skeletons_Animals_Unveiled_building_sign.jpg/1280px-Skeletons_Animals_Unveiled_building_sign.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Skeletons_Animals_Unveiled_building_sign.jpg",
-    "author": "JimJones1971",
-    "authorUrl": null,
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "width": 1280,
-    "height": 853
    }
   },
   {
@@ -2190,32 +2026,6 @@
    }
   },
   {
-   "qid": "Q7449543",
-   "name": "Seminole Towne Center",
-   "typeId": "regional-mall",
-   "state": "FL",
-   "city": "Seminole County",
-   "region": "orlando",
-   "lat": 28.8034,
-   "lng": -81.3393,
-   "sitelinks": 1,
-   "wikipedia": "Seminole Towne Center",
-   "year": null,
-   "website": "http://seminoletownecenter.com/",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seminole_Towne_Center_Sanford%2C_FL_July_2017_%2836593021534%29.jpg/1280px-Seminole_Towne_Center_Sanford%2C_FL_July_2017_%2836593021534%29.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Seminole_Towne_Center_Sanford,_FL_July_2017_(36593021534).jpg",
-    "author": "Mike Kalasnik from Charlotte, USA",
-    "authorUrl": "https://www.flickr.com/people/10542402@N06",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 1280,
-    "height": 720
-   }
-  },
-  {
    "qid": "Q7986106",
    "name": "West Oaks Mall",
    "typeId": "regional-mall",
@@ -2352,40 +2162,6 @@
     "width": 1007,
     "height": 1464
    }
-  },
-  {
-   "qid": "Q7978973",
-   "name": "Webster University Orlando",
-   "typeId": "university",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.54068,
-   "lng": -81.38527,
-   "sitelinks": 2,
-   "wikipedia": "Webster University Orlando",
-   "year": 1991,
-   "website": "http://www.webster.edu/orlando",
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
-   "qid": "Q14685970",
-   "name": "International Vedic Hindu University",
-   "typeId": "university",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.5445,
-   "lng": -81.2525,
-   "sitelinks": 3,
-   "wikipedia": "Hindu University of America",
-   "year": 1993,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": null
   },
   {
    "qid": "Q455153",
@@ -2655,57 +2431,6 @@
    }
   },
   {
-   "qid": "Q793493",
-   "name": "Azalea Park",
-   "typeId": "neighborhood",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.54167,
-   "lng": -81.29639,
-   "sitelinks": 24,
-   "wikipedia": "Azalea Park, Florida",
-   "year": null,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
-   "qid": "Q2429132",
-   "name": "Conway",
-   "typeId": "neighborhood",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.49778,
-   "lng": -81.33306,
-   "sitelinks": 24,
-   "wikipedia": "Conway, Florida",
-   "year": null,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
-   "qid": "Q2570546",
-   "name": "Holden Heights",
-   "typeId": "neighborhood",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.50111,
-   "lng": -81.38556,
-   "sitelinks": 24,
-   "wikipedia": "Holden Heights, Florida",
-   "year": null,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
    "qid": "Q5303533",
    "name": "Downtown Orlando",
    "typeId": "neighborhood",
@@ -2902,32 +2627,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "width": 1280,
     "height": 963
-   }
-  },
-  {
-   "qid": "Q5655372",
-   "name": "Hard Rock Live",
-   "typeId": "sports-venue",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.47356,
-   "lng": -81.46765,
-   "sitelinks": 3,
-   "wikipedia": "Hard Rock Live (in Seminole Hard Rock Hollywood)",
-   "year": null,
-   "website": "http://www.hardrocklivehollywoodfl.com/",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hard_Rock_Live.jpg/1280px-Hard_Rock_Live.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Live.jpg",
-    "author": "Silver Dovelet",
-    "authorUrl": null,
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "width": 1280,
-    "height": 622
    }
   },
   {
@@ -3163,40 +2862,6 @@
     "width": 1280,
     "height": 720
    }
-  },
-  {
-   "qid": "Q7570535",
-   "name": "Southern Technical College",
-   "typeId": "university",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.4485,
-   "lng": -81.3997,
-   "sitelinks": 2,
-   "wikipedia": "Southern Technical College",
-   "year": 2001,
-   "website": "http://www.SouthernTech.edu",
-   "address": null,
-   "nrhp": false,
-   "image": null
-  },
-  {
-   "qid": "Q5461672",
-   "name": "Florida Technical College",
-   "typeId": "university",
-   "state": "FL",
-   "city": "Orange County",
-   "region": "orlando",
-   "lat": 28.594,
-   "lng": -81.1996,
-   "sitelinks": 3,
-   "wikipedia": "Florida Technical College",
-   "year": 1982,
-   "website": "http://www.ftccollege.edu/",
-   "address": null,
-   "nrhp": false,
-   "image": null
   },
   {
    "qid": "Q7910651",

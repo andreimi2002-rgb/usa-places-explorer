@@ -10,6 +10,7 @@ import {
 } from '../src/data/all';
 import { states } from '../src/data/states';
 import type { SourcedValue } from '../src/types';
+import summaries from '../src/data/imported/summaries.json';
 
 export function validate(): string[] {
   const errors: string[] = [];
@@ -122,6 +123,12 @@ export function validate(): string[] {
         err(`listing ${l.id} (${l.name}) looks like a duplicate of full profile ${f.id} (${f.name}), ${km.toFixed(2)} km apart; exclude it in the import config`);
       }
     }
+  }
+
+  // Every written summary must belong to a listing that still exists.
+  const listingQids = new Set(places.filter((p) => p.wikidataId).map((p) => p.wikidataId));
+  for (const q of Object.keys((summaries as { summaries: Record<string, string> }).summaries)) {
+    if (!listingQids.has(q)) err(`summary for ${q} has no matching listing`);
   }
 
   for (const c of collections) refs(`collection ${c.id}`, c.placeIds, placeIds, 'place');

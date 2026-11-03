@@ -13240,31 +13240,6 @@
    }
   },
   {
-   "qid": "Q2777866",
-   "name": "DisneyQuest",
-   "typeId": "amusement-park",
-   "state": "FL",
-   "city": "Orange County",
-   "lat": 28.3703,
-   "lng": -81.5221,
-   "sitelinks": 6,
-   "wikipedia": "DisneyQuest",
-   "year": 1998,
-   "website": "http://disneyworld.disney.go.com/wdw/entertainment/entertainmentDetail?id=DisneyQuestIndoorInteractiveThemeParkEntertainmentPage",
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Disney_Quest_%283431840973%29.jpg/1280px-Disney_Quest_%283431840973%29.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Disney_Quest_(3431840973).jpg",
-    "author": "Neil Thompson",
-    "authorUrl": "https://www.flickr.com/people/39052554@N00",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "width": 1280,
-    "height": 960
-   }
-  },
-  {
    "qid": "Q2397019",
    "name": "Cypress Gardens",
    "typeId": "amusement-park",
@@ -13287,31 +13262,6 @@
     "licenseUrl": null,
     "width": 1280,
     "height": 960
-   }
-  },
-  {
-   "qid": "Q3038335",
-   "name": "Pleasure Island",
-   "typeId": "amusement-park",
-   "state": "FL",
-   "city": "Orange County",
-   "lat": 28.371,
-   "lng": -81.518,
-   "sitelinks": 2,
-   "wikipedia": "Pleasure Island (Walt Disney World)",
-   "year": null,
-   "website": null,
-   "address": null,
-   "nrhp": false,
-   "image": {
-    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Disney_Pleasure_Island_1995.jpg/1280px-Disney_Pleasure_Island_1995.jpg",
-    "commonsPageUrl": "https://commons.wikimedia.org/wiki/File:Disney_Pleasure_Island_1995.jpg",
-    "author": "Joe Shlabotnik",
-    "authorUrl": null,
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "width": 1280,
-    "height": 850
    }
   },
   {

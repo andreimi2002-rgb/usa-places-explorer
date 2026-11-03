@@ -149,6 +149,20 @@ Photos added by a future import show "Photo not yet reviewed" until they are che
 
 Ten collections were published in Phase 4. Each one combines full profiles and listings. Their intros are editorial and make no factual claims beyond what the listed places' own pages source.
 
+## Richer listings (stage 2 of the redesign)
+
+**Facts from Wikidata.** `npm run import:facts` (`scripts/import/wikidata-facts.mjs`) reads extra facts from each listing's Wikidata item, and every one is shown with that item as its source. They are saved in `src/data/imported/facts.json`.
+- **What it reads:** official opening date, current tenants ("Home to"), capacity, visitors per year, students, population, height, length, area, elevation, adjacent body of water, architect, architectural style, current owner and operator, heritage status, and who the place is named after.
+- **How values are cleaned:** counts keep the year Wikidata gives for them, metric units are shown with an imperial conversion, and former owners and tenants (those with an end date) are left out.
+- **Coverage on 2026-11-03:** 659 of 951 listings gained at least one fact, 1,587 facts in all.
+
+**Written summaries.** Two- or three-sentence summaries are written for the atlas from the lead of each place's English Wikipedia article, which is already linked as a source. They are saved in `src/data/imported/summaries.json`.
+- Nothing is added beyond what that lead says. Claims I could not tie to the text were removed in review.
+- They are written in batches, in this order: collection places first, then Greater Orlando, then the best-known listings.
+- The place page states when a summary was written this way.
+
+**Found while writing summaries.** Reading the articles exposed records that Wikidata lists as current but that are closed, demolished, renamed or wrongly linked. All are listed with reasons in `EXCLUDED` in `scripts/import/config.mjs` and removed from the data. Examples: DisneyQuest and Wet 'n Wild Orlando (closed), Desert Inn (demolished 2024), Seminole Towne Center (closed 2025), Hard Rock Live (linked to the article about a different venue), and residential census-designated places that are not places to visit.
+
 ## Cities and Greater Orlando (Phase 4.5)
 
 **City areas.** A city area is a metro area defined by its counties. Greater Orlando follows the official Orlando–Kissimmee–Sanford metro area: Lake, Orange, Osceola and Seminole counties (Wikipedia, "Greater Orlando", citing the U.S. Office of Management and Budget). Its population (2,673,376, 2020 census) and area (4,012 sq mi) are shown with that source. The project owner chose the metro definition, with towns as a sub-filter, on 2026-11-02.

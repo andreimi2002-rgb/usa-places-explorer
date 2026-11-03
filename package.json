@@ -12,7 +12,8 @@
     "import:wikidata": "node scripts/import/wikidata-listings.mjs",
     "import:region": "node scripts/import/wikidata-region.mjs",
     "geo:locate": "node scripts/geo/locate.mjs",
-    "import:osm-brands": "node scripts/import/osm-brands.mjs"
+    "import:osm-brands": "node scripts/import/osm-brands.mjs",
+    "import:facts": "node scripts/import/wikidata-facts.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

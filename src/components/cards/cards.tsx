@@ -66,7 +66,7 @@ export function PlaceCard({ place, size = 'md' }: { place: Place; size?: 'md' | 
       eyebrow={[type?.name, [place.city, state?.code].filter(Boolean).join(', ')].filter(Boolean).join(' · ')}
       title={place.name}
       // Listing summaries repeat the eyebrow; only written profiles get a line of text.
-      text={isBasicListing(place) ? null : place.summary}
+      text={isBasicListing(place) && place.summaryKind !== 'written' ? null : place.summary}
       size={size}
     />
   );

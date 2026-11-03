@@ -169,11 +169,13 @@ export function PlaceDetailPage() {
 
           {basic && (
             <section aria-labelledby="about-title" className="space-y-5">
-              <h2 id="about-title" className="text-h2">About this place</h2>
-              <p className="max-w-prose text-body text-ink-muted">
-                We have not written an in-depth profile of {place.name} yet. The essentials are above
-                {wikipedia ? ', and Wikipedia has the full story.' : '.'}
-              </p>
+              <h2 id="about-title" className="text-h2">{basicFacts.length > 0 ? 'Key facts' : 'About this place'}</h2>
+              {place.summaryKind !== 'written' && (
+                <p className="max-w-prose text-body text-ink-muted">
+                  We have not written about {place.name} yet. The essentials are above
+                  {wikipedia ? ', and Wikipedia has the full story.' : '.'}
+                </p>
+              )}
               {basicFacts.length > 0 && (
                 <dl className="grid gap-4 sm:grid-cols-2">
                   {basicFacts.map((f) => (
@@ -303,7 +305,9 @@ export function PlaceDetailPage() {
               <p className="text-caption text-ink-subtle">
                 {basic
                   ? place.wikidataId
-                    ? 'A basic listing: the details come from Wikidata and the summary is generated from them. An in-depth profile has not been written yet.'
+                    ? place.summaryKind === 'written'
+                      ? 'A basic listing: the summary was written for this atlas from the Wikipedia article, and the facts come from Wikidata. An in-depth profile has not been written yet.'
+                      : 'A basic listing: the details come from Wikidata and the summary is generated from them. An in-depth profile has not been written yet.'
                     : "A basic listing: name, address and location come from OpenStreetMap. Check the brand's official store page before you visit."
                   : 'Text written for this atlas from the sources below.'}
               </p>

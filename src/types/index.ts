@@ -277,6 +277,11 @@ export interface Place extends Verifiable {
   createdAt: ISODate;
   /** Defaults to "full". */
   profile?: PlaceProfile;
+  /**
+   * For basic listings: "written" when the summary was written for the atlas
+   * from the Wikipedia lead, "generated" when it is the template sentence.
+   */
+  summaryKind?: 'written' | 'generated';
   wikidataId?: string | null;
   /**
    * Ordering signal for listings: the number of Wikipedia language editions

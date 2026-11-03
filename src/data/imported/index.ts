@@ -9,7 +9,15 @@ import type { ImageAsset, ImageLicense, Place, Source } from '../../types';
 import statewide from './listings.json';
 import orlando from './region-orlando.json';
 import osmOrlando from './osm-brands-orlando.json';
+import facts from './facts.json';
+import summaries from './summaries.json';
 import { photoReview } from './photo-review';
+
+/** Summaries written for the atlas from each Wikipedia lead. */
+const written = (summaries as { summaries: Record<string, string> }).summaries;
+
+/** Extra facts per Wikidata ID (scripts/import/wikidata-facts.mjs). */
+const wikidataFacts = facts as Record<string, { label: string; value: string; asOfYear?: number }[]>;
 
 interface ListingRecord {
   qid: string;
@@ -132,7 +140,15 @@ export function buildListings(takenSlugs: Set<string>) {
     );
 
     const facts = [];
-    if (r.year) facts.push({ label: verb ?? 'Dates from', value: String(r.year), sourceId: wdSourceId(r.qid), asOf: r.importedOn });
+    const extra = wikidataFacts[r.qid] ?? [];
+    // An exact opening date from Wikidata beats the bare inception year.
+    const hasExactOpening = extra.some((x) => x.label === 'Opened');
+    if (r.year && !(hasExactOpening && verb === 'Opened')) {
+      facts.push({ label: verb ?? 'Dates from', value: String(r.year), sourceId: wdSourceId(r.qid), asOf: r.importedOn });
+    }
+    for (const x of extra) {
+      facts.push({ label: x.label, value: x.value, sourceId: wdSourceId(r.qid), asOf: x.asOfYear ? `${x.asOfYear}-12-31` : r.importedOn });
+    }
     if (r.nrhp) facts.push({ label: 'National Register of Historic Places', value: 'Listed', sourceId: wdSourceId(r.qid), asOf: r.importedOn });
 
     const rejected = photoReview.rejected[r.qid];
@@ -167,7 +183,8 @@ export function buildListings(takenSlugs: Set<string>) {
       lat: r.lat,
       lng: r.lng,
       coordinatesSourceId: wdSourceId(r.qid),
-      summary: `${article(noun)} ${noun} in ${r.city}, ${stateName}${yearClause}.`,
+      summary: written[r.qid] ?? `${article(noun)} ${noun} in ${r.city}, ${stateName}${yearClause}.`,
+      summaryKind: written[r.qid] ? 'written' : 'generated',
       sections: facts.length ? { overview: { facts } } : {},
       imageIds: hasPhoto ? [listingImageId(r.qid)] : [],
       officialWebsite: r.website,

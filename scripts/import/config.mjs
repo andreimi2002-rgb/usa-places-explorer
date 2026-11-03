@@ -53,9 +53,27 @@ export const GROUPS = [
 
 /** Items Wikidata gets wrong for our purposes; never imported. */
 export const EXCLUDED = {
+  Q7449543: 'Seminole Towne Center: mall closed at the end of January 2025',
+  Q24256820: 'Skeletons: Animals Unveiled: Wikipedia link goes to a different museum in Oklahoma City',
+  Q8026222: 'Winter Garden Heritage Foundation: an organization, not a single place to visit',
+  Q5263955: 'Desert Inn and Restaurant: demolished on September 5, 2024',
+  Q7452662: 'Seralago Hotel: no longer operating',
+  Q5461246: 'Florida Carriage Museum: renamed Grand Oaks Museum when the property was sold in 2011',
+  Q7978973: 'Webster University Orlando: an extended campus office, not a place to visit',
+  Q7570535: 'Southern Technical College: multi-campus for-profit college, not a place to visit',
+  Q3248109: 'Wet n Wild Orlando: closed on January 1, 2017',
+  Q3038335: 'Pleasure Island: no longer a separate area; now part of Disney Springs',
+  Q5655372: 'Hard Rock Live: Wikidata links this Orlando point to the article about the Hollywood, Florida venue',
+  Q4784900: 'UCF Arboretum: Wikipedia link redirects to the university article',
+  Q14685970: 'Hindu University of America: unaccredited school, not a place to visit',
+  Q5461672: 'Florida Technical College: multi-campus for-profit college, not a place to visit',
   Q601596: 'Texas Stadium: demolished in 2010, but Wikidata has no end date',
   Q4966209: 'Bridge Canyon Dam: proposed, never built',
   Q815352: 'California State University: a university system, not a single campus',
+  Q2777866: 'DisneyQuest: closed in 2017, but Wikidata has no end date',
+  Q793493: 'Azalea Park: a residential census-designated place, not a place to visit',
+  Q2429132: 'Conway: a residential census-designated place, not a place to visit',
+  Q2570546: 'Holden Heights: a residential census-designated place, not a place to visit',
 };
 
 /**

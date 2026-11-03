@@ -12,6 +12,10 @@
   h1, h2, h3, h4 {
     @apply font-sans font-semibold text-navy-900;
   }
+  /* Editorial: page and section titles are set in the serif. */
+  h1, h2 {
+    @apply font-serif font-semibold tracking-tight;
+  }
   :focus-visible {
     @apply outline outline-2 outline-offset-2 outline-gold-ink;
   }
@@ -35,6 +39,13 @@
   }
   .link {
     @apply text-navy-700 underline decoration-line-strong underline-offset-2 hover:decoration-navy-700;
+  }
+  /* Dark gradient so white text stays readable on any photo. */
+  .hero-scrim {
+    background: linear-gradient(180deg, rgba(8, 22, 41, 0.15) 0%, rgba(8, 22, 41, 0.35) 45%, rgba(8, 22, 41, 0.85) 100%);
+  }
+  .lede {
+    @apply max-w-prose font-serif text-[1.375rem] leading-[2.05rem] text-ink;
   }
   /* Wide tables scroll inside their own box instead of the page. */
   .table-scroll {

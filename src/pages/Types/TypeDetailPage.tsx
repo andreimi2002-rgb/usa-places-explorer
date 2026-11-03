@@ -1,9 +1,8 @@
 import { Building2, Layers } from 'lucide-react';
 import { Link, useParams } from 'react-router';
 import { PlaceBrowser } from '../../components/places/PlaceBrowser';
-import { AtlasImage } from '../../components/ui/AtlasImage';
 import { ImageGallery } from '../../components/ui/ImageGallery';
-import { ArticleSection, Breadcrumbs, PageHeader, SectionHeading } from '../../components/ui/layout-primitives';
+import { ArticleSection, PageHero, SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { SourceList } from '../../components/ui/SourceList';
 import { VerificationBadge } from '../../components/ui/VerificationBadge';
@@ -30,26 +29,17 @@ export function TypeDetailPage() {
     <>
       <Seo title={`${type.name}: what it is`} description={type.summary} />
 
-      <PageHeader
-        eyebrow={category ? `Place type · ${category.name}` : 'Place type'}
+      <PageHero
+        image={heroImage}
+        crumbs={[
+          { label: 'Place Types', to: '/types' },
+          ...(category ? [{ label: category.name, to: `/categories/${category.slug}` }] : []),
+          { label: type.name },
+        ]}
+        eyebrow={category ? `Kind of place · ${category.name}` : 'Kind of place'}
         title={type.name}
         intro={<p>{type.summary}</p>}
-      >
-        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <Breadcrumbs
-            items={[
-              { label: 'Place Types', to: '/types' },
-              ...(category ? [{ label: category.name, to: `/categories/${category.slug}` }] : []),
-              { label: type.name },
-            ]}
-          />
-          <VerificationBadge status={type.verificationStatus} lastVerified={type.lastVerified} />
-        </div>
-      </PageHeader>
-
-      <div className="container-page pt-10">
-        <AtlasImage image={heroImage} aspect="aspect-[16/9] md:aspect-[21/9]" loading="eager" />
-      </div>
+      />
 
       <div className="container-page grid gap-12 py-section lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
         <article className="min-w-0 space-y-14">
@@ -160,7 +150,8 @@ export function TypeDetailPage() {
           )}
 
           <section aria-labelledby="sources-title">
-            <h2 id="sources-title" className="text-h4">Sources</h2>
+            <h2 id="sources-title" className="font-sans text-h4">Sources</h2>
+            <div className="mt-2"><VerificationBadge status={type.verificationStatus} lastVerified={type.lastVerified} /></div>
             <p className="mt-1 text-caption text-ink-subtle">
               Text written for this atlas from the sources below. Comparisons describe typical sites.
             </p>

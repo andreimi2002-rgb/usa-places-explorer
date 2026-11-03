@@ -1,207 +1,143 @@
-import { Building2, Layers, MapPin } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router';
 import {
-  BrandCard, CategoryCard, CityCard, CollectionCard, PlaceCard, PlaceTypeCard, StateCard,
+  CategoryCard, CityCard, CollectionCard, PlaceCard, StateCard,
 } from '../../components/cards/cards';
 import { SearchField } from '../../components/search/SearchField';
-import { SectionHeading } from '../../components/ui/layout-primitives';
+import { PageHero, SectionHeading } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import {
-  getCategoriesWithData, getCategoryPlaceCount, getCities, getCollections, getFeaturedBrand, getFeaturedPlaceType,
-  getFullProfiles, getPlaces, getPlaceTypesByCategory, getRecentlyAdded, getSiteCounts, getStates,
-  isBasicListing,
+  getCategoriesWithData, getCategoryPlaceCount, getCities, getCollections, getFullProfiles, getImage,
+  getLocalityBreakdown, getPlacesByCity, getPlaceTypesByCategory, getSiteCounts, getStates,
 } from '../../lib/data-access';
-import { formatNumber } from '../../lib/format';
+import { formatNumber, pluralize } from '../../lib/format';
 
-const layers = [
-  {
-    icon: Layers,
-    title: 'Place types',
-    text: 'What is a travel center, and how is it different from a truck stop? Type pages explain the kinds of places America is built from.',
-    to: '/types',
-    cta: 'Browse place types',
-  },
-  {
-    icon: Building2,
-    title: 'Brands',
-    text: 'Some chains become landmarks in their own right. Brand pages explain what makes them distinctive, with sourced key facts.',
-    to: '/brands',
-    cta: 'Browse brands',
-  },
-  {
-    icon: MapPin,
-    title: 'Places',
-    text: 'Individual locations: in-depth profiles written for the atlas, plus basic listings built from Wikidata. Every fact links to its source.',
-    to: '/states',
-    cta: 'Browse by state',
-  },
-];
-
+/** The home page reads like a magazine cover: one big image, then a few strong sections. */
 export function HomePage() {
-  const featuredType = getFeaturedPlaceType();
-  const featuredBrand = getFeaturedBrand();
-  const categories = getCategoriesWithData();
-  const states = getStates();
-  const collections = getCollections();
   const counts = getSiteCounts();
+  const states = getStates();
   const cities = getCities();
-  const profiles = getRecentlyAdded(6, getFullProfiles());
-  const newListings = getRecentlyAdded(6, getPlaces().filter(isBasicListing));
-  const stats = [
-    { label: 'Places', value: counts.places },
-    { label: 'In-depth profiles', value: counts.fullProfiles },
-    { label: 'Place types', value: counts.placeTypes },
-    { label: 'Categories', value: counts.categories },
-  ];
+  const featuredCity = cities[0];
+  const collections = getCollections();
+  // A hand-picked mix for the cover; falls back to any profile with a photo.
+  const picks = ['place-grand-canyon-national-park', 'place-golden-gate-bridge', 'place-walt-disney-world', 'place-wigwam-motel-holbrook'];
+  const withPhoto = getFullProfiles().filter((p) => p.imageIds.length > 0);
+  const profiles = [
+    ...picks.flatMap((id) => withPhoto.filter((p) => p.id === id)),
+    ...withPhoto.filter((p) => !picks.includes(p.id)),
+  ].slice(0, 4);
+  const categories = getCategoriesWithData();
+  const hero = getImage('img-grand-canyon-mather-inversion');
 
   return (
     <>
-      <Seo description="An atlas of the kinds of places that make up the United States, from travel centers and warehouse clubs to planned communities, ports and national parks." />
+      <Seo description="An atlas of the places that make up the United States, from travel centers and theme parks to lighthouses, ghost towns and national parks, each with its sources." />
 
-      {/* Hero */}
-      <section aria-labelledby="hero-title" className="border-b border-line bg-paper-white">
-        <div className="container-page grid gap-10 py-14 md:py-20 lg:grid-cols-[3fr_2fr] lg:items-end">
-          <div>
-            <p className="eyebrow">USA Places Explorer · Discover Every Side of America</p>
-            <h1 id="hero-title" className="mt-4 text-h1 md:text-display">
-              America is more than its landmarks.
-            </h1>
-            <p className="prose-atlas mt-6 text-ink-muted">
-              A roadside travel center, a warehouse club, a master-planned town and a national park
-              each tell part of the American story. This atlas explains the kinds of places the
-              country is made of and the brands behind them, and documents real examples with
-              verified sources.
-            </p>
-            <div className="mt-8 max-w-xl">
-              <SearchField variant="hero" />
-            </div>
-          </div>
-          <div className="hidden border-l border-line pl-8 lg:block">
-            <p className="eyebrow">Coverage so far</p>
-            <ul className="mt-3 space-y-1">
-              {states.map((s) => (
-                <li key={s.code}>
-                  <Link to={`/states/${s.slug}`} className="text-h3 font-semibold text-navy-900 hover:underline">
-                    {s.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+      <PageHero
+        size="lg"
+        image={hero}
+        eyebrow="USA Places Explorer"
+        title="Discover every side of America."
+        intro={
+          <p>
+            Theme parks and ghost towns, roadside giants and national parks: {formatNumber(counts.places)} places
+            across {states.map((s) => s.name).join(', ').replace(/, ([^,]*)$/, ' and $1')}, each one traced back to its sources.
+          </p>
+        }
+      >
+        <div className="mt-8 max-w-xl">
+          <SearchField variant="hero" />
         </div>
-      </section>
+      </PageHero>
 
-      {/* The atlas in numbers, computed from the data */}
-      <section aria-labelledby="numbers-title" className="container-page pt-section">
-        <h2 id="numbers-title" className="sr-only">The atlas in numbers</h2>
-        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded border border-line bg-line md:grid-cols-4">
-          {stats.map((st) => (
-            <div key={st.label} className="bg-paper-white p-5">
-              <dt className="text-caption font-semibold uppercase tracking-wider text-ink-muted">{st.label}</dt>
-              <dd className="mt-1 text-h2 font-semibold text-navy-900 md:text-h1">{formatNumber(st.value)}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-
-      {/* Three layers */}
-      <section aria-labelledby="layers-title" className="container-page py-section">
-        <h2 id="layers-title" className="sr-only">How the atlas is organized</h2>
-        <div className="grid gap-px overflow-hidden rounded border border-line bg-line md:grid-cols-3">
-          {layers.map(({ icon: Icon, title, text, to, cta }) => (
-            <div key={title} className="flex flex-col bg-paper-white p-6">
-              <Icon aria-hidden="true" className="h-5 w-5 text-gold-ink" />
-              <h3 className="mt-3 text-h4">{title}</h3>
-              <p className="mt-2 flex-1 font-serif text-body text-ink-muted">{text}</p>
-              <Link to={to} className="mt-4 text-small font-semibold text-navy-700 hover:underline">
-                {cta}
+      {featuredCity && (
+        <section aria-labelledby="city-title" className="container-page py-section-lg">
+          <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
+            <CityCard city={featuredCity} aspect="aspect-[4/3] md:aspect-[16/11]" />
+            <div>
+              <p className="eyebrow">City in depth</p>
+              <h2 id="city-title" className="mt-2 text-h2 md:text-[2.75rem] md:leading-[3.1rem]">
+                {featuredCity.areaName}, place by place
+              </h2>
+              <p className="mt-5 font-serif text-lead text-ink-muted">{featuredCity.intro}</p>
+              <p className="mt-5 text-small text-ink-muted">
+                {pluralize(getPlacesByCity(featuredCity).length, 'place')} in{' '}
+                {pluralize(getLocalityBreakdown(getPlacesByCity(featuredCity)).length, 'city or town', 'cities and towns')}, on one map.
+              </p>
+              <Link
+                to={`/cities/${featuredCity.slug}`}
+                className="mt-7 inline-flex items-center gap-2 rounded bg-navy-900 px-5 py-3 text-small font-semibold text-paper-white hover:bg-navy-700"
+              >
+                Explore {featuredCity.name}
+                <ArrowRight aria-hidden="true" className="h-4 w-4" />
               </Link>
             </div>
-          ))}
-        </div>
-      </section>
-
-      {(featuredType || featuredBrand) && (
-        <section aria-labelledby="featured-title" className="container-page pb-section">
-          <SectionHeading id="featured-title" eyebrow="Featured" title="Start here" />
-          <div className="grid gap-6 md:grid-cols-2">
-            {featuredType && <PlaceTypeCard type={featuredType} />}
-            {featuredBrand && <BrandCard brand={featuredBrand} />}
           </div>
         </section>
       )}
 
       {collections.length > 0 && (
-        <section aria-labelledby="collections-title" className="container-page pb-section">
-          <SectionHeading id="collections-title" eyebrow="Collections" title="Curated collections" action={{ label: 'All collections', to: '/collections' }} />
-          <ul className="grid gap-4 md:grid-cols-3">
-            {collections.slice(0, 6).map((c) => (
-              <li key={c.id}>
-                <CollectionCard collection={c} />
-              </li>
+        <section aria-labelledby="collections-title" className="border-y border-line bg-paper-white py-section-lg">
+          <div className="container-page">
+            <SectionHeading
+              id="collections-title"
+              eyebrow="Collections"
+              title="Stories told in places"
+              intro="Curated trips through the atlas: the roadside, the wild, the Old West and more."
+              action={{ label: 'All collections', to: '/collections' }}
+            />
+            <ul className="grid gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+              {collections.slice(0, 6).map((c) => (
+                <li key={c.id}><CollectionCard collection={c} /></li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      <section aria-labelledby="states-title" className="container-page py-section-lg">
+        <SectionHeading id="states-title" eyebrow="By state" title="Four states to start" action={{ label: 'All states', to: '/states' }} />
+        <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          {states.map((s) => (
+            <li key={s.code}><StateCard state={s} /></li>
+          ))}
+        </ul>
+      </section>
+
+      {profiles.length > 0 && (
+        <section aria-labelledby="profiles-title" className="container-page pb-section-lg">
+          <SectionHeading
+            id="profiles-title"
+            eyebrow="Read in depth"
+            title="Places worth the detour"
+            intro="Profiles written for the atlas: what each place is, its story and the facts behind it, every one sourced."
+          />
+          <ul className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+            {profiles.map((p) => (
+              <li key={p.id}><PlaceCard place={p} /></li>
             ))}
           </ul>
         </section>
       )}
 
-      {cities.length > 0 && (
-        <section aria-labelledby="cities-title" className="container-page pb-section">
-          <SectionHeading id="cities-title" eyebrow="In depth" title="Cities in depth" action={{ label: 'All cities', to: '/cities' }} />
-          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {cities.map((c) => <li key={c.id}><CityCard city={c} /></li>)}
-          </ul>
-        </section>
-      )}
-
-      {categories.length > 0 && (
-        <section aria-labelledby="categories-title" className="container-page pb-section">
-          <SectionHeading id="categories-title" eyebrow="Categories" title="Explore by category" />
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <section aria-labelledby="kinds-title" className="border-t border-line bg-paper-white py-section-lg">
+        <div className="container-page">
+          <SectionHeading
+            id="kinds-title"
+            eyebrow="Kinds of places"
+            title="What America is made of"
+            intro={`${pluralize(counts.placeTypes, 'kind')} of place in ${pluralize(categories.length, 'category', 'categories')}, each explained, from travel centers to theme parks.`}
+            action={{ label: 'All place types', to: '/types' }}
+          />
+          <ul className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((c) => (
               <li key={c.id}>
                 <CategoryCard category={c} typeCount={getPlaceTypesByCategory(c.id).length} placeCount={getCategoryPlaceCount(c.id)} />
               </li>
             ))}
           </ul>
-        </section>
-      )}
-
-      <section aria-labelledby="states-title" className="container-page pb-section">
-        <SectionHeading id="states-title" eyebrow="States" title="Explore by state" action={{ label: 'All states', to: '/states' }} />
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {states.map((s) => (
-            <li key={s.code}>
-              <StateCard state={s} />
-            </li>
-          ))}
-        </ul>
+        </div>
       </section>
-
-      {profiles.length > 0 && (
-        <section aria-labelledby="profiles-title" className="container-page pb-section">
-          <SectionHeading id="profiles-title" eyebrow="Read in depth" title="In-depth profiles" />
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {profiles.map((p) => (
-              <li key={p.id}>
-                <PlaceCard place={p} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {newListings.length > 0 && (
-        <section aria-labelledby="recent-title" className="container-page pb-section">
-          <SectionHeading id="recent-title" eyebrow="New in the atlas" title="Recently added listings" action={{ label: 'Browse by state', to: '/states' }} />
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {newListings.map((p) => (
-              <li key={p.id}>
-                <PlaceCard place={p} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
     </>
   );
 }

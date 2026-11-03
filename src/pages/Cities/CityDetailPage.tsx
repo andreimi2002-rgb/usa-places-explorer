@@ -3,12 +3,12 @@ import { Link, useParams } from 'react-router';
 import { PlaceCard } from '../../components/cards/cards';
 import { categoryColor } from '../../components/maps/category-colors';
 import { PlaceBrowser } from '../../components/places/PlaceBrowser';
-import { Breadcrumbs, PageHeader, SectionHeading } from '../../components/ui/layout-primitives';
+import { PageHero, SectionHeading, StatsBand } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { SourceList } from '../../components/ui/SourceList';
 import { SourcedValueDisplay } from '../../components/ui/SourcedValueDisplay';
 import {
-  getCategoryBreakdown, getCityBySlug, getLocalityBreakdown, getPlacesByCity, getSources, getStateByCode,
+  getCategoryBreakdown, getCityBySlug, getImage, getLocalityBreakdown, getPlacesByCity, getSources, getStateByCode,
   isBasicListing,
 } from '../../lib/data-access';
 import { formatNumber, pluralize } from '../../lib/format';
@@ -44,25 +44,14 @@ export function CityDetailPage() {
         title={`${city.areaName}: places to explore`}
         description={`${formatNumber(places.length)} places across ${city.areaName}, ${state?.name}: theme parks, museums, parks, venues and more, each with its sources.`}
       />
-      <PageHeader eyebrow={`City area · ${state?.name ?? city.stateCode}`} title={city.areaName} intro={<p>{city.intro}</p>}>
-        <div className="mt-6">
-          <Breadcrumbs
-            items={[
-              { label: 'Home', to: '/' },
-              { label: 'Cities', to: '/cities' },
-              { label: city.areaName },
-            ]}
-          />
-        </div>
-        <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded border border-line bg-line sm:grid-cols-4">
-          {stats.map((s) => (
-            <div key={s.label} className="bg-paper p-4">
-              <dt className="text-caption font-semibold uppercase tracking-wider text-ink-muted">{s.label}</dt>
-              <dd className="mt-1 text-h2 font-semibold text-navy-900">{formatNumber(s.value)}</dd>
-            </div>
-          ))}
-        </dl>
-      </PageHeader>
+      <PageHero
+        image={city.heroImageId ? getImage(city.heroImageId) : undefined}
+        crumbs={[{ label: 'Home', to: '/' }, { label: 'Cities', to: '/cities' }, { label: city.areaName }]}
+        eyebrow={`City in depth · ${state?.name ?? city.stateCode}`}
+        title={city.areaName}
+        intro={<p>{city.intro}</p>}
+      />
+      <StatsBand stats={stats.map((s) => ({ label: s.label, value: formatNumber(s.value) }))} />
 
       <section aria-labelledby="map-title" className="container-page pt-section">
         <SectionHeading id="map-title" eyebrow="Map" title={`${city.areaName} on the map`} />

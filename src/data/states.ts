@@ -12,7 +12,7 @@ export const states: State[] = [
     name: 'Florida',
     intro:
       'A peninsula shaped by water and by visitors. Florida pairs subtropical wetlands and long coastlines with some of the most deliberately designed places in the country: resort complexes, planned towns and launch sites.',
-    heroImageId: null,
+    heroImageId: 'img-everglades-sunset',
     active: true,
   },
   {
@@ -21,7 +21,7 @@ export const states: State[] = [
     name: 'Texas',
     intro:
       'Distance defines Texas. Long highways connect its cities, and the places built along them (oversized travel centers, stadiums, stockyards and Gulf ports) tend to match the scale of the state itself.',
-    heroImageId: null,
+    heroImageId: 'img-fw-stockyards',
     active: true,
   },
   {
@@ -30,7 +30,7 @@ export const states: State[] = [
     name: 'Arizona',
     intro:
       'Desert, canyon and highway. Arizona brings together dramatic public lands, a fast-growing metropolitan core, and remnants of old Route 66 roadside culture in its northern towns.',
-    heroImageId: null,
+    heroImageId: 'img-grand-canyon-mather-inversion',
     active: true,
   },
   {
@@ -39,7 +39,7 @@ export const states: State[] = [
     name: 'California',
     intro:
       'A state of many landscapes and many economies. California holds landmark engineering, major seaports, a long coastline, desert oddities and some of the places that defined American theme parks and shopping.',
-    heroImageId: null,
+    heroImageId: 'img-golden-gate',
     active: true,
   },
 ];

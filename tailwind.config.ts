@@ -71,6 +71,9 @@ const config: Config = {
         h2: ['1.875rem', { lineHeight: '2.3rem', letterSpacing: '-0.015em' }],
         h1: ['2.5rem', { lineHeight: '2.9rem', letterSpacing: '-0.02em' }],
         display: ['3.5rem', { lineHeight: '3.8rem', letterSpacing: '-0.025em' }],
+        // Editorial headline sizes (serif)
+        'hero-sm': ['2.5rem', { lineHeight: '2.75rem', letterSpacing: '-0.02em' }],
+        hero: ['4.5rem', { lineHeight: '4.6rem', letterSpacing: '-0.03em' }],
         eyebrow: ['0.75rem', { lineHeight: '1rem', letterSpacing: '0.14em' }],
       },
       spacing: {
@@ -92,6 +95,7 @@ const config: Config = {
       boxShadow: {
         card: '0 1px 2px rgba(14, 34, 64, 0.06)',
         raised: '0 8px 24px -12px rgba(14, 34, 64, 0.25)',
+        lifted: '0 18px 40px -20px rgba(14, 34, 64, 0.45)',
       },
     },
   },

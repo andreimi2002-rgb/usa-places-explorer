@@ -1,9 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 import { Link, useParams } from 'react-router';
 import { BrandCard, PlaceCard } from '../../components/cards/cards';
-import { AtlasImage } from '../../components/ui/AtlasImage';
 import { ImageGallery } from '../../components/ui/ImageGallery';
-import { ArticleSection, Breadcrumbs, PageHeader } from '../../components/ui/layout-primitives';
+import { ArticleSection, PageHero } from '../../components/ui/layout-primitives';
 import { Seo } from '../../components/ui/Seo';
 import { SourceList } from '../../components/ui/SourceList';
 import { SourcedValueDisplay } from '../../components/ui/SourcedValueDisplay';
@@ -41,16 +40,13 @@ export function BrandDetailPage() {
     <>
       <Seo title={brand.name} description={brand.summary} />
 
-      <PageHeader eyebrow={typeLabel ? `Brand · ${typeLabel}` : 'Brand'} title={brand.name} intro={<p>{brand.summary}</p>}>
-        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <Breadcrumbs items={[{ label: 'Brands', to: '/brands' }, { label: brand.name }]} />
-          <VerificationBadge status={brand.verificationStatus} lastVerified={brand.lastVerified} />
-        </div>
-      </PageHeader>
-
-      <div className="container-page pt-10">
-        <AtlasImage image={heroImage} aspect="aspect-[16/9] md:aspect-[21/9]" loading="eager" />
-      </div>
+      <PageHero
+        image={heroImage}
+        crumbs={[{ label: 'Brands', to: '/brands' }, { label: brand.name }]}
+        eyebrow={typeLabel ? `Brand · ${typeLabel}` : 'Brand'}
+        title={brand.name}
+        intro={<p>{brand.summary}</p>}
+      />
 
       <div className="container-page grid gap-12 py-section lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
         <article className="min-w-0 space-y-14">
@@ -128,7 +124,8 @@ export function BrandDetailPage() {
           )}
 
           <section aria-labelledby="sources-title">
-            <h2 id="sources-title" className="text-h4">Sources</h2>
+            <h2 id="sources-title" className="font-sans text-h4">Sources</h2>
+            <div className="mt-2"><VerificationBadge status={brand.verificationStatus} lastVerified={brand.lastVerified} /></div>
             <div className="mt-4">
               <SourceList sources={sources} />
             </div>

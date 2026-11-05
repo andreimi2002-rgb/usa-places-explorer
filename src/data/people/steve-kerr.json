@@ -1,0 +1,72 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Steve Kerr",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Warriors franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1993,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "head-coach",
+      "from": 2014,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/GSW/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Titles as a Bulls player",
+      "value": "1996, 1997, 1998",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles as Warriors coach",
+      "value": "2015, 2017, 2018, 2022",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Warriors head coach",
+      "value": "Since 2014-15",
+      "source": "https://www.basketball-reference.com/teams/GSW/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Won three titles as a Bulls guard, then four more as coach of the Warriors.",
+  "image": {
+    "file": "File:1 steve kerr 2019 (cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1_steve_kerr_2019_%28cropped%29.jpg/960px-1_steve_kerr_2019_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1_steve_kerr_2019_(cropped).jpg",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Steve Kerr",
+    "caption": "Steve Kerr at Game 2 of 2019 NBA",
+    "licenseChecked": "2026-11-05"
+  }
+}

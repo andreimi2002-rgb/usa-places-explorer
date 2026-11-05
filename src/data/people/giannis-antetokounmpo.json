@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Giannis Antetokounmpo",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "13",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Acquired",
+      "value": "Trade with Milwaukee, July 2026",
+      "source": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Greek two-time MVP, traded from Milwaukee to Miami in 2026.",
+  "image": {
+    "file": "File:Giannis Antetokounmpo (24845003687) (cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/960px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Giannis_Antetokounmpo_(24845003687)_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Giannis Antetokounmpo",
+    "caption": "Giannis Antetokounmpo of the Milwaukee Bucks before the game against the Washington",
+    "licenseChecked": "2026-11-05"
+  }
+}

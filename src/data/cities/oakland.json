@@ -1,0 +1,26 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Oakland",
+  "region": "California",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "image": {
+    "file": "File:OAKLAND, CA, USA - Skyline and Bridge.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OAKLAND%2C_CA%2C_USA_-_Skyline_and_Bridge.JPG/960px-OAKLAND%2C_CA%2C_USA_-_Skyline_and_Bridge.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:OAKLAND,_CA,_USA_-_Skyline_and_Bridge.JPG",
+    "author": "Basil D Soufi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Oakland",
+    "caption": "The Oakland skyline as seen from the Oakland hills. Oakland, CA has a population of about",
+    "licenseChecked": "2026-11-05"
+  }
+}

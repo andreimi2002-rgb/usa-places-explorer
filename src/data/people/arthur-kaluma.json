@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Arthur Kaluma",
+  "position": {
+    "value": "Forward",
+    "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Creighton, Kansas State, Texas",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie forward on a two-way contract with the Lakers in 2026-27."
+}

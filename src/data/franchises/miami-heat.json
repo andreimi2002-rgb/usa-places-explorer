@@ -51,6 +51,21 @@
       "title": "Heat unveil statue of Dwyane Wade at Kaseya Center (NBA.com)",
       "url": "https://www.nba.com/news/heat-unveil-statue-of-dwyane-wade-at-kaseya-center-in-miami",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Miami Heat (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-mia",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat acquire Giannis Antetokounmpo and Bobby Portis Jr. (NBA.com)",
+      "url": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Miami Heat",
@@ -211,6 +226,13 @@
       "kind": "finals",
       "source": "https://www.nba.com/news/history-nba-champions",
       "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07",
+      "label": "Trade with Milwaukee for Giannis Antetokounmpo",
+      "kind": "trade",
+      "source": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "verified": "2026-11-05"
     }
   ],
   "summary": "South Florida’s team since 1988: three NBA titles, two of them in the years when Wade, James and Bosh played together.",
@@ -230,5 +252,48 @@
     "alonzo-mourning",
     "lebron-james",
     "pat-riley"
-  ]
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/heat/roster",
+    "players": [
+      {
+        "person": "giannis-antetokounmpo",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "bam-adebayo",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "andrew-wiggins",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "klay-thompson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "ryan-conwell",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tre-donaldson",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  }
 }

@@ -1,0 +1,64 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dave Cowens",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1970,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Boston",
+      "value": "1970–1980",
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Boston",
+      "value": "1974, 1976",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1991",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Boston from 1970 to 1980, winning the 1974, 1976 titles.",
+  "image": {
+    "file": "File:Dave Cowens - 2005 NBA Legends Tour - 1-21-05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Dave_Cowens_-_2005_NBA_Legends_Tour_-_1-21-05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dave_Cowens_-_2005_NBA_Legends_Tour_-_1-21-05.jpg",
+    "author": "Cpl. Lameen Witter",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dave Cowens",
+    "caption": "Dave Cowens posing with other NBA Legends and the Larry O'Brien NBA Championship Trophy",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Derrick White",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Colorado-Colorado Springs, Colorado",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard and a starter on the 2024 title team.",
+  "image": {
+    "file": "File:Derrick White 2023.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Derrick_White_2023.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Derrick_White_2023.png",
+    "author": "Boston Celtics",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Derrick White",
+    "caption": "Derrick White with the Boston Celtics in",
+    "licenseChecked": "2026-11-05"
+  }
+}

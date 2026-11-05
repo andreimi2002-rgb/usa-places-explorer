@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Matas Buzelis",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "2",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Young forward and a full-time starter in 2026-27.",
+  "image": {
+    "file": "File:Matas Buzelis Jan 14 2026.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Matas_Buzelis_Jan_14_2026.jpg/960px-Matas_Buzelis_Jan_14_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matas_Buzelis_Jan_14_2026.jpg",
+    "author": "Brady Saylor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Matas Buzelis",
+    "caption": "Matas Buzelis with the Chicago Bulls on January 14,",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Paolo Banchero",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2022, No. 1 overall, by Orlando",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "All-Star",
+      "value": "2024",
+      "source": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Magic’s franchise player, drafted first overall in 2022.",
+  "image": {
+    "file": "File:Paolo Banchero.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Paolo_Banchero.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Paolo_Banchero.png",
+    "author": "Al Ward",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Paolo Banchero",
+    "caption": "Duke Blue Devils power forward Paolo Banchero playing in TheCrawsOver Pro-Am",
+    "licenseChecked": "2026-11-05"
+  }
+}

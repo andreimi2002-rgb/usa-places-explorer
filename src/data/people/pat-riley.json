@@ -16,6 +16,11 @@
       "title": "Lakers franchise index (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/LAL/",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Knicks franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Pat Riley",
@@ -37,6 +42,14 @@
       "verified": "2026-11-05"
     },
     {
+      "franchise": "new-york-knicks",
+      "role": "head-coach",
+      "from": 1991,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/NYK/",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "miami-heat",
       "role": "head-coach",
       "from": 1995,
@@ -46,17 +59,17 @@
     },
     {
       "franchise": "miami-heat",
-      "role": "head-coach",
-      "from": 2005,
-      "to": 2008,
+      "role": "executive",
+      "from": 1995,
+      "to": null,
       "source": "https://www.nba.com/heat/bio/pat-riley",
       "verified": "2026-11-05"
     },
     {
       "franchise": "miami-heat",
-      "role": "executive",
-      "from": 1995,
-      "to": null,
+      "role": "head-coach",
+      "from": 2005,
+      "to": 2008,
       "source": "https://www.nba.com/heat/bio/pat-riley",
       "verified": "2026-11-05"
     }

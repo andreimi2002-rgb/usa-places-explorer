@@ -1,0 +1,64 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Kevin Garnett",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2007,
+      "to": 2013,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Boston",
+      "value": "2007–2013",
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Boston",
+      "value": "2008",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2020",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The defensive backbone of the 2008 champions.",
+  "image": {
+    "file": "File:Kevin Garnett 2008-01-13.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kevin_Garnett_2008-01-13.jpg/960px-Kevin_Garnett_2008-01-13.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Garnett_2008-01-13.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kevin Garnett",
+    "caption": "Kevin Garnett, American basketball player for the Boston Celtics (at time of",
+    "licenseChecked": "2026-11-05"
+  }
+}

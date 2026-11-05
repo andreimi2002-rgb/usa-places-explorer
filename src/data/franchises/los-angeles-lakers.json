@@ -46,6 +46,21 @@
       "title": "Los Angeles Lakers NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Los Angeles Lakers (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-lal",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "LeBron James signs with the 76ers (NBA.com)",
+      "url": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Los Angeles Lakers",
@@ -228,6 +243,13 @@
       "kind": "ownership",
       "source": "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter",
       "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07",
+      "label": "LeBron James leaves for Philadelphia; Luka Dončić becomes the leader",
+      "kind": "other",
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "verified": "2026-11-05"
     }
   ],
   "summary": "From Minneapolis to Hollywood: 17 NBA titles, Showtime, and a line of superstars from Mikan to Magic, Kobe and LeBron.",
@@ -282,5 +304,42 @@
     "shaquille-oneal",
     "lebron-james",
     "pat-riley"
-  ]
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/lakers/roster",
+    "players": [
+      {
+        "person": "luka-doncic",
+        "source": "https://www.nba.com/news/2026-27-season-preview-lal",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "austin-reaves",
+        "source": "https://www.nba.com/news/2026-27-season-preview-lal",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "cameron-carr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 24
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "arthur-kaluma",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Walt Frazier",
+  "sources": [
+    {
+      "title": "Walt Frazier stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/f/fraziwa01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1967,
+      "to": 1977,
+      "source": "https://www.basketball-reference.com/players/f/fraziwa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1967, No. 5 overall, by New York",
+      "source": "https://www.basketball-reference.com/players/f/fraziwa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1970, 1973",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1987",
+      "source": "https://www.basketball-reference.com/players/f/fraziwa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Stylish point guard of the Knicks’ 1970 and 1973 champions."
+}

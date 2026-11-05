@@ -101,3 +101,49 @@ Date: 2026-11-05. Branch `nba-teams` (one PR for all NBA teams; merged to produc
 6. **City populations** are not shown yet: the Census API needs a key.
 7. **Historical arenas** (Boston Garden, the Forum, Miami Arena) are not covered yet.
 8. **Player years** (draft, seasons, awards, Hall of Fame) come from Basketball-Reference, a reference site.
+
+---
+
+# Lot 2 — Trading cards, Finals tables, Bulls, Warriors, Knicks
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10).
+
+## 1. What was added
+
+| Area | What |
+|---|---|
+| Design | Trading-card player cards (flip for facts): Legend (gold), Core, Rookie ("RC"), Notable. Original design, no Topps branding. Players without a free photo get a team-colored initials card. |
+| Team pages | New sections: Core players (2026-27), Rookies (2026-27), Legends, Notable players, and a table of every NBA Finals appearance. |
+| League page | "Every NBA champion" table (1947–2026) and the most-titles list. |
+| Upgraded teams | Orlando Magic, Miami Heat, Los Angeles Lakers, Boston Celtics: core players, rookies and notable players. |
+| New teams | Chicago Bulls, Golden State Warriors (with its Philadelphia, San Francisco and Oakland identities), New York Knicks (2026 champions). |
+| Venues | United Center, Chase Center, Madison Square Garden. |
+| Cities | Chicago, San Francisco, New York; Oakland added as a stub for the Warriors' 1971–2019 identity. |
+| People | About 70 new: legends of the new teams (Jordan, Pippen, Phil Jackson, Curry, Barry, Chamberlain, Kerr, Reed, Frazier, Ewing), 2026-27 core players, rookies and notable former players. |
+| Rivalry | Cavaliers vs. Warriors (four straight Finals, 2015–2018). |
+| Glossary | Two-way contract, G League, rookie. |
+
+## 2. How the player lists were chosen
+
+- **Core players** follow NBA.com's 2026-27 season previews (dated September 22, 2026), not our own judgment.
+- **Rookies** are the first-year players on each 2026-27 roster (Basketball-Reference). Draft slots come from
+  the 2026 draft page. Some 2026 picks are not on their drafting team's roster (for example Orlando's pick 46,
+  Felix Okpara), so they are not listed; draft-day trades were not traced.
+- **Notable players**: years are from each club's all-time player list. **Titles on the card are computed**
+  from the Finals data for the seasons a player was on the roster; a player who missed a title season
+  through injury or a mid-season move could be credited wrongly. Please spot-check.
+- Year ranges are first-to-last season with the club; gaps (for example Hedo Türkoğlu's 2009–10 season away
+  from Orlando) are not shown.
+
+## 3. Things to check
+
+1. **2026 moves** (all from NBA.com): Giannis Antetokounmpo to Miami, Jaylen Brown to Philadelphia for Paul
+   George, LeBron James to Philadelphia, the Knicks' 2026 title with Brunson as Finals MVP.
+2. **Photos rejected** because Wikidata matched the wrong person or a group shot: Jaylen Brown, Horace Grant,
+   Nic Claxton, OG Anunoby. Pau Gasol's photo was skipped for an unclear license. These players show the
+   initials card.
+3. **No free photo** for most rookies and some current players (Andrew Wiggins, Brandin Podziemski, Caleb
+   Wilson and others).
+4. **Bulls owner**: described as "Jerry Reinsdorf's group (chairman since 1985)"; the 2015 NBA.com feature
+   is the source. Check that no change has happened since.
+5. **Knicks owner**: MSG Sports, which announced a planned split of the Knicks and Rangers in 2026.

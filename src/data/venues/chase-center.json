@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Chase Center timelines (Chase Center)",
+      "url": "https://chasecenter.com/timelines/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Chase Center",
+  "city": "san-francisco",
+  "opened": {
+    "value": "2019-09-03",
+    "source": "https://chasecenter.com/timelines/",
+    "verified": "2026-11-05",
+    "note": "Ribbon-cutting September 3, 2019; opening concert September 6."
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18064,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Golden State Warriors (privately financed)",
+    "source": "https://chasecenter.com/timelines/",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [],
+  "summary": "The Warriors’ privately financed arena in San Francisco’s Mission Bay, opened in 2019.",
+  "image": {
+    "file": "File:Chase Center San Francisco.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chase_Center_San_Francisco.jpg/1280px-Chase_Center_San_Francisco.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chase_Center_San_Francisco.jpg",
+    "author": "Dale Cruse from San Francisco, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of Chase Center in San Francisco",
+    "caption": "Chase Center, San Francisco",
+    "licenseChecked": "2026-11-05"
+  }
+}

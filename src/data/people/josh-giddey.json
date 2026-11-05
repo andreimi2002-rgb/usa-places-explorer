@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Josh Giddey",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Australian playmaker, projected to start in 2026-27.",
+  "image": {
+    "file": "File:Josh Giddey 2022.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Josh_Giddey_2022.jpg/960px-Josh_Giddey_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Josh_Giddey_2022.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Josh Giddey",
+    "caption": "Josh Giddey during the 2022 NBA All-Star Weekend at the Rocket Mortgage FieldHouse in",
+    "licenseChecked": "2026-11-05"
+  }
+}

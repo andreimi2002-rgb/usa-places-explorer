@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history (NBA.com)",
+      "url": "https://www.nba.com/bulls/news/history_001028.html",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "chicago-bulls",
   "name": "Chicago Bulls",
   "city": "chicago",
+  "from": {
+    "value": 1966,
+    "source": "https://www.nba.com/bulls/news/history_001028.html",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

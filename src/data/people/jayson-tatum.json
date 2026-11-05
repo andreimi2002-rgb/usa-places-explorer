@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jayson Tatum",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Boston’s star forward and a leader of the 2024 title team.",
+  "image": {
+    "file": "File:Jayson Tatum (51687926198) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Jayson_Tatum_%2851687926198%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jayson_Tatum_(51687926198)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jayson Tatum",
+    "caption": "Jayson",
+    "licenseChecked": "2026-11-05"
+  }
+}

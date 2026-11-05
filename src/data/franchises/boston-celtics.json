@@ -46,6 +46,21 @@
       "title": "Boston Celtics NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Boston Celtics (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-bos",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Celtics acquire Paul George (NBA.com)",
+      "url": "https://www.nba.com/celtics/news/press-release-20260706-celtics-acquire-nine-time-nba-all-star-paul-george-and-future-draft-picks",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Boston Celtics",
@@ -213,6 +228,13 @@
       "kind": "ownership",
       "source": "https://pr.nba.com/nba-board-of-governors-celtics-sale-bill-chisholm/",
       "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07-06",
+      "label": "Jaylen Brown traded to Philadelphia for Paul George",
+      "kind": "trade",
+      "source": "https://www.nba.com/celtics/news/press-release-20260706-celtics-acquire-nine-time-nba-all-star-paul-george-and-future-draft-picks",
+      "verified": "2026-11-05"
     }
   ],
   "summary": "The NBA’s most decorated club: 18 titles, eleven of them in the Bill Russell years.",
@@ -232,5 +254,52 @@
     "bill-russell",
     "larry-bird",
     "paul-pierce"
-  ]
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/celtics/roster",
+    "players": [
+      {
+        "person": "jayson-tatum",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bos",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "paul-george",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bos",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "derrick-white",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bos",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "chris-cenac-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 27
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dillon-mitchell",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 40
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  }
 }

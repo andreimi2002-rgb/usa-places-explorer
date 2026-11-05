@@ -82,11 +82,13 @@ function card(p: PersonEntry, tier: Tier, note?: string) {
     note,
   };
 }
-const legendCards = d.legends.flatMap((r) => (byId.get(r.id) ? [card(byId.get(r.id)!, 'legend')] : []));
-const coreCards = (d.corePlayers?.players ?? []).filter((x) => x.verified).flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, 'core')] : []));
+const legendCards = d.legends.flatMap((r) => (byId.get(r.id) && !coreIds.has(r.id) ? [card(byId.get(r.id)!, 'legend')] : []));
+const coreCards = (d.corePlayers?.players ?? [])
+  .filter((x) => x.verified)
+  .flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, legendIds.has(x.person.id) ? 'legend' : 'core')] : []));
 const rookieCards = (d.rookies?.players ?? [])
   .filter((x) => x.verified)
-  .flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, 'rookie', `Round ${x.round}, pick ${x.pick}, ${d.rookies!.draft} draft`)] : []));
+  .flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, 'rookie', x.draft ? `${x.draft.year} draft: round ${x.draft.round}, pick ${x.draft.pick}` : x.note)] : []));
 const notableCards = people
   .filter((p) => !legendIds.has(p.id) && !coreIds.has(p.id) && !rookieIds.has(p.id))
   .map((p) => card(p, 'notable'));
@@ -260,7 +262,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
       {[
         { key: 'core', title: `Core players (${d.corePlayers?.asOf ?? ''})`, cards: coreCards,
           intro: 'The faces of this season’s team, not the full roster.', link: d.corePlayers?.rosterUrl },
-        { key: 'rookies', title: `Rookies (${d.rookies?.draft ?? ''} draft)`, cards: rookieCards, intro: 'Players the club picked in the latest draft.' },
+        { key: 'rookies', title: `Rookies (${d.rookies?.asOf ?? ''})`, cards: rookieCards, intro: 'First-year players on this season’s roster.' },
         { key: 'legends', title: 'Legends', cards: legendCards, intro: 'The players and builders who define the club.' },
         { key: 'notable', title: 'Notable players', cards: notableCards, intro: 'Other well-known names who played or worked here.' },
       ].filter((g) => g.cards.length > 0).map((g) => (

@@ -1,0 +1,73 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Patrick Ewing",
+  "sources": [
+    {
+      "title": "Patrick Ewing stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: Patrick Ewing (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1985,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2001,
+      "to": 2002,
+      "source": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1985, No. 1 overall, by New York: the first pick of the draft lottery era",
+      "source": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1985–86",
+      "source": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Knicks records",
+      "value": "All-time leader in points, rebounds, blocks and steals",
+      "source": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2008",
+      "source": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Fifteen seasons as the Knicks’ center, and the first No. 1 pick of the lottery era.",
+  "image": {
+    "file": "File:Patrick Ewing Magic cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Patrick_Ewing_Magic_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Ewing_Magic_cropped.jpg",
+    "author": "Patrick_Ewing_Magic.jpg: Mike derivative work: Lpdrew",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Patrick Ewing",
+    "caption": "Patrick Ewing as assistant coach of the Orlando",
+    "licenseChecked": "2026-11-05"
+  }
+}

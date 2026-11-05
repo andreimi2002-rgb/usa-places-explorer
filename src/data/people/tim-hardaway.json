@@ -1,0 +1,61 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Tim Hardaway",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 1995,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1989,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "1995–2001",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2022",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "All-Star point guard for Golden State and then Miami.",
+  "image": {
+    "file": "File:20150902 Quest Multisport clinic Tim Hardaway (1).JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/20150902_Quest_Multisport_clinic_Tim_Hardaway_%281%29.JPG/960px-20150902_Quest_Multisport_clinic_Tim_Hardaway_%281%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:20150902_Quest_Multisport_clinic_Tim_Hardaway_(1).JPG",
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Tim Hardaway",
+    "caption": "Tim Hardaway at a youth basketball clinic in Chicago at Quest",
+    "licenseChecked": "2026-11-05"
+  }
+}

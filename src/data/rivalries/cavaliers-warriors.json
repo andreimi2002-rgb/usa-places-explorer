@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Top Moments: Cavaliers, Warriors battle 4 years straight in Finals (NBA.com)",
+      "url": "https://www.nba.com/news/history-top-moments-warriors-cavaliers-four-straight-finals",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Cavaliers vs. Warriors",
+  "franchises": [
+    "cleveland-cavaliers",
+    "golden-state-warriors"
+  ],
+  "facts": [
+    {
+      "label": "NBA Finals meetings",
+      "value": "4 in a row, 2015–2018: Golden State won 3, Cleveland 1",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Cleveland’s title",
+      "value": "2016, in seven games",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Opponents in four straight NBA Finals, from 2015 to 2018."
+}

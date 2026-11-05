@@ -1,20 +1,262 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Chicago Bulls history (NBA.com)",
+      "url": "https://www.nba.com/bulls/news/history_001028.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Reinsdorf looks back on 30 years with the Bulls (NBA.com)",
+      "url": "https://www.nba.com/bulls/features/reinsdorf-looks-back-30-years-bulls",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "United Center history (United Center)",
+      "url": "https://www.unitedcenter.com/venue/introduction-history/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chicago Bulls franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Chicago Bulls (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-chi",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chicago Bulls NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Chicago Bulls",
   "league": "nba",
   "division": "nba-central",
+  "founded": {
+    "value": 1966,
+    "source": "https://www.nba.com/bulls/news/history_001028.html",
+    "verified": "2026-11-05",
+    "note": "Joined the NBA for the 1966-67 season."
+  },
+  "firstSeason": {
+    "value": "1966-67",
+    "source": "https://www.nba.com/bulls/news/history_001028.html",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#CD1F43"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Red taken from the official logo file; black and white are standard values."
+  },
   "logo": {
     "file": "nba/chicago-bulls.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "united-center",
+      "from": 1994,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Tiago Splitter",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/CHI/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Jerry Reinsdorf’s group (chairman since 1985)",
+    "source": "https://www.nba.com/bulls/features/reinsdorf-looks-back-30-years-bulls",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1966",
+      "label": "Join the NBA as an expansion team; 33–48, the best first season by an expansion club",
+      "kind": "founding",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1984",
+      "label": "Draft Michael Jordan with the third pick",
+      "kind": "draft",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1985",
+      "label": "Jerry Reinsdorf’s group buys control of the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/bulls/features/reinsdorf-looks-back-30-years-bulls",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1987",
+      "label": "Trade for the rights to Scottie Pippen, picked fifth by Seattle",
+      "kind": "trade",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1989",
+      "label": "Phil Jackson replaces Doug Collins as head coach",
+      "kind": "other",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1993",
+      "label": "Third title in a row (1991, 1992, 1993); Jordan retires",
+      "kind": "finals",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1994-08",
+      "label": "United Center opens, replacing Chicago Stadium",
+      "kind": "venue",
+      "source": "https://www.unitedcenter.com/venue/introduction-history/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996",
+      "label": "72–10 regular season, then a fourth title",
+      "kind": "finals",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1998",
+      "label": "Sixth title in eight seasons, the second three-peat",
+      "kind": "finals",
+      "source": "https://www.nba.com/bulls/news/history_001028.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Draft Caleb Wilson fourth overall; Tiago Splitter becomes head coach",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Michael Jordan’s team: six titles in eight seasons in the 1990s, including the 72-win season of 1995-96.",
+  "legends": [
+    "michael-jordan",
+    "scottie-pippen",
+    "phil-jackson"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/bulls/roster",
+    "players": [
+      {
+        "person": "josh-giddey",
+        "source": "https://www.nba.com/news/2026-27-season-preview-chi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "matas-buzelis",
+        "source": "https://www.nba.com/news/2026-27-season-preview-chi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "nic-claxton",
+        "source": "https://www.nba.com/news/2026-27-season-preview-chi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "norman-powell",
+        "source": "https://www.nba.com/news/2026-27-season-preview-chi",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "caleb-wilson",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 4
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dailyn-swain",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 15
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jaylin-sellers",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tobe-awaka",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:United Center, Chicago, Illinois (42675295374).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/United_Center%2C_Chicago%2C_Illinois_%2842675295374%29.jpg/1280px-United_Center%2C_Chicago%2C_Illinois_%2842675295374%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Center,_Chicago,_Illinois_(42675295374).jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Exterior of the United Center in Chicago",
+    "caption": "United Center, Chicago",
+    "licenseChecked": "2026-11-05"
   }
 }

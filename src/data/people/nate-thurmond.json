@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Nate Thurmond",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1963,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Warriors",
+      "value": "1963–1974",
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1985",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for the Warriors from 1963 to 1974.",
+  "image": {
+    "file": "File:Nate Thurmond 1969.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Nate_Thurmond_1969.jpeg/960px-Nate_Thurmond_1969.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nate_Thurmond_1969.jpeg",
+    "author": "Robert Kingsbury",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Nate Thurmond",
+    "caption": "Professional basketball player Nate",
+    "licenseChecked": "2026-11-05"
+  }
+}

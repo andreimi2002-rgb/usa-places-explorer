@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dennis Scott",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1990,
+      "to": 1997,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "1990–1997",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Sharpshooting forward of the Shaq and Penny teams.",
+  "image": {
+    "file": "File:Dennis Scott (basketball) 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dennis_Scott_%28basketball%29_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dennis_Scott_(basketball)_2013.jpg",
+    "author": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Dennis Scott",
+    "caption": "Basketball player Dennis Scott,",
+    "licenseChecked": "2026-11-05"
+  }
+}

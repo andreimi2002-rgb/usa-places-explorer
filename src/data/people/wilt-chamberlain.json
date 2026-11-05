@@ -1,0 +1,104 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Wilt Chamberlain",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1968,
+      "to": 1973,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1959,
+      "to": 1965,
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1965,
+      "to": 1968,
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Lakers",
+      "value": "1968–1973",
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Lakers",
+      "value": "1972",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1979",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "4 times (1960, 1966, 1967, 1968)",
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1972",
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career high",
+      "value": "100 points in a game",
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "October 12, 1999",
+      "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The most dominant scorer of his era: Warriors, 76ers and Lakers, with titles in 1967 and 1972.",
+  "image": {
+    "file": "File:Wilt Chamberlain3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Wilt_Chamberlain3.jpg/960px-Wilt_Chamberlain3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain3.jpg",
+    "author": "Wilt_Chamberlain2.jpg: Fred Palumbo, World Telegram staff photographer derivative work: JoeJohnson2 (talk)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Wilt Chamberlain",
+    "caption": "edited (colour) picture Image:Wilt Chamberlain.jpg Wilt Chamberlain, American basketball",
+    "licenseChecked": "2026-11-05"
+  }
+}

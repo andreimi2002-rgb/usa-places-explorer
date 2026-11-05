@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Norman Powell",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "UCLA",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "11",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran guard signed in 2026 after an All-Star season with Miami.",
+  "image": {
+    "file": "File:Norman Powell and Malik Marquetti (cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Norman_Powell_and_Malik_Marquetti_%28cropped%29.jpg/960px-Norman_Powell_and_Malik_Marquetti_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norman_Powell_and_Malik_Marquetti_(cropped).jpg",
+    "author": "Neon Tommy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Norman Powell",
+    "caption": "Norman Powell (No. 4) of UCLA Bruins guarded by Malik Marquetti (24) of USC",
+    "licenseChecked": "2026-11-05"
+  }
+}

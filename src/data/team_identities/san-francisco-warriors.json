@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history (NBA.com)",
+      "url": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "golden-state-warriors",
+  "name": "San Francisco Warriors",
+  "city": "san-francisco",
+  "from": {
+    "value": 1962,
+    "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+    "verified": "2026-11-05"
+  },
+  "to": 1971,
+  "current": false
+}

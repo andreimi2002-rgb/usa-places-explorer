@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Mikal Bridges",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Villanova",
+      "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "8",
+      "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Wing who joined in 2024 and won the 2026 title.",
+  "image": {
+    "file": "File:20170213 Villanova-Depaul Mikal Bridges on the move.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/20170213_Villanova-Depaul_Mikal_Bridges_on_the_move.jpg/960px-20170213_Villanova-Depaul_Mikal_Bridges_on_the_move.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20170213_Villanova-Depaul_Mikal_Bridges_on_the_move.jpg",
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Mikal Bridges",
+    "caption": "Mikal Bridges for the 2016–17 Villanova Wildcats men's basketball team at Allstate",
+    "licenseChecked": "2026-11-05"
+  }
+}

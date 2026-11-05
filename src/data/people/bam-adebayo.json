@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Bam Adebayo",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Kentucky",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center who anchors Miami’s defense, with the Heat since 2017.",
+  "image": {
+    "file": "File:20160330 MCDAAG Bam Adebayo with the ball.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/20160330_MCDAAG_Bam_Adebayo_with_the_ball.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20160330_MCDAAG_Bam_Adebayo_with_the_ball.jpg",
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Bam Adebayo",
+    "caption": "Bam Adebayo at the 2016 McDonald's All-American Boys",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jaylen Brown",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2016,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Boston",
+      "value": "2016–2026",
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Boston",
+      "value": "2024",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Traded",
+      "value": "To Philadelphia for Paul George, July 2026",
+      "source": "https://www.nba.com/news/4-takeaways-jaylen-brown-paul-george-trade",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Ten seasons in Boston, including the 2024 title, before a 2026 trade to Philadelphia."
+}

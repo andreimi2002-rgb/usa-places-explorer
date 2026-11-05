@@ -161,17 +161,23 @@ const franchises = defineCollection({
     /** The faces of the current roster (not the full roster), confirmed for one season. */
     corePlayers: z
       .object({
-        asOf: z.string().regex(/^d{4}-d{2}$/),
+        asOf: z.string().regex(/^\d{4}-\d{2}$/),
         rosterUrl: z.url(),
         players: z.array(z.object({ person: reference('people'), source: z.url(), verified: isoDate.nullable() })),
       })
       .optional(),
-    /** Players the club picked in the most recent draft. */
+    /** First-year players on the current roster, with their draft slot when they were drafted. */
     rookies: z
       .object({
-        draft: year,
+        asOf: z.string().regex(/^\d{4}-\d{2}$/),
         players: z.array(
-          z.object({ person: reference('people'), round: z.number().int().min(1), pick: z.number().int().min(1), source: z.url(), verified: isoDate.nullable() }),
+          z.object({
+            person: reference('people'),
+            draft: z.object({ year, round: z.number().int().min(1), pick: z.number().int().min(1) }).optional(),
+            note: z.string().optional(),
+            source: z.url(),
+            verified: isoDate.nullable(),
+          }),
         ),
       })
       .optional(),

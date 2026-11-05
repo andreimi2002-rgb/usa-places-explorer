@@ -51,6 +51,16 @@
       "title": "Orlando Magic NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Orlando Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Orlando Magic",
@@ -298,5 +308,42 @@
     "dwight-howard",
     "nick-anderson",
     "pat-williams"
-  ]
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/magic/roster",
+    "players": [
+      {
+        "person": "paolo-banchero",
+        "source": "https://www.nba.com/news/2026-27-season-preview-orl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "franz-wagner",
+        "source": "https://www.nba.com/news/2026-27-season-preview-orl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "desmond-bane",
+        "source": "https://www.nba.com/news/2026-27-season-preview-orl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jalen-suggs",
+        "source": "https://www.nba.com/news/2026-27-season-preview-orl",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "izaiyah-nelson",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  }
 }

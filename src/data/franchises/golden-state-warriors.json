@@ -1,20 +1,288 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "What were the original NBA teams? (NBA.com)",
+      "url": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Warriors raise Philadelphia-era championship banners (NBA.com)",
+      "url": "https://www.nba.com/warriors/news/warriors-championship-banners-20141021",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "NBA approves sale of Warriors to Joe Lacob and Peter Guber (NBA.com)",
+      "url": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-golden-state-warriors-to-joe-lacob-and-peter-guber/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chase Center timelines (Chase Center)",
+      "url": "https://chasecenter.com/timelines/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Top Moments: Warriors set record with 73-win season (NBA.com)",
+      "url": "https://www.nba.com/news/history-top-moments-warriors-win-record-73-games",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Golden State Warriors franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Golden State Warriors (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-gsw",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Golden State Warriors NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Golden State Warriors",
   "league": "nba",
   "division": "nba-pacific",
+  "founded": {
+    "value": 1946,
+    "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+    "verified": "2026-11-05",
+    "note": "Founded as the Philadelphia Warriors for the first BAA season."
+  },
+  "firstSeason": {
+    "value": "1946-47",
+    "source": "https://www.basketball-reference.com/teams/GSW/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Royal blue",
+        "hex": "#1D428A"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FDB927"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/golden-state-warriors.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "chase-center",
+      "from": 2019,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Steve Kerr",
+    "person": "steve-kerr",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/GSW/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Joe Lacob and Peter Guber (since 2010)",
+    "source": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-golden-state-warriors-to-joe-lacob-and-peter-guber/",
+    "verified": "2026-11-05",
+    "note": "Sale completed November 12, 2010."
+  },
+  "milestones": [
+    {
+      "date": "1946",
+      "label": "Founded as the Philadelphia Warriors",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1947",
+      "label": "Win the first BAA/NBA championship, over the Chicago Stags",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1956",
+      "label": "Second title, still in Philadelphia",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1962",
+      "label": "Move to San Francisco",
+      "kind": "identity",
+      "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1971",
+      "label": "Cross the Bay to Oakland and become the Golden State Warriors",
+      "kind": "identity",
+      "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1975",
+      "label": "Rick Barry leads a Finals sweep of Washington",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/what-were-the-original-nba-teams",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2009",
+      "label": "Draft Stephen Curry with the seventh pick",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/c/curryst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2010-11-12",
+      "label": "Joe Lacob and Peter Guber complete their purchase",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-golden-state-warriors-to-joe-lacob-and-peter-guber/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "Steve Kerr becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/GSW/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2015",
+      "label": "First title in 40 years",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2016-04-13",
+      "label": "73rd win: a new NBA regular-season record (73–9)",
+      "kind": "other",
+      "source": "https://www.nba.com/news/history-top-moments-warriors-win-record-73-games",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Third title in four seasons",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019-09",
+      "label": "Return to San Francisco in the privately financed Chase Center",
+      "kind": "venue",
+      "source": "https://chasecenter.com/timelines/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2022",
+      "label": "Fourth title of the Curry era; Curry is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Philadelphia, San Francisco, Oakland and San Francisco again: seven titles, four of them in the Stephen Curry era.",
+  "legends": [
+    "stephen-curry",
+    "wilt-chamberlain",
+    "rick-barry",
+    "steve-kerr"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/warriors/roster",
+    "players": [
+      {
+        "person": "stephen-curry",
+        "source": "https://www.nba.com/news/2026-27-season-preview-gsw",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jimmy-butler",
+        "source": "https://www.nba.com/news/2026-27-season-preview-gsw",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "draymond-green",
+        "source": "https://www.nba.com/news/2026-27-season-preview-gsw",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "kristaps-porzingis",
+        "source": "https://www.nba.com/news/2026-27-season-preview-gsw",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "brandin-podziemski",
+        "source": "https://www.nba.com/news/2026-27-season-preview-gsw",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "yaxel-lendeborg",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 11
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "graham-ike",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Chase Center San Francisco.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chase_Center_San_Francisco.jpg/1280px-Chase_Center_San_Francisco.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chase_Center_San_Francisco.jpg",
+    "author": "Dale Cruse from San Francisco, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of Chase Center in San Francisco",
+    "caption": "Chase Center, San Francisco",
+    "licenseChecked": "2026-11-05"
   }
 }

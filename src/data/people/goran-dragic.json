@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Goran Dragić",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2014,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "2014–2021",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Slovenian point guard, a starter on the 2020 Finals team.",
+  "image": {
+    "file": "File:EuroBasket 2017 Finland vs Slovenia 37 (Goran Dragić cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/EuroBasket_2017_Finland_vs_Slovenia_37_%28Goran_Dragi%C4%87_cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:EuroBasket_2017_Finland_vs_Slovenia_37_(Goran_Dragi%C4%87_cropped).jpg",
+    "author": "Tuomas Vitikainen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Goran Dragić",
+    "caption": "EuroBasket 2017 Group A game between Finland and Slovenia at Hartwall Arena in Helsinki,",
+    "licenseChecked": "2026-11-05"
+  }
+}

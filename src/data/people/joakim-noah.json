@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Joakim Noah",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2007,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Chicago",
+      "value": "2007–2016",
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Chicago from 2007 to 2016.",
+  "image": {
+    "file": "File:Joakim Noah 3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Joakim_Noah_3.jpg/960px-Joakim_Noah_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joakim_Noah_3.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Joakim Noah",
+    "caption": "Wizards v/s Bulls",
+    "licenseChecked": "2026-11-05"
+  }
+}

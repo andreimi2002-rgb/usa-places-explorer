@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history (NBA.com)",
+      "url": "https://chasecenter.com/timelines/",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "golden-state-warriors",
   "name": "Golden State Warriors",
   "city": "san-francisco",
+  "from": {
+    "value": 2019,
+    "source": "https://chasecenter.com/timelines/",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

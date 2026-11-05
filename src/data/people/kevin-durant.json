@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Kevin Durant",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2016,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Warriors",
+      "value": "2016–2019",
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Warriors",
+      "value": "2017, 2018",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Joined the 73-win team’s core in 2016 and won two titles.",
+  "image": {
+    "file": "File:Kevin Durant Feb 2014.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kevin_Durant_Feb_2014.jpg/960px-Kevin_Durant_Feb_2014.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Durant_Feb_2014.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kevin Durant",
+    "caption": "Thunder at Wizards",
+    "licenseChecked": "2026-11-05"
+  }
+}

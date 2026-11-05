@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jameer Nelson",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2004,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "2004–2014",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard for a decade in Orlando, including the 2009 Finals run.",
+  "image": {
+    "file": "File:Jameer Nelson pump fake cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jameer_Nelson_pump_fake_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jameer_Nelson_pump_fake_cropped.jpg",
+    "author": "Mike",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jameer Nelson",
+    "caption": "Jameer Nelson vs San Antonio",
+    "licenseChecked": "2026-11-05"
+  }
+}

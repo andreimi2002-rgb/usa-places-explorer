@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Franz Wagner",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Michigan",
+      "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "German forward and the Magic’s second star.",
+  "image": {
+    "file": "File:Franz Wagner (basketball).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Franz_Wagner_%28basketball%29.jpg/960px-Franz_Wagner_%28basketball%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_Wagner_(basketball).jpg",
+    "author": "Sven Mandel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Franz Wagner",
+    "caption": "Germany vs Russia 80:75 during semi-final Basketball Albert Schweitzer Turnier at GBG",
+    "licenseChecked": "2026-11-05"
+  }
+}

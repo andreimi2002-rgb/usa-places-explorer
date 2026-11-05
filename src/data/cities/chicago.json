@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,6 @@
   "name": "Chicago",
   "region": "Illinois",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "summary": "Home of the Bulls since 1966."
 }

@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Rashard Lewis",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2007,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "2007–2011",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Orlando from 2007 to 2011.",
+  "image": {
+    "file": "File:Rashard Lewis.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Rashard_Lewis.jpg/960px-Rashard_Lewis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rashard_Lewis.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Rashard Lewis",
+    "caption": "Rashard Lewis at the Washington Wizards v/s Orlando Magic game on",
+    "licenseChecked": "2026-11-05"
+  }
+}

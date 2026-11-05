@@ -1,0 +1,64 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Bill Bradley",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1967,
+      "to": 1977,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New York",
+      "value": "1967–1977",
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with New York",
+      "value": "1970, 1973",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1983",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New York from 1967 to 1977, winning the 1970, 1973 titles.",
+  "image": {
+    "file": "File:Bill-Bradley-2020.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bill-Bradley-2020.jpg/960px-Bill-Bradley-2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill-Bradley-2020.jpg",
+    "author": "Jay Godwin",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bill Bradley",
+    "caption": "On Tuesday, Feb. 11, 2020, former U.S. Senator Bill Bradley (D-New Jersey) presented his",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Darrell Armstrong",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1994,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "1994–2003",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Orlando from 1994 to 2003.",
+  "image": {
+    "file": "File:Darrell Armstrong in 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Darrell_Armstrong_in_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darrell_Armstrong_in_2012.jpg",
+    "author": "Dallas Mavericks coaches Casey Smith, Darrell Armstrong, and Robert Hackett.jpg: C.T. Snow derivative work: Arbor to SJ",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Darrell Armstrong",
+    "caption": "Dallas Mavericks assistant coaches leave an exhibition game in Barcelona, Spain. Back to",
+    "licenseChecked": "2026-11-05"
+  }
+}

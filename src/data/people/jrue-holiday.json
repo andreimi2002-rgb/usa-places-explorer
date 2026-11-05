@@ -1,0 +1,42 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jrue Holiday",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2020,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "2020–2023",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Milwaukee",
+      "value": "2021",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 2020 to 2023, winning the 2021 title."
+}

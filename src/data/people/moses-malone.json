@@ -11,6 +11,14 @@
   ],
   "roles": [
     {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1976,
+      "to": 1982,
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "philadelphia-76ers",
       "role": "player",
       "from": 1982,

@@ -1,0 +1,62 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Oscar Robertson",
+  "sources": [
+    {
+      "title": "Oscar Robertson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: Oscar Robertson (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-oscar-robertson",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1960,
+      "to": 1970,
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1970,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "1971, with Milwaukee",
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1963–64",
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1960–61",
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1980",
+      "source": "https://www.basketball-reference.com/players/r/roberos01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Star guard of the Cincinnati Royals, then Kareem Abdul-Jabbar’s partner on Milwaukee’s 1971 title team."
+}

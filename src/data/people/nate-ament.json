@@ -1,0 +1,53 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Nate Ament",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Tennessee",
+      "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2026, round 1, pick 13",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie forward, picked 13th in 2026 and acquired in the trade with Miami."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Glenn Robinson",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1994,
+      "to": 2002,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "1994–2002",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 1994 to 2002."
+}

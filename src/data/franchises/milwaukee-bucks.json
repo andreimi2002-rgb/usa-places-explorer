@@ -1,20 +1,223 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Legendary moments: Bucks franchise begins in 1968 (NBA.com)",
+      "url": "https://www.nba.com/news/legendary-moments-bucks-franchise-awarded-1968",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bucks announce team president transition (NBA.com)",
+      "url": "https://www.nba.com/news/bucks-announce-team-president-transition",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bucks enter new era at Fiserv Forum (NBA.com)",
+      "url": "https://www.nba.com/news/milwaukee-bucks-new-arena-fiserv-forum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-mil",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Milwaukee Bucks",
   "league": "nba",
   "division": "nba-central",
+  "founded": {
+    "value": 1968,
+    "source": "https://www.nba.com/news/legendary-moments-bucks-franchise-awarded-1968",
+    "verified": "2026-11-05",
+    "note": "Franchise awarded January 22, 1968; first game October 16, 1968."
+  },
+  "firstSeason": {
+    "value": "1968-69",
+    "source": "https://www.nba.com/news/legendary-moments-bucks-franchise-awarded-1968",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Green",
+        "hex": "#00471A"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EDE0C5"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/milwaukee-bucks.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "fiserv-forum",
+      "from": 2018,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Taylor Jenkins",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/MIL/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Wes Edens, Jimmy and Dee Haslam, and Jamie Dinan",
+    "source": "https://www.nba.com/news/bucks-announce-team-president-transition",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1968-01-22",
+      "label": "NBA awards Milwaukee an expansion franchise",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/legendary-moments-bucks-franchise-awarded-1968",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1969",
+      "label": "Draft Kareem Abdul-Jabbar (then Lew Alcindor) first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1971",
+      "label": "First title, after a 66–16 season, with Abdul-Jabbar and Oscar Robertson",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/legendary-moments-bucks-franchise-awarded-1968",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1975",
+      "label": "Trade Abdul-Jabbar to the Lakers",
+      "kind": "trade",
+      "source": "https://www.nba.com/lakers/history/season-capsule",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2013",
+      "label": "Draft Giannis Antetokounmpo 15th overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/a/antetgi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Move into Fiserv Forum",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/milwaukee-bucks-new-arena-fiserv-forum",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2021",
+      "label": "Second title, 50 years after the first; Antetokounmpo is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.basketball-reference.com/players/a/antetgi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07",
+      "label": "Trade Antetokounmpo to Miami for Tyler Herro and young players",
+      "kind": "trade",
+      "source": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Champions in 1971 with Kareem and Oscar, and in 2021 with Giannis; rebuilding after his 2026 trade.",
+  "legends": [
+    "kareem-abdul-jabbar",
+    "oscar-robertson",
+    "giannis-antetokounmpo",
+    "sidney-moncrief"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/bucks/roster",
+    "players": [
+      {
+        "person": "tyler-herro",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mil",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "kelel-ware",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mil",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "myles-turner",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mil",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "brayden-burries",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 10
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "nate-ament",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 13
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "bogoljub-markovic",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Žydrūnas Ilgauskas",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1997,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "1997–2010",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Lithuanian center who played thirteen seasons for Cleveland."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Gainbridge Fieldhouse",
+  "city": "indianapolis",
+  "capacity": {
+    "basketball": {
+      "value": 17923,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Pacers’ downtown Indianapolis home since the 1999-2000 season."
+}

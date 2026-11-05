@@ -1,0 +1,49 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Isiah Thomas",
+  "sources": [
+    {
+      "title": "Isiah Thomas stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1981,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1981, No. 2 overall, by Detroit",
+      "source": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1989, 1990",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1990",
+      "source": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2000",
+      "source": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The point guard and leader of the Pistons teams that won the 1989 and 1990 titles."
+}

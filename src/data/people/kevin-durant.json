@@ -22,6 +22,11 @@
       "title": "Oklahoma City Thunder's NBA championships (NBA.com)",
       "url": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -39,6 +44,14 @@
       "from": 2016,
       "to": 2019,
       "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
       "verified": "2026-11-05"
     }
   ],

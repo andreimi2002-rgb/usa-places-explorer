@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Little Caesars Arena",
+  "city": "detroit",
+  "capacity": {
+    "basketball": {
+      "value": 20332,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Pistons’ downtown home since the 2017-18 season."
+}

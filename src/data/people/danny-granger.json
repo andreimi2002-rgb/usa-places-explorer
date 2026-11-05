@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Danny Granger",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 2005,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Indiana",
+      "value": "2005–2014",
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Indiana from 2005 to 2014."
+}

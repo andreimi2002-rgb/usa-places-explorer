@@ -12,9 +12,22 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1994,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "orlando-magic",
       "role": "player",

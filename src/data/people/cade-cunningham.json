@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Cade Cunningham",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Oklahoma State",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard and leader of a Pistons team coming off a 60-win season."
+}

@@ -22,9 +22,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/OKC/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1996,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "oklahoma-city-thunder",
       "role": "player",

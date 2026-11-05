@@ -1,20 +1,229 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Tilman J. Fertitta new owner of the Houston Rockets (NBA.com)",
+      "url": "https://www.nba.com/rockets/news/tilman-j-fertitta-new-owner-houston-rockets",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-hou",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Houston Rockets",
   "league": "nba",
   "division": "nba-southwest",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/HOU/",
+    "verified": "2026-11-05",
+    "note": "Founded as the San Diego Rockets."
+  },
+  "firstSeason": {
+    "value": "1967-68",
+    "source": "https://www.basketball-reference.com/teams/HOU/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#CE0E2D"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFD520"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/houston-rockets.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "toyota-center",
+      "from": 2003,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Ime Udoka",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/HOU/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Tilman Fertitta (since 2017)",
+    "source": "https://www.nba.com/rockets/news/tilman-j-fertitta-new-owner-houston-rockets",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded in San Diego",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/HOU/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1971",
+      "label": "Move to Houston",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/HOU/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Moses Malone arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1984",
+      "label": "Draft Hakeem Olajuwon first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1992",
+      "label": "Rudy Tomjanovich becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1994",
+      "label": "First title, over New York in seven games",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "Second straight title, a sweep of Orlando",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2002",
+      "label": "Draft Yao Ming first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Move into Toyota Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2017",
+      "label": "Tilman Fertitta buys the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/rockets/news/tilman-j-fertitta-new-owner-houston-rockets",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "Kevin Durant joins",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "San Diego’s team until 1971, then Houston’s: back-to-back titles in 1994 and 1995 with Hakeem Olajuwon.",
+  "legends": [
+    "hakeem-olajuwon",
+    "rudy-tomjanovich",
+    "moses-malone",
+    "yao-ming"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/rockets/roster",
+    "players": [
+      {
+        "person": "kevin-durant",
+        "source": "https://www.nba.com/news/2026-27-season-preview-hou",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "alperen-sengun",
+        "source": "https://www.nba.com/news/2026-27-season-preview-hou",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "amen-thompson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-hou",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "fred-vanvleet",
+        "source": "https://www.nba.com/news/2026-27-season-preview-hou",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "bruce-thornton",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 31
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "quadir-copeland",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/HOU/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

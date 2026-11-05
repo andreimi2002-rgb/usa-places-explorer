@@ -7,6 +7,16 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/OKC/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -16,6 +26,22 @@
       "from": 2009,
       "to": 2012,
       "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2012,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
       "verified": "2026-11-05"
     }
   ],

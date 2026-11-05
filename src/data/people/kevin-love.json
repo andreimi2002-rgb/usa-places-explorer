@@ -1,0 +1,42 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kevin Love",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2014,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "2014–2023",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Cleveland",
+      "value": "2016",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Cleveland from 2014 to 2023, winning the 2016 title."
+}

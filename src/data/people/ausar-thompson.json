@@ -1,0 +1,41 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Ausar Thompson",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "3",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Wing and All-Defensive First Team selection."
+}

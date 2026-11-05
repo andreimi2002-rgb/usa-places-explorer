@@ -1,0 +1,45 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Mark Price",
+  "sources": [
+    {
+      "title": "Mark Price stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/pricema01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1986,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/players/p/pricema01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1997,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/players/p/pricema01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1986, round 2, pick 25, by Dallas",
+      "source": "https://www.basketball-reference.com/players/p/pricema01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "All-Star",
+      "value": "4 times",
+      "source": "https://www.basketball-reference.com/players/p/pricema01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Four-time All-Star point guard of the Cavaliers’ teams of the late 1980s and early 1990s."
+}

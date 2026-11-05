@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Fieldhouse celebrates 30 years (NBA.com)",
+      "url": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Rocket Arena",
+  "city": "cleveland",
+  "opened": {
+    "value": "1994-10-17",
+    "source": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 19432,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "Gund Arena",
+      "from": 1994,
+      "to": 2005,
+      "source": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "verified": "2026-11-05"
+    },
+    {
+      "name": "Quicken Loans Arena",
+      "from": 2005,
+      "to": 2019,
+      "source": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "verified": "2026-11-05"
+    },
+    {
+      "name": "Rocket Mortgage FieldHouse",
+      "from": 2019,
+      "to": null,
+      "source": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "verified": null
+    }
+  ],
+  "summary": "Downtown Cleveland’s arena since 1994, home of the 2016 champions."
+}

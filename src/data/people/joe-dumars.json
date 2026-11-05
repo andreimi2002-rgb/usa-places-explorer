@@ -1,0 +1,49 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Joe Dumars",
+  "sources": [
+    {
+      "title": "Joe Dumars stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1985,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1985, No. 18 overall, by Detroit",
+      "source": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1989, 1990",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1989",
+      "source": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2006",
+      "source": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard who spent his whole career in Detroit and was Finals MVP in 1989."
+}

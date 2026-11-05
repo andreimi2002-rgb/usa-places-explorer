@@ -1,0 +1,51 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Chuck Daly",
+  "sources": [
+    {
+      "title": "Chuck Daly coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "head-coach",
+      "from": 1983,
+      "to": 1992,
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "head-coach",
+      "from": 1997,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Titles as coach",
+      "value": "1989, 1990, with Detroit",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1994 (coach)",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "May 9, 2009",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Coached the Pistons to back-to-back titles in 1989 and 1990, and later coached Orlando."
+}

@@ -21,10 +21,26 @@
   "name": "LeBron James",
   "roles": [
     {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2003,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "miami-heat",
       "role": "player",
       "from": 2010,
       "to": 2014,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2014,
+      "to": 2018,
       "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
       "verified": "2026-11-05"
     },

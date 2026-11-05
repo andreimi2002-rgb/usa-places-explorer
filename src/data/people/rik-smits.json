@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Rik Smits",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 1988,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Indiana",
+      "value": "1988–2000",
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Dutch center, a key player on the 2000 Finals team."
+}

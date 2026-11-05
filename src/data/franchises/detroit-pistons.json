@@ -1,20 +1,230 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Behind the name: the Detroit Pistons (NBA.com)",
+      "url": "https://www.nba.com/pistons/features/behindthename.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "A wild ride (NBA.com)",
+      "url": "https://www.nba.com/pistons/features/davidson_partone.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pistons in talks about downtown move (NBA.com)",
+      "url": "https://www.nba.com/news/detroit-pistons-talks-about-downtown-move",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-det",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Detroit Pistons",
   "league": "nba",
   "division": "nba-central",
+  "founded": {
+    "value": 1941,
+    "source": "https://www.nba.com/pistons/features/behindthename.html",
+    "verified": "2026-11-05",
+    "note": "Founded in Fort Wayne as the Zollner Pistons of the NBL; joined the BAA in 1948."
+  },
+  "firstSeason": {
+    "value": "1948-49",
+    "source": "https://www.basketball-reference.com/teams/DET/",
+    "verified": "2026-11-05",
+    "note": "First BAA/NBA season."
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#1D428A"
+      },
+      {
+        "name": "Red",
+        "hex": "#C8102E"
+      },
+      {
+        "name": "Gray",
+        "hex": "#B3B2B1"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/detroit-pistons.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "little-caesars-arena",
+      "from": 2017,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "J.B. Bickerstaff",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/DET/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Tom Gores (since 2011)",
+    "source": "https://www.nba.com/pistons/features/davidson_partone.html",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1941",
+      "label": "Fred Zollner’s Fort Wayne Zollner Pistons begin play",
+      "kind": "founding",
+      "source": "https://www.nba.com/pistons/features/behindthename.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1957",
+      "label": "Zollner moves the team to Detroit",
+      "kind": "identity",
+      "source": "https://www.nba.com/pistons/features/behindthename.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1981",
+      "label": "Draft Isiah Thomas second overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/t/thomais01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1983",
+      "label": "Chuck Daly becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1989",
+      "label": "First NBA title, a sweep of the Lakers; Joe Dumars is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1990",
+      "label": "Back-to-back titles; Isiah Thomas is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2004",
+      "label": "Third title, over the Lakers, with Ben Wallace at center",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2011",
+      "label": "Tom Gores buys the team from Karen Davidson",
+      "kind": "ownership",
+      "source": "https://www.nba.com/pistons/features/davidson_partone.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2017",
+      "label": "Move downtown to Little Caesars Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Founded in Fort Wayne in 1941, in Detroit since 1957: champions in 1989, 1990 and 2004.",
+  "legends": [
+    "isiah-thomas",
+    "joe-dumars",
+    "ben-wallace",
+    "chuck-daly"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/pistons/roster",
+    "players": [
+      {
+        "person": "cade-cunningham",
+        "source": "https://www.nba.com/news/2026-27-season-preview-det",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ausar-thompson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-det",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jalen-duren",
+        "source": "https://www.nba.com/news/2026-27-season-preview-det",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "ebuka-okorie",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 17
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ugonna-onyenso",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 53
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

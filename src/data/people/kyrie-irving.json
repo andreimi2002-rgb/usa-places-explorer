@@ -1,0 +1,42 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kyrie Irving",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "2011–2017",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Cleveland",
+      "value": "2016",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard on the Cavaliers’ 2016 championship team."
+}

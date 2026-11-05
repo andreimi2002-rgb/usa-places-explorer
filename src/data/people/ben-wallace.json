@@ -1,0 +1,64 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Ben Wallace",
+  "sources": [
+    {
+      "title": "Ben Wallace stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1999,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2000,
+      "to": 2006,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2009,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "2004, with Detroit",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "4 times (2002, 2003, 2005, 2006)",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2021",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Four-time Defensive Player of the Year and the anchor of the 2004 champions."
+}

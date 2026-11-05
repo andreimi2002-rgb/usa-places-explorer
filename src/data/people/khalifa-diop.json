@@ -1,0 +1,41 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Khalifa Diop",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie center in his first NBA season with Cleveland."
+}

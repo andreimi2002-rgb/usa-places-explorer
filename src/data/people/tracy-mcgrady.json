@@ -22,6 +22,14 @@
       "to": 2004,
       "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
       "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2004,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-05"
     }
   ],
   "facts": [

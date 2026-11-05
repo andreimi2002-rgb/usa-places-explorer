@@ -1,0 +1,43 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Sidney Moncrief",
+  "sources": [
+    {
+      "title": "Sidney Moncrief stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1979,
+      "to": 1989,
+      "source": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1979, No. 5 overall, by Milwaukee",
+      "source": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "1983, 1984",
+      "source": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2019",
+      "source": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Two-time Defensive Player of the Year and the Bucks’ star of the 1980s."
+}

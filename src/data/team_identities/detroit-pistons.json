@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/pistons/features/behindthename.html",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "detroit-pistons",
   "name": "Detroit Pistons",
   "city": "detroit",
+  "from": {
+    "value": 1957,
+    "source": "https://www.nba.com/pistons/features/behindthename.html",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

@@ -29,9 +29,13 @@ Assume no prior knowledge. Every piece of jargon is explained the first time it 
 
 **Order of leagues**
 
-1. NBA (in progress: skeleton + Orlando Magic pilot)
-2. NFL, MLB, NHL
-3. MLS, WNBA, NWSL, PWHL, UFL
+1. NBA (in progress: 10 of 30 teams complete, the rest in lots of five)
+2. MLS, right after the NBA (the closest sport to a European reader; may move to after the NFL)
+3. NFL
+4. MLB
+5. NHL
+6. College sports (NCAA universities), after the five pro leagues; scope to be agreed then
+7. WNBA, NWSL, PWHL, UFL
 
 **Rules**
 
@@ -132,12 +136,15 @@ The whole site is `noindex, nofollow` until launch, controlled by one switch: `i
 | Phase | Content | State |
 |---|---|---|
 | 0 | Archive the old project, scaffold the encyclopedia | Done |
-| 1 | NBA skeleton (league, conferences, divisions, all current franchises as stubs) + Orlando Magic pilot | Done, under review |
-| 2 | Remaining NBA franchises to `complete`, one at a time; key rivalries, legends, more glossary | Next, after review |
-| 3 | NFL, MLB, NHL skeletons, then pilots; sport extensions in use | Planned |
-| 4 | MLS, WNBA, NWSL, PWHL, UFL | Planned |
-| 5 | Romanian translation (Astro i18n routes; data stays shared) | Planned |
-| 6 | Launch: final license review, switch `indexable` on | Planned |
+| 1 | NBA: skeleton, Orlando Magic pilot, then all 30 teams in lots (one PR, one production merge) | In progress: 10 of 30 |
+| 2 | MLS: skeleton, pilot, lots; soccer venue extension | Next after the NBA |
+| 3 | NFL | Planned |
+| 4 | MLB | Planned |
+| 5 | NHL | Planned |
+| 6 | College sports: universities as entities, linked to players' colleges; pilot on one major conference and 2–3 sports, then grow | Planned, to be detailed |
+| 7 | WNBA, NWSL, PWHL, UFL | Planned |
+| 8 | Romanian translation (Astro i18n routes; data stays shared) | Planned |
+| 9 | Launch: final license review, switch `indexable` on | Planned |
 
 ## 12. Progress tracking
 

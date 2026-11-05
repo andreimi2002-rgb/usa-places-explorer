@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Mel Daniels",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 1968,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "ABA titles",
+      "value": "1970, 1972, 1973",
+      "source": "https://www.nba.com/pacers/classic",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2012",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center of the Pacers’ ABA dynasty."
+}

@@ -179,3 +179,25 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10).
    in that city (for example the Minneapolis Lakers' five titles count for Minneapolis, not Los Angeles).
 5. **Still without a photo** (silhouette cards): Allan Houston, Pau Gasol (license unclear), Brandin Podziemski and
    most 2026 rookies.
+
+---
+
+# Lot 4 — Pistons, Rockets, Bucks, Cavaliers, Pacers
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions are listed here.
+
+## Things to check
+
+1. **Pistons' founding year**: we use 1941 (Fort Wayne Zollner Pistons, NBL), from NBA.com's "Behind the name";
+   NBA.com's roster page says 1948, the year the team joined the BAA. Both are explained on the page.
+2. **Cavaliers' arena**: NBA.com lists it as Rocket Arena. The earlier names (Gund Arena 1994–2005, Quicken Loans
+   Arena 2005–2019) are sourced; the years of "Rocket Mortgage FieldHouse" and the switch to "Rocket Arena" are not,
+   so that former name is stored but hidden.
+3. **Opening dates missing**: Little Caesars Arena, Toyota Center and Gainbridge Fieldhouse show only their first
+   NBA season (from NBA.com's arena list), not an exact opening date.
+4. **Pacers' ABA titles** (1970, 1972, 1973) come from NBA.com but are not in the Finals table, which covers the
+   NBA only.
+5. **New links between teams** found while researching: Ben Wallace, Chuck Daly, Mark Price and Patrick Ewing all
+   also played or coached in Orlando; Oscar Robertson is linked to the Cincinnati Royals (today's Kings).
+6. **2026-27 moves**: Kevin Durant in Houston, James Harden in Cleveland, Tyler Herro and Kel'el Ware in Milwaukee
+   (from the Antetokounmpo trade), all from Basketball-Reference rosters and NBA.com previews.

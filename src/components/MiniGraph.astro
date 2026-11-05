@@ -1,0 +1,75 @@
+---
+/** A small graph of an entity's direct connections, generated from the data. */
+import { neighborhood, nodeKey, type NodeType } from '../lib/graph';
+
+interface Props {
+  type: NodeType;
+  id: string;
+  title?: string;
+}
+const { type, id, title = 'Explore connections' } = Astro.props;
+const graph = await neighborhood(type, id, 1);
+const focus = nodeKey(type, id);
+---
+
+<section class="minigraph" aria-labelledby={`mg-${id}`}>
+  <div class="head">
+    <h2 id={`mg-${id}`}>{title}</h2>
+    <a href={`/graph/?focus=${encodeURIComponent(focus)}`} class="chip">Open full graph →</a>
+  </div>
+  <div class="canvas" data-graph={JSON.stringify(graph)} data-focus={focus} role="img" aria-label={`Graph of ${graph.nodes.length - 1} entities directly connected to this page`}></div>
+  <ul class="list" aria-label="Connected entities">
+    {
+      graph.nodes
+        .filter((n) => n.id !== focus)
+        .map((n) => (
+          <li>
+            {n.href ? <a href={n.href}>{n.label}</a> : <span>{n.label}</span>} <span class="subtle">({n.type})</span>
+          </li>
+        ))
+    }
+  </ul>
+</section>
+
+<script>
+  import { renderGraph } from '../scripts/graph-client';
+  const boxes = document.querySelectorAll<HTMLElement>('.minigraph .canvas');
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      const el = e.target as HTMLElement;
+      io.unobserve(el);
+      renderGraph(el, JSON.parse(el.dataset.graph!), { focus: el.dataset.focus, layout: 'concentric' });
+    }
+  });
+  boxes.forEach((b) => io.observe(b));
+</script>
+
+<style>
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: var(--step-3);
+  }
+  .canvas {
+    height: 360px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: radial-gradient(circle at center, #121b2b, var(--bg-sunk));
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--step--1);
+  }
+</style>

@@ -1,0 +1,16 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "boston-celtics",
+  "name": "Boston Celtics",
+  "city": "boston",
+  "to": null,
+  "current": true
+}

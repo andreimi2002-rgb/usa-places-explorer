@@ -1,0 +1,62 @@
+---
+/** A Commons photo with its credit line (author, license, source). */
+interface Props {
+  image: {
+    url: string;
+    page: string;
+    author: string;
+    license: string;
+    licenseUrl: string | null;
+    alt: string;
+    caption?: string;
+  };
+  aspect?: string;
+  eager?: boolean;
+  class?: string;
+}
+const { image, aspect = '16 / 9', eager = false, class: className } = Astro.props;
+---
+
+<figure class:list={['photo', className]}>
+  <div class="frame" style={`aspect-ratio: ${aspect}`}>
+    <img src={image.url} alt={image.alt} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  </div>
+  <figcaption>
+    {image.caption && <span>{image.caption}. </span>}
+    <span class="credit"
+      >Photo: {image.author} · {
+        image.licenseUrl ? (
+          <a href={image.licenseUrl} rel="noopener license" target="_blank">
+            {image.license}
+          </a>
+        ) : (
+          image.license
+        )
+      } · <a href={image.page} rel="noopener" target="_blank">Wikimedia Commons</a></span
+    >
+  </figcaption>
+</figure>
+
+<style>
+  .photo {
+    margin: 0;
+  }
+  .frame {
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-subtle);
+  }
+  figcaption a {
+    color: var(--text-muted);
+  }
+</style>

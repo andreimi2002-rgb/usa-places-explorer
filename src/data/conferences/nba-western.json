@@ -1,0 +1,14 @@
+{
+  "status": "active",
+  "progress": "researching",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Western Conference",
+  "league": "nba",
+  "order": 2
+}

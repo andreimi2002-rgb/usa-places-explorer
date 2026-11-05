@@ -1,0 +1,44 @@
+---
+import EntityHeader from '../components/EntityHeader.astro';
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Search" description="Search every team, venue, city, person and glossary term." searchable={false}>
+  <EntityHeader eyebrow="Search" title="Find anything" crumbs={[{ label: 'Home', href: '/' }, { label: 'Search' }]} />
+  <div class="container section">
+    <div id="search"></div>
+    <p id="search-missing" class="subtle" hidden>
+      The search index is built with the production build (npm run build). It is not available in the dev server.
+    </p>
+  </div>
+</Base>
+
+<script>
+  // Pagefind writes its UI and index into /pagefind/ after `astro build`.
+  const ui = '/pagefind/pagefind-ui.js';
+  try {
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = '/pagefind/pagefind-ui.css';
+    document.head.appendChild(css);
+    await import(/* @vite-ignore */ ui);
+    // @ts-expect-error PagefindUI is a global set by the script
+    new window.PagefindUI({ element: '#search', showSubResults: true, showImages: false });
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) (document.querySelector('#search input') as HTMLInputElement | null)?.setAttribute('value', q);
+  } catch {
+    document.getElementById('search-missing')!.hidden = false;
+  }
+</script>
+
+<style is:global>
+  #search {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #79a9ff;
+    --pagefind-ui-text: #f1f4f9;
+    --pagefind-ui-background: #111827;
+    --pagefind-ui-border: #33415a;
+    --pagefind-ui-tag: #151d2c;
+    --pagefind-ui-font: Inter, system-ui, sans-serif;
+  }
+</style>

@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Orlando Magic 1989-90 schedule and results (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/1990_games.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1997 East First Round, Magic vs. Heat (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/playoffs/1997-nba-eastern-conference-first-round-magic-vs-heat.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Season Review: 1989-90 (NBA.com)",
+      "url": "https://www.nba.com/news/history-season-review-1989-90",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat–Magic rivalry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Heat%E2%80%93Magic_rivalry",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Heat vs. Magic",
+  "nickname": "The Sunshine State rivalry",
+  "franchises": [
+    "miami-heat",
+    "orlando-magic"
+  ],
+  "facts": [
+    {
+      "label": "First meeting",
+      "value": "November 28, 1989: Magic 104, Heat 99, in Orlando",
+      "source": "https://www.basketball-reference.com/teams/ORL/1990_games.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Playoff series",
+      "value": "One: 1997 East First Round, Miami won 3–2",
+      "source": "https://www.basketball-reference.com/playoffs/NBA_1997.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Best individual series",
+      "value": "Penny Hardaway scored 42 and 41 points in Games 3 and 4 of 1997",
+      "source": "https://www.basketball-reference.com/playoffs/1997-nba-eastern-conference-first-round-magic-vs-heat.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Florida’s two NBA teams, born a season apart, have shared a state, a division and one unforgettable playoff series."
+}

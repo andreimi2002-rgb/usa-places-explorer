@@ -1,0 +1,16 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "atlanta-hawks",
+  "name": "Atlanta Hawks",
+  "city": "atlanta",
+  "to": null,
+  "current": true
+}

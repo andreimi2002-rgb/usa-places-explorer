@@ -1,0 +1,421 @@
+---
+import { getCollection, getEntries, getEntry, render } from 'astro:content';
+import FactBox from '../../components/FactBox.astro';
+import LocalTime from '../../components/LocalTime.astro';
+import Logo from '../../components/Logo.astro';
+import MiniGraph from '../../components/MiniGraph.astro';
+import Photo from '../../components/Photo.astro';
+import ProgressNote from '../../components/ProgressNote.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Timeline from '../../components/Timeline.astro';
+import Base from '../../layouts/Base.astro';
+import {
+  championshipsOf, cityOf, identitiesOf, peopleOf, prose, rivalriesOf, routes, structureOf,
+} from '../../lib/entities';
+import { formatDate, isVerified, shown } from '../../lib/facts';
+
+export async function getStaticPaths() {
+  const franchises = await getCollection('franchises');
+  return franchises.map((f) => ({ params: { id: f.id }, props: { franchise: f } }));
+}
+
+const { franchise } = Astro.props;
+const d = franchise.data;
+const { league, conference, division } = await structureOf(franchise);
+const city = await cityOf(franchise.id);
+const identities = await Promise.all(
+  (await identitiesOf(franchise.id)).map(async (i) => ({ i, city: await getEntry(i.data.city) })),
+);
+const people = await peopleOf(franchise.id);
+const rivalries = await rivalriesOf(franchise.id);
+const championships = await championshipsOf(franchise.id);
+const titles = championships.filter((c) => c.data.level === 'league' && c.data.winner.id === franchise.id && c.data.verified);
+const finalsLost = championships.filter((c) => c.data.level === 'league' && c.data.runnerUp?.id === franchise.id && c.data.verified);
+const venueLinks = await Promise.all(d.venues.map(async (v) => ({ ...v, entry: await getEntry(v.venue) })));
+const currentVenue = venueLinks.find((v) => v.to === null && v.verified)?.entry;
+
+const sections = {
+  why: await prose('franchises', franchise.id, 'why'),
+  history: await prose('franchises', franchise.id, 'history'),
+  venue: await prose('franchises', franchise.id, 'venue'),
+  culture: await prose('franchises', franchise.id, 'fan-culture'),
+};
+const rendered = Object.fromEntries(
+  await Promise.all(Object.entries(sections).map(async ([k, e]) => [k, e ? (await render(e)).Content : undefined])),
+) as Record<keyof typeof sections, any>;
+
+const colors = isVerified(d.colors) ? d.colors.value : [];
+const accent = colors[0] ? { primary: colors[0].hex, secondary: colors[2]?.hex ?? colors[1]?.hex } : undefined;
+const stub = d.progress === 'not-started';
+const legends = people.filter((p) => p.data.roles.some((r) => r.franchise.id === franchise.id && r.role !== 'head-coach'));
+const rivalryEntries = await Promise.all(
+  rivalries.map(async (r) => ({ r, other: (await getEntries(r.data.franchises)).find((f) => f.id !== franchise.id) })),
+);
+const description = d.summary ?? `${d.name}: history, home venue, legends and rivalries, explained for newcomers.`;
+const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data.image)];
+---
+
+<Base title={d.name} description={description} accent={accent}>
+  <!-- 1. Hero -->
+  <header class="hero">
+    {d.image && <img class="hero-bg" src={d.image.url} alt="" />}
+    <div class="container hero-inner">
+      <Logo path={d.logo} name={d.name} size={112} />
+      <div>
+        <span class="eyebrow">
+          {league?.data.shortName}{conference && ` · ${conference.data.name}`}{division && ` · ${division.data.name}`}
+        </span>
+        <h1>{d.name}</h1>
+        <ul class="hero-facts">
+          {city && <li><span>City</span><a href={routes.cities(city.id)}>{city.data.name}</a></li>}
+          {shown(d.founded) && <li><span>Founded</span>{shown(d.founded)}</li>}
+          {currentVenue && <li><span>Home</span><a href={routes.venues(currentVenue.id)}>{currentVenue.data.name}</a></li>}
+          <li><span>NBA titles</span>{titles.length}</li>
+          {colors.length > 0 && (
+            <li>
+              <span>Colors</span>
+              <span class="swatches">
+                {colors.map((c) => <span class="swatch" style={`background:${c.hex}`} title={c.name} />)}
+                <span class="sr-only">{colors.map((c) => c.name).join(', ')}</span>
+              </span>
+            </li>
+          )}
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  {stub && (
+    <div class="container section">
+      <ProgressNote progress={d.progress} kind="team" />
+    </div>
+  )}
+
+  {!stub && (
+    <>
+      <!-- 2. Why this team matters -->
+      <section class="section container why" aria-labelledby="why-title">
+        <div class="why-grid">
+          <div>
+            <span class="eyebrow">New to the {d.name}?</span>
+            <h2 id="why-title">Why this team matters</h2>
+            <div class="lede">{rendered.why && <rendered.why components={{ Term }} />}</div>
+          </div>
+          <FactBox
+            title="At a glance"
+            rows={[
+              { label: 'First season', value: d.firstSeason?.value, source: d.firstSeason?.source, verified: d.firstSeason?.verified },
+              { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
+              {
+                label: `Head coach (${d.headCoach?.asOf ?? ''})`,
+                value: d.headCoach?.name,
+                source: d.headCoach?.source,
+                verified: d.headCoach?.verified,
+              },
+              {
+                label: 'NBA Finals reached',
+                value: [...titles, ...finalsLost].map((c) => c.data.season).sort().join(', ') || undefined,
+                source: finalsLost[0]?.data.source,
+                verified: finalsLost[0]?.data.verified ?? titles[0]?.data.verified,
+              },
+            ]}
+          />
+        </div>
+      </section>
+
+      <!-- 3. History by eras -->
+      {rendered.history && (
+        <section class="section container" aria-labelledby="history-title">
+          <div class="section-head"><h2 id="history-title">History by eras</h2></div>
+          <div class="prose"><rendered.history components={{ Term }} /></div>
+        </section>
+      )}
+
+      <!-- 4. Home venue -->
+      {currentVenue && (
+        <section class="section container" aria-labelledby="venue-title">
+          <div class="section-head"><h2 id="venue-title">Home venue</h2></div>
+          <div class="split">
+            {currentVenue.data.image && <Photo image={currentVenue.data.image} aspect="4 / 3" />}
+            <div>
+              <h3><a href={routes.venues(currentVenue.id)}>{currentVenue.data.name}</a></h3>
+              <div class="prose">{rendered.venue && <rendered.venue components={{ Term }} />}</div>
+              <ul class="venue-years">
+                {venueLinks.filter((v) => v.verified).map((v) => (
+                  <li>
+                    <a href={routes.venues(v.venue.id)}>{v.entry?.data.name}</a>
+                    <span class="subtle"> {v.from}–{v.to ?? 'today'}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- 5. Championships & milestones -->
+      {d.milestones.length > 0 && (
+        <section class="section container" aria-labelledby="timeline-title">
+          <div class="section-head"><h2 id="timeline-title">Championships &amp; milestones</h2></div>
+          <p class="muted">
+            {titles.length === 0
+              ? `${d.name} have not won an NBA title yet. They have reached the NBA Finals ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`
+              : `${titles.length} NBA title${titles.length === 1 ? '' : 's'}.`}
+          </p>
+          <Timeline items={d.milestones} />
+        </section>
+      )}
+
+      <!-- 6. Legends -->
+      {legends.length > 0 && (
+        <section class="section container" aria-labelledby="legends-title">
+          <div class="section-head"><h2 id="legends-title">Legends</h2></div>
+          <ul class="grid grid-3 cards">
+            {legends.map((p) => {
+              const role = p.data.roles.find((r) => r.franchise.id === franchise.id)!;
+              return (
+                <li class="card">
+                  {p.data.image ? (
+                    <img src={p.data.image.url} alt={p.data.image.alt} loading="lazy" class="portrait" />
+                  ) : (
+                    <div class="portrait placeholder" aria-hidden="true">{p.data.name.split(' ').map((w) => w[0]).join('').slice(0, 2)}</div>
+                  )}
+                  <div class="card-body">
+                    <span class="eyebrow">{role.role === 'founder' ? 'Co-founder' : 'Player'} · {role.from}–{role.to ?? ''}</span>
+                    <h3><a href={routes.people(p.id)} class="stretched">{p.data.name}</a></h3>
+                    <p class="muted">{p.data.summary}</p>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      <!-- 7. Rivalries -->
+      {rivalryEntries.length > 0 && (
+        <section class="section container" aria-labelledby="rivalries-title">
+          <div class="section-head"><h2 id="rivalries-title">Rivalries</h2></div>
+          <ul class="grid grid-2 cards">
+            {rivalryEntries.map(({ r, other }) => (
+              <li class="card rivalry">
+                <div class="card-body">
+                  <span class="eyebrow">vs. {other?.data.name}{r.data.nickname && ` · ${r.data.nickname}`}</span>
+                  <h3><a href={routes.rivalries(r.id)} class="stretched">{r.data.name}</a></h3>
+                  <p class="muted">{r.data.summary}</p>
+                  <span class="chip">Why it matters →</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <!-- 8. City & fan culture -->
+      {rendered.culture && (
+        <section class="section container" aria-labelledby="culture-title">
+          <div class="section-head"><h2 id="culture-title">City &amp; fan culture</h2></div>
+          <div class="split">
+            <div class="prose"><rendered.culture components={{ Term }} /></div>
+            {city?.data.image && <Photo image={city.data.image} aspect="4 / 3" />}
+          </div>
+        </section>
+      )}
+    </>
+  )}
+
+  <!-- 9. Identity history -->
+  <section class="section container" aria-labelledby="identity-title">
+    <div class="section-head"><h2 id="identity-title">Identity history</h2></div>
+    <p class="muted">
+      A franchise can change its name or city and stay the same organization. These are every name this franchise has used.
+    </p>
+    <ol class="identities">
+      {identities.map(({ i, city: c }) => (
+        <li class:list={[{ current: i.data.current }]}>
+          <strong>{i.data.name}</strong>
+          <span class="muted"> · {c?.data.name}</span>
+          <span class="subtle"> · {shown(i.data.from) ?? 'start date not yet verified'}–{i.data.to ?? 'today'}</span>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- 10. Explore connections -->
+  <div class="section container">
+    <MiniGraph type="franchise" id={franchise.id} />
+  </div>
+
+  <!-- 11. Local time vs. Europe -->
+  {city && (
+    <div class="section container narrow">
+      <LocalTime city={city.data.name} timezone={city.data.timezone} />
+    </div>
+  )}
+
+  <!-- 12. Sources & image credits -->
+  <div class="section container">
+    <SourceList sources={d.sources} credits={credits} />
+    <p class="subtle updated">Status: {d.progress.replace('-', ' ')}. Facts checked {formatDate(d.sources[0]?.accessed ?? '2026-11-05')}.</p>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(4rem, 12vw, 8rem) 0 3rem;
+    background: radial-gradient(ellipse at top left, color-mix(in srgb, var(--team-1) 45%, transparent), transparent 60%), var(--bg-sunk);
+    border-bottom: 1px solid var(--line);
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(10, 15, 26, 0.3), var(--bg) 95%);
+  }
+  .hero-inner {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .hero .eyebrow {
+    color: color-mix(in srgb, var(--team-1) 55%, #fff);
+  }
+  .hero-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.75rem;
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+  }
+  .hero-facts li {
+    display: grid;
+    font-weight: 600;
+  }
+  .hero-facts li > span:first-child {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-subtle);
+    font-weight: 600;
+  }
+  .hero-facts a {
+    color: var(--text);
+  }
+  .swatches {
+    display: flex;
+    gap: 0.3rem;
+    padding-top: 0.25rem;
+  }
+  .why-grid {
+    display: grid;
+    gap: 2rem;
+  }
+  @media (min-width: 960px) {
+    .why-grid {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      align-items: start;
+    }
+  }
+  .why .eyebrow,
+  .card .eyebrow {
+    color: color-mix(in srgb, var(--team-1) 55%, #fff);
+  }
+  .split {
+    display: grid;
+    gap: 2rem;
+  }
+  @media (min-width: 900px) {
+    .split {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: start;
+    }
+  }
+  .split h3 {
+    margin-bottom: 0.75rem;
+  }
+  .split h3 a {
+    color: var(--text);
+  }
+  .venue-years {
+    padding-left: 1.1rem;
+  }
+  .cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card:hover {
+    border-color: var(--team-1);
+    transform: translateY(-2px);
+  }
+  .card-body {
+    padding: 1.1rem 1.25rem 1.25rem;
+  }
+  .card h3 {
+    font-size: var(--step-3);
+    margin-bottom: 0.4rem;
+  }
+  .card h3 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .stretched::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  .portrait {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center 20%;
+    background: var(--surface);
+  }
+  .placeholder {
+    display: grid;
+    place-items: center;
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--text-subtle);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--team-1) 35%, var(--surface)), var(--surface));
+  }
+  .rivalry {
+    border-left: 4px solid #e24b4b;
+  }
+  .identities {
+    padding-left: 1.2rem;
+  }
+  .identities li.current strong {
+    color: var(--team-1);
+  }
+  .narrow {
+    max-width: 46rem;
+  }
+  .updated {
+    margin-top: 1.5rem;
+  }
+</style>

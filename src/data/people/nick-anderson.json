@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Nick Anderson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/anderni01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic draft history (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Nick Anderson",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1989,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/players/a/anderni01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1989, No. 11 overall: the first draft pick in Magic history",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Seasons in Orlando",
+      "value": "10 (1989–90 to 1998–99)",
+      "source": "https://www.basketball-reference.com/players/a/anderni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2014",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The franchise’s first-ever draft pick, a shooting guard who stayed for its first ten seasons.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:Nick Anderson 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Nick_Anderson_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nick_Anderson_2012.jpg",
+    "author": "Back9Network",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Nick Anderson smiling in a white polo shirt, 2012",
+    "caption": "Anderson in 2012"
+  }
+}

@@ -1,0 +1,89 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import FactBox from '../../components/FactBox.astro';
+import LocalTime from '../../components/LocalTime.astro';
+import MiniGraph from '../../components/MiniGraph.astro';
+import Photo from '../../components/Photo.astro';
+import ProgressNote from '../../components/ProgressNote.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Base from '../../layouts/Base.astro';
+import { franchisesAtVenue, prose, routes } from '../../lib/entities';
+import { formatDate, formatNumber } from '../../lib/facts';
+
+export async function getStaticPaths() {
+  return (await getCollection('venues')).map((v) => ({ params: { id: v.id }, props: { venue: v } }));
+}
+const { venue } = Astro.props;
+const d = venue.data;
+const city = await getEntry(d.city);
+const teams = await franchisesAtVenue(venue.id);
+const body = await prose('venues', venue.id, 'body');
+const Body = body ? (await render(body)).Content : undefined;
+const basketball = d.capacity?.basketball;
+---
+
+<Base title={d.name} description={d.summary ?? `${d.name}: history, teams and how to visit.`}>
+  <EntityHeader
+    eyebrow={`Venue · ${city?.data.name ?? ''}${d.status === 'historical' ? ' · historical' : ''}`}
+    title={d.name}
+    intro={d.summary}
+    image={d.image}
+    crumbs={[{ label: 'Home', href: '/' }, ...(city ? [{ label: city.data.name, href: routes.cities(city.id) }] : []), { label: d.name }]}
+  />
+  <div class="container section layout">
+    <article>
+      <ProgressNote progress={d.progress} kind="venue page" />
+      {Body && <div class="prose"><Body components={{ Term }} /></div>}
+      {d.image && <Photo image={d.image} class="mt" />}
+      {teams.length > 0 && (
+        <>
+          <h2 class="mt">Teams that play or played here</h2>
+          <ul>
+            {teams.map((t) => {
+              const stint = t.data.venues.find((v) => v.venue.id === venue.id)!;
+              return (
+                <li>
+                  <a href={routes.franchises(t.id)}>{t.data.name}</a>
+                  <span class="subtle"> {stint.from}–{stint.to ?? 'today'}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      )}
+    </article>
+    <aside>
+      <FactBox
+        title="Key facts"
+        rows={[
+          { label: 'Opened', value: d.opened ? formatDate(d.opened.value) : undefined, source: d.opened?.source, verified: d.opened?.verified },
+          { label: 'Closed', value: d.closed ? formatDate(d.closed.value) : undefined, source: d.closed?.source, verified: d.closed?.verified },
+          { label: 'Basketball capacity', value: basketball ? formatNumber(basketball.value) : undefined, source: basketball?.source, verified: basketball?.verified },
+          { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
+          ...d.formerNames.map((n) => ({ label: 'Former name', value: `${n.name}${n.from ? ` (${n.from}–${n.to ?? ''})` : ''}`, source: n.source, verified: n.verified })),
+          { label: 'City', value: city?.data.name, href: city ? routes.cities(city.id) : undefined },
+        ]}
+      />
+      {city && <div class="mt"><LocalTime city={city.data.name} timezone={city.data.timezone} /></div>}
+    </aside>
+  </div>
+  <div class="container section"><MiniGraph type="venue" id={venue.id} /></div>
+  <div class="container section"><SourceList sources={d.sources} credits={[d.image]} /></div>
+</Base>
+
+<style>
+  .layout {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 960px) {
+    .layout {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  }
+  .mt {
+    margin-top: 2rem;
+  }
+</style>

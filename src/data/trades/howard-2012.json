@@ -1,0 +1,17 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Magic acquire six players, five picks in Howard trade (NBA.com)",
+      "url": "https://www.nba.com/magic/news/magic-acquire-six-players-five-draft-picks-howard-trade",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "person": "dwight-howard",
+  "from": "orlando-magic",
+  "to": "los-angeles-lakers",
+  "date": "2012-08-10",
+  "summary": "A four-team deal sent Howard to the Lakers; Orlando received six players and five future draft picks.",
+  "verified": "2026-11-05"
+}

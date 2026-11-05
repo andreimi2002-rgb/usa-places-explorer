@@ -1,0 +1,43 @@
+---
+import { getCollection, getEntries, render } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Base from '../../layouts/Base.astro';
+import { prose, routes } from '../../lib/entities';
+
+export async function getStaticPaths() {
+  return (await getCollection('glossary')).map((g) => ({ params: { id: g.id }, props: { term: g } }));
+}
+const { term } = Astro.props;
+const d = term.data;
+const related = await getEntries(d.related);
+const body = await prose('glossary', term.id, 'body');
+const Body = body ? (await render(body)).Content : undefined;
+---
+
+<Base title={`${d.term}: what it means`} description={d.short}>
+  <EntityHeader eyebrow="Glossary" title={d.term} intro={d.short} crumbs={[{ label: 'Home', href: '/' }, { label: 'Glossary', href: '/glossary/' }, { label: d.term }]} />
+  <div class="container section">
+    {Body && <div class="prose"><Body components={{ Term }} /></div>}
+    {related.length > 0 && (
+      <p class="related">
+        Related:{' '}
+        {related.map((r, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={routes.glossary(r.id)}>{r.data.term}</a>
+          </>
+        ))}
+      </p>
+    )}
+  </div>
+  <div class="container section"><SourceList sources={d.sources} /></div>
+</Base>
+
+<style>
+  .related {
+    margin-top: 2rem;
+    color: var(--text-muted);
+  }
+</style>

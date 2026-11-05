@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import Base from '../../layouts/Base.astro';
+import { routes } from '../../lib/entities';
+
+const terms = (await getCollection('glossary')).sort((a, b) => a.data.term.localeCompare(b.data.term));
+---
+
+<Base title="Glossary" description="US sports jargon explained in plain English: the draft, free agency, the playoffs and more.">
+  <EntityHeader
+    eyebrow="Glossary"
+    title="Speak American sports"
+    intro="The words that confuse newcomers, explained once and linked wherever they appear on the site."
+    crumbs={[{ label: 'Home', href: '/' }, { label: 'Glossary' }]}
+  />
+  <div class="container section">
+    <ul class="terms">
+      {
+        terms.map((t) => (
+          <li>
+            <h2><a href={routes.glossary(t.id)}>{t.data.term}</a></h2>
+            <p class="muted">{t.data.short}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .terms {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  @media (min-width: 800px) {
+    .terms {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  li {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+    background: var(--bg-raised);
+  }
+  h2 {
+    font-size: var(--step-3);
+    text-transform: none;
+    margin-bottom: 0.4rem;
+  }
+  h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  h2 a:hover {
+    color: var(--accent-strong);
+  }
+</style>

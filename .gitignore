@@ -1,4 +1,8 @@
 node_modules
 dist
+.astro
+.netlify
 *.local
+.env
+.env.*
 .DS_Store

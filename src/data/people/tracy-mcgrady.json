@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Tracy McGrady stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Tracy McGrady",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2000,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA scoring champion",
+      "value": "2002–03 (32.1 points per game), 2003–04 (28.0)",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2017",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2018",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "A scoring machine who led the whole league in points twice in an Orlando uniform."
+}

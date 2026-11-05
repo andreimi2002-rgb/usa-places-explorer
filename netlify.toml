@@ -1,8 +1,15 @@
+# American Sports Encyclopedia: static Astro build + Pagefind index.
+# The X-Robots-Tag header comes from dist/_headers, written at build time
+# from siteConfig.indexable (src/site.config.ts).
 [build]
   command = "npm run build"
   publish = "dist"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[build.environment]
+  NODE_VERSION = "22"
+
+# Long cache for hashed build assets.
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

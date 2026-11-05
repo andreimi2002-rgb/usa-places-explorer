@@ -1,0 +1,132 @@
+---
+/** Internal progress board. Always noindex, and excluded from search. */
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { routes } from '../lib/entities';
+import { reviewItems } from '../lib/review';
+
+const groups = [
+  { name: 'Leagues', key: 'leagues', link: routes.leagues },
+  { name: 'Franchises', key: 'franchises', link: routes.franchises },
+  { name: 'Venues', key: 'venues', link: routes.venues },
+  { name: 'Cities', key: 'cities', link: routes.cities },
+  { name: 'People', key: 'people', link: routes.people },
+  { name: 'Rivalries', key: 'rivalries', link: routes.rivalries },
+  { name: 'Glossary', key: 'glossary', link: routes.glossary },
+  { name: 'Championships', key: 'championships' },
+  { name: 'Trades', key: 'trades' },
+  { name: 'Team identities', key: 'team_identities' },
+  { name: 'Conferences', key: 'conferences' },
+  { name: 'Divisions', key: 'divisions' },
+] as const;
+const order = ['not-started', 'researching', 'content-ready', 'under-review', 'complete'];
+const data = await Promise.all(
+  groups.map(async (g) => ({ ...g, entries: (await getCollection(g.key)).sort((a, b) => a.id.localeCompare(b.id)) })),
+);
+const totals = Object.fromEntries(order.map((o) => [o, 0]));
+for (const g of data) for (const e of g.entries) totals[e.data.progress]++;
+const review = await reviewItems();
+---
+
+<Base title="Status" description="Internal progress board." noindex searchable={false}>
+  <div class="container section">
+    <span class="eyebrow">Internal</span>
+    <h1>Status</h1>
+    <p class="muted">Every entity and its progress. This page is never indexed.</p>
+    <ul class="totals">
+      {order.map((o) => <li class={`p-${o}`}><strong>{totals[o]}</strong> {o.replace('-', ' ')}</li>)}
+    </ul>
+
+    <h2 class="mt">Needs review ({review.length})</h2>
+    <table>
+      <thead><tr><th>Entity</th><th>Field</th><th>Issue</th><th>Detail</th></tr></thead>
+      <tbody>
+        {review.map((r) => (
+          <tr>
+            <td>{r.collection}/{r.id}</td>
+            <td><code>{r.path}</code></td>
+            <td>{r.kind === 'unverified-fact' ? 'Unverified fact (hidden on site)' : 'Image license not checked'}</td>
+            <td class="muted">{r.detail}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    {data.map((g) => (
+      <section class="mt">
+        <h2>{g.name} ({g.entries.length})</h2>
+        <table>
+          <thead><tr><th>Id</th><th>Status</th><th>Progress</th><th>Sources</th></tr></thead>
+          <tbody>
+            {g.entries.map((e) => (
+              <tr>
+                <td>{'link' in g && g.link ? <a href={g.link(e.id)}>{e.id}</a> : e.id}</td>
+                <td>{e.data.status}</td>
+                <td><span class={`badge p-${e.data.progress}`}>{e.data.progress}</span></td>
+                <td>{e.data.sources.length}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  h1 {
+    font-size: var(--step-5);
+  }
+  .mt {
+    margin-top: 2.5rem;
+  }
+  .totals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+  }
+  .totals li {
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--step--1);
+    margin-top: 0.75rem;
+    display: block;
+    overflow-x: auto;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-subtle);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+  }
+  .badge {
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+  }
+  .p-complete {
+    color: var(--ok);
+  }
+  .p-under-review,
+  .p-content-ready {
+    color: var(--warn);
+  }
+  .p-not-started {
+    color: var(--text-subtle);
+  }
+</style>

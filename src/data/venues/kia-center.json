@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Kia Center celebrates 15 legendary years",
+      "url": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando’s premier downtown destination to be renamed Kia Center",
+      "url": "https://www.nba.com/magic/news/orlando-premier-downtown-sports-and-entertainment-destination-to-be-renamed-kia-center-20231220",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Kia Center",
+  "city": "orlando",
+  "opened": {
+    "value": "2010-10-01",
+    "source": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18846,
+      "source": "https://en.wikipedia.org/wiki/Kia_Center",
+      "verified": null,
+      "note": "Widely reported NBA capacity; the venue’s own rental page lists 18,500. Not confirmed from a primary source."
+    }
+  },
+  "owner": {
+    "value": "City of Orlando",
+    "source": "https://en.wikipedia.org/wiki/Kia_Center",
+    "verified": null,
+    "note": "Reported by secondary sources only."
+  },
+  "formerNames": [
+    {
+      "name": "Amway Center",
+      "from": 2010,
+      "to": 2023,
+      "source": "https://www.nba.com/magic/news/orlando-premier-downtown-sports-and-entertainment-destination-to-be-renamed-kia-center-20231220",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Downtown Orlando’s arena and the Magic’s home since 2010, renamed from Amway Center to Kia Center in December 2023.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:Kia Center 12-22-24.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kia_Center_12-22-24.jpg/1280px-Kia_Center_12-22-24.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kia_Center_12-22-24.jpg",
+    "author": "Csab6482",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "The Kia Center arena with its glass corner tower and large video screens",
+    "caption": "Kia Center, December 2024"
+  }
+}

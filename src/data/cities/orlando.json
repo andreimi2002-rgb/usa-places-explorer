@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando, Florida (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando,_Florida",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Orlando",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "population": {
+    "value": 307573,
+    "source": "https://en.wikipedia.org/wiki/Orlando,_Florida",
+    "verified": "2026-11-05",
+    "note": "2020 U.S. census, city proper, as reported by Wikipedia."
+  },
+  "summary": "Central Florida’s largest inland city: a theme-park capital that also follows a homegrown NBA team.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:Lake-eola-park-orlando-florida.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/1280px-Lake-eola-park-orlando-florida.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake-eola-park-orlando-florida.jpg",
+    "author": "OrlandoThings.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Lake Eola with bird sculptures in the water and the downtown Orlando skyline behind",
+    "caption": "Lake Eola and downtown Orlando"
+  }
+}

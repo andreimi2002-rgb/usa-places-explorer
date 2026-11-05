@@ -1,0 +1,227 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Orlando Magic unveil 30 Years of Pure Magic (NBA.com)",
+      "url": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Season Review: 1989-90 (NBA.com)",
+      "url": "https://www.nba.com/news/history-season-review-1989-90",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "The DeVos Family (NBA.com)",
+      "url": "https://www.nba.com/magic/devos-family",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Magic hire Sean Sweeney as coach (NBA.com)",
+      "url": "https://www.nba.com/news/magic-hire-sean-sweeney-coach",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic draft history (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Richard & Helen DeVos Foundation (UCF)",
+      "url": "https://business.ucf.edu/devos/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Orlando Magic",
+  "league": "nba",
+  "division": "nba-southeast",
+  "founded": {
+    "value": 1989,
+    "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+    "verified": "2026-11-05",
+    "note": "Franchise awarded April 22, 1987; first regular-season game November 4, 1989."
+  },
+  "firstSeason": {
+    "value": "1989-90",
+    "source": "https://www.nba.com/news/history-season-review-1989-90",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Magic Blue",
+        "hex": "#0077C0"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C4CED4"
+      }
+    ],
+    "source": "https://teamcolorcodes.com/orlando-magic-color-codes/",
+    "verified": "2026-11-05"
+  },
+  "logo": "nba/orlando-magic.svg",
+  "venues": [
+    {
+      "venue": "amway-arena",
+      "from": 1989,
+      "to": 2010,
+      "source": "https://news.pollstar.com/2012/03/30/say-goodbye-to-amway-arena/",
+      "verified": "2026-11-05"
+    },
+    {
+      "venue": "kia-center",
+      "from": 2010,
+      "to": null,
+      "source": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Sean Sweeney",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/news/magic-hire-sean-sweeney-coach",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "DeVos family (since September 1991)",
+    "source": "https://www.nba.com/magic/devos-family",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1987-04-22",
+      "label": "The NBA awards Orlando an expansion franchise",
+      "kind": "founding",
+      "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1989",
+      "label": "Nick Anderson becomes the first draft pick in team history (11th overall)",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1989-11-04",
+      "label": "First regular-season game: a 111–106 loss to the New Jersey Nets at the Orlando Arena",
+      "kind": "founding",
+      "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1991-09",
+      "label": "The DeVos family buys the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/magic/devos-family",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1992",
+      "label": "Shaquille O’Neal is drafted first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1993",
+      "label": "O’Neal is named Rookie of the Year; on draft night Orlando trades its pick, Chris Webber, for Penny Hardaway",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/history-rookie-of-the-year-winners",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "First NBA Finals, in the team’s sixth season; swept 4–0 by the Houston Rockets",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996-07-18",
+      "label": "O’Neal leaves as a free agent for the Los Angeles Lakers",
+      "kind": "other",
+      "source": "https://www.deseret.com/1996/7/18/19255023/it-s-showtime-again-as-l-a-signs-shaq/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Tracy McGrady wins the first of two straight NBA scoring titles",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2004",
+      "label": "Dwight Howard is drafted first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2009",
+      "label": "Second NBA Finals; the Los Angeles Lakers win the series 4–1",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2010-10-01",
+      "label": "The new downtown arena, then Amway Center, opens",
+      "kind": "venue",
+      "source": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012-08-10",
+      "label": "Howard is traded to the Los Angeles Lakers in a four-team deal",
+      "kind": "trade",
+      "source": "https://www.nba.com/magic/news/magic-acquire-six-players-five-draft-picks-howard-trade",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2022",
+      "label": "Paolo Banchero is drafted first overall; he is named Rookie of the Year the next spring",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023-12-20",
+      "label": "The arena is renamed Kia Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/magic/news/orlando-premier-downtown-sports-and-entertainment-destination-to-be-renamed-kia-center-20231220",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Sean Sweeney is hired as the 16th head coach in team history",
+      "kind": "other",
+      "source": "https://www.nba.com/news/magic-hire-sean-sweeney-coach",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Florida’s expansion success story: two NBA Finals trips in its first twenty years and three No. 1 picks who changed the franchise.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:AmwayCenterCourt.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/AmwayCenterCourt.JPG/1280px-AmwayCenterCourt.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:AmwayCenterCourt.JPG",
+    "author": "350z33",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "View from the upper seats of a Magic home game, with the scoreboard over the court",
+    "caption": "The first regular-season game at the new arena, October 2010"
+  }
+}

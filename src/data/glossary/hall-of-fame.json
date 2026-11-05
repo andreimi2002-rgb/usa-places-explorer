@@ -1,0 +1,17 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "Hall of Fame",
+  "short": "An honor roll of a sport’s greatest figures. Basketball’s is the Naismith Memorial Basketball Hall of Fame; teams also keep their own halls for local legends.",
+  "sports": [
+    "basketball"
+  ],
+  "related": []
+}

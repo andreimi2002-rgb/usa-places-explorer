@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Placeholder logo">
+  <!-- Temporary placeholder, not the official Orlando Magic logo. -->
+  <circle cx="60" cy="60" r="58" fill="#0077C0" stroke="#C4CED4" stroke-width="4"/>
+  <path d="M60 22 l6.5 15.5 16.5 1.2 -12.6 10.7 4 16.1 -14.4 -8.8 -14.4 8.8 4 -16.1 -12.6 -10.7 16.5 -1.2z" fill="#C4CED4"/>
+  <text x="60" y="96" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-weight="700" font-size="24" fill="#ffffff" letter-spacing="2">ORL</text>
+</svg>

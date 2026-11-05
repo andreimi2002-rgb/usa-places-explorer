@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Mark Price",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/p/pricema01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Mark Price stats (Basketball-Reference)",

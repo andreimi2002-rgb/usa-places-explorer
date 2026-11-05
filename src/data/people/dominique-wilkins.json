@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Dominique Wilkins",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Dominique Wilkins stats (Basketball-Reference)",

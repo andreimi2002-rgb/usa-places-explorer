@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "John Havlicek",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/h/havlijo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "John Havlicek (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/havlijo01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

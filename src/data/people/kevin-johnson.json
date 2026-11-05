@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Kevin Johnson",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/j/johnske02.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Kevin Johnson stats (Basketball-Reference)",

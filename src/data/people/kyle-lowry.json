@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Kyle Lowry",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Kyle Lowry stats (Basketball-Reference)",

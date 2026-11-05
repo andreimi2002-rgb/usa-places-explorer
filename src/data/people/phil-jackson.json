@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Phil Jackson",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/players/j/jacksph01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Phil Jackson coaching record (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Phil Jackson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jacksph01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -91,7 +101,7 @@
     "file": "File:Phil Jackson 3 cropped.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Phil_Jackson_3_cropped.jpg/960px-Phil_Jackson_3_cropped.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Phil_Jackson_3_cropped.jpg",
-    "author": "Phil_Jackson_3.jpg: Keith Allison from Baltimore, USA derivative work: Chris! my talk",
+    "author": "Keith Allison from Baltimore, USA; crop by Chris!",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "alt": "Photo of Phil Jackson",

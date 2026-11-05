@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Charles Barkley",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/b/barklch01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/PHO/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charles Barkley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/barklch01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

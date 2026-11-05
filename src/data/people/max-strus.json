@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Max Strus",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 season preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-lac",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Lewis (IL), DePaul",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Shooting forward, in his first season with the Clippers in 2026-27."
+}

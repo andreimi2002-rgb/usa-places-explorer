@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Ben Wallace",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Ben Wallace stats (Basketball-Reference)",

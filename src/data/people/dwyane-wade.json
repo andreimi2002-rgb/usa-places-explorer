@@ -14,6 +14,11 @@
     }
   ],
   "name": "Dwyane Wade",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "miami-heat",

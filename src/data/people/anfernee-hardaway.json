@@ -19,6 +19,12 @@
     }
   ],
   "name": "Anfernee “Penny” Hardaway",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Point Guard, and Small Forward."
+  },
   "roles": [
     {
       "franchise": "orlando-magic",

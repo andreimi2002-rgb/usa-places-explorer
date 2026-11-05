@@ -21,9 +21,19 @@
       "title": "Knicks franchise index (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/NYK/",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pat Riley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/rileypa01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Pat Riley",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/r/rileypa01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "los-angeles-lakers",

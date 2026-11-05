@@ -14,6 +14,11 @@
     }
   ],
   "name": "Paul Pierce",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "boston-celtics",

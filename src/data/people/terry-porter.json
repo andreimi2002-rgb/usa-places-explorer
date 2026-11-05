@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Terry Porter",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/p/portete01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Terry Porter (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/portete01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

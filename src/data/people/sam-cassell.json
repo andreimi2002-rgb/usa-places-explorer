@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Sam Cassell",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/c/cassesa01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Sam Cassell (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/cassesa01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

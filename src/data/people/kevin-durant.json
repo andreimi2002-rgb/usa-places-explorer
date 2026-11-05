@@ -2,6 +2,12 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Kevin Durant",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/d/duranke01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Small Forward, Power Forward, and Shooting Guard."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -32,6 +38,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/PHO/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kevin Durant (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/duranke01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

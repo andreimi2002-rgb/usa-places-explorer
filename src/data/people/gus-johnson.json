@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Gus Johnson",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/j/johnsgu01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/WAS/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Gus Johnson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/johnsgu01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

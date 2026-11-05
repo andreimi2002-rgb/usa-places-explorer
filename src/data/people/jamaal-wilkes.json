@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Jamaal Wilkes",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wilkeja01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jamaal Wilkes (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wilkeja01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -54,7 +64,7 @@
     "file": "File:Jamaal Wilkes cropped.JPG",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jamaal_Wilkes_cropped.JPG",
     "page": "https://commons.wikimedia.org/wiki/File:Jamaal_Wilkes_cropped.JPG",
-    "author": "Jamaal_Wilkes.JPG: Associated Students of the University of California at Los Angeles derivative work: Bagumba",
+    "author": "Associated Students of the University of California at Los Angeles; crop by Bagumba",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Black-and-white photo of Jamaal Wilkes at UCLA",

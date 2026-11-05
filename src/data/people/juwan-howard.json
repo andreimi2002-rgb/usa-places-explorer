@@ -2,11 +2,22 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Juwan Howard",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/h/howarju01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Power Forward, Small Forward, and Center."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/WAS/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Juwan Howard (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/howarju01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

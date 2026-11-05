@@ -19,6 +19,11 @@
     }
   ],
   "name": "Tracy McGrady",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "toronto-raptors",

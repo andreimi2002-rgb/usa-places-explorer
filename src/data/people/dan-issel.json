@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Dan Issel",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/i/isselda01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/DEN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dan Issel (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/i/isselda01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -32,7 +42,7 @@
     "file": "File:Dan Issel 1970.jpeg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dan_Issel_1970.jpeg",
     "page": "https://commons.wikimedia.org/wiki/File:Dan_Issel_1970.jpeg",
-    "author": "Unknown",
+    "author": "Unknown author",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Black-and-white photo of Dan Issel at Kentucky",

@@ -6,6 +6,7 @@
  * grows as new sports and leagues are added.
  */
 import { getCollection, render } from 'astro:content';
+import { thumb } from '../../lib/images';
 import EntityHeader from '../../components/EntityHeader.astro';
 import FactBox from '../../components/FactBox.astro';
 import LocalTime from '../../components/LocalTime.astro';
@@ -177,7 +178,7 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
             {venues.map((v) => (
               <li>
                 <a href={routes.venues(v.id)}>
-                  {v.data.image && <img src={v.data.image.url} alt="" loading="lazy" />}
+                  {v.data.image && <img src={thumb(v.data.image.url, 500)} alt="" loading="lazy" />}
                   <span><strong>{v.data.name}</strong>{v.data.status === 'historical' && <span class="subtle"> (historical)</span>}</span>
                 </a>
               </li>

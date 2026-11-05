@@ -14,6 +14,12 @@
     }
   ],
   "name": "Magic Johnson",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Point Guard, Shooting Guard, and Power Forward."
+  },
   "roles": [
     {
       "franchise": "los-angeles-lakers",

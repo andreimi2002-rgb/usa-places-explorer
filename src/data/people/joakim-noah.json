@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Joakim Noah",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/n/noahjo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/CHI/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Joakim Noah (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/n/noahjo01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Julius Erving",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Julius Erving stats (Basketball-Reference)",

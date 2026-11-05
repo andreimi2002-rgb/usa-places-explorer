@@ -2,11 +2,22 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Rasheed Wallace",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/w/wallara01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Power Forward, Center, and Small Forward."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Rasheed Wallace (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wallara01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

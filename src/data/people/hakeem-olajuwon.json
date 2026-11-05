@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Hakeem Olajuwon",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Hakeem Olajuwon stats (Basketball-Reference)",

@@ -14,6 +14,11 @@
     }
   ],
   "name": "Jerry West",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/w/westje01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "los-angeles-lakers",

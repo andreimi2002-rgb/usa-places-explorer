@@ -2,11 +2,21 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Al Horford",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/h/horfoal01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ATL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Al Horford (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/horfoal01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

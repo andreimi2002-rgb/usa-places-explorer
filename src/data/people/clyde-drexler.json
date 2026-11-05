@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Clyde Drexler",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/d/drexlcl01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Clyde Drexler (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/drexlcl01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

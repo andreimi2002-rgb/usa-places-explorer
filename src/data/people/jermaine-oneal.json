@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Jermaine O'Neal",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/o/onealje01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/IND/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jermaine O'Neal (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/o/onealje01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -32,7 +42,7 @@
     "file": "File:Jermaine O'Neal cropped.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jermaine_O%27Neal_cropped.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Jermaine_O%27Neal_cropped.jpg",
-    "author": "Jermaine_O'Neal.jpg: Keith Allison from Owings Mills, USA derivative work: Edgars2007 (talk)",
+    "author": "Keith Allison from Owings Mills, USA; crop by Edgars2007",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "alt": "Photo of Jermaine O'Neal",

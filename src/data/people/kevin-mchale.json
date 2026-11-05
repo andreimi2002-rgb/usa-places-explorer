@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Kevin McHale",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/players/m/mchalke01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kevin McHale (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mchalke01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

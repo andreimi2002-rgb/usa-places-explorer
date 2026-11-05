@@ -7,6 +7,7 @@
  * Original design, colored by the page's --team-1 / --team-2 variables.
  */
 import { routes } from '../lib/entities';
+import { thumb } from '../lib/images';
 
 export type Tier = 'legend' | 'core' | 'rookie' | 'notable';
 interface Props {
@@ -40,7 +41,7 @@ const backId = `back-${id}-${tier}`;
     <div class="face front">
       <div class="art">
         {image ? (
-          <img src={image.url} alt={image.alt} loading="lazy" decoding="async" />
+          <img src={thumb(image.url, 500)} alt={image.alt} loading="lazy" decoding="async" />
         ) : (
           <span class="placeholder" aria-hidden="true">
             <svg viewBox="0 0 100 120" class="silhouette">

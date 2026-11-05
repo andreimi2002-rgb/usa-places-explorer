@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Alvan Adams",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/a/adamsal01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/PHO/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Alvan Adams (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/adamsal01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

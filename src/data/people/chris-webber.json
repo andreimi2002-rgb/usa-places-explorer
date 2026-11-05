@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Chris Webber",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Chris Webber stats (Basketball-Reference)",

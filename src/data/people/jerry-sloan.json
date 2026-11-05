@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Jerry Sloan",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/s/sloanje01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "Jazz franchise index (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/UTA/",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jerry Sloan (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sloanje01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Josh Smith",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/s/smithjo03.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ATL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Josh Smith (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/smithjo03.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

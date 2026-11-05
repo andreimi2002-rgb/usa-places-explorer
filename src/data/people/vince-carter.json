@@ -75,6 +75,12 @@
     }
   ],
   "name": "Vince Carter",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Small Forward, and Power Forward."
+  },
   "facts": [
     {
       "label": "Drafted",

@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Joe Dumars",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/d/dumarjo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Joe Dumars stats (Basketball-Reference)",
@@ -50,7 +55,7 @@
     "file": "File:Joe Dumars.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Joe_Dumars.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Joe_Dumars.jpg",
-    "author": "2004_Detroit_Pistons_congratulated_by_George_Bush.jpg: White House Press Secretary office. The link gives no specific photo credit. derivative work: Lpdrew (talk)",
+    "author": "White House Press Office; crop by Lpdrew",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Photo of Joe Dumars",

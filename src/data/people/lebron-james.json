@@ -19,6 +19,12 @@
     }
   ],
   "name": "LeBron James",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Small Forward, Power Forward, Point Guard, Center, and Shooting Guard."
+  },
   "roles": [
     {
       "franchise": "cleveland-cavaliers",

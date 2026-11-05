@@ -2,11 +2,21 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Bradley Beal",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/b/bealbr01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/WAS/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bradley Beal (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bealbr01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

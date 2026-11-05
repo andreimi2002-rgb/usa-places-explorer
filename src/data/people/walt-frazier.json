@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Walt Frazier",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/f/fraziwa01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Walt Frazier stats (Basketball-Reference)",

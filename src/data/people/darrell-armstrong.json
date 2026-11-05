@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Darrell Armstrong",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/a/armstda01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Darrell Armstrong (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/armstda01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -32,7 +42,7 @@
     "file": "File:Darrell Armstrong in 2012.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Darrell_Armstrong_in_2012.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Darrell_Armstrong_in_2012.jpg",
-    "author": "Dallas Mavericks coaches Casey Smith, Darrell Armstrong, and Robert Hackett.jpg: C.T. Snow derivative work: Arbor to SJ",
+    "author": "C.T. Snow; crop by Arbor to SJ",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "alt": "Photo of Darrell Armstrong",

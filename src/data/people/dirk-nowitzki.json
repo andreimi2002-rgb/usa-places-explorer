@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Dirk Nowitzki",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Dirk Nowitzki stats (Basketball-Reference)",

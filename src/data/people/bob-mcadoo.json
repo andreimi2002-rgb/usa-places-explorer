@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Bob McAdoo",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Bob McAdoo stats (Basketball-Reference)",
@@ -69,7 +74,7 @@
     "file": "File:Bob McAdoo in 2009.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bob_McAdoo_in_2009.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Bob_McAdoo_in_2009.jpg",
-    "author": "Erik_Spoelstra_and_Heat_players_huddle.jpg: Keith Allison derivative work: Arbor to SJ",
+    "author": "Keith Allison; crop by Arbor to SJ",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "alt": "Photo of Bob McAdoo",

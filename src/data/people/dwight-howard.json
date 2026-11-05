@@ -19,6 +19,11 @@
     }
   ],
   "name": "Dwight Howard",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/h/howardw01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "orlando-magic",

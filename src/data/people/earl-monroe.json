@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Earl Monroe",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/m/monroea01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "Wizards all-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/WAS/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Earl Monroe (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/monroea01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

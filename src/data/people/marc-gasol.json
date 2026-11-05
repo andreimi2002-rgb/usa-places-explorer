@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Marc Gasol",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Marc Gasol stats (Basketball-Reference)",

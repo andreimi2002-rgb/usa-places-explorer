@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Kemba Walker",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/w/walkeke02.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/CHA/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kemba Walker (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/walkeke02.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

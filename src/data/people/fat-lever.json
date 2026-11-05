@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Fat Lever",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/l/leverfa01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/DEN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Fat Lever (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/leverfa01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -14,6 +14,11 @@
     }
   ],
   "name": "George Mikan",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/m/mikange01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "los-angeles-lakers",

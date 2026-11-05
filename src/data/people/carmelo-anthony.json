@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Carmelo Anthony",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/a/anthoca01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/DEN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Carmelo Anthony (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/anthoca01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

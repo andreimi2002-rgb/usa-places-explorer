@@ -259,3 +259,35 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions 
    pick, now on a two-way deal in Washington).
 6. **2026-27 moves**: Trae Young and Anthony Davis in Washington, Kawhi Leonard back in Toronto, LaMelo Ball in
    Minnesota, all from NBA.com previews and Basketball-Reference rosters.
+7. **Unconfirmed nationalities removed**: Hannes Steinbach and Henri Veesaar no longer say "German" / "Estonian";
+   no source confirmed them.
+
+# Final NBA check (before the depth pass)
+
+Date: 2026-11-06. Checked on the full build (528 pages).
+
+- **Links**: 0 broken internal links, 0 broken anchors, no page without an inbound link.
+- **Graph**: 645 nodes, 865 edges, no dangling or duplicate edges, no isolated nodes, every node link resolves.
+  Identity nodes are drawn only for clubs with more than one name; titles only when the winner still exists
+  (so the 1948 Baltimore Bullets title has no node). Both by design.
+- **Titles**: 80 Finals, counts match the league record (Celtics 18, Lakers 17, Warriors 7, Bulls 6, Spurs 5, ...;
+  2025-26 Knicks over Spurs).
+- **Search**: tested 20 queries (teams, players with and without diacritics, venues, old names such as
+  "Seattle SuperSonics"). All return the right page first. "salary cap" returns nothing: the glossary has no entry yet.
+- **Mobile (375 px)**: all 531 pages checked. One overflow fixed (Detroit: a long unbroken photo credit); credit
+  text now wraps everywhere.
+- **Photos**: 403 images, all on upload.wikimedia.org under free licenses. 14 messy credits (file names, an email
+  address) rewritten as plain "author; crop by editor". Bill Russell and Dan Issel credits now read "Unknown author",
+  as on Commons (public domain). Player cards and city venue tiles now load the standard 500 px Wikimedia thumbnail
+  instead of 960/1280 px.
+- **Positions**: 225 former players had no position; added from their Basketball-Reference pages, found through each
+  franchise's player list so the right person is matched. When several are listed, the card shows the first two and
+  the full list is kept as a note.
+- **Core players**: Clippers and Lakers had only two; added Max Strus (LAC) and Walker Kessler (LAL), both named in the
+  NBA.com 2026-27 previews and on the Basketball-Reference rosters.
+
+## Still open (for the depth pass)
+
+- 97 people have no free photo.
+- Uniform drawings exist only for the Magic and the Lakers.
+- Conference titles are stored only for Orlando (1995, 2009).

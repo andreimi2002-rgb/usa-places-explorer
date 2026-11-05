@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "LaMarcus Aldridge",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/a/aldrila01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "LaMarcus Aldridge (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/aldrila01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -2,6 +2,12 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Kevin Garnett",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Power Forward, Center, and Small Forward."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",

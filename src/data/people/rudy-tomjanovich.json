@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Rudy Tomjanovich",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/t/tomjaru01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Rudy Tomjanovich coaching record (Basketball-Reference)",
@@ -12,6 +17,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/HOU/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Rudy Tomjanovich (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/tomjaru01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

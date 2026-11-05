@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Spencer Haywood",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/h/haywosp01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/OKC/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Spencer Haywood (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/haywosp01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

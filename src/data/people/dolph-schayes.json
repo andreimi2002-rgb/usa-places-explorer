@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Dolph Schayes",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Dolph Schayes stats (Basketball-Reference)",

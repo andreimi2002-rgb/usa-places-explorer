@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "under-review",
   "name": "Russell Westbrook",
+  "position": {
+    "value": "Point guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Russell Westbrook stats (Basketball-Reference)",

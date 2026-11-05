@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Goran Dragić",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/d/dragigo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIA/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Goran Dragić (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/dragigo01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Patrick Ewing",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/e/ewingpa01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Patrick Ewing stats (Basketball-Reference)",
@@ -63,7 +68,7 @@
     "file": "File:Patrick Ewing Magic cropped.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Patrick_Ewing_Magic_cropped.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Patrick_Ewing_Magic_cropped.jpg",
-    "author": "Patrick_Ewing_Magic.jpg: Mike derivative work: Lpdrew",
+    "author": "Mike; crop by Lpdrew",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "alt": "Photo of Patrick Ewing",

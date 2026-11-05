@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Willis Reed",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/r/reedwi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Willis Reed stats (Basketball-Reference)",

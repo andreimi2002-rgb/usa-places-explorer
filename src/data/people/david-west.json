@@ -2,11 +2,22 @@
   "status": "historical",
   "progress": "under-review",
   "name": "David West",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/w/westda01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Power Forward, Center, and Small Forward."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/NOH/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "David West (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/westda01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

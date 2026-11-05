@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "under-review",
   "name": "Anthony Davis",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/d/davisan02.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "2026-27 roster (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/WAS/2027.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Anthony Davis (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/davisan02.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

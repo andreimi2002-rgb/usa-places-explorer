@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Zach Randolph",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/r/randoza01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MEM/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Zach Randolph (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/randoza01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

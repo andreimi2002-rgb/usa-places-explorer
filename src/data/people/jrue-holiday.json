@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Jrue Holiday",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/h/holidjr01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/NOH/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jrue Holiday (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/holidjr01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

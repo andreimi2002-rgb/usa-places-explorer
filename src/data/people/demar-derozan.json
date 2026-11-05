@@ -2,6 +2,12 @@
   "status": "active",
   "progress": "under-review",
   "name": "DeMar DeRozan",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Small Forward, and Power Forward."
+  },
   "sources": [
     {
       "title": "DeMar DeRozan stats (Basketball-Reference)",

@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Steve Nash",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Steve Nash stats (Basketball-Reference)",

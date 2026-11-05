@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Jaylen Brown",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/b/brownja02.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "Jaylen Brown trade (NBA.com)",
       "url": "https://www.nba.com/news/4-takeaways-jaylen-brown-paul-george-trade",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jaylen Brown (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/brownja02.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

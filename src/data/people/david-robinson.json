@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "David Robinson",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "David Robinson stats (Basketball-Reference)",

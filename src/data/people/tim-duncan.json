@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Tim Duncan",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Tim Duncan stats (Basketball-Reference)",

@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Rick Barry",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Rick Barry stats (Basketball-Reference)",

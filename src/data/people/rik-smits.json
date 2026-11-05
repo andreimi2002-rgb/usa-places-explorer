@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Rik Smits",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/s/smitsri01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/IND/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Rik Smits (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/smitsri01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -32,7 +42,7 @@
     "file": "File:RikSmits headshot.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/RikSmits_headshot.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:RikSmits_headshot.jpg",
-    "author": "derivative work: Amineshaker (talk) RikSmits.JPG: The original uploader was TBone718 at English Wikipedia.",
+    "author": "TBone718 at English Wikipedia; crop by Amineshaker",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Photo of Rik Smits",

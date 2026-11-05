@@ -19,6 +19,11 @@
     }
   ],
   "name": "Alonzo Mourning",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "charlotte-hornets",

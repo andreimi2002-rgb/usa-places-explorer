@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Moses Malone",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Moses Malone stats (Basketball-Reference)",

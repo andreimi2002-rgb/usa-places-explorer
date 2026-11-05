@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Steve Kerr",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/k/kerrst01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "List of NBA champions (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-champions",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Steve Kerr (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/k/kerrst01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

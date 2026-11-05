@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Lenny Wilkens",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/w/wilkele01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Lenny Wilkens coaching record (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lenny Wilkens (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wilkele01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

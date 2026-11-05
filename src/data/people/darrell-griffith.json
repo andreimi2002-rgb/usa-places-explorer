@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Darrell Griffith",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/g/griffda01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/UTA/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Darrell Griffith (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/griffda01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

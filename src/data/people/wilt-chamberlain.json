@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Wilt Chamberlain",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/PHI/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wilt Chamberlain (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -99,7 +109,7 @@
     "file": "File:Wilt Chamberlain3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wilt_Chamberlain3.jpg/960px-Wilt_Chamberlain3.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain3.jpg",
-    "author": "Wilt_Chamberlain2.jpg: Fred Palumbo, World Telegram staff photographer derivative work: JoeJohnson2 (talk)",
+    "author": "Fred Palumbo, World Telegram staff photographer; crop by JoeJohnson2",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Photo of Wilt Chamberlain",

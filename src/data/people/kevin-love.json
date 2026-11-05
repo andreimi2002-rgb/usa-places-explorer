@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Kevin Love",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/l/loveke01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kevin Love (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/loveke01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

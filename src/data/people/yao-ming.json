@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Yao Ming",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Yao Ming stats (Basketball-Reference)",

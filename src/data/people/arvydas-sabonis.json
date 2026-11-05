@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Arvydas Sabonis",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/s/sabonar01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Arvydas Sabonis (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sabonar01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

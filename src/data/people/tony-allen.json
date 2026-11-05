@@ -2,11 +2,22 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Tony Allen",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/a/allento01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Small Forward, and Point Guard."
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MEM/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Tony Allen (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/allento01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

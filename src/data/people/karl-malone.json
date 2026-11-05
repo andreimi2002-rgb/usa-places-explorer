@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Karl Malone",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Karl Malone stats (Basketball-Reference)",

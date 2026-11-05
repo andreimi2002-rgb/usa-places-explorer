@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Elvin Hayes",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Elvin Hayes stats (Basketball-Reference)",

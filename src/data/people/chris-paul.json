@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "under-review",
   "name": "Chris Paul",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",

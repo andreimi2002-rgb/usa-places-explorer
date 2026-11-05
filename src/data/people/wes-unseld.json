@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Wes Unseld",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Wes Unseld stats (Basketball-Reference)",

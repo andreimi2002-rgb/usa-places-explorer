@@ -14,6 +14,11 @@
     }
   ],
   "name": "Bill Russell",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "boston-celtics",
@@ -75,7 +80,7 @@
     "file": "File:Bill russell dribbling (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_russell_dribbling_%28cropped%29.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Bill_russell_dribbling_(cropped).jpg",
-    "author": "Unknown",
+    "author": "Unknown author",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Black-and-white photo of Bill Russell dribbling in a Celtics uniform",

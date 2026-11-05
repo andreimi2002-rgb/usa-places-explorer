@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Bill Walton",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Bill Walton stats (Basketball-Reference)",

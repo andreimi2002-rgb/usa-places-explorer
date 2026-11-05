@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Sidney Moncrief",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/m/moncrsi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Sidney Moncrief stats (Basketball-Reference)",

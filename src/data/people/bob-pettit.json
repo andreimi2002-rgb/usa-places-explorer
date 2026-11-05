@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Bob Pettit",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Bob Pettit stats (Basketball-Reference)",

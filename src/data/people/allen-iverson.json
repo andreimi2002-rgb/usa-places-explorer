@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Allen Iverson",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Allen Iverson stats (Basketball-Reference)",

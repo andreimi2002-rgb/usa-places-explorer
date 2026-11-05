@@ -24,6 +24,11 @@
     }
   ],
   "name": "Shaquille O’Neal",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
     {
       "franchise": "orlando-magic",

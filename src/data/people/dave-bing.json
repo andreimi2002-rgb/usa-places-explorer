@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Dave Bing",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/b/bingda01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -12,6 +17,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dave Bing (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bingda01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -43,7 +53,7 @@
     "file": "File:David Bing 3928ded5aacd10b21cded561668a0444 (1).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/David_Bing_3928ded5aacd10b21cded561668a0444_%281%29.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:David_Bing_3928ded5aacd10b21cded561668a0444_(1).jpg",
-    "author": "Department of Housing and Urban Development. Office of the Chief Human Capital Office. Office of Broadcasting Operations. Photo Section. (ca. 2011 - ca. 7/18/2014)",
+    "author": "U.S. Department of Housing and Urban Development, Photo Section",
     "license": "Public domain",
     "licenseUrl": null,
     "alt": "Photo of Dave Bing",

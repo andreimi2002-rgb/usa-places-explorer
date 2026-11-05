@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Wally Szczerbiak",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/s/szczewa02.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wally Szczerbiak (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/szczewa02.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

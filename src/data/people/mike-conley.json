@@ -2,11 +2,21 @@
   "status": "active",
   "progress": "under-review",
   "name": "Mike Conley",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/c/conlemi01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MEM/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mike Conley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/conlemi01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

@@ -2,6 +2,11 @@
   "status": "active",
   "progress": "content-ready",
   "name": "Kyrie Irving",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/i/irvinky01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -17,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/DAL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kyrie Irving (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/i/irvinky01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

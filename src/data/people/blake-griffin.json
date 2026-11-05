@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Blake Griffin",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Blake Griffin stats (Basketball-Reference)",

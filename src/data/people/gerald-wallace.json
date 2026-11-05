@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Gerald Wallace",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wallage01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/CHA/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Gerald Wallace (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wallage01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

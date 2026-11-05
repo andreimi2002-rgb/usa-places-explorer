@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "under-review",
   "name": "Gary Payton",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "Gary Payton stats (Basketball-Reference)",

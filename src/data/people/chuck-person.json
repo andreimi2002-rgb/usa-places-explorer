@@ -2,11 +2,21 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Chuck Person",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/p/persoch01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/IND/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chuck Person (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/persoch01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

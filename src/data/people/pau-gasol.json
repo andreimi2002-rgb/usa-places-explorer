@@ -2,6 +2,11 @@
   "status": "historical",
   "progress": "content-ready",
   "name": "Pau Gasol",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/g/gasolpa01.html",
+    "verified": "2026-11-06"
+  },
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
@@ -22,6 +27,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MEM/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pau Gasol (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/gasolpa01.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [

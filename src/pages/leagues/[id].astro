@@ -37,6 +37,12 @@ const structure = await Promise.all(
 );
 const historical = franchises.filter((f) => f.data.status === 'historical');
 const activeCount = franchises.filter((f) => f.data.status === 'active').length;
+const champs = (await getCollection('championships', (c) => c.data.league.id === league.id && c.data.level === 'league' && Boolean(c.data.verified)))
+  .sort((a, b) => b.data.season.localeCompare(a.data.season));
+const nameOf = new Map(franchises.map((f) => [f.id, f.data.name]));
+const titleCounts = [...champs.reduce((m, c) => (c.data.winner ? m.set(c.data.winner.id, (m.get(c.data.winner.id) ?? 0) + 1) : m), new Map<string, number>())]
+  .sort((a, b) => b[1] - a[1] || (nameOf.get(a[0]) ?? '').localeCompare(nameOf.get(b[0]) ?? ''));
+const champSources = [...new Map(champs.flatMap((c) => c.data.sources).map((x) => [x.url, x])).values()];
 const body = await prose('leagues', league.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
 ---
@@ -85,10 +91,97 @@ const Body = body ? (await render(body)).Content : undefined;
       </section>
     )}
   </div>
-  <div class="container section"><SourceList sources={d.sources} /></div>
+  {champs.length > 0 && (
+    <section class="container section" aria-labelledby="champions-title">
+      <div class="section-head"><h2 id="champions-title">Every {d.shortName} champion</h2></div>
+      <div class="champ-layout">
+        <div>
+          <h3>Most titles</h3>
+          <ol class="leaders">
+            {titleCounts.map(([id, n]) => (
+              <li><a href={routes.franchises(id)}>{nameOf.get(id)}</a> <span class="subtle">{n}</span></li>
+            ))}
+          </ol>
+          <p class="subtle small">Counted by today's franchise. Clubs that no longer exist are not in this list.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="champs">
+            <caption class="sr-only">{d.shortName} Finals results by season</caption>
+            <thead><tr><th scope="col">Season</th><th scope="col">Champion</th><th scope="col">Runner-up</th><th scope="col">Series</th></tr></thead>
+            <tbody>
+              {champs.map((c) => (
+                <tr>
+                  <td>{c.data.season}</td>
+                  <td>{c.data.winner ? <a href={routes.franchises(c.data.winner.id)}>{c.data.winnerName}</a> : c.data.winnerName}</td>
+                  <td>{c.data.runnerUp ? <a href={routes.franchises(c.data.runnerUp.id)}>{c.data.runnerUpName}</a> : c.data.runnerUpName}</td>
+                  <td>{c.data.result}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  )}
+  <div class="container section"><SourceList sources={[...d.sources, ...champSources]} /></div>
 </Base>
 
 <style>
+  .champ-layout {
+    display: grid;
+    gap: 2rem;
+  }
+  @media (min-width: 960px) {
+    .champ-layout {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2.2fr);
+      align-items: start;
+    }
+  }
+  .leaders {
+    display: grid;
+    gap: 0.25rem;
+    padding-left: 1.4rem;
+    list-style: decimal;
+  }
+  .leaders li a {
+    display: inline;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--text);
+    text-decoration: underline;
+  }
+  .small {
+    font-size: 0.8rem;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    max-height: 40rem;
+    overflow-y: auto;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .champs {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .champs th,
+  .champs td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .champs th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-raised);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-subtle);
+  }
   .confs {
     display: grid;
     gap: 2.5rem;

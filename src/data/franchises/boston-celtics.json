@@ -226,5 +226,11 @@
     "alt": "A Celtics home game at TD Garden, seen from the upper seats",
     "caption": "Celtics vs. Timberwolves at TD Garden, 2009",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "legends": [
+    "red-auerbach",
+    "bill-russell",
+    "larry-bird",
+    "paul-pierce"
+  ]
 }

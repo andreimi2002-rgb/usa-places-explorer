@@ -156,6 +156,25 @@ const franchises = defineCollection({
       .default([]),
     /** A free-license photo of a current uniform in a game. */
     kitPhoto: image.optional(),
+    /** The players and builders who define the club; shown first, as gold cards. */
+    legends: z.array(reference('people')).default([]),
+    /** The faces of the current roster (not the full roster), confirmed for one season. */
+    corePlayers: z
+      .object({
+        asOf: z.string().regex(/^d{4}-d{2}$/),
+        rosterUrl: z.url(),
+        players: z.array(z.object({ person: reference('people'), source: z.url(), verified: isoDate.nullable() })),
+      })
+      .optional(),
+    /** Players the club picked in the most recent draft. */
+    rookies: z
+      .object({
+        draft: year,
+        players: z.array(
+          z.object({ person: reference('people'), round: z.number().int().min(1), pick: z.number().int().min(1), source: z.url(), verified: isoDate.nullable() }),
+        ),
+      })
+      .optional(),
     venues: z
       .array(z.object({ venue: reference('venues'), from: year, to: year.nullable(), source: z.url(), verified: isoDate.nullable() }))
       .default([]),
@@ -230,6 +249,8 @@ const people = defineCollection({
   schema: z.object({
     ...base,
     name: z.string(),
+    /** Playing position, e.g. "Guard", "Forward", "Center", "Guard-Forward". */
+    position: fact(z.string()).optional(),
     roles: z.array(
       z.object({
         franchise: reference('franchises'),

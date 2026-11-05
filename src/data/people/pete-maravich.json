@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Star guard of the New Orleans Jazz."
+  "summary": "Star guard of the New Orleans Jazz.",
+  "image": {
+    "file": "File:Pete Maravich 1977.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pete_Maravich_1977.jpeg/960px-Pete_Maravich_1977.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pete_Maravich_1977.jpeg",
+    "author": "Robert Kingsbury",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Pete Maravich",
+    "caption": "Pete Maravich",
+    "licenseChecked": "2026-11-05"
+  }
 }

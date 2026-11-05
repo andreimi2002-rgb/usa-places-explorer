@@ -49,5 +49,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Rookie guard, picked 33rd in the 2026 draft."
+  "summary": "Rookie guard, picked 33rd in the 2026 draft.",
+  "image": {
+    "file": "File:Isaiah Evans.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Isaiah_Evans.jpg/960px-Isaiah_Evans.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Isaiah_Evans.jpg",
+    "author": "TigerNet.com",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Isaiah Evans",
+    "caption": "Isaiah Evans",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -255,5 +255,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Ball Arena exterior 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ball_Arena_exterior_2022.jpg/1280px-Ball_Arena_exterior_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ball_Arena_exterior_2022.jpg",
+    "author": "Troutfarm27",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of Ball Arena in Denver",
+    "caption": "Ball Arena, 2022",
+    "licenseChecked": "2026-11-05"
   }
 }

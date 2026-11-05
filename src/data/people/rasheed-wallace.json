@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Portland Trail from 1996 to 2004."
+  "summary": "Played for Portland Trail from 1996 to 2004.",
+  "image": {
+    "file": "File:Rasheed Wallace 2 cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Rasheed_Wallace_2_cropped.jpg/960px-Rasheed_Wallace_2_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rasheed_Wallace_2_cropped.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Rasheed Wallace",
+    "caption": "Rasheed Wallace",
+    "licenseChecked": "2026-11-05"
+  }
 }

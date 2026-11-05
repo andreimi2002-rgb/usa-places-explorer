@@ -23,5 +23,16 @@
     }
   },
   "formerNames": [],
-  "summary": "The Trail Blazers’ home since the 1995-96 season."
+  "summary": "The Trail Blazers’ home since the 1995-96 season.",
+  "image": {
+    "file": "File:Moda Center.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Moda_Center.JPG/1280px-Moda_Center.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Moda_Center.JPG",
+    "author": "Lugnuts",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the Moda Center in Portland",
+    "caption": "Moda Center",
+    "licenseChecked": "2026-11-05"
+  }
 }

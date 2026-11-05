@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Utah from 2005 to 2011."
+  "summary": "Played for Utah from 2005 to 2011.",
+  "image": {
+    "file": "File:Deron Williams Nets 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Deron_Williams_Nets_2.jpg/960px-Deron_Williams_Nets_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Deron_Williams_Nets_2.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Deron Williams",
+    "caption": "Deron Williams",
+    "licenseChecked": "2026-11-05"
+  }
 }

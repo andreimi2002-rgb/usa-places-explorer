@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Denver from 1991 to 1996."
+  "summary": "Played for Denver from 1991 to 1996.",
+  "image": {
+    "file": "File:Dikembe Mutombo (2006-12-10).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Dikembe_Mutombo_%282006-12-10%29.jpg/960px-Dikembe_Mutombo_%282006-12-10%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dikembe_Mutombo_(2006-12-10).jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Dikembe Mutombo",
+    "caption": "Dikembe Mutombo",
+    "licenseChecked": "2026-11-05"
+  }
 }

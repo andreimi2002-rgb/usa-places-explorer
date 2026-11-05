@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Portland Trail from 1985 to 1995."
+  "summary": "Played for Portland Trail from 1985 to 1995.",
+  "image": {
+    "file": "File:Terry Porter.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Terry_Porter.jpg/1280px-Terry_Porter.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Terry_Porter.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Terry Porter",
+    "caption": "Terry Porter",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Denver from 1975 to 1985."
+  "summary": "Played for Denver from 1975 to 1985.",
+  "image": {
+    "file": "File:Dan Issel 1970.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dan_Issel_1970.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dan_Issel_1970.jpeg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Dan Issel at Kentucky",
+    "caption": "Dan Issel at Kentucky, 1970",
+    "licenseChecked": "2026-11-05"
+  }
 }

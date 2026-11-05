@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Denver from 1975 to 1982."
+  "summary": "Played for Denver from 1975 to 1982.",
+  "image": {
+    "file": "File:David Thompson 1975.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/David_Thompson_1975.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:David_Thompson_1975.jpeg",
+    "author": "United Press International",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of David Thompson",
+    "caption": "David Thompson, 1975",
+    "licenseChecked": "2026-11-05"
+  }
 }

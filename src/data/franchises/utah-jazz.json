@@ -218,5 +218,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Delta Center 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1280px-Delta_Center_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Delta_Center_2023.jpg",
+    "author": "Lomrjyo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of the Delta Center in Salt Lake City",
+    "caption": "Delta Center, 2023",
+    "licenseChecked": "2026-11-05"
   }
 }

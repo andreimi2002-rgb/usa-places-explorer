@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5746545: Portland, Oregon"
   },
-  "summary": "Home of the Trail Blazers since 1970."
+  "summary": "Home of the Trail Blazers since 1970.",
+  "image": {
+    "file": "File:Portland, Oregon skyline from the Ross Island Bridge.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Portland%2C_Oregon_skyline_from_the_Ross_Island_Bridge.jpg/1280px-Portland%2C_Oregon_skyline_from_the_Ross_Island_Bridge.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Portland,_Oregon_skyline_from_the_Ross_Island_Bridge.jpg",
+    "author": "Visitor7",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "The Portland skyline seen from the Ross Island Bridge",
+    "caption": "Portland from the Ross Island Bridge",
+    "licenseChecked": "2026-11-05"
+  }
 }

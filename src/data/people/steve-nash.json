@@ -55,5 +55,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Canadian point guard, back-to-back MVP in 2005 and 2006 with Phoenix."
+  "summary": "Canadian point guard, back-to-back MVP in 2005 and 2006 with Phoenix.",
+  "image": {
+    "file": "File:Steve Nash at Suns at Warriors 3-15-09 1 (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Steve_Nash_at_Suns_at_Warriors_3-15-09_1_%28cropped%29.JPG/1280px-Steve_Nash_at_Suns_at_Warriors_3-15-09_1_%28cropped%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_Nash_at_Suns_at_Warriors_3-15-09_1_(cropped).JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Steve Nash in a Suns uniform",
+    "caption": "Steve Nash with Phoenix, 2009",
+    "licenseChecked": "2026-11-05"
+  }
 }

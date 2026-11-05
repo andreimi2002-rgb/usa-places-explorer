@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Denver from 1984 to 1990."
+  "summary": "Played for Denver from 1984 to 1990.",
+  "image": {
+    "file": "File:Fat Lever.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Fat_Lever.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fat_Lever.jpg",
+    "author": "Portland Trail Blazers",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Fat Lever",
+    "caption": "Fat Lever",
+    "licenseChecked": "2026-11-05"
+  }
 }

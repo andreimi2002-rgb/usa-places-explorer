@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Denver from 1980 to 1984."
+  "summary": "Played for Denver from 1980 to 1984.",
+  "image": {
+    "file": "File:Kiki Vandeweghe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kiki_Vandeweghe.jpg/960px-Kiki_Vandeweghe.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiki_Vandeweghe.jpg",
+    "author": "TastyPoutine",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Kiki Vandeweghe",
+    "caption": "Kiki Vandeweghe",
+    "licenseChecked": "2026-11-05"
+  }
 }

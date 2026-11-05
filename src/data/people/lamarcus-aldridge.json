@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Portland Trail from 2006 to 2015."
+  "summary": "Played for Portland Trail from 2006 to 2015.",
+  "image": {
+    "file": "File:LaMarcus Aldridge 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/LaMarcus_Aldridge_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LaMarcus_Aldridge_2017.jpg",
+    "author": "Jose Garcia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "LaMarcus Aldridge in a game",
+    "caption": "LaMarcus Aldridge, 2017",
+    "licenseChecked": "2026-11-05"
+  }
 }

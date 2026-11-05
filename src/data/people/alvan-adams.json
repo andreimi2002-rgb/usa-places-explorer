@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Phoenix from 1975 to 1988."
+  "summary": "Played for Phoenix from 1975 to 1988.",
+  "image": {
+    "file": "File:Alvan Adams - Phoenix Suns.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Alvan_Adams_-_Phoenix_Suns.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alvan_Adams_-_Phoenix_Suns.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Alvan Adams",
+    "caption": "Alvan Adams",
+    "licenseChecked": "2026-11-05"
+  }
 }

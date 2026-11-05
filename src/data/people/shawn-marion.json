@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Phoenix from 1999 to 2008."
+  "summary": "Played for Phoenix from 1999 to 2008.",
+  "image": {
+    "file": "File:Shawn Marion 2013-03-27 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Shawn_Marion_2013-03-27_%281%29.jpg/960px-Shawn_Marion_2013-03-27_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawn_Marion_2013-03-27_(1).jpg",
+    "author": "Danny Bollinger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Shawn Marion",
+    "caption": "Shawn Marion",
+    "licenseChecked": "2026-11-05"
+  }
 }

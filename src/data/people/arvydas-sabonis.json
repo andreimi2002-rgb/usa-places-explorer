@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Lithuanian center who joined Portland in 1995."
+  "summary": "Lithuanian center who joined Portland in 1995.",
+  "image": {
+    "file": "File:Arvydas Sabonis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Arvydas_Sabonis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arvydas_Sabonis.jpg",
+    "author": "Steve Lipofsky www.Basketballphoto.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Arvydas Sabonis",
+    "caption": "Arvydas Sabonis",
+    "licenseChecked": "2026-11-05"
+  }
 }

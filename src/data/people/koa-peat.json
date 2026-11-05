@@ -49,5 +49,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Rookie forward, picked 30th in the 2026 draft."
+  "summary": "Rookie forward, picked 30th in the 2026 draft.",
+  "image": {
+    "file": "File:Koa Peat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Koa_Peat.jpg/960px-Koa_Peat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Koa_Peat.jpg",
+    "author": "MGoBlog",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Koa Peat",
+    "caption": "Koa Peat",
+    "licenseChecked": "2026-11-05"
+  }
 }

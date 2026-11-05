@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5308655: Phoenix, Arizona"
   },
-  "summary": "Home of the Suns since 1968."
+  "summary": "Home of the Suns since 1968.",
+  "image": {
+    "file": "File:Phoenix, Arizona.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Phoenix%2C_Arizona.JPG/960px-Phoenix%2C_Arizona.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Phoenix,_Arizona.JPG",
+    "author": "Bigmikebmw",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Phoenix",
+    "caption": "Phoenix",
+    "licenseChecked": "2026-11-05"
+  }
 }

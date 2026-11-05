@@ -65,5 +65,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Center and Finals MVP of Portland’s only title, in 1977."
+  "summary": "Center and Finals MVP of Portland’s only title, in 1977.",
+  "image": {
+    "file": "File:Bill walton blazers photo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bill_walton_blazers_photo.jpg/960px-Bill_walton_blazers_photo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_walton_blazers_photo.jpg",
+    "author": "Portland Trail Blazers",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bill Walton",
+    "caption": "Bill Walton",
+    "licenseChecked": "2026-11-05"
+  }
 }

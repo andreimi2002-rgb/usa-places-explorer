@@ -224,5 +224,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Golden 1 Center 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Golden_1_Center_2017.jpg/1280px-Golden_1_Center_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Golden_1_Center_2017.jpg",
+    "author": "Brian Libby",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of Golden 1 Center in Sacramento",
+    "caption": "Golden 1 Center, 2017",
+    "licenseChecked": "2026-11-05"
   }
 }

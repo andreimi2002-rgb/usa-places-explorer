@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4684888: Dallas, Texas"
   },
-  "summary": "Home of the Mavericks since 1980."
+  "summary": "Home of the Mavericks since 1980.",
+  "image": {
+    "file": "File:Dallas Skyline at Dusk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dallas_Skyline_at_Dusk.jpg/1280px-Dallas_Skyline_at_Dusk.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dallas_Skyline_at_Dusk.jpg",
+    "author": "Matthew T Rader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "The Dallas skyline at dusk",
+    "caption": "Dallas at dusk",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Dallas from 1981 to 1989."
+  "summary": "Played for Dallas from 1981 to 1989.",
+  "image": {
+    "file": "File:Lipofsky Mark Aguirre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Lipofsky_Mark_Aguirre.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lipofsky_Mark_Aguirre.jpg",
+    "author": "Copyright by Steve Lipofsky Basketballphoto.com",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Mark Aguirre",
+    "caption": "Mark Aguirre",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Kansas%20City&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 4393217: Kansas City, Missouri"
+  },
+  "image": {
+    "file": "File:Kansas City MO Skyline 14July2008vcroped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kansas_City_MO_Skyline_14July2008vcroped.jpg/1280px-Kansas_City_MO_Skyline_14July2008vcroped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kansas_City_MO_Skyline_14July2008vcroped.jpg",
+    "author": "Grey Wanderer",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "The Kansas City skyline",
+    "caption": "Kansas City skyline, 2008",
+    "licenseChecked": "2026-11-05"
   }
 }

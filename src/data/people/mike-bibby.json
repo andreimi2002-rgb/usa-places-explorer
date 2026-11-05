@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Sacramento from 2001 to 2008."
+  "summary": "Played for Sacramento from 2001 to 2008.",
+  "image": {
+    "file": "File:MikeBibbyMiamiHeat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MikeBibbyMiamiHeat.jpg/960px-MikeBibbyMiamiHeat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MikeBibbyMiamiHeat.jpg",
+    "author": "Keith Allison (Keith Allison) from Baltimore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mike Bibby",
+    "caption": "Mike Bibby",
+    "licenseChecked": "2026-11-05"
+  }
 }

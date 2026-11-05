@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Memphis from 2006 to 2013."
+  "summary": "Played for Memphis from 2006 to 2013.",
+  "image": {
+    "file": "File:Rudy Gay Kings.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rudy_Gay_Kings.jpg/960px-Rudy_Gay_Kings.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rudy_Gay_Kings.jpg",
+    "author": "Mike",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Rudy Gay",
+    "caption": "Rudy Gay",
+    "licenseChecked": "2026-11-05"
+  }
 }

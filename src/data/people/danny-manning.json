@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for LA from 1988 to 1994."
+  "summary": "Played for LA from 1988 to 1994.",
+  "image": {
+    "file": "File:Danny Manning 2014.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Danny_Manning_2014.jpg/960px-Danny_Manning_2014.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Danny_Manning_2014.jpg",
+    "author": "visitelpaso",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Danny Manning",
+    "caption": "Danny Manning",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for LA from 2001 to 2008."
+  "summary": "Played for LA from 2001 to 2008.",
+  "image": {
+    "file": "File:Elton Brand 10.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Elton_Brand_10.jpg/960px-Elton_Brand_10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elton_Brand_10.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Elton Brand",
+    "caption": "Elton Brand",
+    "licenseChecked": "2026-11-05"
+  }
 }

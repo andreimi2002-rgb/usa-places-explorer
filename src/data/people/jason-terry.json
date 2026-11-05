@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Dallas from 2004 to 2012, winning the 2011 title."
+  "summary": "Played for Dallas from 2004 to 2012, winning the 2011 title.",
+  "image": {
+    "file": "File:Jason Terry 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jason_Terry_3.jpg/960px-Jason_Terry_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jason_Terry_3.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jason Terry",
+    "caption": "Jason Terry",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Memphis from 2010 to 2017."
+  "summary": "Played for Memphis from 2010 to 2017.",
+  "image": {
+    "file": "File:Tony Allen fouled.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tony_Allen_fouled.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tony_Allen_fouled.jpg",
+    "author": "Terren from Virginia, U.S.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tony Allen",
+    "caption": "Tony Allen",
+    "licenseChecked": "2026-11-05"
+  }
 }

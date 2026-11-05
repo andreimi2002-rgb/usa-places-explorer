@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Serbian center, a key part of Sacramento’s best teams."
+  "summary": "Serbian center, a key part of Sacramento’s best teams.",
+  "image": {
+    "file": "File:Vlade Divac 2016-mc.rs (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vlade_Divac_2016-mc.rs_%28cropped%29.jpg/960px-Vlade_Divac_2016-mc.rs_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vlade_Divac_2016-mc.rs_(cropped).jpg",
+    "author": "Medija centar Beograd",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Vlade Divac",
+    "caption": "Vlade Divac",
+    "licenseChecked": "2026-11-05"
+  }
 }

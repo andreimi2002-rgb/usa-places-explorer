@@ -39,5 +39,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Guard of the Rochester Royals, the franchise’s 1951 champions."
+  "summary": "Guard of the Rochester Royals, the franchise’s 1951 champions.",
+  "image": {
+    "file": "File:Bob Davies.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bob_Davies.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob_Davies.jpeg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bob Davies",
+    "caption": "Bob Davies",
+    "licenseChecked": "2026-11-05"
+  }
 }

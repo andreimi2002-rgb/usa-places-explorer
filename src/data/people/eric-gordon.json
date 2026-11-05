@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for New Orleans from 2011 to 2016."
+  "summary": "Played for New Orleans from 2011 to 2016.",
+  "image": {
+    "file": "File:Eric Gordon Hornets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Eric_Gordon_Hornets.jpg/960px-Eric_Gordon_Hornets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eric_Gordon_Hornets.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Eric Gordon",
+    "caption": "Eric Gordon",
+    "licenseChecked": "2026-11-05"
+  }
 }

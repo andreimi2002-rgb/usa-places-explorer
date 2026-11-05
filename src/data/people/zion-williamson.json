@@ -43,5 +43,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Forward expected to take over games late."
+  "summary": "Forward expected to take over games late.",
+  "image": {
+    "file": "File:Zion Williamson 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/960px-Zion_Williamson_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zion_Williamson_2020.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Zion Williamson",
+    "caption": "Zion Williamson",
+    "licenseChecked": "2026-11-05"
+  }
 }

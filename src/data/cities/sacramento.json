@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5389489: Sacramento, California"
   },
-  "summary": "Home of the Kings since 1985."
+  "summary": "Home of the Kings since 1985.",
+  "image": {
+    "file": "File:Sacramento, California skyline in 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sacramento%2C_California_skyline_in_2023.jpg/960px-Sacramento%2C_California_skyline_in_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sacramento,_California_skyline_in_2023.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Sacramento",
+    "caption": "Sacramento",
+    "licenseChecked": "2026-11-05"
+  }
 }

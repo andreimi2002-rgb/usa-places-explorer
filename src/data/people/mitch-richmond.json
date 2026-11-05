@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Sacramento from 1991 to 1998."
+  "summary": "Played for Sacramento from 1991 to 1998.",
+  "image": {
+    "file": "File:Mitch Richmond cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mitch_Richmond_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitch_Richmond_cropped.jpg",
+    "author": "inboundpass",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Mitch Richmond",
+    "caption": "Mitch Richmond",
+    "licenseChecked": "2026-11-05"
+  }
 }

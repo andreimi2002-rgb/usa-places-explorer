@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Buffalo&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5110629: Buffalo, New York"
+  },
+  "image": {
+    "file": "File:Buffalo, NY skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Buffalo%2C_NY_skyline.jpg/960px-Buffalo%2C_NY_skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Buffalo,_NY_skyline.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Buffalo",
+    "caption": "Buffalo",
+    "licenseChecked": "2026-11-05"
   }
 }

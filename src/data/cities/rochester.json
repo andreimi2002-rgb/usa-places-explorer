@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Rochester&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5134086: Rochester, New York"
+  },
+  "image": {
+    "file": "File:Genesee River and downtown skyline from Ford Street bridge, Rochester, New York - 20190914.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Genesee_River_and_downtown_skyline_from_Ford_Street_bridge%2C_Rochester%2C_New_York_-_20190914.jpg/1280px-Genesee_River_and_downtown_skyline_from_Ford_Street_bridge%2C_Rochester%2C_New_York_-_20190914.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Genesee_River_and_downtown_skyline_from_Ford_Street_bridge,_Rochester,_New_York_-_20190914.jpg",
+    "author": "Andre Carrotflower",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "The Genesee River and downtown Rochester",
+    "caption": "Downtown Rochester from the Ford Street bridge",
+    "licenseChecked": "2026-11-05"
   }
 }

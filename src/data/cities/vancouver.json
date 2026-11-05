@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Vancouver&count=10&language=en&format=json&countryCode=CA",
     "verified": "2026-11-05",
     "note": "GeoNames 6173331: Vancouver, British Columbia"
+  },
+  "image": {
+    "file": "File:Skyline of Vancouver, Canada.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Skyline_of_Vancouver%2C_Canada.jpg/960px-Skyline_of_Vancouver%2C_Canada.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_Canada.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Vancouver",
+    "caption": "Vancouver",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4641239: Memphis, Tennessee"
   },
-  "summary": "Home of the Grizzlies since 2001."
+  "summary": "Home of the Grizzlies since 2001.",
+  "image": {
+    "file": "File:Skyline of Memphis, TN.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Skyline_of_Memphis%2C_TN.jpg/960px-Skyline_of_Memphis%2C_TN.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Memphis,_TN.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Memphis",
+    "caption": "Memphis",
+    "licenseChecked": "2026-11-05"
+  }
 }

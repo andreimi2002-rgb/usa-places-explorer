@@ -18,5 +18,16 @@
     }
   },
   "formerNames": [],
-  "summary": "The Grizzlies’ downtown Memphis arena since the 2004-05 season."
+  "summary": "The Grizzlies’ downtown Memphis arena since the 2004-05 season.",
+  "image": {
+    "file": "File:FedExForum 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FedExForum_2015.jpg/1280px-FedExForum_2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FedExForum_2015.jpg",
+    "author": "Trev0B",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of FedExForum in Memphis",
+    "caption": "FedExForum, 2015",
+    "licenseChecked": "2026-11-05"
+  }
 }

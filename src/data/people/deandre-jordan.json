@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for LA from 2008 to 2018."
+  "summary": "Played for LA from 2008 to 2018.",
+  "image": {
+    "file": "File:DeAndre Jordan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DeAndre_Jordan.jpg/960px-DeAndre_Jordan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DeAndre_Jordan.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of DeAndre Jordan",
+    "caption": "DeAndre Jordan",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -220,5 +220,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Intuit Dome Façade.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Intuit_Dome_Fa%C3%A7ade.jpg/1280px-Intuit_Dome_Fa%C3%A7ade.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Intuit_Dome_Fa%C3%A7ade.jpg",
+    "author": "Haruhi8",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Façade of the Intuit Dome",
+    "caption": "Intuit Dome, August 2024",
+    "licenseChecked": "2026-11-05"
   }
 }

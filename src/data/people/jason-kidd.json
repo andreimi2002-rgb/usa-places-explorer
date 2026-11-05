@@ -90,5 +90,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Point guard drafted by Dallas, a champion there in 2011, and the Mavericks’ coach from 2021 to 2026."
+  "summary": "Point guard drafted by Dallas, a champion there in 2011, and the Mavericks’ coach from 2021 to 2026.",
+  "image": {
+    "file": "File:Jason Kidd.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jason_Kidd.jpg/960px-Jason_Kidd.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jason_Kidd.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jason Kidd",
+    "caption": "Jason Kidd",
+    "licenseChecked": "2026-11-05"
+  }
 }

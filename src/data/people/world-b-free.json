@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for LA from 1978 to 1980."
+  "summary": "Played for LA from 1978 to 1980.",
+  "image": {
+    "file": "File:World B Free.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/World_B_Free.jpg/960px-World_B_Free.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:World_B_Free.jpg",
+    "author": "TastyPoutine",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of World B. Free",
+    "caption": "World B. Free",
+    "licenseChecked": "2026-11-05"
+  }
 }

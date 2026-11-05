@@ -291,3 +291,24 @@ Date: 2026-11-06. Checked on the full build (528 pages).
 - 97 people have no free photo.
 - Uniform drawings exist only for the Magic and the Lakers.
 - Conference titles are stored only for Orlando (1995, 2009).
+
+# Depth model page: Orlando Magic (full format)
+
+Date: 2026-11-06. The Magic, the Kia Center, Orlando and the Magic people are now in the full format that MLS, NFL,
+MLB and NHL will be built in. Only the exceptions are listed.
+
+## Things to check
+
+1. **Wikipedia-only facts**: the 1986 name-the-team contest (finalists Heat, Tropics, Juice, Magic), the mascot
+   Stuff (since 1989), and the founding years of Orlando City SC (2015) and the Orlando Pride (2016). No official page
+   was found; better sources welcome.
+2. **Population**: still the 2020 census figure via Wikipedia. The Census Bureau API needs a free key; with one we
+   can source every city directly.
+3. **Front office**: left out. Jeff Weltman and Anthony Parker appear in 2026 reports, but no 2026 confirmation was found.
+4. **Honours** come from Basketball-Reference's career list (all teams). Pat Williams' come from CBS Sports.
+5. **New people**: Nikola Vučević (two Orlando spells, 2012–2021 and since 2026) and Stan Van Gundy. Doc Rivers now has
+   his Orlando coaching spell (1999–2003).
+6. **Pat Williams** is marked historical: he died on July 17, 2024 (AP).
+7. **New glossary terms**: All-Star, All-NBA Team, salary cap (2026-27 cap from NBA PR).
+8. **Franz Wagner and the Berlin game**: we say Orlando won in Berlin in his home city, not that he played; he
+   missed much of 2025-26 injured.

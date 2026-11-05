@@ -17,6 +17,21 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franz Wagner (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wagnefr01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 Season Preview: Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2025-26 schedule and results (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2026_games.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -41,6 +56,25 @@
       "value": "5",
       "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "August 27, 2001, Berlin, Germany",
+      "source": "https://www.basketball-reference.com/players/w/wagnefr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2021, No. 8 overall, by the Orlando Magic",
+      "source": "https://www.basketball-reference.com/players/w/wagnefr01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Rookie Team (2021-22)",
+      "source": "https://www.basketball-reference.com/players/w/wagnefr01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "German forward and the Magic’s second star.",

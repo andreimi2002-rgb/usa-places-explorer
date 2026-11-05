@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "NBA All-Star (NBA.com)",
+      "url": "https://www.nba.com/allstar",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "All-Star",
+  "short": "A player picked for the mid-season All-Star Game, an exhibition between the league’s most popular and best players. Being named an All-Star is a common measure of a great season.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "all-nba",
+    "mvp"
+  ]
+}

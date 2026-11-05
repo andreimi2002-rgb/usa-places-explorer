@@ -136,12 +136,10 @@ The whole site is `noindex, nofollow` until launch, controlled by one switch: `i
 | Phase | Content | State |
 |---|---|---|
 | 0 | Archive the old project, scaffold the encyclopedia | Done |
-| 1 | NBA: skeleton, Orlando Magic pilot, then all 30 teams in lots (one PR, one production merge) | In progress: 10 of 30 |
-| 1b | Depth pass after all 30 NBA teams: general team overviews and fuller histories, full biographies with honours, richer venue pages (construction, events, tenants, getting there), full city pages (introduction, sports overview, visitor basics, sourced population, one hand-picked photo); the European angle moves to its own "For European fans" box | Right after the NBA, before the production merge |
-| 2 | MLS: skeleton, pilot, lots; soccer venue extension | Next after the NBA |
-| 3 | NFL | Planned |
-| 4 | MLB | Planned |
-| 5 | NHL | Planned |
+| 1 | NBA: skeleton, Orlando Magic pilot, then all 30 teams in lots | Done (2026-11-06), final check done |
+| 1b | Depth model page: Orlando Magic in the full format (general overview, fuller history, biographies with honours, richer venue, full city page, "For European fans" box). Production merge after the user approves it | In progress |
+| 2–5 | MLS, NFL, MLB, NHL, each built directly in the full format of 1b; one PR and one production merge per league | Planned |
+| 5b | Depth backfill: the other 29 NBA teams to the 1b format; all city pages deepened once, when every sport is in | After the NHL |
 | 6 | College sports: universities as entities, linked to players' colleges; pilot on one major conference and 2–3 sports, then grow | Planned, to be detailed |
 | 7 | WNBA, NWSL, PWHL, UFL | Planned |
 | 8 | Romanian translation (Astro i18n routes; data stays shared) | Planned |

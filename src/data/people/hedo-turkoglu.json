@@ -17,6 +17,11 @@
       "title": "Hedo Türkoğlu (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/t/turkohe01.html",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2008-09 season and playoffs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2009.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -35,6 +40,30 @@
       "value": "2004–2013",
       "source": "https://www.basketball-reference.com/teams/ORL/players.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "March 19, 1979, Istanbul, Turkey",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2000, No. 16 overall, by the Sacramento Kings",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Rookie Team (2000-01)",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most Improved Player (2007-08)",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Turkish forward, a key part of the team that reached the 2009 Finals.",

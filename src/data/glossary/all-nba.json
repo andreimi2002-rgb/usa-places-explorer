@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "All-NBA Teams history (NBA.com)",
+      "url": "https://www.nba.com/news/history-all-nba-teams",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "All-NBA Team",
+  "short": "The end-of-season selection of the best players in the league, voted by media in three teams of five (First, Second and Third). A First Team place is one of the highest individual honours.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "all-star",
+    "mvp"
+  ]
+}

@@ -22,6 +22,16 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MEM/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Desmond Bane (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/banede01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 Season Preview: Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -54,6 +64,25 @@
       "value": "6",
       "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "June 25, 1998, Richmond, Indiana",
+      "source": "https://www.basketball-reference.com/players/b/banede01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2020, No. 30 overall, by the Boston Celtics",
+      "source": "https://www.basketball-reference.com/players/b/banede01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Rookie Team (2020-21)",
+      "source": "https://www.basketball-reference.com/players/b/banede01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Scoring guard who joined Orlando in 2025.",

@@ -11,6 +11,21 @@
       "title": "Orlando Magic draft history (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/draft.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "The 13 members of the Orlando Magic Hall of Fame (WKMG ClickOrlando)",
+      "url": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Nick Anderson",
@@ -47,8 +62,15 @@
       "value": "2014",
       "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "January 20, 1968, Chicago, Illinois",
+      "source": "https://www.basketball-reference.com/players/a/anderni01.html",
+      "verified": "2026-11-06"
     }
   ],
+  "honours": [],
   "summary": "The franchise’s first-ever draft pick, a shooting guard who stayed for its first ten seasons.",
   "image": {
     "licenseChecked": "2026-11-05",

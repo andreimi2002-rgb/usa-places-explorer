@@ -17,6 +17,16 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jalen Suggs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/suggsja01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 Season Preview: Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -41,6 +51,25 @@
       "value": "5",
       "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "June 3, 2001, St. Paul, Minnesota",
+      "source": "https://www.basketball-reference.com/players/s/suggsja01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2021, No. 5 overall, by the Orlando Magic",
+      "source": "https://www.basketball-reference.com/players/s/suggsja01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Defensive Team (2023-24)",
+      "source": "https://www.basketball-reference.com/players/s/suggsja01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Two-way guard, important at both ends when healthy.",

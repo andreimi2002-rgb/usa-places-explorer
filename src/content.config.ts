@@ -232,6 +232,8 @@ const venues = defineCollection({
     capacity: z.record(z.string(), fact(z.number().int())).optional(),
     owner: fact(z.string()).optional(),
     formerNames: z.array(z.object({ name: z.string(), from: year.nullable(), to: year.nullable(), source: z.url(), verified: isoDate.nullable() })).default([]),
+    /** Extra sourced facts for the Key facts box, e.g. cost or events hosted. */
+    facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string().optional(),
     image: image.optional(),
     extensions: venueExtensions,
@@ -252,6 +254,8 @@ const cities = defineCollection({
     metro: z.string().optional(),
     /** City-centre coordinates, used for the live weather widget. */
     coordinates: fact(z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180) })).optional(),
+    /** Extra sourced facts for the Key facts box, e.g. the main airport. */
+    facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string().optional(),
     image: image.optional(),
   }),
@@ -275,6 +279,8 @@ const people = defineCollection({
       }),
     ),
     facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
+    /** Career honours as the source lists them, e.g. "15× All-Star", "1999-00 MVP". */
+    honours: z.array(z.object({ label: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string(),
     image: image.optional(),
   }),

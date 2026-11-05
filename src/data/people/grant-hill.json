@@ -27,6 +27,11 @@
       "title": "Grant Hill (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/h/hillgr01.html",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -59,6 +64,50 @@
       "value": "2018",
       "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "October 5, 1972, Dallas, Texas",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1994, No. 3 overall, by the Detroit Pistons",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Naismith Hall of Fame (2018)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× All-Star",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× All-NBA Team",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (1994-95)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rookie of the Year (1994-95)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Sportsmanship Award",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Played for Orlando from 2000 to 2007.",

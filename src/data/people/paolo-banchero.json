@@ -17,6 +17,21 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Paolo Banchero (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/banchpa01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 Season Preview: Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -53,6 +68,29 @@
       "value": "2024",
       "source": "https://www.nba.com/news/2026-27-season-preview-orl",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "November 12, 2002, Seattle, Washington",
+      "source": "https://www.basketball-reference.com/players/b/banchpa01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "1× All-Star",
+      "source": "https://www.basketball-reference.com/players/b/banchpa01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rookie of the Year (2022-23)",
+      "source": "https://www.basketball-reference.com/players/b/banchpa01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (2022-23)",
+      "source": "https://www.basketball-reference.com/players/b/banchpa01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "The Magic’s franchise player, drafted first overall in 2022.",

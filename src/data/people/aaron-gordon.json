@@ -22,6 +22,16 @@
       "title": "Orlando Magic all-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Aaron Gordon (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/gordoaa01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -54,6 +64,25 @@
       "value": "12",
       "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "September 16, 1995, San Jose, California",
+      "source": "https://www.basketball-reference.com/players/g/gordoaa01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2014, No. 4 overall, by the Orlando Magic",
+      "source": "https://www.basketball-reference.com/players/g/gordoaa01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NBA champion (2023)",
+      "source": "https://www.basketball-reference.com/players/g/gordoaa01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Forward, a starter on the 2023 champions; he began his career in Orlando."

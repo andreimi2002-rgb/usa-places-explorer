@@ -200,6 +200,35 @@ p {
 .prose strong {
   color: var(--text);
 }
+.prose table {
+  width: 100%;
+  max-width: 34rem;
+  border-collapse: collapse;
+  margin: 1.25rem 0 0.4rem;
+  font-size: var(--step--1);
+}
+.prose th,
+.prose td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+.prose th {
+  color: var(--text-subtle);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+}
+.prose td:last-child,
+.prose th:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.prose table + p {
+  font-size: var(--step--1);
+  color: var(--text-subtle);
+}
 
 /* Section heading used across templates */
 .section-head {

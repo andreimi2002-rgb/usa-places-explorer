@@ -17,6 +17,11 @@
       "title": "Jameer Nelson (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/n/nelsoja01.html",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -35,6 +40,30 @@
       "value": "2004–2014",
       "source": "https://www.basketball-reference.com/teams/ORL/players.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "February 9, 1982, Chester, Pennsylvania",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2004, No. 20 overall, by the Denver Nuggets",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "1× All-Star",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (2004-05)",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Point guard for a decade in Orlando, including the 2009 Finals run.",

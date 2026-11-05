@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Stan Van Gundy",
+  "sources": [
+    {
+      "title": "Stan Van Gundy (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/vangust99c.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic coaches (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/coaches.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2008-09 season and playoffs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2009.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "head-coach",
+      "from": 2007,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/teams/ORL/coaches.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Orlando record",
+      "value": "259–135 regular season, 31–28 playoffs",
+      "source": "https://www.basketball-reference.com/teams/ORL/coaches.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 21, 1959, Indio, California",
+      "source": "https://www.basketball-reference.com/coaches/vangust99c.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "summary": "Coached the Howard-era Magic from 2007 to 2012, reaching the 2009 Finals and the 2010 conference finals."
+}

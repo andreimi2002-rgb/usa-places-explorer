@@ -1,5 +1,6 @@
 ---
 import { getCollection, getEntries, getEntry, render } from 'astro:content';
+import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
 import Kit from '../../components/Kit.astro';
 import LocalTime from '../../components/LocalTime.astro';
@@ -40,6 +41,8 @@ const currentVenue = venueLinks.find((v) => v.to === null && v.verified)?.entry;
 
 const sections = {
   why: await prose('franchises', franchise.id, 'why'),
+  overview: await prose('franchises', franchise.id, 'overview'),
+  europe: await prose('franchises', franchise.id, 'europe'),
   history: await prose('franchises', franchise.id, 'history'),
   venue: await prose('franchises', franchise.id, 'venue'),
   culture: await prose('franchises', franchise.id, 'fan-culture'),
@@ -180,6 +183,14 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
         </div>
       </section>
 
+      <!-- 2b. The club today: identity, how the team is built, records -->
+      {rendered.overview && (
+        <section class="section container" aria-labelledby="overview-title">
+          <div class="section-head"><h2 id="overview-title">The club today</h2></div>
+          <div class="prose"><rendered.overview components={{ Term }} /></div>
+        </section>
+      )}
+
       <!-- 3. History by eras -->
       {rendered.history && (
         <section class="section container" aria-labelledby="history-title">
@@ -308,7 +319,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
       <!-- 8. City & fan culture -->
       {rendered.culture && (
         <section class="section container" aria-labelledby="culture-title">
-          <div class="section-head"><h2 id="culture-title">City &amp; fan culture</h2></div>
+          <div class="section-head"><h2 id="culture-title">{sections.culture?.data.title ?? "City & fan culture"}</h2></div>
           <div class="split">
             <div class="prose"><rendered.culture components={{ Term }} /></div>
             {city?.data.image && <Photo image={city.data.image} aspect="4 / 3" />}
@@ -316,6 +327,13 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
         </section>
       )}
     </>
+  )}
+
+  <!-- 8b. For European fans -->
+  {!stub && rendered.europe && (
+    <div class="section container">
+      <EuropeBox><rendered.europe components={{ Term }} /></EuropeBox>
+    </div>
   )}
 
   <!-- 9. Identity history -->

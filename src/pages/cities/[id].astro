@@ -8,6 +8,7 @@
 import { getCollection, render } from 'astro:content';
 import { thumb } from '../../lib/images';
 import EntityHeader from '../../components/EntityHeader.astro';
+import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
 import LocalTime from '../../components/LocalTime.astro';
 import Logo from '../../components/Logo.astro';
@@ -94,6 +95,8 @@ const leagueCount = new Set(current.map((f) => f.data.league.id)).size;
 
 const body = await prose('cities', city.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
+const europe = await prose('cities', city.id, 'europe');
+const Europe = europe ? (await render(europe)).Content : undefined;
 const coords = isVerified(d.coordinates) ? d.coordinates.value : undefined;
 const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-Meteo geocoding (GeoNames)', url: d.coordinates.source, accessed: d.coordinates.verified ?? '2026-11-05' }] : [])];
 ---
@@ -211,11 +214,13 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
             { label: 'Population', value: d.population ? formatNumber(d.population.value) : undefined, source: d.population?.source, verified: d.population?.verified },
             { label: 'Time zone', value: d.timezone },
             { label: 'Metro area', value: d.metro },
+            ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
           ]}
         />
       </div>
     </aside>
   </div>
+  {Europe && <div class="container section"><EuropeBox><Europe components={{ Term }} /></EuropeBox></div>}
   <div class="container section"><MiniGraph type="city" id={city.id} /></div>
   <div class="container section"><SourceList sources={sources} credits={[d.image, ...venues.map((v) => v.data.image)]} /></div>
 </Base>

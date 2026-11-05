@@ -17,6 +17,11 @@
       "title": "Rashard Lewis (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/l/lewisra02.html",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2008-09 season and playoffs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2009.html",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
@@ -35,6 +40,30 @@
       "value": "2007–2011",
       "source": "https://www.basketball-reference.com/teams/ORL/players.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "August 8, 1979, Pineville, Louisiana",
+      "source": "https://www.basketball-reference.com/players/l/lewisra02.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1998, No. 32 overall, by the Seattle SuperSonics",
+      "source": "https://www.basketball-reference.com/players/l/lewisra02.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star",
+      "source": "https://www.basketball-reference.com/players/l/lewisra02.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NBA champion (2013)",
+      "source": "https://www.basketball-reference.com/players/l/lewisra02.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "Played for Orlando from 2007 to 2011.",

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "los-angeles-lakers",
+  "name": "Minneapolis Lakers",
+  "city": "minneapolis",
+  "from": {
+    "value": 1947,
+    "source": "https://www.nba.com/lakers/history/season-capsule",
+    "verified": "2026-11-05"
+  },
+  "to": 1960,
+  "current": false
+}

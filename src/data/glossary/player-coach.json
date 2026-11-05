@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Legends profile: Bill Russell (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "Player-coach",
+  "short": "A player who is also the team’s head coach. Bill Russell won two titles this way with Boston.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "nba-finals"
+  ]
+}

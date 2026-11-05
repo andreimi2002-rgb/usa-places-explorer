@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Bill Russell stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: Bill Russell (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Bill Russell",
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1956,
+      "to": 1969,
+      "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "head-coach",
+      "from": 1966,
+      "to": 1969,
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA titles",
+      "value": "11 in 13 seasons (1957, 1959–1966, 1968, 1969)",
+      "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "5 times",
+      "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Player-coach",
+      "value": "From 1966–67: the NBA’s first Black head coach",
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP award",
+      "value": "Named after him in 2009",
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1975 (player), 2021 (coach)",
+      "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "July 31, 2022",
+      "source": "https://www.basketball-reference.com/players/r/russebi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The defensive center at the heart of eleven Celtics titles, and the league’s first Black head coach.",
+  "image": {
+    "file": "File:Bill russell dribbling (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_russell_dribbling_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_russell_dribbling_(cropped).jpg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Bill Russell dribbling in a Celtics uniform",
+    "caption": "Bill Russell with Boston, around 1960",
+    "licenseChecked": "2026-11-05"
+  }
+}

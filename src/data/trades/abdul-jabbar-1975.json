@@ -1,0 +1,17 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "person": "kareem-abdul-jabbar",
+  "from": "milwaukee-bucks",
+  "to": "los-angeles-lakers",
+  "date": "1975",
+  "summary": "Milwaukee sent Kareem Abdul-Jabbar to the Lakers for Elmore Smith, Brian Winters, Junior Bridgeman and Dave Meyers.",
+  "verified": "2026-11-05"
+}

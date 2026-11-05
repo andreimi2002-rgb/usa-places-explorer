@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1977-78",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "washington-wizards",
+  "winnerName": "Washington Bullets",
+  "runnerUp": "oklahoma-city-thunder",
+  "runnerUpName": "Seattle SuperSonics",
+  "result": "4–3",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

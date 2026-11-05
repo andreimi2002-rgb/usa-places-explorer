@@ -44,7 +44,7 @@ export const rivalriesOf = (franchiseId: string) =>
   getCollection('rivalries', (r) => r.data.franchises.some((f) => f.id === franchiseId));
 
 export const championshipsOf = (franchiseId: string) =>
-  getCollection('championships', (c) => c.data.winner.id === franchiseId || c.data.runnerUp?.id === franchiseId);
+  getCollection('championships', (c) => c.data.winner?.id === franchiseId || c.data.runnerUp?.id === franchiseId);
 
 export const tradesOf = (personId: string) => getCollection('trades', (t) => t.data.person.id === personId);
 

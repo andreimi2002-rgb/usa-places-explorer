@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2015-16",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "cleveland-cavaliers",
+  "winnerName": "Cleveland Cavaliers",
+  "runnerUp": "golden-state-warriors",
+  "runnerUpName": "Golden State Warriors",
+  "result": "4–3",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

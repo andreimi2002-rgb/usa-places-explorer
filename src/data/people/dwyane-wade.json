@@ -1,0 +1,73 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Dwyane Wade stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "A look at the Heat's previous 6 trips to the NBA Finals (NBA.com)",
+      "url": "https://www.nba.com/news/a-look-at-the-heats-previous-6-trips-to-the-nba-finals",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Dwyane Wade",
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2003,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2018,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2003, No. 5 overall, by Miami",
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "2006, 2012, 2013",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2006",
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2023",
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The guard who delivered Miami’s first title in 2006 and stayed for two more.",
+  "image": {
+    "file": "File:Dwyane Wade e1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Dwyane_Wade_e1.jpg/1280px-Dwyane_Wade_e1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dwyane_Wade_e1.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Dwyane Wade in a white Miami Heat uniform",
+    "caption": "Dwyane Wade, 2011",
+    "licenseChecked": "2026-11-05"
+  }
+}

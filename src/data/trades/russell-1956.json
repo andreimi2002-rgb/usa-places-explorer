@@ -1,0 +1,17 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Legends profile: Bill Russell (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "person": "bill-russell",
+  "from": "atlanta-hawks",
+  "to": "boston-celtics",
+  "date": "1956",
+  "summary": "Boston sent Ed Macauley and rookie Cliff Hagan to the St. Louis Hawks, who held the No. 2 pick and used it on Bill Russell for Boston.",
+  "verified": "2026-11-05"
+}

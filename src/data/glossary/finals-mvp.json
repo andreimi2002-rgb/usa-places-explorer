@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Legends profile: Bill Russell (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "Finals MVP",
+  "short": "The award for the most valuable player of the NBA Finals. Since 2009 it has been named after Bill Russell.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "nba-finals",
+    "mvp"
+  ]
+}

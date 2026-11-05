@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "los-angeles-lakers",
   "name": "Los Angeles Lakers",
   "city": "los-angeles",
+  "from": {
+    "value": 1960,
+    "source": "https://www.nba.com/lakers/history/season-capsule",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

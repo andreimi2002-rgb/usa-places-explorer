@@ -1,0 +1,77 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Kobe Bryant stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Kobe Bryant",
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1996,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1996, No. 13 overall, by Charlotte",
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "2000, 2001, 2002, 2009, 2010",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2009, 2010",
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2007–08",
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2020",
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "January 26, 2020",
+      "source": "https://www.basketball-reference.com/players/b/bryanko01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Twenty seasons, all with the Lakers, and five championships.",
+  "image": {
+    "file": "File:Kobe Bryant 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kobe_Bryant_2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_2015.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Kobe Bryant in a gold Lakers uniform",
+    "caption": "Kobe Bryant, 2015",
+    "licenseChecked": "2026-11-05"
+  }
+}

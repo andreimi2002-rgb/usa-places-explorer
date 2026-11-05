@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "About TD Garden (TD Garden)",
+      "url": "https://www.tdgarden.com/about-td-garden",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "TD Garden",
+  "city": "boston",
+  "opened": {
+    "value": "1995",
+    "source": "https://www.tdgarden.com/about-td-garden",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18624,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Delaware North",
+    "source": "https://www.tdgarden.com/about-td-garden",
+    "verified": "2026-11-05",
+    "note": "Privately financed and owned by Delaware North – Boston."
+  },
+  "formerNames": [],
+  "summary": "The Celtics’ home arena since it opened in 1995.",
+  "image": {
+    "file": "File:TD Garden 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/TD_Garden_2013.jpg/1280px-TD_Garden_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TD_Garden_2013.jpg",
+    "author": "Kid Clutch from Rain City USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of TD Garden in Boston",
+    "caption": "TD Garden, 2013",
+    "licenseChecked": "2026-11-05"
+  }
+}

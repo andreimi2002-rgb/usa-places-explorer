@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Jerry West stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/westje01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Jerry West",
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1960,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "head-coach",
+      "from": 1976,
+      "to": 1979,
+      "source": "https://www.basketball-reference.com/teams/LAL/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1960, No. 2 overall, by the Lakers",
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1972",
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1969, the first ever, on the losing team",
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1980 (player), 2024 (contributor)",
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "June 12, 2024",
+      "source": "https://www.basketball-reference.com/players/w/westje01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Lakers’ star guard of the 1960s, the first Finals MVP, and later their coach.",
+  "image": {
+    "file": "File:Jerry West 1972.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jerry_West_1972.jpeg/1280px-Jerry_West_1972.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerry_West_1972.jpeg",
+    "author": "Malcolm W. Emmons",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Jerry West in a Lakers uniform",
+    "caption": "Jerry West, 1972",
+    "licenseChecked": "2026-11-05"
+  }
+}

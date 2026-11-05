@@ -267,8 +267,12 @@ const championships = defineCollection({
     season: z.string().regex(/^\d{4}-\d{2}$/),
     level: z.enum(['league', 'conference']),
     title: z.string(),
-    winner: reference('franchises'),
+    /** The franchise, when it still exists in the data; defunct clubs only have a name. */
+    winner: reference('franchises').optional(),
     runnerUp: reference('franchises').optional(),
+    /** Team names as they were that season, e.g. "Minneapolis Lakers". */
+    winnerName: z.string(),
+    runnerUpName: z.string().optional(),
     result: z.string().optional(),
     source: z.url(),
     verified: isoDate.nullable(),

@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Boston Celtics team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612738/celtics",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "boston-celtics",
   "name": "Boston Celtics",
   "city": "boston",
+  "from": {
+    "value": 1946,
+    "source": "https://www.nba.com/team/1610612738/celtics",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

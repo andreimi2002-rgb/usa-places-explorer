@@ -16,6 +16,11 @@
       "title": "Lakers sign Shaq (Deseret News, 1996)",
       "url": "https://www.deseret.com/1996/7/18/19255023/it-s-showtime-again-as-l-a-signs-shaq/",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Shaquille O’Neal",
@@ -25,6 +30,30 @@
       "role": "player",
       "from": 1992,
       "to": 1996,
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1996,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2004,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2010,
+      "to": 2011,
       "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
       "verified": "2026-11-05"
     }
@@ -43,6 +72,24 @@
       "verified": "2026-11-05"
     },
     {
+      "label": "NBA titles",
+      "value": "2000, 2001, 2002 (Lakers), 2006 (Miami)",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2000, 2001, 2002",
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1999–2000",
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
       "label": "Naismith Hall of Fame",
       "value": "2016",
       "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
@@ -55,7 +102,7 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "The giant center who made a three-year-old team a contender, then left for Los Angeles in 1996.",
+  "summary": "The giant center who made Orlando a contender, then won three titles with the Lakers and one with Miami.",
   "image": {
     "licenseChecked": "2026-11-05",
     "file": "File:Shaquille O'Neal October 2017 (cropped).jpg",

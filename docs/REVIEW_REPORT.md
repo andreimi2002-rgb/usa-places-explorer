@@ -64,3 +64,40 @@ wrong time difference (Orlando is 5 hours behind London, not 6, for most of the 
 2. **Old PR #7:** closed; the work stays in `archive/previous-project`.
 3. **Fan culture:** kept short and sourced; deepened per team only where local press gives solid material.
 4. **Launch:** `indexable` stays off until several NBA teams are complete.
+
+---
+
+# Lot 1 — Miami Heat, Los Angeles Lakers, Boston Celtics
+
+Date: 2026-11-05. Branch `nba-teams` (one PR for all NBA teams; merged to production once, at the end).
+
+## 1. What was added
+
+| Area | Entities | Progress |
+|---|---|---|
+| Teams | Miami Heat, Los Angeles Lakers, Boston Celtics (all 12 sections; uniforms for the Lakers only) | `under-review` |
+| Identities | Minneapolis Lakers (1947–1960), plus the current identity of each team | `complete` |
+| Venues | Kaseya Center, Crypto.com Arena, TD Garden | `under-review` |
+| Cities | Miami, Los Angeles, Boston | `content-ready` |
+| People | Dwyane Wade, Alonzo Mourning, LeBron James, Pat Riley, Kobe Bryant, Magic Johnson, Kareem Abdul-Jabbar, Jerry West, George Mikan, Bill Russell, Red Auerbach, Larry Bird, Paul Pierce; Shaquille O'Neal extended with his Lakers, Heat and Celtics years | `under-review` |
+| Rivalry | Celtics vs. Lakers | `under-review` |
+| Glossary | Finals MVP, MVP, three-peat, player-coach, sign-and-trade | `complete` |
+| Trades | Russell to Boston (1956), Abdul-Jabbar to the Lakers (1975) | `complete` |
+| League-wide | **All 80 NBA Finals (1947–2026)** from NBA.com's champions list, so every team page, stubs included, now shows its real title count | `complete` |
+
+## 2. Things to check
+
+1. **Finals lineage.** Old team names are mapped to today's franchises, for example Syracuse Nationals → 76ers,
+   Rochester Royals → Kings, St. Louis Hawks → Hawks, Fort Wayne Pistons → Pistons, Philadelphia/San Francisco
+   Warriors → Warriors, Baltimore (1971) and Washington Bullets → Wizards. **Seattle SuperSonics → Oklahoma City
+   Thunder** is the one some fans dispute. The 1948 champion (the original Baltimore Bullets) and the 1947 and 1949
+   runners-up (Chicago Stags, Washington Capitols) no longer exist, so those records keep only the team names.
+2. **Current facts (as of 2026-27)**: head coaches Spoelstra, Redick and Mazzulla, and LeBron James playing for the
+   76ers this season, come from Basketball-Reference (secondary).
+3. **Owners**: Lakers (Mark Walter) and Celtics (Bill Chisholm group) from NBA.com; Heat: Micky Arison described
+   by NBA.com as "Chairman & Governor" and "in control since 1995".
+4. **Team colors** for all three are read from the official logo files, with descriptive names.
+5. **Uniforms**: only the Lakers have a sourced 2025-26 set. Celtics and Heat sources were too old or too thin.
+6. **City populations** are not shown yet: the Census API needs a key.
+7. **Historical arenas** (Boston Garden, the Forum, Miami Arena) are not covered yet.
+8. **Player years** (draft, seasons, awards, Hall of Fame) come from Basketball-Reference, a reference site.

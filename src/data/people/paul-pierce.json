@@ -1,0 +1,65 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Paul Pierce stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics' NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Paul Pierce",
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1998,
+      "to": 2013,
+      "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1998, No. 10 overall, by Boston",
+      "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2008",
+      "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2008",
+      "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2021",
+      "source": "https://www.basketball-reference.com/players/p/piercpa01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Fifteen seasons in Boston and the Finals MVP of the 2008 title.",
+  "image": {
+    "file": "File:Paul Pierce at Celtics alumni recognition ceremony-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Paul_Pierce_at_Celtics_alumni_recognition_ceremony-1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Pierce_at_Celtics_alumni_recognition_ceremony-1.jpg",
+    "author": "Boston Celtics",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Paul Pierce on court at TD Garden during a Celtics halftime ceremony",
+    "caption": "Paul Pierce at a Celtics alumni ceremony, 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

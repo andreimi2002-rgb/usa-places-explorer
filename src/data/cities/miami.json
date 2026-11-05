@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,17 @@
   "name": "Miami",
   "region": "Florida",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "summary": "Home of the Heat since 1988.",
+  "image": {
+    "file": "File:Downtown Miami skyline 20100305.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Downtown_Miami_skyline_20100305.jpg/1280px-Downtown_Miami_skyline_20100305.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Miami_skyline_20100305.jpg",
+    "author": "Dori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Panorama of the downtown Miami skyline",
+    "caption": "Downtown Miami",
+    "licenseChecked": "2026-11-05"
+  }
 }

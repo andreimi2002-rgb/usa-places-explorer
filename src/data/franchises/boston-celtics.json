@@ -1,20 +1,230 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Boston Celtics team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612738/celtics",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics' NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: Bill Russell (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "A look at the legends: Red Auerbach (NBA.com)",
+      "url": "https://www.nba.com/celtics/news/look-legends-red-auerbach",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "NBA Board of Governors approves sale of Celtics to group led by Bill Chisholm (NBA.com)",
+      "url": "https://pr.nba.com/nba-board-of-governors-celtics-sale-bill-chisholm/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Boston Celtics",
   "league": "nba",
   "division": "nba-atlantic",
+  "founded": {
+    "value": 1946,
+    "source": "https://www.nba.com/team/1610612738/celtics",
+    "verified": "2026-11-05",
+    "note": "Founded by Walter Brown, owner from 1946 to 1964."
+  },
+  "firstSeason": {
+    "value": "1946-47",
+    "source": "https://www.basketball-reference.com/teams/BOS/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Green",
+        "hex": "#008348"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gold",
+        "hex": "#BB9753"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Green and gold taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/boston-celtics.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "td-garden",
+      "from": 1995,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Joe Mazzulla",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/BOS/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Bill Chisholm (since 2025)",
+    "source": "https://pr.nba.com/nba-board-of-governors-celtics-sale-bill-chisholm/",
+    "verified": "2026-11-05",
+    "note": "Approved by the NBA on August 13, 2025; Wyc Grousbeck stays on as co-owner."
+  },
+  "milestones": [
+    {
+      "date": "1946",
+      "label": "Walter Brown founds the Celtics",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612738/celtics",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1950",
+      "label": "Red Auerbach hired as head coach",
+      "kind": "other",
+      "source": "https://www.nba.com/celtics/news/look-legends-red-auerbach",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1956",
+      "label": "Trade with St. Louis brings Bill Russell to Boston",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1957",
+      "label": "First NBA title, over the St. Louis Hawks",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1966",
+      "label": "Eighth straight title (1959–1966); Auerbach steps down as coach",
+      "kind": "finals",
+      "source": "https://www.nba.com/celtics/news/look-legends-red-auerbach",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1966",
+      "label": "Bill Russell becomes player-coach, the NBA’s first Black head coach",
+      "kind": "other",
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1969",
+      "label": "Eleventh title in thirteen seasons; Russell retires",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-legend-bill-russell",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Thirteenth title, over Phoenix",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1978",
+      "label": "Draft Larry Bird with the sixth pick",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1981",
+      "label": "First title of the Bird era, over Houston",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1986",
+      "label": "Sixteenth title; Bird is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "Move into the new arena now called TD Garden",
+      "kind": "venue",
+      "source": "https://www.tdgarden.com/about-td-garden",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2008",
+      "label": "Pierce, Garnett and Allen win the 17th title, over the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2024",
+      "label": "18th title, over Dallas, the most in NBA history",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025-08-13",
+      "label": "NBA approves the sale to a group led by Bill Chisholm",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/nba-board-of-governors-celtics-sale-bill-chisholm/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The NBA’s most decorated club: 18 titles, eleven of them in the Bill Russell years.",
+  "image": {
+    "file": "File:Celtics game versus the Timberwolves, February, 1 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg/1280px-Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Celtics_game_versus_the_Timberwolves,_February,_1_2009.jpg",
+    "author": "Ktr101",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "A Celtics home game at TD Garden, seen from the upper seats",
+    "caption": "Celtics vs. Timberwolves at TD Garden, 2009",
+    "licenseChecked": "2026-11-05"
   }
 }

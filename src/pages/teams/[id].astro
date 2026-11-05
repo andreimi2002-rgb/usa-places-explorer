@@ -31,7 +31,7 @@ const identities = await Promise.all(
 const people = await peopleOf(franchise.id);
 const rivalries = await rivalriesOf(franchise.id);
 const championships = await championshipsOf(franchise.id);
-const titles = championships.filter((c) => c.data.level === 'league' && c.data.winner.id === franchise.id && c.data.verified);
+const titles = championships.filter((c) => c.data.level === 'league' && c.data.winner?.id === franchise.id && c.data.verified);
 const finalsLost = championships.filter((c) => c.data.level === 'league' && c.data.runnerUp?.id === franchise.id && c.data.verified);
 const venueLinks = await Promise.all(d.venues.map(async (v) => ({ ...v, entry: await getEntry(v.venue) })));
 const currentVenue = venueLinks.find((v) => v.to === null && v.verified)?.entry;
@@ -53,6 +53,14 @@ const legends = people.filter((p) => p.data.roles.some((r) => r.franchise.id ===
 const rivalryEntries = await Promise.all(
   rivalries.map(async (r) => ({ r, other: (await getEntries(r.data.franchises)).find((f) => f.id !== franchise.id) })),
 );
+const finalsSeasons = [...titles, ...finalsLost].map((c) => c.data.season).sort();
+const finalsSummary =
+  finalsSeasons.length === 0
+    ? undefined
+    : finalsSeasons.length <= 3
+      ? finalsSeasons.join(', ')
+      : `${finalsSeasons.length} times, most recently ${finalsSeasons.at(-1)}`;
+const ROLE_LABELS = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
 const description = d.summary ?? `${d.name}: history, home venue, legends and rivalries, explained for newcomers.`;
 const kits = d.kits.filter((k) => k.verified);
 const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((p) => p.data.image)];
@@ -117,7 +125,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
               },
               {
                 label: 'NBA Finals reached',
-                value: [...titles, ...finalsLost].map((c) => c.data.season).sort().join(', ') || undefined,
+                value: finalsSummary,
                 source: finalsLost[0]?.data.source,
                 verified: finalsLost[0]?.data.verified ?? titles[0]?.data.verified,
               },
@@ -193,7 +201,10 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
           <div class="section-head"><h2 id="legends-title">Legends</h2></div>
           <ul class="grid grid-3 cards">
             {legends.map((p) => {
-              const role = p.data.roles.find((r) => r.franchise.id === franchise.id)!;
+              const here = p.data.roles.filter((r) => r.franchise.id === franchise.id);
+              const kinds = [...new Set(here.map((r) => ROLE_LABELS[r.role]))].join(', ');
+              const from = Math.min(...here.map((r) => r.from));
+              const to = here.some((r) => r.to === null) ? 'today' : Math.max(...here.map((r) => r.to ?? 0));
               return (
                 <li class="card">
                   {p.data.image ? (
@@ -202,7 +213,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
                     <div class="portrait placeholder" aria-hidden="true">{p.data.name.split(' ').map((w) => w[0]).join('').slice(0, 2)}</div>
                   )}
                   <div class="card-body">
-                    <span class="eyebrow">{role.role === 'founder' ? 'Co-founder' : 'Player'} · {role.from}–{role.to ?? ''}</span>
+                    <span class="eyebrow">{kinds} · {from}–{to}</span>
                     <h3><a href={routes.people(p.id)} class="stretched">{p.data.name}</a></h3>
                     <p class="muted">{p.data.summary}</p>
                   </div>

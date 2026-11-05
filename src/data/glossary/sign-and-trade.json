@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Bio: Micky Arison (NBA.com)",
+      "url": "https://www.nba.com/heat/bio/micky-arison",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "Sign-and-trade",
+  "short": "A deal in which a team re-signs its own free agent and immediately trades him to another team, usually so both clubs get something back.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "trade",
+    "free-agency"
+  ]
+}

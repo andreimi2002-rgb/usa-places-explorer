@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1949-50",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "los-angeles-lakers",
+  "winnerName": "Minneapolis Lakers",
+  "runnerUp": "philadelphia-76ers",
+  "runnerUpName": "Syracuse Nationals",
+  "result": "4–2",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

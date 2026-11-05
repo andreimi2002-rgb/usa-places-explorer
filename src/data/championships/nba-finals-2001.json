@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2000-01",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "los-angeles-lakers",
+  "winnerName": "Los Angeles Lakers",
+  "runnerUp": "philadelphia-76ers",
+  "runnerUpName": "Philadelphia 76ers",
+  "result": "4–1",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

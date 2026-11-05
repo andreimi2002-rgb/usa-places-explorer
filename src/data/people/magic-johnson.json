@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Magic Johnson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Magic Johnson",
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1979,
+      "to": 1991,
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1995,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1979, No. 1 overall, by the Lakers",
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1980, 1982, 1985, 1987, 1988",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1980, 1982, 1987",
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1986–87, 1988–89, 1989–90",
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2002",
+      "source": "https://www.basketball-reference.com/players/j/johnsma02.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The 6-foot-9 point guard who ran Showtime and won five titles in the 1980s.",
+  "image": {
+    "file": "File:Magic Johnson at SXSW 2022 (51958828669) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/1280px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Magic_Johnson_at_SXSW_2022_(51958828669)_(cropped).jpg",
+    "author": "Daniel Benavides",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Magic Johnson speaking at an event",
+    "caption": "Magic Johnson in 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

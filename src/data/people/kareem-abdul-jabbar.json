@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Kareem Abdul-Jabbar stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Kareem Abdul-Jabbar",
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1969,
+      "to": 1975,
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1975,
+      "to": 1989,
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Born as",
+      "value": "Ferdinand Lewis Alcindor Jr.",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "1969, No. 1 overall, by Milwaukee",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "6 (1 with Milwaukee, 5 with the Lakers)",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "6 times (1971, 1972, 1974, 1976, 1977, 1980)",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career points",
+      "value": "38,387",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1995",
+      "source": "https://www.basketball-reference.com/players/a/abdulka01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The center with the skyhook: six MVP awards and five titles in purple and gold.",
+  "image": {
+    "file": "File:Kareem Abdul-Jabbar 1975.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kareem_Abdul-Jabbar_1975.jpeg/1280px-Kareem_Abdul-Jabbar_1975.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kareem_Abdul-Jabbar_1975.jpeg",
+    "author": "Steve Jenner",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Kareem Abdul-Jabbar in a Bucks uniform",
+    "caption": "Kareem Abdul-Jabbar, 1975",
+    "licenseChecked": "2026-11-05"
+  }
+}

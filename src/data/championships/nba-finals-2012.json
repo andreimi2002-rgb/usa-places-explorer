@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2011-12",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "miami-heat",
+  "winnerName": "Miami Heat",
+  "runnerUp": "oklahoma-city-thunder",
+  "runnerUpName": "Oklahoma City Thunder",
+  "result": "4–1",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

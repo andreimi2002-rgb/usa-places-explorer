@@ -10,5 +10,11 @@
   ],
   "name": "New York Knicks",
   "league": "nba",
-  "division": "nba-atlantic"
+  "division": "nba-atlantic",
+  "logo": {
+    "file": "nba/new-york-knicks.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

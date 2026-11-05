@@ -10,5 +10,11 @@
   ],
   "name": "Toronto Raptors",
   "league": "nba",
-  "division": "nba-atlantic"
+  "division": "nba-atlantic",
+  "logo": {
+    "file": "nba/toronto-raptors.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

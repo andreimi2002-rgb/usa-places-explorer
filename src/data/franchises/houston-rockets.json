@@ -10,5 +10,11 @@
   ],
   "name": "Houston Rockets",
   "league": "nba",
-  "division": "nba-southwest"
+  "division": "nba-southwest",
+  "logo": {
+    "file": "nba/houston-rockets.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

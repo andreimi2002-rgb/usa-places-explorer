@@ -10,5 +10,11 @@
   ],
   "name": "Denver Nuggets",
   "league": "nba",
-  "division": "nba-northwest"
+  "division": "nba-northwest",
+  "logo": {
+    "file": "nba/denver-nuggets.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

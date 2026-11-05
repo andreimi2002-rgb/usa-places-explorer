@@ -13,6 +13,7 @@ sections it has data for, plus a progress note.
 | 3 | **At a glance**: fact box with source links | `firstSeason`, `owner`, `headCoach` (with `asOf`), finals reached | — | at least one verified fact |
 | 4 | **History by eras**: one H3 per era, with years in the heading | `milestones` | `history.mdx` | prose exists |
 | 5 | **Venue**: current home, photo, link to venue page, past homes | `venues[]` → `venues` collection | `venue.mdx` | a venue is linked |
+| 5b | **Uniforms**: simplified drawings of the current set, plus a free-license game photo | `kits[]`, `kitPhoto` | — | a verified kit |
 | 6 | **Championships timeline**: titles, finals and milestones on one line | `championships`, `milestones` | — | any item |
 | 7 | **Legends**: cards linking to person pages, with role and years | `people[].roles` for this franchise | — | any person |
 | 8 | **Rivalries**: cards linking to rivalry pages | `rivalries` containing this franchise | — | any rivalry |
@@ -47,7 +48,9 @@ From `src/content.config.ts`. `fact<T>` = `{ value: T, source: url, verified: IS
 | `founded` | fact\<year\> | no | |
 | `firstSeason` | fact\<"YYYY-YY"\> | no | |
 | `colors` | `{ value: [{ name, hex }], source, verified }` | no | first color is the page accent |
-| `logo` | `"<league>/<id>.svg"` | no | file in `src/assets/logos/`; initials are shown if missing |
+| `logo` | `{ file: "<league>/<id>.svg", official, source, accessed }` | no | file in `src/assets/logos/`; initials are shown if missing; official logos are credited under the sources |
+| `kits` | `[{ edition, season, base, panel?, trim?, pinstripes, wordmark?, maker?, description, source, verified }]` | no | `edition`: association, icon, statement, city, classic, home, away, third, alternate; colors as hex |
+| `kitPhoto` | Commons image | no | a real game photo of a current uniform |
 | `venues` | `[{ venue: ref, from: year, to: year\|null, source, verified }]` | no | `to: null` = current home |
 | `headCoach` | `{ name, person?: ref, asOf: "YYYY-YY", source, verified }` | no | semi-current; always shows its season |
 | `owner` | fact\<string\> | no | |
@@ -113,7 +116,27 @@ From `src/content.config.ts`. `fact<T>` = `{ value: T, source: url, verified: IS
     "source": "https://teamcolorcodes.com/orlando-magic-color-codes/",
     "verified": "2026-11-05"
   },
-  "logo": "nba/orlando-magic.svg",
+  "logo": {
+    "file": "nba/orlando-magic.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "statement",
+      "season": "2025-26",
+      "base": "#000000",
+      "panel": "#0077C0",
+      "trim": "#C4CED4",
+      "pinstripes": true,
+      "wordmark": "MAGIC",
+      "maker": "Jordan Brand",
+      "description": "Black, inspired by the original warm-up jackets: a blue shoulder panel and two silver stripes framing the wordmark.",
+      "source": "https://news.sportslogos.net/2025/06/03/orlando-magic-unveil-new-uniforms-logos-court-design/basketball/",
+      "verified": "2026-11-05"
+    }
+  ],
   "venues": [
     {
       "venue": "amway-arena",
@@ -181,7 +204,15 @@ A **stub** (every other NBA franchise today) needs only:
 
 plus one `team_identities` file (for example `team_identities/boston-celtics.json`) linking the name to its city.
 
-## 4. Sport-specific extensions
+## 4. Uniform drawings
+
+`src/components/Kit.astro` draws a jersey and shorts from one `kits[]` entry. It shows **only** what the data
+records: base color, shoulder panel, two trim stripes (when a panel and trim are given), pinstripes and the
+wordmark. The pinstripe color is a neutral contrast unless `trim` is set. The page states that the drawings are
+simplified sketches, not the exact designs. Record a detail only when a source describes it or a free-license
+photo clearly shows it.
+
+## 5. Sport-specific extensions
 
 Extensions are optional and never required for another sport. Today they live on venues
 (`venues.extensions`); franchise extensions will be added the same way when a sport needs them.

@@ -10,5 +10,11 @@
   ],
   "name": "LA Clippers",
   "league": "nba",
-  "division": "nba-pacific"
+  "division": "nba-pacific",
+  "logo": {
+    "file": "nba/la-clippers.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

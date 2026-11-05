@@ -64,7 +64,7 @@ const Body = body ? (await render(body)).Content : undefined;
                 {teams.map(({ f, city }) => (
                   <li class:list={[{ stub: f.data.progress === 'not-started' }]}>
                     <a href={routes.franchises(f.id)}>
-                      <Logo path={f.data.logo} name={f.data.name} size={36} color="#243045" />
+                      <Logo logo={f.data.logo} name={f.data.name} size={36} color="#243045" />
                       <span>
                         <strong>{f.data.name}</strong>
                         <span class="subtle">{city?.data.name}{f.data.progress === 'not-started' ? ' · coming soon' : ''}</span>

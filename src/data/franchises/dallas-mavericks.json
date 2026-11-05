@@ -10,5 +10,11 @@
   ],
   "name": "Dallas Mavericks",
   "league": "nba",
-  "division": "nba-southwest"
+  "division": "nba-southwest",
+  "logo": {
+    "file": "nba/dallas-mavericks.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

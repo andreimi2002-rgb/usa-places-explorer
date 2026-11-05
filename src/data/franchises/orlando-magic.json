@@ -36,6 +36,21 @@
       "title": "Richard & Helen DeVos Foundation (UCF)",
       "url": "https://business.ucf.edu/devos/",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Magic unveil new logo, uniforms for 2025-26 (NBA.com)",
+      "url": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic unveil new uniforms, logos, court design (SportsLogos.net)",
+      "url": "https://news.sportslogos.net/2025/06/03/orlando-magic-unveil-new-uniforms-logos-court-design/basketball/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Orlando Magic",
@@ -70,7 +85,12 @@
     "source": "https://teamcolorcodes.com/orlando-magic-color-codes/",
     "verified": "2026-11-05"
   },
-  "logo": "nba/orlando-magic.svg",
+  "logo": {
+    "file": "nba/orlando-magic.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  },
   "venues": [
     {
       "venue": "amway-arena",
@@ -223,5 +243,51 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "alt": "View from the upper seats of a Magic home game, with the scoreboard over the court",
     "caption": "The first regular-season game at the new arena, October 2010"
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2025-26",
+      "base": "#FFFFFF",
+      "pinstripes": true,
+      "maker": "Nike",
+      "description": "White, with pinstripes that bring back the look of the team’s first years (1989–98).",
+      "source": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
+      "verified": "2026-11-05"
+    },
+    {
+      "edition": "icon",
+      "season": "2025-26",
+      "base": "#0077C0",
+      "pinstripes": true,
+      "maker": "Nike",
+      "description": "Magic blue, with the same pinstripes and trim as the white set.",
+      "source": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
+      "verified": "2026-11-05"
+    },
+    {
+      "edition": "statement",
+      "season": "2025-26",
+      "base": "#000000",
+      "panel": "#0077C0",
+      "trim": "#C4CED4",
+      "pinstripes": true,
+      "wordmark": "MAGIC",
+      "maker": "Jordan Brand",
+      "description": "Black, inspired by the original warm-up jackets: a blue shoulder panel and two silver stripes framing the wordmark.",
+      "source": "https://news.sportslogos.net/2025/06/03/orlando-magic-unveil-new-uniforms-logos-court-design/basketball/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "kitPhoto": {
+    "file": "File:Goga Bitadze Orlando Magic 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Goga_Bitadze_Orlando_Magic_2025.jpg/1280px-Goga_Bitadze_Orlando_Magic_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Goga_Bitadze_Orlando_Magic_2025.jpg",
+    "author": "Daiei Onoguchi",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Goga Bitadze in the black Magic Statement uniform, with pinstripes and a blue shoulder panel",
+    "caption": "Goga Bitadze in the black Statement uniform at the 2025 NBA Cup in Las Vegas",
+    "licenseChecked": "2026-11-05"
   }
 }

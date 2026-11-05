@@ -10,5 +10,11 @@
   ],
   "name": "Sacramento Kings",
   "league": "nba",
-  "division": "nba-pacific"
+  "division": "nba-pacific",
+  "logo": {
+    "file": "nba/sacramento-kings.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

@@ -10,5 +10,11 @@
   ],
   "name": "Atlanta Hawks",
   "league": "nba",
-  "division": "nba-southeast"
+  "division": "nba-southeast",
+  "logo": {
+    "file": "nba/atlanta-hawks.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

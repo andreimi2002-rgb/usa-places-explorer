@@ -119,8 +119,43 @@ const franchises = defineCollection({
     colors: z
       .object({ value: z.array(z.object({ name: z.string(), hex })), source: z.url(), verified: isoDate.nullable() })
       .optional(),
-    /** Path inside src/assets/logos, e.g. "nba/orlando-magic.svg". Temporary artwork only. */
-    logo: z.string().regex(/^[a-z]+\/[a-z0-9-]+\.svg$/).optional(),
+    /**
+     * Logo file inside src/assets/logos, e.g. "nba/orlando-magic.svg". Official logos are
+     * trademarks, shown small for identification only; `source` records where the file came from.
+     */
+    logo: z
+      .object({
+        file: z.string().regex(/^[a-z]+\/[a-z0-9-]+\.svg$/),
+        official: z.boolean(),
+        source: z.url().nullable(),
+        accessed: isoDate.nullable(),
+      })
+      .optional(),
+    /**
+     * Current uniforms, drawn as simplified diagrams. Only details a source confirms are stored;
+     * the drawing shows nothing else.
+     */
+    kits: z
+      .array(
+        z.object({
+          edition: z.enum(['association', 'icon', 'statement', 'city', 'classic', 'home', 'away', 'third', 'alternate']),
+          season: z.string().regex(/^\d{4}-\d{2}$/),
+          base: hex,
+          /** Shoulder panel color, when a source describes one. */
+          panel: hex.optional(),
+          /** Trim or stripe color, when a source describes one. */
+          trim: hex.optional(),
+          pinstripes: z.boolean().default(false),
+          wordmark: z.string().optional(),
+          maker: z.string().optional(),
+          description: z.string(),
+          source: z.url(),
+          verified: isoDate.nullable(),
+        }),
+      )
+      .default([]),
+    /** A free-license photo of a current uniform in a game. */
+    kitPhoto: image.optional(),
     venues: z
       .array(z.object({ venue: reference('venues'), from: year, to: year.nullable(), source: z.url(), verified: isoDate.nullable() }))
       .default([]),

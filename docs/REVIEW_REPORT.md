@@ -46,10 +46,17 @@ These are displayed, but a primary source would be better:
 | Rivalry nickname "The Sunshine State rivalry" | Wikipedia |
 | Orlando Magic Hall of Fame induction years (6 people) | ClickOrlando |
 
-## 5. Placeholders
+## 5. Logos and uniforms
 
-- **Logo:** `src/assets/logos/nba/orlando-magic.svg` is a placeholder (blue circle, star, "ORL"), not the
-  official logo. Other teams show initials.
+- **Logos:** all 30 NBA franchises now use their official primary logo from cdn.nba.com (accessed 2026-11-05),
+  credited on each team page. Orlando's is the new logo from the June 2025 rebrand.
+- **Uniforms (Orlando only):** Association, Icon and Statement sets for 2025-26, drawn from the NBA.com
+  announcement and SportsLogos.net; real photo: Goga Bitadze in the Statement uniform (CC BY 4.0). The City
+  Edition is not included yet.
+- **Team colors after the rebrand:** the Magic changed their logo and uniforms in June 2025. The team names its
+  colors (Magic blue, black, silver) but publishes no hex codes. Our hex codes come from teamcolorcodes.com,
+  which still describes the 2008 look, and the new official logo uses a deeper blue (#0050B5). Which blue should
+  we use?
 
 ## 6. Prose checked and corrected during writing
 
@@ -63,5 +70,5 @@ wrong time difference (Orlando is 5 hours behind London, not 6, for most of the 
 2. **Old PR #7** (`listing-enrichment` from the previous project) is archived in `archive/previous-project`. Close it?
 3. **Fan culture:** the Orlando fan-culture section is short and careful. Should we invest in deeper sources
    (local press, team history books) for this section on every team?
-4. **Launch:** when to switch `indexable` on, and whether to use official logos at launch.
+4. **Launch:** when to switch `indexable` on.
 5. **Kia Center capacity:** show "about 18,500" from the venue's page, or wait for an exact official figure?

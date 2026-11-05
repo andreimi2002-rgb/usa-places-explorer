@@ -1,0 +1,201 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Logo from '../components/Logo.astro';
+import Base from '../layouts/Base.astro';
+import { cityOf, routes } from '../lib/entities';
+import { siteConfig } from '../site.config';
+
+const pilot = await getEntry('franchises', 'orlando-magic');
+const pilotCity = pilot ? await cityOf(pilot.id) : undefined;
+const leagues = await getCollection('leagues');
+const franchises = await getCollection('franchises');
+const glossary = (await getCollection('glossary')).slice(0, 6);
+const accent = pilot?.data.colors?.value[0]?.hex;
+---
+
+<Base description="An encyclopedia of American professional sports, written for Europeans: why teams matter, how they connect, and what time the game starts back home.">
+  <section class="hero">
+    {pilot?.data.image && <img class="bg" src={pilot.data.image.url} alt="" />}
+    <div class="container">
+      <span class="eyebrow">{siteConfig.tagline}</span>
+      <h1>The American sports encyclopedia</h1>
+      <p class="lede">
+        Not scores, not stats. The stories, cities, rivalries and legends behind US pro teams, explained for people who did
+        not grow up with them.
+      </p>
+      <div class="cta">
+        <a class="button" href="/leagues/nba/">Start with the NBA</a>
+        <a class="chip" href="/graph/">Explore the connection graph →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>Three things you won't find on a scores site</h2></div>
+    <ul class="grid grid-3 pillars">
+      <li>
+        <span class="num">01</span>
+        <h3>Explained for beginners</h3>
+        <p class="muted">Why a team matters, why a rivalry burns, and how the draft, trades and playoffs work, with every piece of jargon linked to the <a href="/glossary/">glossary</a>.</p>
+      </li>
+      <li>
+        <span class="num">02</span>
+        <h3>Everything connected</h3>
+        <p class="muted">Teams, cities, arenas, legends and rivalries are linked, and the <a href="/graph/">graph</a> shows how one story leads to the next.</p>
+      </li>
+      <li>
+        <span class="num">03</span>
+        <h3>On European time</h3>
+        <p class="muted">Every team page shows the city's local time and what a 7 PM tip-off means in London, Bucharest or wherever you are.</p>
+      </li>
+    </ul>
+  </section>
+
+  {pilot && (
+    <section class="container section" style={accent ? `--team-1:${accent}` : undefined}>
+      <div class="feature">
+        <Logo path={pilot.data.logo} name={pilot.data.name} size={120} />
+        <div>
+          <span class="eyebrow">First complete team page</span>
+          <h2>{pilot.data.name}</h2>
+          <p class="lede muted">{pilot.data.summary}</p>
+          <p class="subtle">{pilotCity?.data.name}, {pilotCity?.data.region}</p>
+          <a class="button" href={routes.franchises(pilot.id)}>Read the team page</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="container section">
+    <div class="section-head"><h2>Leagues</h2></div>
+    <ul class="grid grid-3 leagues">
+      {leagues.map((l) => (
+        <li>
+          <a href={routes.leagues(l.id)}>
+            <strong>{l.data.shortName}</strong>
+            <span class="muted">{l.data.name}</span>
+            <span class="subtle">{franchises.filter((f) => f.data.league.id === l.id).length} franchises so far</span>
+          </a>
+        </li>
+      ))}
+      <li class="soon"><strong>NFL · MLB · NHL</strong><span class="subtle">Next, with sport-specific details</span></li>
+      <li class="soon"><strong>MLS · WNBA · NWSL · PWHL · UFL</strong><span class="subtle">After that</span></li>
+    </ul>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>Learn the language</h2></div>
+    <ul class="chips">
+      {glossary.map((g) => <li><a class="chip" href={routes.glossary(g.id)}>{g.data.term}</a></li>)}
+      <li><a class="chip" href="/glossary/">All terms →</a></li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(5rem, 16vw, 10rem) 0 clamp(3rem, 8vw, 5rem);
+    border-bottom: 1px solid var(--line);
+    background: radial-gradient(ellipse at top right, rgba(77, 141, 255, 0.35), transparent 55%), var(--bg-sunk);
+  }
+  .bg {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.22;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(10, 15, 26, 0.2), var(--bg) 96%);
+  }
+  .hero h1 {
+    max-width: 14ch;
+  }
+  .hero .eyebrow {
+    color: var(--accent-strong);
+  }
+  .hero .lede {
+    margin-top: 1.25rem;
+    color: var(--text-muted);
+  }
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .pillars,
+  .leagues,
+  .chips {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pillars li {
+    border-top: 3px solid var(--accent);
+    padding-top: 1rem;
+  }
+  .num {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+    font-weight: 700;
+    color: var(--line-strong);
+  }
+  .pillars h3 {
+    margin: 0.25rem 0 0.5rem;
+  }
+  .feature {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--team-1);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(120deg, color-mix(in srgb, var(--team-1) 22%, var(--bg-raised)), var(--bg-raised) 60%);
+  }
+  .feature .eyebrow {
+    color: color-mix(in srgb, var(--team-1) 55%, #fff);
+  }
+  .feature .lede {
+    margin: 0.75rem 0;
+  }
+  .leagues li > a,
+  .leagues li.soon {
+    display: grid;
+    gap: 0.25rem;
+    height: 100%;
+    padding: 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .leagues strong {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+  }
+  .leagues li > a:hover {
+    border-color: var(--accent);
+  }
+  .soon {
+    opacity: 0.6;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>

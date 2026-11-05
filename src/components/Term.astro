@@ -1,0 +1,72 @@
+---
+/**
+ * An inline glossary term: a link to the glossary page plus a short tooltip,
+ * shown on hover and on keyboard focus. Unknown ids fail the build.
+ */
+import { getEntry } from 'astro:content';
+
+interface Props {
+  id: string;
+}
+const { id } = Astro.props;
+const entry = await getEntry('glossary', id);
+if (!entry) throw new Error(`<Term id="${id}"> refers to a glossary entry that does not exist`);
+const tipId = `tip-${id}-${Math.random().toString(36).slice(2, 8)}`;
+---
+
+<span class="term"
+  ><a href={`/glossary/${id}/`} aria-describedby={tipId}><slot /></a><span class="term-tip" role="tooltip" id={tipId}
+    ><strong>{entry.data.term}.</strong> {entry.data.short}</span
+  ></span
+>
+
+<style is:global>
+  .term {
+    position: relative;
+    display: inline;
+  }
+  .term > a {
+    color: inherit;
+    text-decoration: underline dotted var(--team-1);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .term-tip {
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 0.5rem);
+    z-index: 30;
+    width: min(20rem, 80vw);
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    box-shadow: var(--shadow);
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.45;
+    text-transform: none;
+    letter-spacing: 0;
+    display: none;
+    pointer-events: none;
+  }
+  .term-tip strong {
+    color: var(--text);
+  }
+  .term:hover .term-tip,
+  .term:focus-within .term-tip {
+    display: block;
+  }
+  /* On small screens the tip docks to the bottom of the viewport. */
+  @media (max-width: 640px) {
+    .term-tip {
+      position: fixed;
+      left: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      width: auto;
+    }
+  }
+</style>

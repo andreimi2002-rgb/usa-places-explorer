@@ -1,0 +1,84 @@
+---
+import { getCollection, getEntries, render } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import FactBox from '../../components/FactBox.astro';
+import Logo from '../../components/Logo.astro';
+import MiniGraph from '../../components/MiniGraph.astro';
+import ProgressNote from '../../components/ProgressNote.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Base from '../../layouts/Base.astro';
+import { prose, routes } from '../../lib/entities';
+
+export async function getStaticPaths() {
+  return (await getCollection('rivalries')).map((r) => ({ params: { id: r.id }, props: { rivalry: r } }));
+}
+const { rivalry } = Astro.props;
+const d = rivalry.data;
+const teams = await getEntries(d.franchises);
+const body = await prose('rivalries', rivalry.id, 'body');
+const Body = body ? (await render(body)).Content : undefined;
+---
+
+<Base title={`${d.name}${d.nickname ? `: ${d.nickname}` : ''}`} description={d.summary}>
+  <EntityHeader eyebrow={`Rivalry${d.nickname ? ` · ${d.nickname}` : ''}`} title={d.name} intro={d.summary} crumbs={[{ label: 'Home', href: '/' }, { label: d.name }]}>
+    <div class="versus">
+      {teams.map((t, i) => (
+        <>
+          {i === 1 && <span class="vs">vs</span>}
+          <a href={routes.franchises(t.id)} class="side">
+            <Logo path={t.data.logo} name={t.data.name} size={64} />
+            <span>{t.data.name}</span>
+          </a>
+        </>
+      ))}
+    </div>
+  </EntityHeader>
+  <div class="container section layout">
+    <article>
+      <ProgressNote progress={d.progress} kind="rivalry page" />
+      {Body && <div class="prose"><Body components={{ Term }} /></div>}
+    </article>
+    <aside>
+      <FactBox title="Key facts" rows={d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified }))} />
+    </aside>
+  </div>
+  <div class="container section"><MiniGraph type="rivalry" id={rivalry.id} /></div>
+  <div class="container section"><SourceList sources={d.sources} credits={[d.image]} /></div>
+</Base>
+
+<style>
+  .versus {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+  .side {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .vs {
+    font-family: var(--font-display);
+    color: #e24b4b;
+    font-size: var(--step-3);
+    font-weight: 700;
+  }
+  .layout {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 960px) {
+    .layout {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  }
+</style>

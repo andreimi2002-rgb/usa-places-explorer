@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Orlando Magic unveil 30 Years of Pure Magic (NBA.com)",
+      "url": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic Hall of Fame members (ClickOrlando)",
+      "url": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Pat Williams",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "founder",
+      "from": 1987,
+      "to": null,
+      "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Co-founder, with Jimmy Hewitt",
+      "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2014",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The co-founder who persuaded the NBA that Orlando deserved a team."
+}

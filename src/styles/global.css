@@ -1,0 +1,259 @@
+/* ==========================================================================
+   Design tokens
+   Dark editorial interface: deep navy/charcoal, light text, one accent.
+   Team pages override --team-1 / --team-2 with the team's own colors.
+   ========================================================================== */
+:root {
+  --bg: #0a0f1a;
+  --bg-raised: #111827;
+  --bg-sunk: #070b13;
+  --surface: #151d2c;
+  --line: #243045;
+  --line-strong: #33415a;
+
+  --text: #f1f4f9;
+  --text-muted: #b4bfd0;
+  --text-subtle: #8b97ab;
+
+  --accent: #4d8dff;
+  --accent-strong: #79a9ff;
+  --accent-ink: #0a0f1a;
+
+  --team-1: var(--accent);
+  --team-2: #c4ced4;
+
+  --ok: #3ccf91;
+  --warn: #f0b44c;
+
+  --font-display: 'Barlow Condensed', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --step--1: 0.875rem;
+  --step-0: 1rem;
+  --step-1: 1.125rem;
+  --step-2: 1.375rem;
+  --step-3: 1.75rem;
+  --step-4: 2.25rem;
+  --step-5: clamp(2.6rem, 6vw, 4.5rem);
+  --step-6: clamp(3rem, 9vw, 6.5rem);
+
+  --radius: 6px;
+  --radius-lg: 12px;
+  --max: 76rem;
+  --prose: 40rem;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --shadow: 0 18px 40px -24px rgba(0, 0, 0, 0.7);
+  color-scheme: dark;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  color: var(--accent-strong);
+  text-underline-offset: 3px;
+}
+a:hover {
+  color: var(--text);
+}
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.005em;
+  margin: 0;
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--step-6);
+  text-transform: uppercase;
+}
+h2 {
+  font-size: var(--step-4);
+  text-transform: uppercase;
+}
+h3 {
+  font-size: var(--step-3);
+}
+h4 {
+  font-size: var(--step-2);
+}
+p {
+  margin: 0 0 1em;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Layout helpers
+   ========================================================================== */
+.container {
+  width: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+}
+.section + .section {
+  border-top: 1px solid var(--line);
+}
+.eyebrow {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--team-1);
+  margin-bottom: 0.5rem;
+}
+.lede {
+  font-size: var(--step-2);
+  line-height: 1.55;
+  color: var(--text);
+  max-width: var(--prose);
+}
+.muted {
+  color: var(--text-muted);
+}
+.subtle {
+  color: var(--text-subtle);
+  font-size: var(--step--1);
+}
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 960px) {
+  .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* Long-form prose written for the site */
+.prose {
+  max-width: var(--prose);
+  font-size: var(--step-1);
+  color: var(--text);
+}
+.prose h3 {
+  margin: 2rem 0 0.75rem;
+  font-size: var(--step-3);
+  text-transform: none;
+  color: var(--text);
+}
+.prose h3::before {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin-bottom: 0.75rem;
+  background: var(--team-1);
+}
+.prose ul {
+  padding-left: 1.2rem;
+}
+.prose li {
+  margin-bottom: 0.4rem;
+}
+.prose strong {
+  color: var(--text);
+}
+
+/* Section heading used across templates */
+.section-head {
+  margin-bottom: 1.75rem;
+}
+.section-head h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.section-head h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+/* Chips and badges */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: var(--step--1);
+  color: var(--text-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+a.chip:hover {
+  border-color: var(--team-1);
+  color: var(--text);
+}
+.swatch {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: var(--radius);
+  background: var(--team-1);
+  color: var(--accent-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+.button:hover {
+  color: var(--accent-ink);
+  filter: brightness(1.1);
+}

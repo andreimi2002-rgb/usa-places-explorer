@@ -1,0 +1,90 @@
+---
+/**
+ * A box of key facts. Pass rows with their provenance; only verified rows are
+ * displayed. Unverified rows are dropped here and listed on /status instead.
+ */
+import { hostname } from '../lib/facts';
+
+export interface FactRow {
+  label: string;
+  value: string | number | undefined | null;
+  href?: string;
+  source?: string;
+  verified?: string | null;
+}
+
+interface Props {
+  title?: string;
+  rows: FactRow[];
+}
+const { title, rows } = Astro.props;
+const shownRows = rows.filter((r) => r.value !== undefined && r.value !== null && r.value !== '' && r.verified !== null);
+---
+
+{
+  shownRows.length > 0 && (
+    <section class="factbox" aria-label={title ?? 'Key facts'}>
+      {title && <h2 class="factbox-title">{title}</h2>}
+      <dl>
+        {shownRows.map((r) => (
+          <div>
+            <dt>{r.label}</dt>
+            <dd>
+              {r.href ? <a href={r.href}>{r.value}</a> : r.value}
+              {r.source && (
+                <a class="src" href={r.source} rel="noopener" target="_blank" title={`Source: ${r.source}`}>
+                  {hostname(r.source)}
+                  <span class="sr-only"> (source, opens in a new tab)</span>
+                </a>
+              )}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )
+}
+
+<style>
+  .factbox {
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--team-1);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    padding: 1.25rem 1.25rem 0.5rem;
+  }
+  .factbox-title {
+    font-size: var(--step-2);
+    margin-bottom: 0.75rem;
+  }
+  dl {
+    margin: 0;
+  }
+  dl > div {
+    display: grid;
+    gap: 0.15rem;
+    padding: 0.7rem 0;
+    border-top: 1px solid var(--line);
+  }
+  dl > div:first-child {
+    border-top: 0;
+  }
+  dt {
+    font-size: var(--step--1);
+    color: var(--text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  dd {
+    margin: 0;
+    color: var(--text);
+    font-weight: 600;
+  }
+  .src {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-subtle);
+  }
+</style>

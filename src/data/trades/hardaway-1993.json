@@ -1,0 +1,17 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "1993 NBA transactions (RealGM)",
+      "url": "https://basketball.realgm.com/nba/transactions/league/1993",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "person": "anfernee-hardaway",
+  "from": "golden-state-warriors",
+  "to": "orlando-magic",
+  "date": "1993",
+  "summary": "On draft night Orlando picked Chris Webber first overall and sent him to Golden State for Hardaway, the third pick, plus three future first-round picks.",
+  "verified": "2026-11-05"
+}

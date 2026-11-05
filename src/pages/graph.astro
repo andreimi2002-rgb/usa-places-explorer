@@ -1,0 +1,101 @@
+---
+import EntityHeader from '../components/EntityHeader.astro';
+import Base from '../layouts/Base.astro';
+import { buildGraph } from '../lib/graph';
+import { TYPE_COLORS } from '../scripts/graph-client';
+
+const graph = await buildGraph();
+const types = [...new Set(graph.nodes.map((n) => n.type))];
+---
+
+<Base title="Connections" description="Every team, city, venue, legend and rivalry in the encyclopedia, drawn as one connected graph." searchable={false}>
+  <EntityHeader
+    eyebrow="Connections"
+    title="The graph"
+    intro="Everything on the site is linked: teams to cities, venues, divisions, legends and rivals. Hover a dot to see its neighbors, click to open its page."
+    crumbs={[{ label: 'Home', href: '/' }, { label: 'Connections' }]}
+  />
+  <div class="container section">
+    <div class="controls">
+      <label class="search">
+        <span class="sr-only">Find in graph</span>
+        <input type="search" id="graph-find" placeholder="Find a team, person or place…" />
+      </label>
+      <fieldset>
+        <legend class="sr-only">Show types</legend>
+        {
+          types.map((t) => (
+            <label class="chip">
+              <input type="checkbox" value={t} checked />
+              <span class="swatch" style={`background:${TYPE_COLORS[t]}`} />
+              {t}
+            </label>
+          ))
+        }
+      </fieldset>
+    </div>
+    <div id="graph" class="canvas" role="img" aria-label={`Graph of ${graph.nodes.length} entities and ${graph.edges.length} connections`}></div>
+    <p class="subtle">{graph.nodes.length} entities, {graph.edges.length} connections. Faded dots are pages not researched yet.</p>
+  </div>
+</Base>
+
+<script>
+  import type { Graph } from '../lib/graph';
+  import { renderGraph } from '../scripts/graph-client';
+
+  const el = document.getElementById('graph')!;
+  const data: Graph = await (await fetch('/graph.json')).json();
+  const focus = new URLSearchParams(location.search).get('focus') ?? undefined;
+  const cy = await renderGraph(el, data, { focus });
+  if (focus && cy.getElementById(focus).nonempty()) cy.animate({ center: { eles: cy.getElementById(focus) }, zoom: 1.4 }, { duration: 400 });
+
+  for (const box of document.querySelectorAll<HTMLInputElement>('fieldset input')) {
+    box.addEventListener('change', () => {
+      cy.nodes(`[type = "${box.value}"]`).style('display', box.checked ? 'element' : 'none');
+    });
+  }
+  document.getElementById('graph-find')!.addEventListener('input', (e) => {
+    const q = (e.target as HTMLInputElement).value.trim().toLowerCase();
+    cy.elements().removeClass('faded');
+    if (!q) return;
+    const hits = cy.nodes().filter((n) => String(n.data('label')).toLowerCase().includes(q));
+    cy.elements().not(hits.closedNeighborhood()).addClass('faded');
+    if (hits.nonempty()) cy.animate({ fit: { eles: hits.closedNeighborhood(), padding: 60 } }, { duration: 300 });
+  });
+</script>
+
+<style>
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .chip input {
+    accent-color: var(--accent);
+  }
+  .search input {
+    min-width: 16rem;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    color: var(--text);
+    font: inherit;
+  }
+  .canvas {
+    height: min(72vh, 720px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: radial-gradient(circle at center, #121b2b, var(--bg-sunk));
+  }
+</style>

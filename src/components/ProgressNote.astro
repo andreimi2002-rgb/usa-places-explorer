@@ -1,0 +1,37 @@
+---
+/** Shown on entities that are not researched yet, so stubs are honest about it. */
+interface Props {
+  progress: 'not-started' | 'researching' | 'content-ready' | 'under-review' | 'complete';
+  kind?: string;
+}
+const { progress, kind = 'page' } = Astro.props;
+const text: Record<Props['progress'], string> = {
+  'not-started': `This ${kind} has not been researched yet. Only basic, verified facts are shown for now.`,
+  researching: `This ${kind} is being researched. Only verified facts are shown.`,
+  'content-ready': `This ${kind} is written and waiting for review.`,
+  'under-review': `This ${kind} is under editorial review.`,
+  complete: '',
+};
+---
+
+{
+  progress !== 'complete' && (
+    <aside class="note" role="note">
+      <strong>Work in progress.</strong> {text[progress]}
+    </aside>
+  )
+}
+
+<style>
+  .note {
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius);
+    padding: 0.9rem 1.1rem;
+    color: var(--text-muted);
+    background: var(--bg-raised);
+    max-width: 46rem;
+  }
+  strong {
+    color: var(--warn);
+  }
+</style>

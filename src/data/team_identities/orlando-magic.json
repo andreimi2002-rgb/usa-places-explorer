@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Orlando Magic unveil 30 Years of Pure Magic (NBA.com)",
+      "url": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "orlando-magic",
+  "name": "Orlando Magic",
+  "city": "orlando",
+  "from": {
+    "value": 1989,
+    "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+    "verified": "2026-11-05"
+  },
+  "to": null,
+  "current": true
+}

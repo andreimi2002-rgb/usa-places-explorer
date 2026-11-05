@@ -1,0 +1,98 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import FactBox from '../../components/FactBox.astro';
+import MiniGraph from '../../components/MiniGraph.astro';
+import Photo from '../../components/Photo.astro';
+import ProgressNote from '../../components/ProgressNote.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Base from '../../layouts/Base.astro';
+import { prose, routes, tradesOf } from '../../lib/entities';
+import { formatDate } from '../../lib/facts';
+
+export async function getStaticPaths() {
+  return (await getCollection('people')).map((p) => ({ params: { id: p.id }, props: { person: p } }));
+}
+const { person } = Astro.props;
+const d = person.data;
+const roles = await Promise.all(d.roles.map(async (r) => ({ ...r, team: await getEntry(r.franchise) })));
+const trades = await Promise.all(
+  (await tradesOf(person.id)).map(async (t) => ({ t, from: await getEntry(t.data.from), to: await getEntry(t.data.to) })),
+);
+const body = await prose('people', person.id, 'body');
+const Body = body ? (await render(body)).Content : undefined;
+const roleLabel = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
+const first = roles[0];
+---
+
+<Base title={d.name} description={d.summary}>
+  <EntityHeader
+    eyebrow={first ? `${roleLabel[first.role]} · ${first.team?.data.name} · ${first.from}–${first.to ?? ''}` : 'Person'}
+    title={d.name}
+    intro={d.summary}
+    crumbs={[{ label: 'Home', href: '/' }, ...(first?.team ? [{ label: first.team.data.name, href: routes.franchises(first.team.id) }] : []), { label: d.name }]}
+  />
+  <div class="container section layout">
+    <article>
+      <ProgressNote progress={d.progress} kind="profile" />
+      {Body && <div class="prose"><Body components={{ Term }} /></div>}
+      {trades.length > 0 && (
+        <>
+          <h2 class="mt">Notable trades</h2>
+          <ul>
+            {trades.map(({ t, from, to }) => (
+              <li>
+                <strong>{formatDate(t.data.date)}</strong>: {from?.data.name} → <a href={routes.franchises(t.data.to.id)}>{to?.data.name}</a>. {t.data.summary}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </article>
+    <aside>
+      {d.image ? <Photo image={d.image} aspect="4 / 5" /> : <div class="noimg">No free photo found yet</div>}
+      <div class="mt">
+        <FactBox
+          title="Key facts"
+          rows={[
+            ...roles.map((r) => ({
+              label: roleLabel[r.role],
+              value: `${r.team?.data.name ?? ''}, ${r.from}–${r.to ?? 'today'}`,
+              href: r.team ? routes.franchises(r.team.id) : undefined,
+              source: r.source,
+              verified: r.verified,
+            })),
+            ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
+          ]}
+        />
+      </div>
+    </aside>
+  </div>
+  <div class="container section"><MiniGraph type="person" id={person.id} /></div>
+  <div class="container section"><SourceList sources={d.sources} credits={[d.image]} /></div>
+</Base>
+
+<style>
+  .layout {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 960px) {
+    .layout {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  }
+  .mt {
+    margin-top: 2rem;
+  }
+  .noimg {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 4 / 5;
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius-lg);
+    color: var(--text-subtle);
+    font-size: var(--step--1);
+  }
+</style>

@@ -1,0 +1,23 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Orlando Magic unveil 30 Years of Pure Magic (NBA.com)",
+      "url": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1994-95",
+  "level": "conference",
+  "title": "Eastern Conference champions",
+  "winner": "orlando-magic",
+  "source": "https://www.nba.com/magic/news/orlando-magic-unveil-30-years-pure-magic-20180808",
+  "verified": "2026-11-05"
+}

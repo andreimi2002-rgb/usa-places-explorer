@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Shaquille O’Neal stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers sign Shaq (Deseret News, 1996)",
+      "url": "https://www.deseret.com/1996/7/18/19255023/it-s-showtime-again-as-l-a-signs-shaq/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Shaquille O’Neal",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1992,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1992, No. 1 overall, by Orlando",
+      "source": "https://www.basketball-reference.com/players/o/onealsh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1992–93",
+      "source": "https://www.nba.com/news/history-rookie-of-the-year-winners",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2016",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2015",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The giant center who made a three-year-old team a contender, then left for Los Angeles in 1996.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:Shaquille O'Neal October 2017 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaquille_O%27Neal_October_2017_%28cropped%29.jpg/1280px-Shaquille_O%27Neal_October_2017_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shaquille_O%27Neal_October_2017_(cropped).jpg",
+    "author": "MarkScottAustinTX",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Shaquille O’Neal in a dark polo shirt, speaking at an event in 2017",
+    "caption": "O’Neal in 2017"
+  }
+}

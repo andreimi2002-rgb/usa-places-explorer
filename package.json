@@ -1,36 +1,24 @@
 {
-  "name": "usa-places-explorer",
-  "private": true,
+  "name": "american-sports-encyclopedia",
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run validate && tsc --noEmit && vite build",
-    "typecheck": "tsc --noEmit",
-    "validate": "node scripts/run-validate.mjs",
-    "preview": "vite preview",
-    "import:wikidata": "node scripts/import/wikidata-listings.mjs",
-    "import:region": "node scripts/import/wikidata-region.mjs",
-    "geo:locate": "node scripts/geo/locate.mjs",
-    "import:osm-brands": "node scripts/import/osm-brands.mjs"
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "leaflet": "^1.9.4",
-    "lucide-react": "^1.66.0",
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1",
-    "react-leaflet": "^5.0.0",
-    "react-router": "^8.5.1"
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/mdx": "^8.1.2",
+    "astro": "^7.4.5",
+    "cytoscape": "^3.34.4",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.22",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
-    "autoprefixer": "^10.6.2",
-    "postcss": "^8.5.32",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.5"
+    "@types/cytoscape": "^3.21.9",
+    "@types/node": "^22.20.5",
+    "pagefind": "^1.6.0"
   }
 }

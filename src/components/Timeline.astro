@@ -1,0 +1,75 @@
+---
+/** A vertical timeline of verified milestones. */
+import { formatDate, hostname } from '../lib/facts';
+
+interface Item {
+  date: string;
+  label: string;
+  kind?: string;
+  source: string;
+  verified: string | null;
+}
+interface Props {
+  items: Item[];
+}
+const items = [...Astro.props.items].filter((i) => i.verified).sort((a, b) => a.date.localeCompare(b.date));
+---
+
+<ol class="timeline">
+  {
+    items.map((i) => (
+      <li class={`kind-${i.kind ?? 'other'}`}>
+        <time datetime={i.date}>{formatDate(i.date)}</time>
+        <p>{i.label}</p>
+        <a class="src" href={i.source} rel="noopener" target="_blank">
+          {hostname(i.source)}
+        </a>
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    border-left: 2px solid var(--line-strong);
+    max-width: 46rem;
+  }
+  li {
+    position: relative;
+    padding: 0 0 1.6rem 0.5rem;
+  }
+  li::before {
+    content: '';
+    position: absolute;
+    left: calc(-1.5rem - 7px);
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--team-1);
+  }
+  li.kind-finals::before,
+  li.kind-founding::before {
+    background: var(--team-1);
+  }
+  time {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text);
+  }
+  p {
+    margin: 0.2rem 0 0.2rem;
+    color: var(--text-muted);
+  }
+  .src {
+    font-size: 0.75rem;
+    color: var(--text-subtle);
+  }
+</style>

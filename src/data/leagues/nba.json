@@ -1,0 +1,17 @@
+{
+  "status": "active",
+  "progress": "researching",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "National Basketball Association",
+  "shortName": "NBA",
+  "sport": "basketball",
+  "country": "United States and Canada",
+  "website": "https://www.nba.com/",
+  "summary": "North America's top professional basketball league, with teams in the United States and one in Canada."
+}

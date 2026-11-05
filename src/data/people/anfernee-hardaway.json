@@ -1,0 +1,64 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Anfernee Hardaway stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1993 NBA transactions (RealGM)",
+      "url": "https://basketball.realgm.com/nba/transactions/league/1993",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1997 East First Round, Magic vs. Heat (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/playoffs/1997-nba-eastern-conference-first-round-magic-vs-heat.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Anfernee “Penny” Hardaway",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1993,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Arrived",
+      "value": "1993 draft-night trade for Chris Webber",
+      "source": "https://basketball.realgm.com/nba/transactions/league/1993",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "All-NBA First Team",
+      "value": "1994–95, 1995–96",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2017",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The tall, graceful guard who formed a superstar duo with O’Neal and became the face of the team after O’Neal left in 1996.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:HBCUAllstarBasketball4223-118 (52802377149) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/HBCUAllstarBasketball4223-118_%2852802377149%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HBCUAllstarBasketball4223-118_(52802377149)_(cropped).jpg",
+    "author": "2C2K Photography from Houston, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Penny Hardaway smiling courtside in a cap and hoodie, 2023",
+    "caption": "Hardaway in 2023"
+  }
+}

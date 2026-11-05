@@ -1,0 +1,173 @@
+---
+/**
+ * "Local time vs. Europe": the city's current time, the difference to the
+ * visitor's own time zone, and what an evening game converts to in Europe.
+ * Everything is computed in the browser with Intl; no API, no server.
+ * The server-rendered fallback states the zone so the widget works without JS.
+ */
+import { siteConfig } from '../site.config';
+
+interface Props {
+  city: string;
+  timezone: string;
+  /** Typical local start time used for the example, "HH:MM" 24h. */
+  gameTime?: string;
+}
+const { city, timezone, gameTime = '19:00' } = Astro.props;
+---
+
+<section
+  class="localtime"
+  aria-labelledby="localtime-title"
+  data-city={city}
+  data-tz={timezone}
+  data-game={gameTime}
+  data-zones={JSON.stringify(siteConfig.europeanZones)}
+>
+  <h2 id="localtime-title">Local time vs. Europe</h2>
+  <div class="now">
+    <p class="label">Right now in {city}</p>
+    <p class="clock" data-role="clock">—</p>
+    <p class="subtle" data-role="zone">Time zone: {timezone}</p>
+  </div>
+  <p class="diff" data-role="diff"></p>
+  <div class="game">
+    <p class="label">A typical 7:00 PM home game in {city} is…</p>
+    <ul data-role="game"></ul>
+  </div>
+  <noscript><p class="subtle">Turn on JavaScript to see the times for your own time zone.</p></noscript>
+</section>
+
+<script>
+  /** Minutes east of UTC for a zone at a given instant, from Intl's "GMT+hh:mm". */
+  function offsetMinutes(timeZone: string, at: Date): number {
+    const part = new Intl.DateTimeFormat('en-US', { timeZone, timeZoneName: 'longOffset' })
+      .formatToParts(at)
+      .find((p) => p.type === 'timeZoneName')?.value ?? 'GMT';
+    const m = part.match(/GMT([+-])(\d{2}):?(\d{2})?/);
+    if (!m) return 0;
+    const sign = m[1] === '-' ? -1 : 1;
+    return sign * (Number(m[2]) * 60 + Number(m[3] ?? 0));
+  }
+
+  function dateParts(timeZone: string, at: Date) {
+    const p = Object.fromEntries(
+      new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' })
+        .formatToParts(at)
+        .map((x) => [x.type, x.value]),
+    );
+    return { y: Number(p.year), m: Number(p.month), d: Number(p.day) };
+  }
+
+  const fmt = (timeZone: string, at: Date, withDay = false) =>
+    new Intl.DateTimeFormat('en-GB', {
+      timeZone,
+      hour: '2-digit',
+      minute: '2-digit',
+      ...(withDay ? { weekday: 'short' } : {}),
+    }).format(at);
+
+  function hours(mins: number) {
+    const h = Math.abs(mins) / 60;
+    return `${Number.isInteger(h) ? h : h.toFixed(1)} hour${h === 1 ? '' : 's'}`;
+  }
+
+  for (const el of document.querySelectorAll<HTMLElement>('.localtime')) {
+    const tz = el.dataset.tz!;
+    const city = el.dataset.city!;
+    const [gh, gm] = (el.dataset.game ?? '19:00').split(':').map(Number);
+    const zones: { label: string; tz: string }[] = JSON.parse(el.dataset.zones ?? '[]');
+    const visitorTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    const render = () => {
+      const now = new Date();
+      el.querySelector('[data-role="clock"]')!.textContent = fmt(tz, now, true);
+
+      const diff = offsetMinutes(visitorTz, now) - offsetMinutes(tz, now);
+      el.querySelector('[data-role="diff"]')!.textContent =
+        diff === 0
+          ? `You are in the same time zone as ${city}.`
+          : `Your time (${visitorTz}) is ${hours(diff)} ${diff > 0 ? 'ahead of' : 'behind'} ${city}.`;
+
+      // Today's 7:00 PM in the city, as an absolute instant.
+      const { y, m, d } = dateParts(tz, now);
+      const guess = Date.UTC(y, m - 1, d, gh, gm);
+      const instant = new Date(guess - offsetMinutes(tz, new Date(guess)) * 60_000);
+
+      const rows = [
+        ...zones.map((z) => ({ label: z.label, tz: z.tz })),
+        ...(zones.some((z) => z.tz === visitorTz) || visitorTz === tz ? [] : [{ label: 'Your time', tz: visitorTz }]),
+      ];
+      const list = el.querySelector('[data-role="game"]')!;
+      list.innerHTML = '';
+      for (const r of rows) {
+        const li = document.createElement('li');
+        const nextDay = dateParts(r.tz, instant).d !== d;
+        li.innerHTML = `<span>${r.label}</span><strong>${fmt(r.tz, instant)}</strong>${nextDay ? '<em>next day</em>' : ''}`;
+        list.appendChild(li);
+      }
+    };
+    render();
+    setInterval(render, 30_000);
+  }
+</script>
+
+<style>
+  .localtime {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(160deg, var(--bg-raised), var(--bg-sunk));
+    padding: 1.5rem;
+  }
+  h2 {
+    font-size: var(--step-3);
+    margin-bottom: 1rem;
+  }
+  .label {
+    margin: 0;
+    font-size: var(--step--1);
+    color: var(--text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .clock {
+    margin: 0.25rem 0;
+    font-family: var(--font-display);
+    font-size: var(--step-5);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text);
+  }
+  .diff {
+    margin: 1rem 0;
+    color: var(--text-muted);
+  }
+  ul {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  :global(.localtime li) {
+    display: flex;
+    gap: 0.75rem;
+    align-items: baseline;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  :global(.localtime li span) {
+    flex: 1;
+    color: var(--text-muted);
+  }
+  :global(.localtime li strong) {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+  }
+  :global(.localtime li em) {
+    font-size: 0.75rem;
+    color: var(--warn);
+    font-style: normal;
+  }
+</style>

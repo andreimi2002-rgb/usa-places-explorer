@@ -1,0 +1,16 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "milwaukee-bucks",
+  "name": "Milwaukee Bucks",
+  "city": "milwaukee",
+  "to": null,
+  "current": true
+}

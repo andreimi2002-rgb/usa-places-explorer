@@ -1,0 +1,20 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2008-09",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "los-angeles-lakers",
+  "runnerUp": "orlando-magic",
+  "result": "4–1",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

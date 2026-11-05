@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "NBA Finals",
+  "short": "The championship series between the winners of the Eastern and Western conferences. The first team to win four games takes the title.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "playoffs"
+  ]
+}

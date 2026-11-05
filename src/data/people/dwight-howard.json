@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Dwight Howard stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/howardw01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Defensive Player of the Year winners (NBA.com)",
+      "url": "https://www.nba.com/news/history-defensive-player-of-the-year-winners",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Magic acquire six players, five picks in Howard trade (NBA.com)",
+      "url": "https://www.nba.com/magic/news/magic-acquire-six-players-five-draft-picks-howard-trade",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Dwight Howard",
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2004,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/h/howardw01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2004, No. 1 overall, by Orlando",
+      "source": "https://www.basketball-reference.com/teams/ORL/draft.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "2008–09, 2009–10, 2010–11",
+      "source": "https://www.nba.com/news/history-defensive-player-of-the-year-winners",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2025",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame",
+      "value": "2025",
+      "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The No. 1 pick who became the league’s best defender and led Orlando back to the Finals in 2009.",
+  "image": {
+    "licenseChecked": "2026-11-05",
+    "file": "File:Dwight Howard pre-game (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Dwight_Howard_pre-game_%28cropped%29.jpg/1280px-Dwight_Howard_pre-game_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dwight_Howard_pre-game_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Dwight Howard warming up before a game in 2022",
+    "caption": "Howard in 2022, with the Lakers"
+  }
+}

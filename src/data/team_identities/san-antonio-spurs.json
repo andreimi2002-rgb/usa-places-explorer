@@ -1,0 +1,16 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "NBA Teams",
+      "url": "https://www.nba.com/teams",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "san-antonio-spurs",
+  "name": "San Antonio Spurs",
+  "city": "san-antonio",
+  "to": null,
+  "current": true
+}

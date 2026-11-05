@@ -1,0 +1,15 @@
+{
+  "status": "active",
+  "progress": "not-started",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Sacramento",
+  "region": "California",
+  "country": "United States",
+  "timezone": "America/Los_Angeles"
+}

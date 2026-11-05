@@ -1,0 +1,140 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import Logo from '../../components/Logo.astro';
+import SourceList from '../../components/SourceList.astro';
+import Term from '../../components/Term.astro';
+import Base from '../../layouts/Base.astro';
+import { cityOf, prose, routes } from '../../lib/entities';
+
+export async function getStaticPaths() {
+  return (await getCollection('leagues')).map((l) => ({ params: { id: l.id }, props: { league: l } }));
+}
+const { league } = Astro.props;
+const d = league.data;
+const sport = await getEntry(d.sport);
+const conferences = (await getCollection('conferences', (c) => c.data.league.id === league.id)).sort((a, b) => a.data.order - b.data.order);
+const divisions = await getCollection('divisions');
+const franchises = await getCollection('franchises', (f) => f.data.league.id === league.id);
+const structure = await Promise.all(
+  conferences.map(async (c) => ({
+    c,
+    divisions: await Promise.all(
+      divisions
+        .filter((dv) => dv.data.conference.id === c.id)
+        .sort((a, b) => a.data.order - b.data.order)
+        .map(async (dv) => ({
+          dv,
+          teams: await Promise.all(
+            franchises
+              .filter((f) => f.data.division?.id === dv.id && f.data.status === 'active')
+              .sort((a, b) => a.data.name.localeCompare(b.data.name))
+              .map(async (f) => ({ f, city: await cityOf(f.id) })),
+          ),
+        })),
+    ),
+  })),
+);
+const historical = franchises.filter((f) => f.data.status === 'historical');
+const activeCount = franchises.filter((f) => f.data.status === 'active').length;
+const body = await prose('leagues', league.id, 'body');
+const Body = body ? (await render(body)).Content : undefined;
+---
+
+<Base title={`${d.name} (${d.shortName})`} description={d.summary}>
+  <EntityHeader
+    eyebrow={`League · ${sport?.data.name} · ${d.country}`}
+    title={d.shortName}
+    intro={`${d.name}. ${d.summary}`}
+    crumbs={[{ label: 'Home', href: '/' }, { label: d.shortName }]}
+  />
+  <div class="container section">
+    {Body && <div class="prose"><Body components={{ Term }} /></div>}
+    <p class="subtle">{activeCount} active franchises in this encyclopedia, counted from the data.</p>
+  </div>
+  <div class="container section">
+    <div class="confs">
+      {structure.map(({ c, divisions }) => (
+        <section aria-labelledby={`c-${c.id}`}>
+          <h2 id={`c-${c.id}`}>{c.data.name}</h2>
+          {divisions.map(({ dv, teams }) => (
+            <div class="division">
+              <h3>{dv.data.name}</h3>
+              <ul>
+                {teams.map(({ f, city }) => (
+                  <li class:list={[{ stub: f.data.progress === 'not-started' }]}>
+                    <a href={routes.franchises(f.id)}>
+                      <Logo path={f.data.logo} name={f.data.name} size={36} color="#243045" />
+                      <span>
+                        <strong>{f.data.name}</strong>
+                        <span class="subtle">{city?.data.name}{f.data.progress === 'not-started' ? ' · coming soon' : ''}</span>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))}
+    </div>
+    {historical.length > 0 && (
+      <section class="mt">
+        <h2>Former franchises</h2>
+        <ul>{historical.map((f) => <li><a href={routes.franchises(f.id)}>{f.data.name}</a></li>)}</ul>
+      </section>
+    )}
+  </div>
+  <div class="container section"><SourceList sources={d.sources} /></div>
+</Base>
+
+<style>
+  .confs {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 960px) {
+    .confs {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .division {
+    margin-top: 1.5rem;
+  }
+  .division h3 {
+    font-size: var(--step-2);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  li a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    color: var(--text);
+    text-decoration: none;
+  }
+  li a:hover {
+    border-color: var(--accent);
+  }
+  li a > span {
+    display: grid;
+  }
+  li.stub a {
+    opacity: 0.7;
+  }
+  .mt {
+    margin-top: 2.5rem;
+  }
+</style>

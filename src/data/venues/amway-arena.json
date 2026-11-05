@@ -1,0 +1,45 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "Say goodbye to Amway Arena (Pollstar)",
+      "url": "https://news.pollstar.com/2012/03/30/say-goodbye-to-amway-arena/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Orlando Arena (Amway Arena)",
+  "city": "orlando",
+  "opened": {
+    "value": "1989-01",
+    "source": "https://news.pollstar.com/2012/03/30/say-goodbye-to-amway-arena/",
+    "verified": "2026-11-05"
+  },
+  "closed": {
+    "value": "2012-03-25",
+    "source": "https://news.pollstar.com/2012/03/30/say-goodbye-to-amway-arena/",
+    "verified": "2026-11-05",
+    "note": "Imploded on this date."
+  },
+  "formerNames": [
+    {
+      "name": "Orlando Arena",
+      "from": 1989,
+      "to": null,
+      "source": "https://news.pollstar.com/2012/03/30/say-goodbye-to-amway-arena/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Magic’s first home, opened in 1989 as the Orlando Arena and host of the 1995 NBA Finals; imploded in 2012.",
+  "image": {
+    "file": "File:Amway Arena Exterior.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Amway_Arena_Exterior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Amway_Arena_Exterior.jpg",
+    "author": "Bigcstyle4 at en.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Glass entrance of the old Amway Arena with fans waiting on the steps",
+    "caption": "The old arena as Amway Arena",
+    "licenseChecked": null
+  }
+}

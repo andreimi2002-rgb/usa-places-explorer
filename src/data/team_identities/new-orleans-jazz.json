@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/UTA/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "utah-jazz",
+  "name": "New Orleans Jazz",
+  "city": "new-orleans",
+  "from": {
+    "value": 1974,
+    "source": "https://www.basketball-reference.com/teams/UTA/",
+    "verified": "2026-11-05"
+  },
+  "to": 1979,
+  "current": false
+}

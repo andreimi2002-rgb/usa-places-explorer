@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Alex English",
+  "sources": [
+    {
+      "title": "Alex English stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/e/englial01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1976,
+      "to": 1978,
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 1978,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 1980,
+      "to": 1990,
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Scoring title",
+      "value": "1982–83",
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1997",
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Nuggets’ high-scoring forward of the 1980s and the league’s top scorer in 1983."
+}

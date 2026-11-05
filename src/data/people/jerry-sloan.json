@@ -17,6 +17,11 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jazz franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -34,6 +39,14 @@
       "from": 1979,
       "to": 1982,
       "source": "https://www.basketball-reference.com/teams/CHI/",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "utah-jazz",
+      "role": "head-coach",
+      "from": 1988,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/UTA/",
       "verified": "2026-11-05"
     }
   ],

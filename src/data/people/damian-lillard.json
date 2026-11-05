@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Damian Lillard",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/POR/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Damian Lillard stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 2012,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2023,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2012, No. 6 overall, by Portland",
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "2012–13",
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "College",
+      "value": "Weber State",
+      "source": "https://www.basketball-reference.com/teams/POR/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Portland’s franchise star for eleven seasons, back with the Blazers in 2026-27 after two years in Milwaukee."
+}

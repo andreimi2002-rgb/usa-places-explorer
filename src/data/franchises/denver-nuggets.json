@@ -1,20 +1,259 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Nuggets edge Heat for first NBA championship (NBA.com)",
+      "url": "https://www.nba.com/news/denver-nuggets-edge-miami-heat-for-1st-nba-championship-in-franchise-history",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "About Ball Arena (Ball Arena)",
+      "url": "https://www.ballarena.com/arena-information/about-ball-arena/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Home of Denver Nuggets renamed Ball Arena (NBA.com)",
+      "url": "https://www.nba.com/news/denver-nuggets-renamed-ball-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "E. Stanley Kroenke (Ball Arena)",
+      "url": "https://www.ballarena.com/executive-team/e-stanley-kroenke/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Teams in NBA and ABA to win championships (NBA.com)",
+      "url": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-den",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Denver Nuggets",
   "league": "nba",
   "division": "nba-northwest",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/DEN/",
+    "verified": "2026-11-05",
+    "note": "Founded in the ABA as the Denver Rockets; renamed the Nuggets in 1974."
+  },
+  "firstSeason": {
+    "value": "1976-77",
+    "source": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+    "verified": "2026-11-05",
+    "note": "First NBA season, after the ABA–NBA merger."
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0D2240"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFC627"
+      },
+      {
+        "name": "Red",
+        "hex": "#8B2332"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/denver-nuggets.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "ball-arena",
+      "from": 1999,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "David Adelman",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/DEN/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Stan Kroenke (since 2000)",
+    "source": "https://www.ballarena.com/executive-team/e-stanley-kroenke/",
+    "verified": "2026-11-05",
+    "note": "Kroenke became owner of the Nuggets, the NHL’s Avalanche and the arena on July 6, 2000."
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded in the ABA as the Denver Rockets",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/DEN/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1974",
+      "label": "Renamed the Denver Nuggets",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/DEN/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Join the NBA in the ABA–NBA merger",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1983",
+      "label": "Alex English leads the NBA in scoring",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/e/englial01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999-10-01",
+      "label": "Pepsi Center, today’s Ball Arena, opens",
+      "kind": "venue",
+      "source": "https://www.ballarena.com/arena-information/about-ball-arena/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2000-07-06",
+      "label": "Stan Kroenke becomes owner",
+      "kind": "ownership",
+      "source": "https://www.ballarena.com/executive-team/e-stanley-kroenke/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Carmelo Anthony arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "Draft Nikola Jokić in the second round",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2020-10-22",
+      "label": "The arena is renamed Ball Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/denver-nuggets-renamed-ball-arena",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2021",
+      "label": "Jokić is named MVP, the first of three",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "First NBA title, 4–1 over Miami; Jokić is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/denver-nuggets-edge-miami-heat-for-1st-nba-championship-in-franchise-history",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "An ABA club since 1967 and in the NBA since 1976, champions for the first time in 2023 behind Nikola Jokić.",
+  "legends": [
+    "nikola-jokic",
+    "alex-english"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/nuggets/roster",
+    "players": [
+      {
+        "person": "nikola-jokic",
+        "source": "https://www.nba.com/news/2026-27-season-preview-den",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jamal-murray",
+        "source": "https://www.nba.com/news/2026-27-season-preview-den",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "aaron-gordon",
+        "source": "https://www.nba.com/news/2026-27-season-preview-den",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "trevon-brazile",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 35
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "alpha-diallo",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "bryce-hopkins",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 49
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

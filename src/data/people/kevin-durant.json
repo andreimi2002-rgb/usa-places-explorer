@@ -27,6 +27,11 @@
       "title": "2026-27 roster (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/HOU/2027.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -44,6 +49,14 @@
       "from": 2016,
       "to": 2019,
       "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 2023,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
       "verified": "2026-11-05"
     },
     {

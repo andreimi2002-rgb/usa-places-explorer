@@ -1,0 +1,40 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Utah Jazz bring back Delta Center name (NBA.com)",
+      "url": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Delta Center",
+  "city": "salt-lake-city",
+  "opened": {
+    "value": "1991",
+    "source": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18306,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "Vivint Arena",
+      "from": null,
+      "to": 2023,
+      "source": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Jazz’s home since 1991; it hosted the 1993 All-Star weekend and two NBA Finals."
+}

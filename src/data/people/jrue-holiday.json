@@ -12,6 +12,11 @@
       "title": "List of NBA champions (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-champions",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -21,6 +26,14 @@
       "from": 2020,
       "to": 2023,
       "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
       "verified": "2026-11-05"
     }
   ],

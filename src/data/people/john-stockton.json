@@ -1,0 +1,49 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "John Stockton",
+  "sources": [
+    {
+      "title": "John Stockton stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 1984,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1984, No. 16 overall, by Utah",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career assists",
+      "value": "15,806",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career steals",
+      "value": "3,265",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2009",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard who played all nineteen seasons in Utah and finished with 15,806 assists."
+}

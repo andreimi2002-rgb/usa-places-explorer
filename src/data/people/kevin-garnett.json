@@ -1,6 +1,6 @@
 {
   "status": "historical",
-  "progress": "content-ready",
+  "progress": "under-review",
   "name": "Kevin Garnett",
   "sources": [
     {
@@ -17,15 +17,41 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kevin Garnett stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wolves to retire Kevin Garnett’s No. 21 (NBA.com)",
+      "url": "https://www.nba.com/news/wolves-to-retire-kevin-garnett-no-21-in-2026-27",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 1995,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "boston-celtics",
       "role": "player",
       "from": 2007,
       "to": 2013,
       "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2015,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
       "verified": "2026-11-05"
     }
   ],
@@ -47,9 +73,27 @@
       "value": "2020",
       "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "1995, No. 5 overall, by Minnesota, straight from high school",
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2003–04",
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "2007–08",
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
     }
   ],
-  "summary": "The defensive backbone of the 2008 champions.",
+  "summary": "Minnesota’s first superstar and 2004 MVP, then the defensive heart of Boston’s 2008 champions.",
   "image": {
     "file": "File:Kevin Garnett 2008-01-13.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kevin_Garnett_2008-01-13.jpg/960px-Kevin_Garnett_2008-01-13.jpg",

@@ -137,6 +137,7 @@ The whole site is `noindex, nofollow` until launch, controlled by one switch: `i
 |---|---|---|
 | 0 | Archive the old project, scaffold the encyclopedia | Done |
 | 1 | NBA: skeleton, Orlando Magic pilot, then all 30 teams in lots (one PR, one production merge) | In progress: 10 of 30 |
+| 1b | Depth pass after all 30 NBA teams: general team overviews and fuller histories, full biographies with honours, richer venue pages (construction, events, tenants, getting there), full city pages (introduction, sports overview, visitor basics, sourced population, one hand-picked photo); the European angle moves to its own "For European fans" box | Right after the NBA, before the production merge |
 | 2 | MLS: skeleton, pilot, lots; soccer venue extension | Next after the NBA |
 | 3 | NFL | Planned |
 | 4 | MLB | Planned |

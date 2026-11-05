@@ -1,0 +1,32 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Suns arena LED display release (NBA.com)",
+      "url": "https://www.nba.com/suns/news/phoenix-suns-mercury-continue-to-transform-fan-experience-with-largest-exterior-transparent-led-display-on-nba-wnba-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Mortgage Matchup Center",
+  "city": "phoenix",
+  "opened": {
+    "value": "1992",
+    "source": "https://www.nba.com/suns/news/phoenix-suns-mercury-continue-to-transform-fan-experience-with-largest-exterior-transparent-led-display-on-nba-wnba-arena",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 17071,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "Downtown Phoenix arena of the Suns and the WNBA’s Mercury since 1992."
+}

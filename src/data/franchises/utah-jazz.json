@@ -1,20 +1,222 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "NBA approves sale of Jazz to group led by Ryan Smith (NBA.com)",
+      "url": "https://www.nba.com/news/nba-board-of-governors-approves-sale-of-jazz",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Utah Jazz bring back Delta Center name (NBA.com)",
+      "url": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-uta",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Utah Jazz",
   "league": "nba",
   "division": "nba-northwest",
+  "founded": {
+    "value": 1974,
+    "source": "https://www.basketball-reference.com/teams/UTA/",
+    "verified": "2026-11-05",
+    "note": "Founded in New Orleans."
+  },
+  "firstSeason": {
+    "value": "1974-75",
+    "source": "https://www.basketball-reference.com/teams/UTA/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Purple",
+        "hex": "#4E008E"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Purple taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/utah-jazz.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "delta-center",
+      "from": 1991,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Will Hardy",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/UTA/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Ryan Smith (since 2020)",
+    "source": "https://www.nba.com/news/nba-board-of-governors-approves-sale-of-jazz",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1974",
+      "label": "Founded in New Orleans",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/UTA/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1979",
+      "label": "Move to Salt Lake City",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/UTA/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1984",
+      "label": "Draft John Stockton 16th overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1985",
+      "label": "Draft Karl Malone 13th overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1988",
+      "label": "Jerry Sloan becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/UTA/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1991",
+      "label": "Move into the Delta Center",
+      "kind": "venue",
+      "source": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1997",
+      "label": "First NBA Finals, lost to Chicago",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1998",
+      "label": "Second straight Finals against Chicago",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2020",
+      "label": "Ryan Smith’s group buys the team from the Miller family",
+      "kind": "ownership",
+      "source": "https://www.nba.com/news/nba-board-of-governors-approves-sale-of-jazz",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "The arena takes back the Delta Center name",
+      "kind": "venue",
+      "source": "https://cdn.nba.com/news/utah-jazz-delta-center-arena-name",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Draft Darryn Peterson second overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "New Orleans’ team until 1979, then Utah’s: two Finals in the Stockton and Malone years, still waiting for a title.",
+  "legends": [
+    "karl-malone",
+    "john-stockton",
+    "jerry-sloan"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/jazz/roster",
+    "players": [
+      {
+        "person": "lauri-markkanen",
+        "source": "https://www.nba.com/news/2026-27-season-preview-uta",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jaren-jackson-jr",
+        "source": "https://www.nba.com/news/2026-27-season-preview-uta",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "keyonte-george",
+        "source": "https://www.nba.com/news/2026-27-season-preview-uta",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "darryn-peterson",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 2
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

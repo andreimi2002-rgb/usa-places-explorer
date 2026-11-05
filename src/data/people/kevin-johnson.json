@@ -1,0 +1,45 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Kevin Johnson",
+  "sources": [
+    {
+      "title": "Kevin Johnson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/johnske02.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1987,
+      "to": 1988,
+      "source": "https://www.basketball-reference.com/players/j/johnske02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1988,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/players/j/johnske02.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1987, No. 7 overall, by Cleveland",
+      "source": "https://www.basketball-reference.com/players/j/johnske02.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "All-Star",
+      "value": "3 times",
+      "source": "https://www.basketball-reference.com/players/j/johnske02.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard of the Suns for twelve seasons, including the 1993 Finals team."
+}

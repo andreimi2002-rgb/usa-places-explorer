@@ -201,3 +201,22 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions 
    also played or coached in Orlando; Oscar Robertson is linked to the Cincinnati Royals (today's Kings).
 6. **2026-27 moves**: Kevin Durant in Houston, James Harden in Cleveland, Tyler Herro and Kel'el Ware in Milwaukee
    (from the Antetokounmpo trade), all from Basketball-Reference rosters and NBA.com previews.
+
+---
+
+# Lot 5 — Nuggets, Jazz, Suns, Trail Blazers, Timberwolves
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions are listed here.
+
+## Things to check
+
+1. **Portland**: new owner Tom Dundon (NBA approval in March 2026; one NBA.com article says April) and a new coach,
+   Micah Nori, the club's third in under a year. No 2026-27 rookies on the roster, so that section is hidden.
+2. **Arizona time**: Phoenix stays on Mountain Standard Time all year, so its gap to Europe changes twice a year;
+   the city and team pages say so instead of giving a single number.
+3. **Arena details**: Moda Center and Target Center show only their first NBA season; Mortgage Matchup Center has
+   no former names stored because no source gave them with years.
+4. **New links**: Aaron Gordon (Orlando 2014–2021), Alex English (Bucks, Pacers), Bill Walton (Celtics 1986 title),
+   Rudy Gobert and Donovan Mitchell (Utah), Kevin Garnett's two Minnesota stints.
+5. **Founding names**: Denver Rockets (ABA, 1967–1974) and New Orleans Jazz (1974–1979) are stored as former
+   identities; Minneapolis now shows both the Lakers (1947–1960) and the Timberwolves.

@@ -1,20 +1,205 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Minnesota Timberwolves team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612750/timberwolves",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Season review: 1989-90 (NBA.com)",
+      "url": "https://www.nba.com/news/history-season-review-1989-90",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "First-year Timberwolves (NBA.com)",
+      "url": "https://www.nba.com/timberwolves/news/first-year-timberwolves-still-feel-connected-minnesota",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wolves to retire Kevin Garnett’s No. 21 (NBA.com)",
+      "url": "https://www.nba.com/news/wolves-to-retire-kevin-garnett-no-21-in-2026-27",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-min",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Minnesota Timberwolves",
   "league": "nba",
   "division": "nba-northwest",
+  "founded": {
+    "value": 1989,
+    "source": "https://www.nba.com/news/history-season-review-1989-90",
+    "verified": "2026-11-05",
+    "note": "Added with the Orlando Magic for the 1989-90 season."
+  },
+  "firstSeason": {
+    "value": "1989-90",
+    "source": "https://www.nba.com/news/history-season-review-1989-90",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#1D428A"
+      },
+      {
+        "name": "Green",
+        "hex": "#009A44"
+      },
+      {
+        "name": "Gray",
+        "hex": "#C1C6C8"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/minnesota-timberwolves.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "target-center",
+      "from": 1990,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Chris Finch",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/MIN/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Marc Lore and Alex Rodriguez",
+    "source": "https://www.nba.com/team/1610612750/timberwolves",
+    "verified": "2026-11-05",
+    "note": "Listed by NBA.com as the team’s governors."
+  },
+  "milestones": [
+    {
+      "date": "1989",
+      "label": "Join the NBA with Orlando, as the league grows from 25 to 27 teams",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/history-season-review-1989-90",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1990",
+      "label": "Move into Target Center after a first season at the Metrodome",
+      "kind": "venue",
+      "source": "https://www.nba.com/timberwolves/news/first-year-timberwolves-still-feel-connected-minnesota",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "Draft Kevin Garnett fifth overall, straight from high school",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2004",
+      "label": "Garnett named MVP",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/g/garneke01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2015",
+      "label": "Karl-Anthony Towns arrives; Garnett returns",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2020",
+      "label": "Anthony Edwards arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Born in 1989 alongside the Orlando Magic: Kevin Garnett’s team, and today Anthony Edwards’.",
+  "legends": [
+    "kevin-garnett"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/timberwolves/roster",
+    "players": [
+      {
+        "person": "anthony-edwards",
+        "source": "https://www.nba.com/news/2026-27-season-preview-min",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "lamelo-ball",
+        "source": "https://www.nba.com/news/2026-27-season-preview-min",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "rudy-gobert",
+        "source": "https://www.nba.com/news/2026-27-season-preview-min",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jaden-mcdaniels",
+        "source": "https://www.nba.com/news/2026-27-season-preview-min",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "isaiah-evans",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 33
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -20,5 +20,6 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Phoenix&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5308655: Phoenix, Arizona"
-  }
+  },
+  "summary": "Home of the Suns since 1968."
 }

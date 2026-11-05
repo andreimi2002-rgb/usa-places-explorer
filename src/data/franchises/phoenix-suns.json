@@ -1,20 +1,210 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Phoenix Suns team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612756/onoffcourt-summary",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "NBA approves sale of Suns and Mercury to group led by Mat Ishbia (NBA.com)",
+      "url": "https://pr.nba.com/nba-board-of-governors-suns-mercury-sale-mat-ishbia/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Suns arena LED display release (NBA.com)",
+      "url": "https://www.nba.com/suns/news/phoenix-suns-mercury-continue-to-transform-fan-experience-with-largest-exterior-transparent-led-display-on-nba-wnba-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-phx",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Phoenix Suns",
   "league": "nba",
   "division": "nba-pacific",
+  "founded": {
+    "value": 1968,
+    "source": "https://www.nba.com/team/1610612756/onoffcourt-summary",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1968-69",
+    "source": "https://www.basketball-reference.com/teams/PHO/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Orange",
+        "hex": "#E46025"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F79E1E"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Orange and yellow taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/phoenix-suns.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "mortgage-matchup-center",
+      "from": 1992,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Jordan Ott",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/PHO/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Mat Ishbia (since 2023)",
+    "source": "https://pr.nba.com/nba-board-of-governors-suns-mercury-sale-mat-ishbia/",
+    "verified": "2026-11-05",
+    "note": "Approved by the NBA on February 6, 2023, together with the WNBA’s Mercury."
+  },
+  "milestones": [
+    {
+      "date": "1968",
+      "label": "Join the NBA as an expansion team",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612756/onoffcourt-summary",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "First NBA Finals, lost to Boston",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1992",
+      "label": "Move into today’s Mortgage Matchup Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/suns/news/phoenix-suns-mercury-continue-to-transform-fan-experience-with-largest-exterior-transparent-led-display-on-nba-wnba-arena",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1993",
+      "label": "Charles Barkley’s Suns reach the Finals, lose to Chicago",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2005",
+      "label": "Steve Nash named MVP, the first of two in a row",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2021",
+      "label": "Third Finals, lost to Milwaukee",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023-02-06",
+      "label": "Mat Ishbia’s purchase approved",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/nba-board-of-governors-suns-mercury-sale-mat-ishbia/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "Trade Kevin Durant to Houston for Dillon Brooks and Jalen Green",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/2026-27-season-preview-phx",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Phoenix’s team since 1968: three Finals (1976, 1993, 2021) and two MVPs for Steve Nash, still without a title.",
+  "legends": [
+    "steve-nash",
+    "charles-barkley",
+    "kevin-johnson"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/suns/roster",
+    "players": [
+      {
+        "person": "devin-booker",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phx",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dillon-brooks",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phx",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jalen-green",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phx",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "koa-peat",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 30
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

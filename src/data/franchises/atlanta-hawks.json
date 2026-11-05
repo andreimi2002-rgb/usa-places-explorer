@@ -1,20 +1,252 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Hawks announce sale to group led by Tony Ressler (NBA.com)",
+      "url": "https://www.nba.com/hawks/atlanta-hawks-announce-sale-franchise-ownership-group-led-tony-ressler",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Original Atlanta Hawks owner Tom Cousins dies (NBA.com)",
+      "url": "https://www.nba.com/news/originals-hawks-owner-tom-cousins-dead-93",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bob Pettit dies at 93 (NBA.com)",
+      "url": "https://www.nba.com/news/bob-pettit-obit",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-atl",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Atlanta Hawks",
   "league": "nba",
   "division": "nba-southeast",
+  "founded": {
+    "value": 1949,
+    "source": "https://www.basketball-reference.com/teams/ATL/",
+    "verified": "2026-11-05",
+    "note": "First NBA season as the Tri-Cities Blackhawks."
+  },
+  "firstSeason": {
+    "value": "1949-50",
+    "source": "https://www.basketball-reference.com/teams/ATL/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#E03A3E"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Red taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/atlanta-hawks.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "state-farm-arena",
+      "from": 1999,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Quin Snyder",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Tony Ressler",
+    "source": "https://www.nba.com/hawks/atlanta-hawks-announce-sale-franchise-ownership-group-led-tony-ressler",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1949",
+      "label": "First NBA season as the Tri-Cities Blackhawks",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/ATL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1951",
+      "label": "Move to Milwaukee as the Hawks",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/ATL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1954",
+      "label": "Draft Bob Pettit second overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1955",
+      "label": "Move to St. Louis",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/ATL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1956",
+      "label": "Pettit is named the NBA’s first MVP",
+      "kind": "award",
+      "source": "https://www.nba.com/news/bob-pettit-obit",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1958",
+      "label": "NBA title over Boston; Pettit scores 50 in the clinching Game 6",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/bob-pettit-obit",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1968",
+      "label": "Tom Cousins and Carl Sanders buy the team and move it to Atlanta",
+      "kind": "identity",
+      "source": "https://www.nba.com/news/originals-hawks-owner-tom-cousins-dead-93",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1982",
+      "label": "Dominique Wilkins arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999",
+      "label": "Move into today’s State Farm Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Trae Young arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Trade Trae Young to Washington",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/2026-27-season-preview-atl",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Tri-Cities, Milwaukee, St. Louis and, since 1968, Atlanta: champions in 1958 with Bob Pettit.",
+  "legends": [
+    "bob-pettit",
+    "dominique-wilkins",
+    "lenny-wilkens"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/hawks/roster",
+    "players": [
+      {
+        "person": "jalen-johnson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-atl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "cj-mccollum",
+        "source": "https://www.nba.com/news/2026-27-season-preview-atl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "nickeil-alexander-walker",
+        "source": "https://www.nba.com/news/2026-27-season-preview-atl",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dyson-daniels",
+        "source": "https://www.nba.com/news/2026-27-season-preview-atl",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "kingston-flemings",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 8
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "zuby-ejiofor",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 23
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "henri-veesaar",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 52
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Cliff Hagan",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1956,
+      "to": 1966,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Atlanta",
+      "value": "1956–1966",
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Atlanta",
+      "value": "1958",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Came to St. Louis in the 1956 Bill Russell trade and won the 1958 title."
+}

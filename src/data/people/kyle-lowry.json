@@ -1,0 +1,69 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Kyle Lowry",
+  "sources": [
+    {
+      "title": "Kyle Lowry stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2006,
+      "to": 2009,
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2009,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2012,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2021,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2024,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2006, No. 24 overall, by Memphis",
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2019, with Toronto",
+      "source": "https://www.basketball-reference.com/players/l/lowryky01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard of the Raptors for nine seasons and of their 2019 title team."
+}

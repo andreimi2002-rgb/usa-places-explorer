@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Derrick Coleman",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 1990,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Brooklyn",
+      "value": "1990–1995",
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Brooklyn from 1990 to 1995."
+}

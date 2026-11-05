@@ -1,0 +1,51 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Dražen Petrović",
+  "sources": [
+    {
+      "title": "Dražen Petrović stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 1989,
+      "to": 1991,
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 1991,
+      "to": 1993,
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1986, round 3, by Portland",
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2002",
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "June 7, 1993",
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Croatian guard who starred for New Jersey and died in 1993, while still a Nets player."
+}

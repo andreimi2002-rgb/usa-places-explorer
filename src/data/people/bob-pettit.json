@@ -1,0 +1,60 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Bob Pettit",
+  "sources": [
+    {
+      "title": "Bob Pettit stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bob Pettit dies at 93 (NBA.com)",
+      "url": "https://www.nba.com/news/bob-pettit-obit",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1954,
+      "to": 1965,
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1954, No. 2 overall, by the Milwaukee Hawks",
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1958, with St. Louis",
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1955–56 (the first ever), 1958–59",
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1971",
+      "source": "https://www.basketball-reference.com/players/p/pettibo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "September 24, 2026",
+      "source": "https://www.nba.com/news/bob-pettit-obit",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The NBA’s first MVP, who led the St. Louis Hawks to the 1958 title."
+}

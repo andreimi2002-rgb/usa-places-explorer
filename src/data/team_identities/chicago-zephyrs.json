@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/wizards/franchise-history",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "washington-wizards",
+  "name": "Chicago Zephyrs",
+  "city": "chicago",
+  "from": {
+    "value": 1962,
+    "source": "https://www.nba.com/wizards/franchise-history",
+    "verified": "2026-11-05"
+  },
+  "to": 1963,
+  "current": false
+}

@@ -1,0 +1,75 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Dominique Wilkins",
+  "sources": [
+    {
+      "title": "Dominique Wilkins stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1982,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1994,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1994,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 1996,
+      "to": 1997,
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1998,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1982, No. 3 overall, by Utah",
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring title",
+      "value": "1985–86",
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2006",
+      "source": "https://www.basketball-reference.com/players/w/wilkido01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Atlanta’s star forward for twelve seasons and the league’s top scorer in 1986."
+}

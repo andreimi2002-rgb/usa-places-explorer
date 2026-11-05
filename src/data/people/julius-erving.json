@@ -7,9 +7,27 @@
       "title": "Julius Erving stats (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/e/ervinju01.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Nets all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1976 ABA champions (NBA.com)",
+      "url": "https://www.nba.com/nets/news/history/2019/07/22/1976-aba-champions",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 1973,
+      "to": 1976,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "philadelphia-76ers",
       "role": "player",

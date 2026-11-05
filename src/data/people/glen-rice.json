@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Glen Rice",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1995,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "1995–1998",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Charlotte from 1995 to 1998."
+}

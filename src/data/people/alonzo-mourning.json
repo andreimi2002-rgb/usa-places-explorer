@@ -11,10 +11,23 @@
       "title": "Bio: Micky Arison (NBA.com)",
       "url": "https://www.nba.com/heat/bio/micky-arison",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charlotte all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Alonzo Mourning",
   "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1992,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "miami-heat",
       "role": "player",

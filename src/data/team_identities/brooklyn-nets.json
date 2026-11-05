@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "brooklyn-nets",
   "name": "Brooklyn Nets",
   "city": "new-york",
+  "from": {
+    "value": 2012,
+    "source": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

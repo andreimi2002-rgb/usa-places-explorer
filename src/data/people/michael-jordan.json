@@ -17,6 +17,11 @@
       "title": "Chicago Bulls history (NBA.com)",
       "url": "https://www.nba.com/bulls/news/history_001028.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Hornets front office (NBA.com)",
+      "url": "https://www.nba.com/hornets/front-office",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -42,6 +47,14 @@
       "from": 2001,
       "to": 2003,
       "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "charlotte-hornets",
+      "role": "owner",
+      "from": 2010,
+      "to": 2023,
+      "source": "https://www.nba.com/hornets/front-office",
       "verified": "2026-11-05"
     }
   ],

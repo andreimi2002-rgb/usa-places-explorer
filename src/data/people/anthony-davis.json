@@ -17,6 +17,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/NOH/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/2027.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -34,6 +39,14 @@
       "from": 2019,
       "to": 2025,
       "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
       "verified": "2026-11-05"
     }
   ],

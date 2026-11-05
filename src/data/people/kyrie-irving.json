@@ -29,6 +29,14 @@
       "verified": "2026-11-05"
     },
     {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2019,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "dallas-mavericks",
       "role": "player",
       "from": 2023,

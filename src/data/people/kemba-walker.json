@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Kemba Walker",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 2011,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "2011–2019",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Bobcats’ and Hornets’ star guard of the 2010s."
+}

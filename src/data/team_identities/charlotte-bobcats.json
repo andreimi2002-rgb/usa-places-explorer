@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/hornets/news/charlottebobcats_061103.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "charlotte-hornets",
+  "name": "Charlotte Bobcats",
+  "city": "charlotte",
+  "from": {
+    "value": 2004,
+    "source": "https://www.nba.com/hornets/news/charlottebobcats_061103.html",
+    "verified": "2026-11-05"
+  },
+  "to": 2014,
+  "current": false
+}

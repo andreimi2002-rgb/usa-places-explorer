@@ -17,6 +17,14 @@
       "to": 1996,
       "source": "https://www.basketball-reference.com/teams/DEN/players.html",
       "verified": "2026-11-05"
+    },
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1996,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
     }
   ],
   "facts": [

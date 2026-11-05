@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -20,5 +20,6 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Toronto&count=10&language=en&format=json&countryCode=CA",
     "verified": "2026-11-05",
     "note": "GeoNames 6167865: Toronto, Ontario"
-  }
+  },
+  "summary": "Home of the Raptors, the NBA’s team in Canada, since 1995."
 }

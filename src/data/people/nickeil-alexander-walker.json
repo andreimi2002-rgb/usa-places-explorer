@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Nickeil Alexander-Walker",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Virginia Tech",
+      "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Canadian guard, the league’s Most Improved Player in 2025-26."
+}

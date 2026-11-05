@@ -1,20 +1,225 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Wizards franchise history (NBA.com)",
+      "url": "https://www.nba.com/wizards/franchise-history",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-was",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Washington Wizards",
   "league": "nba",
   "division": "nba-southeast",
+  "founded": {
+    "value": 1961,
+    "source": "https://www.nba.com/wizards/franchise-history",
+    "verified": "2026-11-05",
+    "note": "Admitted in 1961 as the Chicago Packers."
+  },
+  "firstSeason": {
+    "value": "1961-62",
+    "source": "https://www.basketball-reference.com/teams/WAS/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#002B5C"
+      },
+      {
+        "name": "Red",
+        "hex": "#E21936"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C4CDD3"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/washington-wizards.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "capital-one-arena",
+      "from": 1997,
+      "to": null,
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Brian Keefe",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/WAS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Ted Leonsis, Monumental Sports & Entertainment (since 2010)",
+    "source": "https://www.nba.com/wizards/franchise-history",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1961",
+      "label": "Admitted as the Chicago Packers",
+      "kind": "founding",
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1962",
+      "label": "Renamed the Chicago Zephyrs",
+      "kind": "identity",
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1963",
+      "label": "Move to Baltimore as the Bullets",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/WAS/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1968",
+      "label": "Draft Wes Unseld second overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1973",
+      "label": "Move to the Washington area, first as the Capital Bullets",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/WAS/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1978",
+      "label": "Only NBA title, over Seattle; Unseld is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1997-05-15",
+      "label": "Become the Wizards and move into today’s Capital One Arena",
+      "kind": "identity",
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2001",
+      "label": "Michael Jordan returns to play two seasons",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2010-06",
+      "label": "Ted Leonsis completes his takeover",
+      "kind": "ownership",
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Draft AJ Dybantsa first overall; Trae Young and Anthony Davis lead the team",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Chicago, Baltimore and Washington: the Bullets won the 1978 title; today the Wizards build around AJ Dybantsa.",
+  "legends": [
+    "wes-unseld",
+    "elvin-hayes",
+    "earl-monroe"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/wizards/roster",
+    "players": [
+      {
+        "person": "trae-young",
+        "source": "https://www.nba.com/news/2026-27-season-preview-was",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "anthony-davis",
+        "source": "https://www.nba.com/news/2026-27-season-preview-was",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "alex-sarr",
+        "source": "https://www.nba.com/news/2026-27-season-preview-was",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "aj-dybantsa",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 1
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "felix-okpara",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 46
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

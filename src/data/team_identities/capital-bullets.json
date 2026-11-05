@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/WAS/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "washington-wizards",
+  "name": "Capital Bullets",
+  "city": "washington",
+  "from": {
+    "value": 1973,
+    "source": "https://www.basketball-reference.com/teams/WAS/",
+    "verified": "2026-11-05"
+  },
+  "to": 1974,
+  "current": false
+}

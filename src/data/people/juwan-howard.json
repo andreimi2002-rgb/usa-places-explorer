@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Juwan Howard",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1994,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "1994–2001",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 1994 to 2001."
+}

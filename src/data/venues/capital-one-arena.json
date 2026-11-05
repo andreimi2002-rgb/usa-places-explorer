@@ -1,0 +1,35 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Wizards franchise history (NBA.com)",
+      "url": "https://www.nba.com/wizards/franchise-history",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Capital One Arena",
+  "city": "washington",
+  "capacity": {
+    "basketball": {
+      "value": 20333,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "MCI Center",
+      "from": 1997,
+      "to": null,
+      "source": "https://www.nba.com/wizards/franchise-history",
+      "verified": null
+    }
+  ],
+  "summary": "The Wizards’ downtown Washington arena since 1997, first called the MCI Center."
+}

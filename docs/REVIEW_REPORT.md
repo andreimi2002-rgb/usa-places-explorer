@@ -239,3 +239,23 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions 
 5. **New links to Orlando**: Chris Webber (drafted first by Orlando in 1993, traded for Penny Hardaway) and Jamahl
    Mosley (Magic coach 2021–2026, now the Pelicans' coach).
 6. **Memphis owner**: Robert Pera's control is sourced to a 2018 NBA.com release; no later change found.
+
+---
+
+# Lot 7 — Hawks, Hornets, Nets, Raptors, Wizards (all 30 NBA teams done)
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions are listed here.
+
+## Things to check
+
+1. **Hornets lineage**: today's Charlotte franchise owns the 1988–2002 Hornets history and the Bobcats years
+   (2004–2014); the 2002–2004 gap, when Charlotte had no team, is explained on the page.
+2. **Nets cities**: for the identities we chose Uniondale (Long Island) for the New York Nets and East Rutherford
+   for the New Jersey Nets, where they played longest. Their earlier arenas (Commack, Piscataway, Newark) are not
+   shown. Please confirm this simplification.
+3. **Former arena names** (Philips Arena, MCI Center) are stored but hidden because their years are not sourced.
+4. **Bob Pettit** died on September 24, 2026 (NBA.com obituary); his page says so.
+5. **New links to Orlando**: Dominique Wilkins (1998–99), Vince Carter (2009–2011), Felix Okpara (Orlando's 2026
+   pick, now on a two-way deal in Washington).
+6. **2026-27 moves**: Trae Young and Anthony Davis in Washington, Kawhi Leonard back in Toronto, LaMelo Ball in
+   Minnesota, all from NBA.com previews and Basketball-Reference rosters.

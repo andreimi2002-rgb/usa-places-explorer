@@ -1,0 +1,63 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "DeMar DeRozan",
+  "sources": [
+    {
+      "title": "DeMar DeRozan stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2009,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2018,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2021,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2024,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2009, No. 9 overall, by Toronto",
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Drafted by Toronto in 2009, its star wing for nine seasons."
+}

@@ -11,6 +11,14 @@
   ],
   "roles": [
     {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1970,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "utah-jazz",
       "role": "player",
       "from": 1974,

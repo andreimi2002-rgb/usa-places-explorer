@@ -27,6 +27,14 @@
       "verified": "2026-11-05"
     },
     {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1986,
+      "to": 1988,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "philadelphia-76ers",
       "role": "player",
       "from": 1993,

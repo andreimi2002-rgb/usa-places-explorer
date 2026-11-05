@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -20,5 +20,6 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Charlotte&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 4460243: Charlotte, North Carolina"
-  }
+  },
+  "summary": "Home of the Hornets since 1988, and of the Bobcats from 2004 to 2014."
 }

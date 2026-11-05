@@ -1,0 +1,61 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Wes Unseld",
+  "sources": [
+    {
+      "title": "Wes Unseld stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1968,
+      "to": 1981,
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1968, No. 2 overall, by Baltimore",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "MVP and Rookie of the Year",
+      "value": "1968–69, the same season",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1978",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1978",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1988",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "June 2, 2020",
+      "source": "https://www.basketball-reference.com/players/u/unselwe01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center who was MVP and Rookie of the Year in the same season and Finals MVP of the 1978 champions."
+}

@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIN/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charlotte all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 2020,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "minnesota-timberwolves",
       "role": "player",

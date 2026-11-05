@@ -1,0 +1,50 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Trae Young",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/WAS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Trae Young stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2018,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2018, No. 5 overall, by Dallas",
+      "source": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Assists leader",
+      "value": "2024–25",
+      "source": "https://www.basketball-reference.com/players/y/youngtr01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Atlanta’s star point guard for seven-plus seasons, traded to Washington in 2026."
+}

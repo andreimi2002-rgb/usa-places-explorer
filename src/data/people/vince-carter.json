@@ -1,0 +1,105 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 1998,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2005,
+      "to": 2009,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2009,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 2010,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2011,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2014,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2017,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2018,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vince Carter stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Vince Carter",
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1998, No. 5 overall, by Golden State",
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1998–99",
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Seasons",
+      "value": "22, from 1998–99 to 2019–20",
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2024",
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Toronto’s first superstar, later a Nets and Magic forward, who played 22 seasons."
+}

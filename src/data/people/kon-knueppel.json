@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kon Knueppel",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/CHO/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHO/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/CHO/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "1",
+      "source": "https://www.basketball-reference.com/teams/CHO/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Second-year wing and a top-notch three-point shooter."
+}

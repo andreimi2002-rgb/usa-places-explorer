@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/IND/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2016,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "indiana-pacers",
       "role": "player",

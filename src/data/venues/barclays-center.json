@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Julius Erving to attend Nets game in Brooklyn (NBA.com)",
+      "url": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Barclays Center",
+  "city": "new-york",
+  "opened": {
+    "value": "2012",
+    "source": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
+    "verified": "2026-11-05",
+    "note": "First Nets game: November 3, 2012."
+  },
+  "capacity": {
+    "basketball": {
+      "value": 17732,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Joe Tsai",
+    "source": "https://www.nba.com/news/nba-approves-nets-sale-joe-tsai-david-levy-ceo",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [],
+  "summary": "The Nets’ arena in Brooklyn since 2012."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Phil Chenier",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1971,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "1971–1980",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Washington",
+      "value": "1978",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 1971 to 1980, winning the 1978 title."
+}

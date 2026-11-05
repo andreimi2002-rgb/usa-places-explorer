@@ -43,5 +43,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Guard who must fit alongside Leonard and Barnes."
+  "summary": "Guard who must fit alongside Leonard and Barnes.",
+  "image": {
+    "file": "File:Immanuel Quickley.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Immanuel_Quickley.jpg/960px-Immanuel_Quickley.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Quickley.jpg",
+    "author": "Thomas Savoja",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Immanuel Quickley",
+    "caption": "Immanuel Quickley",
+    "licenseChecked": "2026-11-05"
+  }
 }

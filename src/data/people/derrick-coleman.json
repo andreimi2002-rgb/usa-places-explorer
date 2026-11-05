@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Brooklyn from 1990 to 1995."
+  "summary": "Played for Brooklyn from 1990 to 1995.",
+  "image": {
+    "file": "File:Derrick Coleman 2014.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Derrick_Coleman_2014.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derrick_Coleman_2014.jpg",
+    "author": "Leech44",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Derrick Coleman",
+    "caption": "Derrick Coleman",
+    "licenseChecked": "2026-11-05"
+  }
 }

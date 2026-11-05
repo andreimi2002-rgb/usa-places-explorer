@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Baltimore&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 4347778: Baltimore, Maryland"
+  },
+  "image": {
+    "file": "File:Baltimore, Maryland skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Baltimore%2C_Maryland_skyline.jpg/960px-Baltimore%2C_Maryland_skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baltimore,_Maryland_skyline.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Baltimore",
+    "caption": "Baltimore",
+    "licenseChecked": "2026-11-05"
   }
 }

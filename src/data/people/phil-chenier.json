@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Washington from 1971 to 1980, winning the 1978 title."
+  "summary": "Played for Washington from 1971 to 1980, winning the 1978 title.",
+  "image": {
+    "file": "File:Phil Chenier.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Phil_Chenier.jpg/1280px-Phil_Chenier.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Phil_Chenier.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Phil Chenier",
+    "caption": "Phil Chenier",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Brooklyn from 2000 to 2004."
+  "summary": "Played for Brooklyn from 2000 to 2004.",
+  "image": {
+    "file": "File:Kenyon Martin Nuggets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Kenyon_Martin_Nuggets.jpg/960px-Kenyon_Martin_Nuggets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kenyon_Martin_Nuggets.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kenyon Martin",
+    "caption": "Kenyon Martin",
+    "licenseChecked": "2026-11-05"
+  }
 }

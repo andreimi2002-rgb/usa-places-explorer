@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Toronto from 1995 to 1998."
+  "summary": "Played for Toronto from 1995 to 1998.",
+  "image": {
+    "file": "File:Damon Stoudamire 2021.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Damon_Stoudamire_2021.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Damon_Stoudamire_2021.png",
+    "author": "Boston Celtics",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Damon Stoudamire",
+    "caption": "Damon Stoudamire",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4180439: Atlanta, Georgia"
   },
-  "summary": "Home of the Hawks since 1968."
+  "summary": "Home of the Hawks since 1968.",
+  "image": {
+    "file": "File:Atlanta skyline from Jackson Street Bridge 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg/1280px-Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg",
+    "author": "Marc Merlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Atlanta",
+    "caption": "Atlanta",
+    "licenseChecked": "2026-11-05"
+  }
 }

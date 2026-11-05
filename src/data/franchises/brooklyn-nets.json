@@ -240,5 +240,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Barclays Center, Brooklyn New York, 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Barclays_Center%2C_Brooklyn_New_York%2C_2023.jpg/1280px-Barclays_Center%2C_Brooklyn_New_York%2C_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Barclays_Center,_Brooklyn_New_York,_2023.jpg",
+    "author": "Weber Areiv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Barclays Center",
+    "caption": "Barclays Center",
+    "licenseChecked": "2026-11-05"
   }
 }

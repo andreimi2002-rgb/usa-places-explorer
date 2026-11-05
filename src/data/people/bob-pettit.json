@@ -56,5 +56,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "The NBA’s first MVP, who led the St. Louis Hawks to the 1958 title."
+  "summary": "The NBA’s first MVP, who led the St. Louis Hawks to the 1958 title.",
+  "image": {
+    "file": "File:Bob Pettit 1961.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bob_Pettit_1961.jpeg/960px-Bob_Pettit_1961.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob_Pettit_1961.jpeg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bob Pettit",
+    "caption": "Bob Pettit",
+    "licenseChecked": "2026-11-05"
+  }
 }

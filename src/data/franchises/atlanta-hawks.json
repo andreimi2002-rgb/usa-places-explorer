@@ -248,5 +248,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:State Farm (Philips) Arena, Atlanta, GA (46558861525) - 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1280px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg",
+    "author": "Warren LeMay from Cincinnati, OH, United States",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of State Farm Arena",
+    "caption": "State Farm Arena",
+    "licenseChecked": "2026-11-05"
   }
 }

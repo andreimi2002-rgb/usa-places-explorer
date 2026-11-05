@@ -43,5 +43,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Veteran forward added in 2026 to raise the floor."
+  "summary": "Veteran forward added in 2026 to raise the floor.",
+  "image": {
+    "file": "File:Julius-Randle.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Julius-Randle.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Julius-Randle.jpg",
+    "author": "Acdixon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Julius Randle",
+    "caption": "Julius Randle",
+    "licenseChecked": "2026-11-05"
+  }
 }

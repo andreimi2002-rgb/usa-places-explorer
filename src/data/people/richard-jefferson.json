@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Brooklyn from 2001 to 2008."
+  "summary": "Played for Brooklyn from 2001 to 2008.",
+  "image": {
+    "file": "File:Richard Jefferson 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Richard_Jefferson_2017.jpg/960px-Richard_Jefferson_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Jefferson_2017.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Richard Jefferson",
+    "caption": "Richard Jefferson",
+    "licenseChecked": "2026-11-05"
+  }
 }

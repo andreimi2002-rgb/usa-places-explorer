@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=St.%20Louis&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 4407066: St Louis, Missouri"
+  },
+  "image": {
+    "file": "File:Gateway Arch - St. Louis - Missouri (17275578342).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gateway_Arch_-_St._Louis_-_Missouri_%2817275578342%29.jpg/960px-Gateway_Arch_-_St._Louis_-_Missouri_%2817275578342%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gateway_Arch_-_St._Louis_-_Missouri_(17275578342).jpg",
+    "author": "Sam valadi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of St. Louis",
+    "caption": "St. Louis",
+    "licenseChecked": "2026-11-05"
   }
 }

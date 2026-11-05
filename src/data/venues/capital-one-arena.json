@@ -31,5 +31,16 @@
       "verified": null
     }
   ],
-  "summary": "The Wizards’ downtown Washington arena since 1997, first called the MCI Center."
+  "summary": "The Wizards’ downtown Washington arena since 1997, first called the MCI Center.",
+  "image": {
+    "file": "File:Capital One Arena - Washington, D.C.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Capital_One_Arena_-_Washington%2C_D.C.jpg/1280px-Capital_One_Arena_-_Washington%2C_D.C.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Capital_One_Arena_-_Washington,_D.C.jpg",
+    "author": "APK",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Capital One Arena",
+    "caption": "Capital One Arena",
+    "licenseChecked": "2026-11-05"
+  }
 }

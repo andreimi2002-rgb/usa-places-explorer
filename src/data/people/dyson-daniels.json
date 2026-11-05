@@ -37,5 +37,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Australian perimeter defender."
+  "summary": "Australian perimeter defender.",
+  "image": {
+    "file": "File:Dyson Daniels.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dyson_Daniels.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Dyson_Daniels.png",
+    "author": "Hoop District",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Dyson Daniels",
+    "caption": "Dyson Daniels",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Atlanta from 1983 to 1991."
+  "summary": "Played for Atlanta from 1983 to 1991.",
+  "image": {
+    "file": "File:Rivers 76ers.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rivers_76ers.jpg/960px-Rivers_76ers.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivers_76ers.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Doc Rivers",
+    "caption": "Doc Rivers",
+    "licenseChecked": "2026-11-05"
+  }
 }

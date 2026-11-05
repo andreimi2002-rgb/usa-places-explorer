@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "The Bobcats’ and Hornets’ star guard of the 2010s."
+  "summary": "The Bobcats’ and Hornets’ star guard of the 2010s.",
+  "image": {
+    "file": "File:Kemba Walker 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kemba_Walker_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kemba_Walker_2019.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Kemba Walker",
+    "caption": "Kemba Walker",
+    "licenseChecked": "2026-11-05"
+  }
 }

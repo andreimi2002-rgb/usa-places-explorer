@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Charlotte from 1999 to 2002."
+  "summary": "Played for Charlotte from 1999 to 2002.",
+  "image": {
+    "file": "File:Baron Davis March 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Baron_Davis_March_2012.jpg/960px-Baron_Davis_March_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baron_Davis_March_2012.jpg",
+    "author": "scott mecum",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Baron Davis",
+    "caption": "Baron Davis",
+    "licenseChecked": "2026-11-05"
+  }
 }

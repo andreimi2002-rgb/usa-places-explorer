@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Charlotte from 2004 to 2011."
+  "summary": "Played for Charlotte from 2004 to 2011.",
+  "image": {
+    "file": "File:WallaceNets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/WallaceNets.jpg/960px-WallaceNets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WallaceNets.jpg",
+    "author": "Knightwell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Gerald Wallace",
+    "caption": "Gerald Wallace",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -43,5 +43,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Canadian forward who joined Toronto in 2023."
+  "summary": "Canadian forward who joined Toronto in 2023.",
+  "image": {
+    "file": "File:RJ Barrett (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RJ_Barrett_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:RJ_Barrett_(cropped).jpg",
+    "author": "Travis from United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of RJ Barrett",
+    "caption": "RJ Barrett",
+    "licenseChecked": "2026-11-05"
+  }
 }

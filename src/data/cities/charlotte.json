@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4460243: Charlotte, North Carolina"
   },
-  "summary": "Home of the Hornets since 1988, and of the Bobcats from 2004 to 2014."
+  "summary": "Home of the Hornets since 1988, and of the Bobcats from 2004 to 2014.",
+  "image": {
+    "file": "File:Skyline of Charlotte 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Skyline_of_Charlotte_2016.jpg/1280px-Skyline_of_Charlotte_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Charlotte_2016.jpg",
+    "author": "brandon walker",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of Charlotte",
+    "caption": "Charlotte",
+    "licenseChecked": "2026-11-05"
+  }
 }

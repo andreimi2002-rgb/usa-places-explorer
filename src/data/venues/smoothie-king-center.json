@@ -1,0 +1,35 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Pelicans and Smoothie King renew naming rights (NBA.com)",
+      "url": "https://www.nba.com/pelicans/news/new-orleans-pelicans-smoothie-king-renew-arena-naming-rights-partnership-12-26-23",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Smoothie King Center",
+  "city": "new-orleans",
+  "capacity": {
+    "basketball": {
+      "value": 16867,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "New Orleans Arena",
+      "from": null,
+      "to": 2014,
+      "source": "https://www.nba.com/pelicans/news/new-orleans-pelicans-smoothie-king-renew-arena-naming-rights-partnership-12-26-23",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Pelicans’ arena since the 2002-03 season; called New Orleans Arena until 2014."
+}

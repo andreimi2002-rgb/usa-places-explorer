@@ -170,6 +170,9 @@ const franchises = defineCollection({
     rookies: z
       .object({
         asOf: z.string().regex(/^\d{4}-\d{2}$/),
+        /** Shown when the roster has no rookies, e.g. "The club made no picks in the 2026 draft." */
+        note: z.string().optional(),
+        noteSource: z.url().optional(),
         players: z.array(
           z.object({
             person: reference('people'),

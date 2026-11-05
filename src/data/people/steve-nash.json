@@ -19,6 +19,14 @@
       "verified": "2026-11-05"
     },
     {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1998,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "phoenix-suns",
       "role": "player",
       "from": 2004,

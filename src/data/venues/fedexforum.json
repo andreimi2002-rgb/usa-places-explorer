@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "FedExForum",
+  "city": "memphis",
+  "capacity": {
+    "basketball": {
+      "value": 17794,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Grizzlies’ downtown Memphis arena since the 2004-05 season."
+}

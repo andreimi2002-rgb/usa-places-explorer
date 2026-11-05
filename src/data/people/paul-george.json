@@ -22,6 +22,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/IND/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -31,6 +36,14 @@
       "from": 2010,
       "to": 2017,
       "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2019,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
       "verified": "2026-11-05"
     },
     {

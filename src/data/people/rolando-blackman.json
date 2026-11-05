@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Rolando Blackman",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1981,
+      "to": 1992,
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Dallas",
+      "value": "1981–1992",
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Dallas from 1981 to 1992."
+}

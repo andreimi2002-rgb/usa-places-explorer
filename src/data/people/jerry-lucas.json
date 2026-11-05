@@ -1,0 +1,42 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jerry Lucas",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1963,
+      "to": 1970,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "1963–1970",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1980",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Sacramento from 1963 to 1970."
+}

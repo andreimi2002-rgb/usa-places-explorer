@@ -266,16 +266,23 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
         { key: 'rookies', title: `Rookies (${d.rookies?.asOf ?? ''})`, cards: rookieCards, intro: 'First-year players on this season’s roster.' },
         { key: 'legends', title: 'Legends', cards: legendCards, intro: 'The players and builders who define the club.' },
         { key: 'notable', title: 'Notable players', cards: notableCards, intro: 'Other well-known names who played or worked here.' },
-      ].filter((g) => g.cards.length > 0).map((g) => (
+      ].filter((g) => g.cards.length > 0 || (g.key === 'rookies' && d.rookies?.note)).map((g) => (
         <section class="section container" aria-labelledby={`${g.key}-title`}>
           <div class="section-head"><h2 id={`${g.key}-title`}>{g.title}</h2></div>
           <p class="muted cards-intro">
-            {g.intro} Tap a card to flip it.
+            {g.intro}{g.cards.length > 0 && ' Tap a card to flip it.'}
             {g.link && <> <a href={g.link} rel="noopener" target="_blank">Full roster on NBA.com →</a></>}
           </p>
-          <ul class="card-grid">
-            {g.cards.map((c) => <li><PlayerCard {...c} /></li>)}
-          </ul>
+          {g.cards.length > 0 ? (
+            <ul class="card-grid">
+              {g.cards.map((c) => <li><PlayerCard {...c} /></li>)}
+            </ul>
+          ) : (
+            <p class="empty-note">
+              {d.rookies?.note}{' '}
+              {d.rookies?.noteSource && <a href={d.rookies.noteSource} rel="noopener" target="_blank">Source</a>}
+            </p>
+          )}
         </section>
       ))}
 
@@ -535,6 +542,12 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+  .empty-note {
+    padding: 1rem 1.25rem;
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius-lg);
+    color: var(--text-muted);
   }
   .cards-intro {
     margin-bottom: 1.25rem;

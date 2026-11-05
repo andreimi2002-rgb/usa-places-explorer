@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/SAC/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "sacramento-kings",
+  "name": "Cincinnati Royals",
+  "city": "cincinnati",
+  "from": {
+    "value": 1957,
+    "source": "https://www.basketball-reference.com/teams/SAC/",
+    "verified": "2026-11-05"
+  },
+  "to": 1972,
+  "current": false
+}

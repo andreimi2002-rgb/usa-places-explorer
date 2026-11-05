@@ -1,0 +1,31 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Mike Conley",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2007,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Memphis",
+      "value": "2007–2019",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard who spent twelve seasons in Memphis."
+}

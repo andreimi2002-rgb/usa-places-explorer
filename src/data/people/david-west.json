@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "David West",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2003,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New Orleans",
+      "value": "2003–2011",
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Power forward of the Hornets teams led by Chris Paul."
+}

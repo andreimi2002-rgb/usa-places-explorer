@@ -17,6 +17,11 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/CLE/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -34,6 +39,14 @@
       "from": 2012,
       "to": 2021,
       "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2023,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
       "verified": "2026-11-05"
     },
     {

@@ -1,0 +1,43 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Bob Davies",
+  "sources": [
+    {
+      "title": "Bob Davies stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/daviebo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1948,
+      "to": 1955,
+      "source": "https://www.basketball-reference.com/players/d/daviebo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "1951, with Rochester",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1970",
+      "source": "https://www.basketball-reference.com/players/d/daviebo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "April 22, 1990",
+      "source": "https://www.basketball-reference.com/players/d/daviebo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard of the Rochester Royals, the franchise’s 1951 champions."
+}

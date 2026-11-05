@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/NOH/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "new-orleans-pelicans",
+  "name": "New Orleans Hornets",
+  "city": "new-orleans",
+  "from": {
+    "value": 2002,
+    "source": "https://www.basketball-reference.com/teams/NOH/",
+    "verified": "2026-11-05"
+  },
+  "to": 2013,
+  "current": false
+}

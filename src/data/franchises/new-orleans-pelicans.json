@@ -1,20 +1,231 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "New Orleans and Charlotte working together on the Hornets name (NBA.com)",
+      "url": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pelicans after owner Tom Benson’s death (NBA.com)",
+      "url": "https://nba.com/article/2018/03/19/morning-tip-next-moves-new-orleans-pelicans-after-owner-tom-benson-death",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pelicans and Smoothie King renew naming rights (NBA.com)",
+      "url": "https://www.nba.com/pelicans/news/new-orleans-pelicans-smoothie-king-renew-arena-naming-rights-partnership-12-26-23",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOH/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-nop",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOP/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "New Orleans Pelicans",
   "league": "nba",
   "division": "nba-southwest",
+  "founded": {
+    "value": 2002,
+    "source": "https://www.basketball-reference.com/teams/NOH/",
+    "verified": "2026-11-05",
+    "note": "The franchise’s history starts in 2002-03; the Charlotte Hornets’ 1988–2002 history belongs to today’s Charlotte franchise."
+  },
+  "firstSeason": {
+    "value": "2002-03",
+    "source": "https://www.basketball-reference.com/teams/NOH/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0A2240"
+      },
+      {
+        "name": "Gold",
+        "hex": "#B4975A"
+      },
+      {
+        "name": "Red",
+        "hex": "#CE0E2D"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/new-orleans-pelicans.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "smoothie-king-center",
+      "from": 2002,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Jamahl Mosley",
+    "person": "jamahl-mosley",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Gayle Benson",
+    "source": "https://nba.com/article/2018/03/19/morning-tip-next-moves-new-orleans-pelicans-after-owner-tom-benson-death",
+    "verified": "2026-11-05",
+    "note": "Took control after the death of her husband, Tom Benson, in March 2018."
+  },
+  "milestones": [
+    {
+      "date": "2002",
+      "label": "The Hornets move from Charlotte to New Orleans",
+      "kind": "founding",
+      "source": "https://nba.com/article/2018/03/19/morning-tip-next-moves-new-orleans-pelicans-after-owner-tom-benson-death",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2005",
+      "label": "Chris Paul arrives",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2005",
+      "label": "Play two seasons as the New Orleans/Oklahoma City Hornets",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/NOH/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012",
+      "label": "Anthony Davis arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2013-04-18",
+      "label": "The team becomes the Pelicans",
+      "kind": "identity",
+      "source": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "The arena becomes the Smoothie King Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/pelicans/news/new-orleans-pelicans-smoothie-king-renew-arena-naming-rights-partnership-12-26-23",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Gayle Benson takes control after Tom Benson’s death",
+      "kind": "ownership",
+      "source": "https://nba.com/article/2018/03/19/morning-tip-next-moves-new-orleans-pelicans-after-owner-tom-benson-death",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019",
+      "label": "Zion Williamson arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Jamahl Mosley becomes head coach",
+      "kind": "other",
+      "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "In New Orleans since 2002, first as the Hornets and since 2013 as the Pelicans, built today around Zion Williamson.",
+  "legends": [
+    "chris-paul",
+    "anthony-davis",
+    "david-west"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/pelicans/roster",
+    "players": [
+      {
+        "person": "zion-williamson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "trey-murphy-iii",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jeremiah-fears",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "derik-queen",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "jaron-pierre-jr",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 58
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "malik-dia",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/NOP/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

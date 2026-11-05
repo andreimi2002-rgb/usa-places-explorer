@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Blake Griffin",
+  "sources": [
+    {
+      "title": "Blake Griffin stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2010,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2018,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2022,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2009, No. 1 overall, by the Clippers",
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "2010–11",
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "First overall pick in 2009 and the Clippers’ star of the 2010s."
+}

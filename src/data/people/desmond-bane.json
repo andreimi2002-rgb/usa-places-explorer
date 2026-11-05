@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/ORL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2020,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "orlando-magic",
       "role": "player",

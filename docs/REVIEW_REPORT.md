@@ -220,3 +220,22 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions 
    Rudy Gobert and Donovan Mitchell (Utah), Kevin Garnett's two Minnesota stints.
 5. **Founding names**: Denver Rockets (ABA, 1967–1974) and New Orleans Jazz (1974–1979) are stored as former
    identities; Minneapolis now shows both the Lakers (1947–1960) and the Timberwolves.
+
+---
+
+# Lot 6 — Mavericks, Clippers, Kings, Grizzlies, Pelicans
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10). Only the exceptions are listed here.
+
+## Things to check
+
+1. **Pelicans lineage**: the franchise starts in 2002 (New Orleans Hornets). The Charlotte Hornets' 1988–2002 history
+   belongs to today's Charlotte franchise, as NBA.com describes the 2014 name transition. Charlotte is in lot 7.
+2. **Kings' founding**: we start at the 1948-49 BAA season (Rochester Royals), as Basketball-Reference does; the
+   team's NBL years before that are not covered yet.
+3. **Clippers' arena city**: the Intuit Dome is in Inglewood, a separate city in the Los Angeles area; Inglewood and
+   Los Angeles share the "Greater Los Angeles" metro on the city pages.
+4. **Portland's rookies**: the club made no 2026 draft picks, so its page now says so instead of hiding the section.
+5. **New links to Orlando**: Chris Webber (drafted first by Orlando in 1993, traded for Penny Hardaway) and Jamahl
+   Mosley (Magic coach 2021–2026, now the Pelicans' coach).
+6. **Memphis owner**: Robert Pera's control is sourced to a 2018 NBA.com release; no later change found.

@@ -1,0 +1,32 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Kings open Golden 1 Center (NBA.com)",
+      "url": "https://www.nba.com/news/morning-tip-sacramento-kings-open-golden-1-center-vivek-ranadive-geoff-petrie",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Golden 1 Center",
+  "city": "sacramento",
+  "opened": {
+    "value": "2016",
+    "source": "https://www.nba.com/news/morning-tip-sacramento-kings-open-golden-1-center-vivek-ranadive-geoff-petrie",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 17611,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Kings’ downtown Sacramento arena since 2016."
+}

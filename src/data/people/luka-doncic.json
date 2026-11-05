@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/LAL/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Luka Dončić stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2018,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "los-angeles-lakers",
       "role": "player",
@@ -35,9 +48,27 @@
       "value": "8",
       "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2018, No. 3 overall, by Atlanta",
+      "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "2018–19",
+      "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring titles",
+      "value": "2",
+      "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "verified": "2026-11-05"
     }
   ],
-  "summary": "Slovenian star, the Lakers’ leader since LeBron James left in 2026.",
+  "summary": "Slovenian star, Rookie of the Year with Dallas in 2019 and the Lakers’ leader since LeBron James left in 2026.",
   "image": {
     "file": "File:Luka Doncic (51914951721) (cropped1).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Luka_Doncic_%2851914951721%29_%28cropped1%29.jpg/960px-Luka_Doncic_%2851914951721%29_%28cropped1%29.jpg",

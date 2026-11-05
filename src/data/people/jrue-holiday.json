@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/POR/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2013,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "milwaukee-bucks",
       "role": "player",

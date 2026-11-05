@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Zach Randolph",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2009,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Memphis",
+      "value": "2009–2017",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Power forward of the Grizzlies teams of the early 2010s."
+}

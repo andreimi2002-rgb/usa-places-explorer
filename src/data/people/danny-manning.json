@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Danny Manning",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1988,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with LA",
+      "value": "1988–1994",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for LA from 1988 to 1994."
+}

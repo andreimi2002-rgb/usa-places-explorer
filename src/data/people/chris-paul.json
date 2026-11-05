@@ -1,21 +1,82 @@
 {
   "status": "active",
-  "progress": "content-ready",
+  "progress": "under-review",
   "name": "Chris Paul",
   "sources": [
     {
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/PHO/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chris Paul stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2005,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2017,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2019,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "phoenix-suns",
       "role": "player",
       "from": 2020,
       "to": 2023,
       "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2023,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2024,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2025,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
       "verified": "2026-11-05"
     }
   ],
@@ -25,7 +86,25 @@
       "value": "2020–2023",
       "source": "https://www.basketball-reference.com/teams/PHO/players.html",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2005, No. 4 overall, by New Orleans",
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "2005–06",
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "League leader",
+      "value": "6 times in steals, 5 times in assists",
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
     }
   ],
-  "summary": "Point guard of the Suns team that reached the 2021 Finals."
+  "summary": "Point guard who starred in New Orleans and with the Clippers, and reached the 2021 Finals with Phoenix."
 }

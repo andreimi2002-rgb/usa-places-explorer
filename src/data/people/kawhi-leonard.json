@@ -12,6 +12,11 @@
       "title": "List of NBA champions (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-champions",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -21,6 +26,14 @@
       "from": 2011,
       "to": 2018,
       "source": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2019,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
       "verified": "2026-11-05"
     }
   ],

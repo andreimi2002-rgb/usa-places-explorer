@@ -19,6 +19,14 @@
       "verified": "2026-11-05"
     },
     {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1979,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
       "franchise": "boston-celtics",
       "role": "player",
       "from": 1985,

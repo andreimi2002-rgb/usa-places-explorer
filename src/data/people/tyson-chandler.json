@@ -1,0 +1,31 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Tyson Chandler",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2006,
+      "to": 2009,
+      "source": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New Orleans",
+      "value": "2006–2009",
+      "source": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New Orleans from 2006 to 2009."
+}

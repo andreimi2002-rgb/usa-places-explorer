@@ -1,0 +1,60 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Brandon Ingram",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2019,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "10",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Shot-maker who joined after an All-Star season in Toronto."
+}

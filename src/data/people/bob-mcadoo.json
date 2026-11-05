@@ -1,0 +1,68 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Bob McAdoo",
+  "sources": [
+    {
+      "title": "Bob McAdoo stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1972,
+      "to": 1977,
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1981,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1972, No. 2 overall, by Buffalo",
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1974–75, with Buffalo",
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring titles",
+      "value": "3 in a row with Buffalo (1974–1976)",
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Lakers",
+      "value": "1982, 1985",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2000",
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Buffalo Braves’ star scorer and 1975 MVP, later a champion with the Lakers."
+}

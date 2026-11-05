@@ -193,5 +193,11 @@
     "alt": "Exterior of the Moda Center in Portland",
     "caption": "Moda Center",
     "licenseChecked": "2026-11-05"
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "note": "There are no first-year players on Portland’s 2026-27 roster: the club made no picks in the 2026 draft.",
+    "noteSource": "https://www.basketball-reference.com/draft/NBA_2026.html",
+    "players": []
   }
 }

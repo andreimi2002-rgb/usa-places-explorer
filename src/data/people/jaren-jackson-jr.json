@@ -17,9 +17,22 @@
       "title": "All-time player list (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/UTA/players.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2018,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "utah-jazz",
       "role": "player",

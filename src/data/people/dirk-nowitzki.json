@@ -1,0 +1,55 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Dirk Nowitzki",
+  "sources": [
+    {
+      "title": "Dirk Nowitzki stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1998,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1998, No. 9 overall, by Milwaukee",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2011",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2011",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2006–07",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2023",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "German forward who played all 21 seasons of his career in Dallas and led the Mavericks to the 2011 title."
+}

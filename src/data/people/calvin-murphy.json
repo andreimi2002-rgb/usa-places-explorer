@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Houston from 1970 to 1983."
+  "summary": "Played for Houston from 1970 to 1983.",
+  "image": {
+    "file": "File:Calvin Murphy 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Calvin_Murphy_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Calvin_Murphy_1.jpg",
+    "author": "callipygian2005",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Calvin Murphy",
+    "caption": "Calvin Murphy",
+    "licenseChecked": "2026-11-05"
+  }
 }

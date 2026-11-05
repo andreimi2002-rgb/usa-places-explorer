@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Joined Houston in 1995 and won that year’s title."
+  "summary": "Joined Houston in 1995 and won that year’s title.",
+  "image": {
+    "file": "File:Clyde Drexler 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_Drexler_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clyde_Drexler_02.jpg",
+    "author": "University of Houston",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Clyde Drexler",
+    "caption": "Clyde Drexler",
+    "licenseChecked": "2026-11-05"
+  }
 }

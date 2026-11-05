@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=San%20Diego&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5391811: San Diego, California"
+  },
+  "image": {
+    "file": "File:San Diego skyline 18 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/San_Diego_skyline_18_%28cropped%29.jpg/960px-San_Diego_skyline_18_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Diego_skyline_18_(cropped).jpg",
+    "author": "Boatguy619",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of San Diego",
+    "caption": "San Diego",
+    "licenseChecked": "2026-11-05"
   }
 }

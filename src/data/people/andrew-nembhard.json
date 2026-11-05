@@ -43,5 +43,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Canadian guard, part of the 2025 Finals core."
+  "summary": "Canadian guard, part of the 2025 Finals core.",
+  "image": {
+    "file": "File:Andrew Nembhard (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Andrew_Nembhard_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrew_Nembhard_(cropped).jpg",
+    "author": "Gamecock Central",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Andrew Nembhard",
+    "caption": "Andrew Nembhard",
+    "licenseChecked": "2026-11-05"
+  }
 }

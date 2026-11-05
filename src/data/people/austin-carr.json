@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Cleveland from 1971 to 1980."
+  "summary": "Played for Cleveland from 1971 to 1980.",
+  "image": {
+    "file": "File:Austin Carr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Austin_Carr.jpg/960px-Austin_Carr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_Carr.jpg",
+    "author": "Erik Drost from United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Austin Carr",
+    "caption": "Austin Carr",
+    "licenseChecked": "2026-11-05"
+  }
 }

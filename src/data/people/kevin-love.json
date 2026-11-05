@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Cleveland from 2014 to 2023, winning the 2016 title."
+  "summary": "Played for Cleveland from 2014 to 2023, winning the 2016 title.",
+  "image": {
+    "file": "File:Kevin Love 2020 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kevin_Love_2020_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Love_2020_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Kevin Love in a Cavaliers uniform",
+    "caption": "Kevin Love, 2020",
+    "licenseChecked": "2026-11-05"
+  }
 }

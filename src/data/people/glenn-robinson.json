@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Milwaukee from 1994 to 2002."
+  "summary": "Played for Milwaukee from 1994 to 2002.",
+  "image": {
+    "file": "File:Glenn Robinson 2003 cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Glenn_Robinson_2003_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glenn_Robinson_2003_cropped.jpg",
+    "author": "MavsFan28",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Glenn Robinson",
+    "caption": "Glenn Robinson",
+    "licenseChecked": "2026-11-05"
+  }
 }

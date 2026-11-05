@@ -57,5 +57,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Center who led Houston to back-to-back titles and was Finals MVP both times."
+  "summary": "Center who led Houston to back-to-back titles and was Finals MVP both times.",
+  "image": {
+    "file": "File:Hakeem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Hakeem.jpg/1280px-Hakeem.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hakeem.jpg",
+    "author": "University of Houston Digital Library",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Hakeem Olajuwon playing for the University of Houston",
+    "caption": "Hakeem Olajuwon at the University of Houston",
+    "licenseChecked": "2026-11-05"
+  }
 }

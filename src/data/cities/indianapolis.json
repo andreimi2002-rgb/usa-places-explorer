@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4259418: Indianapolis, Indiana"
   },
-  "summary": "Home of the Pacers since 1967."
+  "summary": "Home of the Pacers since 1967.",
+  "image": {
+    "file": "File:Downtown Indianapolis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Downtown_Indianapolis.jpg/960px-Downtown_Indianapolis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Indianapolis.jpg",
+    "author": "Miyin2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Indianapolis",
+    "caption": "Indianapolis",
+    "licenseChecked": "2026-11-05"
+  }
 }

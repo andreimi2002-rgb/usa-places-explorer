@@ -18,5 +18,16 @@
     }
   },
   "formerNames": [],
-  "summary": "The Pistons’ downtown home since the 2017-18 season."
+  "summary": "The Pistons’ downtown home since the 2017-18 season.",
+  "image": {
+    "file": "File:Little Caesars Arena panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Little_Caesars_Arena_panorama.jpg/1280px-Little_Caesars_Arena_panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Little_Caesars_Arena_panorama.jpg",
+    "author": "Adam Bishop",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Panorama of Little Caesars Arena in Detroit",
+    "caption": "Little Caesars Arena",
+    "licenseChecked": "2026-11-05"
+  }
 }

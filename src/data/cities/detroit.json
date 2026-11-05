@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4990729: Detroit, Michigan"
   },
-  "summary": "Home of the Pistons since 1957."
+  "summary": "Home of the Pistons since 1957.",
+  "image": {
+    "file": "File:Detroit montage 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Detroit_montage_2020.jpg/960px-Detroit_montage_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Detroit_montage_2020.jpg",
+    "author": "User21343321",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Detroit",
+    "caption": "Detroit",
+    "licenseChecked": "2026-11-05"
+  }
 }

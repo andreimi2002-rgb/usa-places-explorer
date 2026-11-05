@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Detroit from 1970 to 1980."
+  "summary": "Played for Detroit from 1970 to 1980.",
+  "image": {
+    "file": "File:BobLanier.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/BobLanier.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BobLanier.jpg",
+    "author": "photo taken by flickr user compujeramey (Jeramey Jannene)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Bob Lanier",
+    "caption": "Bob Lanier",
+    "licenseChecked": "2026-11-05"
+  }
 }

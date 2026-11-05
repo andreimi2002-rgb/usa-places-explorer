@@ -38,5 +38,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Houston from 1983 to 1988."
+  "summary": "Played for Houston from 1983 to 1988.",
+  "image": {
+    "file": "File:Ralph Sampson 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ralph_Sampson_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ralph_Sampson_2010.jpg",
+    "author": "jammmick",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ralph Sampson",
+    "caption": "Ralph Sampson",
+    "licenseChecked": "2026-11-05"
+  }
 }

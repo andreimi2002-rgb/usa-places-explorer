@@ -45,5 +45,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "The point guard and leader of the Pistons teams that won the 1989 and 1990 titles."
+  "summary": "The point guard and leader of the Pistons teams that won the 1989 and 1990 titles.",
+  "image": {
+    "file": "File:Isiah-thomas detroit-v-new-york 1985.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Isiah-thomas_detroit-v-new-york_1985.jpg/1280px-Isiah-thomas_detroit-v-new-york_1985.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Isiah-thomas_detroit-v-new-york_1985.jpg",
+    "author": "RickDikeman",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Isiah Thomas playing for the Pistons",
+    "caption": "Isiah Thomas against the Knicks, 1985",
+    "licenseChecked": "2026-11-05"
+  }
 }

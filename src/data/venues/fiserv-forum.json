@@ -29,5 +29,16 @@
     }
   },
   "formerNames": [],
-  "summary": "The Bucks’ arena since 2018, a block north of their old home, the MECCA."
+  "summary": "The Bucks’ arena since 2018, a block north of their old home, the MECCA.",
+  "image": {
+    "file": "File:Milwaukee July 2022 022 (Fiserv Forum).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg/1280px-Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Milwaukee_July_2022_022_(Fiserv_Forum).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of Fiserv Forum in Milwaukee",
+    "caption": "Fiserv Forum, 2022",
+    "licenseChecked": "2026-11-05"
+  }
 }

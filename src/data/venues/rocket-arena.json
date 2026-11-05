@@ -50,5 +50,16 @@
       "verified": null
     }
   ],
-  "summary": "Downtown Cleveland’s arena since 1994, home of the 2016 champions."
+  "summary": "Downtown Cleveland’s arena since 1994, home of the 2016 champions.",
+  "image": {
+    "file": "File:Rocket Mortgage FieldHouse (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rocket_Mortgage_FieldHouse_%282%29.jpg/1280px-Rocket_Mortgage_FieldHouse_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(2).jpg",
+    "author": "Cards84664",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of the Cavaliers' arena in Cleveland",
+    "caption": "The arena as Rocket Mortgage FieldHouse",
+    "licenseChecked": "2026-11-05"
+  }
 }

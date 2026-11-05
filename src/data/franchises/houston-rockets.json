@@ -225,5 +225,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Toyota Center entr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Toyota_Center_entr.jpg/960px-Toyota_Center_entr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_Center_entr.jpg",
+    "author": "Ed Uthman from Houston, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Center",
+    "caption": "Toyota Center",
+    "licenseChecked": "2026-11-05"
   }
 }

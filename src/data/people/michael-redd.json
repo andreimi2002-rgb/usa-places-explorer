@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Milwaukee from 2000 to 2011."
+  "summary": "Played for Milwaukee from 2000 to 2011.",
+  "image": {
+    "file": "File:ReddBucks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/ReddBucks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ReddBucks.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Michael Redd",
+    "caption": "Michael Redd",
+    "licenseChecked": "2026-11-05"
+  }
 }

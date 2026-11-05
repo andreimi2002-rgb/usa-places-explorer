@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5150529: Cleveland, Ohio"
   },
-  "summary": "Home of the Cavaliers since 1970."
+  "summary": "Home of the Cavaliers since 1970.",
+  "image": {
+    "file": "File:Cleveland skyline from Lakewood Park, January 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cleveland_skyline_from_Lakewood_Park%2C_January_2026.jpg/960px-Cleveland_skyline_from_Lakewood_Park%2C_January_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cleveland_skyline_from_Lakewood_Park,_January_2026.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Cleveland",
+    "caption": "Cleveland",
+    "licenseChecked": "2026-11-05"
+  }
 }

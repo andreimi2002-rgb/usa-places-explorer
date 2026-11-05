@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4699066: Houston, Texas"
   },
-  "summary": "Home of the Rockets since 1971."
+  "summary": "Home of the Rockets since 1971.",
+  "image": {
+    "file": "File:Houston montage.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Houston_montage.jpg/960px-Houston_montage.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Houston_montage.jpg",
+    "author": "Hequals2henry",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Houston",
+    "caption": "Houston",
+    "licenseChecked": "2026-11-05"
+  }
 }

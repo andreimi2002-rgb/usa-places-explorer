@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Milwaukee from 1977 to 1984."
+  "summary": "Played for Milwaukee from 1977 to 1984.",
+  "image": {
+    "file": "File:Marques johnson ucla.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Marques_johnson_ucla.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Marques_johnson_ucla.JPG",
+    "author": "Associated Students of the University of California at Los Angeles",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Marques Johnson",
+    "caption": "Marques Johnson",
+    "licenseChecked": "2026-11-05"
+  }
 }

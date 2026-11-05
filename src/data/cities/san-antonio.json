@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4726206: San Antonio, Texas"
   },
-  "summary": "Home of the Spurs since 1973."
+  "summary": "Home of the Spurs since 1973.",
+  "image": {
+    "file": "File:SA Montage Nima.png",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/SA_Montage_Nima.png/960px-SA_Montage_Nima.png",
+    "page": "https://commons.wikimedia.org/wiki/File:SA_Montage_Nima.png",
+    "author": "Zereshk",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "View of San Antonio",
+    "caption": "San Antonio",
+    "licenseChecked": "2026-11-05"
+  }
 }

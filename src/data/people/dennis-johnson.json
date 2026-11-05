@@ -55,5 +55,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Guard and Finals MVP of Seattle’s 1979 title."
+  "summary": "Guard and Finals MVP of Seattle’s 1979 title.",
+  "image": {
+    "file": "File:Dennis Johnson Lipofsky.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Dennis_Johnson_Lipofsky.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dennis_Johnson_Lipofsky.jpg",
+    "author": "Steve Lipofsky at basketballphoto.com.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Photo of Dennis Johnson",
+    "caption": "Dennis Johnson",
+    "licenseChecked": "2026-11-05"
+  }
 }

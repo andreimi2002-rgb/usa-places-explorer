@@ -52,5 +52,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "The Spurs’ star scorer from the ABA years into the NBA."
+  "summary": "The Spurs’ star scorer from the ABA years into the NBA.",
+  "image": {
+    "file": "File:George Gervin ABA.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/George_Gervin_ABA.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Gervin_ABA.jpeg",
+    "author": "Kevin Fitzgerald",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of George Gervin",
+    "caption": "George Gervin",
+    "licenseChecked": "2026-11-05"
+  }
 }

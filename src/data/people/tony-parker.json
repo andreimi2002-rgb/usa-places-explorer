@@ -49,5 +49,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "French point guard of four Spurs title teams."
+  "summary": "French point guard of four Spurs title teams.",
+  "image": {
+    "file": "File:TonyParker82.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/TonyParker82.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TonyParker82.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Tony Parker",
+    "caption": "Tony Parker, 2007",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Seattle/Oklahoma City from 1970 to 1975."
+  "summary": "Played for Seattle/Oklahoma City from 1970 to 1975.",
+  "image": {
+    "file": "File:Spencer Haywood at Nellis (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Spencer_Haywood_at_Nellis_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spencer_Haywood_at_Nellis_(cropped).jpg",
+    "author": "U.S. Air Force Photo/Staff Sgt. Kenny Kennemer",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Spencer Haywood",
+    "caption": "Spencer Haywood",
+    "licenseChecked": "2026-11-05"
+  }
 }

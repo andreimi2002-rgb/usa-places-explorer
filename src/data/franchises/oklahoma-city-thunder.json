@@ -241,5 +241,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:Paycom Center, Oklahoma City (Sep. 2021).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paycom_Center%2C_Oklahoma_City_%28Sep._2021%29.jpg/1280px-Paycom_Center%2C_Oklahoma_City_%28Sep._2021%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paycom_Center,_Oklahoma_City_(Sep._2021).jpg",
+    "author": "Steve Morgan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of the Paycom Center in Oklahoma City",
+    "caption": "Paycom Center, September 2021",
+    "licenseChecked": "2026-11-05"
   }
 }

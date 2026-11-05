@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4560349: Philadelphia, Pennsylvania"
   },
-  "summary": "Home of the 76ers since 1963, and of the Warriors from 1946 to 1962."
+  "summary": "Home of the 76ers since 1963, and of the Warriors from 1946 to 1962.",
+  "image": {
+    "file": "File:Philadelphia skyline 20240528 (cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Philadelphia_skyline_20240528_%28cropped%29.jpg/960px-Philadelphia_skyline_20240528_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_20240528_(cropped).jpg",
+    "author": "颐园居",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Philadelphia",
+    "caption": "Philadelphia",
+    "licenseChecked": "2026-11-05"
+  }
 }

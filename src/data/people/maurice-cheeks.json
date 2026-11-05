@@ -49,5 +49,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Philadelphia from 1978 to 1989, winning the 1983 title."
+  "summary": "Played for Philadelphia from 1978 to 1989, winning the 1983 title.",
+  "image": {
+    "file": "File:Maurice Cheeks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Maurice_Cheeks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurice_Cheeks.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Maurice Cheeks",
+    "caption": "Maurice Cheeks, 2011",
+    "licenseChecked": "2026-11-05"
+  }
 }

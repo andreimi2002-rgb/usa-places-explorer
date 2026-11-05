@@ -276,5 +276,16 @@
         "verified": "2026-11-05"
       }
     ]
+  },
+  "image": {
+    "file": "File:AT&T Center at day.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/AT%26T_Center_at_day.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Center_at_day.jpg",
+    "author": "Atristan 77",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the arena now called Frost Bank Center",
+    "caption": "The arena under its earlier name, AT&T Center",
+    "licenseChecked": "2026-11-05"
   }
 }

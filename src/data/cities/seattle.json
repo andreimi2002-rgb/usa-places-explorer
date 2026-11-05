@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Seattle&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5809844: Seattle, Washington"
+  },
+  "image": {
+    "file": "File:Space Needle002.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/960px-Space_Needle002.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Space_Needle002.jpg",
+    "author": "Rattlhed at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "View of Seattle",
+    "caption": "Seattle",
+    "licenseChecked": "2026-11-05"
   }
 }

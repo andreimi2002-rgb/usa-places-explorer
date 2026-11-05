@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Syracuse&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5140405: Syracuse, New York"
+  },
+  "image": {
+    "file": "File:Syracuse, New York skyline (cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Syracuse%2C_New_York_skyline_%28cropped%29.jpg/960px-Syracuse%2C_New_York_skyline_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Syracuse,_New_York_skyline_(cropped).jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Syracuse",
+    "caption": "Syracuse",
+    "licenseChecked": "2026-11-05"
   }
 }

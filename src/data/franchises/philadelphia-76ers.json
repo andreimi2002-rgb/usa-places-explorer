@@ -1,20 +1,263 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "On this date: Philadelphia finally lands an NBA franchise (NBA.com)",
+      "url": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Recognizing the first title (NBA.com)",
+      "url": "https://www.nba.com/sixers/history/anniversary-franchises-first-title-recognizing-kings-heroics",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "NBA approves sale of 76ers to Josh Harris and David Blitzer (NBA.com)",
+      "url": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-76ers-to-josh-harris-and-david-blitzer/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Home of 76ers to have new name: Xfinity Mobile Arena (NBA.com)",
+      "url": "https://www.nba.com/sixers/news/home-of-76ers-to-have-new-name-xfinity-mobile-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Philadelphia 76ers franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Philadelphia 76ers (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-phi",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "LeBron James signs with the 76ers (NBA.com)",
+      "url": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Philadelphia 76ers NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Philadelphia 76ers",
   "league": "nba",
   "division": "nba-atlantic",
+  "founded": {
+    "value": 1949,
+    "source": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+    "verified": "2026-11-05",
+    "note": "Born in 1949 as the Syracuse Nationals."
+  },
+  "firstSeason": {
+    "value": "1949-50",
+    "source": "https://www.basketball-reference.com/teams/PHI/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#1D428A"
+      },
+      {
+        "name": "Red",
+        "hex": "#C8102E"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/philadelphia-76ers.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "xfinity-mobile-arena",
+      "from": 1996,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Nick Nurse",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/PHI/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Josh Harris and David Blitzer (since 2011)",
+    "source": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-76ers-to-josh-harris-and-david-blitzer/",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1949",
+      "label": "Born as the Syracuse Nationals",
+      "kind": "founding",
+      "source": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1955",
+      "label": "First title, over Fort Wayne in seven games",
+      "kind": "finals",
+      "source": "https://www.nba.com/sixers/history/anniversary-franchises-first-title-recognizing-kings-heroics",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1963",
+      "label": "Bought by Irv Kosloff and moved to Philadelphia; renamed the 76ers",
+      "kind": "identity",
+      "source": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1967",
+      "label": "Second title, over San Francisco, with Wilt Chamberlain",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Julius Erving arrives from the ABA",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1983",
+      "label": "Third title: a 4–0 sweep of the Lakers, Moses Malone Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996",
+      "label": "Draft Allen Iverson first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996",
+      "label": "Move into the arena now called Xfinity Mobile Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2001",
+      "label": "Iverson is MVP; the 76ers reach the Finals and lose to the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2011-10-18",
+      "label": "Josh Harris and David Blitzer’s purchase approved",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/nba-board-of-governors-unanimously-approves-sale-of-76ers-to-josh-harris-and-david-blitzer/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "Draft Joel Embiid third overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/e/embiijo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "Embiid named MVP",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/e/embiijo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07",
+      "label": "Trade for Jaylen Brown and sign LeBron James",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "From the Syracuse Nationals to Philadelphia: three titles, with Wilt, Dr. J and Moses, and LeBron James arriving in 2026.",
+  "legends": [
+    "dolph-schayes",
+    "wilt-chamberlain",
+    "julius-erving",
+    "moses-malone",
+    "allen-iverson"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/sixers/roster",
+    "players": [
+      {
+        "person": "joel-embiid",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tyrese-maxey",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jaylen-brown",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "lebron-james",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phi",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "vj-edgecombe",
+        "source": "https://www.nba.com/news/2026-27-season-preview-phi",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "labaron-philon-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 22
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

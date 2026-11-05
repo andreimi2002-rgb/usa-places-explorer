@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Tyrese Maxey",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Kentucky",
+      "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "6",
+      "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard coming off an All-NBA season."
+}

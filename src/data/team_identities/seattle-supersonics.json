@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "oklahoma-city-thunder",
+  "name": "Seattle SuperSonics",
+  "city": "seattle",
+  "from": {
+    "value": 1967,
+    "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+    "verified": "2026-11-05"
+  },
+  "to": 2008,
+  "current": false
+}

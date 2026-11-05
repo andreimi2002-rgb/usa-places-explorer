@@ -3,6 +3,7 @@ import { getCollection, getEntry, render } from 'astro:content';
 import EntityHeader from '../../components/EntityHeader.astro';
 import FactBox from '../../components/FactBox.astro';
 import LocalTime from '../../components/LocalTime.astro';
+import Weather from '../../components/Weather.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
 import Photo from '../../components/Photo.astro';
 import ProgressNote from '../../components/ProgressNote.astro';
@@ -67,6 +68,9 @@ const basketball = d.capacity?.basketball;
         ]}
       />
       {city && <div class="mt"><LocalTime city={city.data.name} timezone={city.data.timezone} /></div>}
+      {city?.data.coordinates?.verified && (
+        <div class="mt"><Weather city={city.data.name} lat={city.data.coordinates.value.lat} lon={city.data.coordinates.value.lon} timezone={city.data.timezone} /></div>
+      )}
     </aside>
   </div>
   <div class="container section"><MiniGraph type="venue" id={venue.id} /></div>

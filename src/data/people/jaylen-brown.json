@@ -1,5 +1,5 @@
 {
-  "status": "historical",
+  "status": "active",
   "progress": "content-ready",
   "name": "Jaylen Brown",
   "sources": [
@@ -12,6 +12,11 @@
       "title": "List of NBA champions (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-champions",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jaylen Brown trade (NBA.com)",
+      "url": "https://www.nba.com/news/4-takeaways-jaylen-brown-paul-george-trade",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
@@ -21,6 +26,14 @@
       "from": 2016,
       "to": 2026,
       "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.nba.com/news/4-takeaways-jaylen-brown-paul-george-trade",
       "verified": "2026-11-05"
     }
   ],
@@ -44,5 +57,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Ten seasons in Boston, including the 2024 title, before a 2026 trade to Philadelphia."
+  "summary": "Ten seasons in Boston, including the 2024 title, before a 2026 trade to Philadelphia.",
+  "image": {
+    "file": "File:Jaylen Brown 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Jaylen_Brown_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaylen_Brown_2022_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Jaylen Brown in a Celtics uniform",
+    "caption": "Jaylen Brown, 2022",
+    "licenseChecked": "2026-11-05"
+  }
 }

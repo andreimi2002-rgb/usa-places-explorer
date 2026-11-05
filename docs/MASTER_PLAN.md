@@ -39,8 +39,19 @@ Assume no prior knowledge. Every piece of jargon is explained the first time it 
 - Never hard-code a team count. Counts are always computed from the data.
 - Semi-current facts are allowed only with an `asOf` season: head coach and home venue.
 
-**Out of scope:** rosters, results, schedules, standings, statistics, paid or runtime APIs, weather, any
-backend, user accounts.
+**Out of scope:** full rosters, results, schedules, standings, statistics, paid APIs, any backend, user
+accounts.
+
+**Scope changes approved by the owner (2026-11-05):**
+- **Core players** (3–5 faces of the current team, chosen from NBA.com's season previews) and **rookies** (first-year
+  players on the current roster) are allowed as semi-current facts, always labelled with their season (`asOf`).
+  A link to the official roster covers everyone else.
+- **Live weather** for each city, loaded in the visitor's browser from Open-Meteo (free, no key, CC BY 4.0, credited
+  under the widget). No server, no stored data; if the service is down the widget simply does not appear.
+  Open-Meteo's free tier is for non-commercial use, so a paid plan is needed if the site ever carries ads.
+- **City pages are hubs**: all teams in the city across every sport, teams that left, venues, rivalries, titles won
+  there, local time and weather, and neighbouring cities in the same metro area. Generated from the data, so
+  they grow with each new league.
 
 ## 5. Tech
 

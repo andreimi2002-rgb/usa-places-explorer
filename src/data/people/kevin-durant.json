@@ -12,9 +12,27 @@
       "title": "List of NBA champions (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-champions",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Oklahoma City Thunder's NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2007,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "golden-state-warriors",
       "role": "player",
@@ -36,9 +54,15 @@
       "value": "2017, 2018",
       "source": "https://www.nba.com/news/history-nba-champions",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2007, No. 2 overall, by Seattle",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
     }
   ],
-  "summary": "Joined the 73-win team’s core in 2016 and won two titles.",
+  "summary": "Drafted by Seattle in 2007, the first face of the Thunder, then a two-time champion with Golden State.",
   "image": {
     "file": "File:Kevin Durant Feb 2014.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kevin_Durant_Feb_2014.jpg/960px-Kevin_Durant_Feb_2014.jpg",

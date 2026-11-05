@@ -3,6 +3,7 @@ import { getCollection, getEntries, getEntry, render } from 'astro:content';
 import FactBox from '../../components/FactBox.astro';
 import Kit from '../../components/Kit.astro';
 import LocalTime from '../../components/LocalTime.astro';
+import Weather from '../../components/Weather.astro';
 import Logo from '../../components/Logo.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
 import Photo from '../../components/Photo.astro';
@@ -332,10 +333,13 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
     <MiniGraph type="franchise" id={franchise.id} />
   </div>
 
-  <!-- 11. Local time vs. Europe -->
+  <!-- 11. Local time and live weather -->
   {city && (
-    <div class="section container narrow">
+    <div class="section container time-weather">
       <LocalTime city={city.data.name} timezone={city.data.timezone} />
+      {city.data.coordinates?.verified && (
+        <Weather city={city.data.name} lat={city.data.coordinates.value.lat} lon={city.data.coordinates.value.lon} timezone={city.data.timezone} />
+      )}
     </div>
   )}
 
@@ -559,6 +563,16 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
   .finals tr.won td:nth-child(2) {
     color: var(--team-1);
     font-weight: 700;
+  }
+  .time-weather {
+    display: grid;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  @media (min-width: 900px) {
+    .time-weather {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .narrow {
     max-width: 46rem;

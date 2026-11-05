@@ -11,5 +11,14 @@
   "name": "Dallas",
   "region": "Texas",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 32.7831,
+      "lon": -96.8067
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Dallas&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4684888: Dallas, Texas"
+  }
 }

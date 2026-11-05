@@ -1,0 +1,62 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Gary Payton",
+  "sources": [
+    {
+      "title": "Gary Payton stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 1990,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2005,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1990, No. 2 overall, by Seattle",
+      "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "1995–96",
+      "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2006, with Miami",
+      "source": "https://www.basketball-reference.com/players/p/paytoga01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2013",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Seattle’s point guard for thirteen seasons, later a champion with Miami."
+}

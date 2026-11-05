@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "oklahoma-city-thunder",
   "name": "Oklahoma City Thunder",
   "city": "oklahoma-city",
+  "from": {
+    "value": 2008,
+    "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

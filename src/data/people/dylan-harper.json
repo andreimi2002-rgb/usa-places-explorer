@@ -1,0 +1,53 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Dylan Harper",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/SAS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Rutgers",
+      "source": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "1",
+      "source": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "2026 Finals",
+      "value": "25 points in Game 5",
+      "source": "https://www.nba.com/news/live-updates-2026-nba-finals-game-5-knicks-seek-first-title-since-1973",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Second-year guard, scored 25 points in the 2026 Finals clincher."
+}

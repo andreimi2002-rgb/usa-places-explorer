@@ -1,68 +1,313 @@
 ---
+/**
+ * City hub: every team the city has today (grouped by sport and league), the
+ * teams that have left, its venues, rivalries, titles won in the city, local
+ * time and live weather. Everything is generated from the data, so the page
+ * grows as new sports and leagues are added.
+ */
 import { getCollection, render } from 'astro:content';
 import EntityHeader from '../../components/EntityHeader.astro';
 import FactBox from '../../components/FactBox.astro';
 import LocalTime from '../../components/LocalTime.astro';
+import Logo from '../../components/Logo.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
 import Photo from '../../components/Photo.astro';
 import ProgressNote from '../../components/ProgressNote.astro';
 import SourceList from '../../components/SourceList.astro';
 import Term from '../../components/Term.astro';
+import Weather from '../../components/Weather.astro';
 import Base from '../../layouts/Base.astro';
-import { franchisesInCity, prose, routes } from '../../lib/entities';
-import { formatNumber } from '../../lib/facts';
+import { prose, routes } from '../../lib/entities';
+import { formatNumber, isVerified } from '../../lib/facts';
 
 export async function getStaticPaths() {
   return (await getCollection('cities')).map((c) => ({ params: { id: c.id }, props: { city: c } }));
 }
 const { city } = Astro.props;
 const d = city.data;
-const teams = await franchisesInCity(city.id);
-const venues = await getCollection('venues', (v) => v.data.city.id === city.id);
+
+const allIdentities = await getCollection('team_identities');
+const here = allIdentities.filter((i) => i.data.city.id === city.id);
+const franchises = new Map((await getCollection('franchises')).map((f) => [f.id, f]));
+const leagues = new Map((await getCollection('leagues')).map((l) => [l.id, l]));
+const sports = new Map((await getCollection('sports')).map((s) => [s.id, s]));
+const cities = new Map((await getCollection('cities')).map((c) => [c.id, c]));
+const venuesAll = await getCollection('venues');
+const championships = (await getCollection('championships', (c) => c.data.level === 'league' && Boolean(c.data.verified) && Boolean(c.data.winner)));
+
+/** Titles a franchise won while it played in this city, using the identity's years. */
+const endYear = (season: string) => Number(season.slice(0, 4)) + 1;
+function titlesHere(franchiseId: string) {
+  // A title counts here when the team's name that season matches an identity in this city,
+  // and (when the identity's start year is known) the season falls inside its years.
+  const ids = here.filter((i) => i.data.franchise.id === franchiseId);
+  return championships
+    .filter(
+      (c) =>
+        c.data.winner!.id === franchiseId &&
+        ids.some(
+          (i) =>
+            i.data.name.replace(/ \(.*\)$/, '') === c.data.winnerName &&
+            endYear(c.data.season) > (i.data.from?.value ?? 0) &&
+            endYear(c.data.season) <= (i.data.to ?? 9999),
+        ),
+    )
+    .map((c) => endYear(c.data.season))
+    .sort();
+}
+
+// Current teams, grouped by sport, then league.
+const currentIds = [...new Set(here.filter((i) => i.data.current).map((i) => i.data.franchise.id))];
+const current = currentIds.map((id) => franchises.get(id)!).filter((f) => f && f.data.status === 'active');
+const venueOf = (f: (typeof current)[number]) => {
+  const v = f.data.venues.find((x) => x.to === null && x.verified);
+  return v ? venuesAll.find((x) => x.id === v.venue.id) : undefined;
+};
+const bySport = new Map<string, { sport: string; leagues: Map<string, { league: string; teams: typeof current }> }>();
+for (const f of current) {
+  const league = leagues.get(f.data.league.id)!;
+  const sportId = league.data.sport.id;
+  const group = bySport.get(sportId) ?? { sport: sports.get(sportId)?.data.name ?? sportId, leagues: new Map() };
+  const lg = group.leagues.get(league.id) ?? { league: league.data.shortName, teams: [] as typeof current };
+  lg.teams.push(f);
+  group.leagues.set(league.id, lg);
+  bySport.set(sportId, group);
+}
+
+// Teams that played here and moved (or folded).
+const former = here
+  .filter((i) => i.data.to !== null)
+  .map((i) => {
+    const f = franchises.get(i.data.franchise.id)!;
+    const next = allIdentities.find((o) => o.data.franchise.id === f.id && (o.data.from?.value ?? 0) === i.data.to);
+    return { i, f, nextCity: next ? cities.get(next.data.city.id) : undefined, nextName: next?.data.name, titles: titlesHere(f.id) };
+  })
+  .sort((a, b) => (a.i.data.from?.value ?? 0) - (b.i.data.from?.value ?? 0));
+
+const venues = venuesAll.filter((v) => v.data.city.id === city.id);
+const rivalries = await getCollection('rivalries', (r) => r.data.franchises.some((f) => currentIds.includes(f.id)));
+const neighbours = d.metro ? [...cities.values()].filter((c) => c.id !== city.id && c.data.metro === d.metro) : [];
+
+const totalTitles = [...new Set(here.map((i) => i.data.franchise.id))].reduce((n, id) => n + titlesHere(id).length, 0);
+const leagueCount = new Set(current.map((f) => f.data.league.id)).size;
+
 const body = await prose('cities', city.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
+const coords = isVerified(d.coordinates) ? d.coordinates.value : undefined;
+const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-Meteo geocoding (GeoNames)', url: d.coordinates.source, accessed: d.coordinates.verified ?? '2026-11-05' }] : [])];
 ---
 
-<Base title={`${d.name}, ${d.region}`} description={d.summary ?? `${d.name}: its teams, venues and local time compared with Europe.`}>
+<Base title={`${d.name}, ${d.region}`} description={d.summary ?? `${d.name}: its teams, venues, local time and weather, for European fans.`}>
   <EntityHeader
-    eyebrow={`City · ${d.region}, ${d.country}`}
+    eyebrow={`City · ${d.region}, ${d.country}${d.metro ? ` · ${d.metro}` : ''}`}
     title={d.name}
     intro={d.summary}
     image={d.image}
     crumbs={[{ label: 'Home', href: '/' }, { label: d.name }]}
   />
+
+  <div class="container section">
+    <ul class="stats" aria-label="At a glance">
+      <li><strong>{current.length}</strong><span>{current.length === 1 ? 'team today' : 'teams today'}</span></li>
+      <li><strong>{leagueCount}</strong><span>{leagueCount === 1 ? 'league' : 'leagues'}</span></li>
+      <li><strong>{totalTitles}</strong><span>league titles won here</span></li>
+      {former.length > 0 && <li><strong>{former.length}</strong><span>{former.length === 1 ? 'former team' : 'former teams'}</span></li>}
+    </ul>
+    <p class="subtle small">Counted from the leagues covered so far. More sports are on the way.</p>
+  </div>
+
+  {bySport.size > 0 && (
+    <section class="container section" aria-labelledby="teams-title">
+      <div class="section-head"><h2 id="teams-title">Teams in {d.name} today</h2></div>
+      {[...bySport.values()].map((g) => (
+        <div class="sport">
+          <h3>{g.sport}</h3>
+          {[...g.leagues.values()].map((lg) => (
+            <ul class="teams">
+              {lg.teams.map((f) => {
+                const v = venueOf(f);
+                const t = titlesHere(f.id);
+                return (
+                  <li style={f.data.colors?.verified ? `--team-1:${f.data.colors.value[0].hex}` : undefined}>
+                    <a href={routes.franchises(f.id)}>
+                      <Logo logo={f.data.logo} name={f.data.name} size={56} />
+                      <span class="team-text">
+                        <span class="eyebrow">{lg.league}</span>
+                        <strong>{f.data.name}</strong>
+                        <span class="subtle">{[v?.data.name, `${t.length} ${t.length === 1 ? 'title' : 'titles'} here`].filter(Boolean).join(' · ')}</span>
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          ))}
+        </div>
+      ))}
+    </section>
+  )}
+
   <div class="container section layout">
     <article>
       <ProgressNote progress={d.progress} kind="city page" />
       {Body && <div class="prose"><Body components={{ Term }} /></div>}
       {d.image && <Photo image={d.image} class="mt" />}
-      <h2 class="mt">Teams</h2>
-      <ul>{teams.map((t) => <li><a href={routes.franchises(t.id)}>{t.data.name}</a></li>)}</ul>
+
+      {former.length > 0 && (
+        <section class="mt" aria-labelledby="former-title">
+          <h2 id="former-title">Teams that left</h2>
+          <p class="muted">Clubs that played here and then moved or changed their name. Their history continues on the franchise page.</p>
+          <ul class="former">
+            {former.map(({ i, f, nextCity, nextName, titles }) => (
+              <li>
+                <a href={routes.franchises(f.id)}><strong>{i.data.name}</strong></a>
+                <span class="subtle"> · {i.data.from?.value ?? '?'}–{i.data.to}</span>
+                {nextCity && <span> · then {nextName} in <a href={routes.cities(nextCity.id)}>{nextCity.data.name}</a></span>}
+                {titles.length > 0 && <span class="subtle"> · titles here: {titles.join(', ')}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {venues.length > 0 && (
-        <>
-          <h2 class="mt">Venues</h2>
-          <ul>{venues.map((v) => <li><a href={routes.venues(v.id)}>{v.data.name}</a>{v.data.status === 'historical' && <span class="subtle"> (historical)</span>}</li>)}</ul>
-        </>
+        <section class="mt" aria-labelledby="venues-title">
+          <h2 id="venues-title">Venues</h2>
+          <ul class="grid grid-2 venue-cards">
+            {venues.map((v) => (
+              <li>
+                <a href={routes.venues(v.id)}>
+                  {v.data.image && <img src={v.data.image.url} alt="" loading="lazy" />}
+                  <span><strong>{v.data.name}</strong>{v.data.status === 'historical' && <span class="subtle"> (historical)</span>}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {rivalries.length > 0 && (
+        <section class="mt" aria-labelledby="rivalries-title">
+          <h2 id="rivalries-title">Rivalries</h2>
+          <ul>{rivalries.map((r) => <li><a href={routes.rivalries(r.id)}>{r.data.name}</a> <span class="muted">{r.data.summary}</span></li>)}</ul>
+        </section>
+      )}
+
+      {neighbours.length > 0 && (
+        <section class="mt" aria-labelledby="metro-title">
+          <h2 id="metro-title">Also in the {d.metro}</h2>
+          <ul>{neighbours.map((c) => <li><a href={routes.cities(c.id)}>{c.data.name}</a></li>)}</ul>
+        </section>
       )}
     </article>
     <aside>
       <LocalTime city={d.name} timezone={d.timezone} />
+      {coords && <div class="mt"><Weather city={d.name} lat={coords.lat} lon={coords.lon} timezone={d.timezone} /></div>}
       <div class="mt">
         <FactBox
           title="Key facts"
           rows={[
             { label: 'Population', value: d.population ? formatNumber(d.population.value) : undefined, source: d.population?.source, verified: d.population?.verified },
             { label: 'Time zone', value: d.timezone },
+            { label: 'Metro area', value: d.metro },
           ]}
         />
       </div>
     </aside>
   </div>
   <div class="container section"><MiniGraph type="city" id={city.id} /></div>
-  <div class="container section"><SourceList sources={d.sources} credits={[d.image]} /></div>
+  <div class="container section"><SourceList sources={sources} credits={[d.image, ...venues.map((v) => v.data.image)]} /></div>
 </Base>
 
 <style>
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .stats li {
+    display: grid;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--accent);
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+  }
+  .stats strong {
+    font-family: var(--font-display);
+    font-size: var(--step-5, 2.6rem);
+    line-height: 1;
+  }
+  .stats span {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .small {
+    font-size: 0.8rem;
+    margin-top: 0.75rem;
+  }
+  .sport h3 {
+    margin: 0 0 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: var(--step-2);
+  }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: 1rem;
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+  }
+  .teams a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--team-1);
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .teams a:hover {
+    border-color: var(--team-1);
+  }
+  .team-text {
+    display: grid;
+    gap: 0.1rem;
+  }
+  .team-text strong {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+  }
+  .former {
+    display: grid;
+    gap: 0.5rem;
+    padding-left: 1.1rem;
+  }
+  .venue-cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .venue-cards a {
+    display: grid;
+    gap: 0.5rem;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .venue-cards img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+  }
   .layout {
     display: grid;
     gap: 2.5rem;

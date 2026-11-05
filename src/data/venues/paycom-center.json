@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Paycom Center",
+  "city": "oklahoma-city",
+  "capacity": {
+    "basketball": {
+      "value": 18203,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Thunder’s home since they arrived in 2008; it first hosted the NBA in 2005-06 for the New Orleans/Oklahoma City Hornets."
+}

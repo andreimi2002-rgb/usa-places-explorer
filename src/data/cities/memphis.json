@@ -11,5 +11,14 @@
   "name": "Memphis",
   "region": "Tennessee",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 35.1495,
+      "lon": -90.049
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Memphis&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4641239: Memphis, Tennessee"
+  }
 }

@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Chicago from 1968 to 1977."
+  "summary": "Played for Chicago from 1968 to 1977.",
+  "image": {
+    "file": "File:Bob love bulls.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bob_love_bulls.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob_love_bulls.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Bob Love in a Bulls uniform",
+    "caption": "Bob Love with the Bulls, around 1968",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Shai Gilgeous-Alexander",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Shai Gilgeous-Alexander stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Thunder–Pacers Game 7 takeaways (NBA.com)",
+      "url": "https://www.nba.com/news/thunder-pacers-takeaways-game-7-2025-nba-finals",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2018, No. 11 overall, by Charlotte",
+      "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2025",
+      "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2025",
+      "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2024–25, 2025–26",
+      "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "College",
+      "value": "Kentucky",
+      "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Canadian guard who led Oklahoma City to the 2025 title and won back-to-back MVP awards."
+}

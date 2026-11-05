@@ -23,5 +23,14 @@
     "alt": "View of New York",
     "caption": "Downtown Manhattan Skyline seen from Paulus Hook showing various ferry services departing",
     "licenseChecked": "2026-11-05"
+  },
+  "coordinates": {
+    "value": {
+      "lat": 40.7143,
+      "lon": -74.006
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=New%20York%20City&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5128581: New York, New York"
   }
 }

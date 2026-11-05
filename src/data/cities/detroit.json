@@ -11,5 +11,14 @@
   "name": "Detroit",
   "region": "Michigan",
   "country": "United States",
-  "timezone": "America/Detroit"
+  "timezone": "America/Detroit",
+  "coordinates": {
+    "value": {
+      "lat": 42.3314,
+      "lon": -83.0457
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Detroit&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4990729: Detroit, Michigan"
+  }
 }

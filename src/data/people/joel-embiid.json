@@ -1,0 +1,65 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Joel Embiid",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Kansas",
+      "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "10",
+      "source": "https://www.basketball-reference.com/teams/PHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2014, No. 3 overall, by Philadelphia",
+      "source": "https://www.basketball-reference.com/players/e/embiijo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2022–23",
+      "source": "https://www.basketball-reference.com/players/e/embiijo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring titles",
+      "value": "2021–22, 2022–23",
+      "source": "https://www.basketball-reference.com/players/e/embiijo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Cameroonian center, MVP in 2023 and the anchor of Philadelphia’s 2026-27 team."
+}

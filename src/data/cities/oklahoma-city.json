@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,15 @@
   "name": "Oklahoma City",
   "region": "Oklahoma",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 35.4676,
+      "lon": -97.5164
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Oklahoma%20City&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4544349: Oklahoma City, Oklahoma"
+  },
+  "summary": "Home of the Thunder since 2008."
 }

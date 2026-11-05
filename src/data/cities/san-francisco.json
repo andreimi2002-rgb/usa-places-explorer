@@ -23,5 +23,15 @@
     "alt": "View of San Francisco",
     "caption": "San Francisco from the Marin Headlands on March 31, 2019 during California's",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "coordinates": {
+    "value": {
+      "lat": 37.7749,
+      "lon": -122.4194
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=San%20Francisco&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5391959: San Francisco, California"
+  },
+  "metro": "San Francisco Bay Area"
 }

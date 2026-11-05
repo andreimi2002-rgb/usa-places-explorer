@@ -11,5 +11,14 @@
   "name": "Charlotte",
   "region": "North Carolina",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 35.2271,
+      "lon": -80.8431
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Charlotte&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4460243: Charlotte, North Carolina"
+  }
 }

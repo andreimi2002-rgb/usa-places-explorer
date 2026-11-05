@@ -17,17 +17,14 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "accessed": "2026-11-05"
     }
   ],
   "roles": [
-    {
-      "franchise": "los-angeles-lakers",
-      "role": "player",
-      "from": 1968,
-      "to": 1973,
-      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
-      "verified": "2026-11-05"
-    },
     {
       "franchise": "golden-state-warriors",
       "role": "player",
@@ -42,6 +39,14 @@
       "from": 1965,
       "to": 1968,
       "source": "https://www.basketball-reference.com/players/c/chambwi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1968,
+      "to": 1973,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
       "verified": "2026-11-05"
     }
   ],

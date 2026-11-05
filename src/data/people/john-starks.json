@@ -27,5 +27,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for New York from 1990 to 1998."
+  "summary": "Played for New York from 1990 to 1998.",
+  "image": {
+    "file": "File:John Starks in 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/John_Starks_in_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Starks_in_2013.jpg",
+    "author": "Jorge Cortell",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "John Starks at Madison Square Garden",
+    "caption": "John Starks at Madison Square Garden, 2013",
+    "licenseChecked": "2026-11-05"
+  }
 }

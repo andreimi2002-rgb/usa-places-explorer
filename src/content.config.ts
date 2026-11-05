@@ -245,6 +245,10 @@ const cities = defineCollection({
     /** IANA time zone, used by the local-time widget. */
     timezone: z.string().regex(/^[A-Za-z]+(\/[A-Za-z_]+)+$/),
     population: fact(z.number().int()).optional(),
+    /** Metropolitan area shared with neighbouring cities, e.g. "San Francisco Bay Area". */
+    metro: z.string().optional(),
+    /** City-centre coordinates, used for the live weather widget. */
+    coordinates: fact(z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180) })).optional(),
     summary: z.string().optional(),
     image: image.optional(),
   }),

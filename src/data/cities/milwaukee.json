@@ -11,5 +11,14 @@
   "name": "Milwaukee",
   "region": "Wisconsin",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 43.0389,
+      "lon": -87.9065
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Milwaukee&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5263045: Milwaukee, Wisconsin"
+  }
 }

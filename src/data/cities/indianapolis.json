@@ -11,5 +11,14 @@
   "name": "Indianapolis",
   "region": "Indiana",
   "country": "United States",
-  "timezone": "America/Indiana/Indianapolis"
+  "timezone": "America/Indiana/Indianapolis",
+  "coordinates": {
+    "value": {
+      "lat": 39.7684,
+      "lon": -86.158
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Indianapolis&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4259418: Indianapolis, Indiana"
+  }
 }

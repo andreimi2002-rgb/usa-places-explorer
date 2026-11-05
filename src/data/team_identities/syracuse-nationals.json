@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "philadelphia-76ers",
+  "name": "Syracuse Nationals",
+  "city": "syracuse",
+  "from": {
+    "value": 1949,
+    "source": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+    "verified": "2026-11-05"
+  },
+  "to": 1963,
+  "current": false
+}

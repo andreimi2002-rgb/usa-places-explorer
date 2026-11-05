@@ -49,5 +49,16 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Played for Boston from 1957 to 1969, winning the 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969 titles."
+  "summary": "Played for Boston from 1957 to 1969, winning the 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969 titles.",
+  "image": {
+    "file": "File:Sam Jones Boston celtics 1960 (headshot).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sam_Jones_Boston_celtics_1960_%28headshot%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Sam_Jones_Boston_celtics_1960_(headshot).JPG",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white headshot of Sam Jones",
+    "caption": "Sam Jones, 1960",
+    "licenseChecked": "2026-11-05"
+  }
 }

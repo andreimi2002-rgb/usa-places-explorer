@@ -1,0 +1,61 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "David Robinson",
+  "sources": [
+    {
+      "title": "David Robinson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 1989,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1987, No. 1 overall, by San Antonio",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1999, 2003",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1994–95",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "1991–92",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1989–90",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2009",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "First overall pick in 1987 and a champion with Tim Duncan in 1999 and 2003."
+}

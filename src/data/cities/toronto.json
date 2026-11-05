@@ -11,5 +11,14 @@
   "name": "Toronto",
   "region": "Ontario",
   "country": "Canada",
-  "timezone": "America/Toronto"
+  "timezone": "America/Toronto",
+  "coordinates": {
+    "value": {
+      "lat": 43.7064,
+      "lon": -79.3986
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Toronto&count=10&language=en&format=json&countryCode=CA",
+    "verified": "2026-11-05",
+    "note": "GeoNames 6167865: Toronto, Ontario"
+  }
 }

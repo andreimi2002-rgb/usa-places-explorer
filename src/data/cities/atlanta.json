@@ -11,5 +11,14 @@
   "name": "Atlanta",
   "region": "Georgia",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 33.749,
+      "lon": -84.388
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Atlanta&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4180439: Atlanta, Georgia"
+  }
 }

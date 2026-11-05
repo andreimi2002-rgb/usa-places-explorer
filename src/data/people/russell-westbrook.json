@@ -1,0 +1,43 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Russell Westbrook",
+  "sources": [
+    {
+      "title": "Russell Westbrook stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2008,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2008, No. 4 overall, by Seattle",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2016–17",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Seasons with the franchise",
+      "value": "2008–2019",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard for the franchise for eleven seasons and MVP in 2017."
+}

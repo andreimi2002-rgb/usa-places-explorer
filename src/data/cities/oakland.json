@@ -22,5 +22,15 @@
     "alt": "View of Oakland",
     "caption": "The Oakland skyline as seen from the Oakland hills. Oakland, CA has a population of about",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "coordinates": {
+    "value": {
+      "lat": 37.8044,
+      "lon": -122.2708
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Oakland&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5378538: Oakland, California"
+  },
+  "metro": "San Francisco Bay Area"
 }

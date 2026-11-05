@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Frost Bank Center: About (Frost Bank Center)",
+      "url": "https://www.frostbankcenter.com/about",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Frost Bank Center",
+  "city": "san-antonio",
+  "opened": {
+    "value": "2002",
+    "source": "https://www.frostbankcenter.com/about",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18354,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Bexar County",
+    "source": "https://www.frostbankcenter.com/about",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [],
+  "summary": "The Spurs’ Bexar County-owned arena since 2002, also home of the San Antonio Stock Show & Rodeo."
+}

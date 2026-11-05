@@ -11,5 +11,14 @@
   "name": "Cleveland",
   "region": "Ohio",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 41.4995,
+      "lon": -81.6954
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cleveland&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5150529: Cleveland, Ohio"
+  }
 }

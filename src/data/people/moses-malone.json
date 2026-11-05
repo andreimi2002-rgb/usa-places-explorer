@@ -1,0 +1,71 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Moses Malone",
+  "sources": [
+    {
+      "title": "Moses Malone stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1982,
+      "to": 1986,
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1993,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 1994,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "1983, with Philadelphia",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1983",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1979, 1982, 1983",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2001",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "September 13, 2015",
+      "source": "https://www.basketball-reference.com/players/m/malonmo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The center who arrived in 1982 and led Philadelphia to the 1983 title as Finals MVP."
+}

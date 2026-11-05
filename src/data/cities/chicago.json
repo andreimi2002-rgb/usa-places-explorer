@@ -12,5 +12,14 @@
   "region": "Illinois",
   "country": "United States",
   "timezone": "America/Chicago",
-  "summary": "Home of the Bulls since 1966."
+  "summary": "Home of the Bulls since 1966.",
+  "coordinates": {
+    "value": {
+      "lat": 41.85,
+      "lon": -87.65
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Chicago&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4887398: Chicago, Illinois"
+  }
 }

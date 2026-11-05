@@ -39,11 +39,22 @@ const backId = `back-${id}-${tier}`;
   <div class="inner" role="button" tabindex="0" aria-pressed="false" aria-label={`${name}: show card back`} data-flip>
     <div class="face front">
       <div class="art">
-        {image ? <img src={image.url} alt={image.alt} loading="lazy" decoding="async" /> : <span class="initials" aria-hidden="true">{initials}</span>}
+        {image ? (
+          <img src={image.url} alt={image.alt} loading="lazy" decoding="async" />
+        ) : (
+          <span class="placeholder" aria-hidden="true">
+            <svg viewBox="0 0 100 120" class="silhouette">
+              <circle cx="50" cy="26" r="14" />
+              <path d="M24 118 L28 62 Q30 46 50 44 Q70 46 72 62 L76 118 Z" />
+              <circle cx="80" cy="40" r="9" class="ball" />
+            </svg>
+            <span class="initials">{initials}</span>
+          </span>
+        )}
         <span class="badge">{badge}</span>
       </div>
       <div class="plate">
-        <strong class="name">{name}</strong>
+        <a href={routes.people(id)} class="name">{name}</a>
         <span class="meta">{[position, years].filter(Boolean).join(' · ')}</span>
         {note && <span class="note">{note}</span>}
       </div>
@@ -51,7 +62,7 @@ const backId = `back-${id}-${tier}`;
     <div class="face back" id={backId}>
       <strong class="name">{name}</strong>
       <dl>
-        {facts.slice(0, 5).map((f) => (
+        {facts.slice(0, 4).map((f) => (
           <>
             <dt>{f.label}</dt>
             <dd>{f.value}</dd>
@@ -147,15 +158,28 @@ const backId = `back-${id}-${tier}`;
     object-fit: cover;
     object-position: center 18%;
   }
-  .initials {
+  .placeholder {
     position: absolute;
     inset: 0;
     display: grid;
-    place-items: center;
+    place-items: end center;
+  }
+  .silhouette {
+    width: 78%;
+    height: auto;
+    fill: rgba(255, 255, 255, 0.16);
+  }
+  .silhouette .ball {
+    fill: color-mix(in srgb, var(--frame-2) 55%, transparent);
+  }
+  .initials {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
     font-family: var(--font-display);
-    font-size: clamp(2.5rem, 9vw, 3.5rem);
+    font-size: 1.6rem;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.75);
     letter-spacing: 0.04em;
   }
   .badge {
@@ -184,6 +208,7 @@ const backId = `back-${id}-${tier}`;
     background: rgba(10, 15, 26, 0.92);
   }
   .name {
+    text-decoration: none;
     font-family: var(--font-display);
     font-size: 1.15rem;
     line-height: 1.1;
@@ -206,7 +231,14 @@ const backId = `back-${id}-${tier}`;
     background: linear-gradient(160deg, rgba(10, 15, 26, 0.96), rgba(10, 15, 26, 0.9)), var(--frame);
     border: 7px solid var(--frame);
   }
+  .front .name:hover {
+    text-decoration: underline;
+  }
   dl {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    align-content: start;
     display: grid;
     gap: 0.1rem;
     margin: 0;
@@ -224,7 +256,9 @@ const backId = `back-${id}-${tier}`;
     color: var(--text);
   }
   .profile {
+    flex: none;
     margin-top: auto;
+    padding-top: 0.4rem;
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--frame-2);

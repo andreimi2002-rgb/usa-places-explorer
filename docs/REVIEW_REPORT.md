@@ -147,3 +147,35 @@ Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10).
 4. **Bulls owner**: described as "Jerry Reinsdorf's group (chairman since 1985)"; the 2015 NBA.com feature
    is the source. Check that no change has happened since.
 5. **Knicks owner**: MSG Sports, which announced a planned split of the Knicks and Rangers in 2026.
+
+---
+
+# Lot 3 — Weather, city hubs, card fixes, Spurs, Thunder, 76ers
+
+Date: 2026-11-05. Same branch and PR (`nba-teams`, PR #10).
+
+## 1. What was added
+
+| Area | What |
+|---|---|
+| Cards | Card backs show at most 4 facts, with "Full profile" always visible; the name on the front links to the profile. Players without a free photo get a team-colored silhouette card. |
+| Photos | Second search pass, directly in Commons: 17 more players now have photos (Jaylen Brown, Horace Grant, OG Anunoby, Walt Frazier and others). |
+| Weather | Live weather (Open-Meteo) next to the local-time widget on team, venue and city pages; °C by default, °F toggle. City coordinates come from Open-Meteo's GeoNames geocoder, stored with the source. |
+| City hubs | City pages list every team today (by sport and league), teams that left, titles won in the city, venues, rivalries and metro neighbours. |
+| New teams | San Antonio Spurs (with the Dallas Chaparrals identity), Oklahoma City Thunder (with the Seattle SuperSonics identity), Philadelphia 76ers (with the Syracuse Nationals identity). |
+| Venues | Frost Bank Center, Paycom Center, Xfinity Mobile Arena. |
+| Cities | San Antonio, Oklahoma City, Philadelphia; Seattle and Syracuse added for the former identities. |
+| People | Legends of the new teams (Duncan, Robinson, Gervin, Popovich, Gilgeous-Alexander, Westbrook, Payton, Wilkens, Schayes, Erving, Malone, Iverson), core players, rookies and notable players. |
+
+## 2. Things to check
+
+1. **Arena name in Philadelphia**: NBA.com's arena list (October 2026) still says "Wells Fargo Center", but the
+   team announced the new name, Xfinity Mobile Arena, in May 2025. We use the new name.
+2. **Paycom Center**: no official source found yet for its opening date, former names or owner, so those fields
+   are empty.
+3. **SuperSonics history**: shown as part of the Thunder franchise, as in NBA.com's records. Seattle's city page
+   lists the SuperSonics as a team that left.
+4. **Titles counted per city**: a title counts for a city when the team's name that season matches the identity
+   in that city (for example the Minneapolis Lakers' five titles count for Minneapolis, not Los Angeles).
+5. **Still without a photo** (silhouette cards): Allan Houston, Pau Gasol (license unclear), Brandin Podziemski and
+   most 2026 rookies.

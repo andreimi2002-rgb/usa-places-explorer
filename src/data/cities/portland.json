@@ -11,5 +11,14 @@
   "name": "Portland",
   "region": "Oregon",
   "country": "United States",
-  "timezone": "America/Los_Angeles"
+  "timezone": "America/Los_Angeles",
+  "coordinates": {
+    "value": {
+      "lat": 45.5234,
+      "lon": -122.6762
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Portland&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5746545: Portland, Oregon"
+  }
 }

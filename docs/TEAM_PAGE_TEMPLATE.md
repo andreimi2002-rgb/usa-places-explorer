@@ -14,13 +14,13 @@ sections it has data for, plus a progress note.
 | 4 | **History by eras**: one H3 per era, with years in the heading | `milestones` | `history.mdx` | prose exists |
 | 5 | **Venue**: current home, photo, link to venue page, past homes | `venues[]` → `venues` collection | `venue.mdx` | a venue is linked |
 | 5b | **Uniforms**: simplified drawings of the current set, plus a free-license game photo | `kits[]`, `kitPhoto` | — | a verified kit |
-| 6 | **Championships timeline**: titles, finals and milestones on one line | `championships`, `milestones` | — | any item |
-| 7 | **Legends**: cards linking to person pages, with role and years | `people[].roles` for this franchise | — | any person |
+| 6 | **Championships & milestones**: a table of every NBA Finals appearance, then the milestone timeline | `championships`, `milestones` | — | any item |
+| 7 | **Players** as trading cards, in four groups: Core players (`asOf` season), Rookies (`asOf` season), Legends, Notable players | `corePlayers`, `rookies`, `legends`, other `people` with a role here | — | any card |
 | 8 | **Rivalries**: cards linking to rivalry pages | `rivalries` containing this franchise | — | any rivalry |
 | 9 | **City and fan culture** | city via current identity | `fan-culture.mdx` | prose exists |
 | 10 | **Identity history**: every name/city the franchise has used | `team_identities` | — | always |
 | 11 | **Mini-graph**: the franchise's neighborhood in the connection graph, plus a text list | computed by `src/lib/graph.ts` | — | always |
-| 12 | **Local time**: city time vs. London, Bucharest and the visitor | city `timezone` | — | always |
+| 12 | **Local time and live weather**: city time vs. London, Bucharest and the visitor; current weather and 3 days (Open-Meteo, in the browser) | city `timezone`, `coordinates` | — | always (weather when coordinates exist) |
 | 13 | **Sources and credits** | every `sources[]` + image credits | — | always |
 
 **Writing guidance per prose section**

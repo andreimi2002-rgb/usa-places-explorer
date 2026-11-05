@@ -11,6 +11,11 @@
       "title": "Lakers season capsules (NBA.com)",
       "url": "https://www.nba.com/lakers/history/season-capsule",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "LeBron James signs with the 76ers (NBA.com)",
+      "url": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "LeBron James",
@@ -29,6 +34,14 @@
       "from": 2018,
       "to": 2026,
       "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
       "verified": "2026-11-05"
     }
   ],
@@ -59,8 +72,8 @@
     },
     {
       "label": "Team in 2026-27",
-      "value": "Philadelphia 76ers",
-      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "value": "Philadelphia 76ers (signed July 2026)",
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
       "verified": "2026-11-05"
     }
   ],

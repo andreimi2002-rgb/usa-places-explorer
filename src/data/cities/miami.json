@@ -23,5 +23,14 @@
     "alt": "Panorama of the downtown Miami skyline",
     "caption": "Downtown Miami",
     "licenseChecked": "2026-11-05"
+  },
+  "coordinates": {
+    "value": {
+      "lat": 25.7743,
+      "lon": -80.1937
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Miami&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4164138: Miami, Florida"
   }
 }

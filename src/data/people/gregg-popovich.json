@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Gregg Popovich",
+  "sources": [
+    {
+      "title": "Gregg Popovich coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Spurs franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "head-coach",
+      "from": 1996,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Titles as coach",
+      "value": "1999, 2003, 2005, 2007, 2014",
+      "source": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Regular-season wins",
+      "value": "1,390",
+      "source": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2023 (coach)",
+      "source": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Coached San Antonio for 29 seasons and won five titles."
+}

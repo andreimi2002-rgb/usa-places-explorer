@@ -34,5 +34,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "alt": "Lake Eola with bird sculptures in the water and the downtown Orlando skyline behind",
     "caption": "Lake Eola and downtown Orlando"
+  },
+  "coordinates": {
+    "value": {
+      "lat": 28.5383,
+      "lon": -81.3792
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Orlando&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4167147: Orlando, Florida"
   }
 }

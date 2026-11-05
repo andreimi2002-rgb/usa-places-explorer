@@ -1,0 +1,65 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "LaMelo Ball",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/MIN/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charlotte all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 2020,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "6",
+      "source": "https://www.basketball-reference.com/teams/MIN/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard and passer acquired in 2026.",
+  "image": {
+    "file": "File:LaMelo Ball Drew League 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/LaMelo_Ball_Drew_League_2.jpg/960px-LaMelo_Ball_Drew_League_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LaMelo_Ball_Drew_League_2.jpg",
+    "author": "Fox Life Visuals",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of LaMelo Ball",
+    "caption": "LaMelo Ball",
+    "licenseChecked": "2026-11-05"
+  }
+}

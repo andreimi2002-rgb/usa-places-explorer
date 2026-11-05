@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2010-11",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "dallas-mavericks",
+  "winnerName": "Dallas Mavericks",
+  "runnerUp": "miami-heat",
+  "runnerUpName": "Miami Heat",
+  "result": "4–2",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

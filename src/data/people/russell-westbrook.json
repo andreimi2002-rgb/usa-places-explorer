@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Russell Westbrook",
+  "position": {
+    "value": "Point guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Russell Westbrook stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2008,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2008, No. 4 overall, by Seattle",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2016–17",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Seasons with the franchise",
+      "value": "2008–2019",
+      "source": "https://www.basketball-reference.com/players/w/westbru01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard for the franchise for eleven seasons and MVP in 2017.",
+  "image": {
+    "file": "File:Russell Westbrook (March 21, 2022) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg/960px-Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Russell_Westbrook_(March_21,_2022)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Russell Westbrook",
+    "caption": "Russell Westbrook, 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

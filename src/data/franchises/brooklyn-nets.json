@@ -1,20 +1,255 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "NBA approves sale of Nets to Joe Tsai (NBA.com)",
+      "url": "https://www.nba.com/news/nba-approves-nets-sale-joe-tsai-david-levy-ceo",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1976 ABA champions (NBA.com)",
+      "url": "https://www.nba.com/nets/news/history/2019/07/22/1976-aba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Julius Erving to attend Nets game in Brooklyn (NBA.com)",
+      "url": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-bkn",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Brooklyn Nets",
   "league": "nba",
   "division": "nba-atlantic",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/NJN/",
+    "verified": "2026-11-05",
+    "note": "Founded in the ABA as the New Jersey Americans."
+  },
+  "firstSeason": {
+    "value": "1976-77",
+    "source": "https://www.basketball-reference.com/teams/NJN/",
+    "verified": "2026-11-05",
+    "note": "First NBA season, after the ABA–NBA merger."
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "The official logo file is black and white."
+  },
   "logo": {
     "file": "nba/brooklyn-nets.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "barclays-center",
+      "from": 2012,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Jordi Fernández",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Joe Tsai (since 2019)",
+    "source": "https://www.nba.com/news/nba-approves-nets-sale-joe-tsai-david-levy-ceo",
+    "verified": "2026-11-05",
+    "note": "Full ownership of the Nets and Barclays Center, approved in September 2019."
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded in the ABA as the New Jersey Americans",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/NJN/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1968",
+      "label": "Become the New York Nets, on Long Island",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/NJN/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1974",
+      "label": "First ABA title, with Julius Erving",
+      "kind": "finals",
+      "source": "https://www.nba.com/nets/news/history/2019/07/22/1976-aba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Win the last ABA title, then join the NBA",
+      "kind": "finals",
+      "source": "https://www.nba.com/nets/news/history/2019/07/22/1976-aba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1977",
+      "label": "Move to New Jersey",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/NJN/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1991",
+      "label": "Dražen Petrović joins",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/p/petrodr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2002",
+      "label": "First NBA Finals, with Jason Kidd, lost to the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Second straight Finals, lost to San Antonio",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012-11-03",
+      "label": "First game as the Brooklyn Nets at the new Barclays Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/julius-erving-brooklyn-nets-game",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019-09",
+      "label": "Joe Tsai’s full purchase approved",
+      "kind": "ownership",
+      "source": "https://www.nba.com/news/nba-approves-nets-sale-joe-tsai-david-levy-ceo",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "From the ABA’s New York Nets of Julius Erving to New Jersey and, since 2012, Brooklyn.",
+  "legends": [
+    "julius-erving",
+    "drazen-petrovic",
+    "jason-kidd",
+    "vince-carter"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/nets/roster",
+    "players": [
+      {
+        "person": "julius-randle",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bkn",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "michael-porter-jr",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bkn",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "egor-demin",
+        "source": "https://www.nba.com/news/2026-27-season-preview-bkn",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "mikel-brown-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 6
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "joshua-jefferson",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 28
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tyler-bilodeau",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 43
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Barclays Center, Brooklyn New York, 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Barclays_Center%2C_Brooklyn_New_York%2C_2023.jpg/1280px-Barclays_Center%2C_Brooklyn_New_York%2C_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Barclays_Center,_Brooklyn_New_York,_2023.jpg",
+    "author": "Weber Areiv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Barclays Center",
+    "caption": "Barclays Center",
+    "licenseChecked": "2026-11-05"
   }
 }

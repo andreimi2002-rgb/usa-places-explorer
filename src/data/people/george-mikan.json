@@ -1,0 +1,72 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "George Mikan stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mikange01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "George Mikan",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/m/mikange01.html",
+    "verified": "2026-11-06"
+  },
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1948,
+      "to": 1956,
+      "source": "https://www.basketball-reference.com/players/m/mikange01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "head-coach",
+      "from": 1957,
+      "to": 1958,
+      "source": "https://www.basketball-reference.com/teams/LAL/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "BAA/NBA titles",
+      "value": "5 (1949, 1950, 1952, 1953, 1954)",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1959",
+      "source": "https://www.basketball-reference.com/players/m/mikange01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "June 1, 2005",
+      "source": "https://www.basketball-reference.com/players/m/mikange01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The first great big man: the center of the Minneapolis Lakers’ five titles.",
+  "image": {
+    "file": "File:George mikan 1958 press photo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/George_mikan_1958_press_photo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:George_mikan_1958_press_photo.jpg",
+    "author": "Unknown (press photo)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white press photo of George Mikan in a suit",
+    "caption": "George Mikan in a 1958 press photo",
+    "licenseChecked": "2026-11-05"
+  }
+}

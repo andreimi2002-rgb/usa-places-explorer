@@ -1,0 +1,75 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Marc Gasol",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marc Gasol stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2008,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2019,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2020,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2007, round 2, pick 48, by the Lakers",
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "2012–13",
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2019, with Toronto",
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Spanish center who anchored Memphis for eleven seasons.",
+  "image": {
+    "file": "File:Marc Gasol-jul 2018.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Marc_Gasol-jul_2018.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marc_Gasol-jul_2018.jpg",
+    "author": "Patrickpedia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Marc Gasol",
+    "caption": "Marc Gasol",
+    "licenseChecked": "2026-11-05"
+  }
+}

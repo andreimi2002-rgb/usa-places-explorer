@@ -1,0 +1,72 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Klay Thompson",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2011,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Washington State",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "13",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Warriors",
+      "value": "2015, 2017, 2018, 2022",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Four-time champion with Golden State, now a veteran shooter in Miami.",
+  "image": {
+    "file": "File:Klay Thompson (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Klay_Thompson_%28cropped%29.jpg/960px-Klay_Thompson_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Klay_Thompson_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Klay Thompson",
+    "caption": "Klay Thompson of Golden State Warriors shooting against Jared Dudley of Washington",
+    "licenseChecked": "2026-11-05"
+  }
+}

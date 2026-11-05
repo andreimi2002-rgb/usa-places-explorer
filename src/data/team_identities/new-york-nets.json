@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/NJN/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "brooklyn-nets",
+  "name": "New York Nets",
+  "city": "uniondale",
+  "from": {
+    "value": 1968,
+    "source": "https://www.basketball-reference.com/teams/NJN/",
+    "verified": "2026-11-05"
+  },
+  "to": 1977,
+  "current": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Sam Cassell",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/c/cassesa01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Sam Cassell (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/cassesa01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2003,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Minnesota",
+      "value": "2003–2005",
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Minnesota from 2003 to 2005.",
+  "image": {
+    "file": "File:Wizards Assistant Coach Sam Cassell (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wizards_Assistant_Coach_Sam_Cassell_%28cropped%29.jpg/1280px-Wizards_Assistant_Coach_Sam_Cassell_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wizards_Assistant_Coach_Sam_Cassell_(cropped).jpg",
+    "author": "Geoff Livingston",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Sam Cassell as an assistant coach",
+    "caption": "Sam Cassell, 2013",
+    "licenseChecked": "2026-11-05"
+  }
+}

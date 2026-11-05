@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Darius Garland",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Vanderbilt",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Playmaker who arrived in February 2026 in the James Harden trade.",
+  "image": {
+    "file": "File:Darius Garland (48885374141).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Darius_Garland_%2848885374141%29.jpg/960px-Darius_Garland_%2848885374141%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darius_Garland_(48885374141).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Darius Garland",
+    "caption": "Darius Garland",
+    "licenseChecked": "2026-11-05"
+  }
+}

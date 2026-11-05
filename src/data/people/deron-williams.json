@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Deron Williams",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/w/willide01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Deron Williams (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/willide01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2005,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Utah",
+      "value": "2005–2011",
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Utah from 2005 to 2011.",
+  "image": {
+    "file": "File:Deron Williams Nets 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Deron_Williams_Nets_2.jpg/960px-Deron_Williams_Nets_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Deron_Williams_Nets_2.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Deron Williams",
+    "caption": "Deron Williams",
+    "licenseChecked": "2026-11-05"
+  }
+}

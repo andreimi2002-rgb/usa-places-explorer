@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/history-this-date-in-nba-july",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "memphis-grizzlies",
+  "name": "Vancouver Grizzlies",
+  "city": "vancouver",
+  "from": {
+    "value": 1995,
+    "source": "https://www.nba.com/news/history-this-date-in-nba-july",
+    "verified": "2026-11-05"
+  },
+  "to": 2001,
+  "current": false
+}

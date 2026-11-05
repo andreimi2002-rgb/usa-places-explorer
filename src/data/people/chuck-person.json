@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Chuck Person",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/p/persoch01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chuck Person (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/persoch01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 1986,
+      "to": 1992,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Indiana",
+      "value": "1986–1992",
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Indiana from 1986 to 1992.",
+  "image": {
+    "file": "File:Chuck Person in 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chuck_Person_in_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chuck_Person_in_2010.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Chuck Person",
+    "caption": "Chuck Person",
+    "licenseChecked": "2026-11-05"
+  }
+}

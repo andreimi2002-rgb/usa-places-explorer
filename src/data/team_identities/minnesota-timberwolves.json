@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/history-season-review-1989-90",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "minnesota-timberwolves",
   "name": "Minnesota Timberwolves",
   "city": "minneapolis",
+  "from": {
+    "value": 1989,
+    "source": "https://www.nba.com/news/history-season-review-1989-90",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2020-21",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "milwaukee-bucks",
+  "winnerName": "Milwaukee Bucks",
+  "runnerUp": "phoenix-suns",
+  "runnerUpName": "Phoenix Suns",
+  "result": "4–2",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

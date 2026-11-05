@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Tre Donaldson",
+  "position": {
+    "value": "Guard",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Auburn, Michigan, Miami (FL)",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie guard on a two-way contract with Miami in 2026-27.",
+  "image": {
+    "file": "File:Tre Donaldson.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tre_Donaldson.jpg/1280px-Tre_Donaldson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tre_Donaldson.jpg",
+    "author": "MGoBlog",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Tre Donaldson playing for Michigan",
+    "caption": "Tre Donaldson at Michigan, 2024",
+    "licenseChecked": "2026-11-05"
+  }
+}

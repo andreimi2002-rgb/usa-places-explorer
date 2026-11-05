@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Shawn Marion",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/m/mariosh01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Shawn Marion (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mariosh01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1999,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Phoenix",
+      "value": "1999–2008",
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Phoenix from 1999 to 2008.",
+  "image": {
+    "file": "File:Shawn Marion 2013-03-27 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Shawn_Marion_2013-03-27_%281%29.jpg/960px-Shawn_Marion_2013-03-27_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawn_Marion_2013-03-27_(1).jpg",
+    "author": "Danny Bollinger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Shawn Marion",
+    "caption": "Shawn Marion",
+    "licenseChecked": "2026-11-05"
+  }
+}

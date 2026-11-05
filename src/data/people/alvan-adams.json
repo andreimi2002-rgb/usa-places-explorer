@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Alvan Adams",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/a/adamsal01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Alvan Adams (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/adamsal01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1975,
+      "to": 1988,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Phoenix",
+      "value": "1975–1988",
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Phoenix from 1975 to 1988.",
+  "image": {
+    "file": "File:Alvan Adams - Phoenix Suns.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Alvan_Adams_-_Phoenix_Suns.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alvan_Adams_-_Phoenix_Suns.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Alvan Adams",
+    "caption": "Alvan Adams",
+    "licenseChecked": "2026-11-05"
+  }
+}

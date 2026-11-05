@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jalen Green",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/PHO/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/PHO/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard acquired in the 2025 Kevin Durant trade.",
+  "image": {
+    "file": "File:Jalen Green 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Jalen_Green_2022_%28cropped%29.jpg/960px-Jalen_Green_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jalen_Green_2022_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jalen Green",
+    "caption": "Jalen Green",
+    "licenseChecked": "2026-11-05"
+  }
+}

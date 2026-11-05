@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,27 @@
   "name": "San Francisco",
   "region": "California",
   "country": "United States",
-  "timezone": "America/Los_Angeles"
+  "timezone": "America/Los_Angeles",
+  "summary": "Home of the Warriors from 1962 to 1971 and again since 2019.",
+  "image": {
+    "file": "File:San Francisco from the Marin Headlands in March 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg/960px-San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg",
+    "author": "Lightandtruth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of San Francisco",
+    "caption": "San Francisco from the Marin Headlands on March 31, 2019 during California's",
+    "licenseChecked": "2026-11-05"
+  },
+  "coordinates": {
+    "value": {
+      "lat": 37.7749,
+      "lon": -122.4194
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=San%20Francisco&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5391959: San Francisco, California"
+  },
+  "metro": "San Francisco Bay Area"
 }

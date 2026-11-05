@@ -1,0 +1,76 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kevin Love",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/l/loveke01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kevin Love (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/loveke01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2008,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2014,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "2014–2023",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Cleveland",
+      "value": "2016",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Cleveland from 2014 to 2023, winning the 2016 title.",
+  "image": {
+    "file": "File:Kevin Love 2020 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kevin_Love_2020_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Love_2020_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Kevin Love in a Cavaliers uniform",
+    "caption": "Kevin Love, 2020",
+    "licenseChecked": "2026-11-05"
+  }
+}

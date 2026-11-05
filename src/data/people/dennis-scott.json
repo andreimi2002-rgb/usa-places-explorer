@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dennis Scott",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/s/scottde01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dennis Scott (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/scottde01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "The 13 members of the Orlando Magic Hall of Fame (WKMG ClickOrlando)",
+      "url": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1990,
+      "to": 1997,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "1990–1997",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "September 5, 1968, Hagerstown, Maryland",
+      "source": "https://www.basketball-reference.com/players/s/scottde01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1990, No. 4 overall, by the Orlando Magic",
+      "source": "https://www.basketball-reference.com/players/s/scottde01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Rookie Team (1990-91)",
+      "source": "https://www.basketball-reference.com/players/s/scottde01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Sharpshooting forward of the Shaq and Penny teams.",
+  "image": {
+    "file": "File:Dennis Scott (basketball) 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dennis_Scott_%28basketball%29_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dennis_Scott_(basketball)_2013.jpg",
+    "author": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Dennis Scott",
+    "caption": "Basketball player Dennis Scott,",
+    "licenseChecked": "2026-11-05"
+  }
+}

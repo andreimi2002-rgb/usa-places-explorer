@@ -1,0 +1,33 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Scotiabank Arena",
+  "city": "toronto",
+  "capacity": {
+    "basketball": {
+      "value": 19800,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Raptors’ downtown Toronto home since the 1998-99 season.",
+  "image": {
+    "file": "File:Scotiabank Arena Exterior.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Scotiabank_Arena_Exterior.jpg/1280px-Scotiabank_Arena_Exterior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Scotiabank_Arena_Exterior.jpg",
+    "author": "SamKramer123",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Scotiabank Arena",
+    "caption": "Scotiabank Arena",
+    "licenseChecked": "2026-11-05"
+  }
+}

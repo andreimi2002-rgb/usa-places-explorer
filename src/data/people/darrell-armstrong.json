@@ -1,0 +1,80 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Darrell Armstrong",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/a/armstda01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Darrell Armstrong (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/armstda01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "The 13 members of the Orlando Magic Hall of Fame (WKMG ClickOrlando)",
+      "url": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1994,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "1994–2003",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "June 22, 1968, Gastonia, North Carolina",
+      "source": "https://www.basketball-reference.com/players/a/armstda01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Most Improved Player (1998-99)",
+      "source": "https://www.basketball-reference.com/players/a/armstda01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sixth Man of the Year (1998-99)",
+      "source": "https://www.basketball-reference.com/players/a/armstda01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Played for Orlando from 1994 to 2003.",
+  "image": {
+    "file": "File:Darrell Armstrong in 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Darrell_Armstrong_in_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darrell_Armstrong_in_2012.jpg",
+    "author": "C.T. Snow; crop by Arbor to SJ",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Darrell Armstrong",
+    "caption": "Dallas Mavericks assistant coaches leave an exhibition game in Barcelona, Spain. Back to",
+    "licenseChecked": "2026-11-05"
+  }
+}

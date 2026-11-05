@@ -1,0 +1,33 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "American Airlines Center",
+  "city": "dallas",
+  "capacity": {
+    "basketball": {
+      "value": 19200,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Mavericks’ home since the 2001-02 season.",
+  "image": {
+    "file": "File:American Airlines Center 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/American_Airlines_Center_02.jpg/1280px-American_Airlines_Center_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_02.jpg",
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Exterior of American Airlines Center in Dallas",
+    "caption": "American Airlines Center",
+    "licenseChecked": "2026-11-05"
+  }
+}

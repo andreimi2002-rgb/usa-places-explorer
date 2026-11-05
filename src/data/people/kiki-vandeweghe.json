@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Kiki Vandeweghe",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/v/vandeki01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kiki Vandeweghe (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/v/vandeki01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 1980,
+      "to": 1984,
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Denver",
+      "value": "1980–1984",
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Denver from 1980 to 1984.",
+  "image": {
+    "file": "File:Kiki Vandeweghe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kiki_Vandeweghe.jpg/960px-Kiki_Vandeweghe.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiki_Vandeweghe.jpg",
+    "author": "TastyPoutine",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Kiki Vandeweghe",
+    "caption": "Kiki Vandeweghe",
+    "licenseChecked": "2026-11-05"
+  }
+}

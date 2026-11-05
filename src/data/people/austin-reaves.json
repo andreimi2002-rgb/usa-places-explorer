@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Austin Reaves",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Wichita State, Oklahoma",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard and the Lakers’ clear second option in 2026-27.",
+  "image": {
+    "file": "File:Austin Reaves Oklahoma (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Austin_Reaves_Oklahoma_%28cropped%29.jpg/960px-Austin_Reaves_Oklahoma_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_Reaves_Oklahoma_(cropped).jpg",
+    "author": "Kevin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Austin Reaves",
+    "caption": "Austin Reaves",
+    "licenseChecked": "2026-11-05"
+  }
+}

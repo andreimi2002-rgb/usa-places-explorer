@@ -1,0 +1,33 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Toyota Center",
+  "city": "houston",
+  "capacity": {
+    "basketball": {
+      "value": 18055,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Rockets’ downtown Houston arena since the 2003-04 season.",
+  "image": {
+    "file": "File:Toyota Center entr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Toyota_Center_entr.jpg/960px-Toyota_Center_entr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_Center_entr.jpg",
+    "author": "Ed Uthman from Houston, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Center",
+    "caption": "Toyota Center",
+    "licenseChecked": "2026-11-05"
+  }
+}

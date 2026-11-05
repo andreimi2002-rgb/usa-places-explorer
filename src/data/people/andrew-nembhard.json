@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Andrew Nembhard",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Florida, Gonzaga",
+      "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Canadian guard, part of the 2025 Finals core.",
+  "image": {
+    "file": "File:Andrew Nembhard (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Andrew_Nembhard_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrew_Nembhard_(cropped).jpg",
+    "author": "Gamecock Central",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Andrew Nembhard",
+    "caption": "Andrew Nembhard",
+    "licenseChecked": "2026-11-05"
+  }
+}

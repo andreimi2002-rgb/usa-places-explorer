@@ -1,0 +1,82 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Tim Duncan",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tim Duncan stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 1997,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1997, No. 1 overall, by San Antonio",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1999, 2003, 2005, 2007, 2014",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1999, 2003, 2005",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2001–02, 2002–03",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1997–98",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2020",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Nineteen seasons, all with San Antonio, and five titles: the center of the Spurs dynasty.",
+  "image": {
+    "file": "File:Tim Duncan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tim_Duncan.jpg/960px-Tim_Duncan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tim_Duncan.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Tim Duncan",
+    "caption": "Tim Duncan, 2011",
+    "licenseChecked": "2026-11-05"
+  }
+}

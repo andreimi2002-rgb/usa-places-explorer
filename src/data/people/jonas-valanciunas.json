@@ -1,0 +1,63 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jonas Valančiūnas",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/v/valanjo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jonas Valančiūnas (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/v/valanjo01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2012,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Toronto",
+      "value": "2012–2019",
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Toronto",
+      "value": "2019",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Lithuanian center who played seven seasons in Toronto.",
+  "image": {
+    "file": "File:Jonas Valančiūnas by Augustas Didzgalvis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Jonas_Valan%C4%8Di%C5%ABnas_by_Augustas_Didzgalvis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jonas_Valan%C4%8Di%C5%ABnas_by_Augustas_Didzgalvis.jpg",
+    "author": "Augustas Didžgalvis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jonas Valančiūnas",
+    "caption": "Jonas Valančiūnas",
+    "licenseChecked": "2026-11-05"
+  }
+}

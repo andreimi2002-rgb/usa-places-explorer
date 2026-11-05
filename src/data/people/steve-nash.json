@@ -1,0 +1,83 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Steve Nash",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Steve Nash stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1996,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1998,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 2004,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2012,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1996, No. 15 overall, by Phoenix",
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2005, 2006",
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2018",
+      "source": "https://www.basketball-reference.com/players/n/nashst01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Canadian point guard, back-to-back MVP in 2005 and 2006 with Phoenix.",
+  "image": {
+    "file": "File:Steve Nash at Suns at Warriors 3-15-09 1 (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Steve_Nash_at_Suns_at_Warriors_3-15-09_1_%28cropped%29.JPG/1280px-Steve_Nash_at_Suns_at_Warriors_3-15-09_1_%28cropped%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_Nash_at_Suns_at_Warriors_3-15-09_1_(cropped).JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Steve Nash in a Suns uniform",
+    "caption": "Steve Nash with Phoenix, 2009",
+    "licenseChecked": "2026-11-05"
+  }
+}

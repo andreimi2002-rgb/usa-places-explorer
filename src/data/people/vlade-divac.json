@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Vlade Divac",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/d/divacvl01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Vlade Divac (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/divacvl01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1998,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "1998–2004",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2019",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Serbian center, a key part of Sacramento’s best teams.",
+  "image": {
+    "file": "File:Vlade Divac 2016-mc.rs (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vlade_Divac_2016-mc.rs_%28cropped%29.jpg/960px-Vlade_Divac_2016-mc.rs_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vlade_Divac_2016-mc.rs_(cropped).jpg",
+    "author": "Medija centar Beograd",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Vlade Divac",
+    "caption": "Vlade Divac",
+    "licenseChecked": "2026-11-05"
+  }
+}

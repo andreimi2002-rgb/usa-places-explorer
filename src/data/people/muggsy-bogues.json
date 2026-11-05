@@ -1,0 +1,41 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Muggsy Bogues",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/b/boguemu01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Muggsy Bogues (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/boguemu01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1988,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "1988–1998",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard of the original Hornets for ten seasons."
+}

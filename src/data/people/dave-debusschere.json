@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dave DeBusschere",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/d/debusda01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dave DeBusschere (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/debusda01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1968,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New York",
+      "value": "1968–1974",
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with New York",
+      "value": "1970, 1973",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1983",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New York from 1968 to 1974, winning the 1970, 1973 titles.",
+  "image": {
+    "file": "File:Dave DeBusschere.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Dave_DeBusschere.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dave_DeBusschere.jpeg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dave DeBusschere",
+    "caption": "Professional basketball player Dave",
+    "licenseChecked": "2026-11-05"
+  }
+}

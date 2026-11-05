@@ -1,0 +1,103 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kawhi Leonard",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Back in Toronto, Kawhi Leonard (NBA.com)",
+      "url": "https://www.nba.com/news/back-in-toronto-kawhi-leonard-wants-to-chase-another-ring-as-a-raptor",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2011,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2018,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2019,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with San Antonio",
+      "value": "2011–2018",
+      "source": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with San Antonio",
+      "value": "2014",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "With two clubs, San Antonio and Toronto (2019)",
+      "source": "https://www.nba.com/news/masai-ujiri-kawhi-leonard-raptors-championship",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Two-time Finals MVP who brought Toronto its 2019 title and returned to the Raptors in 2026.",
+  "image": {
+    "file": "File:1 kawhi leonard 2019 nba finals (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/1_kawhi_leonard_2019_nba_finals_%28cropped%29.jpg/960px-1_kawhi_leonard_2019_nba_finals_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1_kawhi_leonard_2019_nba_finals_(cropped).jpg",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Kawhi Leonard",
+    "caption": "Kawhi Leonard, 2019",
+    "licenseChecked": "2026-11-05"
+  },
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/TOR/2027.html",
+    "verified": "2026-11-05"
+  }
+}

@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/kings/history-franchise-timeline",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "sacramento-kings",
   "name": "Sacramento Kings",
   "city": "sacramento",
+  "from": {
+    "value": 1985,
+    "source": "https://www.nba.com/kings/history-franchise-timeline",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

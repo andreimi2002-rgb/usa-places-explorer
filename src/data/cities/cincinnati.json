@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Cincinnati",
+  "region": "Ohio",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "summary": "Home of the Cincinnati Royals, today’s Kings, from 1957 to 1972.",
+  "coordinates": {
+    "value": {
+      "lat": 39.1271,
+      "lon": -84.5144
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cincinnati&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4508722: Cincinnati, Ohio"
+  },
+  "image": {
+    "file": "File:Cincinnati Skyline from Devou Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Skyline_from_Devou_Park.jpg/960px-Cincinnati_Skyline_from_Devou_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cincinnati_Skyline_from_Devou_Park.jpg",
+    "author": "Ynsalh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Cincinnati",
+    "caption": "Cincinnati",
+    "licenseChecked": "2026-11-05"
+  }
+}

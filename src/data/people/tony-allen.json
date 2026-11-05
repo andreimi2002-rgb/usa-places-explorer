@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Tony Allen",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/a/allento01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Small Forward, and Point Guard."
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Tony Allen (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/allento01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2010,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Memphis",
+      "value": "2010–2017",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Memphis from 2010 to 2017.",
+  "image": {
+    "file": "File:Tony Allen fouled.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tony_Allen_fouled.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tony_Allen_fouled.jpg",
+    "author": "Terren from Virginia, U.S.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tony Allen",
+    "caption": "Tony Allen",
+    "licenseChecked": "2026-11-05"
+  }
+}

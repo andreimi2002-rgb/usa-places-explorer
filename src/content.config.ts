@@ -156,6 +156,34 @@ const franchises = defineCollection({
       .default([]),
     /** A free-license photo of a current uniform in a game. */
     kitPhoto: image.optional(),
+    /** The players and builders who define the club; shown first, as gold cards. */
+    legends: z.array(reference('people')).default([]),
+    /** The faces of the current roster (not the full roster), confirmed for one season. */
+    corePlayers: z
+      .object({
+        asOf: z.string().regex(/^\d{4}-\d{2}$/),
+        rosterUrl: z.url(),
+        players: z.array(z.object({ person: reference('people'), source: z.url(), verified: isoDate.nullable() })),
+      })
+      .optional(),
+    /** First-year players on the current roster, with their draft slot when they were drafted. */
+    rookies: z
+      .object({
+        asOf: z.string().regex(/^\d{4}-\d{2}$/),
+        /** Shown when the roster has no rookies, e.g. "The club made no picks in the 2026 draft." */
+        note: z.string().optional(),
+        noteSource: z.url().optional(),
+        players: z.array(
+          z.object({
+            person: reference('people'),
+            draft: z.object({ year, round: z.number().int().min(1), pick: z.number().int().min(1) }).optional(),
+            note: z.string().optional(),
+            source: z.url(),
+            verified: isoDate.nullable(),
+          }),
+        ),
+      })
+      .optional(),
     venues: z
       .array(z.object({ venue: reference('venues'), from: year, to: year.nullable(), source: z.url(), verified: isoDate.nullable() }))
       .default([]),
@@ -204,6 +232,8 @@ const venues = defineCollection({
     capacity: z.record(z.string(), fact(z.number().int())).optional(),
     owner: fact(z.string()).optional(),
     formerNames: z.array(z.object({ name: z.string(), from: year.nullable(), to: year.nullable(), source: z.url(), verified: isoDate.nullable() })).default([]),
+    /** Extra sourced facts for the Key facts box, e.g. cost or events hosted. */
+    facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string().optional(),
     image: image.optional(),
     extensions: venueExtensions,
@@ -220,6 +250,12 @@ const cities = defineCollection({
     /** IANA time zone, used by the local-time widget. */
     timezone: z.string().regex(/^[A-Za-z]+(\/[A-Za-z_]+)+$/),
     population: fact(z.number().int()).optional(),
+    /** Metropolitan area shared with neighbouring cities, e.g. "San Francisco Bay Area". */
+    metro: z.string().optional(),
+    /** City-centre coordinates, used for the live weather widget. */
+    coordinates: fact(z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180) })).optional(),
+    /** Extra sourced facts for the Key facts box, e.g. the main airport. */
+    facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string().optional(),
     image: image.optional(),
   }),
@@ -230,6 +266,8 @@ const people = defineCollection({
   schema: z.object({
     ...base,
     name: z.string(),
+    /** Playing position, e.g. "Guard", "Forward", "Center", "Guard-Forward". */
+    position: fact(z.string()).optional(),
     roles: z.array(
       z.object({
         franchise: reference('franchises'),
@@ -241,6 +279,8 @@ const people = defineCollection({
       }),
     ),
     facts: z.array(z.object({ label: z.string(), value: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
+    /** Career honours as the source lists them, e.g. "15× All-Star", "1999-00 MVP". */
+    honours: z.array(z.object({ label: z.string(), source: z.url(), verified: isoDate.nullable() })).default([]),
     summary: z.string(),
     image: image.optional(),
   }),
@@ -267,8 +307,12 @@ const championships = defineCollection({
     season: z.string().regex(/^\d{4}-\d{2}$/),
     level: z.enum(['league', 'conference']),
     title: z.string(),
-    winner: reference('franchises'),
+    /** The franchise, when it still exists in the data; defunct clubs only have a name. */
+    winner: reference('franchises').optional(),
     runnerUp: reference('franchises').optional(),
+    /** Team names as they were that season, e.g. "Minneapolis Lakers". */
+    winnerName: z.string(),
+    runnerUpName: z.string().optional(),
     result: z.string().optional(),
     source: z.url(),
     verified: isoDate.nullable(),

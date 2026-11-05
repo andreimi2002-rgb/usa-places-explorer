@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Reggie Miller",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/m/millere01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Reggie Miller stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/millere01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 1987,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/players/m/millere01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1987, No. 11 overall, by Indiana",
+      "source": "https://www.basketball-reference.com/players/m/millere01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career 3-pointers",
+      "value": "2,560",
+      "source": "https://www.basketball-reference.com/players/m/millere01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2012",
+      "source": "https://www.basketball-reference.com/players/m/millere01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Eighteen seasons, all with Indiana: the shooter who led the Pacers to the 2000 Finals."
+}

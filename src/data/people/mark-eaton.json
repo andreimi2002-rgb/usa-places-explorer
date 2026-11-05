@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Mark Eaton",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/e/eatonma01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mark Eaton (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/e/eatonma01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 1982,
+      "to": 1993,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Utah",
+      "value": "1982–1993",
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Utah from 1982 to 1993.",
+  "image": {
+    "file": "File:Mark Eaton 1988-89.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mark_Eaton_1988-89.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mark_Eaton_1988-89.jpg",
+    "author": "United States Forest Service",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Mark Eaton",
+    "caption": "Mark Eaton",
+    "licenseChecked": "2026-11-05"
+  }
+}

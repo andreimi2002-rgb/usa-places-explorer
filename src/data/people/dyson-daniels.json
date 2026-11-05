@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Dyson Daniels",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Australian perimeter defender.",
+  "image": {
+    "file": "File:Dyson Daniels.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dyson_Daniels.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Dyson_Daniels.png",
+    "author": "Hoop District",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Dyson Daniels",
+    "caption": "Dyson Daniels",
+    "licenseChecked": "2026-11-05"
+  }
+}

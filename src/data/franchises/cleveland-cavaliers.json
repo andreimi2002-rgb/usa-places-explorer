@@ -1,20 +1,239 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Cleveland Cavaliers team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612739/cavaliers",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Leadership bios (NBA.com)",
+      "url": "https://www.nba.com/cavaliers/team/leadership-bios",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Fieldhouse celebrates 30 years (NBA.com)",
+      "url": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2016 championship 10th anniversary (NBA.com)",
+      "url": "https://nba.com/cavaliers/news/releases-10th-anniversary-celebration-261104",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-cle",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Cleveland Cavaliers",
   "league": "nba",
   "division": "nba-central",
+  "founded": {
+    "value": 1970,
+    "source": "https://www.nba.com/team/1610612739/cavaliers",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1970-71",
+    "source": "https://www.basketball-reference.com/teams/CLE/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Wine",
+        "hex": "#860038"
+      },
+      {
+        "name": "Gold",
+        "hex": "#BC945C"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/cleveland-cavaliers.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "rocket-arena",
+      "from": 1994,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Kenny Atkinson",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/CLE/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Dan Gilbert (principal owner since 2005)",
+    "source": "https://www.nba.com/cavaliers/team/leadership-bios",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1970",
+      "label": "Join the NBA as an expansion team",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612739/cavaliers",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1994-10-17",
+      "label": "Move downtown into Gund Arena, today’s Rocket Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/cavaliers/news/releases-fieldhouse-30-years-240930",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Draft LeBron James first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2005",
+      "label": "Dan Gilbert buys the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/cavaliers/team/leadership-bios",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2007",
+      "label": "First Finals appearance, swept by San Antonio",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "LeBron James returns from Miami",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2016-06-19",
+      "label": "First title: the first team to win the Finals after trailing 3–1",
+      "kind": "finals",
+      "source": "https://nba.com/cavaliers/news/releases-10th-anniversary-celebration-261104",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Fourth straight Finals against Golden State; James leaves for the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Cleveland’s team since 1970, and the 2016 champions who came back from 3–1 down against Golden State.",
+  "legends": [
+    "lebron-james",
+    "mark-price",
+    "brad-daugherty",
+    "zydrunas-ilgauskas"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/cavaliers/roster",
+    "players": [
+      {
+        "person": "donovan-mitchell",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cle",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "james-harden",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cle",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "evan-mobley",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cle",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jarrett-allen",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cle",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "meleek-thomas",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 34
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "khalifa-diop",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ernest-udeh-jr",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Rocket Mortgage FieldHouse (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rocket_Mortgage_FieldHouse_%282%29.jpg/1280px-Rocket_Mortgage_FieldHouse_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(2).jpg",
+    "author": "Cards84664",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of the Cavaliers' arena in Cleveland",
+    "caption": "The arena as Rocket Mortgage FieldHouse",
+    "licenseChecked": "2026-11-05"
   }
 }

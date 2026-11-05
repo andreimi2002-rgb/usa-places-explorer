@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jerry Sloan",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/s/sloanje01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bulls franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jazz franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jerry Sloan (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sloanje01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1966,
+      "to": 1976,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "head-coach",
+      "from": 1979,
+      "to": 1982,
+      "source": "https://www.basketball-reference.com/teams/CHI/",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "utah-jazz",
+      "role": "head-coach",
+      "from": 1988,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/UTA/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Chicago",
+      "value": "1966–1976 (player), 1979–1982 (coach)",
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2009",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "An original Bull: guard from the first season, then the team’s coach.",
+  "image": {
+    "file": "File:Jerry Sloan 1969 publicity photo.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jerry_Sloan_1969_publicity_photo.JPG/960px-Jerry_Sloan_1969_publicity_photo.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerry_Sloan_1969_publicity_photo.JPG",
+    "author": "Chicago Bulls",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jerry Sloan",
+    "caption": "Chicago Bulls publicity photo of basketball player Jerry Sloan published in",
+    "licenseChecked": "2026-11-05"
+  }
+}

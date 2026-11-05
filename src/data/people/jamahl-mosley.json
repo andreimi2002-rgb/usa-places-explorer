@@ -1,0 +1,62 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Jamahl Mosley",
+  "sources": [
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Pelicans (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-nop",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jamahl Mosley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/mosleja01c.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "head-coach",
+      "from": 2021,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/ORL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "head-coach",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Orlando head coach",
+      "value": "2021–2026",
+      "source": "https://www.basketball-reference.com/teams/ORL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Pelicans head coach",
+      "value": "Since 2026-27",
+      "source": "https://www.nba.com/news/2026-27-season-preview-nop",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "October 6, 1978, Milwaukee, Wisconsin",
+      "source": "https://www.basketball-reference.com/coaches/mosleja01c.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "summary": "Coached Orlando from 2021 to 2026, developing Paolo Banchero and Franz Wagner, before taking over the Pelicans."
+}

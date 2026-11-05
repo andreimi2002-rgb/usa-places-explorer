@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Indianapolis",
   "region": "Indiana",
   "country": "United States",
-  "timezone": "America/Indiana/Indianapolis"
+  "timezone": "America/Indiana/Indianapolis",
+  "coordinates": {
+    "value": {
+      "lat": 39.7684,
+      "lon": -86.158
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Indianapolis&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4259418: Indianapolis, Indiana"
+  },
+  "summary": "Home of the Pacers since 1967.",
+  "image": {
+    "file": "File:Downtown Indianapolis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Downtown_Indianapolis.jpg/960px-Downtown_Indianapolis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Indianapolis.jpg",
+    "author": "Miyin2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Indianapolis",
+    "caption": "Indianapolis",
+    "licenseChecked": "2026-11-05"
+  }
 }

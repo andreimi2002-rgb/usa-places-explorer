@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Andrei Kirilenko",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/k/kirilan01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Andrei Kirilenko (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/k/kirilan01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2001,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Utah",
+      "value": "2001–2011",
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Russian forward who played ten seasons in Utah.",
+  "image": {
+    "file": "File:Andrei Kirilenko in 2011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Andrei_Kirilenko_in_2011.jpg/960px-Andrei_Kirilenko_in_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrei_Kirilenko_in_2011.jpg",
+    "author": "Christopher Johnson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Andrei Kirilenko",
+    "caption": "Andrei Kirilenko",
+    "licenseChecked": "2026-11-05"
+  }
+}

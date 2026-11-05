@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Draymond Green",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2012,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Michigan State",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "14",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Warriors",
+      "value": "2015, 2017, 2018, 2022",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Defensive leader of the Warriors’ four title teams.",
+  "image": {
+    "file": "File:Draymond Green 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Draymond_Green_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Draymond_Green_2019.jpg",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Draymond Green",
+    "caption": "Game 2 of 2019 NBA",
+    "licenseChecked": "2026-11-05"
+  }
+}

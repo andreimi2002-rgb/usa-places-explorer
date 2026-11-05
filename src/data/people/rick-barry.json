@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Rick Barry",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rick Barry stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1965,
+      "to": 1967,
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1972,
+      "to": 1978,
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1965, No. 4 overall, by San Francisco",
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1965–66",
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1975",
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1975",
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1987",
+      "source": "https://www.basketball-reference.com/players/b/barryri01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The scorer who led the Warriors to their 1975 title, in a four-game sweep.",
+  "image": {
+    "file": "File:Rick Barry.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Rick_Barry.jpg/960px-Rick_Barry.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rick_Barry.jpg",
+    "author": "Corey Carter from Fremont, US",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Rick Barry",
+    "caption": "Rick Barry at the Golden State Warriors Championship Parade on June 19,",
+    "licenseChecked": "2026-11-05"
+  }
+}

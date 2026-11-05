@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jack Twyman",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/t/twymaja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jack Twyman (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/twymaja01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1955,
+      "to": 1966,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "1955–1966",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1983",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Sacramento from 1955 to 1966.",
+  "image": {
+    "file": "File:Jack Twyman.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jack_Twyman.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jack_Twyman.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jack Twyman",
+    "caption": "Jack Twyman",
+    "licenseChecked": "2026-11-05"
+  }
+}

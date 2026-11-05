@@ -1,0 +1,76 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Khris Middleton",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/m/middlkh01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Khris Middleton (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/middlkh01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2013,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "2013–2025",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Milwaukee",
+      "value": "2021",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 2013 to 2025, winning the 2021 title.",
+  "image": {
+    "file": "File:Khris Middleton (39684853532) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Khris_Middleton_%2839684853532%29_%28cropped%29.jpg/1280px-Khris_Middleton_%2839684853532%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Khris_Middleton_(39684853532)_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Khris Middleton in a Bucks uniform",
+    "caption": "Khris Middleton, 2018",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "United Center history (United Center)",
+      "url": "https://www.unitedcenter.com/venue/introduction-history/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "United Center",
+  "city": "chicago",
+  "opened": {
+    "value": "1994-08",
+    "source": "https://www.unitedcenter.com/venue/introduction-history/",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 20917,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Reinsdorf and Wirtz families (Bulls and Blackhawks owners)",
+    "source": "https://www.unitedcenter.com/venue/introduction-history/",
+    "verified": "2026-11-05",
+    "note": "Privately financed; the joint venture was formed in 1988."
+  },
+  "formerNames": [],
+  "summary": "Chicago’s arena since 1994, built to replace Chicago Stadium and shared with the NHL’s Blackhawks.",
+  "image": {
+    "file": "File:United Center, Chicago, Illinois (42675295374).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/United_Center%2C_Chicago%2C_Illinois_%2842675295374%29.jpg/1280px-United_Center%2C_Chicago%2C_Illinois_%2842675295374%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Center,_Chicago,_Illinois_(42675295374).jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Exterior of the United Center in Chicago",
+    "caption": "United Center, Chicago",
+    "licenseChecked": "2026-11-05"
+  }
+}

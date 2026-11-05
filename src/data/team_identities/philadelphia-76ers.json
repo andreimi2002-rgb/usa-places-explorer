@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "philadelphia-76ers",
   "name": "Philadelphia 76ers",
   "city": "philadelphia",
+  "from": {
+    "value": 1963,
+    "source": "https://www.nba.com/sixers/news/date-philadelphia-finally-lands-nba-franchise",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kyrie Irving",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/i/irvinky01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kyrie Irving (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/i/irvinky01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2019,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "2011–2017",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Cleveland",
+      "value": "2016",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard on the Cavaliers’ 2016 championship team.",
+  "image": {
+    "file": "File:Kyrie Irving - 51831823383.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kyrie_Irving_-_51831823383.jpg/960px-Kyrie_Irving_-_51831823383.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyrie_Irving_-_51831823383.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Kyrie Irving",
+    "caption": "Kyrie Irving",
+    "licenseChecked": "2026-11-05"
+  }
+}

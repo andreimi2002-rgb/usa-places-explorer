@@ -1,20 +1,239 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Kings franchise timeline (NBA.com)",
+      "url": "https://www.nba.com/kings/history-franchise-timeline",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Ranadivé group becomes new owners (NBA.com)",
+      "url": "https://www.nba.com/kings/news/ranadive-group-becomes-new-owners-sacramento-kings",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kings open Golden 1 Center (NBA.com)",
+      "url": "https://www.nba.com/news/morning-tip-sacramento-kings-open-golden-1-center-vivek-ranadive-geoff-petrie",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-sac",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Sacramento Kings",
   "league": "nba",
   "division": "nba-pacific",
+  "founded": {
+    "value": 1948,
+    "source": "https://www.basketball-reference.com/teams/SAC/",
+    "verified": "2026-11-05",
+    "note": "First BAA/NBA season as the Rochester Royals."
+  },
+  "firstSeason": {
+    "value": "1948-49",
+    "source": "https://www.basketball-reference.com/teams/SAC/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Purple",
+        "hex": "#592D81"
+      },
+      {
+        "name": "Gray",
+        "hex": "#63717A"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/sacramento-kings.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "golden-1-center",
+      "from": 2016,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Doug Christie",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/SAC/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Vivek Ranadivé (since 2013)",
+    "source": "https://www.nba.com/kings/news/ranadive-group-becomes-new-owners-sacramento-kings",
+    "verified": "2026-11-05",
+    "note": "Sale completed May 31, 2013."
+  },
+  "milestones": [
+    {
+      "date": "1951",
+      "label": "The Rochester Royals win the NBA title in Game 7 against New York",
+      "kind": "finals",
+      "source": "https://www.nba.com/kings/history-franchise-timeline",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1957",
+      "label": "Move to Cincinnati",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/SAC/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1972",
+      "label": "Move to Kansas City as the Kansas City-Omaha Kings",
+      "kind": "identity",
+      "source": "https://www.nba.com/kings/history-franchise-timeline",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1985",
+      "label": "Move to Sacramento",
+      "kind": "identity",
+      "source": "https://www.nba.com/kings/history-franchise-timeline",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1998",
+      "label": "Chris Webber, Vlade Divac and Peja Stojaković arrive",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2013-05-31",
+      "label": "Vivek Ranadivé’s group buys the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/kings/news/ranadive-group-becomes-new-owners-sacramento-kings",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2016",
+      "label": "Move into Golden 1 Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/morning-tip-sacramento-kings-open-golden-1-center-vivek-ranadive-geoff-petrie",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Draft Darius Acuff Jr. seventh overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rochester, Cincinnati, Kansas City and, since 1985, Sacramento: one title, won as the Rochester Royals in 1951.",
+  "legends": [
+    "bob-davies",
+    "oscar-robertson",
+    "nate-archibald",
+    "chris-webber"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/kings/roster",
+    "players": [
+      {
+        "person": "zach-lavine",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sac",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "domantas-sabonis",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sac",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "keegan-murray",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sac",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "darius-acuff-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 7
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "emanuel-sharp",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 45
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "alex-karaban",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 29
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Golden 1 Center 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Golden_1_Center_2017.jpg/1280px-Golden_1_Center_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Golden_1_Center_2017.jpg",
+    "author": "Brian Libby",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of Golden 1 Center in Sacramento",
+    "caption": "Golden 1 Center, 2017",
+    "licenseChecked": "2026-11-05"
   }
 }

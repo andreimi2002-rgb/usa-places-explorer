@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Cleveland",
   "region": "Ohio",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 41.4995,
+      "lon": -81.6954
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cleveland&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5150529: Cleveland, Ohio"
+  },
+  "summary": "Home of the Cavaliers since 1970.",
+  "image": {
+    "file": "File:Cleveland skyline from Lakewood Park, January 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cleveland_skyline_from_Lakewood_Park%2C_January_2026.jpg/960px-Cleveland_skyline_from_Lakewood_Park%2C_January_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cleveland_skyline_from_Lakewood_Park,_January_2026.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Cleveland",
+    "caption": "Cleveland",
+    "licenseChecked": "2026-11-05"
+  }
 }

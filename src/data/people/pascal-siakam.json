@@ -1,0 +1,71 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Pascal Siakam",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2016,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "New Mexico State",
+      "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "10",
+      "source": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Cameroonian forward, part of the 2025 Finals core.",
+  "image": {
+    "file": "File:Pascal Siakam 2018.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pascal_Siakam_2018.jpg/960px-Pascal_Siakam_2018.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pascal_Siakam_2018.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Pascal Siakam",
+    "caption": "Pascal Siakam",
+    "licenseChecked": "2026-11-05"
+  }
+}

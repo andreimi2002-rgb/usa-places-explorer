@@ -1,0 +1,110 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Jason Kidd",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jason Kidd stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jason Kidd out as Mavericks coach (NBA.com)",
+      "url": "https://www.nba.com/news/mavs-part-ways-jason-kidd",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1994,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1996,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2001,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2008,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 2012,
+      "to": 2013,
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "dallas-mavericks",
+      "role": "head-coach",
+      "from": 2021,
+      "to": 2026,
+      "source": "https://www.nba.com/news/mavs-part-ways-jason-kidd",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1994, No. 2 overall, by Dallas",
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1994–95",
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2011, with Dallas",
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2018",
+      "source": "https://www.basketball-reference.com/players/k/kiddja01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard drafted by Dallas, a champion there in 2011, and the Mavericks’ coach from 2021 to 2026.",
+  "image": {
+    "file": "File:Jason Kidd.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jason_Kidd.jpg/960px-Jason_Kidd.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jason_Kidd.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jason Kidd",
+    "caption": "Jason Kidd",
+    "licenseChecked": "2026-11-05"
+  }
+}

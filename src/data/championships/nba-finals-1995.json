@@ -13,7 +13,9 @@
   "level": "league",
   "title": "NBA Finals",
   "winner": "houston-rockets",
+  "winnerName": "Houston Rockets",
   "runnerUp": "orlando-magic",
+  "runnerUpName": "Orlando Magic",
   "result": "4–0",
   "source": "https://www.nba.com/news/history-nba-champions",
   "verified": "2026-11-05"

@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Larry Bird stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "MVP",
+  "short": "Most Valuable Player: the award for the best player of the NBA regular season.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "finals-mvp"
+  ]
+}

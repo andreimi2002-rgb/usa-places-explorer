@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Žydrūnas Ilgauskas",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/i/ilgauzy01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Žydrūnas Ilgauskas (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/i/ilgauzy01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1997,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "1997–2010",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Lithuanian center who played thirteen seasons for Cleveland.",
+  "image": {
+    "file": "File:Zydrunas Ilgauskas Cleveland Cavaliers.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Zydrunas_Ilgauskas_Cleveland_Cavaliers.jpg/960px-Zydrunas_Ilgauskas_Cleveland_Cavaliers.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zydrunas_Ilgauskas_Cleveland_Cavaliers.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Žydrūnas Ilgauskas",
+    "caption": "Žydrūnas Ilgauskas",
+    "licenseChecked": "2026-11-05"
+  }
+}

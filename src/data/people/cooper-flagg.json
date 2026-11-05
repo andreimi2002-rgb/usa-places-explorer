@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Cooper Flagg",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/DAL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/DAL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "1",
+      "source": "https://www.basketball-reference.com/teams/DAL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Second-year forward and the centerpiece of the Mavericks’ rebuild.",
+  "image": {
+    "file": "File:Duke at UNC, Mar 2025, Flagg.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Duke_at_UNC%2C_Mar_2025%2C_Flagg.jpg/960px-Duke_at_UNC%2C_Mar_2025%2C_Flagg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Duke_at_UNC,_Mar_2025,_Flagg.jpg",
+    "author": "Hameltion",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Cooper Flagg",
+    "caption": "Cooper Flagg",
+    "licenseChecked": "2026-11-05"
+  }
+}

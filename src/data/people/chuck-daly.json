@@ -1,0 +1,69 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Chuck Daly",
+  "sources": [
+    {
+      "title": "Chuck Daly coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "head-coach",
+      "from": 1983,
+      "to": 1992,
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "head-coach",
+      "from": 1997,
+      "to": 1999,
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Titles as coach",
+      "value": "1989, 1990, with Detroit",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1994 (coach)",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "May 9, 2009",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "July 20, 1930, Saint Mary's, Pennsylvania",
+      "source": "https://www.basketball-reference.com/coaches/dalych99c.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "summary": "Coached the Pistons to back-to-back titles in 1989 and 1990, and later coached Orlando.",
+  "image": {
+    "file": "File:Chuck Daly (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chuck_Daly_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chuck_Daly_(cropped).jpg",
+    "author": "Petty Officer 1st Class Chad J. McNeeley, U.S. Navy",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Chuck Daly",
+    "caption": "Chuck Daly",
+    "licenseChecked": "2026-11-05"
+  }
+}

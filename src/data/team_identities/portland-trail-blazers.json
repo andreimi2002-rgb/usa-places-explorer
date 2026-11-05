@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/POR/",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "portland-trail-blazers",
   "name": "Portland Trail Blazers",
   "city": "portland",
+  "from": {
+    "value": 1970,
+    "source": "https://www.basketball-reference.com/teams/POR/",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

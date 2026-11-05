@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Walter Davis",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/d/daviswa03.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Walter Davis (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/daviswa03.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1977,
+      "to": 1988,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Phoenix",
+      "value": "1977–1988",
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Phoenix from 1977 to 1988.",
+  "image": {
+    "file": "File:Walter Davis - Phoenix Suns.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Walter_Davis_-_Phoenix_Suns.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Walter_Davis_-_Phoenix_Suns.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Walter Davis",
+    "caption": "Walter Davis",
+    "licenseChecked": "2026-11-05"
+  }
+}

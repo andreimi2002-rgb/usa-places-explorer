@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jrue Holiday",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/h/holidjr01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jrue Holiday (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/holidjr01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2013,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/teams/NOH/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2020,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "2020–2023",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Milwaukee",
+      "value": "2021",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 2020 to 2023, winning the 2021 title.",
+  "image": {
+    "file": "File:Jrue Holiday 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Jrue_Holiday_2021.jpg/960px-Jrue_Holiday_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jrue_Holiday_2021.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jrue Holiday",
+    "caption": "Jrue Holiday",
+    "licenseChecked": "2026-11-05"
+  }
+}

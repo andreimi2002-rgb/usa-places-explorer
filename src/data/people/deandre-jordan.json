@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "DeAndre Jordan",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/j/jordade01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "DeAndre Jordan (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jordade01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2008,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with LA",
+      "value": "2008–2018",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for LA from 2008 to 2018.",
+  "image": {
+    "file": "File:DeAndre Jordan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DeAndre_Jordan.jpg/960px-DeAndre_Jordan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DeAndre_Jordan.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of DeAndre Jordan",
+    "caption": "DeAndre Jordan",
+    "licenseChecked": "2026-11-05"
+  }
+}

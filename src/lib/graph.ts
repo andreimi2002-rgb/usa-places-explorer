@@ -93,10 +93,11 @@ export async function buildGraph(): Promise<Graph> {
     for (const f of r.data.franchises) edge(rk, key('franchise', f.id), 'rivalry');
   }
   for (const c of await getCollection('championships')) {
+    // Only titles won are drawn; a node per lost Finals would crowd the graph.
+    if (!c.data.winner) continue;
     const ck = key('championship', c.id);
     node({ id: ck, label: `${c.data.title} ${c.data.season}`, type: 'championship' });
     edge(key('franchise', c.data.winner.id), ck, 'won');
-    if (c.data.runnerUp) edge(key('franchise', c.data.runnerUp.id), ck, 'runner-up');
   }
   for (const t of await getCollection('trades')) {
     edge(key('person', t.data.person.id), key('franchise', t.data.to.id), `traded ${t.data.date.slice(0, 4)}`);

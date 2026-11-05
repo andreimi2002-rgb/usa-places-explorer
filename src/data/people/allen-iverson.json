@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Allen Iverson",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Allen Iverson stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1996,
+      "to": 2006,
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2009,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1996, No. 1 overall, by Philadelphia",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2000–01",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1996–97",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring titles",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2016",
+      "source": "https://www.basketball-reference.com/players/i/iversal01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard who led Philadelphia to the 2001 Finals and was MVP that season.",
+  "image": {
+    "file": "File:Allen Iverson headshot.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Allen_Iverson_headshot.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Allen_Iverson_headshot.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Allen Iverson",
+    "caption": "Allen Iverson, 2008",
+    "licenseChecked": "2026-11-05"
+  }
+}

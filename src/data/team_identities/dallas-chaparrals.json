@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/SAS/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "san-antonio-spurs",
+  "name": "Dallas Chaparrals",
+  "city": "dallas",
+  "from": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/SAS/",
+    "verified": "2026-11-05"
+  },
+  "to": 1973,
+  "current": false
+}

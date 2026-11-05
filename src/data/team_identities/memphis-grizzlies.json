@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/history-this-date-in-nba-july",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "memphis-grizzlies",
   "name": "Memphis Grizzlies",
   "city": "memphis",
+  "from": {
+    "value": 2001,
+    "source": "https://www.nba.com/news/history-this-date-in-nba-july",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

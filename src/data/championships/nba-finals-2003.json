@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "2002-03",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "san-antonio-spurs",
+  "winnerName": "San Antonio Spurs",
+  "runnerUp": "brooklyn-nets",
+  "runnerUpName": "New Jersey Nets",
+  "result": "4–2",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

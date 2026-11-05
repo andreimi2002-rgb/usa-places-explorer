@@ -1,20 +1,291 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "San Antonio Spurs 2026-27 game notes (NBA.com)",
+      "url": "https://www.nba.com/gamenotes/spurs.pdf",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Teams in NBA and ABA to win championships (NBA.com)",
+      "url": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Peter J. Holt (NBA.com)",
+      "url": "https://www.nba.com/spurs/peter-j-holt",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Frost Bank Center: About (Frost Bank Center)",
+      "url": "https://www.frostbankcenter.com/about",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "San Antonio Spurs franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: San Antonio Spurs (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-sas",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "San Antonio Spurs NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "San Antonio Spurs",
   "league": "nba",
   "division": "nba-southwest",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/SAS/",
+    "verified": "2026-11-05",
+    "note": "Founded as the Dallas Chaparrals of the ABA."
+  },
+  "firstSeason": {
+    "value": "1976-77",
+    "source": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+    "verified": "2026-11-05",
+    "note": "First NBA season, after the ABA–NBA merger; 1967-68 was the first ABA season."
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C2CCD2"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Silver taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/san-antonio-spurs.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "frost-bank-center",
+      "from": 2002,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Mitch Johnson",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/SAS/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Spurs Sports & Entertainment, led by Peter J. Holt",
+    "source": "https://www.nba.com/spurs/peter-j-holt",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded as the Dallas Chaparrals of the ABA",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/SAS/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1973",
+      "label": "Sold to local investors and moved to San Antonio as the Spurs",
+      "kind": "identity",
+      "source": "https://www.nba.com/gamenotes/spurs.pdf",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Join the NBA in the ABA–NBA merger",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/teams-in-nba-and-aba-to-win-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1987",
+      "label": "Draft David Robinson first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/r/robinda01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996",
+      "label": "Gregg Popovich becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/coaches/popovgr99c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1997",
+      "label": "Draft Tim Duncan first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/d/duncati01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999",
+      "label": "First NBA title, over New York",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2002",
+      "label": "Move into the arena now called Frost Bank Center",
+      "kind": "venue",
+      "source": "https://www.frostbankcenter.com/about",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2007",
+      "label": "Fourth title in nine seasons",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "Fifth title, over Miami",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "Draft Victor Wembanyama first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "Popovich steps down; Mitch Johnson takes over",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/SAS/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Reach the Finals, lose to New York 4–1",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Five titles between 1999 and 2014 under Gregg Popovich, and a new era built around Victor Wembanyama.",
+  "legends": [
+    "tim-duncan",
+    "david-robinson",
+    "george-gervin",
+    "gregg-popovich"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/spurs/roster",
+    "players": [
+      {
+        "person": "victor-wembanyama",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sas",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "stephon-castle",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sas",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dylan-harper",
+        "source": "https://www.nba.com/news/2026-27-season-preview-sas",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "tarris-reed-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 26
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jayden-quaintance",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 20
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jakobi-gillespie",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 42
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "maliq-brown",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 44
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:AT&T Center at day.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/AT%26T_Center_at_day.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Center_at_day.jpg",
+    "author": "Atristan 77",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the arena now called Frost Bank Center",
+    "caption": "The arena under its earlier name, AT&T Center",
+    "licenseChecked": "2026-11-05"
   }
 }

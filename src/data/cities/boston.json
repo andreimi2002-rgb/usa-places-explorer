@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Boston",
   "region": "Massachusetts",
   "country": "United States",
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "summary": "Home of the Celtics since the league’s first season, 1946-47.",
+  "image": {
+    "file": "File:Skyline of Downtown Boston 20240704.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Skyline_of_Downtown_Boston_20240704.jpg/1280px-Skyline_of_Downtown_Boston_20240704.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Downtown_Boston_20240704.jpg",
+    "author": "Nkon21",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "The skyline of downtown Boston",
+    "caption": "Downtown Boston, 2024",
+    "licenseChecked": "2026-11-05"
+  },
+  "coordinates": {
+    "value": {
+      "lat": 42.3584,
+      "lon": -71.0598
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Boston&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4930956: Boston, Massachusetts"
+  }
 }

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "denver-nuggets",
+  "name": "Denver Rockets",
+  "city": "denver",
+  "from": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/DEN/",
+    "verified": "2026-11-05"
+  },
+  "to": 1974,
+  "current": false
+}

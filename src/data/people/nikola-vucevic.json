@@ -1,0 +1,77 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Nikola Vučević",
+  "sources": [
+    {
+      "title": "Nikola Vučević (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/v/vucevni01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Magic acquire six players, five picks in Howard trade (NBA.com)",
+      "url": "https://www.nba.com/magic/news/magic-acquire-six-players-five-draft-picks-howard-trade",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Nikola Vučević retires from Montenegro’s national team (Eurohoops)",
+      "url": "https://www.eurohoops.net/en/eurobasket/1863875/nikola-vucevic-calls-it-a-day-with-the-montenegrin-national-team",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 Season Preview: Magic (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-orl",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2012,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 24, 1990, Morges, Switzerland",
+      "source": "https://www.basketball-reference.com/players/v/vucevni01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2011, No. 16 overall, by the Philadelphia 76ers",
+      "source": "https://www.basketball-reference.com/players/v/vucevni01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star",
+      "source": "https://www.basketball-reference.com/players/v/vucevni01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Center who came in the 2012 Howard trade, became a two-time All-Star in Orlando and returned in 2026 after five years in Chicago.",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/v/vucevni01.html",
+    "verified": "2026-11-06"
+  }
+}

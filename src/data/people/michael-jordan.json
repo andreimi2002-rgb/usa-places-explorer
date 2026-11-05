@@ -1,0 +1,111 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Michael Jordan",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Michael Jordan stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chicago Bulls history (NBA.com)",
+      "url": "https://www.nba.com/bulls/news/history_001028.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Hornets front office (NBA.com)",
+      "url": "https://www.nba.com/hornets/front-office",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1984,
+      "to": 1993,
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1995,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2001,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "charlotte-hornets",
+      "role": "owner",
+      "from": 2010,
+      "to": 2023,
+      "source": "https://www.nba.com/hornets/front-office",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1984, No. 3 overall, by Chicago",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1991, 1992, 1993, 1996, 1997, 1998",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "6 times, in every Finals he played",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1988, 1991, 1992, 1996, 1998",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Scoring titles",
+      "value": "10",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2009",
+      "source": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Six titles, six Finals MVP awards and ten scoring titles: the player who made the Bulls a global brand.",
+  "image": {
+    "file": "File:Michael Jordan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Michael_Jordan.jpg/960px-Michael_Jordan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Jordan.jpg",
+    "author": "Joshua Massel. Cropped by en:User:Quadzilla99",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Michael Jordan",
+    "caption": "Picture of Michael Jordan at a basketball",
+    "licenseChecked": "2026-11-05"
+  }
+}

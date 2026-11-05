@@ -11,6 +11,21 @@
       "title": "Orlando’s premier downtown destination to be renamed Kia Center",
       "url": "https://www.nba.com/magic/news/orlando-premier-downtown-sports-and-entertainment-destination-to-be-renamed-kia-center-20231220",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Venues (City of Orlando)",
+      "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Train to the Game (SunRail)",
+      "url": "https://sunrail.com/agency-information/press-releases/back-by-popular-demand-sunrail-and-the-orlando-magic-train-to-the-game/",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Kia Center",
@@ -23,16 +38,15 @@
   "capacity": {
     "basketball": {
       "value": 18846,
-      "source": "https://en.wikipedia.org/wiki/Kia_Center",
-      "verified": null,
-      "note": "Widely reported NBA capacity; the venue’s own rental page lists 18,500. Not confirmed from a primary source."
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
     }
   },
   "owner": {
     "value": "City of Orlando",
-    "source": "https://en.wikipedia.org/wiki/Kia_Center",
-    "verified": null,
-    "note": "Reported by secondary sources only."
+    "source": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+    "verified": "2026-11-05",
+    "note": "Owned and operated by the city through the Orlando Venues Department."
   },
   "formerNames": [
     {
@@ -43,7 +57,7 @@
       "verified": "2026-11-05"
     }
   ],
-  "summary": "Downtown Orlando’s arena and the Magic’s home since 2010, renamed from Amway Center to Kia Center in December 2023.",
+  "summary": "Downtown Orlando’s arena: home of the Magic and the Solar Bears since 2010, and host of more than 3,000 events in its first 15 years.",
   "image": {
     "licenseChecked": "2026-11-05",
     "file": "File:Kia Center 12-22-24.jpg",
@@ -54,5 +68,31 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "alt": "The Kia Center arena with its glass corner tower and large video screens",
     "caption": "Kia Center, December 2024"
-  }
+  },
+  "facts": [
+    {
+      "label": "Address",
+      "value": "400 West Church Street, downtown Orlando",
+      "source": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tenants",
+      "value": "Orlando Magic (NBA), Orlando Solar Bears (ECHL ice hockey)",
+      "source": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Events, first 15 years",
+      "value": "3,291, seen by nearly 20 million guests",
+      "source": "https://www.kiacenter.com/news/detail/kia-center-celebrates-15-legendary-years",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Nearest train",
+      "value": "SunRail, Church Street station",
+      "source": "https://sunrail.com/agency-information/press-releases/back-by-popular-demand-sunrail-and-the-orlando-magic-train-to-the-game/",
+      "verified": "2026-11-06"
+    }
+  ]
 }

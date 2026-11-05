@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Zach Edey",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Purdue",
+      "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "2",
+      "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Canadian center the team needs back from injury.",
+  "image": {
+    "file": "File:Zach Edey 2 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Zach_Edey_2_%28cropped%29.jpg/960px-Zach_Edey_2_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zach_Edey_2_(cropped).jpg",
+    "author": "Alexander Jonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Zach Edey",
+    "caption": "Zach Edey",
+    "licenseChecked": "2026-11-05"
+  }
+}

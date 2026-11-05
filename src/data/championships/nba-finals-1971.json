@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1970-71",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "milwaukee-bucks",
+  "winnerName": "Milwaukee Bucks",
+  "runnerUp": "washington-wizards",
+  "runnerUpName": "Baltimore Bullets",
+  "result": "4–0",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

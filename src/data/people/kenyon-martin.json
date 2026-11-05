@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Kenyon Martin",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/m/martike01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Kenyon Martin (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/martike01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2000,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Brooklyn",
+      "value": "2000–2004",
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Brooklyn from 2000 to 2004.",
+  "image": {
+    "file": "File:Kenyon Martin Nuggets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Kenyon_Martin_Nuggets.jpg/960px-Kenyon_Martin_Nuggets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kenyon_Martin_Nuggets.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kenyon Martin",
+    "caption": "Kenyon Martin",
+    "licenseChecked": "2026-11-05"
+  }
+}

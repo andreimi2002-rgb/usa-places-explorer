@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1996-97",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "chicago-bulls",
+  "winnerName": "Chicago Bulls",
+  "runnerUp": "utah-jazz",
+  "runnerUpName": "Utah Jazz",
+  "result": "4–2",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

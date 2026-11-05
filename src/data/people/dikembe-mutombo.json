@@ -1,0 +1,60 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dikembe Mutombo",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/m/mutomdi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dikembe Mutombo (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mutomdi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 1991,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1996,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Denver",
+      "value": "1991–1996",
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Denver from 1991 to 1996.",
+  "image": {
+    "file": "File:Dikembe Mutombo (2006-12-10).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Dikembe_Mutombo_%282006-12-10%29.jpg/960px-Dikembe_Mutombo_%282006-12-10%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dikembe_Mutombo_(2006-12-10).jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Dikembe Mutombo",
+    "caption": "Dikembe Mutombo",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "San Antonio",
   "region": "Texas",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 29.4241,
+      "lon": -98.4936
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=San%20Antonio&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4726206: San Antonio, Texas"
+  },
+  "summary": "Home of the Spurs since 1973.",
+  "image": {
+    "file": "File:Downtown San Antonio Skyline Panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Downtown_San_Antonio_Skyline_Panorama.jpg/1280px-Downtown_San_Antonio_Skyline_Panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_San_Antonio_Skyline_Panorama.jpg",
+    "author": "Nan Palmero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Panorama of the downtown San Antonio skyline",
+    "caption": "Downtown San Antonio",
+    "licenseChecked": "2026-11-05"
+  }
 }

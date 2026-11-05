@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jamaal Wilkes",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wilkeja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jamaal Wilkes (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wilkeja01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1977,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Lakers",
+      "value": "1977–1985",
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Lakers",
+      "value": "1980, 1982, 1985",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2012",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for the Lakers from 1977 to 1985, winning the 1980, 1982, 1985 titles.",
+  "image": {
+    "file": "File:Jamaal Wilkes cropped.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jamaal_Wilkes_cropped.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Jamaal_Wilkes_cropped.JPG",
+    "author": "Associated Students of the University of California at Los Angeles; crop by Bagumba",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Black-and-white photo of Jamaal Wilkes at UCLA",
+    "caption": "Jamaal Wilkes at UCLA, around 1973",
+    "licenseChecked": "2026-11-05"
+  }
+}

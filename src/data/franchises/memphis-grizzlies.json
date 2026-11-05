@@ -1,20 +1,215 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "This Date in the NBA: July (NBA.com)",
+      "url": "https://www.nba.com/news/history-this-date-in-nba-july",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Robert Pera retains controlling interest (NBA.com)",
+      "url": "https://www.nba.com/grizzlies/news/grizzlies-controlling-owner-robert-pera-retain-controlling-interest-team-180409",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-mem",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Memphis Grizzlies",
   "league": "nba",
   "division": "nba-southwest",
+  "founded": {
+    "value": 1995,
+    "source": "https://www.nba.com/news/history-this-date-in-nba-july",
+    "verified": "2026-11-05",
+    "note": "Founded in Vancouver."
+  },
+  "firstSeason": {
+    "value": "1995-96",
+    "source": "https://www.basketball-reference.com/teams/MEM/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#12173F"
+      },
+      {
+        "name": "Blue",
+        "hex": "#5D76A9"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFBB22"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/memphis-grizzlies.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "fedexforum",
+      "from": 2004,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Tuomas Iisalo",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Robert Pera (controlling owner since 2012)",
+    "source": "https://www.nba.com/grizzlies/news/grizzlies-controlling-owner-robert-pera-retain-controlling-interest-team-180409",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1995",
+      "label": "Join the NBA in Vancouver",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/history-this-date-in-nba-july",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2001-07",
+      "label": "NBA approves the move to Memphis",
+      "kind": "identity",
+      "source": "https://www.nba.com/news/history-this-date-in-nba-july",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2004",
+      "label": "Move into FedExForum",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2013",
+      "label": "Marc Gasol is Defensive Player of the Year",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/g/gasolma01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019",
+      "label": "Ja Morant arrives, a year after Jaren Jackson Jr.",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Trade Ja Morant to Portland; draft Cameron Boozer third overall",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/2026-27-season-preview-mem",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Vancouver’s team for six seasons, Memphis’ since 2001, rebuilding around Cameron Boozer.",
+  "legends": [
+    "marc-gasol",
+    "mike-conley",
+    "zach-randolph",
+    "pau-gasol"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/grizzlies/roster",
+    "players": [
+      {
+        "person": "zach-edey",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mem",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ty-jerome",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mem",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "cedric-coward",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mem",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "cameron-boozer",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 3
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "karim-lopez",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "carson-cooper",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:FedExForum 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FedExForum_2015.jpg/1280px-FedExForum_2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FedExForum_2015.jpg",
+    "author": "Trev0B",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of FedExForum in Memphis",
+    "caption": "FedExForum, 2015",
+    "licenseChecked": "2026-11-05"
   }
 }

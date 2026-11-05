@@ -1,0 +1,77 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Scottie Pippen",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/p/pippesc01.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Scottie Pippen stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/p/pippesc01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chicago Bulls history (NBA.com)",
+      "url": "https://www.nba.com/bulls/news/history_001028.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1987,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/players/p/pippesc01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2003,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/p/pippesc01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1987, No. 5 overall, by Seattle; acquired by Chicago",
+      "source": "https://www.basketball-reference.com/players/p/pippesc01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1991, 1992, 1993, 1996, 1997, 1998",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2010",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Jordan’s partner on all six title teams, and a star at both ends of the floor.",
+  "image": {
+    "file": "File:Lipofsky Pippen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lipofsky_Pippen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lipofsky_Pippen.jpg",
+    "author": "Copyright by Steve Lipofsky Basketballphoto.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Scottie Pippen",
+    "caption": "Chicago Bulls Scottie Pippen",
+    "licenseChecked": "2026-11-05"
+  }
+}

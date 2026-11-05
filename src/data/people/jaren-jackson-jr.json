@@ -1,0 +1,71 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jaren Jackson Jr.",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2018,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Michigan State",
+      "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "8",
+      "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Help defender and scorer who joined Utah in 2025.",
+  "image": {
+    "file": "File:20170329 MCDAAG Jaren Jackson Jr. inbounds.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/20170329_MCDAAG_Jaren_Jackson_Jr._inbounds.jpg/960px-20170329_MCDAAG_Jaren_Jackson_Jr._inbounds.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20170329_MCDAAG_Jaren_Jackson_Jr._inbounds.jpg",
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jaren Jackson Jr.",
+    "caption": "Jaren Jackson Jr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

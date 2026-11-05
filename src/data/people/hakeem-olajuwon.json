@@ -1,0 +1,77 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Hakeem Olajuwon",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Hakeem Olajuwon stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1984,
+      "to": 2001,
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1984, No. 1 overall, by Houston",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1994, 1995",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1994, 1995",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1993–94",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "1993, 1994",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2008",
+      "source": "https://www.basketball-reference.com/players/o/olajuha01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center who led Houston to back-to-back titles and was Finals MVP both times.",
+  "image": {
+    "file": "File:Hakeem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Hakeem.jpg/1280px-Hakeem.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hakeem.jpg",
+    "author": "University of Houston Digital Library",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Hakeem Olajuwon playing for the University of Houston",
+    "caption": "Hakeem Olajuwon at the University of Houston",
+    "licenseChecked": "2026-11-05"
+  }
+}

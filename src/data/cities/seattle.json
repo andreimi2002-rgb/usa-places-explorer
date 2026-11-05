@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Seattle",
+  "region": "Washington",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "summary": "Home of the SuperSonics from 1967 to 2008, when the franchise moved to Oklahoma City.",
+  "coordinates": {
+    "value": {
+      "lat": 47.6062,
+      "lon": -122.3321
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Seattle&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5809844: Seattle, Washington"
+  },
+  "image": {
+    "file": "File:Space Needle002.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/960px-Space_Needle002.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Space_Needle002.jpg",
+    "author": "Rattlhed at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "View of Seattle",
+    "caption": "Seattle",
+    "licenseChecked": "2026-11-05"
+  }
+}

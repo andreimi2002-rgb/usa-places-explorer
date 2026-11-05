@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Dolph Schayes",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dolph Schayes stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/schaydo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1949,
+      "to": 1964,
+      "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "1955, with Syracuse",
+      "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1973",
+      "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "December 10, 2015",
+      "source": "https://www.basketball-reference.com/players/s/schaydo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Syracuse Nationals’ star and leader of their 1955 title.",
+  "image": {
+    "file": "File:Dolph Schayes.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dolph_Schayes.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dolph_Schayes.jpeg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dolph Schayes",
+    "caption": "Dolph Schayes",
+    "licenseChecked": "2026-11-05"
+  }
+}

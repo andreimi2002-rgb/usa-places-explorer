@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Keaton Wagler",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Illinois",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2026, round 1, pick 5, by the Clippers",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie guard, the fifth pick of the 2026 draft.",
+  "image": {
+    "file": "File:JonathanMintzKeatonWagler.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/JonathanMintzKeatonWagler.jpg/960px-JonathanMintzKeatonWagler.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JonathanMintzKeatonWagler.jpg",
+    "author": "Maybemintz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Keaton Wagler",
+    "caption": "Keaton Wagler",
+    "licenseChecked": "2026-11-05"
+  }
+}

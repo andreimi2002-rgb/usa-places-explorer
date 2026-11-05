@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Ty Jerome",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Virginia",
+      "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/MEM/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard, expected to start full-time.",
+  "image": {
+    "file": "File:TY JEROME (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TY_JEROME_%28cropped%29.jpg/1280px-TY_JEROME_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TY_JEROME_(cropped).jpg",
+    "author": "SneakinDeacon from New River Valley, Va, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Ty Jerome handling the ball",
+    "caption": "Ty Jerome",
+    "licenseChecked": "2026-11-05"
+  }
+}

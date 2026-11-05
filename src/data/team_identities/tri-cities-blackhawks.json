@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/ATL/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "atlanta-hawks",
+  "name": "Tri-Cities Blackhawks",
+  "city": "moline",
+  "from": {
+    "value": 1949,
+    "source": "https://www.basketball-reference.com/teams/ATL/",
+    "verified": "2026-11-05"
+  },
+  "to": 1951,
+  "current": false
+}

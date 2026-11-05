@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Nic Claxton",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Georgia",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center acquired from Brooklyn in 2026 to anchor the defense.",
+  "image": {
+    "file": "File:Nicolas Claxton (49165813553) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nicolas_Claxton_%2849165813553%29_%28cropped%29.jpg/1280px-Nicolas_Claxton_%2849165813553%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicolas_Claxton_(49165813553)_(cropped).jpg",
+    "author": "Erik Drost on Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Nic Claxton in a Brooklyn Nets uniform",
+    "caption": "Nic Claxton, 2019",
+    "licenseChecked": "2026-11-05"
+  }
+}

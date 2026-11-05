@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Tyson Chandler",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/c/chandty01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Tyson Chandler (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/chandty01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2006,
+      "to": 2009,
+      "source": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New Orleans",
+      "value": "2006–2009",
+      "source": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New Orleans from 2006 to 2009.",
+  "image": {
+    "file": "File:Tyson Chandler Mavs cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Tyson_Chandler_Mavs_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tyson_Chandler_Mavs_cropped.jpg",
+    "author": "Keith Allison from Owings Mills, USA; crop by Edgars2007",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Tyson Chandler",
+    "caption": "Tyson Chandler",
+    "licenseChecked": "2026-11-05"
+  }
+}

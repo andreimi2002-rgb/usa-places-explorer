@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Hedo Türkoğlu",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Hedo Türkoğlu (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2008-09 season and playoffs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2009.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2004,
+      "to": 2013,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "2004–2013",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "March 19, 1979, Istanbul, Turkey",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2000, No. 16 overall, by the Sacramento Kings",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Rookie Team (2000-01)",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most Improved Player (2007-08)",
+      "source": "https://www.basketball-reference.com/players/t/turkohe01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Turkish forward, a key part of the team that reached the 2009 Finals.",
+  "image": {
+    "file": "File:Hidayet Türkoğlu 20250218 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hidayet_T%C3%BCrko%C4%9Flu_20250218_%281%29.jpg/960px-Hidayet_T%C3%BCrko%C4%9Flu_20250218_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hidayet_T%C3%BCrko%C4%9Flu_20250218_(1).jpg",
+    "author": "Zafer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Hedo Türkoğlu",
+    "caption": "Hidayet Türkoğlu",
+    "licenseChecked": "2026-11-05"
+  }
+}

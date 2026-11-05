@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Lenny Wilkens",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/w/wilkele01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lenny Wilkens coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/wilkele01c.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lenny Wilkens (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wilkele01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 1968,
+      "to": 1972,
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "head-coach",
+      "from": 1969,
+      "to": 1972,
+      "source": "https://www.basketball-reference.com/coaches/wilkele01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "head-coach",
+      "from": 1977,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/coaches/wilkele01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "atlanta-hawks",
+      "role": "head-coach",
+      "from": 1993,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/coaches/wilkele01c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Title as coach",
+      "value": "1979, with Seattle",
+      "source": "https://www.basketball-reference.com/coaches/wilkele01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1989 (player), 1998 (coach)",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Seattle’s player-coach and later the coach of its only title, in 1979."
+}

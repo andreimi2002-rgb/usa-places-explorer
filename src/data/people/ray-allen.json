@@ -1,0 +1,114 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Ray Allen",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/a/allenra02.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Ray Allen (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/allenra02.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1996,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2002,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2007,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2012,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "2012–2014",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Miami",
+      "value": "2013",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2018",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Boston",
+      "value": "2008",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Shooting guard who won titles with Boston in 2008 and Miami in 2013.",
+  "image": {
+    "file": "File:Ray Allen 2008-01-13.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ray_Allen_2008-01-13.jpg/960px-Ray_Allen_2008-01-13.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ray_Allen_2008-01-13.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ray Allen",
+    "caption": "Allen as a member of the Celtics in",
+    "licenseChecked": "2026-11-05"
+  }
+}

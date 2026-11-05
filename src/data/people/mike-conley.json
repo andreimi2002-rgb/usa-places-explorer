@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Mike Conley",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/c/conlemi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mike Conley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/conlemi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2007,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Memphis",
+      "value": "2007–2019",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard who spent twelve seasons in Memphis.",
+  "image": {
+    "file": "File:Mike Conley cropped 20131118 Clippers v Grizzles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mike_Conley_cropped_20131118_Clippers_v_Grizzles.jpg/960px-Mike_Conley_cropped_20131118_Clippers_v_Grizzles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Conley_cropped_20131118_Clippers_v_Grizzles.jpg",
+    "author": "Verse Photography",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mike Conley",
+    "caption": "Mike Conley",
+    "licenseChecked": "2026-11-05"
+  }
+}

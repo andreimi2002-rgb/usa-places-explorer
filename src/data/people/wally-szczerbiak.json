@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Wally Szczerbiak",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/s/szczewa02.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wally Szczerbiak (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/szczewa02.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 1999,
+      "to": 2006,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Minnesota",
+      "value": "1999–2006",
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Minnesota from 1999 to 2006.",
+  "image": {
+    "file": "File:Wally Szczerbiak Cavs (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Wally_Szczerbiak_Cavs_%28cropped%29.jpg/960px-Wally_Szczerbiak_Cavs_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wally_Szczerbiak_Cavs_(cropped).jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Wally Szczerbiak",
+    "caption": "Wally Szczerbiak",
+    "licenseChecked": "2026-11-05"
+  }
+}

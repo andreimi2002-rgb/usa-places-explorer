@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Julius Erving",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Julius Erving stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Nets all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "1976 ABA champions (NBA.com)",
+      "url": "https://www.nba.com/nets/news/history/2019/07/22/1976-aba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 1973,
+      "to": 1976,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1976,
+      "to": 1987,
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leagues",
+      "value": "ABA (1971–1976), then NBA with Philadelphia (1976–1987)",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1983",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA MVP",
+      "value": "1980–81",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "ABA MVP",
+      "value": "1974, 1975, 1976",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1993",
+      "source": "https://www.basketball-reference.com/players/e/ervinju01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Three-time ABA MVP, then eleven seasons in Philadelphia and the 1983 title."
+}

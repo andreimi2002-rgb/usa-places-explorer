@@ -1,0 +1,80 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Elvin Hayes",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Elvin Hayes stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1968,
+      "to": 1972,
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1972,
+      "to": 1981,
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1981,
+      "to": 1984,
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1968, No. 1 overall, by San Diego",
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "1978, with Washington",
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1990",
+      "source": "https://www.basketball-reference.com/players/h/hayesel01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Forward drafted first by the San Diego Rockets, later a champion with the 1978 Bullets.",
+  "image": {
+    "file": "File:Elvin Hayes 1969.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Elvin_Hayes_1969.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elvin_Hayes_1969.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Elvin Hayes",
+    "caption": "Elvin Hayes",
+    "licenseChecked": "2026-11-05"
+  }
+}

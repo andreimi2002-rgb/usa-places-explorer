@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Intuit Dome press (NBA.com)",
+      "url": "https://www.nba.com/clippers/intuitdomepress",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Intuit Dome",
+  "city": "inglewood",
+  "opened": {
+    "value": "2024-08-15",
+    "source": "https://www.nba.com/clippers/intuitdomepress",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18000,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "LA Clippers (privately funded)",
+    "source": "https://www.nba.com/clippers/intuitdomepress",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [],
+  "summary": "The Clippers’ own arena in Inglewood, opened in August 2024.",
+  "image": {
+    "file": "File:Intuit Dome Façade.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Intuit_Dome_Fa%C3%A7ade.jpg/1280px-Intuit_Dome_Fa%C3%A7ade.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Intuit_Dome_Fa%C3%A7ade.jpg",
+    "author": "Haruhi8",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Façade of the Intuit Dome",
+    "caption": "Intuit Dome, August 2024",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Ralph Sampson",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/s/sampsra01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Ralph Sampson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sampsra01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1983,
+      "to": 1988,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Houston",
+      "value": "1983–1988",
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2012",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Houston from 1983 to 1988.",
+  "image": {
+    "file": "File:Ralph Sampson 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ralph_Sampson_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ralph_Sampson_2010.jpg",
+    "author": "jammmick",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ralph Sampson",
+    "caption": "Ralph Sampson",
+    "licenseChecked": "2026-11-05"
+  }
+}

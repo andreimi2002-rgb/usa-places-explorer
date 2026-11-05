@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Ricky Rubio",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/r/rubiori01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Ricky Rubio (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/rubiori01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2011,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Minnesota",
+      "value": "2011–2021",
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Spanish point guard who played two stints in Minnesota.",
+  "image": {
+    "file": "File:Ricky Rubio (51657225617) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ricky_Rubio_%2851657225617%29_%28cropped%29.jpg/960px-Ricky_Rubio_%2851657225617%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ricky_Rubio_(51657225617)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ricky Rubio",
+    "caption": "Ricky Rubio",
+    "licenseChecked": "2026-11-05"
+  }
+}

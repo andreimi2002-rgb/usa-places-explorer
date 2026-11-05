@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Toronto",
   "region": "Ontario",
   "country": "Canada",
-  "timezone": "America/Toronto"
+  "timezone": "America/Toronto",
+  "coordinates": {
+    "value": {
+      "lat": 43.7064,
+      "lon": -79.3986
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Toronto&count=10&language=en&format=json&countryCode=CA",
+    "verified": "2026-11-05",
+    "note": "GeoNames 6167865: Toronto, Ontario"
+  },
+  "summary": "Home of the Raptors, the NBA’s team in Canada, since 1995.",
+  "image": {
+    "file": "File:Sunset Toronto Skyline Panorama Crop from Snake Island.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg/960px-Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
+    "author": "Jchmrt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Toronto",
+    "caption": "Toronto",
+    "licenseChecked": "2026-11-05"
+  }
 }

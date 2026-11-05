@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jason Terry",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/t/terryja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jason Terry (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/terryja01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 2004,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Dallas",
+      "value": "2004–2012",
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Dallas",
+      "value": "2011",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Dallas from 2004 to 2012, winning the 2011 title.",
+  "image": {
+    "file": "File:Jason Terry 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jason_Terry_3.jpg/960px-Jason_Terry_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jason_Terry_3.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jason Terry",
+    "caption": "Jason Terry",
+    "licenseChecked": "2026-11-05"
+  }
+}

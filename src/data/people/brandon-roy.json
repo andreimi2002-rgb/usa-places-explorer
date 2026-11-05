@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Brandon Roy",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/r/roybr01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Brandon Roy (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/roybr01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 2006,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Portland Trail",
+      "value": "2006–2011",
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Portland Trail from 2006 to 2011.",
+  "image": {
+    "file": "File:Brandon Roy Wizards.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Brandon_Roy_Wizards.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brandon_Roy_Wizards.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Brandon Roy",
+    "caption": "Brandon Roy",
+    "licenseChecked": "2026-11-05"
+  }
+}

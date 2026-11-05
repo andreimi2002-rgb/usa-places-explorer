@@ -1,0 +1,73 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Karl Malone",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Karl Malone stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 1985,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2003,
+      "to": 2004,
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1985, No. 13 overall, by Utah",
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1996–97, 1998–99",
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career points",
+      "value": "36,928",
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2010",
+      "source": "https://www.basketball-reference.com/players/m/malonka01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Power forward who spent eighteen seasons in Utah, twice MVP, partner of John Stockton.",
+  "image": {
+    "file": "File:Lipofsky-Karl-Malone-32727.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lipofsky-Karl-Malone-32727.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lipofsky-Karl-Malone-32727.jpg",
+    "author": "Copyright by Steve Lipofsky Basketballphoto.com",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Karl Malone",
+    "caption": "Karl Malone",
+    "licenseChecked": "2026-11-05"
+  }
+}

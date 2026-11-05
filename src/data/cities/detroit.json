@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Detroit",
   "region": "Michigan",
   "country": "United States",
-  "timezone": "America/Detroit"
+  "timezone": "America/Detroit",
+  "coordinates": {
+    "value": {
+      "lat": 42.3314,
+      "lon": -83.0457
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Detroit&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4990729: Detroit, Michigan"
+  },
+  "summary": "Home of the Pistons since 1957.",
+  "image": {
+    "file": "File:Detroit Skyline August 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Detroit_Skyline_August_2024.jpg/1280px-Detroit_Skyline_August_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Detroit_Skyline_August_2024.jpg",
+    "author": "TheWxResearcher",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "The Detroit skyline",
+    "caption": "Detroit skyline, 2024",
+    "licenseChecked": "2026-11-05"
+  }
 }

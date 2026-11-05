@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Myles Turner",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Texas",
+      "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "11",
+      "source": "https://www.basketball-reference.com/teams/MIL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran center who joined Milwaukee in 2025.",
+  "image": {
+    "file": "File:Myles Turner (39916223764) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Myles_Turner_%2839916223764%29_%28cropped%29.jpg/960px-Myles_Turner_%2839916223764%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Myles_Turner_(39916223764)_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Myles Turner",
+    "caption": "Myles Turner",
+    "licenseChecked": "2026-11-05"
+  }
+}

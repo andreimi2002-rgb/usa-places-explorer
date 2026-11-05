@@ -1,0 +1,41 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Lou Williams",
+  "position": {
+    "value": "Point guard / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/w/willilo02.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lou Williams (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/willilo02.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2017,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with LA",
+      "value": "2017–2021",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for LA from 2017 to 2021."
+}

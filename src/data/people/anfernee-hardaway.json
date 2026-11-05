@@ -16,9 +16,25 @@
       "title": "1997 East First Round, Magic vs. Heat (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/playoffs/1997-nba-eastern-conference-first-round-magic-vs-heat.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "1994-95 season and playoffs (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/1995.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Anfernee “Penny” Hardaway",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Point Guard, and Small Forward."
+  },
   "roles": [
     {
       "franchise": "orlando-magic",
@@ -47,6 +63,35 @@
       "value": "2017",
       "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "July 18, 1971, Memphis, Tennessee",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1993, No. 3 overall, by the Golden State Warriors",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× All-Star",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× All-NBA Team",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (1993-94)",
+      "source": "https://www.basketball-reference.com/players/h/hardaan01.html",
+      "verified": "2026-11-06"
     }
   ],
   "summary": "The tall, graceful guard who formed a superstar duo with O’Neal and became the face of the team after O’Neal left in 1996.",

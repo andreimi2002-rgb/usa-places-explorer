@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/LAC/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "la-clippers",
+  "name": "San Diego Clippers",
+  "city": "san-diego",
+  "from": {
+    "value": 1978,
+    "source": "https://www.basketball-reference.com/teams/LAC/",
+    "verified": "2026-11-05"
+  },
+  "to": 1984,
+  "current": false
+}

@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Victor Wembanyama",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/SAS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/SAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "3",
+      "source": "https://www.basketball-reference.com/teams/SAS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2023, No. 1 overall, by San Antonio",
+      "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "2023–24",
+      "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "2025–26",
+      "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "French center, drafted first overall in 2023 and Defensive Player of the Year in 2025-26.",
+  "image": {
+    "file": "File:Victor Wembanyama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Victor_Wembanyama.jpg/960px-Victor_Wembanyama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Victor_Wembanyama.jpg",
+    "author": "Thomas S",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Victor Wembanyama",
+    "caption": "Victor Wembanyama, 2021",
+    "licenseChecked": "2026-11-05"
+  }
+}

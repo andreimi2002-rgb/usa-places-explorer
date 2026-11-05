@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Milwaukee",
   "region": "Wisconsin",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 43.0389,
+      "lon": -87.9065
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Milwaukee&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5263045: Milwaukee, Wisconsin"
+  },
+  "summary": "Home of the Bucks since 1968.",
+  "image": {
+    "file": "File:Milwaukee June 2026 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Milwaukee_June_2026_%28cropped%29.jpg/960px-Milwaukee_June_2026_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Milwaukee_June_2026_(cropped).jpg",
+    "author": "Isaac Rowlett",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "The Milwaukee skyline seen from Lake Michigan",
+    "caption": "Milwaukee skyline from Lake Michigan, 2026",
+    "licenseChecked": "2026-11-05"
+  }
 }

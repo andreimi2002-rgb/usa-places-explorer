@@ -1,20 +1,236 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "ABA Classics (NBA.com)",
+      "url": "https://www.nba.com/pacers/classic",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Indiana Pacers team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612754/pacers",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2016-17 Pacers media guide (NBA.com)",
+      "url": "https://ak-static-int.nba.com/wp-content/uploads/sites/3/2016/10/2016-17-Media-Guide-Pacers.pdf",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-ind",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Indiana Pacers",
   "league": "nba",
   "division": "nba-central",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.nba.com/pacers/classic",
+    "verified": "2026-11-05",
+    "note": "Founded in the ABA."
+  },
+  "firstSeason": {
+    "value": "1976-77",
+    "source": "https://www.nba.com/pacers/classic",
+    "verified": "2026-11-05",
+    "note": "First NBA season, after the ABA–NBA merger."
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0C2340"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD520"
+      },
+      {
+        "name": "Silver",
+        "hex": "#9EA2A2"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/indiana-pacers.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "gainbridge-fieldhouse",
+      "from": 1999,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Rick Carlisle",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/IND/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Herb Simon",
+    "source": "https://www.nba.com/team/1610612754/pacers",
+    "verified": "2026-11-05",
+    "note": "Herb and his late brother Melvin Simon bought the team in 1983."
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded in the ABA",
+      "kind": "founding",
+      "source": "https://www.nba.com/pacers/classic",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1970",
+      "label": "First ABA title",
+      "kind": "finals",
+      "source": "https://www.nba.com/pacers/classic",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1973",
+      "label": "Third ABA title in four seasons",
+      "kind": "finals",
+      "source": "https://www.nba.com/pacers/classic",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1976",
+      "label": "Join the NBA in the ABA–NBA merger",
+      "kind": "founding",
+      "source": "https://www.nba.com/pacers/classic",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1983",
+      "label": "Herb and Melvin Simon buy the team",
+      "kind": "ownership",
+      "source": "https://ak-static-int.nba.com/wp-content/uploads/sites/3/2016/10/2016-17-Media-Guide-Pacers.pdf",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1987",
+      "label": "Draft Reggie Miller 11th overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/m/millere01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999",
+      "label": "Move into today’s Gainbridge Fieldhouse",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2000",
+      "label": "First NBA Finals, lost to the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "Second NBA Finals, lost to Oklahoma City in seven games",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Three ABA titles in the 1970s and two NBA Finals, in 2000 and 2025, still waiting for an NBA championship.",
+  "legends": [
+    "reggie-miller",
+    "mel-daniels",
+    "roger-brown"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/pacers/roster",
+    "players": [
+      {
+        "person": "tyrese-haliburton",
+        "source": "https://www.nba.com/news/2026-27-season-preview-ind",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "pascal-siakam",
+        "source": "https://www.nba.com/news/2026-27-season-preview-ind",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "andrew-nembhard",
+        "source": "https://www.nba.com/news/2026-27-season-preview-ind",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ivica-zubac",
+        "source": "https://www.nba.com/news/2026-27-season-preview-ind",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "braden-smith",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 38
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Bankers Life Fieldhouse, Indianápolis, Estados Unidos, 2012-10-22, DD 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg/1280px-Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bankers_Life_Fieldhouse,_Indian%C3%A1polis,_Estados_Unidos,_2012-10-22,_DD_01.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the Pacers' arena in Indianapolis",
+    "caption": "The arena as Bankers Life Fieldhouse, 2012",
+    "licenseChecked": "2026-11-05"
   }
 }

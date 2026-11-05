@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Elton Brand",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/b/brandel01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Elton Brand (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/brandel01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2001,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with LA",
+      "value": "2001–2008",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for LA from 2001 to 2008.",
+  "image": {
+    "file": "File:Elton Brand 10.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Elton_Brand_10.jpg/960px-Elton_Brand_10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elton_Brand_10.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Elton Brand",
+    "caption": "Elton Brand",
+    "licenseChecked": "2026-11-05"
+  }
+}

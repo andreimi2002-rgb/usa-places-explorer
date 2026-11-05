@@ -1,0 +1,114 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "LeBron James stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "LeBron James signs with the 76ers (NBA.com)",
+      "url": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "LeBron James",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Small Forward, Power Forward, Point Guard, Center, and Shooting Guard."
+  },
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2003,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2010,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2014,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2018,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2003, No. 1 overall, by Cleveland",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "2012 and 2013 (Miami), 2016 (Cleveland), 2020 (Lakers)",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2012, 2013, 2016, 2020",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2008–09, 2009–10, 2011–12, 2012–13",
+      "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Team in 2026-27",
+      "value": "Philadelphia 76ers (signed July 2026)",
+      "source": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Won two titles in Miami and one with the Lakers, and is still playing in his 24th season.",
+  "image": {
+    "file": "File:LeBron James (51959977144) (cropped2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "LeBron James in a Lakers uniform",
+    "caption": "LeBron James with the Lakers, 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

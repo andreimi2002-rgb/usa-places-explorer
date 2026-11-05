@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Michael Porter Jr.",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Missouri",
+      "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "7",
+      "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Scorer and the core of the 2026-27 Nets with Randle.",
+  "image": {
+    "file": "File:20170329 MCDAAG Michael Porter Jr. MVP (3).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/20170329_MCDAAG_Michael_Porter_Jr._MVP_%283%29.jpg/960px-20170329_MCDAAG_Michael_Porter_Jr._MVP_%283%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20170329_MCDAAG_Michael_Porter_Jr._MVP_(3).jpg",
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Michael Porter Jr.",
+    "caption": "Michael Porter Jr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

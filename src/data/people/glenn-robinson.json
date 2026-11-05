@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Glenn Robinson",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/r/robingl01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Glenn Robinson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/robingl01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1994,
+      "to": 2002,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "1994–2002",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 1994 to 2002.",
+  "image": {
+    "file": "File:Glenn Robinson 2003 cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Glenn_Robinson_2003_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glenn_Robinson_2003_cropped.jpg",
+    "author": "MavsFan28",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Glenn Robinson",
+    "caption": "Glenn Robinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

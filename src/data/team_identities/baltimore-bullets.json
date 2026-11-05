@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/WAS/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "washington-wizards",
+  "name": "Baltimore Bullets",
+  "city": "baltimore",
+  "from": {
+    "value": 1963,
+    "source": "https://www.basketball-reference.com/teams/WAS/",
+    "verified": "2026-11-05"
+  },
+  "to": 1973,
+  "current": false
+}

@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/gamenotes/spurs.pdf",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "san-antonio-spurs",
   "name": "San Antonio Spurs",
   "city": "san-antonio",
+  "from": {
+    "value": 1973,
+    "source": "https://www.nba.com/gamenotes/spurs.pdf",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Gilbert Arenas",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/a/arenagi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Gilbert Arenas (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/arenagi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2003,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "2003–2011",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 2003 to 2011.",
+  "image": {
+    "file": "File:Gilbert arenas 2008.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gilbert_arenas_2008.jpg/960px-Gilbert_arenas_2008.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gilbert_arenas_2008.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Gilbert Arenas",
+    "caption": "Gilbert Arenas",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Zach LaVine",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "UCLA",
+      "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "12",
+      "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran scorer, a big factor in the offense.",
+  "image": {
+    "file": "File:Zach LaVine (2022 All-Star Weekend).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zach_LaVine_%282022_All-Star_Weekend%29.jpg/960px-Zach_LaVine_%282022_All-Star_Weekend%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zach_LaVine_(2022_All-Star_Weekend).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Zach LaVine",
+    "caption": "Zach LaVine",
+    "licenseChecked": "2026-11-05"
+  }
+}

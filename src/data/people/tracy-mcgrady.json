@@ -11,15 +11,46 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Tracy McGrady",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+    "verified": "2026-11-06"
+  },
   "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 1997,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
     {
       "franchise": "orlando-magic",
       "role": "player",
       "from": 2000,
       "to": 2004,
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2004,
+      "to": 2010,
       "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
       "verified": "2026-11-05"
     }
@@ -42,7 +73,57 @@
       "value": "2018",
       "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "May 24, 1979, Bartow, Florida",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1997, No. 9 overall, by the Toronto Raptors",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
     }
   ],
-  "summary": "A scoring machine who led the whole league in points twice in an Orlando uniform."
+  "honours": [
+    {
+      "label": "Naismith Hall of Fame (2017)",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× All-Star",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× scoring champion",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× All-NBA Team",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most Improved Player (2000-01)",
+      "source": "https://www.basketball-reference.com/players/m/mcgratr01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A scoring machine who led the whole league in points twice in an Orlando uniform.",
+  "image": {
+    "file": "File:All-Star Game Weekend Tracy McGrady at NBA All-Star Center Court 2016 (24410958813) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/All-Star_Game_Weekend_Tracy_McGrady_at_NBA_All-Star_Center_Court_2016_%2824410958813%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:All-Star_Game_Weekend_Tracy_McGrady_at_NBA_All-Star_Center_Court_2016_(24410958813)_(cropped).jpg",
+    "author": "lam_chihang",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Tracy McGrady smiling at an NBA All-Star Weekend event",
+    "caption": "Tracy McGrady at NBA All-Star Weekend, 2016",
+    "licenseChecked": "2026-11-05"
+  }
 }

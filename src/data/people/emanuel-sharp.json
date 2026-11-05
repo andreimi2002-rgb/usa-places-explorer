@@ -1,0 +1,53 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Emanuel Sharp",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Houston",
+      "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/SAC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2026, round 2, pick 45, by Sacramento",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie guard, picked 45th by Sacramento in 2026."
+}

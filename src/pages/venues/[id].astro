@@ -1,8 +1,10 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content';
 import EntityHeader from '../../components/EntityHeader.astro';
+import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
 import LocalTime from '../../components/LocalTime.astro';
+import Weather from '../../components/Weather.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
 import Photo from '../../components/Photo.astro';
 import ProgressNote from '../../components/ProgressNote.astro';
@@ -21,6 +23,8 @@ const city = await getEntry(d.city);
 const teams = await franchisesAtVenue(venue.id);
 const body = await prose('venues', venue.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
+const europe = await prose('venues', venue.id, 'europe');
+const Europe = europe ? (await render(europe)).Content : undefined;
 const basketball = d.capacity?.basketball;
 ---
 
@@ -62,13 +66,18 @@ const basketball = d.capacity?.basketball;
           { label: 'Closed', value: d.closed ? formatDate(d.closed.value) : undefined, source: d.closed?.source, verified: d.closed?.verified },
           { label: 'Basketball capacity', value: basketball ? formatNumber(basketball.value) : undefined, source: basketball?.source, verified: basketball?.verified },
           { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
+          ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
           ...d.formerNames.map((n) => ({ label: 'Former name', value: `${n.name}${n.from ? ` (${n.from}–${n.to ?? ''})` : ''}`, source: n.source, verified: n.verified })),
           { label: 'City', value: city?.data.name, href: city ? routes.cities(city.id) : undefined },
         ]}
       />
       {city && <div class="mt"><LocalTime city={city.data.name} timezone={city.data.timezone} /></div>}
+      {city?.data.coordinates?.verified && (
+        <div class="mt"><Weather city={city.data.name} lat={city.data.coordinates.value.lat} lon={city.data.coordinates.value.lon} timezone={city.data.timezone} /></div>
+      )}
     </aside>
   </div>
+  {Europe && <div class="container section"><EuropeBox><Europe components={{ Term }} /></EuropeBox></div>}
   <div class="container section"><MiniGraph type="venue" id={venue.id} /></div>
   <div class="container section"><SourceList sources={d.sources} credits={[d.image]} /></div>
 </Base>

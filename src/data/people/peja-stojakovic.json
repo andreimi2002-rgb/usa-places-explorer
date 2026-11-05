@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Peja Stojaković",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/s/stojape01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Peja Stojaković (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/stojape01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1998,
+      "to": 2006,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "1998–2006",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Serbian shooter on Sacramento’s teams around 2002.",
+  "image": {
+    "file": "File:Peja Stojakovic Mavs cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Peja_Stojakovic_Mavs_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Peja_Stojakovic_Mavs_cropped.jpg",
+    "author": "Keith Allison from Owings Mills, USA; crop by Chrishmt0423",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Peja Stojaković",
+    "caption": "Peja Stojaković",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Ben Wallace",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ben Wallace stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 1999,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2000,
+      "to": 2006,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2009,
+      "to": 2012,
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "NBA title",
+      "value": "2004, with Detroit",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "4 times (2002, 2003, 2005, 2006)",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2021",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "September 10, 1974, White Hall, Alabama",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Naismith Hall of Fame (2021)",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× All-Star",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× rebounding leader",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "blocks leader (2001-02)",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NBA champion (2004)",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× All-NBA Team",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× All-Defensive Team",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Defensive Player of the Year",
+      "source": "https://www.basketball-reference.com/players/w/wallabe01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Four-time Defensive Player of the Year and the anchor of the 2004 champions.",
+  "image": {
+    "file": "File:Ben Wallace 4104263221 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ben_Wallace_4104263221_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ben_Wallace_4104263221_(cropped).jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ben Wallace",
+    "caption": "Ben Wallace",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jack Sikma",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/s/sikmaja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jack Sikma (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sikmaja01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 1977,
+      "to": 1986,
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Seattle/Oklahoma City",
+      "value": "1977–1986",
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Seattle/Oklahoma City",
+      "value": "1979",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2019",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Seattle/Oklahoma City from 1977 to 1986, winning the 1979 title.",
+  "image": {
+    "file": "File:Jack Sikma 1978.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Jack_Sikma_1978.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jack_Sikma_1978.jpg",
+    "author": "Seattle Municipal Archives",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jack Sikma",
+    "caption": "Jack Sikma",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Ryan Conwell",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "South Florida, Indiana State, Xavier, Louisville",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie guard on Miami’s 2026-27 roster.",
+  "image": {
+    "file": "File:Ryan Conwell.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ryan_Conwell.jpg/1280px-Ryan_Conwell.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ryan_Conwell.jpg",
+    "author": "Governor Eric Holcomb",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Ryan Conwell playing for Indiana State",
+    "caption": "Ryan Conwell at Indiana State, 2024",
+    "licenseChecked": "2026-11-05"
+  }
+}

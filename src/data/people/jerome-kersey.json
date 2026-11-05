@@ -1,0 +1,41 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jerome Kersey",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/k/kerseje01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jerome Kersey (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/k/kerseje01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 1984,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Portland Trail",
+      "value": "1984–1995",
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Portland Trail from 1984 to 1995."
+}

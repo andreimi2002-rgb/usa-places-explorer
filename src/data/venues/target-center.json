@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "First-year Timberwolves (NBA.com)",
+      "url": "https://www.nba.com/timberwolves/news/first-year-timberwolves-still-feel-connected-minnesota",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Target Center",
+  "city": "minneapolis",
+  "capacity": {
+    "basketball": {
+      "value": 18024,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Timberwolves’ downtown Minneapolis home since the 1990-91 season.",
+  "image": {
+    "file": "File:Target Center.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Target_Center.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Target_Center.jpg",
+    "author": "Unknown (public domain)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Exterior of Target Center in Minneapolis",
+    "caption": "Target Center",
+    "licenseChecked": "2026-11-05"
+  }
+}

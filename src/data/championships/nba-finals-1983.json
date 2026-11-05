@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1982-83",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "philadelphia-76ers",
+  "winnerName": "Philadelphia 76ers",
+  "runnerUp": "los-angeles-lakers",
+  "runnerUpName": "Los Angeles Lakers",
+  "result": "4–0",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

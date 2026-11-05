@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Elgin Baylor",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/b/bayloel01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Elgin Baylor (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bayloel01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 1958,
+      "to": 1972,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Lakers",
+      "value": "1958–1972",
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Lakers",
+      "value": "1972",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1977",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "High-scoring forward who moved with the Lakers from Minneapolis to Los Angeles.",
+  "image": {
+    "file": "File:Elgin Baylor Night program-(cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Elgin_Baylor_Night_program-%28cropped%29.jpg/960px-Elgin_Baylor_Night_program-%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elgin_Baylor_Night_program-(cropped).jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Elgin Baylor",
+    "caption": "Professional basketball Elgin Baylor on the cover of a Los Angeles Lakers program on",
+    "licenseChecked": "2026-11-05"
+  }
+}

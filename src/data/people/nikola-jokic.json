@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "Nikola Jokić",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "Nikola Jokić stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Nuggets edge Heat for first NBA championship (NBA.com)",
+      "url": "https://www.nba.com/news/denver-nuggets-edge-miami-heat-for-1st-nba-championship-in-franchise-history",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 2015,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2014, round 2, pick 41, by Denver",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2023",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2023",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2021, 2022, 2024",
+      "source": "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Serbian center, a three-time MVP picked 41st in 2014, who led Denver to its first title in 2023.",
+  "image": {
+    "file": "File:Nikola Jokic free throw (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nikola_Jokic_free_throw_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Nikola Jokić",
+    "caption": "Nikola Jokić",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Yao Ming",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Yao Ming stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mingya01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2002,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2002, No. 1 overall, by Houston",
+      "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2016",
+      "source": "https://www.basketball-reference.com/players/m/mingya01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center and first overall pick in 2002, with Houston for his whole career.",
+  "image": {
+    "file": "File:YaoMingonoffense2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/YaoMingonoffense2.jpg/960px-YaoMingonoffense2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YaoMingonoffense2.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Photo of Yao Ming",
+    "caption": "Yao Ming",
+    "licenseChecked": "2026-11-05"
+  }
+}

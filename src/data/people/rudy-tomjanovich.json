@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Rudy Tomjanovich",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/t/tomjaru01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rudy Tomjanovich coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Rudy Tomjanovich (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/tomjaru01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1970,
+      "to": 1981,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "head-coach",
+      "from": 1992,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "head-coach",
+      "from": 2004,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Titles as coach",
+      "value": "1994, 1995, with Houston",
+      "source": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2020 (coach)",
+      "source": "https://www.basketball-reference.com/coaches/tomjaru01c.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rockets forward for eleven seasons, then the coach of both Houston titles.",
+  "image": {
+    "file": "File:Rudy Tomjanovich (1970).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Rudy_Tomjanovich_%281970%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Rudy_Tomjanovich_(1970).png",
+    "author": "Unidentified (Ensian published by University of Michigan)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Rudy Tomjanovich",
+    "caption": "Rudy Tomjanovich",
+    "licenseChecked": "2026-11-05"
+  }
+}

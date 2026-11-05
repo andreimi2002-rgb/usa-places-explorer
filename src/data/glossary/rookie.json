@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "2026 NBA Draft (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "Rookie",
+  "short": "A player in his first NBA season. Rookies can be draft picks or undrafted players signed by a team.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "nba-draft",
+    "two-way-contract"
+  ]
+}

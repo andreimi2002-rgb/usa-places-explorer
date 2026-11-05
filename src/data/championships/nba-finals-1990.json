@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "league": "nba",
+  "season": "1989-90",
+  "level": "league",
+  "title": "NBA Finals",
+  "winner": "detroit-pistons",
+  "winnerName": "Detroit Pistons",
+  "runnerUp": "portland-trail-blazers",
+  "runnerUpName": "Portland Trail Blazers",
+  "result": "4–1",
+  "source": "https://www.nba.com/news/history-nba-champions",
+  "verified": "2026-11-05"
+}

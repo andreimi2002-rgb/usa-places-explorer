@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Zach Randolph",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/r/randoza01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Zach Randolph (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/randoza01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "memphis-grizzlies",
+      "role": "player",
+      "from": 2009,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Memphis",
+      "value": "2009–2017",
+      "source": "https://www.basketball-reference.com/teams/MEM/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Power forward of the Grizzlies teams of the early 2010s.",
+  "image": {
+    "file": "File:Zach Randolph profile view.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Zach_Randolph_profile_view.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zach_Randolph_profile_view.jpg",
+    "author": "eric molina",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Zach Randolph",
+    "caption": "Zach Randolph",
+    "licenseChecked": "2026-11-05"
+  }
+}

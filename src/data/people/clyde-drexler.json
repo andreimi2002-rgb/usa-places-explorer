@@ -1,0 +1,76 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Clyde Drexler",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/d/drexlcl01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Clyde Drexler (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/drexlcl01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 1983,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1995,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Houston",
+      "value": "1995–1998",
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2004",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Joined Houston in 1995 and won that year’s title.",
+  "image": {
+    "file": "File:Clyde Drexler 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_Drexler_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clyde_Drexler_02.jpg",
+    "author": "University of Houston",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Clyde Drexler",
+    "caption": "Clyde Drexler",
+    "licenseChecked": "2026-11-05"
+  }
+}

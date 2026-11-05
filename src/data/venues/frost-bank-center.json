@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Frost Bank Center: About (Frost Bank Center)",
+      "url": "https://www.frostbankcenter.com/about",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Frost Bank Center",
+  "city": "san-antonio",
+  "opened": {
+    "value": "2002",
+    "source": "https://www.frostbankcenter.com/about",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18354,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Bexar County",
+    "source": "https://www.frostbankcenter.com/about",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [],
+  "summary": "The Spurs’ Bexar County-owned arena since 2002, also home of the San Antonio Stock Show & Rodeo.",
+  "image": {
+    "file": "File:AT&T Center at day.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/AT%26T_Center_at_day.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Center_at_day.jpg",
+    "author": "Atristan 77",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the arena now called Frost Bank Center",
+    "caption": "The arena under its earlier name, AT&T Center",
+    "licenseChecked": "2026-11-05"
+  }
+}

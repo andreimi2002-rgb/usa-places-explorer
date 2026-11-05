@@ -24,6 +24,11 @@ const body = await prose('people', person.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
 const roleLabel = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
 const first = roles[0];
+const honours = d.honours.filter((h) => h.verified);
+const honoursSource = honours[0]?.source;
+// Award rows already shown in "Career honours" are left out of the Key facts box.
+const awardFact = /^(Rookie of the Year|Finals MVP|Most Valuable Player|MVP|Naismith Hall of Fame|NBA titles?|All-Star|Defensive Player of the Year|NBA scoring champion|All-NBA.*|Most Improved Player|Sixth Man of the Year)$/;
+const keyFacts = honours.length > 0 ? d.facts.filter((f) => !awardFact.test(f.label)) : d.facts;
 ---
 
 <Base title={d.name} description={d.summary}>
@@ -36,6 +41,19 @@ const first = roles[0];
   <div class="container section layout">
     <article>
       <ProgressNote progress={d.progress} kind="profile" />
+      {honours.length > 0 && (
+        <section class="honours" aria-labelledby="honours-title">
+          <h2 id="honours-title">Career honours</h2>
+          <ul>
+            {honours.map((h) => <li>{h.label}</li>)}
+          </ul>
+          {honoursSource && (
+            <p class="subtle">
+              Whole career, all teams. Source: <a href={honoursSource} rel="noopener" target="_blank">{new URL(honoursSource).hostname.replace(/^www\./, '')}</a>
+            </p>
+          )}
+        </section>
+      )}
       {Body && <div class="prose"><Body components={{ Term }} /></div>}
       {trades.length > 0 && (
         <>
@@ -63,7 +81,7 @@ const first = roles[0];
               source: r.source,
               verified: r.verified,
             })),
-            ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
+            ...keyFacts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
           ]}
         />
       </div>
@@ -85,6 +103,29 @@ const first = roles[0];
   }
   .mt {
     margin-top: 2rem;
+  }
+  .honours {
+    margin-bottom: 2.25rem;
+  }
+  .honours h2 {
+    font-size: var(--step-2);
+    margin-bottom: 0.75rem;
+  }
+  .honours ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.6rem;
+  }
+  .honours li {
+    padding: 0.35rem 0.7rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: var(--surface);
+    font-size: var(--step--1);
+    font-weight: 600;
   }
   .noimg {
     display: grid;

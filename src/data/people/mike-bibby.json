@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Mike Bibby",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/b/bibbymi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mike Bibby (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bibbymi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2001,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "2001–2008",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Sacramento from 2001 to 2008.",
+  "image": {
+    "file": "File:MikeBibbyMiamiHeat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MikeBibbyMiamiHeat.jpg/960px-MikeBibbyMiamiHeat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MikeBibbyMiamiHeat.jpg",
+    "author": "Keith Allison (Keith Allison) from Baltimore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mike Bibby",
+    "caption": "Mike Bibby",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -11,6 +11,16 @@
       "title": "Orlando Magic Hall of Fame members (ClickOrlando)",
       "url": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Magic co-founder Pat Williams dies at 84 (AP via ABC News)",
+      "url": "https://abcnews.go.com/Sports/wireStory/magic-founder-pat-williams-helped-bring-team-orlando-112055270",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Pat Williams, Magic co-founder, dies at 84 (CBS Sports)",
+      "url": "https://www.cbssports.com/nba/news/pat-williams-magic-co-founder-and-longtime-nba-team-executive-dies-at-84",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Pat Williams",
@@ -36,7 +46,48 @@
       "value": "2014",
       "source": "https://www.clickorlando.com/sports/2025/03/24/can-you-name-all-13-members-of-the-orlando-magic-hall-of-fame",
       "verified": "2026-11-05"
+    },
+    {
+      "label": "First Magic general manager",
+      "value": "1989–1996",
+      "source": "https://www.cbssports.com/nba/news/pat-williams-magic-co-founder-and-longtime-nba-team-executive-dies-at-84",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia 76ers general manager",
+      "value": "1974–1986 (champions 1983)",
+      "source": "https://www.cbssports.com/nba/news/pat-williams-magic-co-founder-and-longtime-nba-team-executive-dies-at-84",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Died",
+      "value": "July 17, 2024, aged 84",
+      "source": "https://abcnews.go.com/Sports/wireStory/magic-founder-pat-williams-helped-bring-team-orlando-112055270",
+      "verified": "2026-11-06"
     }
   ],
-  "summary": "The co-founder who persuaded the NBA that Orlando deserved a team."
+  "honours": [
+    {
+      "label": "John W. Bunn Lifetime Achievement Award, Naismith Hall of Fame (2012)",
+      "source": "https://www.cbssports.com/nba/news/pat-williams-magic-co-founder-and-longtime-nba-team-executive-dies-at-84",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Orlando Magic Hall of Fame (2014)",
+      "source": "https://www.cbssports.com/nba/news/pat-williams-magic-co-founder-and-longtime-nba-team-executive-dies-at-84",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The co-founder who persuaded the NBA that Orlando deserved a team, then built its first contender as general manager.",
+  "image": {
+    "file": "File:Pat Williams in Chicago Bulls 1971-72 Media Guide.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pat_Williams_in_Chicago_Bulls_1971-72_Media_Guide.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pat_Williams_in_Chicago_Bulls_1971-72_Media_Guide.jpg",
+    "author": "Unknown (Chicago Bulls media guide)",
+    "license": "Public domain (published without copyright notice)",
+    "licenseUrl": null,
+    "alt": "Black-and-white portrait of a young Pat Williams in a suit and tie",
+    "caption": "Pat Williams in the Chicago Bulls’ 1971-72 media guide",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -29,9 +29,13 @@ Assume no prior knowledge. Every piece of jargon is explained the first time it 
 
 **Order of leagues**
 
-1. NBA (in progress: skeleton + Orlando Magic pilot)
-2. NFL, MLB, NHL
-3. MLS, WNBA, NWSL, PWHL, UFL
+1. NBA (in progress: 10 of 30 teams complete, the rest in lots of five)
+2. MLS, right after the NBA (the closest sport to a European reader; may move to after the NFL)
+3. NFL
+4. MLB
+5. NHL
+6. College sports (NCAA universities), after the five pro leagues; scope to be agreed then
+7. WNBA, NWSL, PWHL, UFL
 
 **Rules**
 
@@ -39,8 +43,19 @@ Assume no prior knowledge. Every piece of jargon is explained the first time it 
 - Never hard-code a team count. Counts are always computed from the data.
 - Semi-current facts are allowed only with an `asOf` season: head coach and home venue.
 
-**Out of scope:** rosters, results, schedules, standings, statistics, paid or runtime APIs, weather, any
-backend, user accounts.
+**Out of scope:** full rosters, results, schedules, standings, statistics, paid APIs, any backend, user
+accounts.
+
+**Scope changes approved by the owner (2026-11-05):**
+- **Core players** (3–5 faces of the current team, chosen from NBA.com's season previews) and **rookies** (first-year
+  players on the current roster) are allowed as semi-current facts, always labelled with their season (`asOf`).
+  A link to the official roster covers everyone else.
+- **Live weather** for each city, loaded in the visitor's browser from Open-Meteo (free, no key, CC BY 4.0, credited
+  under the widget). No server, no stored data; if the service is down the widget simply does not appear.
+  Open-Meteo's free tier is for non-commercial use, so a paid plan is needed if the site ever carries ads.
+- **City pages are hubs**: all teams in the city across every sport, teams that left, venues, rivalries, titles won
+  there, local time and weather, and neighbouring cities in the same metro area. Generated from the data, so
+  they grow with each new league.
 
 ## 5. Tech
 
@@ -121,12 +136,14 @@ The whole site is `noindex, nofollow` until launch, controlled by one switch: `i
 | Phase | Content | State |
 |---|---|---|
 | 0 | Archive the old project, scaffold the encyclopedia | Done |
-| 1 | NBA skeleton (league, conferences, divisions, all current franchises as stubs) + Orlando Magic pilot | Done, under review |
-| 2 | Remaining NBA franchises to `complete`, one at a time; key rivalries, legends, more glossary | Next, after review |
-| 3 | NFL, MLB, NHL skeletons, then pilots; sport extensions in use | Planned |
-| 4 | MLS, WNBA, NWSL, PWHL, UFL | Planned |
-| 5 | Romanian translation (Astro i18n routes; data stays shared) | Planned |
-| 6 | Launch: final license review, switch `indexable` on | Planned |
+| 1 | NBA: skeleton, Orlando Magic pilot, then all 30 teams in lots | Done (2026-11-06), final check done |
+| 1b | Depth model page: Orlando Magic in the full format (general overview, fuller history, biographies with honours, richer venue, full city page, "For European fans" box). Production merge after the user approves it | In progress |
+| 2–5 | MLS, NFL, MLB, NHL, each built directly in the full format of 1b; one PR and one production merge per league | Planned |
+| 5b | Depth backfill: the other 29 NBA teams to the 1b format; all city pages deepened once, when every sport is in | After the NHL |
+| 6 | College sports: universities as entities, linked to players' colleges; pilot on one major conference and 2–3 sports, then grow | Planned, to be detailed |
+| 7 | WNBA, NWSL, PWHL, UFL | Planned |
+| 8 | Romanian translation (Astro i18n routes; data stays shared) | Planned |
+| 9 | Launch: final license review, switch `indexable` on | Planned |
 
 ## 12. Progress tracking
 

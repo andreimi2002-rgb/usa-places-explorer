@@ -1,0 +1,65 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "John Stockton",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "John Stockton stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 1984,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1984, No. 16 overall, by Utah",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career assists",
+      "value": "15,806",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Career steals",
+      "value": "3,265",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2009",
+      "source": "https://www.basketball-reference.com/players/s/stockjo01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard who played all nineteen seasons in Utah and finished with 15,806 assists.",
+  "image": {
+    "file": "File:John Stockton 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/John_Stockton_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Stockton_2022.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of John Stockton",
+    "caption": "John Stockton",
+    "licenseChecked": "2026-11-05"
+  }
+}

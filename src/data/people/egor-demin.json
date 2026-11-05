@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Egor Dëmin",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "BYU",
+      "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "1",
+      "source": "https://www.basketball-reference.com/teams/BRK/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Russian second-year guard with the tools to be a long-time starter.",
+  "image": {
+    "file": "File:Egor Demin - BYU Blue vs. White 2024 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Egor_Demin_-_BYU_Blue_vs._White_2024_%28cropped%29.jpg/960px-Egor_Demin_-_BYU_Blue_vs._White_2024_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Egor_Demin_-_BYU_Blue_vs._White_2024_(cropped).jpg",
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Egor Dëmin",
+    "caption": "Egor Dëmin",
+    "licenseChecked": "2026-11-05"
+  }
+}

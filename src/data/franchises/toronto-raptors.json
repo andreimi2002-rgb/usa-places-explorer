@@ -1,20 +1,231 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Toronto Raptors team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612761/raptors",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Masai and Kawhi lead Raptors to 2019 title (NBA.com)",
+      "url": "https://www.nba.com/news/masai-ujiri-kawhi-leonard-raptors-championship",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Back in Toronto, Kawhi Leonard (NBA.com)",
+      "url": "https://www.nba.com/news/back-in-toronto-kawhi-leonard-wants-to-chase-another-ring-as-a-raptor",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-tor",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Toronto Raptors",
   "league": "nba",
   "division": "nba-atlantic",
+  "founded": {
+    "value": 1995,
+    "source": "https://www.nba.com/team/1610612761/raptors",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1995-96",
+    "source": "https://www.basketball-reference.com/teams/TOR/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#BC2126"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Red taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/toronto-raptors.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "scotiabank-arena",
+      "from": 1999,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Darko Rajaković",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/team/1610612761/raptors",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Governor: Lawrence Tanenbaum",
+    "source": "https://www.nba.com/team/1610612761/raptors",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1995",
+      "label": "Join the NBA as an expansion team",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612761/raptors",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1998",
+      "label": "Vince Carter arrives and is Rookie of the Year",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/c/cartevi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999",
+      "label": "Move into today’s Scotiabank Arena",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2009",
+      "label": "Draft DeMar DeRozan ninth overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Trade for Kawhi Leonard",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/masai-ujiri-kawhi-leonard-raptors-championship",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019",
+      "label": "First NBA title, 4–2 over Golden State; Leonard is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/masai-ujiri-kawhi-leonard-raptors-championship",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Leonard returns to Toronto",
+      "kind": "other",
+      "source": "https://www.nba.com/news/back-in-toronto-kawhi-leonard-wants-to-chase-another-ring-as-a-raptor",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The NBA’s Canadian team since 1995: champions in 2019 with Kawhi Leonard, who came back in 2026.",
+  "legends": [
+    "vince-carter",
+    "kyle-lowry",
+    "demar-derozan",
+    "kawhi-leonard"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/raptors/roster",
+    "players": [
+      {
+        "person": "kawhi-leonard",
+        "source": "https://www.nba.com/news/2026-27-season-preview-tor",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "scottie-barnes",
+        "source": "https://www.nba.com/news/2026-27-season-preview-tor",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "rj-barrett",
+        "source": "https://www.nba.com/news/2026-27-season-preview-tor",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "immanuel-quickley",
+        "source": "https://www.nba.com/news/2026-27-season-preview-tor",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "allen-graves",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 19
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jaden-bradley",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 50
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "nate-bittle",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/TOR/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Scotiabank Arena Exterior.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Scotiabank_Arena_Exterior.jpg/1280px-Scotiabank_Arena_Exterior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Scotiabank_Arena_Exterior.jpg",
+    "author": "SamKramer123",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Scotiabank Arena",
+    "caption": "Scotiabank Arena",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -1,0 +1,186 @@
+---
+/**
+ * Live weather for a city, fetched in the visitor's browser from Open-Meteo
+ * (free, no key, CC BY 4.0 data). Nothing is stored or proxied by the site.
+ * If the request fails, the widget hides itself; the rest of the page is unaffected.
+ * Celsius by default (European readers), with a °F toggle remembered per browser.
+ */
+interface Props {
+  city: string;
+  lat: number;
+  lon: number;
+  timezone: string;
+}
+const { city, lat, lon, timezone } = Astro.props;
+---
+
+<section class="weather" aria-labelledby="weather-title" data-lat={lat} data-lon={lon} data-tz={timezone} hidden>
+  <div class="head">
+    <h2 id="weather-title">Weather in {city} now</h2>
+    <button type="button" class="unit" data-role="unit" aria-label="Switch temperature unit">°F</button>
+  </div>
+  <div class="now">
+    <span class="icon" data-role="icon" aria-hidden="true"></span>
+    <span class="temp" data-role="temp">—</span>
+    <span class="desc">
+      <strong data-role="desc"></strong>
+      <span class="subtle" data-role="extra"></span>
+    </span>
+  </div>
+  <ol class="days" data-role="days" aria-label="Next three days"></ol>
+  <p class="credit subtle">
+    Live data from <a href="https://open-meteo.com/" rel="noopener" target="_blank">Open-Meteo.com</a> (CC BY 4.0), loaded in your browser.
+  </p>
+</section>
+
+<script>
+  // WMO weather codes → plain words and a simple icon.
+  const CODES: [number[], string, string][] = [
+    [[0], 'Clear sky', '☀️'],
+    [[1, 2], 'Partly cloudy', '⛅'],
+    [[3], 'Overcast', '☁️'],
+    [[45, 48], 'Fog', '🌫️'],
+    [[51, 53, 55, 56, 57], 'Drizzle', '🌦️'],
+    [[61, 63, 65, 66, 67, 80, 81, 82], 'Rain', '🌧️'],
+    [[71, 73, 75, 77, 85, 86], 'Snow', '🌨️'],
+    [[95, 96, 99], 'Thunderstorm', '⛈️'],
+  ];
+  const describe = (code: number) => CODES.find(([c]) => c.includes(code)) ?? [[code], 'Mixed', '🌤️'];
+  const KEY = 'ase-temp-unit';
+  const getUnit = () => {
+    try {
+      return localStorage.getItem(KEY) === 'F' ? 'F' : 'C';
+    } catch {
+      return 'C';
+    }
+  };
+  const setUnit = (u: string) => {
+    try {
+      localStorage.setItem(KEY, u);
+    } catch {
+      /* private mode: keep the choice for this page only */
+    }
+  };
+  const fmt = (c: number, u: string) => (u === 'F' ? `${Math.round((c * 9) / 5 + 32)}°F` : `${Math.round(c)}°C`);
+
+  for (const el of document.querySelectorAll<HTMLElement>('.weather[data-lat]')) {
+    const q = new URLSearchParams({
+      latitude: el.dataset.lat!,
+      longitude: el.dataset.lon!,
+      timezone: el.dataset.tz!,
+      current: 'temperature_2m,apparent_temperature,weather_code,wind_speed_10m',
+      daily: 'weather_code,temperature_2m_max,temperature_2m_min',
+      forecast_days: '4',
+      wind_speed_unit: 'kmh',
+    });
+    fetch(`https://api.open-meteo.com/v1/forecast?${q}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((data) => {
+        let unit = getUnit();
+        const $ = (role: string) => el.querySelector<HTMLElement>(`[data-role="${role}"]`)!;
+        const render = () => {
+          const cur = data.current;
+          const [, text, icon] = describe(cur.weather_code);
+          $('icon').textContent = icon;
+          $('temp').textContent = fmt(cur.temperature_2m, unit);
+          $('desc').textContent = text;
+          $('extra').textContent = `Feels like ${fmt(cur.apparent_temperature, unit)} · wind ${Math.round(cur.wind_speed_10m)} km/h`;
+          $('unit').textContent = unit === 'C' ? '°F' : '°C';
+          const days = $('days');
+          days.replaceChildren(
+            ...data.daily.time.slice(1, 4).map((day: string, i: number) => {
+              const li = document.createElement('li');
+              const [, t, ic] = describe(data.daily.weather_code[i + 1]);
+              const name = new Date(`${day}T12:00:00`).toLocaleDateString('en-GB', { weekday: 'short' });
+              li.innerHTML = `<span class="d">${name}</span><span aria-hidden="true">${ic}</span><span class="sr-only">${t}</span><span>${fmt(data.daily.temperature_2m_max[i + 1], unit)} / ${fmt(data.daily.temperature_2m_min[i + 1], unit)}</span>`;
+              return li;
+            }),
+          );
+        };
+        render();
+        $('unit').addEventListener('click', () => {
+          unit = unit === 'C' ? 'F' : 'C';
+          setUnit(unit);
+          render();
+        });
+        el.hidden = false;
+      })
+      .catch(() => {
+        /* No weather if the API is unreachable; the widget stays hidden. */
+      });
+  }
+</script>
+
+<style>
+  .weather {
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  h2 {
+    font-size: var(--step-3);
+    margin: 0;
+  }
+  .unit {
+    padding: 0.25rem 0.7rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .now {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin: 1rem 0;
+  }
+  .icon {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
+  .temp {
+    font-family: var(--font-display);
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+  .desc {
+    display: grid;
+  }
+  .days {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .days :global(li) {
+    display: grid;
+    justify-items: center;
+    gap: 0.15rem;
+    padding: 0.6rem 0.4rem;
+    border-radius: var(--radius);
+    background: var(--surface);
+    font-size: 0.85rem;
+  }
+  .days :global(.d) {
+    color: var(--text-subtle);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+  }
+  .credit {
+    margin: 1rem 0 0;
+    font-size: 0.75rem;
+  }
+</style>

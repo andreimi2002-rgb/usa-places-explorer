@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Bill Laimbeer",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/l/laimbbi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bill Laimbeer (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/l/laimbbi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1981,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Detroit",
+      "value": "1981–1994",
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Detroit",
+      "value": "1989, 1990",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center of the Pistons teams that won the 1989 and 1990 titles.",
+  "image": {
+    "file": "File:Bill Laimbeer 2 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bill_Laimbeer_2_%28cropped%29.jpg/960px-Bill_Laimbeer_2_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_Laimbeer_2_(cropped).jpg",
+    "author": "Lorie Shaull",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Bill Laimbeer",
+    "caption": "Bill Laimbeer",
+    "licenseChecked": "2026-11-05"
+  }
+}

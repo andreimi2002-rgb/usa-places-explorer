@@ -11,6 +11,41 @@
       "title": "Orlando, Florida (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Orlando,_Florida",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Orlando International Airport (MCO)",
+      "url": "https://flymco.com/",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "UCF officially joins Big 12 Conference (UCF Athletics)",
+      "url": "https://ucfknights.com/news/2023/07/1/ucf-officially-joins-big-12-conference",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Pride (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_Pride",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Venues (City of Orlando)",
+      "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Wet and dry season onset at Orlando (National Weather Service)",
+      "url": "https://www.weather.gov/mlb/mco_wetdry",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Train to the Game (SunRail)",
+      "url": "https://sunrail.com/agency-information/press-releases/back-by-popular-demand-sunrail-and-the-orlando-magic-train-to-the-game/",
+      "accessed": "2026-11-06"
     }
   ],
   "name": "Orlando",
@@ -23,7 +58,7 @@
     "verified": "2026-11-05",
     "note": "2020 U.S. census, city proper, as reported by Wikipedia."
   },
-  "summary": "Central Florida’s largest inland city: a theme-park capital that also follows a homegrown NBA team.",
+  "summary": "Central Florida’s largest inland city: a theme-park capital with its own NBA, MLS and NWSL teams and a Big 12 university.",
   "image": {
     "licenseChecked": "2026-11-05",
     "file": "File:Lake-eola-park-orlando-florida.jpg",
@@ -34,5 +69,34 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "alt": "Lake Eola with bird sculptures in the water and the downtown Orlando skyline behind",
     "caption": "Lake Eola and downtown Orlando"
-  }
+  },
+  "coordinates": {
+    "value": {
+      "lat": 28.5383,
+      "lon": -81.3792
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Orlando&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4167147: Orlando, Florida"
+  },
+  "facts": [
+    {
+      "label": "Main airport",
+      "value": "Orlando International Airport (MCO)",
+      "source": "https://flymco.com/",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Wet season",
+      "value": "Usually late May to mid-October",
+      "source": "https://www.weather.gov/mlb/mco_wetdry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Other major teams",
+      "value": "Orlando City SC (MLS), Orlando Pride (NWSL), UCF Knights (Big 12)",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    }
+  ]
 }

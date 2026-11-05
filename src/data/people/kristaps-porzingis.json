@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Kristaps Porziņģis",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [],
+  "summary": "Latvian big man, re-signed by Golden State for 2026-27.",
+  "image": {
+    "file": "File:Kristaps Porziņģis 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kristaps_Porzi%C5%86%C4%A3is_2022.jpg/960px-Kristaps_Porzi%C5%86%C4%A3is_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kristaps_Porzi%C5%86%C4%A3is_2022.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kristaps Porziņģis",
+    "caption": "Porziņģis with the Boston Celtics in",
+    "licenseChecked": "2026-11-05"
+  }
+}

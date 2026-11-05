@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Bernard King",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/k/kingbe01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bernard King (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/k/kingbe01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1982,
+      "to": 1987,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New York",
+      "value": "1982–1987",
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2013",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New York from 1982 to 1987.",
+  "image": {
+    "file": "File:Bernard King UT.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bernard_King_UT.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bernard_King_UT.jpg",
+    "author": "Unknown University of Tennessee",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bernard King",
+    "caption": "American college basketball player Bernard King of the University of Tennessee in the",
+    "licenseChecked": "2026-11-05"
+  }
+}

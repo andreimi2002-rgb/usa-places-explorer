@@ -1,0 +1,77 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jimmy Butler",
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2019,
+      "to": 2025,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "2019–2025",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "College",
+      "value": "Tyler Junior College, Marquette",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "15",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Led Miami to the 2020 and 2023 Finals; with Golden State since 2025.",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+    "verified": "2026-11-05"
+  },
+  "image": {
+    "file": "File:CES 2026 - Jimmy Butler 01 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/CES_2026_-_Jimmy_Butler_01_%28cropped%29.jpg/960px-CES_2026_-_Jimmy_Butler_01_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Jimmy_Butler_01_(cropped).jpg",
+    "author": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jimmy Butler",
+    "caption": "Jimmy Butler at CES 2026 (January 8,",
+    "licenseChecked": "2026-11-05"
+  }
+}

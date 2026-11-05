@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Walker Kessler",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026-27 season preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-lal",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-lakers",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/LAL/players.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "UNC, Auburn",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/teams/LAL/2027.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Center who joined the Lakers in the 2026 off-season."
+}

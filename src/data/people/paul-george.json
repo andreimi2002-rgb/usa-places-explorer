@@ -1,0 +1,90 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Paul George",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 2010,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 2019,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/BOS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Fresno State",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "16",
+      "source": "https://www.basketball-reference.com/teams/BOS/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Acquired",
+      "value": "Trade with Philadelphia, July 2026",
+      "source": "https://www.nba.com/celtics/news/press-release-20260706-celtics-acquire-nine-time-nba-all-star-paul-george-and-future-draft-picks",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Nine-time All-Star who joined Boston in the 2026 trade for Jaylen Brown.",
+  "image": {
+    "file": "File:Pacers Paul George (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Pacers_Paul_George_%28cropped%29.jpg/960px-Pacers_Paul_George_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pacers_Paul_George_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Paul George",
+    "caption": "Paul George press conference during 2014 NBA",
+    "licenseChecked": "2026-11-05"
+  }
+}

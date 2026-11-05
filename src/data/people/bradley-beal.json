@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Bradley Beal",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/b/bealbr01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bradley Beal (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bealbr01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2012,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "2012–2023",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 2012 to 2023.",
+  "image": {
+    "file": "File:Bradley Beal 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Bradley_Beal_2020.jpg/960px-Bradley_Beal_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bradley_Beal_2020.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Bradley Beal",
+    "caption": "Bradley Beal",
+    "licenseChecked": "2026-11-05"
+  }
+}

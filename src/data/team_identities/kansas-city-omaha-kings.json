@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/SAC/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "sacramento-kings",
+  "name": "Kansas City-Omaha Kings",
+  "city": "kansas-city",
+  "from": {
+    "value": 1972,
+    "source": "https://www.basketball-reference.com/teams/SAC/",
+    "verified": "2026-11-05"
+  },
+  "to": 1975,
+  "current": false
+}

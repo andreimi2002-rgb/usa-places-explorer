@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/HOU/",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "houston-rockets",
+  "name": "San Diego Rockets",
+  "city": "san-diego",
+  "from": {
+    "value": 1967,
+    "source": "https://www.basketball-reference.com/teams/HOU/",
+    "verified": "2026-11-05"
+  },
+  "to": 1971,
+  "current": false
+}

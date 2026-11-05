@@ -1,0 +1,41 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Josh Smith",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/s/smithjo03.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Josh Smith (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/smithjo03.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2004,
+      "to": 2013,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Atlanta",
+      "value": "2004–2013",
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Atlanta from 2004 to 2013."
+}

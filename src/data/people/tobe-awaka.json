@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Tobe Awaka",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Tennessee, Arizona",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/CHI/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie forward on a two-way contract with Chicago in 2026-27.",
+  "image": {
+    "file": "File:Tobe Awaka.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Tobe_Awaka.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tobe_Awaka.jpg",
+    "author": "edwarddallas",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Tobe Awaka playing for Tennessee",
+    "caption": "Tobe Awaka at Tennessee, 2024",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Derrick Rose",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/r/rosede01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Derrick Rose (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/rosede01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2008,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Chicago",
+      "value": "2008–2016",
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Point guard for Chicago from 2008 to 2016.",
+  "image": {
+    "file": "File:Derrick Rose (37670935991).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Derrick_Rose_%2837670935991%29.jpg/960px-Derrick_Rose_%2837670935991%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derrick_Rose_(37670935991).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Derrick Rose",
+    "caption": "Derrick Rose of the Cleveland",
+    "licenseChecked": "2026-11-05"
+  }
+}

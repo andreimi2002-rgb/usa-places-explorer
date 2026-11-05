@@ -1,0 +1,80 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "name": "DeMar DeRozan",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Shooting Guard, Small Forward, and Power Forward."
+  },
+  "sources": [
+    {
+      "title": "DeMar DeRozan stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2009,
+      "to": 2018,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 2018,
+      "to": 2021,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 2021,
+      "to": 2024,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 2024,
+      "to": 2026,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "2009, No. 9 overall, by Toronto",
+      "source": "https://www.basketball-reference.com/players/d/derozde01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Drafted by Toronto in 2009, its star wing for nine seasons.",
+  "image": {
+    "file": "File:DeMar DeRozan 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/DeMar_DeRozan_2022.jpg/960px-DeMar_DeRozan_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DeMar_DeRozan_2022.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of DeMar DeRozan",
+    "caption": "DeMar DeRozan",
+    "licenseChecked": "2026-11-05"
+  }
+}

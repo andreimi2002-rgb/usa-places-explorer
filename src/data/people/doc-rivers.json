@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Doc Rivers",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/r/riverdo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Doc Rivers (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/riverdo01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic coaches (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/coaches.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Doc Rivers coaching record (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/coaches/riverdo01c.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 1983,
+      "to": 1991,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "head-coach",
+      "from": 1999,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/ORL/coaches.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Atlanta",
+      "value": "1983–1991",
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Coach of the Year",
+      "value": "1999-00, with Orlando",
+      "source": "https://www.basketball-reference.com/coaches/riverdo01c.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Played for Atlanta from 1983 to 1991.",
+  "image": {
+    "file": "File:Rivers 76ers.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rivers_76ers.jpg/960px-Rivers_76ers.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivers_76ers.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Doc Rivers",
+    "caption": "Doc Rivers",
+    "licenseChecked": "2026-11-05"
+  }
+}

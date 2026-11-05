@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Bio: Micky Arison (NBA.com)",
+      "url": "https://www.nba.com/heat/bio/micky-arison",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "miami-heat",
   "name": "Miami Heat",
   "city": "miami",
+  "from": {
+    "value": 1988,
+    "source": "https://www.nba.com/heat/bio/micky-arison",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

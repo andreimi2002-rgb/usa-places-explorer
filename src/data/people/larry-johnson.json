@@ -1,0 +1,41 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Larry Johnson",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/j/johnsla02.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Larry Johnson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/johnsla02.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1991,
+      "to": 1996,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "1991–1996",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Forward of the first Hornets’ best teams in the early 1990s."
+}

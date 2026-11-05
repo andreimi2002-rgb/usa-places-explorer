@@ -1,0 +1,71 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Donovan Mitchell",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2017,
+      "to": 2022,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Louisville",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Star guard who re-signed on a four-year extension in 2026.",
+  "image": {
+    "file": "File:Donovan Mitchell cavs 2023 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Donovan_Mitchell_cavs_2023_%28cropped%29.jpg/1280px-Donovan_Mitchell_cavs_2023_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Donovan_Mitchell_cavs_2023_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Donovan Mitchell in a Cavaliers uniform",
+    "caption": "Donovan Mitchell, 2023",
+    "licenseChecked": "2026-11-05"
+  }
+}

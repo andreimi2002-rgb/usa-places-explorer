@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "OG Anunoby",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Indiana",
+      "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Two-way forward and a key piece of the 2026 champions.",
+  "image": {
+    "file": "File:OG Anunoby (41708749222) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/OG_Anunoby_%2841708749222%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:OG_Anunoby_(41708749222)_(cropped).jpg",
+    "author": "Keith Allison: Flickr, e-mail, Twitter, Instagram, website",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "OG Anunoby in a Raptors uniform",
+    "caption": "OG Anunoby with Toronto, 2018",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Fred VanVleet",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/HOU/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2016,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Wichita State",
+      "source": "https://www.basketball-reference.com/teams/HOU/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/HOU/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran point guard returning after a season lost to injury.",
+  "image": {
+    "file": "File:Fred VanVleet (51915270294) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Fred_VanVleet_%2851915270294%29_%28cropped%29.jpg/960px-Fred_VanVleet_%2851915270294%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fred_VanVleet_(51915270294)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Fred VanVleet",
+    "caption": "Fred VanVleet",
+    "licenseChecked": "2026-11-05"
+  }
+}

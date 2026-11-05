@@ -1,0 +1,53 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Ebuka Okorie",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Stanford",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2026, round 1, pick 17",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie guard, picked 17th in the 2026 draft."
+}

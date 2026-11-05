@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Keyonte George",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Baylor",
+      "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "3",
+      "source": "https://www.basketball-reference.com/teams/UTA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Starting guard who signed a five-year extension in 2026.",
+  "image": {
+    "file": "File:Keyonte George Jan 14 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Keyonte_George_Jan_14_2026.jpg/960px-Keyonte_George_Jan_14_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Keyonte_George_Jan_14_2026.jpg",
+    "author": "Brady Saylor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Keyonte George",
+    "caption": "Keyonte George",
+    "licenseChecked": "2026-11-05"
+  }
+}

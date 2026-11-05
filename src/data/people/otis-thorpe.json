@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Otis Thorpe",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/t/thorpot01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Otis Thorpe (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/t/thorpot01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-rockets",
+      "role": "player",
+      "from": 1988,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Houston",
+      "value": "1988–1995",
+      "source": "https://www.basketball-reference.com/teams/HOU/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Houston",
+      "value": "1994, 1995",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Houston from 1988 to 1995, winning the 1994, 1995 titles.",
+  "image": {
+    "file": "File:Otis Thorpe 1986-87.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Otis_Thorpe_1986-87.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Otis_Thorpe_1986-87.jpg",
+    "author": "United States Forest Service",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Otis Thorpe",
+    "caption": "Otis Thorpe",
+    "licenseChecked": "2026-11-05"
+  }
+}

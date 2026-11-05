@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Minneapolis",
   "region": "Minnesota",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 44.98,
+      "lon": -93.2638
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Minneapolis&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5037649: Minneapolis, Minnesota"
+  },
+  "summary": "Home of the Timberwolves since 1989, and of the Lakers from 1947 to 1960.",
+  "image": {
+    "file": "File:2008-0712-MPLS-panorama.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2008-0712-MPLS-panorama.JPG/960px-2008-0712-MPLS-panorama.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:2008-0712-MPLS-panorama.JPG",
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "View of Minneapolis",
+    "caption": "Minneapolis",
+    "licenseChecked": "2026-11-05"
+  }
 }

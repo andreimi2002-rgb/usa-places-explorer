@@ -1,0 +1,72 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "George Gervin",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "George Gervin stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: George Gervin (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-george-gervin",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-antonio-spurs",
+      "role": "player",
+      "from": 1973,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1985,
+      "to": 1986,
+      "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Leagues",
+      "value": "ABA (1972–1976), then NBA (1976–1986)",
+      "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA scoring titles",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1996",
+      "source": "https://www.basketball-reference.com/players/g/gervige01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Spurs’ star scorer from the ABA years into the NBA.",
+  "image": {
+    "file": "File:George Gervin ABA.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/George_Gervin_ABA.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Gervin_ABA.jpeg",
+    "author": "Kevin Fitzgerald",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of George Gervin",
+    "caption": "George Gervin",
+    "licenseChecked": "2026-11-05"
+  }
+}

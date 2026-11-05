@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Mitch Richmond",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/r/richmmi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mitch Richmond (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/richmmi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1991,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Sacramento",
+      "value": "1991–1998",
+      "source": "https://www.basketball-reference.com/teams/SAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2014",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Sacramento from 1991 to 1998.",
+  "image": {
+    "file": "File:Mitch Richmond cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mitch_Richmond_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitch_Richmond_cropped.jpg",
+    "author": "inboundpass",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Mitch Richmond",
+    "caption": "Mitch Richmond",
+    "licenseChecked": "2026-11-05"
+  }
+}

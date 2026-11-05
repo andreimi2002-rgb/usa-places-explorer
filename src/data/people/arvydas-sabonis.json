@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Arvydas Sabonis",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/s/sabonar01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Arvydas Sabonis (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/sabonar01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 1995,
+      "to": 2003,
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Portland Trail",
+      "value": "1995–2003",
+      "source": "https://www.basketball-reference.com/teams/POR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Lithuanian center who joined Portland in 1995.",
+  "image": {
+    "file": "File:Arvydas Sabonis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Arvydas_Sabonis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arvydas_Sabonis.jpg",
+    "author": "Steve Lipofsky www.Basketballphoto.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Arvydas Sabonis",
+    "caption": "Arvydas Sabonis",
+    "licenseChecked": "2026-11-05"
+  }
+}

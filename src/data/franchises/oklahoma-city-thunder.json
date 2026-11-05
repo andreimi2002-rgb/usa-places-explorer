@@ -1,20 +1,256 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Oklahoma City Thunder's NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "The Professional Basketball Club, LLC (NBA.com)",
+      "url": "https://www.nba.com/thunder/ownership",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Thunder–Pacers: 5 takeaways from Game 7 (NBA.com)",
+      "url": "https://www.nba.com/news/thunder-pacers-takeaways-game-7-2025-nba-finals",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Oklahoma City Thunder franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Oklahoma City Thunder (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-okc",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Oklahoma City Thunder NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Oklahoma City Thunder",
   "league": "nba",
   "division": "nba-northwest",
+  "founded": {
+    "value": 1967,
+    "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+    "verified": "2026-11-05",
+    "note": "Founded as the Seattle SuperSonics; in Seattle from 1967 to 2008."
+  },
+  "firstSeason": {
+    "value": "1967-68",
+    "source": "https://www.basketball-reference.com/teams/OKC/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#057DC1"
+      },
+      {
+        "name": "Orange",
+        "hex": "#EE3C33"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3160"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F9B82F"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/oklahoma-city-thunder.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "paycom-center",
+      "from": 2008,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Mark Daigneault",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/OKC/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Professional Basketball Club LLC (since 2006; chairman Clay Bennett)",
+    "source": "https://www.nba.com/thunder/ownership",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1967",
+      "label": "Founded in Seattle as the SuperSonics",
+      "kind": "founding",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1979",
+      "label": "NBA title; Dennis Johnson is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1996",
+      "label": "Reach the Finals with Gary Payton and Shawn Kemp, lose to Chicago",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2006-10",
+      "label": "Clay Bennett’s Oklahoma City group buys the team",
+      "kind": "ownership",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2007",
+      "label": "Draft Kevin Durant second overall",
+      "kind": "draft",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2008-07",
+      "label": "Move to Oklahoma City; the Thunder name follows on September 3",
+      "kind": "identity",
+      "source": "https://www.nba.com/news/oklahoma-city-thunders-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012",
+      "label": "Reach the Finals with Durant, Westbrook and Harden, lose to Miami",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019",
+      "label": "Shai Gilgeous-Alexander arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "First title in Oklahoma City: Game 7 win over Indiana, Gilgeous-Alexander Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/thunder-pacers-takeaways-game-7-2025-nba-finals",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Seattle’s SuperSonics until 2008, Oklahoma City’s Thunder since: champions in 1979 and 2025.",
+  "legends": [
+    "shai-gilgeous-alexander",
+    "kevin-durant",
+    "russell-westbrook",
+    "gary-payton",
+    "lenny-wilkens"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/thunder/roster",
+    "players": [
+      {
+        "person": "shai-gilgeous-alexander",
+        "source": "https://www.nba.com/news/2026-27-season-preview-okc",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "chet-holmgren",
+        "source": "https://www.nba.com/news/2026-27-season-preview-okc",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "jalen-williams",
+        "source": "https://www.nba.com/news/2026-27-season-preview-okc",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "aday-mara",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 12
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "bennett-stirtz",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 16
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "josh-dix",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "thomas-sorber",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Paycom Center, Oklahoma City (Sep. 2021).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paycom_Center%2C_Oklahoma_City_%28Sep._2021%29.jpg/1280px-Paycom_Center%2C_Oklahoma_City_%28Sep._2021%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paycom_Center,_Oklahoma_City_(Sep._2021).jpg",
+    "author": "Steve Morgan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of the Paycom Center in Oklahoma City",
+    "caption": "Paycom Center, September 2021",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -1,0 +1,87 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Chris Bosh",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/b/boshch01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Raptors all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chris Bosh (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/boshch01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2003,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2010,
+      "to": 2016,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "2010–2016",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Miami",
+      "value": "2012, 2013",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2021",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The third member of Miami’s Big Three, with titles in 2012 and 2013.",
+  "image": {
+    "file": "File:Chris Bosh e1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chris_Bosh_e1.jpg/960px-Chris_Bosh_e1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Bosh_e1.jpg",
+    "author": "Flickr user Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Chris Bosh",
+    "caption": "Chris Bosh: Wizards v/s Heat",
+    "licenseChecked": "2026-11-05"
+  }
+}

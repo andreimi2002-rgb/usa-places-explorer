@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/news/originals-hawks-owner-tom-cousins-dead-93",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "atlanta-hawks",
   "name": "Atlanta Hawks",
   "city": "atlanta",
+  "from": {
+    "value": 1968,
+    "source": "https://www.nba.com/news/originals-hawks-owner-tom-cousins-dead-93",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

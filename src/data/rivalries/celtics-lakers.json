@@ -1,0 +1,53 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics' NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Lakers season capsules (NBA.com)",
+      "url": "https://www.nba.com/lakers/history/season-capsule",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Celtics vs. Lakers",
+  "franchises": [
+    "boston-celtics",
+    "los-angeles-lakers"
+  ],
+  "facts": [
+    {
+      "label": "NBA Finals meetings",
+      "value": "12: Boston won 9, the Lakers 3",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "First Finals meeting",
+      "value": "1959: Boston swept the Minneapolis Lakers",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most recent Finals meeting",
+      "value": "2010: Lakers won in seven games",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles (to 2026)",
+      "value": "Celtics 18, Lakers 17",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The NBA’s two most successful clubs, who met in the Finals twelve times between 1959 and 2010."
+}

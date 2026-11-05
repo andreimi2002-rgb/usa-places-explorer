@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "New Orleans",
   "region": "Louisiana",
   "country": "United States",
-  "timezone": "America/Chicago"
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 29.9547,
+      "lon": -90.0751
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=New%20Orleans&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 4335045: New Orleans, Louisiana"
+  },
+  "summary": "Home of the Jazz from 1974 to 1979, and of today’s Pelicans since 2002.",
+  "image": {
+    "file": "File:New Orleans skyline-02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/New_Orleans_skyline-02.jpg/960px-New_Orleans_skyline-02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:New_Orleans_skyline-02.jpg",
+    "author": "thepipe26",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of New Orleans",
+    "caption": "New Orleans",
+    "licenseChecked": "2026-11-05"
+  }
 }

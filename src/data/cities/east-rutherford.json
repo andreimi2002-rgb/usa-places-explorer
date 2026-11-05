@@ -1,0 +1,25 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "East Rutherford",
+  "region": "New Jersey",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "summary": "New Jersey home of the Nets in the NBA era before their move to Brooklyn.",
+  "coordinates": {
+    "value": {
+      "lat": 40.834,
+      "lon": -74.0971
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=East%20Rutherford&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5097459: East Rutherford, New Jersey"
+  }
+}

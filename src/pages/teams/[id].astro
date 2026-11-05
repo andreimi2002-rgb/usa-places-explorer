@@ -1,11 +1,14 @@
 ---
 import { getCollection, getEntries, getEntry, render } from 'astro:content';
+import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
 import Kit from '../../components/Kit.astro';
 import LocalTime from '../../components/LocalTime.astro';
+import Weather from '../../components/Weather.astro';
 import Logo from '../../components/Logo.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
 import Photo from '../../components/Photo.astro';
+import PlayerCard, { type Tier } from '../../components/PlayerCard.astro';
 import ProgressNote from '../../components/ProgressNote.astro';
 import SourceList from '../../components/SourceList.astro';
 import Term from '../../components/Term.astro';
@@ -31,13 +34,15 @@ const identities = await Promise.all(
 const people = await peopleOf(franchise.id);
 const rivalries = await rivalriesOf(franchise.id);
 const championships = await championshipsOf(franchise.id);
-const titles = championships.filter((c) => c.data.level === 'league' && c.data.winner.id === franchise.id && c.data.verified);
+const titles = championships.filter((c) => c.data.level === 'league' && c.data.winner?.id === franchise.id && c.data.verified);
 const finalsLost = championships.filter((c) => c.data.level === 'league' && c.data.runnerUp?.id === franchise.id && c.data.verified);
 const venueLinks = await Promise.all(d.venues.map(async (v) => ({ ...v, entry: await getEntry(v.venue) })));
 const currentVenue = venueLinks.find((v) => v.to === null && v.verified)?.entry;
 
 const sections = {
   why: await prose('franchises', franchise.id, 'why'),
+  overview: await prose('franchises', franchise.id, 'overview'),
+  europe: await prose('franchises', franchise.id, 'europe'),
   history: await prose('franchises', franchise.id, 'history'),
   venue: await prose('franchises', franchise.id, 'venue'),
   culture: await prose('franchises', franchise.id, 'fan-culture'),
@@ -49,13 +54,65 @@ const rendered = Object.fromEntries(
 const colors = isVerified(d.colors) ? d.colors.value : [];
 const accent = colors[0] ? { primary: colors[0].hex, secondary: colors[2]?.hex ?? colors[1]?.hex } : undefined;
 const stub = d.progress === 'not-started';
-const legends = people.filter((p) => p.data.roles.some((r) => r.franchise.id === franchise.id && r.role !== 'head-coach'));
 const rivalryEntries = await Promise.all(
   rivalries.map(async (r) => ({ r, other: (await getEntries(r.data.franchises)).find((f) => f.id !== franchise.id) })),
 );
+const finalsSeasons = [...titles, ...finalsLost].map((c) => c.data.season).sort();
+const finalsSummary =
+  finalsSeasons.length === 0
+    ? undefined
+    : finalsSeasons.length <= 3
+      ? finalsSeasons.join(', ')
+      : `${finalsSeasons.length} times, most recently ${finalsSeasons.at(-1)}`;
+const ROLE_LABELS = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
+const legendIds = new Set(d.legends.map((r) => r.id));
+const coreIds = new Set(d.corePlayers?.players.map((p) => p.person.id) ?? []);
+const rookieIds = new Set(d.rookies?.players.map((p) => p.person.id) ?? []);
+const byId = new Map(people.map((p) => [p.id, p]));
+type PersonEntry = (typeof people)[number];
+function card(p: PersonEntry, tier: Tier, note?: string) {
+  const here = p.data.roles.filter((r) => r.franchise.id === franchise.id && r.verified);
+  const kinds = [...new Set(here.map((r) => ROLE_LABELS[r.role]))].join(', ');
+  const from = Math.min(...here.map((r) => r.from));
+  const to = here.some((r) => r.to === null) ? 'today' : Math.max(...here.map((r) => r.to ?? 0));
+  return {
+    id: p.id,
+    name: p.data.name,
+    tier,
+    position: shown(p.data.position),
+    years: here.length ? `${kinds} · ${from}–${to}` : '',
+    image: p.data.image ? { url: p.data.image.url, alt: p.data.image.alt } : undefined,
+    facts: p.data.facts.filter((x) => x.verified).map((x) => ({ label: x.label, value: x.value })),
+    note,
+  };
+}
+const legendCards = d.legends.flatMap((r) => (byId.get(r.id) && !coreIds.has(r.id) ? [card(byId.get(r.id)!, 'legend')] : []));
+const coreCards = (d.corePlayers?.players ?? [])
+  .filter((x) => x.verified)
+  .flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, legendIds.has(x.person.id) ? 'legend' : 'core')] : []));
+const rookieCards = (d.rookies?.players ?? [])
+  .filter((x) => x.verified)
+  .flatMap((x) => (byId.get(x.person.id) ? [card(byId.get(x.person.id)!, 'rookie', x.draft ? `${x.draft.year} draft: round ${x.draft.round}, pick ${x.draft.pick}` : x.note)] : []));
+const notableCards = people
+  .filter((p) => !legendIds.has(p.id) && !coreIds.has(p.id) && !rookieIds.has(p.id))
+  .map((p) => card(p, 'notable'));
+const finals = championships
+  .filter((c) => c.data.level === 'league' && c.data.verified)
+  .sort((a, b) => a.data.season.localeCompare(b.data.season))
+  .map((c) => {
+    const won = c.data.winner?.id === franchise.id;
+    return {
+      season: c.data.season,
+      won,
+      asName: won ? c.data.winnerName : c.data.runnerUpName,
+      opponent: won ? c.data.runnerUpName : c.data.winnerName,
+      opponentId: won ? c.data.runnerUp?.id : c.data.winner?.id,
+      result: c.data.result,
+    };
+  });
 const description = d.summary ?? `${d.name}: history, home venue, legends and rivalries, explained for newcomers.`;
 const kits = d.kits.filter((k) => k.verified);
-const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((p) => p.data.image)];
+const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p) => p.data.image)];
 ---
 
 <Base title={d.name} description={description} accent={accent}>
@@ -117,7 +174,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
               },
               {
                 label: 'NBA Finals reached',
-                value: [...titles, ...finalsLost].map((c) => c.data.season).sort().join(', ') || undefined,
+                value: finalsSummary,
                 source: finalsLost[0]?.data.source,
                 verified: finalsLost[0]?.data.verified ?? titles[0]?.data.verified,
               },
@@ -125,6 +182,14 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
           />
         </div>
       </section>
+
+      <!-- 2b. The club today: identity, how the team is built, records -->
+      {rendered.overview && (
+        <section class="section container" aria-labelledby="overview-title">
+          <div class="section-head"><h2 id="overview-title">The club today</h2></div>
+          <div class="prose"><rendered.overview components={{ Term }} /></div>
+        </section>
+      )}
 
       <!-- 3. History by eras -->
       {rendered.history && (
@@ -183,35 +248,54 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
               ? `${d.name} have not won an NBA title yet. They have reached the NBA Finals ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`
               : `${titles.length} NBA title${titles.length === 1 ? '' : 's'}.`}
           </p>
+          {finals.length > 0 && (
+            <div class="finals-wrap">
+              <table class="finals">
+                <caption class="sr-only">Every NBA Finals appearance</caption>
+                <thead><tr><th scope="col">Season</th><th scope="col">Result</th><th scope="col">Opponent</th><th scope="col">Series</th></tr></thead>
+                <tbody>
+                  {finals.map((x) => (
+                    <tr class:list={[{ won: x.won }]}>
+                      <td>{x.season}{x.asName && x.asName !== d.name && <span class="subtle"> as {x.asName}</span>}</td>
+                      <td>{x.won ? 'Champions' : 'Runners-up'}</td>
+                      <td>{x.opponentId ? <a href={routes.franchises(x.opponentId)}>{x.opponent}</a> : x.opponent}</td>
+                      <td>{x.result}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
           <Timeline items={d.milestones} />
         </section>
       )}
 
-      <!-- 6. Legends -->
-      {legends.length > 0 && (
-        <section class="section container" aria-labelledby="legends-title">
-          <div class="section-head"><h2 id="legends-title">Legends</h2></div>
-          <ul class="grid grid-3 cards">
-            {legends.map((p) => {
-              const role = p.data.roles.find((r) => r.franchise.id === franchise.id)!;
-              return (
-                <li class="card">
-                  {p.data.image ? (
-                    <img src={p.data.image.url} alt={p.data.image.alt} loading="lazy" class="portrait" />
-                  ) : (
-                    <div class="portrait placeholder" aria-hidden="true">{p.data.name.split(' ').map((w) => w[0]).join('').slice(0, 2)}</div>
-                  )}
-                  <div class="card-body">
-                    <span class="eyebrow">{role.role === 'founder' ? 'Co-founder' : 'Player'} · {role.from}–{role.to ?? ''}</span>
-                    <h3><a href={routes.people(p.id)} class="stretched">{p.data.name}</a></h3>
-                    <p class="muted">{p.data.summary}</p>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
+      <!-- 6. Players: core, rookies, legends, notable -->
+      {[
+        { key: 'core', title: `Core players (${d.corePlayers?.asOf ?? ''})`, cards: coreCards,
+          intro: 'The faces of this season’s team, not the full roster.', link: d.corePlayers?.rosterUrl },
+        { key: 'rookies', title: `Rookies (${d.rookies?.asOf ?? ''})`, cards: rookieCards, intro: 'First-year players on this season’s roster.' },
+        { key: 'legends', title: 'Legends', cards: legendCards, intro: 'The players and builders who define the club.' },
+        { key: 'notable', title: 'Notable players', cards: notableCards, intro: 'Other well-known names who played or worked here.' },
+      ].filter((g) => g.cards.length > 0 || (g.key === 'rookies' && d.rookies?.note)).map((g) => (
+        <section class="section container" aria-labelledby={`${g.key}-title`}>
+          <div class="section-head"><h2 id={`${g.key}-title`}>{g.title}</h2></div>
+          <p class="muted cards-intro">
+            {g.intro}{g.cards.length > 0 && ' Tap a card to flip it.'}
+            {g.link && <> <a href={g.link} rel="noopener" target="_blank">Full roster on NBA.com →</a></>}
+          </p>
+          {g.cards.length > 0 ? (
+            <ul class="card-grid">
+              {g.cards.map((c) => <li><PlayerCard {...c} /></li>)}
+            </ul>
+          ) : (
+            <p class="empty-note">
+              {d.rookies?.note}{' '}
+              {d.rookies?.noteSource && <a href={d.rookies.noteSource} rel="noopener" target="_blank">Source</a>}
+            </p>
+          )}
         </section>
-      )}
+      ))}
 
       <!-- 7. Rivalries -->
       {rivalryEntries.length > 0 && (
@@ -235,7 +319,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
       <!-- 8. City & fan culture -->
       {rendered.culture && (
         <section class="section container" aria-labelledby="culture-title">
-          <div class="section-head"><h2 id="culture-title">City &amp; fan culture</h2></div>
+          <div class="section-head"><h2 id="culture-title">{sections.culture?.data.title ?? "City & fan culture"}</h2></div>
           <div class="split">
             <div class="prose"><rendered.culture components={{ Term }} /></div>
             {city?.data.image && <Photo image={city.data.image} aspect="4 / 3" />}
@@ -243,6 +327,13 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
         </section>
       )}
     </>
+  )}
+
+  <!-- 8b. For European fans -->
+  {!stub && rendered.europe && (
+    <div class="section container">
+      <EuropeBox><rendered.europe components={{ Term }} /></EuropeBox>
+    </div>
   )}
 
   <!-- 9. Identity history -->
@@ -267,10 +358,13 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
     <MiniGraph type="franchise" id={franchise.id} />
   </div>
 
-  <!-- 11. Local time vs. Europe -->
+  <!-- 11. Local time and live weather -->
   {city && (
-    <div class="section container narrow">
+    <div class="section container time-weather">
       <LocalTime city={city.data.name} timezone={city.data.timezone} />
+      {city.data.coordinates?.verified && (
+        <Weather city={city.data.name} lat={city.data.coordinates.value.lat} lon={city.data.coordinates.value.lon} timezone={city.data.timezone} />
+      )}
     </div>
   )}
 
@@ -458,6 +552,58 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 11.5rem), 1fr));
+    gap: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .empty-note {
+    padding: 1rem 1.25rem;
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius-lg);
+    color: var(--text-muted);
+  }
+  .cards-intro {
+    margin-bottom: 1.25rem;
+  }
+  .finals-wrap {
+    overflow-x: auto;
+    margin: 1rem 0 2rem;
+  }
+  .finals {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .finals th,
+  .finals td {
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+  }
+  .finals th {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-subtle);
+  }
+  .finals tr.won td:nth-child(2) {
+    color: var(--team-1);
+    font-weight: 700;
+  }
+  .time-weather {
+    display: grid;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  @media (min-width: 900px) {
+    .time-weather {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .narrow {
     max-width: 46rem;

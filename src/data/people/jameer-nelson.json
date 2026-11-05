@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Jameer Nelson",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jameer Nelson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic career leaders (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/leaders_career.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2004,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "2004–2014",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "February 9, 1982, Chester, Pennsylvania",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "2004, No. 20 overall, by the Denver Nuggets",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "1× All-Star",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (2004-05)",
+      "source": "https://www.basketball-reference.com/players/n/nelsoja01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Point guard for a decade in Orlando, including the 2009 Finals run.",
+  "image": {
+    "file": "File:Jameer Nelson pump fake cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jameer_Nelson_pump_fake_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jameer_Nelson_pump_fake_cropped.jpg",
+    "author": "Mike",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jameer Nelson",
+    "caption": "Jameer Nelson vs San Antonio",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Larry Bird stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics' NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/boston-celtics-nba-championships",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Larry Bird",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+    "verified": "2026-11-06"
+  },
+  "roles": [
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1979,
+      "to": 1992,
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1978, No. 6 overall, by Boston",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1979–80",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1981, 1984, 1986",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1983–84, 1984–85, 1985–86",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1984, 1986",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1998",
+      "source": "https://www.basketball-reference.com/players/b/birdla01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Three straight MVP awards and three titles: the Celtics’ star of the 1980s.",
+  "image": {
+    "file": "File:Larrybird.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Larrybird.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Larrybird.jpg",
+    "author": "Kurt Shimala",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Larry Bird in a suit at an arena",
+    "caption": "Larry Bird in 2004",
+    "licenseChecked": "2026-11-05"
+  }
+}

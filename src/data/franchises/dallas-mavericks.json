@@ -1,20 +1,274 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "NBA approves sale of Mavericks to Adelson and Dumont families (NBA.com)",
+      "url": "https://pr.nba.com/nba-board-of-governors-mavericks-sale/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Cuban agrees to sell majority stake (NBA.com)",
+      "url": "https://www.nba.com/news/dallas-mavericks-sale-agreement-mark-cuban-adelson-dumont",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mavericks hire Dusty May (NBA.com)",
+      "url": "https://www.nba.com/news/mavs-hire-dusty-may-coach",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Jason Kidd out as Mavericks coach (NBA.com)",
+      "url": "https://www.nba.com/news/mavs-part-ways-jason-kidd",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-dal",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Dallas Mavericks",
   "league": "nba",
   "division": "nba-southwest",
+  "founded": {
+    "value": 1980,
+    "source": "https://www.basketball-reference.com/teams/DAL/",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1980-81",
+    "source": "https://www.basketball-reference.com/teams/DAL/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#0064B1"
+      },
+      {
+        "name": "Silver",
+        "hex": "#BBC4CA"
+      },
+      {
+        "name": "Navy",
+        "hex": "#061922"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/dallas-mavericks.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "american-airlines-center",
+      "from": 2001,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Dusty May",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/news/mavs-hire-dusty-may-coach",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Adelson and Dumont families (since 2023; governor Patrick Dumont)",
+    "source": "https://pr.nba.com/nba-board-of-governors-mavericks-sale/",
+    "verified": "2026-11-05",
+    "note": "Mark Cuban, owner from 2000, kept a minority stake."
+  },
+  "milestones": [
+    {
+      "date": "1980",
+      "label": "Join the NBA as an expansion team",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/DAL/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1998",
+      "label": "Dirk Nowitzki arrives after being drafted ninth by Milwaukee",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2000-01-04",
+      "label": "Mark Cuban becomes owner",
+      "kind": "ownership",
+      "source": "https://www.nba.com/news/dallas-mavericks-sale-agreement-mark-cuban-adelson-dumont",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2001",
+      "label": "Move into American Airlines Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2006",
+      "label": "First NBA Finals, lost to Miami",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2007",
+      "label": "Nowitzki is named MVP",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/n/nowitdi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2011",
+      "label": "First NBA title, a rematch with Miami; Nowitzki is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2018",
+      "label": "Luka Dončić arrives",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "Adelson and Dumont families buy control from Mark Cuban",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/nba-board-of-governors-mavericks-sale/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2024",
+      "label": "Reach the Finals, lose to Boston",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Dusty May replaces Jason Kidd as coach",
+      "kind": "other",
+      "source": "https://www.nba.com/news/mavs-hire-dusty-may-coach",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Dirk Nowitzki’s club: champions in 2011, Finals in 2006 and 2024, and now Cooper Flagg’s team.",
+  "legends": [
+    "dirk-nowitzki",
+    "jason-kidd",
+    "luka-doncic"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/mavericks/roster",
+    "players": [
+      {
+        "person": "cooper-flagg",
+        "source": "https://www.nba.com/news/2026-27-season-preview-dal",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "kyrie-irving",
+        "source": "https://www.nba.com/news/2026-27-season-preview-dal",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "dereck-lively-ii",
+        "source": "https://www.nba.com/news/2026-27-season-preview-dal",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "morez-johnson-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 9
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "sergio-de-larrea",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 25
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tobi-lawal",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 48
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tarik-biberovic",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/DAL/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:American Airlines Center 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/American_Airlines_Center_02.jpg/1280px-American_Airlines_Center_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_02.jpg",
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Exterior of American Airlines Center in Dallas",
+    "caption": "American Airlines Center",
+    "licenseChecked": "2026-11-05"
   }
 }

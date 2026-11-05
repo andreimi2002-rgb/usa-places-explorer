@@ -1,0 +1,63 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Udonis Haslem",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/h/hasleud01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Udonis Haslem (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/hasleud01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2003,
+      "to": 2023,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Miami",
+      "value": "2003–2023",
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Miami",
+      "value": "2006, 2012, 2013",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Miami native who spent his entire 20-season career with the Heat.",
+  "image": {
+    "file": "File:Udonis Haslem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Udonis_Haslem.jpg/960px-Udonis_Haslem.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Udonis_Haslem.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Udonis Haslem",
+    "caption": "Udonis Haslem playing with the Miami",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "John Wall",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/w/walljo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "John Wall (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/walljo01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 2010,
+      "to": 2019,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "2010–2019",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 2010 to 2019.",
+  "image": {
+    "file": "File:John Wall Washington Wizards Nov 2 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/John_Wall_Washington_Wizards_Nov_2_2016.jpg/1280px-John_Wall_Washington_Wizards_Nov_2_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Wall_Washington_Wizards_Nov_2_2016.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of John Wall",
+    "caption": "John Wall",
+    "licenseChecked": "2026-11-05"
+  }
+}

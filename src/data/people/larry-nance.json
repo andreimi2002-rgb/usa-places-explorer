@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Larry Nance",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/players/n/nancela01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Larry Nance (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/n/nancela01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1987,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "1987–1994",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Cleveland from 1987 to 1994.",
+  "image": {
+    "file": "File:Larry Nance - Phoenix Suns.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Larry_Nance_-_Phoenix_Suns.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Larry_Nance_-_Phoenix_Suns.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Larry Nance",
+    "caption": "Larry Nance",
+    "licenseChecked": "2026-11-05"
+  }
+}

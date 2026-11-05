@@ -1,20 +1,251 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Charlotte Hornets team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612766/hornets",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Hornets front office (NBA.com)",
+      "url": "https://www.nba.com/hornets/front-office",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Expansion franchise to be named Charlotte Bobcats (NBA.com)",
+      "url": "https://www.nba.com/hornets/news/charlottebobcats_061103.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "New Orleans and Charlotte on the Hornets name (NBA.com)",
+      "url": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-cha",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHO/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Charlotte Hornets",
   "league": "nba",
   "division": "nba-southeast",
+  "founded": {
+    "value": 1988,
+    "source": "https://www.nba.com/team/1610612766/hornets",
+    "verified": "2026-11-05",
+    "note": "The franchise counts the original Hornets (1988–2002) and the Bobcats (2004–2014) as one history."
+  },
+  "firstSeason": {
+    "value": "1988-89",
+    "source": "https://www.basketball-reference.com/teams/CHA/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Purple",
+        "hex": "#1D1160"
+      },
+      {
+        "name": "Teal",
+        "hex": "#00788C"
+      },
+      {
+        "name": "Gray",
+        "hex": "#A1A1A4"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/charlotte-hornets.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "spectrum-center",
+      "from": 2005,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Charles Lee",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/team/1610612766/hornets",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Rick Schnall and Gabe Plotkin (since 2023)",
+    "source": "https://www.nba.com/team/1610612766/hornets",
+    "verified": "2026-11-05",
+    "note": "They bought the majority stake from Michael Jordan, who stays on as a minority investor."
+  },
+  "milestones": [
+    {
+      "date": "1988",
+      "label": "The original Charlotte Hornets join the NBA",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612766/hornets",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1992",
+      "label": "Draft Alonzo Mourning second overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2002",
+      "label": "The Hornets move to New Orleans; Charlotte is left without a team",
+      "kind": "identity",
+      "source": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2004",
+      "label": "A new expansion team, the Charlotte Bobcats, begins play",
+      "kind": "founding",
+      "source": "https://www.nba.com/hornets/news/charlottebobcats_061103.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2005",
+      "label": "Move into today’s Spectrum Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2010",
+      "label": "Michael Jordan becomes majority owner",
+      "kind": "ownership",
+      "source": "https://www.nba.com/hornets/front-office",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014",
+      "label": "The team takes back the Hornets name and the 1988–2002 history",
+      "kind": "identity",
+      "source": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "Rick Schnall and Gabe Plotkin buy the majority stake from Jordan",
+      "kind": "ownership",
+      "source": "https://www.nba.com/hornets/front-office",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Trade LaMelo Ball to Minnesota",
+      "kind": "trade",
+      "source": "https://www.nba.com/news/2026-27-season-preview-cha",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Charlotte’s team since 1988, with a two-year gap and a decade as the Bobcats; still waiting for a first Finals.",
+  "legends": [
+    "larry-johnson",
+    "muggsy-bogues",
+    "alonzo-mourning",
+    "kemba-walker"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/hornets/roster",
+    "players": [
+      {
+        "person": "brandon-miller",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cha",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "kon-knueppel",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cha",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "naz-reid",
+        "source": "https://www.nba.com/news/2026-27-season-preview-cha",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "hannes-steinbach",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 14
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "christian-anderson-jr",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 18
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "kylan-boswell",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/CHO/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Spectrum Center, Charlotte, NC.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Spectrum_Center%2C_Charlotte%2C_NC.jpg/1280px-Spectrum_Center%2C_Charlotte%2C_NC.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spectrum_Center,_Charlotte,_NC.jpg",
+    "author": "Matthew D. Britt from Glens Falls, NY, U.S.A.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Spectrum Center",
+    "caption": "Spectrum Center",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Danny Granger",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/g/grangda01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/IND/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Danny Granger (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/g/grangda01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indiana-pacers",
+      "role": "player",
+      "from": 2005,
+      "to": 2014,
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Indiana",
+      "value": "2005–2014",
+      "source": "https://www.basketball-reference.com/teams/IND/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Indiana from 2005 to 2014.",
+  "image": {
+    "file": "File:Danny Granger in 2005.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Danny_Granger_in_2005.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Danny_Granger_in_2005.jpg",
+    "author": "Willie Stark; crop by Arbor to SJ",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Danny Granger",
+    "caption": "Danny Granger",
+    "licenseChecked": "2026-11-05"
+  }
+}

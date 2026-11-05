@@ -1,0 +1,82 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Stephen Curry",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2009,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Davidson",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "17",
+      "source": "https://www.basketball-reference.com/teams/GSW/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2009, No. 7 overall, by Golden State",
+      "source": "https://www.basketball-reference.com/players/c/curryst01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "2015, 2017, 2018, 2022",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "2014–15, 2015–16 (the first unanimous MVP)",
+      "source": "https://www.nba.com/warriors/news/curry-mvp-20160510",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "2022",
+      "source": "https://www.basketball-reference.com/players/c/curryst01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The shooter who changed the game: four titles and two MVP awards, all with Golden State.",
+  "image": {
+    "file": "File:Stephen Curry Shooting (cropped) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Stephen_Curry_Shooting_%28cropped%29_%28cropped%29.jpg/960px-Stephen_Curry_Shooting_%28cropped%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_Shooting_(cropped)_(cropped).jpg",
+    "author": "Cyrus Saatsaz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Stephen Curry",
+    "caption": "Stephen Curry practices prior to the start of a game in Denver,",
+    "licenseChecked": "2026-11-05"
+  }
+}

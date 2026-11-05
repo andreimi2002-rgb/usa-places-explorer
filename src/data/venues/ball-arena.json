@@ -1,0 +1,61 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "About Ball Arena (Ball Arena)",
+      "url": "https://www.ballarena.com/arena-information/about-ball-arena/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Home of Denver Nuggets renamed Ball Arena (NBA.com)",
+      "url": "https://www.nba.com/news/denver-nuggets-renamed-ball-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Ball Arena",
+  "city": "denver",
+  "opened": {
+    "value": "1999-10-01",
+    "source": "https://www.ballarena.com/arena-information/about-ball-arena/",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 19520,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Kroenke Sports & Entertainment",
+    "source": "https://www.ballarena.com/arena-information/about-ball-arena/",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [
+    {
+      "name": "Pepsi Center",
+      "from": 1999,
+      "to": 2020,
+      "source": "https://www.nba.com/news/denver-nuggets-renamed-ball-arena",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Denver’s arena since 1999, shared by the Nuggets, the NHL’s Avalanche and the Colorado Mammoth.",
+  "image": {
+    "file": "File:Ball Arena exterior 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ball_Arena_exterior_2022.jpg/1280px-Ball_Arena_exterior_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ball_Arena_exterior_2022.jpg",
+    "author": "Troutfarm27",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of Ball Arena in Denver",
+    "caption": "Ball Arena, 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

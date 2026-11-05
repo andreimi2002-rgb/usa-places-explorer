@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.basketball-reference.com/teams/LAC/",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "la-clippers",
   "name": "LA Clippers",
   "city": "los-angeles",
+  "from": {
+    "value": 1984,
+    "source": "https://www.basketball-reference.com/teams/LAC/",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

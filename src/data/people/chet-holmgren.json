@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Chet Holmgren",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "oklahoma-city-thunder",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/OKC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Gonzaga",
+      "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "3",
+      "source": "https://www.basketball-reference.com/teams/OKC/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Frontcourt anchor of the 2025 champions.",
+  "image": {
+    "file": "File:Chet Holmgren.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chet_Holmgren.jpg/960px-Chet_Holmgren.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chet_Holmgren.jpg",
+    "author": "Steve Cheng, Bruin Report Online",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Chet Holmgren",
+    "caption": "Chet Holmgren, 2021",
+    "licenseChecked": "2026-11-05"
+  }
+}

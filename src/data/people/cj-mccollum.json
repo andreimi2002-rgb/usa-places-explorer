@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "CJ McCollum",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-hawks",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/ATL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Lehigh",
+      "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "13",
+      "source": "https://www.basketball-reference.com/teams/ATL/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran guard who arrived in the Trae Young trade.",
+  "image": {
+    "file": "File:2025 C.J. McCollum (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/2025_C.J._McCollum_%28cropped%29.jpg/960px-2025_C.J._McCollum_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_C.J._McCollum_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of CJ McCollum",
+    "caption": "CJ McCollum",
+    "licenseChecked": "2026-11-05"
+  }
+}

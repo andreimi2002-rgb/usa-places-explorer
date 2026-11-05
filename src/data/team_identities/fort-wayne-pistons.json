@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Franchise history",
+      "url": "https://www.nba.com/pistons/features/behindthename.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "franchise": "detroit-pistons",
+  "name": "Fort Wayne Pistons",
+  "city": "fort-wayne",
+  "from": {
+    "value": 1941,
+    "source": "https://www.nba.com/pistons/features/behindthename.html",
+    "verified": "2026-11-05"
+  },
+  "to": 1957,
+  "current": false
+}

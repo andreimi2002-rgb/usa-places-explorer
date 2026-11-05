@@ -1,0 +1,46 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Home of 76ers to have new name: Xfinity Mobile Arena (NBA.com)",
+      "url": "https://www.nba.com/sixers/news/home-of-76ers-to-have-new-name-xfinity-mobile-arena",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Xfinity Mobile Arena",
+  "city": "philadelphia",
+  "capacity": {
+    "basketball": {
+      "value": 20007,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "Wells Fargo Center",
+      "from": null,
+      "to": 2025,
+      "source": "https://www.nba.com/sixers/news/home-of-76ers-to-have-new-name-xfinity-mobile-arena",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Home of the 76ers and the NHL’s Flyers since 1996; renamed from Wells Fargo Center in 2025.",
+  "image": {
+    "file": "File:Wells Fargo Center - 2019 OWL Grand Finals.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/960px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg",
+    "author": "Jen Smith",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Exterior of the arena, then called Wells Fargo Center",
+    "caption": "The arena as Wells Fargo Center, 2019",
+    "licenseChecked": "2026-11-05"
+  }
+}

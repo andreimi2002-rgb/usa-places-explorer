@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "World B. Free",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/f/freewo01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "World B. Free (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/f/freewo01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1978,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with LA",
+      "value": "1978–1980",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for LA from 1978 to 1980.",
+  "image": {
+    "file": "File:World B Free.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/World_B_Free.jpg/960px-World_B_Free.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:World_B_Free.jpg",
+    "author": "TastyPoutine",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of World B. Free",
+    "caption": "World B. Free",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Marques Johnson",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/j/johnsma01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Marques Johnson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/johnsma01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 1977,
+      "to": 1984,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "1977–1984",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 1977 to 1984.",
+  "image": {
+    "file": "File:Marques johnson ucla.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Marques_johnson_ucla.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Marques_johnson_ucla.JPG",
+    "author": "Associated Students of the University of California at Los Angeles",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Marques Johnson",
+    "caption": "Marques Johnson",
+    "licenseChecked": "2026-11-05"
+  }
+}

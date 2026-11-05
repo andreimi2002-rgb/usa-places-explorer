@@ -1,0 +1,71 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Andrew Wiggins",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2014,
+      "to": 2020,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Kansas",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "12",
+      "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Veteran wing and a likely starter for Miami in 2026-27.",
+  "image": {
+    "file": "File:Andrew Wiggins in 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Andrew_Wiggins_in_2016.jpg/1280px-Andrew_Wiggins_in_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrew_Wiggins_in_2016.jpg",
+    "author": "Jose Garcia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Andrew Wiggins in a Timberwolves uniform",
+    "caption": "Andrew Wiggins with Minnesota, 2016",
+    "licenseChecked": "2026-11-05"
+  }
+}

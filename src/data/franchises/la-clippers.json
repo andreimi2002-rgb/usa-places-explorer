@@ -1,20 +1,240 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Steve Ballmer completes purchase of the Clippers (NBA.com)",
+      "url": "https://www.nba.com/clippers/steve-ballmer-completes-purchase-los-angeles-clippers",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Intuit Dome press (NBA.com)",
+      "url": "https://www.nba.com/clippers/intuitdomepress",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-lac",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/LAC/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "LA Clippers",
   "league": "nba",
   "division": "nba-pacific",
+  "founded": {
+    "value": 1970,
+    "source": "https://www.basketball-reference.com/teams/LAC/",
+    "verified": "2026-11-05",
+    "note": "Founded as the Buffalo Braves."
+  },
+  "firstSeason": {
+    "value": "1970-71",
+    "source": "https://www.basketball-reference.com/teams/LAC/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#12173F"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Navy taken from the official logo file."
+  },
   "logo": {
     "file": "nba/la-clippers.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "intuit-dome",
+      "from": 2024,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Tyronn Lue",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/LAC/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Steve Ballmer (since 2014)",
+    "source": "https://www.nba.com/clippers/steve-ballmer-completes-purchase-los-angeles-clippers",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1970",
+      "label": "Founded as the Buffalo Braves",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/LAC/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1975",
+      "label": "Bob McAdoo is named MVP",
+      "kind": "award",
+      "source": "https://www.basketball-reference.com/players/m/mcadobo01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1978",
+      "label": "Move to San Diego as the Clippers",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/LAC/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1984",
+      "label": "Move to Los Angeles",
+      "kind": "identity",
+      "source": "https://www.basketball-reference.com/teams/LAC/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2009",
+      "label": "Draft Blake Griffin first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/g/griffbl01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2011",
+      "label": "Chris Paul arrives",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/players/p/paulch01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2014-08",
+      "label": "Steve Ballmer completes his purchase",
+      "kind": "ownership",
+      "source": "https://www.nba.com/clippers/steve-ballmer-completes-purchase-los-angeles-clippers",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2019",
+      "label": "Kawhi Leonard and Paul George arrive",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/LAC/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2024-08-15",
+      "label": "Intuit Dome, the team’s own privately funded arena, opens in Inglewood",
+      "kind": "venue",
+      "source": "https://www.nba.com/clippers/intuitdomepress",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Buffalo’s Braves, San Diego’s Clippers and, since 1984, Los Angeles’ second team, now in their own arena.",
+  "legends": [
+    "bob-mcadoo",
+    "blake-griffin",
+    "chris-paul"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/clippers/roster",
+    "players": [
+      {
+        "person": "darius-garland",
+        "source": "https://www.nba.com/news/2026-27-season-preview-lac",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "brandon-ingram",
+        "source": "https://www.nba.com/news/2026-27-season-preview-lac",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "max-strus",
+        "source": "https://www.nba.com/news/2026-27-season-preview-lac",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "keaton-wagler",
+        "draft": {
+          "year": 2026,
+          "round": 1,
+          "pick": 5
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "baba-miller",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 36
+        },
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "nick-martinelli",
+        "draft": {
+          "year": 2026,
+          "round": 2,
+          "pick": 55
+        },
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Intuit Dome Façade.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Intuit_Dome_Fa%C3%A7ade.jpg/1280px-Intuit_Dome_Fa%C3%A7ade.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Intuit_Dome_Fa%C3%A7ade.jpg",
+    "author": "Haruhi8",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Façade of the Intuit Dome",
+    "caption": "Intuit Dome, August 2024",
+    "licenseChecked": "2026-11-05"
   }
 }

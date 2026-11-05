@@ -1,0 +1,93 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Bill Walton",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bill Walton stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-trail-blazers",
+      "role": "player",
+      "from": 1974,
+      "to": 1978,
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "la-clippers",
+      "role": "player",
+      "from": 1979,
+      "to": 1985,
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "boston-celtics",
+      "role": "player",
+      "from": 1985,
+      "to": 1987,
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1974, No. 1 overall, by Portland",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA titles",
+      "value": "1977 (Portland), 1986 (Boston)",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Finals MVP",
+      "value": "1977",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Most Valuable Player",
+      "value": "1977–78",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1993",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Died",
+      "value": "May 27, 2024",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center and Finals MVP of Portland’s only title, in 1977.",
+  "image": {
+    "file": "File:Bill walton blazers photo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bill_walton_blazers_photo.jpg/960px-Bill_walton_blazers_photo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_walton_blazers_photo.jpg",
+    "author": "Portland Trail Blazers",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bill Walton",
+    "caption": "Bill Walton",
+    "licenseChecked": "2026-11-05"
+  }
+}

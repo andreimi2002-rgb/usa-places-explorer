@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Austin Carr",
+  "position": {
+    "value": "Shooting guard",
+    "source": "https://www.basketball-reference.com/players/c/carrau01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Austin Carr (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/carrau01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1971,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "1971–1980",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Cleveland from 1971 to 1980.",
+  "image": {
+    "file": "File:Austin Carr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Austin_Carr.jpg/960px-Austin_Carr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_Carr.jpg",
+    "author": "Erik Drost from United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Austin Carr",
+    "caption": "Austin Carr",
+    "licenseChecked": "2026-11-05"
+  }
+}

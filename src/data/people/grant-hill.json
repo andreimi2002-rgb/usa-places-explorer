@@ -1,0 +1,125 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Grant Hill",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Grant Hill (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando Magic franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1994,
+      "to": 2000,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "orlando-magic",
+      "role": "player",
+      "from": 2000,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Orlando",
+      "value": "2000–2007",
+      "source": "https://www.basketball-reference.com/teams/ORL/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2018",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Born",
+      "value": "October 5, 1972, Dallas, Texas",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Drafted",
+      "value": "1994, No. 3 overall, by the Detroit Pistons",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Naismith Hall of Fame (2018)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× All-Star",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× All-NBA Team",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "All-Rookie Team (1994-95)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rookie of the Year (1994-95)",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Sportsmanship Award",
+      "source": "https://www.basketball-reference.com/players/h/hillgr01.html",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Played for Orlando from 2000 to 2007.",
+  "image": {
+    "file": "File:Grant Hill 2007-12-08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Grant_Hill_2007-12-08.jpg/960px-Grant_Hill_2007-12-08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grant_Hill_2007-12-08.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Grant Hill",
+    "caption": "Grant Hill, American basketball player for the Phoenix Suns (at time of",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Miami Heat home arena gets temporary name after FTX collapse (NBA.com)",
+      "url": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat inks partnership deal with Kaseya (NBA.com)",
+      "url": "https://www.nba.com/heat/news/heat-inks-partnership-deal-with-kaseya",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "This Date in the NBA: January (NBA.com)",
+      "url": "https://www.nba.com/news/history-this-date-in-nba-jan",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Kaseya Center",
+  "city": "miami",
+  "opened": {
+    "value": "1999",
+    "source": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+    "verified": "2026-11-05",
+    "note": "First Heat game there: January 2, 2000."
+  },
+  "capacity": {
+    "basketball": {
+      "value": 19600,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "Miami-Dade County",
+    "source": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [
+    {
+      "name": "American Airlines Arena",
+      "from": 1999,
+      "to": 2021,
+      "source": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+      "verified": "2026-11-05"
+    },
+    {
+      "name": "FTX Arena",
+      "from": 2021,
+      "to": 2023,
+      "source": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+      "verified": "2026-11-05"
+    },
+    {
+      "name": "Miami-Dade Arena",
+      "from": 2023,
+      "to": 2023,
+      "source": "https://www.nba.com/news/miami-heat-home-arena-gets-temporary-name-after-ftx-collapse",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "The Heat’s home arena since January 2000.",
+  "image": {
+    "file": "File:Kaseya Center Downtown Miami FL, 5 April 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Kaseya_Center_Downtown_Miami_FL%2C_5_April_2024.jpg/1280px-Kaseya_Center_Downtown_Miami_FL%2C_5_April_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaseya_Center_Downtown_Miami_FL,_5_April_2024.jpg",
+    "author": "Phillip Pessar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Exterior of the Kaseya Center in Miami",
+    "caption": "Kaseya Center, April 2024",
+    "licenseChecked": "2026-11-05"
+  }
+}

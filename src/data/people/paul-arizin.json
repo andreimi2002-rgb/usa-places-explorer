@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Paul Arizin",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/a/arizipa01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Paul Arizin (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/arizipa01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1950,
+      "to": 1962,
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with the Warriors",
+      "value": "1950–1962",
+      "source": "https://www.basketball-reference.com/teams/GSW/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with the Warriors",
+      "value": "1956",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1978",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Philadelphia Warriors forward and a star of the 1956 title team.",
+  "image": {
+    "file": "File:Paul Arizin 50-62.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Paul_Arizin_50-62.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Arizin_50-62.JPG",
+    "author": "Philadelphia Warriors / NBA",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Paul Arizin",
+    "caption": "press photo of Paul Arizin playing for the Philadelphia",
+    "licenseChecked": "2026-11-05"
+  }
+}

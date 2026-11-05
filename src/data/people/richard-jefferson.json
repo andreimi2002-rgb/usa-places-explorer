@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Richard Jefferson",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/j/jefferi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Richard Jefferson (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/j/jefferi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "brooklyn-nets",
+      "role": "player",
+      "from": 2001,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Brooklyn",
+      "value": "2001–2008",
+      "source": "https://www.basketball-reference.com/teams/NJN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Brooklyn from 2001 to 2008.",
+  "image": {
+    "file": "File:Richard Jefferson 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Richard_Jefferson_2017.jpg/960px-Richard_Jefferson_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Jefferson_2017.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Richard Jefferson",
+    "caption": "Richard Jefferson",
+    "licenseChecked": "2026-11-05"
+  }
+}

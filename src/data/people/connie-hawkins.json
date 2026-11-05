@@ -1,0 +1,53 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Connie Hawkins",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/h/hawkico01.html",
+    "verified": "2026-11-06",
+    "note": "Basketball-Reference lists: Small Forward, Power Forward, and Center."
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Connie Hawkins (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/h/hawkico01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 1969,
+      "to": 1974,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Phoenix",
+      "value": "1969–1974",
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Phoenix from 1969 to 1974.",
+  "image": {
+    "file": "File:Connie Hawkins ABA MVP.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Connie_Hawkins_ABA_MVP.jpeg/960px-Connie_Hawkins_ABA_MVP.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Connie_Hawkins_ABA_MVP.jpeg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Connie Hawkins",
+    "caption": "Connie Hawkins",
+    "licenseChecked": "2026-11-05"
+  }
+}

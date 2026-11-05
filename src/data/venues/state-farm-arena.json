@@ -1,0 +1,46 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Hawks sale announcement (NBA.com)",
+      "url": "https://www.nba.com/hawks/atlanta-hawks-announce-sale-franchise-ownership-group-led-tony-ressler",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "State Farm Arena",
+  "city": "atlanta",
+  "capacity": {
+    "basketball": {
+      "value": 17044,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [
+    {
+      "name": "Philips Arena",
+      "from": 1999,
+      "to": null,
+      "source": "https://www.nba.com/hawks/atlanta-hawks-announce-sale-franchise-ownership-group-led-tony-ressler",
+      "verified": null
+    }
+  ],
+  "summary": "The Hawks’ downtown Atlanta arena since the 1999-2000 season, formerly Philips Arena.",
+  "image": {
+    "file": "File:State Farm (Philips) Arena, Atlanta, GA (46558861525) - 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1280px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:State_Farm_(Philips)_Arena,_Atlanta,_GA_(46558861525)_-_2019.jpg",
+    "author": "Warren LeMay from Cincinnati, OH, United States",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of State Farm Arena",
+    "caption": "State Farm Arena",
+    "licenseChecked": "2026-11-05"
+  }
+}

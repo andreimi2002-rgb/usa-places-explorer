@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jalen Duren",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Memphis",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "4",
+      "source": "https://www.basketball-reference.com/teams/DET/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center who formed an All-NBA duo with Cunningham.",
+  "image": {
+    "file": "File:Jalen Duren Free Throw 01252026 (cropped) 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jalen_Duren_Free_Throw_01252026_%28cropped%29_2.jpg/960px-Jalen_Duren_Free_Throw_01252026_%28cropped%29_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jalen_Duren_Free_Throw_01252026_(cropped)_2.jpg",
+    "author": "Pikraken",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Jalen Duren",
+    "caption": "Jalen Duren",
+    "licenseChecked": "2026-11-05"
+  }
+}

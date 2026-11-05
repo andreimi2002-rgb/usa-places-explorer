@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Brad Daugherty",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/d/daughbr01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Brad Daugherty (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/d/daughbr01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 1986,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Cleveland",
+      "value": "1986–1994",
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center who spent his whole career in Cleveland.",
+  "image": {
+    "file": "File:Brad Daugherty NASCAR Photography By Darryl Moran (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Brad_Daugherty_NASCAR_Photography_By_Darryl_Moran_%28cropped%29.jpg/960px-Brad_Daugherty_NASCAR_Photography_By_Darryl_Moran_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brad_Daugherty_NASCAR_Photography_By_Darryl_Moran_(cropped).jpg",
+    "author": "Darryl Moran",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Brad Daugherty",
+    "caption": "Brad Daugherty",
+    "licenseChecked": "2026-11-05"
+  }
+}

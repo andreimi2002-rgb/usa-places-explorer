@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Michael Finley",
+  "position": {
+    "value": "Small forward / Shooting guard",
+    "source": "https://www.basketball-reference.com/players/f/finlemi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Michael Finley (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/f/finlemi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-mavericks",
+      "role": "player",
+      "from": 1996,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Dallas",
+      "value": "1996–2005",
+      "source": "https://www.basketball-reference.com/teams/DAL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Dallas from 1996 to 2005.",
+  "image": {
+    "file": "File:Michael Finley Dallas Mavericks 2005 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Michael_Finley_Dallas_Mavericks_2005_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Finley_Dallas_Mavericks_2005_(cropped).jpg",
+    "author": "David Herrera",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Michael Finley in a Mavericks uniform",
+    "caption": "Michael Finley, 2005",
+    "licenseChecked": "2026-11-05"
+  }
+}

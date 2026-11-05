@@ -1,0 +1,104 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "name": "Chris Webber",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Chris Webber stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 1993,
+      "to": 1994,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1994,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "sacramento-kings",
+      "role": "player",
+      "from": 1998,
+      "to": 2005,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 2005,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 2007,
+      "to": 2007,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "golden-state-warriors",
+      "role": "player",
+      "from": 2007,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1993, No. 1 overall, by Orlando, and traded to Golden State for Penny Hardaway",
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Rookie of the Year",
+      "value": "1993–94",
+      "source": "https://www.basketball-reference.com/players/w/webbech01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2021",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Drafted first by Orlando in 1993 and traded that night; later the star of Sacramento’s best teams.",
+  "image": {
+    "file": "File:Chris Webber NBA Asia Challenge 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chris_Webber_NBA_Asia_Challenge_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Webber_NBA_Asia_Challenge_2010.jpg",
+    "author": "inboundpass",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Chris Webber",
+    "caption": "Chris Webber",
+    "licenseChecked": "2026-11-05"
+  }
+}

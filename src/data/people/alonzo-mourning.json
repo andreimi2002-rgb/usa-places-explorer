@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Alonzo Mourning stats (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bio: Micky Arison (NBA.com)",
+      "url": "https://www.nba.com/heat/bio/micky-arison",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charlotte all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Alonzo Mourning",
+  "position": {
+    "value": "Center / Power forward",
+    "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+    "verified": "2026-11-06"
+  },
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1992,
+      "to": 1995,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 1995,
+      "to": 2002,
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "miami-heat",
+      "role": "player",
+      "from": 2005,
+      "to": 2008,
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drafted",
+      "value": "1992, No. 2 overall, by Charlotte",
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Defensive Player of the Year",
+      "value": "1998–99, 1999–2000",
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA title",
+      "value": "2006",
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2014",
+      "source": "https://www.basketball-reference.com/players/m/mournal01.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Miami’s first franchise star: a fierce shot-blocking center who came back to win the 2006 title.",
+  "image": {
+    "file": "File:Alonzo Mourning.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Alonzo_Mourning.jpg/1280px-Alonzo_Mourning.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alonzo_Mourning.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Alonzo Mourning in a Miami Heat uniform",
+    "caption": "Alonzo Mourning with Miami, 2007",
+    "licenseChecked": "2026-11-05"
+  }
+}

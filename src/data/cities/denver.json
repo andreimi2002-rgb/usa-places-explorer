@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -11,5 +11,26 @@
   "name": "Denver",
   "region": "Colorado",
   "country": "United States",
-  "timezone": "America/Denver"
+  "timezone": "America/Denver",
+  "coordinates": {
+    "value": {
+      "lat": 39.7392,
+      "lon": -104.9847
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Denver&count=10&language=en&format=json&countryCode=US",
+    "verified": "2026-11-05",
+    "note": "GeoNames 5419384: Denver, Colorado"
+  },
+  "summary": "Home of the Nuggets since 1967.",
+  "image": {
+    "file": "File:Denver skyline from Speer Blvd near I-25, April 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Denver_skyline_from_Speer_Blvd_near_I-25%2C_April_2019.jpg/1280px-Denver_skyline_from_Speer_Blvd_near_I-25%2C_April_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Denver_skyline_from_Speer_Blvd_near_I-25,_April_2019.jpg",
+    "author": "Xnatedawgx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "The Denver skyline",
+    "caption": "Denver skyline, 2019",
+    "licenseChecked": "2026-11-05"
+  }
 }

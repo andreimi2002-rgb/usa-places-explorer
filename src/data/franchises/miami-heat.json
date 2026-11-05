@@ -1,20 +1,299 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Bio: Micky Arison (NBA.com)",
+      "url": "https://www.nba.com/heat/bio/micky-arison",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bio: Pat Riley (NBA.com)",
+      "url": "https://www.nba.com/heat/bio/pat-riley",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "A look at the Heat's previous 6 trips to the NBA Finals (NBA.com)",
+      "url": "https://www.nba.com/news/a-look-at-the-heats-previous-6-trips-to-the-nba-finals",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Miami Heat franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "This Date in the NBA: January (NBA.com)",
+      "url": "https://www.nba.com/news/history-this-date-in-nba-jan",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat inks partnership deal with Kaseya (NBA.com)",
+      "url": "https://www.nba.com/heat/news/heat-inks-partnership-deal-with-kaseya",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Miami Heat NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat unveil statue of Dwyane Wade at Kaseya Center (NBA.com)",
+      "url": "https://www.nba.com/news/heat-unveil-statue-of-dwyane-wade-at-kaseya-center-in-miami",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: Miami Heat (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-mia",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Heat acquire Giannis Antetokounmpo and Bobby Portis Jr. (NBA.com)",
+      "url": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Miami Heat",
   "league": "nba",
   "division": "nba-southeast",
+  "founded": {
+    "value": 1988,
+    "source": "https://www.nba.com/heat/bio/micky-arison",
+    "verified": "2026-11-05",
+    "note": "Ted Arison brought the franchise to South Florida in 1988."
+  },
+  "firstSeason": {
+    "value": "1988-89",
+    "source": "https://www.basketball-reference.com/teams/MIA/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#961A31"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F9A11E"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Red and yellow taken from the official logo file on cdn.nba.com; black is a standard value."
+  },
   "logo": {
     "file": "nba/miami-heat.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "kaseya-center",
+      "from": 2000,
+      "to": null,
+      "source": "https://www.nba.com/news/history-this-date-in-nba-jan",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Erik Spoelstra",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/MIA/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Micky Arison (in control since 1995)",
+    "source": "https://www.nba.com/heat/bio/micky-arison",
+    "verified": "2026-11-05",
+    "note": "Ted Arison, his father, brought the team to Miami in 1988."
+  },
+  "milestones": [
+    {
+      "date": "1988",
+      "label": "Ted Arison brings an NBA expansion franchise to South Florida",
+      "kind": "founding",
+      "source": "https://www.nba.com/heat/bio/micky-arison",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1988",
+      "label": "First NBA season, 1988-89",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/MIA/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "Micky Arison takes control of the franchise",
+      "kind": "ownership",
+      "source": "https://www.nba.com/heat/bio/micky-arison",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995-09-02",
+      "label": "Pat Riley named head coach and team president",
+      "kind": "other",
+      "source": "https://www.nba.com/heat/bio/pat-riley",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2000-01-02",
+      "label": "First game at the new downtown arena: a 111–103 win over Orlando",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/history-this-date-in-nba-jan",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2003",
+      "label": "Draft Dwyane Wade with the fifth pick",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/w/wadedw01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2006-06-20",
+      "label": "First NBA title, over Dallas; Wade is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/heat/bio/pat-riley",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2008",
+      "label": "Erik Spoelstra becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/MIA/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2010",
+      "label": "LeBron James and Chris Bosh join Wade",
+      "kind": "trade",
+      "source": "https://www.nba.com/heat/bio/micky-arison",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012",
+      "label": "Second NBA title, over Oklahoma City",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/a-look-at-the-heats-previous-6-trips-to-the-nba-finals",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2013",
+      "label": "Third NBA title, over San Antonio in seven games",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/a-look-at-the-heats-previous-6-trips-to-the-nba-finals",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2020-10",
+      "label": "Reach the Finals, lose to the Lakers",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/a-look-at-the-heats-previous-6-trips-to-the-nba-finals",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023-04",
+      "label": "The arena becomes Kaseya Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/heat/news/heat-inks-partnership-deal-with-kaseya",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2023",
+      "label": "Seventh Finals appearance, lost to Denver",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-07",
+      "label": "Trade with Milwaukee for Giannis Antetokounmpo",
+      "kind": "trade",
+      "source": "https://www.nba.com/heat/news/heat-acquire-giannis-antetokounmpo-and-bobby-portis-jr",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "South Florida’s team since 1988: three NBA titles, two of them in the years when Wade, James and Bosh played together.",
+  "image": {
+    "file": "File:Kaseya Center prior to a Miami Heat game during the 2024-25 season.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kaseya_Center_prior_to_a_Miami_Heat_game_during_the_2024-25_season.jpg/1280px-Kaseya_Center_prior_to_a_Miami_Heat_game_during_the_2024-25_season.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaseya_Center_prior_to_a_Miami_Heat_game_during_the_2024-25_season.jpg",
+    "author": "Gatorfan252525",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "The Kaseya Center bowl filling up before a Miami Heat game",
+    "caption": "Before a Heat game, 2024-25 season",
+    "licenseChecked": "2026-11-05"
+  },
+  "legends": [
+    "dwyane-wade",
+    "alonzo-mourning",
+    "lebron-james",
+    "pat-riley"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/heat/roster",
+    "players": [
+      {
+        "person": "giannis-antetokounmpo",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "bam-adebayo",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "andrew-wiggins",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "klay-thompson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-mia",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "ryan-conwell",
+        "note": "First NBA season",
+        "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tre-donaldson",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/MIA/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
   }
 }

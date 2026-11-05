@@ -1,20 +1,203 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "NBA approves sale of Trail Blazers to group led by Tom Dundon (NBA.com)",
+      "url": "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Blazers hire Micah Nori as coach (NBA.com)",
+      "url": "https://www.nba.com/news/blazers-hire-micah-nori-coach",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-por",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/POR/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Team logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "Portland Trail Blazers",
   "league": "nba",
   "division": "nba-northwest",
+  "founded": {
+    "value": 1970,
+    "source": "https://www.basketball-reference.com/teams/POR/",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1970-71",
+    "source": "https://www.basketball-reference.com/teams/POR/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#CF0A2C"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Red taken from the official logo file; black is a standard value."
+  },
   "logo": {
     "file": "nba/portland-trail-blazers.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "moda-center",
+      "from": 1995,
+      "to": null,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Micah Nori",
+    "asOf": "2026-27",
+    "source": "https://www.nba.com/news/blazers-hire-micah-nori-coach",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Group led by Tom Dundon (since 2026)",
+    "source": "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+    "verified": "2026-11-05",
+    "note": "Bought from the estate of Paul Allen; approved by the NBA in March 2026."
+  },
+  "milestones": [
+    {
+      "date": "1970",
+      "label": "Join the NBA as an expansion team",
+      "kind": "founding",
+      "source": "https://www.basketball-reference.com/teams/POR/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1974",
+      "label": "Draft Bill Walton first overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/w/waltobi01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1977",
+      "label": "Only NBA title, over Philadelphia; Walton is Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1990",
+      "label": "Reach the Finals with Clyde Drexler, lose to Detroit",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1992",
+      "label": "Finals again, lost to Chicago",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1995",
+      "label": "Move into today’s Moda Center",
+      "kind": "venue",
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2012",
+      "label": "Draft Damian Lillard sixth overall",
+      "kind": "draft",
+      "source": "https://www.basketball-reference.com/players/l/lillada01.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026",
+      "label": "Tom Dundon’s group buys the team; Lillard returns; Micah Nori becomes coach",
+      "kind": "ownership",
+      "source": "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Portland’s team since 1970: the 1977 champions with Bill Walton, Drexler’s Finals teams, and Damian Lillard.",
+  "legends": [
+    "bill-walton",
+    "clyde-drexler",
+    "damian-lillard"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/blazers/roster",
+    "players": [
+      {
+        "person": "damian-lillard",
+        "source": "https://www.nba.com/news/2026-27-season-preview-por",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "ja-morant",
+        "source": "https://www.nba.com/news/2026-27-season-preview-por",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "deni-avdija",
+        "source": "https://www.nba.com/news/2026-27-season-preview-por",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Moda Center.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Moda_Center.JPG/1280px-Moda_Center.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Moda_Center.JPG",
+    "author": "Lugnuts",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Exterior of the Moda Center in Portland",
+    "caption": "Moda Center",
+    "licenseChecked": "2026-11-05"
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "note": "There are no first-year players on Portland’s 2026-27 roster: the club made no picks in the 2026 draft.",
+    "noteSource": "https://www.basketball-reference.com/draft/NBA_2026.html",
+    "players": []
   }
 }

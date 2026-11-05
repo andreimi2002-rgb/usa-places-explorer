@@ -1,0 +1,93 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Dennis Rodman",
+  "position": {
+    "value": "Power forward / Small forward",
+    "source": "https://www.basketball-reference.com/players/r/rodmade01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DET/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dennis Rodman (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/rodmade01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-pistons",
+      "role": "player",
+      "from": 1986,
+      "to": 1993,
+      "source": "https://www.basketball-reference.com/teams/DET/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "chicago-bulls",
+      "role": "player",
+      "from": 1995,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Chicago",
+      "value": "1995–1998",
+      "source": "https://www.basketball-reference.com/teams/CHI/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Chicago",
+      "value": "1996, 1997, 1998",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2011",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Detroit",
+      "value": "1989, 1990",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rebounding specialist of the second Bulls three-peat.",
+  "image": {
+    "file": "File:Dennis Rodman ToPo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Dennis_Rodman_ToPo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dennis_Rodman_ToPo.jpg",
+    "author": "Tuomas Venhola",
+    "license": "CC BY-SA 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+    "alt": "Photo of Dennis Rodman",
+    "caption": "Dennis Rodman playing for Torpan Pojat (Finnish national league team) in November 6th",
+    "licenseChecked": "2026-11-05"
+  }
+}

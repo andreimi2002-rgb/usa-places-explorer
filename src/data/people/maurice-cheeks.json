@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Maurice Cheeks",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/players/c/cheekma01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Maurice Cheeks (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/c/cheekma01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-76ers",
+      "role": "player",
+      "from": 1978,
+      "to": 1989,
+      "source": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Philadelphia",
+      "value": "1978–1989",
+      "source": "https://www.basketball-reference.com/teams/PHI/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with Philadelphia",
+      "value": "1983",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2018",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Philadelphia from 1978 to 1989, winning the 1983 title.",
+  "image": {
+    "file": "File:Maurice Cheeks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Maurice_Cheeks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurice_Cheeks.jpg",
+    "author": "Keith Allison from Owings Mills, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Maurice Cheeks",
+    "caption": "Maurice Cheeks, 2011",
+    "licenseChecked": "2026-11-05"
+  }
+}

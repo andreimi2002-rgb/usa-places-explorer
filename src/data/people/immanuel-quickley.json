@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Immanuel Quickley",
+  "position": {
+    "value": "Point guard",
+    "source": "https://www.basketball-reference.com/teams/TOR/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-raptors",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/TOR/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Kentucky",
+      "source": "https://www.basketball-reference.com/teams/TOR/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "6",
+      "source": "https://www.basketball-reference.com/teams/TOR/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Guard who must fit alongside Leonard and Barnes.",
+  "image": {
+    "file": "File:Immanuel Quickley.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Immanuel_Quickley.jpg/960px-Immanuel_Quickley.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Quickley.jpg",
+    "author": "Thomas Savoja",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Immanuel Quickley",
+    "caption": "Immanuel Quickley",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,20 +1,251 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "under-review",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "New York Knicks team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612752/historic-roster",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "New York Knicks' NBA championships (NBA.com)",
+      "url": "https://www.nba.com/news/new-york-knicks-nba-championships",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Knicks win the 2026 NBA championship (NBA.com)",
+      "url": "https://www.nba.com/news/live-updates-2026-nba-finals-game-5-knicks-seek-first-title-since-1973",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Legends profile: Patrick Ewing (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "MSG Sports fiscal 2026 results (MSG Sports)",
+      "url": "https://www.msgsports.com/madison-square-garden-sports-corp-reports-fiscal-2026-fourth-quarter-and-full-year-results/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "New York Knicks franchise index (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 Season Preview: New York Knicks (NBA.com)",
+      "url": "https://www.nba.com/news/2026-27-season-preview-nyk",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "New York Knicks NBA logo (NBA.com CDN)",
+      "url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
       "accessed": "2026-11-05"
     }
   ],
   "name": "New York Knicks",
   "league": "nba",
   "division": "nba-atlantic",
+  "founded": {
+    "value": 1946,
+    "source": "https://www.nba.com/team/1610612752/historic-roster",
+    "verified": "2026-11-05"
+  },
+  "firstSeason": {
+    "value": "1946-47",
+    "source": "https://www.basketball-reference.com/teams/NYK/",
+    "verified": "2026-11-05"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#1D428A"
+      },
+      {
+        "name": "Orange",
+        "hex": "#F58426"
+      },
+      {
+        "name": "Silver",
+        "hex": "#9EA2A2"
+      }
+    ],
+    "source": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+    "verified": "2026-11-05",
+    "note": "Taken from the official logo file on cdn.nba.com."
+  },
   "logo": {
     "file": "nba/new-york-knicks.svg",
     "official": true,
     "source": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
     "accessed": "2026-11-05"
+  },
+  "venues": [
+    {
+      "venue": "madison-square-garden",
+      "from": 1968,
+      "to": null,
+      "source": "https://www.nba.com/team/1610612752/historic-roster",
+      "verified": "2026-11-05"
+    }
+  ],
+  "headCoach": {
+    "name": "Mike Brown",
+    "asOf": "2026-27",
+    "source": "https://www.basketball-reference.com/teams/NYK/",
+    "verified": "2026-11-05"
+  },
+  "owner": {
+    "value": "Madison Square Garden Sports (executive chairman James Dolan)",
+    "source": "https://www.msgsports.com/madison-square-garden-sports-corp-reports-fiscal-2026-fourth-quarter-and-full-year-results/",
+    "verified": "2026-11-05"
+  },
+  "milestones": [
+    {
+      "date": "1946",
+      "label": "Founded for the first BAA season",
+      "kind": "founding",
+      "source": "https://www.nba.com/team/1610612752/historic-roster",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1968-02-14",
+      "label": "First Knicks game at today’s Madison Square Garden",
+      "kind": "venue",
+      "source": "https://www.nba.com/team/1610612752/historic-roster",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1970",
+      "label": "First NBA title; Willis Reed is MVP and Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/new-york-knicks-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1973",
+      "label": "Second title, again with Reed as Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/new-york-knicks-nba-championships",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1985",
+      "label": "Win the first draft lottery and pick Patrick Ewing",
+      "kind": "draft",
+      "source": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1991",
+      "label": "Pat Riley becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/NYK/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1994",
+      "label": "Reach the Finals, lose to Houston in seven games",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-legend-patrick-ewing",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "1999",
+      "label": "Reach the Finals again, lose to San Antonio",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2025",
+      "label": "Mike Brown becomes head coach",
+      "kind": "other",
+      "source": "https://www.basketball-reference.com/teams/NYK/",
+      "verified": "2026-11-05"
+    },
+    {
+      "date": "2026-06-13",
+      "label": "Third title, 53 years after the second: Spurs beaten 4–1, Brunson Finals MVP",
+      "kind": "finals",
+      "source": "https://www.nba.com/news/live-updates-2026-nba-finals-game-5-knicks-seek-first-title-since-1973",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Madison Square Garden’s team: champions in 1970 and 1973, and again in 2026 after 53 years.",
+  "legends": [
+    "willis-reed",
+    "walt-frazier",
+    "patrick-ewing"
+  ],
+  "corePlayers": {
+    "asOf": "2026-27",
+    "rosterUrl": "https://www.nba.com/knicks/roster",
+    "players": [
+      {
+        "person": "jalen-brunson",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nyk",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "og-anunoby",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nyk",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "karl-anthony-towns",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nyk",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "mikal-bridges",
+        "source": "https://www.nba.com/news/2026-27-season-preview-nyk",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "rookies": {
+    "asOf": "2026-27",
+    "players": [
+      {
+        "person": "jaden-akins",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+        "verified": "2026-11-05"
+      },
+      {
+        "person": "tyler-nickel",
+        "note": "Two-way contract",
+        "source": "https://www.basketball-reference.com/teams/NYK/2027.html",
+        "verified": "2026-11-05"
+      }
+    ]
+  },
+  "image": {
+    "file": "File:Madison Square Garden (MSG) - Full (48124330357).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/960px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_(MSG)_-_Full_(48124330357).jpg",
+    "author": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Madison Square Garden",
+    "caption": "Madison Square Garden, Midtown Manhattan,",
+    "licenseChecked": "2026-11-05"
   }
 }

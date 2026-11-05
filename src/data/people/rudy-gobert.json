@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "roles": [
+    {
+      "franchise": "utah-jazz",
+      "role": "player",
+      "from": 2013,
+      "to": 2022,
+      "source": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "minnesota-timberwolves",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Jazz all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/UTA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Rudy Gobert",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/MIN/2027.html",
+    "verified": "2026-11-05"
+  },
+  "facts": [
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "13",
+      "source": "https://www.basketball-reference.com/teams/MIN/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "French center and rim protector, in Minnesota since 2022 after nine seasons in Utah."
+}

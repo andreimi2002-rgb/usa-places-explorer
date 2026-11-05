@@ -1,0 +1,44 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "New York Knicks team page (NBA.com)",
+      "url": "https://www.nba.com/team/1610612752/historic-roster",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Madison Square Garden",
+  "city": "new-york",
+  "opened": {
+    "value": "1968",
+    "source": "https://www.nba.com/team/1610612752/historic-roster",
+    "verified": "2026-11-05",
+    "note": "First Knicks game: February 14, 1968."
+  },
+  "capacity": {
+    "basketball": {
+      "value": 19812,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "formerNames": [],
+  "summary": "The Knicks’ home since 1968, in midtown Manhattan.",
+  "image": {
+    "file": "File:Madison Square Garden (MSG) - Full (48124330357).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/960px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_(MSG)_-_Full_(48124330357).jpg",
+    "author": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Madison Square Garden",
+    "caption": "Madison Square Garden, Midtown Manhattan,",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Carmelo Anthony",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/a/anthoca01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Carmelo Anthony (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/a/anthoca01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 2003,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New York",
+      "value": "2011–2017",
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "2025",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New York from 2011 to 2017.",
+  "image": {
+    "file": "File:Carmelo Anthony - 51958670372 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Carmelo_Anthony_-_51958670372_%28cropped%29.jpg/960px-Carmelo_Anthony_-_51958670372_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carmelo_Anthony_-_51958670372_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Carmelo Anthony",
+    "caption": "Los Angeles Lakers @ Cleveland Cavaliers, March 21,",
+    "licenseChecked": "2026-11-05"
+  }
+}

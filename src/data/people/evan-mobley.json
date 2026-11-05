@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Evan Mobley",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "USC",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "5",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Frontcourt star and pick-and-roll threat.",
+  "image": {
+    "file": "File:Evan Mobley.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Evan_Mobley.jpg/960px-Evan_Mobley.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Evan_Mobley.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Evan Mobley",
+    "caption": "Evan Mobley",
+    "licenseChecked": "2026-11-05"
+  }
+}

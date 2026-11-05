@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Trevon Brazile",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-nuggets",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/DEN/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Missouri, Arkansas",
+      "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "None (rookie)",
+      "source": "https://www.basketball-reference.com/teams/DEN/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Drafted",
+      "value": "2026, round 2, pick 35",
+      "source": "https://www.basketball-reference.com/draft/NBA_2026.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Rookie forward, picked 35th in the 2026 draft.",
+  "image": {
+    "file": "File:Trevon Brazile.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Trevon_Brazile.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trevon_Brazile.jpg",
+    "author": "Gamecock Central",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Trevon Brazile",
+    "caption": "Trevon Brazile",
+    "licenseChecked": "2026-11-05"
+  }
+}

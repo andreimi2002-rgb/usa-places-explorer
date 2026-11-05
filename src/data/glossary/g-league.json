@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Roster notes (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/ORL/2027.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "term": "G League",
+  "short": "The NBA’s official development league. Most NBA teams have their own G League affiliate.",
+  "sports": [
+    "basketball"
+  ],
+  "related": [
+    "two-way-contract"
+  ]
+}

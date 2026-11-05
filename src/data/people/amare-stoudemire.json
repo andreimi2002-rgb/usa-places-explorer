@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Amar'e Stoudemire",
+  "position": {
+    "value": "Power forward / Center",
+    "source": "https://www.basketball-reference.com/players/s/stoudam01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Amar'e Stoudemire (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/s/stoudam01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "phoenix-suns",
+      "role": "player",
+      "from": 2002,
+      "to": 2010,
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Phoenix",
+      "value": "2002–2010",
+      "source": "https://www.basketball-reference.com/teams/PHO/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Phoenix from 2002 to 2010.",
+  "image": {
+    "file": "File:Amar'e Stoudemire free throw.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Amar%27e_Stoudemire_free_throw.jpg/960px-Amar%27e_Stoudemire_free_throw.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Amar%27e_Stoudemire_free_throw.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Amar'e Stoudemire",
+    "caption": "Amar'e Stoudemire",
+    "licenseChecked": "2026-11-05"
+  }
+}

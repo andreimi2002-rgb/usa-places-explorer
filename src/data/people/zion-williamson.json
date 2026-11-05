@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Zion Williamson",
+  "position": {
+    "value": "Power forward",
+    "source": "https://www.basketball-reference.com/teams/NOP/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOP/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-pelicans",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/NOP/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Duke",
+      "source": "https://www.basketball-reference.com/teams/NOP/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "6",
+      "source": "https://www.basketball-reference.com/teams/NOP/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Forward expected to take over games late.",
+  "image": {
+    "file": "File:Zion Williamson 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/960px-Zion_Williamson_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zion_Williamson_2020.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Zion Williamson",
+    "caption": "Zion Williamson",
+    "licenseChecked": "2026-11-05"
+  }
+}

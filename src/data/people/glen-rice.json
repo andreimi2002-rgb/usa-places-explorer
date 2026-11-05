@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Glen Rice",
+  "position": {
+    "value": "Small forward",
+    "source": "https://www.basketball-reference.com/players/r/ricegl01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Glen Rice (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/ricegl01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 1995,
+      "to": 1998,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "1995–1998",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Charlotte from 1995 to 1998.",
+  "image": {
+    "file": "File:Glen Rice 2010 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Glen_Rice_2010_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glen_Rice_2010_(cropped).jpg",
+    "author": "inboundpass",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Glen Rice",
+    "caption": "Glen Rice",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history (NBA.com)",
+      "url": "https://www.nba.com/team/1610612752/historic-roster",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "new-york-knicks",
   "name": "New York Knicks",
   "city": "new-york",
+  "from": {
+    "value": 1946,
+    "source": "https://www.nba.com/team/1610612752/historic-roster",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

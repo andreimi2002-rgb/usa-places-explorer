@@ -1,0 +1,87 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Earl Monroe",
+  "position": {
+    "value": "Shooting guard / Point guard",
+    "source": "https://www.basketball-reference.com/players/m/monroea01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "List of NBA champions (NBA.com)",
+      "url": "https://www.nba.com/news/history-nba-champions",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Basketball Hall of Fame inductees (NBA.com)",
+      "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Wizards all-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Earl Monroe (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/m/monroea01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1967,
+      "to": 1972,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "franchise": "new-york-knicks",
+      "role": "player",
+      "from": 1971,
+      "to": 1980,
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with New York",
+      "value": "1971–1980",
+      "source": "https://www.basketball-reference.com/teams/NYK/players.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Titles with New York",
+      "value": "1973",
+      "source": "https://www.nba.com/news/history-nba-champions",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "Naismith Hall of Fame",
+      "value": "1990",
+      "source": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for New York from 1971 to 1980, winning the 1973 title.",
+  "image": {
+    "file": "File:EarlthePearlatBarnes&Noble.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/EarlthePearlatBarnes%26Noble.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:EarlthePearlatBarnes%26Noble.JPG",
+    "author": "Wes Washington",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Earl Monroe",
+    "caption": "Monroe interacting with the public at Barnes &amp; Noble book signing in New",
+    "licenseChecked": "2026-11-05"
+  }
+}

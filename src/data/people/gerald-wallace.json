@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Gerald Wallace",
+  "position": {
+    "value": "Small forward / Power forward",
+    "source": "https://www.basketball-reference.com/players/w/wallage01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Gerald Wallace (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/w/wallage01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-hornets",
+      "role": "player",
+      "from": 2004,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Charlotte",
+      "value": "2004–2011",
+      "source": "https://www.basketball-reference.com/teams/CHA/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Charlotte from 2004 to 2011.",
+  "image": {
+    "file": "File:WallaceNets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/WallaceNets.jpg/960px-WallaceNets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WallaceNets.jpg",
+    "author": "Knightwell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Gerald Wallace",
+    "caption": "Gerald Wallace",
+    "licenseChecked": "2026-11-05"
+  }
+}

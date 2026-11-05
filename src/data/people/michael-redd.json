@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Michael Redd",
+  "position": {
+    "value": "Shooting guard / Small forward",
+    "source": "https://www.basketball-reference.com/players/r/reddmi01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Michael Redd (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/r/reddmi01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "milwaukee-bucks",
+      "role": "player",
+      "from": 2000,
+      "to": 2011,
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Milwaukee",
+      "value": "2000–2011",
+      "source": "https://www.basketball-reference.com/teams/MIL/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Milwaukee from 2000 to 2011.",
+  "image": {
+    "file": "File:ReddBucks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/ReddBucks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ReddBucks.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Michael Redd",
+    "caption": "Michael Redd",
+    "licenseChecked": "2026-11-05"
+  }
+}

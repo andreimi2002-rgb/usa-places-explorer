@@ -1,16 +1,21 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "complete",
   "sources": [
     {
-      "title": "NBA Teams",
-      "url": "https://www.nba.com/teams",
+      "title": "Franchise history",
+      "url": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
       "accessed": "2026-11-05"
     }
   ],
   "franchise": "new-orleans-pelicans",
   "name": "New Orleans Pelicans",
   "city": "new-orleans",
+  "from": {
+    "value": 2013,
+    "source": "https://www.nba.com/pelicans/news/new-orleans-charlotte-working-together-during-transition-hornets-nickname",
+    "verified": "2026-11-05"
+  },
   "to": null,
   "current": true
 }

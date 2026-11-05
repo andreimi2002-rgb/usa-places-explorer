@@ -1,0 +1,52 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "name": "Walt Bellamy",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/players/b/bellawa01.html",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Walt Bellamy (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/players/b/bellawa01.html",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-wizards",
+      "role": "player",
+      "from": 1961,
+      "to": 1966,
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Seasons with Washington",
+      "value": "1961–1966",
+      "source": "https://www.basketball-reference.com/teams/WAS/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Played for Washington from 1961 to 1966.",
+  "image": {
+    "file": "File:Walt Bellamy 1972.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Walt_Bellamy_1972.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Walt_Bellamy_1972.JPG",
+    "author": "NBA",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Walt Bellamy",
+    "caption": "Walt Bellamy",
+    "licenseChecked": "2026-11-05"
+  }
+}

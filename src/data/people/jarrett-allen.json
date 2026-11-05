@@ -1,0 +1,58 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "name": "Jarrett Allen",
+  "position": {
+    "value": "Center",
+    "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+    "verified": "2026-11-05"
+  },
+  "sources": [
+    {
+      "title": "2026-27 roster (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All-time player list (Basketball-Reference)",
+      "url": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-cavaliers",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://www.basketball-reference.com/teams/CLE/players.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "facts": [
+    {
+      "label": "College",
+      "value": "Texas",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    },
+    {
+      "label": "NBA seasons before 2026-27",
+      "value": "9",
+      "source": "https://www.basketball-reference.com/teams/CLE/2027.html",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Center and Mobley’s partner in the frontcourt.",
+  "image": {
+    "file": "File:Jarrett Allen 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Jarrett_Allen_2021.jpg/960px-Jarrett_Allen_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jarrett_Allen_2021.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jarrett Allen",
+    "caption": "Jarrett Allen",
+    "licenseChecked": "2026-11-05"
+  }
+}

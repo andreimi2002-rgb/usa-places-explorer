@@ -1,0 +1,61 @@
+{
+  "status": "active",
+  "progress": "under-review",
+  "sources": [
+    {
+      "title": "Arena info (Crypto.com Arena)",
+      "url": "https://cryptoarena.com/arena-info",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Staples Center to be renamed Crypto.com Arena (NBA.com)",
+      "url": "https://www.nba.com/news/staples-center-to-be-renamed-crypto-com-arena-beginning-december-25",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "name": "Crypto.com Arena",
+  "city": "los-angeles",
+  "opened": {
+    "value": "1999-10-17",
+    "source": "https://cryptoarena.com/arena-info",
+    "verified": "2026-11-05"
+  },
+  "capacity": {
+    "basketball": {
+      "value": 18997,
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
+    }
+  },
+  "owner": {
+    "value": "AEG (owner and operator)",
+    "source": "https://cryptoarena.com/arena-info",
+    "verified": "2026-11-05"
+  },
+  "formerNames": [
+    {
+      "name": "Staples Center",
+      "from": 1999,
+      "to": 2021,
+      "source": "https://www.nba.com/news/staples-center-to-be-renamed-crypto-com-arena-beginning-december-25",
+      "verified": "2026-11-05"
+    }
+  ],
+  "summary": "Downtown Los Angeles arena, opened in 1999 as Staples Center and shared by the Lakers, the NHL’s Kings and the WNBA’s Sparks.",
+  "image": {
+    "file": "File:Crypto.com Arena exterior 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Crypto.com_Arena_exterior_2023.jpg/1280px-Crypto.com_Arena_exterior_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Crypto.com_Arena_exterior_2023.jpg",
+    "author": "Troutfarm27",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Exterior of Crypto.com Arena with its signage",
+    "caption": "Crypto.com Arena, 2023",
+    "licenseChecked": "2026-11-05"
+  }
+}

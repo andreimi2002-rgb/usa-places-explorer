@@ -11,6 +11,16 @@
       "title": "Orlando’s premier downtown destination to be renamed Kia Center",
       "url": "https://www.nba.com/magic/news/orlando-premier-downtown-sports-and-entertainment-destination-to-be-renamed-kia-center-20231220",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "All 30 NBA arenas by team (NBA.com)",
+      "url": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Venues (City of Orlando)",
+      "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+      "accessed": "2026-11-05"
     }
   ],
   "name": "Kia Center",
@@ -23,16 +33,15 @@
   "capacity": {
     "basketball": {
       "value": 18846,
-      "source": "https://en.wikipedia.org/wiki/Kia_Center",
-      "verified": null,
-      "note": "Widely reported NBA capacity; the venue’s own rental page lists 18,500. Not confirmed from a primary source."
+      "source": "https://www.nba.com/news/all-30-nba-arenas-by-team",
+      "verified": "2026-11-05"
     }
   },
   "owner": {
     "value": "City of Orlando",
-    "source": "https://en.wikipedia.org/wiki/Kia_Center",
-    "verified": null,
-    "note": "Reported by secondary sources only."
+    "source": "https://www.orlando.gov/Our-Government/Departments-Offices/Venues",
+    "verified": "2026-11-05",
+    "note": "Owned and operated by the city through the Orlando Venues Department."
   },
   "formerNames": [
     {

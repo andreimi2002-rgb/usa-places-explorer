@@ -71,7 +71,7 @@
     "value": [
       {
         "name": "Magic Blue",
-        "hex": "#0077C0"
+        "hex": "#0050B5"
       },
       {
         "name": "Black",
@@ -82,8 +82,9 @@
         "hex": "#C4CED4"
       }
     ],
-    "source": "https://teamcolorcodes.com/orlando-magic-color-codes/",
-    "verified": "2026-11-05"
+    "source": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
+    "verified": "2026-11-05",
+    "note": "The team names Magic blue, black and silver but publishes no hex codes. The blue is taken from the official 2025 logo file on cdn.nba.com; black and silver are standard approximations."
   },
   "logo": {
     "file": "nba/orlando-magic.svg",
@@ -258,7 +259,7 @@
     {
       "edition": "icon",
       "season": "2025-26",
-      "base": "#0077C0",
+      "base": "#0050B5",
       "pinstripes": true,
       "maker": "Nike",
       "description": "Magic blue, with the same pinstripes and trim as the white set.",
@@ -269,7 +270,7 @@
       "edition": "statement",
       "season": "2025-26",
       "base": "#000000",
-      "panel": "#0077C0",
+      "panel": "#0050B5",
       "trim": "#C4CED4",
       "pinstripes": true,
       "wordmark": "MAGIC",

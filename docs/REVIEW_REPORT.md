@@ -17,21 +17,18 @@ Date: 2026-11-05. The live version of the automated list is the internal `/statu
 
 ## 2. Unverified facts (stored, hidden on the site)
 
-| Entity | Field | Stored value | Why it is not verified | What would resolve it |
-|---|---|---|---|---|
-| Kia Center | `capacity.basketball` | 18,846 | Only a secondary source (Wikipedia); the venue's own rental page says about 18,500 | An official Magic or Kia Center figure for basketball seating |
-| Kia Center | `owner` | City of Orlando | Only Wikipedia | A City of Orlando page on the venue |
+None. Resolved on 2026-11-05:
 
-## 3. Image licenses not yet checked by hand
-
-| Entity | File | Stated license |
+| Entity | Field | Resolution |
 |---|---|---|
-| Amway Arena | File:Amway Arena Exterior.jpg | Public domain (please confirm the reason on the Commons page) |
+| Kia Center | `capacity.basketball` | 18,846, from NBA.com's arena list (updated October 2026). The venue's 18,500 is its general figure. |
+| Kia Center | `owner` | City of Orlando, from the city's own Venues page (owned and operated through the Orlando Venues Department). |
 
-All other photos (Orlando Magic hero, Kia Center, Lake Eola, O'Neal, Hardaway, Howard, Anderson) were checked
-on their Commons pages on 2026-11-05.
+## 3. Images
 
-**Missing images:** Tracy McGrady, Pat Williams (no suitable free-license photo found yet).
+All photos are checked on their Commons pages. Amway Arena's photo was released into the public domain by its
+author (PD-user). New: Tracy McGrady (CC BY 2.0, 2016) and Pat Williams (public domain, 1971-72 Chicago Bulls
+media guide published without a copyright notice).
 
 ## 4. Facts verified only against secondary sources
 
@@ -39,7 +36,7 @@ These are displayed, but a primary source would be better:
 
 | Fact | Source used |
 |---|---|
-| Magic colors and hex codes | teamcolorcodes.com |
+| Magic hex codes | blue taken from the official 2025 logo file (#0050B5); black and silver are approximations. The team publishes names, not codes. |
 | Orlando population (307,573, 2020 census) | Wikipedia (the Census API needs a key) |
 | 1993 draft-night trade (Webber for Hardaway + picks) | RealGM transactions |
 | O'Neal signing with the Lakers, July 1996 | Deseret News, 1996 |
@@ -53,10 +50,7 @@ These are displayed, but a primary source would be better:
 - **Uniforms (Orlando only):** Association, Icon and Statement sets for 2025-26, drawn from the NBA.com
   announcement and SportsLogos.net; real photo: Goga Bitadze in the Statement uniform (CC BY 4.0). The City
   Edition is not included yet.
-- **Team colors after the rebrand:** the Magic changed their logo and uniforms in June 2025. The team names its
-  colors (Magic blue, black, silver) but publishes no hex codes. Our hex codes come from teamcolorcodes.com,
-  which still describes the 2008 look, and the new official logo uses a deeper blue (#0050B5). Which blue should
-  we use?
+- **Team colors after the rebrand:** switched to the deeper blue of the new official logo (#0050B5), also used for the Icon uniform drawing.
 
 ## 6. Prose checked and corrected during writing
 
@@ -64,11 +58,9 @@ These claims were removed or rewritten because no source confirmed them: winning
 described, "three straight first-round exits", "a city-built arena", superlatives about the fan base, and a
 wrong time difference (Orlando is 5 hours behind London, not 6, for most of the year).
 
-## 7. Open questions for you
+## 7. Decisions taken (2026-11-05)
 
-1. **Accent color:** the site uses a blue accent (`#4d8dff`). Keep it, or pick another?
-2. **Old PR #7** (`listing-enrichment` from the previous project) is archived in `archive/previous-project`. Close it?
-3. **Fan culture:** the Orlando fan-culture section is short and careful. Should we invest in deeper sources
-   (local press, team history books) for this section on every team?
-4. **Launch:** when to switch `indexable` on.
-5. **Kia Center capacity:** show "about 18,500" from the venue's page, or wait for an exact official figure?
+1. **Accent color:** keep the site blue (`#4d8dff`); team pages already switch to team colors.
+2. **Old PR #7:** closed; the work stays in `archive/previous-project`.
+3. **Fan culture:** kept short and sourced; deepened per team only where local press gives solid material.
+4. **Launch:** `indexable` stays off until several NBA teams are complete.

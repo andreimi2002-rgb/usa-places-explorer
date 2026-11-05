@@ -10,5 +10,11 @@
   ],
   "name": "Brooklyn Nets",
   "league": "nba",
-  "division": "nba-atlantic"
+  "division": "nba-atlantic",
+  "logo": {
+    "file": "nba/brooklyn-nets.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

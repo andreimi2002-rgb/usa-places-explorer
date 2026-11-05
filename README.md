@@ -29,7 +29,8 @@ files, which breaks Pagefind.
 | `src/content.config.ts` | All collection schemas (Zod) |
 | `src/data/<collection>/<id>.json` | Structured facts with sources |
 | `src/content/prose/<collection>/<id>/<section>.mdx` | Written text; use `<Term id="…">` for glossary links |
-| `src/assets/logos/<league>/<id>.svg` | Temporary logo artwork, referenced from `franchise.logo` |
+| `src/assets/logos/<league>/<id>.svg` | Official team logos (trademarks, identification only), referenced from `franchise.logo` |
+| `src/components/Kit.astro` | Simplified uniform drawings from `franchise.kits` |
 | `src/lib/graph.ts` | Connection graph, built from the data relations |
 | `src/site.config.ts` | Site name, European time zones, disclaimer, **`indexable` switch** |
 | `src/pages/status.astro` | Internal progress and review page (noindex) |

@@ -10,5 +10,11 @@
   ],
   "name": "Washington Wizards",
   "league": "nba",
-  "division": "nba-southeast"
+  "division": "nba-southeast",
+  "logo": {
+    "file": "nba/washington-wizards.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

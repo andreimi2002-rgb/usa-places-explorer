@@ -10,5 +10,11 @@
   ],
   "name": "Portland Trail Blazers",
   "league": "nba",
-  "division": "nba-northwest"
+  "division": "nba-northwest",
+  "logo": {
+    "file": "nba/portland-trail-blazers.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

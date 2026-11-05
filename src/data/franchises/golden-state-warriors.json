@@ -10,5 +10,11 @@
   ],
   "name": "Golden State Warriors",
   "league": "nba",
-  "division": "nba-pacific"
+  "division": "nba-pacific",
+  "logo": {
+    "file": "nba/golden-state-warriors.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

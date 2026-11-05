@@ -10,5 +10,11 @@
   ],
   "name": "Philadelphia 76ers",
   "league": "nba",
-  "division": "nba-atlantic"
+  "division": "nba-atlantic",
+  "logo": {
+    "file": "nba/philadelphia-76ers.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

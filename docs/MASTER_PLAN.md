@@ -92,8 +92,12 @@ distances). No sport is required to fill another sport's fields. See `docs/TEAM_
 - Photos: **Wikimedia Commons, free licenses only** (CC0, public domain, CC BY, CC BY-SA). Author, license
   and the file page are stored with the image and shown in the page credits. `licenseChecked` stays `null`
   until a person has checked the Commons page.
-- Logos are **temporary placeholders** in `src/assets/logos/<league>/<id>.svg`, referenced only through the
-  data (`franchise.logo`). Official logos are trademarks; whether to use them is decided before launch.
+- **Logos:** official team logos (from the league's own site) in `src/assets/logos/<league>/<id>.svg`,
+  referenced only through the data (`franchise.logo`, with its source). They are trademarks, shown small and
+  only to identify the team, never as site branding. Each team page credits the logo's owner. If an owner
+  asks, a logo is removed by swapping one file.
+- **Uniforms:** our own simplified SVG drawings from sourced details (no logos on them), plus free-license
+  game photos from Commons.
 - Footer disclaimer on every page: *"Not affiliated with the NBA, NFL, MLB, NHL, MLS or any team. Team names
   and logos are trademarks of their respective owners."*
 
@@ -122,7 +126,7 @@ The whole site is `noindex, nofollow` until launch, controlled by one switch: `i
 | 3 | NFL, MLB, NHL skeletons, then pilots; sport extensions in use | Planned |
 | 4 | MLS, WNBA, NWSL, PWHL, UFL | Planned |
 | 5 | Romanian translation (Astro i18n routes; data stays shared) | Planned |
-| 6 | Launch: logo decision, final license review, switch `indexable` on | Planned |
+| 6 | Launch: final license review, switch `indexable` on | Planned |
 
 ## 12. Progress tracking
 

@@ -54,7 +54,7 @@ const accent = pilot?.data.colors?.value[0]?.hex;
   {pilot && (
     <section class="container section" style={accent ? `--team-1:${accent}` : undefined}>
       <div class="feature">
-        <Logo path={pilot.data.logo} name={pilot.data.name} size={120} />
+        <Logo logo={pilot.data.logo} name={pilot.data.name} size={120} />
         <div>
           <span class="eyebrow">First complete team page</span>
           <h2>{pilot.data.name}</h2>

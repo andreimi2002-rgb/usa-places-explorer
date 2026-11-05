@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntries, getEntry, render } from 'astro:content';
 import FactBox from '../../components/FactBox.astro';
+import Kit from '../../components/Kit.astro';
 import LocalTime from '../../components/LocalTime.astro';
 import Logo from '../../components/Logo.astro';
 import MiniGraph from '../../components/MiniGraph.astro';
@@ -53,7 +54,8 @@ const rivalryEntries = await Promise.all(
   rivalries.map(async (r) => ({ r, other: (await getEntries(r.data.franchises)).find((f) => f.id !== franchise.id) })),
 );
 const description = d.summary ?? `${d.name}: history, home venue, legends and rivalries, explained for newcomers.`;
-const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data.image)];
+const kits = d.kits.filter((k) => k.verified);
+const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...legends.map((p) => p.data.image)];
 ---
 
 <Base title={d.name} description={description} accent={accent}>
@@ -61,7 +63,7 @@ const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data
   <header class="hero">
     {d.image && <img class="hero-bg" src={d.image.url} alt="" />}
     <div class="container hero-inner">
-      <Logo path={d.logo} name={d.name} size={112} />
+      <Logo logo={d.logo} name={d.name} size={112} />
       <div>
         <span class="eyebrow">
           {league?.data.shortName}{conference && ` · ${conference.data.name}`}{division && ` · ${division.data.name}`}
@@ -150,6 +152,24 @@ const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data
                 ))}
               </ul>
             </div>
+          </div>
+        </section>
+      )}
+
+      <!-- 4b. Uniforms -->
+      {kits.length > 0 && (
+        <section class="section container" aria-labelledby="kits-title">
+          <div class="section-head"><h2 id="kits-title">Uniforms</h2></div>
+          <p class="muted kits-intro">
+            NBA teams wear several uniforms a season. The white <strong>Association</strong> and colored <strong>Icon</strong> sets are the
+            everyday pair; the <strong>Statement</strong> set is an alternate. The drawings are our own simplified sketches of the
+            {' '}{kits[0].season} set, not the exact designs.
+          </p>
+          <div class="kits">
+            <ul class="kit-list">
+              {kits.map((k, i) => <li><Kit kit={k} uid={`${franchise.id}-${i}`} /></li>)}
+            </ul>
+            {d.kitPhoto && <Photo image={d.kitPhoto} aspect="3 / 4" class="kit-photo" />}
           </div>
         </section>
       )}
@@ -257,6 +277,12 @@ const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data
   <!-- 12. Sources & image credits -->
   <div class="section container">
     <SourceList sources={d.sources} credits={credits} />
+    {d.logo?.official && (
+      <p class="subtle updated">
+        Logo: a trademark of the {d.name}, shown for identification only. File from{' '}
+        {d.logo.source ? <a href={d.logo.source} rel="noopener" target="_blank">NBA.com</a> : 'the team'}.
+      </p>
+    )}
     <p class="subtle updated">Status: {d.progress.replace('-', ' ')}. Facts checked {formatDate(d.sources[0]?.accessed ?? '2026-11-05')}.</p>
   </div>
 </Base>
@@ -411,6 +437,27 @@ const credits = [d.image, currentVenue?.data.image, ...legends.map((p) => p.data
   }
   .identities li.current strong {
     color: var(--team-1);
+  }
+  .kits {
+    display: grid;
+    gap: 1.5rem;
+  }
+  @media (min-width: 900px) {
+    .kits {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      align-items: start;
+    }
+  }
+  .kits-intro {
+    max-width: 60ch;
+  }
+  .kit-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   .narrow {
     max-width: 46rem;

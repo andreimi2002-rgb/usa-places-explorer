@@ -27,7 +27,7 @@ const Body = body ? (await render(body)).Content : undefined;
         <>
           {i === 1 && <span class="vs">vs</span>}
           <a href={routes.franchises(t.id)} class="side">
-            <Logo path={t.data.logo} name={t.data.name} size={64} />
+            <Logo logo={t.data.logo} name={t.data.name} size={64} />
             <span>{t.data.name}</span>
           </a>
         </>

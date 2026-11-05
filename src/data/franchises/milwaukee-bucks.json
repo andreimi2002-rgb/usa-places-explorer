@@ -10,5 +10,11 @@
   ],
   "name": "Milwaukee Bucks",
   "league": "nba",
-  "division": "nba-central"
+  "division": "nba-central",
+  "logo": {
+    "file": "nba/milwaukee-bucks.svg",
+    "official": true,
+    "source": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
+    "accessed": "2026-11-05"
+  }
 }

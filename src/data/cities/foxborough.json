@@ -1,0 +1,26 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Foxborough",
+  "region": "Massachusetts",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Greater Boston",
+  "coordinates": {
+    "value": {
+      "lat": 42.06538,
+      "lon": -71.24783
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Foxborough&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A town between Boston and Providence, home of Gillette Stadium, the Patriots and the Revolution."
+}

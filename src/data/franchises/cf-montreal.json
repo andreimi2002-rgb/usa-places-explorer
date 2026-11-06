@@ -1,0 +1,156 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "CF Montréal",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 1992,
+    "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+    "verified": "2026-11-06",
+    "note": "Founded December 10, 1992, as the Montreal Impact."
+  },
+  "firstSeason": {
+    "value": "2012",
+    "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Joey Saputo (Saputo family)",
+    "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Philippe Eullaffroy (interim)",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "saputo-stadium",
+      "from": 2012,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "didier-drogba",
+    "marco-di-vaio",
+    "ignacio-piatti"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/cf-montreal/",
+    "players": [
+      {
+        "person": "samuel-piette",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "ivan-jaime",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1993",
+      "label": "The Montreal Impact begin play in a lower league",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008-05-19",
+      "label": "Saputo Stadium opens",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Join MLS as its 19th club",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Reach the CONCACAF Champions League final; Didier Drogba arrives",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021-01",
+      "label": "Rename as CF Montréal",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Montréal’s club, the former Impact: CONCACAF Champions League finalist in 2015, the year Didier Drogba arrived.",
+  "sources": [
+    {
+      "title": "CF Montréal (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/MTL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/cf-montreal.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/MTL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#003DA6"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C1C5C8"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/MTL.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Saputo Stadium Montreal October 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Saputo_Stadium_Montreal_October_2010.jpg/1280px-Saputo_Stadium_Montreal_October_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saputo_Stadium_Montreal_October_2010.jpg",
+    "author": "abdallahh from Montréal, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Saputo Stadium",
+    "caption": "Saputo Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

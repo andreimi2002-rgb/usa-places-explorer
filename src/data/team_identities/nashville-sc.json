@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "nashville-sc",
+  "name": "Nashville SC",
+  "city": "nashville",
+  "from": {
+    "value": 2020,
+    "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

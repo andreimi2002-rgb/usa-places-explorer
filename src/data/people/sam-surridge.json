@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q34982765",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 28, 1998, Slough",
+      "source": "https://www.wikidata.org/wiki/Q34982765",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sam Surridge",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Sam_Surridge",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sam Surridge (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sam_Surridge",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sam Surridge (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q34982765",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "nashville-sc",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sam_Surridge",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "English striker and Designated Player since 2023.",
+  "image": {
+    "file": "File:Sam Surridge NYCFC v Nashville 4 Sep 2026-039.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sam_Surridge_NYCFC_v_Nashville_4_Sep_2026-039.jpg/1280px-Sam_Surridge_NYCFC_v_Nashville_4_Sep_2026-039.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sam_Surridge_NYCFC_v_Nashville_4_Sep_2026-039.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Sam Surridge",
+    "caption": "Sam Surridge",
+    "licenseChecked": "2026-11-05"
+  }
+}

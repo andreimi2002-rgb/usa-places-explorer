@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Dick’s Sporting Goods Park",
+  "city": "commerce-city",
+  "opened": {
+    "value": "2007",
+    "source": "https://en.wikipedia.org/wiki/Colorado_Rapids",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 18061,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Colorado Rapids (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Colorado_Rapids",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Rapids’ soccer stadium in Commerce City since 2007.",
+  "image": {
+    "file": "File:Dick's Sporting Goods Park wide angle.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Dick%27s_Sporting_Goods_Park_wide_angle.jpg/1280px-Dick%27s_Sporting_Goods_Park_wide_angle.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dick%27s_Sporting_Goods_Park_wide_angle.jpg",
+    "author": "DenverLawGuy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Dick’s Sporting Goods Park",
+    "caption": "Dick’s Sporting Goods Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

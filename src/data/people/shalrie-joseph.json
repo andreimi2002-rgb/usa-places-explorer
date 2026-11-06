@@ -1,0 +1,67 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Grenada",
+      "source": "https://www.wikidata.org/wiki/Q2001138",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 24, 1978, St. George's",
+      "source": "https://www.wikidata.org/wiki/Q2001138",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Shalrie Joseph",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Shalrie_Joseph",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Shalrie Joseph (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Shalrie_Joseph",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Shalrie Joseph (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2001138",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2003,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Shalrie_Joseph",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2014,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Shalrie_Joseph",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Grenadian midfielder who spent ten years with the Revolution.",
+  "image": {
+    "file": "File:Shalrie Joseph warmup 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Shalrie_Joseph_warmup_2010.jpg/1280px-Shalrie_Joseph_warmup_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shalrie_Joseph_warmup_2010.jpg",
+    "author": "Gregory Laing",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Shalrie Joseph",
+    "caption": "Shalrie Joseph",
+    "licenseChecked": "2026-11-05"
+  }
+}

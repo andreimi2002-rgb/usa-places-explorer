@@ -1,0 +1,67 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "France",
+      "source": "https://www.wikidata.org/wiki/Q1369631",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 10, 1984, Mont-Saint-Aignan",
+      "source": "https://www.wikidata.org/wiki/Q1369631",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sébastien Le Toux",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/S%C3%A9bastien_Le_Toux",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sébastien Le Toux (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/S%C3%A9bastien_Le_Toux",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sébastien Le Toux (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1369631",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-union",
+      "role": "player",
+      "from": 2010,
+      "to": 2011,
+      "source": "https://en.wikipedia.org/wiki/S%C3%A9bastien_Le_Toux",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "philadelphia-union",
+      "role": "player",
+      "from": 2013,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/S%C3%A9bastien_Le_Toux",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "French forward who scored the Union’s first goal in 2010.",
+  "image": {
+    "file": "File:2012-02-15 Sebastien Le Toux.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2012-02-15_Sebastien_Le_Toux.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2012-02-15_Sebastien_Le_Toux.jpg",
+    "author": "Vosie",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Sébastien Le Toux",
+    "caption": "Sébastien Le Toux",
+    "licenseChecked": "2026-11-05"
+  }
+}

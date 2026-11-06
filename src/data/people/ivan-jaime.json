@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q56600185",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 26, 2000, Málaga",
+      "source": "https://www.wikidata.org/wiki/Q56600185",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Iván Jaime",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Jaime",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Iván Jaime (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Jaime",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Iván Jaime (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q56600185",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cf-montreal",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Jaime",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spanish playmaker, on loan and a Designated Player."
+}

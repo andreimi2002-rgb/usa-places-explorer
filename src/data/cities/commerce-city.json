@@ -1,0 +1,26 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Commerce City",
+  "region": "Colorado",
+  "country": "United States",
+  "timezone": "America/Denver",
+  "metro": "Denver metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 39.80832,
+      "lon": -104.93387
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Commerce%20City&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A suburb north-east of Denver, home of the Colorado Rapids since 2007."
+}

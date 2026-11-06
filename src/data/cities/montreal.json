@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Montréal",
+  "region": "Quebec",
+  "country": "Canada",
+  "timezone": "America/Toronto",
+  "coordinates": {
+    "value": {
+      "lat": 45.50884,
+      "lon": -73.58781
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Montr%C3%A9al&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Canada’s second city and the heart of French-speaking North America, with an MLS club since 2012.",
+  "image": {
+    "file": "File:Montreal - QC - Skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Montreal_-_QC_-_Skyline.jpg/1280px-Montreal_-_QC_-_Skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg",
+    "author": "Taxiarchos228",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "View of Montréal",
+    "caption": "Montréal",
+    "licenseChecked": "2026-11-05"
+  }
+}

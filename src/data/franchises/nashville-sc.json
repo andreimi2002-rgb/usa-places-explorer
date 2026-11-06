@@ -1,0 +1,160 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Nashville SC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2016,
+    "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+    "verified": "2026-11-06",
+    "note": "Founded May 19, 2016; awarded an MLS place in 2017."
+  },
+  "firstSeason": {
+    "value": "2020",
+    "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "John Ingram (principal owner)",
+    "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "B.J. Callaghan",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "geodis-park",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "hany-mukhtar",
+    "walker-zimmerman"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/nashville-sc/",
+    "players": [
+      {
+        "person": "hany-mukhtar",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "sam-surridge",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "cristian-espinoza",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2020-02-29",
+      "label": "First MLS match, a 2–1 loss to Atlanta at Nissan Stadium",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Open Geodis Park; Hany Mukhtar is MVP",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Reach the Leagues Cup final, lost on penalties to Inter Miami",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Win the U.S. Open Cup, 2–1 against Austin",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Win the Supporters’ Shield for the best regular season",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Music City’s club since 2020, with the largest soccer stadium in North America and the 2026 Supporters’ Shield.",
+  "sources": [
+    {
+      "title": "Nashville SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/NSH.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/nashville-sc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/NSH.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#1F1646"
+      },
+      {
+        "name": "Gold",
+        "hex": "#ECE83A"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/NSH.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:GEODIS Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEODIS_Park.jpg/1280px-GEODIS_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GEODIS_Park.jpg",
+    "author": "CheckeredYeti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Geodis Park",
+    "caption": "Geodis Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "Gillette Stadium",
+  "city": "foxborough",
+  "opened": {
+    "value": "2002",
+    "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "New England Revolution (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Patriots’ NFL stadium in Foxborough, home of the Revolution since 2002.",
+  "image": {
+    "file": "File:Gillette Stadium Foxborough.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gillette_Stadium_Foxborough.jpg/1280px-Gillette_Stadium_Foxborough.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxborough.jpg",
+    "author": "Max P",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Gillette Stadium",
+    "caption": "Gillette Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Italy",
+      "source": "https://www.wikidata.org/wiki/Q136940",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 15, 1976, Rome",
+      "source": "https://www.wikidata.org/wiki/Q136940",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Marco Di Vaio",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Marco_Di_Vaio",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marco Di Vaio (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marco_Di_Vaio",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Marco Di Vaio (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q136940",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cf-montreal",
+      "role": "player",
+      "from": 2012,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Marco_Di_Vaio",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Italian striker of the first MLS seasons: 34 goals in 76 games.",
+  "image": {
+    "file": "File:Marco Di Vaio Montreal Impact.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marco_Di_Vaio_Montreal_Impact.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marco_Di_Vaio_Montreal_Impact.jpg",
+    "author": "md.faisalzaman from Worcester, MA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Marco Di Vaio",
+    "caption": "Marco Di Vaio",
+    "licenseChecked": "2026-11-05"
+  }
+}

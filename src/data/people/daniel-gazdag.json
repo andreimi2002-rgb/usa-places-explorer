@@ -1,0 +1,67 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Hungary",
+      "source": "https://www.wikidata.org/wiki/Q18206107",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 2, 1996, Nyíregyháza",
+      "source": "https://www.wikidata.org/wiki/Q18206107",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Dániel Gazdag",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/D%C3%A1niel_Gazdag",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dániel Gazdag (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/D%C3%A1niel_Gazdag",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Dániel Gazdag (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q18206107",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-union",
+      "role": "player",
+      "from": 2021,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/D%C3%A1niel_Gazdag",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/D%C3%A1niel_Gazdag",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Hungarian playmaker and the Union’s all-time top scorer, sold to Columbus in April 2025.",
+  "image": {
+    "file": "File:Daniel Gazdag New England v Orlando 19 September 2026-173 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Daniel_Gazdag_New_England_v_Orlando_19_September_2026-173_%28cropped%29.jpg/1280px-Daniel_Gazdag_New_England_v_Orlando_19_September_2026-173_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daniel_Gazdag_New_England_v_Orlando_19_September_2026-173_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Dániel Gazdag",
+    "caption": "Dániel Gazdag",
+    "licenseChecked": "2026-11-05"
+  }
+}

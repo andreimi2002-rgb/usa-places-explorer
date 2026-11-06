@@ -43,9 +43,22 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "New England Revolution (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "accessed": "2026-11-06"
     }
   ],
   "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2004,
+      "to": 2006,
+      "source": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+      "verified": "2026-11-06"
+    },
     {
       "franchise": "seattle-sounders-fc",
       "role": "player",

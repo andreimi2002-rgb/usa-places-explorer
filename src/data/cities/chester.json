@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Chester",
+  "region": "Pennsylvania",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Philadelphia metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 39.84753,
+      "lon": -75.35785
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Chester&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city on the Delaware River south-west of Philadelphia, home of the Philadelphia Union’s stadium.",
+  "image": {
+    "file": "File:Commodore Barry Bridge Between Chester, Pennsylvania and Bridgeport, New Jersey (2893914685).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Commodore_Barry_Bridge_Between_Chester%2C_Pennsylvania_and_Bridgeport%2C_New_Jersey_%282893914685%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Commodore_Barry_Bridge_Between_Chester,_Pennsylvania_and_Bridgeport,_New_Jersey_(2893914685).jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of Chester and the Commodore Barry Bridge",
+    "caption": "Chester and the Commodore Barry Bridge",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Ivory Coast",
+      "source": "https://www.wikidata.org/wiki/Q48892",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 11, 1978, Abidjan",
+      "source": "https://www.wikidata.org/wiki/Q48892",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Didier Drogba",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Didier_Drogba",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Didier Drogba (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Didier_Drogba",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Didier Drogba (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q48892",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cf-montreal",
+      "role": "player",
+      "from": 2015,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Didier_Drogba",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Chelsea and Ivory Coast’s great striker, who joined in mid-2015.",
+  "image": {
+    "file": "File:Didier Drogba (2019) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Didier_Drogba_%282019%29_%28cropped%29.jpg/1280px-Didier_Drogba_%282019%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg",
+    "author": "Y.Leclercq©",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Didier Drogba",
+    "caption": "Didier Drogba",
+    "licenseChecked": "2026-11-05"
+  }
+}

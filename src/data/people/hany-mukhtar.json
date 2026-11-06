@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Germany",
+      "source": "https://www.wikidata.org/wiki/Q101748",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 21, 1995, Berlin",
+      "source": "https://www.wikidata.org/wiki/Q101748",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2022)",
+      "source": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Hany Mukhtar",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Hany_Mukhtar",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Hany Mukhtar (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hany_Mukhtar",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Hany Mukhtar (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q101748",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "nashville-sc",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Hany_Mukhtar",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "German playmaker, Nashville’s captain and the 2022 MVP and Golden Boot winner.",
+  "image": {
+    "file": "File:Hany Mukhtar Revolution Nashville 6.25.25-074 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hany_Mukhtar_Revolution_Nashville_6.25.25-074_%28cropped%29.jpg/1280px-Hany_Mukhtar_Revolution_Nashville_6.25.25-074_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hany_Mukhtar_Revolution_Nashville_6.25.25-074_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Hany Mukhtar",
+    "caption": "Hany Mukhtar",
+    "licenseChecked": "2026-11-05"
+  }
+}

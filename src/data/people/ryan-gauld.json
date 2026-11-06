@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Scotland",
+      "source": "https://www.wikidata.org/wiki/Q7384085",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "December 16, 1995, Aberdeen",
+      "source": "https://www.wikidata.org/wiki/Q7384085",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ryan Gauld",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Ryan_Gauld",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ryan Gauld (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ryan_Gauld",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ryan Gauld (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q7384085",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "vancouver-whitecaps-fc",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Ryan_Gauld",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Scottish playmaker and the Whitecaps’ captain."
+}

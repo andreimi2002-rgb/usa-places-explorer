@@ -1,0 +1,159 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Philadelphia Union",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2008,
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+    "verified": "2026-11-06",
+    "note": "Founded February 28, 2008."
+  },
+  "firstSeason": {
+    "value": "2010",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Keystone Sports & Entertainment (majority owner Jay Sugarman)",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Ryan Richter (interim)",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "subaru-park",
+      "from": 2010,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "andre-blake",
+    "alejandro-bedoya",
+    "daniel-gazdag",
+    "sebastien-le-toux"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/philadelphia-union/",
+    "players": [
+      {
+        "person": "alejandro-bedoya",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "andre-blake",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "bruno-damiani",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2010-04-10",
+      "label": "First home match; Sébastien Le Toux scores the club’s first goal",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Win the Supporters’ Shield, the club’s first trophy",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Reach the MLS Cup final, lost on penalties to LAFC",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Win a second Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A 2010 expansion club known for its academy, Supporters’ Shield winner in 2020 and 2025.",
+  "sources": [
+    {
+      "title": "Philadelphia Union (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/PHI.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/philadelphia-union.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/PHI.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#051C2C"
+      },
+      {
+        "name": "Blue",
+        "hex": "#3A8DDE"
+      },
+      {
+        "name": "Gold",
+        "hex": "#E0D0A6"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/PHI.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Philadelphia Union versus Chicago Fire at Subaru Park 8-13-2022.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg/1280px-Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg",
+    "author": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Subaru Park",
+    "caption": "Subaru Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

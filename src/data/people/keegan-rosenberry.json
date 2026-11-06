@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q22278551",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "December 11, 1993, Ronks",
+      "source": "https://www.wikidata.org/wiki/Q22278551",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Keegan Rosenberry",
+  "position": {
+    "value": "Right-back",
+    "source": "https://en.wikipedia.org/wiki/Keegan_Rosenberry",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Keegan Rosenberry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Keegan_Rosenberry",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Keegan Rosenberry (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q22278551",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "colorado-rapids",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Keegan_Rosenberry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Right-back and the Rapids’ captain.",
+  "image": {
+    "file": "File:Keegan Rosenberry NYCFC v Colorado Mar 14 2026-32.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Keegan_Rosenberry_NYCFC_v_Colorado_Mar_14_2026-32.jpg/1280px-Keegan_Rosenberry_NYCFC_v_Colorado_Mar_14_2026-32.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Keegan_Rosenberry_NYCFC_v_Colorado_Mar_14_2026-32.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Keegan Rosenberry",
+    "caption": "Keegan Rosenberry",
+    "licenseChecked": "2026-11-05"
+  }
+}

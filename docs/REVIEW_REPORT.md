@@ -368,3 +368,26 @@ Date: 2026-11-07.
 6. **City title counts fixed**: for calendar-year seasons, a title won in a club's first season (D.C. United 1996,
    Chicago 1998, Houston 2006) was not counted on the city page. NBA counts are unchanged.
 7. **No city photo** yet for Frisco and Sandy (only city-hall pictures found).
+
+# MLS lot 4: Colorado Rapids, New England Revolution, Philadelphia Union, Vancouver Whitecaps, CF Montréal, Nashville SC
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Left out**: Rafael Navarro (left Colorado in 2026) and Patrice Bernier (end year not found). Colorado, New England,
+   Vancouver and Montréal show two core players.
+2. **Andre Blake**: sources disagree on his draft year (2012 vs 2014); only "first overall pick" is shown.
+3. **Nashville's 2026 Supporters' Shield** comes from Wikipedia's 2026 season page, written a few days before the
+   regular season ended (November 7).
+4. **Montréal** is the first Canadian-French city; its renaming from Montreal Impact (2021) is an identity change.
+5. **New cities**: Commerce City, Foxborough, Chester, Nashville, Montréal (with photos for the last three).
+
+# MLS final check: to-do list (before the MLS production merge)
+
+Requested by the user on 2026-11-07:
+
+1. **Chicago Fire: Robert Lewandowski** is missing and is by far the club's biggest name. Confirm his signing and
+   years, then add him as a core player (and to the history and Europe box).
+2. **City photos**: add a hand-picked photo (no collages) to every city that has none, e.g. Frisco, Sandy, Harrison.
+3. **New York City FC logo**: find the official file on MLSsoccer.com.

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q282915",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 4, 1985, General Baldissera",
+      "source": "https://www.wikidata.org/wiki/Q282915",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ignacio Piatti",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Ignacio_Piatti",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ignacio Piatti (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ignacio_Piatti",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ignacio Piatti (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q282915",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cf-montreal",
+      "role": "player",
+      "from": 2014,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Ignacio_Piatti",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine winger and a leading player of the late 2010s.",
+  "image": {
+    "file": "File:Ignacio Piatti (19006413039).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ignacio_Piatti_%2819006413039%29.jpg/1280px-Ignacio_Piatti_%2819006413039%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ignacio_Piatti_(19006413039).jpg",
+    "author": "Klinsmann2011",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ignacio Piatti",
+    "caption": "Ignacio Piatti",
+    "licenseChecked": "2026-11-05"
+  }
+}

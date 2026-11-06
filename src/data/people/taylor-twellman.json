@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q735074",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 29, 1980, Minneapolis",
+      "source": "https://www.wikidata.org/wiki/Q735074",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2005)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Taylor Twellman",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Taylor_Twellman",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Taylor Twellman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Taylor_Twellman",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Taylor Twellman (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q735074",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2002,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Taylor_Twellman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The club’s record scorer with 101 goals and the 2005 MVP.",
+  "image": {
+    "file": "File:CINvSKC 2019-04-07 - Taylor Twellman (32618249487) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/CINvSKC_2019-04-07_-_Taylor_Twellman_%2832618249487%29_%28cropped%29.jpg/1280px-CINvSKC_2019-04-07_-_Taylor_Twellman_%2832618249487%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CINvSKC_2019-04-07_-_Taylor_Twellman_(32618249487)_(cropped).jpg",
+    "author": "Hayden Schiff from Cincinnati, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Taylor Twellman",
+    "caption": "Taylor Twellman",
+    "licenseChecked": "2026-11-05"
+  }
+}

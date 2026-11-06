@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q5041170",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 22, 1992, Valencia",
+      "source": "https://www.wikidata.org/wiki/Q5041170",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2021)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Carles Gil",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Carles_Gil",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Carles Gil (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carles_Gil",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Carles Gil (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q5041170",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Carles_Gil",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spanish playmaker, the Revolution’s captain and the 2021 MVP.",
+  "image": {
+    "file": "File:Carles Gil New England v Orlando 19 September 2026-103.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Carles_Gil_New_England_v_Orlando_19_September_2026-103.jpg/1280px-Carles_Gil_New_England_v_Orlando_19_September_2026-103.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carles_Gil_New_England_v_Orlando_19_September_2026-103.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Carles Gil",
+    "caption": "Carles Gil",
+    "licenseChecked": "2026-11-05"
+  }
+}

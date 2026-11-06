@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q710184",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 29, 1976, Mendoza",
+      "source": "https://www.wikidata.org/wiki/Q710184",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2010",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Pablo Mastroeni",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Pablo_Mastroeni",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Pablo Mastroeni (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pablo_Mastroeni",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Pablo Mastroeni (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q710184",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "colorado-rapids",
+      "role": "player",
+      "from": 2002,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Pablo_Mastroeni",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine-born US international, a Rapids midfielder for twelve seasons and later their coach; Real Salt Lake’s coach in 2026.",
+  "image": {
+    "file": "File:Paublo Mastroeni.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Paublo_Mastroeni.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paublo_Mastroeni.jpg",
+    "author": "Clemed",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Pablo Mastroeni",
+    "caption": "Pablo Mastroeni",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Germany",
+      "source": "https://www.wikidata.org/wiki/Q43666",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 13, 1989, Weilheim in Oberbayern",
+      "source": "https://www.wikidata.org/wiki/Q43666",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Thomas Müller",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Thomas Müller (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Thomas Müller (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q43666",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "vancouver-whitecaps-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Germany’s 2014 World Cup winner, who joined in August 2025 after 17 seasons at Bayern Munich.",
+  "image": {
+    "file": "File:Thomas Müller 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Thomas_M%C3%BCller_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_M%C3%BCller_2022_(cropped).jpg",
+    "author": "Werner100359",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Thomas Müller",
+    "caption": "Thomas Müller",
+    "licenseChecked": "2026-11-05"
+  }
+}

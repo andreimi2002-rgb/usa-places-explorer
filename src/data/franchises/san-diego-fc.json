@@ -96,6 +96,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/SD.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "logo": {
@@ -128,5 +138,24 @@
     "alt": "View of Snapdragon Stadium",
     "caption": "Snapdragon Stadium",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#02152B",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#02152B",
+      "socks": "#02152B",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "DIRECTV",
+      "description": "Black, white collar.",
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-07"
+    }
+  ]
 }

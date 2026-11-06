@@ -423,3 +423,22 @@ dangling or isolated; 39 MLS and city pages checked at 375 px with no overflow o
 right page first; every MLS club has a logo, colours, stadium photo, coach, owner and texts; all photos under free
 licenses. Five more player photos were found (Ben Olsen, Ramiro, Chiellini, Castellanos, Choupo-Moting). Nine players
 still have no free photo (Armas, Blanco, Abou Ali, Artur, Guilherme, Iván Jaime, Ronaldo Vieira, Berg Johnsen, Gauld).
+
+# Uniform drawings for every team (2026-11-07)
+
+New drawing: basketball jersey and shorts, or soccer shirt, shorts and socks, with the team crest, pattern, trim and
+soft shading; the sponsor is written under it as text (no sponsor logos are drawn).
+
+## Where the data comes from
+
+1. **Colours and patterns**: each team's Wikipedia infobox kit fields and the kit pattern images on Wikimedia Commons
+   (CC0 / CC BY-SA). For MLS the infobox gives exact shirt, sleeve, shorts and socks colours; the pattern image adds
+   the collar colour and whether the shirt has stripes, hoops or a print. For NBA the colours are read from the full
+   jersey images; patterns are not detected (wordmarks and numbers confuse the detector), so NBA drawings are plain
+   with collar/armhole trim.
+2. **Sponsors**: NBA jersey patches from each team's Wikipedia infobox; MLS front-of-shirt sponsors from ForSoccer's
+   2026 list (February 2026). Portland Trail Blazers' patch is listed as vacant.
+3. **Kit names**: the new 2026 MLS kit of each club gets its official name from MLSsoccer.com's Jersey Week.
+4. **Hand-researched kits kept**: Orlando Magic and Los Angeles Lakers (NBA.com sources); Orlando City (Wikipedia).
+5. **Gaps**: FC Dallas has no kit fields on Wikipedia, so no drawing yet; some MLS clubs show one or two kits where
+   Wikipedia lists only those. Colour names in the descriptions are computed from the colours and may be approximate.

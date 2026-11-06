@@ -145,6 +145,16 @@
       "title": "Chicago Fire FC acquires Robert Lewandowski (Chicago Fire FC)",
       "url": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "logo": {
@@ -181,5 +191,36 @@
     "alt": "View of Soldier Field",
     "caption": "Soldier Field",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#D6DDE0",
+      "shorts": "#D6DDE0",
+      "socks": "#D6DDE0",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Carvana",
+      "description": "Silver.",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "socks": "#FFFFFF",
+      "pattern": "hoops",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Carvana",
+      "description": "White, horizontal hoops.",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-07"
+    }
+  ]
 }

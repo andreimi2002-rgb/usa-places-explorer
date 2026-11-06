@@ -51,6 +51,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Charlotte Hornets (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Charlotte_Hornets",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Charlotte Hornets",
@@ -247,5 +252,32 @@
     "alt": "View of Spectrum Center",
     "caption": "Spectrum Center",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Judi Health",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_Hornets",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#049CB3",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Judi Health",
+      "description": "Teal, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_Hornets",
+      "verified": "2026-11-07"
+    }
+  ]
 }

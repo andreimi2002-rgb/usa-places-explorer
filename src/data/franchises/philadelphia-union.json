@@ -119,6 +119,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/PHI.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "logo": {
@@ -155,5 +165,53 @@
     "alt": "View of Subaru Park",
     "caption": "Subaru Park",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "1776 Kit",
+      "base": "#182430",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#182430",
+      "socks": "#182430",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Bimbo Bakeries",
+      "description": "Black, white collar. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#8CD3FF",
+      "shorts": "#F3F5A3",
+      "socks": "#8CD3FF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Thomas’",
+      "description": "Sky blue, yellow shorts and sky blue socks.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#F3ECD9",
+      "shorts": "#F3ECD9",
+      "socks": "#F3ECD9",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Bimbo Bakeries",
+      "description": "Cream.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "verified": "2026-11-07"
+    }
+  ]
 }

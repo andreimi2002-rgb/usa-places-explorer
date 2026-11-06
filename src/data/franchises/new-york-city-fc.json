@@ -121,6 +121,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/v1790743828/assets/logos/mls-svg-logos/NYC_rzhkyi.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "image": {
@@ -157,5 +167,24 @@
     ],
     "source": "https://images.mlssoccer.com/image/upload/v1790743828/assets/logos/mls-svg-logos/NYC_rzhkyi.svg",
     "verified": "2026-11-06"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#ABCAE9",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#ABCAE9",
+      "socks": "#ABCAE9",
+      "pattern": "texture",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Etihad Airways",
+      "description": "Sky blue, white collar.",
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-07"
+    }
+  ]
 }

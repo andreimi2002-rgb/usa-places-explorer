@@ -61,6 +61,11 @@
       "title": "2026-27 roster (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/LAL/2027.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Los Angeles Lakers (Wikipedia): jersey patch",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Los Angeles Lakers",
@@ -261,7 +266,8 @@
       "pinstripes": false,
       "description": "White, unchanged for 2025-26.",
       "source": "https://news.sportslogos.net/2025/07/01/los-angeles-lakers-unveil-new-purple-statement-edition-uniforms/basketball/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Albert"
     },
     {
       "edition": "icon",
@@ -270,7 +276,8 @@
       "pinstripes": false,
       "description": "Gold, unchanged for 2025-26.",
       "source": "https://news.sportslogos.net/2025/07/01/los-angeles-lakers-unveil-new-purple-statement-edition-uniforms/basketball/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Albert"
     },
     {
       "edition": "statement",
@@ -281,7 +288,8 @@
       "wordmark": "LAKERS",
       "description": "New purple set: a white “Lakers” wordmark outlined in gold, with thin gold and white side stripes.",
       "source": "https://news.sportslogos.net/2025/07/01/los-angeles-lakers-unveil-new-purple-statement-edition-uniforms/basketball/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Albert"
     }
   ],
   "image": {

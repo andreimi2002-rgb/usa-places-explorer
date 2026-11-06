@@ -51,6 +51,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Dallas Mavericks (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Dallas_Mavericks",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Dallas Mavericks",
@@ -270,5 +275,32 @@
     "alt": "Exterior of American Airlines Center in Dallas",
     "caption": "American Airlines Center",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Chase Bank",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Mavericks",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#213F84",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Chase Bank",
+      "description": "Blue, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Mavericks",
+      "verified": "2026-11-07"
+    }
+  ]
 }

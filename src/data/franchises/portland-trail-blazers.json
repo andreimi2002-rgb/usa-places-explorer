@@ -41,6 +41,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Portland Trail Blazers (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Portland_Trail_Blazers",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Portland Trail Blazers",
@@ -199,5 +204,30 @@
     "note": "There are no first-year players on Portland’s 2026-27 roster: the club made no picks in the 2026 draft.",
     "noteSource": "https://www.basketball-reference.com/draft/NBA_2026.html",
     "players": []
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Portland_Trail_Blazers",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#131116",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Portland_Trail_Blazers",
+      "verified": "2026-11-07"
+    }
+  ]
 }

@@ -46,6 +46,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Brooklyn Nets (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Brooklyn_Nets",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Brooklyn Nets",
@@ -251,5 +256,45 @@
     "alt": "View of Barclays Center",
     "caption": "Barclays Center",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "All in Won",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Nets",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#191919",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "All in Won",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Nets",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#191919",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "All in Won",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Nets",
+      "verified": "2026-11-07"
+    }
+  ]
 }

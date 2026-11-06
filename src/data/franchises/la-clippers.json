@@ -41,6 +41,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Los Angeles Clippers (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Clippers",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "LA Clippers",
@@ -236,5 +241,45 @@
     "alt": "Façade of the Intuit Dome",
     "caption": "Intuit Dome, August 2024",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Rwanda Development Board",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Clippers",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#00354E",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Rwanda Development Board",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Clippers",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#C40000",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Rwanda Development Board",
+      "description": "Red, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Clippers",
+      "verified": "2026-11-07"
+    }
+  ]
 }

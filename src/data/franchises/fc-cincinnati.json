@@ -123,6 +123,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/CIN.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "logo": {
@@ -155,5 +165,25 @@
     "alt": "View of TQL Stadium",
     "caption": "TQL Stadium",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#032BE4",
+      "sleeves": "#03134C",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#032BE4",
+      "socks": "#032BE4",
+      "pattern": "hoops",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Mercy Health",
+      "description": "Blue, black sleeves, white collar and horizontal hoops.",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-07"
+    }
+  ]
 }

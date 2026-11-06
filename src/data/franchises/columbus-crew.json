@@ -169,6 +169,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/CLB.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "image": {
@@ -201,5 +211,53 @@
     ],
     "source": "https://images.mlssoccer.com/image/upload/assets/logos/CLB.svg",
     "verified": "2026-11-06"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Crafted for Excellence Kit",
+      "base": "#FFF200",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#000000",
+      "socks": "#FFFF00",
+      "pattern": "texture",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Nationwide",
+      "description": "Yellow, white collar, black shorts and yellow socks. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#000000",
+      "shorts": "#000000",
+      "socks": "#000000",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Nationwide",
+      "description": "Black.",
+      "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "socks": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Nationwide",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "verified": "2026-11-07"
+    }
+  ]
 }

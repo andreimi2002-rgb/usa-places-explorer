@@ -138,6 +138,16 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/SEA.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "image": {
@@ -170,5 +180,53 @@
     ],
     "source": "https://images.mlssoccer.com/image/upload/assets/logos/SEA.svg",
     "verified": "2026-11-06"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Evergreen State Kit",
+      "base": "#00BD62",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#97EAE0",
+      "socks": "#97EAE0",
+      "pattern": "texture",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Providence",
+      "description": "Green, white collar and teal shorts. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#2D364B",
+      "shorts": "#97EAE0",
+      "socks": "#97EAE0",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Providence",
+      "description": "Navy, teal shorts.",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#2006BD",
+      "shorts": "#2006BD",
+      "socks": "#83D6D9",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Providence",
+      "description": "Blue, teal socks.",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-07"
+    }
+  ]
 }

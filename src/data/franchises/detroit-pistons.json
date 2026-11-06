@@ -46,6 +46,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Detroit Pistons (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Detroit_Pistons",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Detroit Pistons",
@@ -237,5 +242,32 @@
     "alt": "Panorama of Little Caesars Arena in Detroit",
     "caption": "Little Caesars Arena",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FEFEFE",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "StockX",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Pistons",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#073F8A",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "StockX",
+      "description": "Navy, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Pistons",
+      "verified": "2026-11-07"
+    }
+  ]
 }

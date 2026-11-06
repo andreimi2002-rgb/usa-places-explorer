@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Sweden",
+      "source": "https://www.wikidata.org/wiki/Q52152389",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 15, 1991, Trollhättan",
+      "source": "https://www.wikidata.org/wiki/Q52152389",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Robin Jansson",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/Robin_Jansson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Robin Jansson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Robin_Jansson",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Robin Jansson (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q52152389",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-city-sc",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Robin_Jansson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Swedish centre-back and Orlando City’s captain, at the club since 2019.",
+  "image": {
+    "file": "File:Robin Jansson New England v Orlando 19 September 2026-193 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Robin_Jansson_New_England_v_Orlando_19_September_2026-193_%28cropped%29.jpg/1280px-Robin_Jansson_New_England_v_Orlando_19_September_2026-193_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Robin_Jansson_New_England_v_Orlando_19_September_2026-193_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Robin Jansson",
+    "caption": "Robin Jansson",
+    "licenseChecked": "2026-11-05"
+  }
+}

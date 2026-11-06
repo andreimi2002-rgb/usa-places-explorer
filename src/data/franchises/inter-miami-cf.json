@@ -1,0 +1,157 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Inter Miami CF",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2018,
+    "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+    "verified": "2026-11-06",
+    "note": "MLS approved the expansion club on January 29, 2018."
+  },
+  "firstSeason": {
+    "value": "2020",
+    "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "David Beckham, Jorge Mas and José Mas",
+    "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Kily González",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "chase-stadium",
+      "from": 2020,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "venue": "nu-stadium",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "lionel-messi",
+    "sergio-busquets",
+    "jordi-alba"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/inter-miami-cf/",
+    "players": [
+      {
+        "person": "lionel-messi",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "rodrigo-de-paul",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "german-berterame",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2018-01-29",
+      "label": "MLS approves David Beckham’s expansion club",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "First MLS season, in Fort Lauderdale",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Win the Leagues Cup, the club’s first trophy",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023-07-15",
+      "label": "Lionel Messi signs",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Win the Supporters’ Shield for the best regular season",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-04",
+      "label": "Move into Nu Stadium in Miami",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "David Beckham’s club, transformed by Lionel Messi’s arrival in 2023 and MLS champion in 2025.",
+  "sources": [
+    {
+      "title": "Inter Miami CF (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Nu Stadium 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Nu_Stadium_2026.jpg/1280px-Nu_Stadium_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nu_Stadium_2026.jpg",
+    "author": "Cuban Boy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of Nu Stadium",
+    "caption": "Nu Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

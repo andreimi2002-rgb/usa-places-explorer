@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS history: MLS Cup and Supporters’ Shield (NBC Sports)",
+      "url": "https://www.nbcsports.com/soccer/news/major-league-soccer-history-mls-cup-all-time-winners-supporters-shield-victors-more",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "Supporters’ Shield",
+  "short": "The trophy for the club with the best regular-season record in MLS: the closest thing to a European league title. The championship itself is decided in the playoffs.",
+  "sports": [
+    "soccer"
+  ],
+  "related": [
+    "mls-cup"
+  ]
+}

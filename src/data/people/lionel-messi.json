@@ -1,0 +1,91 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q615",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 24, 1987, Rosario",
+      "source": "https://www.wikidata.org/wiki/Q615",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2025",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2024)",
+      "source": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS MVP (2025)",
+      "source": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Lionel Messi",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Lionel_Messi",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lionel Messi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Lionel Messi (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q615",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "inter-miami-cf",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Lionel_Messi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The eight-time Ballon d’Or winner, who joined Inter Miami in 2023, won two MVP awards and the 2025 MLS Cup.",
+  "image": {
+    "file": "File:Leo Messi Argentina v Egypt 7 July 2026-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/1280px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Lionel Messi",
+    "caption": "Lionel Messi",
+    "licenseChecked": "2026-11-05"
+  }
+}

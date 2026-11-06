@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Sweden",
+      "source": "https://www.wikidata.org/wiki/Q46896",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 3, 1981, Västra Skrävlinge församling",
+      "source": "https://www.wikidata.org/wiki/Q46896",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Zlatan Ibrahimović",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Zlatan Ibrahimović (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Zlatan Ibrahimović (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q46896",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2018,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Sweden’s great striker, who scored 30 goals for the Galaxy in 2019.",
+  "image": {
+    "file": "File:Zlatan Ibrahimović nyc.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Zlatan_Ibrahimovi%C4%87_nyc.jpg/1280px-Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Zlatan Ibrahimović",
+    "caption": "Zlatan Ibrahimović",
+    "licenseChecked": "2026-11-05"
+  }
+}

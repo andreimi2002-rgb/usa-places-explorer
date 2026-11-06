@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q49704",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 16, 1988, Sabadell",
+      "source": "https://www.wikidata.org/wiki/Q49704",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2025",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sergio Busquets",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Sergio_Busquets",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sergio Busquets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sergio_Busquets",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sergio Busquets (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q49704",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "inter-miami-cf",
+      "role": "player",
+      "from": 2023,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Sergio_Busquets",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Barcelona and Spain’s great holding midfielder, who joined Messi in Miami from 2023 to 2025.",
+  "image": {
+    "file": "File:Sergio Busquets NYCFC Miami 24 Sep 2025-020 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sergio_Busquets_NYCFC_Miami_24_Sep_2025-020_%28cropped%29.jpg/1280px-Sergio_Busquets_NYCFC_Miami_24_Sep_2025-020_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sergio_Busquets_NYCFC_Miami_24_Sep_2025-020_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Sergio Busquets",
+    "caption": "Sergio Busquets",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Los Angeles FC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2014,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+    "verified": "2026-11-06",
+    "note": "Founded October 30, 2014."
+  },
+  "firstSeason": {
+    "value": "2018",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Group led by Brandon Beck, Larry Berg and Bennett Rosenthal",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Xavi Tamarit (interim)",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "bmo-stadium",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "carlos-vela",
+    "gareth-bale",
+    "giorgio-chiellini"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/los-angeles-football-club/",
+    "players": [
+      {
+        "person": "son-heung-min",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "denis-bouanga",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "hugo-lloris",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2018",
+      "label": "First MLS season, in a new stadium near downtown",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019",
+      "label": "Win the Supporters’ Shield; Carlos Vela is MVP",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win a second Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Win the U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-08-06",
+      "label": "Sign Son Heung-min for an MLS-record fee",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Galaxy’s young city rival, champion in 2022 and home of Carlos Vela, Gareth Bale and Son Heung-min.",
+  "sources": [
+    {
+      "title": "Los Angeles FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:BMO Stadium (Los Angeles).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/BMO_Stadium_%28Los_Angeles%29.jpg/1280px-BMO_Stadium_%28Los_Angeles%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BMO_Stadium_(Los_Angeles).jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of BMO Stadium",
+    "caption": "BMO Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

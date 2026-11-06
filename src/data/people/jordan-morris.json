@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q18558957",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 26, 1994, Seattle",
+      "source": "https://www.wikidata.org/wiki/Q18558957",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2016, 2019",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jordan Morris",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Jordan_Morris",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jordan Morris (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Morris",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jordan Morris (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q18558957",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-sounders-fc",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jordan_Morris",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Seattle-born forward and Designated Player, with the club since 2016.",
+  "image": {
+    "file": "File:Jordan Morris NYCFC.Seattle.18.Oct.2025-043 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jordan_Morris_NYCFC.Seattle.18.Oct.2025-043_%28cropped%29.jpg/1280px-Jordan_Morris_NYCFC.Seattle.18.Oct.2025-043_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jordan_Morris_NYCFC.Seattle.18.Oct.2025-043_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jordan Morris",
+    "caption": "Jordan Morris",
+    "licenseChecked": "2026-11-05"
+  }
+}

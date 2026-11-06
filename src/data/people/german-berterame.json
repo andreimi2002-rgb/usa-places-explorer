@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Mexico",
+      "source": "https://www.wikidata.org/wiki/Q19347095",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 13, 1998, Villa María",
+      "source": "https://www.wikidata.org/wiki/Q19347095",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Germán Berterame",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Germ%C3%A1n_Berterame",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Germán Berterame (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Germ%C3%A1n_Berterame",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Germán Berterame (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q19347095",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "inter-miami-cf",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Germ%C3%A1n_Berterame",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Mexico international striker, signed by Inter Miami in 2026.",
+  "image": {
+    "file": "File:P20260305DT-0102 President Donald J. Trump hosts MLS Champions Inter Miami CF at the White House (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/P20260305DT-0102_President_Donald_J._Trump_hosts_MLS_Champions_Inter_Miami_CF_at_the_White_House_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:P20260305DT-0102_President_Donald_J._Trump_hosts_MLS_Champions_Inter_Miami_CF_at_the_White_House_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Germán Berterame",
+    "caption": "Germán Berterame",
+    "licenseChecked": "2026-11-05"
+  }
+}

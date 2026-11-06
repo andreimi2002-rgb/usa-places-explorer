@@ -1,0 +1,109 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q202237",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 4, 1982, Ontario, California",
+      "source": "https://www.wikidata.org/wiki/Q202237",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2005, 2011, 2012, 2014",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2009)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (2003)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (2011)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Landon Donovan",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Landon_Donovan",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Landon Donovan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Landon_Donovan",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q202237",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2005,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Landon_Donovan",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2016,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Landon_Donovan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The greatest American player of his generation; the MVP award is named after him.",
+  "image": {
+    "file": "File:WikiLando (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/WikiLando_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WikiLando_(cropped).jpg",
+    "author": "Regular Daddy",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Landon Donovan",
+    "caption": "Landon Donovan",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q509165",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 4, 1973, La Plata",
+      "source": "https://www.wikidata.org/wiki/Q509165",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2008",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2008)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (2008)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Guillermo Barros Schelotto",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Guillermo_Barros_Schelotto",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Guillermo Barros Schelotto (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Guillermo_Barros_Schelotto",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Guillermo Barros Schelotto (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q509165",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2007,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Guillermo_Barros_Schelotto",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine playmaker, MVP and MLS Cup MVP of the 2008 title season.",
+  "image": {
+    "file": "File:Guillermodandounacharla.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guillermodandounacharla.jpg/1280px-Guillermodandounacharla.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guillermodandounacharla.jpg",
+    "author": "Víctor Santa María",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Guillermo Barros Schelotto",
+    "caption": "Guillermo Barros Schelotto",
+    "licenseChecked": "2026-11-05"
+  }
+}

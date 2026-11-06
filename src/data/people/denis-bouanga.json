@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Gabon",
+      "source": "https://www.wikidata.org/wiki/Q21620919",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 11, 1994, Le Mans",
+      "source": "https://www.wikidata.org/wiki/Q21620919",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2022",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Denis Bouanga",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Denis_Bouanga",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Denis Bouanga (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Denis_Bouanga",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Denis Bouanga (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q21620919",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-fc",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Denis_Bouanga",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Gabon international winger and one of LAFC’s Designated Players since 2022.",
+  "image": {
+    "file": "File:Lens - Saint-Etienne (03-10-2020) 57.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Lens_-_Saint-Etienne_%2803-10-2020%29_57.jpg/1280px-Lens_-_Saint-Etienne_%2803-10-2020%29_57.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lens_-_Saint-Etienne_(03-10-2020)_57.jpg",
+    "author": "Supporterhéninois",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Denis Bouanga",
+    "caption": "Denis Bouanga",
+    "licenseChecked": "2026-11-05"
+  }
+}

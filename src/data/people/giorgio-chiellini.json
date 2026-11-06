@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Italy",
+      "source": "https://www.wikidata.org/wiki/Q80306",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 14, 1984, Pisa",
+      "source": "https://www.wikidata.org/wiki/Q80306",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2022",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Giorgio Chiellini",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/Giorgio_Chiellini",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Giorgio Chiellini (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Giorgio_Chiellini",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Giorgio Chiellini (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q80306",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-fc",
+      "role": "player",
+      "from": 2022,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Giorgio_Chiellini",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Italy’s Euro 2020-winning captain, who finished his career at LAFC."
+}

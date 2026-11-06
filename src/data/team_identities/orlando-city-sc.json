@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "orlando-city-sc",
+  "name": "Orlando City SC",
+  "city": "orlando",
+  "from": {
+    "value": 2015,
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

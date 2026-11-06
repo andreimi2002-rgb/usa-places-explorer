@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "la-galaxy",
+  "name": "LA Galaxy",
+  "city": "los-angeles",
+  "from": {
+    "value": 1996,
+    "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

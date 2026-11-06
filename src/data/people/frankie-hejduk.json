@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q950107",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 5, 1974, La Mesa",
+      "source": "https://www.wikidata.org/wiki/Q950107",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2008",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Frankie Hejduk",
+  "position": {
+    "value": "Wing-back",
+    "source": "https://en.wikipedia.org/wiki/Frankie_Hejduk",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Frankie Hejduk (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Frankie_Hejduk",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Frankie Hejduk (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q950107",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2003,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Frankie_Hejduk",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international wing-back, part of the 2008 title team.",
+  "image": {
+    "file": "File:Frankie hejduk mls allstars 2005.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Frankie_hejduk_mls_allstars_2005.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankie_hejduk_mls_allstars_2005.jpg",
+    "author": "Rdikeman at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Photo of Frankie Hejduk",
+    "caption": "Frankie Hejduk",
+    "licenseChecked": "2026-11-05"
+  }
+}

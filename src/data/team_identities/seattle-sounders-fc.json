@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "seattle-sounders-fc",
+  "name": "Seattle Sounders FC",
+  "city": "seattle",
+  "from": {
+    "value": 2009,
+    "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

@@ -11,7 +11,8 @@
   "term": "Playoffs",
   "short": "The knockout tournament after the regular season. Teams play best-of-seven series, and the last two standing meet in the NBA Finals.",
   "sports": [
-    "basketball"
+    "basketball",
+    "soccer"
   ],
   "related": [
     "nba-finals"

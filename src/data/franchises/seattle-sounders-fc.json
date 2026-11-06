@@ -1,0 +1,149 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Seattle Sounders FC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2007,
+    "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+    "verified": "2026-11-06",
+    "note": "Founded November 13, 2007."
+  },
+  "firstSeason": {
+    "value": "2009",
+    "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Adrian Hanauer (majority owner)",
+    "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Brian Schmetzer",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "lumen-field",
+      "from": 2009,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "stefan-frei",
+    "clint-dempsey",
+    "nicolas-lodeiro",
+    "osvaldo-alonso"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/seattle-sounders-fc/",
+    "players": [
+      {
+        "person": "stefan-frei",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "jordan-morris",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "albert-rusnak",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "pedro-de-la-vega",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2009-03-19",
+      "label": "First MLS home match: a 3–0 win over the New York Red Bulls",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2014",
+      "label": "Win the Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2016",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win the CONCACAF Champions League, the first MLS club to win the modern version",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Win the Leagues Cup, 3–0 against Inter Miami",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MLS champion in 2016 and 2019 and the first MLS club to win the modern CONCACAF Champions League.",
+  "sources": [
+    {
+      "title": "Seattle Sounders FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Lumen Field exterior, July 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lumen_Field_exterior%2C_July_2023.jpg/1280px-Lumen_Field_exterior%2C_July_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lumen_Field_exterior,_July_2023.jpg",
+    "author": "PCN02WPS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lumen Field",
+    "caption": "Lumen Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

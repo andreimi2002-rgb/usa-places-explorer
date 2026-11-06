@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q314366",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 19, 1972, Arlington Heights",
+      "source": "https://www.wikidata.org/wiki/Q314366",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Brian McBride",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Brian_McBride",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brian McBride (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brian_McBride",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Brian McBride (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q314366",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 1996,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Brian_McBride",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The first pick of MLS’s first draft, the Crew’s striker until his move to Fulham.",
+  "image": {
+    "file": "File:Mcbride headshot.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mcbride_headshot.jpg/1280px-Mcbride_headshot.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mcbride_headshot.jpg",
+    "author": "JamesGrantGroup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brian McBride",
+    "caption": "Brian McBride",
+    "licenseChecked": "2026-11-05"
+  }
+}

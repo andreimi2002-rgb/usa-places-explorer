@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "MLS clubs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/clubs/",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Major League Soccer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Major_League_Soccer",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Major League Soccer",
+  "shortName": "MLS",
+  "sport": "soccer",
+  "country": "United States and Canada",
+  "founded": {
+    "value": 1996,
+    "source": "https://en.wikipedia.org/wiki/Major_League_Soccer",
+    "verified": "2026-11-06",
+    "note": "Year of the first season; the league was formed in 1993–95 as part of the USA’s 1994 World Cup bid."
+  },
+  "website": "https://www.mlssoccer.com/",
+  "summary": "North America’s top soccer league: 30 clubs in the United States and Canada, a calendar-year season and no relegation.",
+  "terms": {
+    "final": "MLS Cup",
+    "title": "MLS Cup",
+    "titles": "MLS Cups",
+    "rosterSite": "MLSsoccer.com"
+  }
+}

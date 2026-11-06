@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Portugal",
+      "source": "https://www.wikidata.org/wiki/Q482947",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 17, 1986, Praia",
+      "source": "https://www.wikidata.org/wiki/Q482947",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Nani",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Nani (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Nani (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q482947",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-city-sc",
+      "role": "player",
+      "from": 2019,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Portuguese winger who played for Orlando City from 2019 to 2021, including its first playoff season in 2020.",
+  "image": {
+    "file": "File:New Zealand-Portugal Nani.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/New_Zealand-Portugal_Nani.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:New_Zealand-Portugal_Nani.jpg",
+    "author": "Кирилл Венедиктов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Nani",
+    "caption": "Nani",
+    "licenseChecked": "2026-11-05"
+  }
+}

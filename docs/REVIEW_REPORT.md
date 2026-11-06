@@ -312,3 +312,24 @@ MLB and NHL will be built in. Only the exceptions are listed.
 7. **New glossary terms**: All-Star, All-NBA Team, salary cap (2026-27 cap from NBA PR).
 8. **Franz Wagner and the Berlin game**: we say Orlando won in Berlin in his home city, not that he played; he
    missed much of 2025-26 injured.
+
+# MLS skeleton and lot 1: Orlando City, Inter Miami, LA Galaxy, LAFC, Seattle Sounders, Columbus Crew
+
+Date: 2026-11-06. Branch `mls`. Lean format (see the credit note in the master plan): core players and legends
+only, short club texts, one photo pass.
+
+## Things to check
+
+1. **Wikipedia as the main club source**: founding years, owners, stadium openings, trophies and players' years at
+   each club come from Wikipedia (club pages and player infoboxes) and Wikidata. The 2026 coaches, captains and stadium
+   capacities come from Wikipedia's 2026 MLS season page. MLS's own club pages give almost no facts.
+2. **Core players** are each club's captain plus its Designated Players from MLS's own list, updated May 11, 2026;
+   summer transfers after that date may be missing.
+3. **Left out**: Gabriel Pec (seems to have left the Galaxy in 2026), Aaron Long and Raúl Ruidíaz (years not
+   confirmed), Luis Suárez (2026 status not confirmed). The Galaxy show two core players.
+4. **Supporters' Shield list** not stored: the NBC Sports list we found has mistakes (2012, 2014).
+5. **Calendar seasons**: the schema now accepts "2026" as well as "2026-27"; title counting on city pages uses the
+   end year.
+6. **Interim coaches** at Orlando City, LAFC and Columbus are shown with "(interim)".
+7. **No official MLS logos** yet; teams show initials.
+8. **Photos**: Chiellini's only photo has an unclear "Attribution" license and was not used.

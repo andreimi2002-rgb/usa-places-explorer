@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2009",
+  "level": "league",
+  "title": "MLS Cup",
+  "runnerUp": "la-galaxy",
+  "winnerName": "Real Salt Lake",
+  "runnerUpName": "LA Galaxy",
+  "result": "1–1, 5–4 on penalties",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "MLS Cup",
+  "short": "The final of the MLS playoffs and the league’s championship: one match, hosted by the finalist with the better regular-season record.",
+  "sports": [
+    "soccer"
+  ],
+  "related": [
+    "supporters-shield"
+  ]
+}

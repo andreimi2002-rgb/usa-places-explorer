@@ -13,5 +13,12 @@
   "sport": "basketball",
   "country": "United States and Canada",
   "website": "https://www.nba.com/",
-  "summary": "North America's top professional basketball league, with teams in the United States and one in Canada."
+  "summary": "North America's top professional basketball league, with teams in the United States and one in Canada.",
+  "terms": {
+    "final": "NBA Finals",
+    "title": "NBA title",
+    "titles": "NBA titles",
+    "rosterSite": "NBA.com",
+    "kitsIntro": "NBA teams wear several uniforms a season. The white <strong>Association</strong> and colored <strong>Icon</strong> sets are the everyday pair; the <strong>Statement</strong> set is an alternate."
+  }
 }

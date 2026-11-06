@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Dignity Health Sports Park",
+  "city": "carson",
+  "opened": {
+    "value": "2003",
+    "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 27000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "LA Galaxy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The LA Galaxy’s home in Carson since 2003, after seven seasons at the Rose Bowl in Pasadena.",
+  "image": {
+    "file": "File:Dignity Health Sports Park (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dignity_Health_Sports_Park_%281%29.jpg/1280px-Dignity_Health_Sports_Park_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dignity_Health_Sports_Park_(1).jpg",
+    "author": "Spatms",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Dignity Health Sports Park",
+    "caption": "Dignity Health Sports Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

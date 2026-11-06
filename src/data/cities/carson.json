@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Carson",
+  "region": "California",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "metro": "Greater Los Angeles",
+  "coordinates": {
+    "value": {
+      "lat": 33.83141,
+      "lon": -118.28202
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Carson&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city in the south of Los Angeles County, home of the LA Galaxy’s stadium since 2003.",
+  "image": {
+    "file": "File:Carson city hall.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Carson_city_hall.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carson_city_hall.jpg",
+    "author": "The Front Page Online",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Carson",
+    "caption": "Carson",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "DRV PNK Stadium",
+      "from": null,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Chase Stadium",
+  "city": "fort-lauderdale",
+  "sources": [
+    {
+      "title": "Inter Miami CF (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Fort Lauderdale stadium that was Inter Miami’s interim home from 2020 until the move to Miami in 2026.",
+  "image": {
+    "file": "File:DRV PNK Stadium (51704895544) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DRV_PNK_Stadium_%2851704895544%29_%28cropped%29.jpg/1280px-DRV_PNK_Stadium_%2851704895544%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DRV_PNK_Stadium_(51704895544)_(cropped).jpg",
+    "author": "elisfkc2",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of Chase Stadium",
+    "caption": "Chase Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

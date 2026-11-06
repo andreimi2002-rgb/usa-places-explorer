@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "France",
+      "source": "https://www.wikidata.org/wiki/Q455462",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 21, 1991, Mâcon",
+      "source": "https://www.wikidata.org/wiki/Q455462",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Antoine Griezmann",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Antoine Griezmann (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Antoine Griezmann (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q455462",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-city-sc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "France’s 2018 World Cup winner, who joined Orlando City from Atlético Madrid in 2026.",
+  "image": {
+    "file": "File:Antoine Griezmann (51100409504) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Antoine_Griezmann_%2851100409504%29_%28cropped%29.jpg/1280px-Antoine_Griezmann_%2851100409504%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Antoine_Griezmann_(51100409504)_(cropped).jpg",
+    "author": "Biser Todorov (User:Biso) from Sofia, Bulgaria",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Antoine Griezmann",
+    "caption": "Antoine Griezmann",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Slovakia",
+      "source": "https://www.wikidata.org/wiki/Q15635801",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 7, 1994, Vyškov",
+      "source": "https://www.wikidata.org/wiki/Q15635801",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Albert Rusnák",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k_(footballer%2C_born_1994)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Albert Rusnák (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k_(footballer%2C_born_1994)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Albert Rusnák (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q15635801",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-sounders-fc",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k_(footballer%2C_born_1994)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Slovak playmaker and Designated Player since 2022.",
+  "image": {
+    "file": "File:Albert Rusnák NYCFC.Seattle.18.Oct.2025-119 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Albert_Rusn%C3%A1k_NYCFC.Seattle.18.Oct.2025-119_%28cropped%29.jpg/1280px-Albert_Rusn%C3%A1k_NYCFC.Seattle.18.Oct.2025-119_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Albert_Rusn%C3%A1k_NYCFC.Seattle.18.Oct.2025-119_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Albert Rusnák",
+    "caption": "Albert Rusnák",
+    "licenseChecked": "2026-11-05"
+  }
+}

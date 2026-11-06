@@ -1,0 +1,20 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "1997",
+  "level": "league",
+  "title": "MLS Cup",
+  "winnerName": "D.C. United",
+  "runnerUpName": "Colorado Rapids",
+  "result": "2–1",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

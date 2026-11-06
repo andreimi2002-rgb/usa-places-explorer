@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q1338969",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 25, 1984, Buenos Aires",
+      "source": "https://www.wikidata.org/wiki/Q1338969",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Federico Higuaín",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Federico_Higua%C3%ADn",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Federico Higuaín (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Federico_Higua%C3%ADn",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Federico Higuaín (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1338969",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2012,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Federico_Higua%C3%ADn",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine playmaker and the Crew’s creative leader for eight seasons.",
+  "image": {
+    "file": "File:Federico Higuaín 2017-06-14 (35017537413) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Federico_Higua%C3%ADn_2017-06-14_%2835017537413%29_%28cropped%29.jpg/1280px-Federico_Higua%C3%ADn_2017-06-14_%2835017537413%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Federico_Higua%C3%ADn_2017-06-14_(35017537413)_(cropped).jpg",
+    "author": "Hayden Schiff from Cincinnati, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Federico Higuaín",
+    "caption": "Federico Higuaín",
+    "licenseChecked": "2026-11-05"
+  }
+}

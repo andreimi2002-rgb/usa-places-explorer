@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Japan",
+      "source": "https://www.wikidata.org/wiki/Q248141",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 24, 1988, Nagasaki",
+      "source": "https://www.wikidata.org/wiki/Q248141",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2024",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Maya Yoshida",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/Maya_Yoshida",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Maya Yoshida (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Maya_Yoshida",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Maya Yoshida (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q248141",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Maya_Yoshida",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Japanese centre-back and the Galaxy’s captain.",
+  "image": {
+    "file": "File:Maya Yoshida along with Japan National Football Team at the Kantei.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Maya_Yoshida_along_with_Japan_National_Football_Team_at_the_Kantei.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maya_Yoshida_along_with_Japan_National_Football_Team_at_the_Kantei.jpg",
+    "author": "内閣官房内閣広報室",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Maya Yoshida",
+    "caption": "Maya Yoshida",
+    "licenseChecked": "2026-11-05"
+  }
+}

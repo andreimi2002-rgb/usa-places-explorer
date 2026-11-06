@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2011",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "la-galaxy",
+  "winnerName": "LA Galaxy",
+  "runnerUpName": "Houston Dynamo",
+  "result": "1–0",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

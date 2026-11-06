@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q111599063",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 21, 2000, Olmsted Falls",
+      "source": "https://www.wikidata.org/wiki/Q111599063",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2023",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sean Zawadzki",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Sean_Zawadzki",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sean Zawadzki (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sean_Zawadzki",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sean Zawadzki (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q111599063",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sean_Zawadzki",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Midfielder and the Crew’s captain.",
+  "image": {
+    "file": "File:Sean Zawadzki NYCFC v Columbus 10 May 2026-108 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sean_Zawadzki_NYCFC_v_Columbus_10_May_2026-108_%28cropped%29.jpg/1280px-Sean_Zawadzki_NYCFC_v_Columbus_10_May_2026-108_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sean_Zawadzki_NYCFC_v_Columbus_10_May_2026-108_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Sean Zawadzki",
+    "caption": "Sean Zawadzki",
+    "licenseChecked": "2026-11-05"
+  }
+}

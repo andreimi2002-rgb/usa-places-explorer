@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 26, 1999, Harrisburg, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2021, 2022, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2023)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2021–2025)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Butkus Award (pro) (2021)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2021)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Linebacker of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Micah Parsons",
+  "position": {
+    "value": "Outside linebacker",
+    "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Micah Parsons (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher, with the Packers since 2025.",
+  "image": {
+    "file": "File:2025 Commanders at Packers Micah Parsons (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/2025_Commanders_at_Packers_Micah_Parsons_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_Commanders_at_Packers_Micah_Parsons_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Micah Parsons",
+    "caption": "Micah Parsons",
+    "licenseChecked": "2026-11-05"
+  }
+}

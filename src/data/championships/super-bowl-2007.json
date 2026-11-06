@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "2007",
+  "level": "league",
+  "title": "Super Bowl XLII",
+  "runnerUp": "new-england-patriots",
+  "winnerName": "New York Giants",
+  "runnerUpName": "New England Patriots",
+  "result": "17–14",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

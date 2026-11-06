@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1977",
+  "level": "league",
+  "title": "Super Bowl XII",
+  "winner": "dallas-cowboys",
+  "winnerName": "Dallas Cowboys",
+  "runnerUpName": "Denver Broncos",
+  "result": "27–10",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

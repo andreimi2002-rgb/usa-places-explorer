@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "dallas-cowboys",
+  "name": "Dallas Cowboys",
+  "city": "dallas",
+  "from": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

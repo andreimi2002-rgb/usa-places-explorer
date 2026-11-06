@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 11, 2000, Pensacola, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LX (2025 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LX)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2023–2025)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2023)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Defensive Back of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big Ten (2022)",
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Devon Witherspoon",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Devon Witherspoon (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Devon_Witherspoon",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback of the 2025 champions.",
+  "image": {
+    "file": "File:Devon Witherspoon FanDuel Interview (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Devon_Witherspoon_FanDuel_Interview_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Devon_Witherspoon_FanDuel_Interview_(cropped).png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Devon Witherspoon",
+    "caption": "Devon Witherspoon",
+    "licenseChecked": "2026-11-05"
+  }
+}

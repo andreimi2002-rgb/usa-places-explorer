@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 13, 1973, Jacksonville, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× First-team All-Pro (2001, 2002, 2004, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2009)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1999, 2001, 2002, 2004–2006, 2008, 2009, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFLPA Alan Page Community Award (2009)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA NFL All-Rookie Team (1996)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Eagles Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brian Dawkins",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brian Dawkins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "player",
+      "from": 1996,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Brian_Dawkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and leader of the defence for thirteen seasons.",
+  "image": {
+    "file": "File:Brian Dawkins Philly HOF (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Brian_Dawkins_Philly_HOF_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brian_Dawkins_Philly_HOF_(cropped).jpg",
+    "author": "Bertolinephotos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brian Dawkins",
+    "caption": "Brian Dawkins",
+    "licenseChecked": "2026-11-05"
+  }
+}

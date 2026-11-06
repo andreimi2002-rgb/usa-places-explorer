@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "National Football League (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/National_Football_League",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "National Football League",
+  "shortName": "NFL",
+  "sport": "american-football",
+  "country": "United States",
+  "founded": {
+    "value": 1920,
+    "source": "https://en.wikipedia.org/wiki/National_Football_League",
+    "verified": "2026-11-06"
+  },
+  "website": "https://www.nfl.com/",
+  "summary": "America’s most popular league: 32 teams, a 17-game season from September to January, and the Super Bowl in February.",
+  "terms": {
+    "final": "Super Bowl",
+    "title": "Super Bowl title",
+    "titles": "Super Bowls",
+    "rosterSite": "NFL.com"
+  }
+}

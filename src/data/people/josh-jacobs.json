@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 11, 1998, Tulsa, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2022)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2020, 2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2017)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Josh Jacobs",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Josh Jacobs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Josh_Jacobs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back, signed in 2024.",
+  "image": {
+    "file": "File:2025 Commanders at Packers 54 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/2025_Commanders_at_Packers_54_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_Commanders_at_Packers_54_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Josh Jacobs",
+    "caption": "Josh Jacobs",
+    "licenseChecked": "2026-11-05"
+  }
+}

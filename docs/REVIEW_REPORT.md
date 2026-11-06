@@ -442,3 +442,20 @@ soft shading; the sponsor is written under it as text (no sponsor logos are draw
 4. **Hand-researched kits kept**: Orlando Magic and Los Angeles Lakers (NBA.com sources); Orlando City (Wikipedia).
 5. **FC Dallas**: Wikipedia gives only full-colour pattern images, so its colours were read from the images (red and navy hoops; ice-blue alternate). **Gaps**: some MLS clubs show one or two kits where
    Wikipedia lists only those. Colour names in the descriptions are computed from the colours and may be approximate.
+
+# NFL skeleton and lot 1: Chiefs, Eagles, Seahawks, Cowboys, Packers, Patriots, Steelers
+
+Date: 2026-11-07. Branch `nfl`. Lean format, like MLS.
+
+## Things to check
+
+1. **Super Bowls only**: the 60 Super Bowls (I, 1966 season, to LX, 2025 season) are stored; NFL titles before 1966
+   (e.g. the Packers' nine, the Eagles' three) are mentioned in the texts but not counted in the title totals.
+2. **Seasons** are stored by the year the season began (Super Bowl LX = 2025 season, played in February 2026).
+3. **Sources**: Wikipedia team pages, the current stadiums list, the current head coaches list and each player's
+   infobox (years with the team, position, birth, highlights as honours, photo). NFL.com for logos.
+4. **Core players** are well-known current starters chosen from the team pages and confirmed as "present" in their
+   infoboxes; there is no single official list like MLS's Designated Players.
+5. **Seahawks owner**: a group led by Vinod Khosla completed its purchase on September 3, 2026 (Wikipedia).
+6. **No uniform drawings yet** for the NFL: the drawing has only basketball and soccer shapes.
+7. **Photos**: no free photo found for Derrick Thomas and Art Rooney (their infobox images are not on Commons).

@@ -1,0 +1,20 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1991",
+  "level": "league",
+  "title": "Super Bowl XXVI",
+  "winnerName": "Washington Redskins",
+  "runnerUpName": "Buffalo Bills",
+  "result": "37–24",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

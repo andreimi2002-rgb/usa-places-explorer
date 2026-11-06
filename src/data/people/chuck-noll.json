@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 5, 1932, Cleveland, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL champion (1954, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Super Bowl champion (IX, X, XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (1989)",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "UPI AFC Coach of the Year (1972)",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Chuck Noll",
+  "sources": [
+    {
+      "title": "Chuck Noll (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "head-coach",
+      "from": 1969,
+      "to": 1991,
+      "source": "https://en.wikipedia.org/wiki/Chuck_Noll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1969 to 1991 and winner of four Super Bowls.",
+  "image": {
+    "file": "File:Chuck Noll 1954.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chuck_Noll_1954.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chuck_Noll_1954.jpg",
+    "author": "Cleveland Browns",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Chuck Noll",
+    "caption": "Chuck Noll",
+    "licenseChecked": "2026-11-05"
+  }
+}

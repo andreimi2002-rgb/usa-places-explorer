@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 29, 1988, Cincinnati, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVIII (2013 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVIII)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pepsi NFL Rookie of the Year (2012)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2019)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (2012–2015, 2017–2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2015)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (2017)",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Russell Wilson",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Russell Wilson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2012,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XLVIII champions.",
+  "image": {
+    "file": "File:Wilson 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Wilson_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wilson_2021.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Russell Wilson",
+    "caption": "Russell Wilson",
+    "licenseChecked": "2026-11-05"
+  }
+}

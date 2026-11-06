@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 3, 1977, San Mateo, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVI (2001 season), XXXVIII (2003 season), XXXIX (2004 season), XLIX (2014 season), LI (2016 season), LIII (2018 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× Super Bowl champion (XXXVI, XXXVIII, XXXIX, XLIX, LI, LIII, LV)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Super Bowl MVP (XXXVI, XXXVIII, XLIX, LI, LV)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Most Valuable Player (2007, 2010, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Offensive Player of the Year (2007, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2009)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2007, 2010, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2005, 2016, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "15× Pro Bowl (2001, 2004, 2005, 2007, 2009–2018, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tom Brady",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tom Brady (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-patriots",
+      "role": "player",
+      "from": 2000,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of six Super Bowl wins in New England, seven in his career.",
+  "image": {
+    "file": "File:25th Laureus World Sports Awards - Red Carpet - Tom Brady - 240422 191334 (cropped) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg",
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Tom Brady",
+    "caption": "Tom Brady",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 7, 1998, Houston, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LIX (2024 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LIX)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (LIX)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2022)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2022, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2017)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big 12 Offensive Newcomer of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jalen Hurts",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jalen Hurts (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl LIX.",
+  "image": {
+    "file": "File:Jalen Hurts 11-14-22 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Jalen_Hurts_11-14-22_%28cropped%29.jpg/1280px-Jalen_Hurts_11-14-22_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jalen_Hurts_11-14-22_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jalen Hurts",
+    "caption": "Jalen Hurts",
+    "licenseChecked": "2026-11-05"
+  }
+}

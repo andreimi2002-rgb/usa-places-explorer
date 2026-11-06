@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Arlington",
+  "region": "Texas",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "metro": "Dallas–Fort Worth metroplex",
+  "coordinates": {
+    "value": {
+      "lat": 32.73569,
+      "lon": -97.10807
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Arlington&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city between Dallas and Fort Worth, home of the Cowboys’ stadium since 2009.",
+  "image": {
+    "file": "File:Arlington June 2020 4 (AT&T Stadium).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_4_(AT%26T_Stadium).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of AT&T Stadium, Arlington",
+    "caption": "AT&T Stadium, Arlington",
+    "licenseChecked": "2026-11-05"
+  }
+}

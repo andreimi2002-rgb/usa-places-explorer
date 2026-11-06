@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1978",
+  "level": "league",
+  "title": "Super Bowl XIII",
+  "winner": "pittsburgh-steelers",
+  "runnerUp": "dallas-cowboys",
+  "winnerName": "Pittsburgh Steelers",
+  "runnerUpName": "Dallas Cowboys",
+  "result": "35–31",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

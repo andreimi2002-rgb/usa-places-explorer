@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 9, 1973, San Francisco, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVI (2001 season), XXXVIII (2003 season), XXXIX (2004 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXXVI, XXXVIII, XXXIX)",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2005)",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2003, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2004)",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots All-2000s Team",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots All-Dynasty Team",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tedy Bruschi",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tedy Bruschi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-patriots",
+      "role": "player",
+      "from": 1996,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Tedy_Bruschi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of three Super Bowl wins.",
+  "image": {
+    "file": "File:Tedy Bruschi 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tedy_Bruschi_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tedy_Bruschi_2010.jpg",
+    "author": "NFL_Live_ESPNWeekend2010-026.jpg: Jeff Kern derivative work: RanZag (talk)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tedy Bruschi",
+    "caption": "Tedy Bruschi",
+    "licenseChecked": "2026-11-05"
+  }
+}

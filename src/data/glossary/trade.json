@@ -11,7 +11,8 @@
   "term": "Trade",
   "short": "A deal in which teams swap players, draft picks or both. Unlike a European football transfer, it is mainly an exchange of assets rather than a sale for a fee.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football"
   ],
   "related": [
     "free-agency",

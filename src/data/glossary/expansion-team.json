@@ -12,7 +12,8 @@
   "short": "A brand-new team added to a league, rather than an existing team that moved. It usually starts with a thin roster built from other teams’ spare players.",
   "sports": [
     "basketball",
-    "soccer"
+    "soccer",
+    "american-football"
   ],
   "related": [
     "nba-draft"

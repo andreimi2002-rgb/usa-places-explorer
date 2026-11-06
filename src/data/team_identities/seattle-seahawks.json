@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "seattle-seahawks",
+  "name": "Seattle Seahawks",
+  "city": "seattle",
+  "from": {
+    "value": 1976,
+    "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

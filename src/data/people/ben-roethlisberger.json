@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 2, 1982, Lima, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XL (2005 season), XLIII (2008 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XL, XLIII)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (2004)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2007, 2011, 2014–2017)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing yards leader (2014, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pittsburgh Steelers Hall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (2003)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MAC Most Valuable Player (2003)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MAC Offensive Player of the Year (2003)",
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ben Roethlisberger",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ben Roethlisberger (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 2004,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Ben_Roethlisberger",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XL and XLIII wins.",
+  "image": {
+    "file": "File:Ben Roethlisberger (51654680119) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ben_Roethlisberger_%2851654680119%29_%28cropped%29.jpg/1280px-Ben_Roethlisberger_%2851654680119%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ben_Roethlisberger_(51654680119)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ben Roethlisberger",
+    "caption": "Ben Roethlisberger",
+    "licenseChecked": "2026-11-05"
+  }
+}

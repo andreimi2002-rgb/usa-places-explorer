@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 30, 1988, Compton, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVIII (2013 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVIII)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2012–2014)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2015, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2013–2016, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL interceptions leader (2013)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2011)",
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Richard Sherman",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Richard Sherman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Richard_Sherman_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback of the Super Bowl XLVIII defence.",
+  "image": {
+    "file": "File:Richard Sherman Super Bowl LX parade.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Richard_Sherman_Super_Bowl_LX_parade.jpg/1280px-Richard_Sherman_Super_Bowl_LX_parade.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Sherman_Super_Bowl_LX_parade.jpg",
+    "author": "Washington National Guard",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Richard Sherman",
+    "caption": "Richard Sherman",
+    "licenseChecked": "2026-11-05"
+  }
+}

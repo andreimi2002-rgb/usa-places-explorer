@@ -1,0 +1,14 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "AFC South",
+  "conference": "nfl-afc",
+  "order": 3
+}

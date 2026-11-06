@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 11, 1924, Mission, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (1954)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (1954)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL punting yards leader (1952, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AAFC punting yards leader (1949)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "55th greatest New York Giant of all-time",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-SWC (1947)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tom Landry",
+  "sources": [
+    {
+      "title": "Tom Landry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "head-coach",
+      "from": 1960,
+      "to": 1988,
+      "source": "https://en.wikipedia.org/wiki/Tom_Landry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The club’s first coach, from 1960 to 1988.",
+  "image": {
+    "file": "File:Tom Landry Jan 1997.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Tom_Landry_Jan_1997.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Landry_Jan_1997.jpg",
+    "author": "Big Cowboy Kev (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Tom Landry",
+    "caption": "Tom Landry",
+    "licenseChecked": "2026-11-05"
+  }
+}

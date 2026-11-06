@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 24, 1946, Temple, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IX (1974 season), X (1975 season), XIII (1978 season), XIV (1979 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (IX, X, XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Defensive Player of the Year (1972, 1974)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1979)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1972–1974, 1977, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1971, 1975, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (1969–1976, 1978, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Greene",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Greene (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 1969,
+      "to": 1981,
+      "source": "https://en.wikipedia.org/wiki/Joe_Greene",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle, leader of the Steel Curtain defence.",
+  "image": {
+    "file": "File:Mean Joe Greene 1975.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mean_Joe_Greene_1975.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Mean_Joe_Greene_1975.JPG",
+    "author": "The Steelers / NFL",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe Greene",
+    "caption": "Joe Greene",
+    "licenseChecked": "2026-11-05"
+  }
+}

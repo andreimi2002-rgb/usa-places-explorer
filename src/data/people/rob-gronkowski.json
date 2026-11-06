@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 14, 1989, Amherst, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLIX (2014 season), LI (2016 season), LIII (2018 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (XLIX, LI, LIII, LV)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2014)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2011, 2014, 2015, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2011, 2012, 2014, 2015, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving touchdowns leader (2011)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2010)",
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Rob Gronkowski",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rob Gronkowski (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-patriots",
+      "role": "player",
+      "from": 2010,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Rob_Gronkowski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end of four Super Bowl wins.",
+  "image": {
+    "file": "File:231208-N-QE848-2422 (53391476156) (Rob Gronkowski).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/231208-N-QE848-2422_%2853391476156%29_%28Rob_Gronkowski%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:231208-N-QE848-2422_(53391476156)_(Rob_Gronkowski).jpg",
+    "author": "United States Naval Academy Photo Archive from United States",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Rob Gronkowski",
+    "caption": "Rob Gronkowski",
+    "licenseChecked": "2026-11-05"
+  }
+}

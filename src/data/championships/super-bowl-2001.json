@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "2001",
+  "level": "league",
+  "title": "Super Bowl XXXVI",
+  "winner": "new-england-patriots",
+  "winnerName": "New England Patriots",
+  "runnerUpName": "St. Louis Rams",
+  "result": "20–17",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

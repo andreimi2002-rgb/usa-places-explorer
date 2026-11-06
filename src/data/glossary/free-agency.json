@@ -11,7 +11,8 @@
   "term": "Free agency",
   "short": "The period when players whose contracts have ended can sign with any team. Some free agents are “restricted”, meaning their old team can keep them by matching an offer.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football"
   ],
   "related": [
     "trade"

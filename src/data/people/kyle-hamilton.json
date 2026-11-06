@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 16, 2001, Heraklion, Crete, Greece",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2024)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2023–2025)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2022)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Freshman All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-ACC (2020)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Kyle Hamilton",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kyle Hamilton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kyle_Hamilton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and two-time First-team All-Pro.",
+  "image": {
+    "file": "File:Kyle Hamilton (53880437431).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kyle_Hamilton_%2853880437431%29.jpg/1280px-Kyle_Hamilton_%2853880437431%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyle_Hamilton_(53880437431).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Kyle Hamilton",
+    "caption": "Kyle Hamilton",
+    "licenseChecked": "2026-11-05"
+  }
+}

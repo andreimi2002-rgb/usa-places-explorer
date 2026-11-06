@@ -1,0 +1,165 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Baltimore Ravens",
+  "division": "nfl-afc-north",
+  "founded": {
+    "value": 1996,
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+    "verified": "2026-11-06",
+    "note": "Founded February 9, 1996, when Art Modell moved his Cleveland team’s players and staff to Baltimore; the Browns’ name and history stayed in Cleveland."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Steve Bisciotti",
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Jesse Minter",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "m-and-t-bank-stadium",
+      "from": 1998,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "ray-lewis",
+    "ed-reed",
+    "jonathan-ogden",
+    "terrell-suggs",
+    "joe-flacco",
+    "john-harbaugh"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/baltimore-ravens/roster",
+    "players": [
+      {
+        "person": "lamar-jackson",
+        "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "derrick-henry",
+        "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "kyle-hamilton",
+        "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996-02-09",
+      "label": "Founded in Baltimore",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1998",
+      "label": "Open today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2001",
+      "label": "Win Super Bowl XXXV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Hire John Harbaugh",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "Win Super Bowl XLVII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Draft Lamar Jackson",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-01-22",
+      "label": "Hire Jesse Minter",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Born in 1996 from the Browns’ move, two-time Super Bowl champions, and the team of two-time MVP Lamar Jackson.",
+  "sources": [
+    {
+      "title": "Baltimore Ravens (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/BAL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/baltimore-ravens.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/BAL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Purple",
+        "hex": "#24135F"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#9A7611"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+    "verified": "2026-11-06"
+  }
+}

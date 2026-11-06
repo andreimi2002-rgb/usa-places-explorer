@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 6, 1907, Richmond, Indiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (III)",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL champion (1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1968)",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Coach of the Year (1958)",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets Jacket retired",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Indiana Football Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Miami University Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Weeb Ewbank",
+  "sources": [
+    {
+      "title": "Weeb Ewbank (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "head-coach",
+      "from": 1963,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1963 to 1973 and winner of Super Bowl III.",
+  "image": {
+    "file": "File:Weeb Ewbank 1961.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Weeb_Ewbank_1961.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Weeb_Ewbank_1961.jpg",
+    "author": "Jay Publishing",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Weeb Ewbank",
+    "caption": "Weeb Ewbank",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 29, 2003, Montgomery, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Freshman All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2024)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Freshman of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Conerly Trophy (2022)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× first-team All-SEC (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-Big Ten (2024)",
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Quinshon Judkins",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Quinshon Judkins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Quinshon_Judkins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back drafted in 2025.",
+  "image": {
+    "file": "File:2025-0120 Quinshon Judkins.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2025-0120_Quinshon_Judkins.jpg/1280px-2025-0120_Quinshon_Judkins.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-0120_Quinshon_Judkins.jpg",
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Quinshon Judkins",
+    "caption": "Quinshon Judkins",
+    "licenseChecked": "2026-11-05"
+  }
+}

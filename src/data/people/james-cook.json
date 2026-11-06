@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 25, 1999, Miami, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2023–2025)",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2021)",
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "James Cook",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "James Cook (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/James_Cook_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and the NFL’s leading rusher in 2025.",
+  "image": {
+    "file": "File:JamesCookProBowl2024 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/JamesCookProBowl2024_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JamesCookProBowl2024_(cropped).jpg",
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of James Cook",
+    "caption": "James Cook",
+    "licenseChecked": "2026-11-05"
+  }
+}

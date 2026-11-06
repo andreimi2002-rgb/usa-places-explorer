@@ -66,6 +66,14 @@
   ],
   "roles": [
     {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 2017,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "los-angeles-rams",
       "role": "player",
       "from": 2026,
@@ -74,7 +82,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Pass rusher and twice Defensive Player of the Year, traded from Cleveland in 2026.",
+  "summary": "Pass rusher and twice Defensive Player of the Year, traded to the Rams in 2026.",
   "image": {
     "file": "File:Myles Garrett 2026.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Myles_Garrett_2026.jpg/1280px-Myles_Garrett_2026.jpg",

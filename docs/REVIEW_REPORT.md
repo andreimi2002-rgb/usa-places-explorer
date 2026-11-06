@@ -505,3 +505,21 @@ from Dallas. Fixed at the root, plus the other problems found by a full audit:
    team colour is now picked for text and lines.
 7. **Team pages**: Super Bowl rows name the game ("Super Bowl VI (1971 season)"), so they match the timeline year.
 8. **Other**: Kevin Durant marked active; empty NFL divisions say "Teams coming soon"; home page no longer says "tip-off".
+
+# NFL lot 3: Bills, Jets, Ravens, Bengals, Browns, Chargers
+
+Date: 2026-11-06. Branch `nfl`. Same lean format and sources. AFC East and AFC North are now complete.
+
+## Things to check
+
+1. **Browns and Ravens**: the Browns have one identity from 1946; the 1996–1998 gap (players moved to Baltimore) is in
+   the founding note and the text. The Ravens start in 1996 with no Browns history, as the NFL ruled.
+2. **New coaches for 2026**: Joe Brady (Bills), Jesse Minter (Ravens), Todd Monken (Browns). John Harbaugh now has
+   both his Ravens (2008–2025) and Giants roles; Jim Harbaugh and Aaron Glenn have player and coach roles.
+3. **Pre-Super Bowl titles** (Browns' four AAFC and four NFL titles; AFL titles of the Bills, Jets and Chargers) are in
+   the texts only, as for the other teams.
+4. **New**: Orchard Park (part of the Buffalo area) and four stadiums: Highmark Stadium (the new one, 2026), M&T Bank
+   Stadium, Paycor Stadium, Huntington Bank Field. City texts for Buffalo, Baltimore, Cincinnati, Cleveland, San Diego,
+   Los Angeles and New York updated.
+5. **Photos**: none for Joe Klecko (the only free photo shows two people).
+6. **Fix**: "have not won an Super Bowl title" is now "a Super Bowl title" ("an NBA title", "an MLS Cup" unchanged).

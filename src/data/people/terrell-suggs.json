@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 11, 1982, Minneapolis, Minnesota, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVII (2012 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XLVII, LIV)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (2011)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2003)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2011)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2008)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2004, 2006, 2008, 2010, 2011, 2013, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL forced fumbles leader (2003, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Butkus Award (pro) (2011)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Terrell Suggs",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Terrell Suggs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2003,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Terrell_Suggs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 2011 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Terrell Suggs 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Terrell_Suggs_2015.jpg/1280px-Terrell_Suggs_2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Terrell_Suggs_2015.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Terrell Suggs",
+    "caption": "Terrell Suggs",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 15, 1949, Batavia, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1981)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1981)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1981)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1975)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1981)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1975)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1975, 1976, 1981, 1982)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ken Anderson",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ken Anderson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 1971,
+      "to": 1986,
+      "source": "https://en.wikipedia.org/wiki/Ken_Anderson_(quarterback)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 1981 MVP.",
+  "image": {
+    "file": "File:KenAnderson.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/KenAnderson.png",
+    "page": "https://commons.wikimedia.org/wiki/File:KenAnderson.png",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ken Anderson",
+    "caption": "Ken Anderson",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 31, 2001, Omaha, Nebraska, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Unanimous All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA rushing yards leader (2020)",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Big 12 Offensive Player of the Year (2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Big 12 (2019)",
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Breece Hall",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Breece Hall (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Breece_Hall",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back drafted in 2022.",
+  "image": {
+    "file": "File:2026 NYJ Media - Breece Hall.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/2026_NYJ_Media_-_Breece_Hall.png",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_NYJ_Media_-_Breece_Hall.png",
+    "author": "New York Jets",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Breece Hall",
+    "caption": "Breece Hall",
+    "licenseChecked": "2026-11-05"
+  }
+}

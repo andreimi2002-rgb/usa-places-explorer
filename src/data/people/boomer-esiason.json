@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 17, 1961, East Islip, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1988)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1995)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Player of the Year (1988)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1988)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1986, 1988, 1989, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (1988)",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cincinnati Bengals Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cincinnati Bengals 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Boomer Esiason",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Boomer Esiason (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 1984,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 1997,
+      "to": 1997,
+      "source": "https://en.wikipedia.org/wiki/Boomer_Esiason",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 1988 MVP.",
+  "image": {
+    "file": "File:Boomer Esiason at Super Bowl XLI pre-game show in Miami.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Boomer_Esiason_at_Super_Bowl_XLI_pre-game_show_in_Miami.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Boomer_Esiason_at_Super_Bowl_XLI_pre-game_show_in_Miami.jpg",
+    "author": "Staff Sgt Kristi Machado, USAF",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Boomer Esiason",
+    "caption": "Boomer Esiason",
+    "licenseChecked": "2026-11-05"
+  }
+}

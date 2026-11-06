@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 4, 1994, Yulee, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Player of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2020)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2019, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2019, 2020, 2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing yards leader (2019, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL rushing touchdowns leader (2019, 2020, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Derrick Henry",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Derrick Henry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back, with the Ravens since 2024.",
+  "image": {
+    "file": "File:Derrick Henry OCT2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Derrick_Henry_OCT2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derrick_Henry_OCT2022_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Derrick Henry",
+    "caption": "Derrick Henry",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -12,7 +12,8 @@
   "region": "New York",
   "country": "United States",
   "timezone": "America/New_York",
-  "summary": "Home of the Buffalo Braves, today’s Clippers, from 1970 to 1978.",
+  "metro": "Buffalo–Niagara Falls metropolitan area",
+  "summary": "Home of the Bills since 1960, and of the NBA’s Braves from 1970 to 1978.",
   "coordinates": {
     "value": {
       "lat": 42.8865,

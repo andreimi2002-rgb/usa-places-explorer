@@ -250,7 +250,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
           <div class="section-head"><h2 id="timeline-title">Championships &amp; milestones</h2></div>
           <p class="muted">
             {titles.length === 0
-              ? `${d.name} have not won an ${terms.title} yet.${finalsLost.length === 0 ? '' : ` They have reached the ${terms.final} ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`}`
+              ? `${d.name} have not won ${/^([AEIOU]|[FHLMNRSX][A-Z])/.test(terms.title) ? "an" : "a"} ${terms.title} yet.${finalsLost.length === 0 ? '' : ` They have reached the ${terms.final} ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`}`
               : `${titles.length} ${titles.length === 1 ? terms.title : terms.titles}.`}
           </p>
           {finals.length > 0 && (

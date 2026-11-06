@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 3, 1996, Haines City, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2018, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (2018, 2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2018, 2021, 2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2018)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2017)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-ACC (2016, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Derwin James",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Derwin_James",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Derwin James (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Derwin_James",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Derwin_James",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and five-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Derwin James - 2025 Commanders at Chargers (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Derwin_James_-_2025_Commanders_at_Chargers_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derwin_James_-_2025_Commanders_at_Chargers_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Derwin James",
+    "caption": "Derwin James",
+    "licenseChecked": "2026-11-05"
+  }
+}

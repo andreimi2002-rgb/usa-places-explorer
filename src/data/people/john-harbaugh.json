@@ -41,6 +41,14 @@
   ],
   "roles": [
     {
+      "franchise": "baltimore-ravens",
+      "role": "head-coach",
+      "from": 2008,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "new-york-giants",
       "role": "head-coach",
       "from": 2026,
@@ -49,7 +57,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Head coach since 2026, after winning Super Bowl XLVII with Baltimore.",
+  "summary": "Head coach of the Giants since 2026, after 18 seasons with Baltimore and a win in Super Bowl XLVII.",
   "image": {
     "file": "File:John Harbaugh (52093585046) (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/John_Harbaugh_%2852093585046%29_%28cropped%29.jpg",

@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 28, 2003, North Oaks, Minnesota, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2025)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2024)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2023)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Alt",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Alt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Joe_Alt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle drafted in 2024.",
+  "image": {
+    "file": "File:Joe Alt.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Joe_Alt.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Alt.jpg",
+    "author": "Munnaf Joarder",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe Alt",
+    "caption": "Joe Alt",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Orchard Park",
+  "region": "New York",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Buffalo–Niagara Falls metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 42.76756,
+      "lon": -78.74392
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Orchard%20Park&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A town south of Buffalo, home of the Bills since 1973.",
+  "hub": "buffalo",
+  "image": {
+    "file": "File:Opny1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Opny1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Opny1.jpg",
+    "author": "Caitlin7777",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "The Orchard Park town sign",
+    "caption": "The Orchard Park town sign",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 18, 1980, Detroit, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (2004–2006)",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2009, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2004–2011)",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Los Angeles Chargers Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "San Diego Chargers 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most career receiving touchdowns by a tight end: 116",
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Antonio Gates",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Antonio Gates (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2003,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Antonio_Gates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end who never played college football.",
+  "image": {
+    "file": "File:Antonio Gates 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Antonio_Gates_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Antonio_Gates_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Antonio Gates",
+    "caption": "Antonio Gates",
+    "licenseChecked": "2026-11-05"
+  }
+}

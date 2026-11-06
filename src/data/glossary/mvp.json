@@ -6,13 +6,24 @@
       "title": "Larry Bird stats (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/players/b/birdla01.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "AP NFL Most Valuable Player (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/AP_NFL_Most_Valuable_Player",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MVP Award (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Landon_Donovan_MVP_Award",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "MVP",
-  "short": "Most Valuable Player: the award for the best player of the NBA regular season.",
+  "short": "Most Valuable Player: the award for the best player of a league’s regular season.",
   "sports": [
     "basketball",
-    "american-football"
+    "american-football",
+    "soccer"
   ],
   "related": [
     "finals-mvp"

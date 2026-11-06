@@ -6,10 +6,20 @@
       "title": "Play-In Tournament explained (NBA.com)",
       "url": "https://www.nba.com/news/nba-play-in-tournament",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "NFL playoffs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/NFL_playoffs",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup Playoffs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/MLS_Cup_Playoffs",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Playoffs",
-  "short": "The knockout tournament after the regular season. Teams play best-of-seven series, and the last two standing meet in the NBA Finals.",
+  "short": "The knockout tournament after the regular season that decides the champion. NBA rounds are best-of-seven series; NFL rounds are single games.",
   "sports": [
     "basketball",
     "soccer",

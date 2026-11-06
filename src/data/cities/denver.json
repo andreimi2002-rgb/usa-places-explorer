@@ -12,6 +12,7 @@
   "region": "Colorado",
   "country": "United States",
   "timezone": "America/Denver",
+  "metro": "Denver metropolitan area",
   "coordinates": {
     "value": {
       "lat": 39.7392,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5419384: Denver, Colorado"
   },
-  "summary": "Home of the Nuggets since 1967.",
+  "summary": "Home of the Broncos since 1960, the Nuggets since 1967 and the Colorado Rapids since 1996.",
   "image": {
     "file": "File:Denver skyline from Speer Blvd near I-25, April 2019.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Denver_skyline_from_Speer_Blvd_near_I-25%2C_April_2019.jpg/1280px-Denver_skyline_from_Speer_Blvd_near_I-25%2C_April_2019.jpg",

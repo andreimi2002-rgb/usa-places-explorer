@@ -283,6 +283,8 @@ const cities = defineCollection({
     population: fact(z.number().int()).optional(),
     /** Metropolitan area shared with neighbouring cities, e.g. "San Francisco Bay Area". */
     metro: z.string().optional(),
+    /** For a suburb or stadium town: the main city of its area (e.g. Frisco -> Dallas). The hub page lists the area's teams and venues. */
+    hub: reference('cities').optional(),
     /** City-centre coordinates, used for the live weather widget. */
     coordinates: fact(z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180) })).optional(),
     /** Extra sourced facts for the Key facts box, e.g. the main airport. */

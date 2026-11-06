@@ -12,7 +12,7 @@
   "region": "California",
   "country": "United States",
   "timezone": "America/Los_Angeles",
-  "summary": "Home of the Clippers’ Intuit Dome since 2024.",
+  "summary": "A Los Angeles-area city with two big venues: SoFi Stadium, since 2020, and the Clippers’ Intuit Dome, since 2024.",
   "metro": "Greater Los Angeles",
   "coordinates": {
     "value": {
@@ -33,5 +33,6 @@
     "alt": "View of Intuit Dome, Inglewood",
     "caption": "Intuit Dome, Inglewood",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "hub": "los-angeles"
 }

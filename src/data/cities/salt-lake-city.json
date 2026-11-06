@@ -12,6 +12,7 @@
   "region": "Utah",
   "country": "United States",
   "timezone": "America/Denver",
+  "metro": "Salt Lake City metropolitan area",
   "coordinates": {
     "value": {
       "lat": 40.7608,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5780993: Salt Lake City, Utah"
   },
-  "summary": "Home of the Utah Jazz since 1979.",
+  "summary": "Home of the Utah Jazz since 1979 and of Real Salt Lake since 2005.",
   "image": {
     "file": "File:Salt Lake City skyline (2020) from Ensign Peak.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Salt_Lake_City_skyline_%282020%29_from_Ensign_Peak.jpg/1280px-Salt_Lake_City_skyline_%282020%29_from_Ensign_Peak.jpg",

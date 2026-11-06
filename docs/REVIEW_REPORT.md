@@ -481,3 +481,27 @@ Date: 2026-11-06. Branch `nfl`. Same lean format and sources as lot 1.
 6. **European games** come from the NFL International Series article (London, Munich, Frankfurt, Madrid).
 7. **Photos**: none for Gene Upshaw and Al Davis (not on Commons), Abdul Carter and Von Miller (no infobox image), or Dan
    Marino (the Commons file has no author, so the CC BY-SA credit cannot be given).
+
+# Site-wide fixes after the NFL lot 2 review (2026-11-06)
+
+Reported by the user: Miami and Denver city pages missed their NFL stadiums, two "Kansas City" pages, FC Dallas missing
+from Dallas. Fixed at the root, plus the other problems found by a full audit:
+
+1. **City areas**: cities can name a `hub`. Suburbs and stadium towns now feed their main city's page (Frisco and
+   Arlington → Dallas; Commerce City → Denver; Miami Gardens and Fort Lauderdale → Miami; Kansas City, Kansas → Kansas City;
+   Foxborough → Boston; East Rutherford, Harrison, Uniondale → New York; Inglewood, Carson → Los Angeles; Chester →
+   Philadelphia; Sandy → Salt Lake City; Santa Clara → San Francisco; Saint Paul → Minneapolis). The suburb page says
+   which area it belongs to. The Cities list counts whole areas.
+2. **City pages**: renamed teams ("Denver Rockets", "Dallas Burn", "MetroStars") moved from "Teams that left" to a new
+   "Earlier names" list; titles are counted per name (the Rockets no longer show the Nuggets' 2023 title); "then moved
+   to..." links now work when the next name starts the year after; empty stats hidden; singular/plural fixed.
+3. **City texts**: 28 city summaries and texts were still NBA-only (e.g. Kansas City "Home of the Kings", Seattle only
+   about the SuperSonics, Oakland with no text). Rewritten to cover every league, from the data.
+4. **Glossary**: playoffs, MVP, Hall of Fame, player-coach, salary cap, trade, free agency and expansion team had
+   NBA-only definitions shown on NFL and MLS pages. Short definitions made league-neutral, plus an NFL/MLS paragraph.
+5. **Photo captions**: 33 captions cut off mid-sentence (e.g. "with the Boston Celtics in") replaced; no double full
+   stop after names ending in "Jr.".
+6. **Team colours**: navy and black team colours were invisible on the dark background (labels, lines). A readable
+   team colour is now picked for text and lines.
+7. **Team pages**: Super Bowl rows name the game ("Super Bowl VI (1971 season)"), so they match the timeline year.
+8. **Other**: Kevin Durant marked active; empty NFL divisions say "Teams coming soon"; home page no longer says "tip-off".

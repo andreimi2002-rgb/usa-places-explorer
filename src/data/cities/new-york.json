@@ -12,7 +12,8 @@
   "region": "New York",
   "country": "United States",
   "timezone": "America/New_York",
-  "summary": "Home of the Knicks since 1946 and of the Brooklyn Nets since 2012.",
+  "metro": "New York metropolitan area",
+  "summary": "Home of the Knicks, the Nets, the Giants, New York City FC and the Red Bulls.",
   "image": {
     "file": "File:NYC Downtown Manhattan Skyline seen from Paulus Hook 2019-12-20 IMG 7347 FRD (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg/960px-NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg",
@@ -21,7 +22,7 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "alt": "View of New York",
-    "caption": "Downtown Manhattan Skyline seen from Paulus Hook showing various ferry services departing",
+    "caption": "Downtown Manhattan seen from Paulus Hook, Jersey City",
     "licenseChecked": "2026-11-05"
   },
   "coordinates": {

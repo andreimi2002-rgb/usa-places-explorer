@@ -49,11 +49,7 @@ const images = credits.filter((c): c is Credit => Boolean(c));
                 </a>
               ) : (
                 c.license
-              )}
-              , via{' '}
-              <a href={c.page} rel="noopener" target="_blank">
-                Wikimedia Commons
-              </a>
+              )}, via <a href={c.page} rel="noopener" target="_blank">Wikimedia Commons</a>
             </li>
           ))}
         </ul>

@@ -6,10 +6,15 @@
       "title": "NBA sets Salary Cap for 2026-27 season (NBA PR)",
       "url": "https://pr.nba.com/2026-27-salary-cap/",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Salary cap (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Salary_cap",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Salary cap",
-  "short": "The limit on what a team may spend on player salaries in a season. In the NBA it is a “soft” cap: teams can go over it through exceptions, but pay a luxury tax above a higher line. For 2026-27 it is $164.961 million.",
+  "short": "The limit on what a team may spend on player salaries in a season. The NBA’s cap is “soft”, with exceptions and a luxury tax; the NFL’s is “hard”: no team may go over it.",
   "sports": [
     "basketball",
     "soccer",

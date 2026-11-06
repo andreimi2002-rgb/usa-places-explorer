@@ -1,4 +1,5 @@
 ---
+import { readableTeamColor } from '../../lib/colors';
 import { getCollection, getEntries, getEntry, render } from 'astro:content';
 import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
@@ -53,7 +54,7 @@ const rendered = Object.fromEntries(
 ) as Record<keyof typeof sections, any>;
 
 const colors = isVerified(d.colors) ? d.colors.value : [];
-const accent = colors[0] ? { primary: colors[0].hex, secondary: colors[2]?.hex ?? colors[1]?.hex } : undefined;
+const accent = colors[0] ? { primary: colors[0].hex, secondary: colors[2]?.hex ?? colors[1]?.hex, ink: readableTeamColor(colors.map((c) => c.hex)) } : undefined;
 const stub = d.progress === 'not-started';
 const rivalryEntries = await Promise.all(
   rivalries.map(async (r) => ({ r, other: (await getEntries(r.data.franchises)).find((f) => f.id !== franchise.id) })),
@@ -104,6 +105,8 @@ const finals = championships
     const won = c.data.winner?.id === franchise.id;
     return {
       season: c.data.season,
+      // Numbered finals (Super Bowl VI) are named, since the game is played in the year after the season.
+      game: /^Super Bowl /.test(c.data.title) ? c.data.title : undefined,
       won,
       asName: won ? c.data.winnerName : c.data.runnerUpName,
       opponent: won ? c.data.runnerUpName : c.data.winnerName,
@@ -258,7 +261,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
                 <tbody>
                   {finals.map((x) => (
                     <tr class:list={[{ won: x.won }]}>
-                      <td>{x.season}{x.asName && x.asName !== d.name && <span class="subtle"> as {x.asName}</span>}</td>
+                      <td>{x.game ? <>{x.game} <span class="subtle">({x.season} season)</span></> : x.season}{x.asName && x.asName !== d.name && <span class="subtle"> as {x.asName}</span>}</td>
                       <td>{x.won ? 'Champions' : 'Runners-up'}</td>
                       <td>{x.opponentId ? <a href={routes.franchises(x.opponentId)}>{x.opponent}</a> : x.opponent}</td>
                       <td>{x.result}</td>
@@ -532,7 +535,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
     padding-left: 1.2rem;
   }
   .identities li.current strong {
-    color: var(--team-1);
+    color: var(--team-ink, var(--team-1));
   }
   .kits {
     display: grid;

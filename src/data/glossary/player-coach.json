@@ -6,13 +6,19 @@
       "title": "Legends profile: Bill Russell (NBA.com)",
       "url": "https://www.nba.com/news/history-nba-legend-bill-russell",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "George Halas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/George_Halas",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Player-coach",
-  "short": "A player who is also the team’s head coach. Bill Russell won two titles this way with Boston.",
+  "short": "A player who is also the team’s head coach. Bill Russell won two titles this way with Boston; George Halas did it with the Chicago Bears in the 1920s.",
   "sports": [
     "basketball",
-    "american-football"
+    "american-football",
+    "soccer"
   ],
   "related": [
     "nba-finals"

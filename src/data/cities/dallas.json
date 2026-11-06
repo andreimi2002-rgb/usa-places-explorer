@@ -12,6 +12,7 @@
   "region": "Texas",
   "country": "United States",
   "timezone": "America/Chicago",
+  "metro": "Dallas–Fort Worth metroplex",
   "coordinates": {
     "value": {
       "lat": 32.7831,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4684888: Dallas, Texas"
   },
-  "summary": "Home of the Mavericks since 1980.",
+  "summary": "Centre of the Dallas–Fort Worth area: the Cowboys, the Mavericks and FC Dallas.",
   "image": {
     "file": "File:Dallas Skyline at Dusk.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dallas_Skyline_at_Dusk.jpg/1280px-Dallas_Skyline_at_Dusk.jpg",

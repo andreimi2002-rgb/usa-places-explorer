@@ -10,7 +10,7 @@ interface Props {
   /** Force noindex for internal pages even after launch. */
   noindex?: boolean;
   /** Team colors used as accents on this page. */
-  accent?: { primary: string; secondary?: string };
+  accent?: { primary: string; secondary?: string; ink?: string };
   /** Pagefind: index this page's main content. */
   searchable?: boolean;
 }
@@ -18,7 +18,7 @@ interface Props {
 const { title, description, noindex = false, accent, searchable = true } = Astro.props;
 const fullTitle = title ? `${title} | ${siteConfig.name}` : `${siteConfig.name}: ${siteConfig.tagline}`;
 const robots = !siteConfig.indexable || noindex ? 'noindex, nofollow' : 'index, follow';
-const style = accent ? `--team-1: ${accent.primary}; --team-2: ${accent.secondary ?? accent.primary};` : undefined;
+const style = accent ? `--team-1: ${accent.primary}; --team-2: ${accent.secondary ?? accent.primary};${accent.ink ? ` --team-ink: ${accent.ink};` : ''}` : undefined;
 ---
 
 <!doctype html>

@@ -6,13 +6,19 @@
       "title": "NBA Free Agency explained (NBA.com)",
       "url": "https://www.nba.com/news/free-agency-explained",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "NFL free agency (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Free_agency_(National_Football_League)",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Free agency",
   "short": "The period when players whose contracts have ended can sign with any team. Some free agents are “restricted”, meaning their old team can keep them by matching an offer.",
   "sports": [
     "basketball",
-    "american-football"
+    "american-football",
+    "soccer"
   ],
   "related": [
     "trade"

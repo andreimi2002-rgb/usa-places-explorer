@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "Snapdragon Stadium",
+  "city": "san-diego",
+  "opened": {
+    "value": "2022",
+    "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 35000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "San Diego FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "San Diego’s 35,000-seat stadium, opened in 2022, home of San Diego FC since 2025.",
+  "image": {
+    "file": "File:An aerial view of Snapdragon Stadium (2022-08-26).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg/1280px-An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+    "author": "Terrible Tim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Snapdragon Stadium",
+    "caption": "Snapdragon Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

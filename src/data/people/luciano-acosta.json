@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q15696665",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 31, 1994, Rosario",
+      "source": "https://www.wikidata.org/wiki/Q15696665",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2023)",
+      "source": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Luciano Acosta",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Luciano Acosta (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Luciano Acosta (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q15696665",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.espn.com/soccer/story/_/id/47255866/who-won-mls-mvp-all-winners-list-year",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-cincinnati",
+      "role": "player",
+      "from": 2021,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine playmaker and the 2023 MVP, when Cincinnati won the Supporters’ Shield.",
+  "image": {
+    "file": "File:Dsc 4650 42558797500 o (50121450516) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dsc_4650_42558797500_o_%2850121450516%29_%28cropped%29.jpg/1280px-Dsc_4650_42558797500_o_%2850121450516%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dsc_4650_42558797500_o_(50121450516)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Luciano Acosta",
+    "caption": "Luciano Acosta",
+    "licenseChecked": "2026-11-05"
+  }
+}

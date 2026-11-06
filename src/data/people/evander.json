@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q30091456",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 9, 1998, Rio de Janeiro",
+      "source": "https://www.wikidata.org/wiki/Q30091456",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Evander",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Evander (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Evander (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q30091456",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-cincinnati",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian playmaker and Designated Player since 2025.",
+  "image": {
+    "file": "File:Evander NYCFC v Cincinnati 22 Apr 26-14 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Evander_NYCFC_v_Cincinnati_22_Apr_26-14_%28cropped%29.jpg/1280px-Evander_NYCFC_v_Cincinnati_22_Apr_26-14_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Evander_NYCFC_v_Cincinnati_22_Apr_26-14_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Evander",
+    "caption": "Evander",
+    "licenseChecked": "2026-11-05"
+  }
+}

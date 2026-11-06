@@ -1,0 +1,50 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Q2 Stadium",
+  "city": "austin",
+  "opened": {
+    "value": "2021-06-19",
+    "source": "https://en.wikipedia.org/wiki/Austin_FC",
+    "verified": "2026-11-06",
+    "note": "First Austin FC match."
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20738,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Austin FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Austin_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Austin FC’s stadium in north Austin since June 2021.",
+  "image": {
+    "file": "File:Q2 Stadium Austin Texas 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Q2_Stadium_Austin_Texas_2021.jpg/1280px-Q2_Stadium_Austin_Texas_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Q2_Stadium_Austin_Texas_2021.jpg",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Q2 Stadium",
+    "caption": "Q2 Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

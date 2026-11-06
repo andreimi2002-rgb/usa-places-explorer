@@ -383,6 +383,19 @@ Date: 2026-11-07.
 4. **Montréal** is the first Canadian-French city; its renaming from Montreal Impact (2021) is an identity change.
 5. **New cities**: Commerce City, Foxborough, Chester, Nashville, Montréal (with photos for the last three).
 
+# MLS lot 5: FC Cincinnati, Minnesota United, Austin FC, Charlotte FC, St. Louis City SC, San Diego FC (all 30 clubs)
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Left out**: Wilfried Zaha (Charlotte loan ended in 2026), Emanuel Reynoso (Minnesota; end year not found) and
+   Chucky Lozano (San Diego; now on loan at the LA Galaxy).
+2. **Young clubs** (San Diego, St. Louis, Charlotte) have few or no legends yet; San Diego shows none.
+3. **FC Cincinnati's captain**: the 2026 season table says Miles Robinson, the club page says Evander; both are core.
+4. **Austin's coach**: Davy Arnaud is interim; Jim Curtin is named to take over after the 2026 season.
+5. **All MLS Cup finals** now link both finalists.
+
 # MLS final check: to-do list (before the MLS production merge)
 
 Requested by the user on 2026-11-07:
@@ -391,3 +404,4 @@ Requested by the user on 2026-11-07:
    years, then add him as a core player (and to the history and Europe box).
 2. **City photos**: add a hand-picked photo (no collages) to every city that has none, e.g. Frisco, Sandy, Harrison.
 3. **New York City FC logo**: find the official file on MLSsoccer.com.
+4. **LA Galaxy**: consider Chucky Lozano (on loan from San Diego in 2026) as a core player.

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q51754954",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 1, 1997, Criciúma",
+      "source": "https://www.wikidata.org/wiki/Q51754954",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "João Klauss",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "João Klauss (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "João Klauss (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q51754954",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-city-sc",
+      "role": "player",
+      "from": 2023,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian striker of the first St. Louis team.",
+  "image": {
+    "file": "File:Klauss LASK 2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Klauss_LASK_2020.jpg/1280px-Klauss_LASK_2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Klauss_LASK_2020.jpg",
+    "author": "Werner100359",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of João Klauss",
+    "caption": "João Klauss",
+    "licenseChecked": "2026-11-05"
+  }
+}

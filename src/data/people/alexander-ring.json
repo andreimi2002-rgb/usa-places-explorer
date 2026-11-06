@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Finland",
+      "source": "https://www.wikidata.org/wiki/Q547529",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 9, 1991, Helsinki",
+      "source": "https://www.wikidata.org/wiki/Q547529",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Alexander Ring",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Alexander_Ring",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Alexander Ring (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Ring",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Alexander Ring (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q547529",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "austin-fc",
+      "role": "player",
+      "from": 2021,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/Alexander_Ring",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Finnish midfielder and Austin’s first captain.",
+  "image": {
+    "file": "File:Alexander-ring.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Alexander-ring.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alexander-ring.jpg",
+    "author": "Thomas Hilmes / http://www.der-betze-brennt.de",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Alexander Ring",
+    "caption": "Alexander Ring",
+    "licenseChecked": "2026-11-05"
+  }
+}

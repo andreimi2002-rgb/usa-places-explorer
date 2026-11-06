@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Israel",
+      "source": "https://www.wikidata.org/wiki/Q106096041",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 3, 2001, Petah Tikva",
+      "source": "https://www.wikidata.org/wiki/Q106096041",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Liel Abada",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Liel_Abada",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Liel Abada (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Liel_Abada",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Liel Abada (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q106096041",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-fc",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Liel_Abada",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Israel international winger and Designated Player since 2024.",
+  "image": {
+    "file": "File:NCFC vs Charlotte (2025 US Open Cup) 009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NCFC_vs_Charlotte_%282025_US_Open_Cup%29_009.jpg/1280px-NCFC_vs_Charlotte_%282025_US_Open_Cup%29_009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:NCFC_vs_Charlotte_(2025_US_Open_Cup)_009.jpg",
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Liel Abada",
+    "caption": "Liel Abada",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "New Zealand",
+      "source": "https://www.wikidata.org/wiki/Q524730",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 18, 1988, Auckland",
+      "source": "https://www.wikidata.org/wiki/Q524730",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Michael Boxall",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Michael_Boxall",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Michael Boxall (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Michael_Boxall",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Michael Boxall (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q524730",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-united-fc",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Michael_Boxall",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "New Zealand international defender, a Loon since the first MLS season and the captain.",
+  "image": {
+    "file": "File:Michael Boxall - MNUFC - MLS - new zealand - (52125271279).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg/1280px-Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_(52125271279).jpg",
+    "author": "Andy Witchger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Michael Boxall",
+    "caption": "Michael Boxall",
+    "licenseChecked": "2026-11-05"
+  }
+}

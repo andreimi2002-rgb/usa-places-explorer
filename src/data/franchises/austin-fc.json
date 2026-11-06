@@ -1,0 +1,158 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Austin FC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2018,
+    "source": "https://en.wikipedia.org/wiki/Austin_FC",
+    "verified": "2026-11-06",
+    "note": "Founded October 12, 2018."
+  },
+  "firstSeason": {
+    "value": "2021",
+    "source": "https://en.wikipedia.org/wiki/Austin_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Two Oak Ventures (Anthony Precourt)",
+    "source": "https://en.wikipedia.org/wiki/Austin_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Davy Arnaud (interim)",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "q2-stadium",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Austin_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "sebastian-driussi",
+    "alexander-ring"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/austin-fc/",
+    "players": [
+      {
+        "person": "ilie-sanchez",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "myrto-uzuni",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "brandon-vazquez",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "facundo-torres",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2021-04-17",
+      "label": "First MLS match, a 2–0 loss to LAFC",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Austin_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021-06-19",
+      "label": "First match at Q2 Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Austin_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Reach the Western Conference final",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Austin_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Reach the U.S. Open Cup final, lost 2–1 to Nashville",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/Austin_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Texas’s capital city club since 2021, with a sold-out stadium and a 2022 conference final.",
+  "sources": [
+    {
+      "title": "Austin FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Austin_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/ATX.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/austin-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ATX.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Verde",
+        "hex": "#00B140"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ATX.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Q2 Stadium Austin Texas 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Q2_Stadium_Austin_Texas_2021.jpg/1280px-Q2_Stadium_Austin_Texas_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Q2_Stadium_Austin_Texas_2021.jpg",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Q2 Stadium",
+    "caption": "Q2 Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

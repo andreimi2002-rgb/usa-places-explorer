@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Allianz Field",
+  "city": "saint-paul",
+  "opened": {
+    "value": "2019",
+    "source": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 19400,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Minnesota United FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Minnesota United’s stadium in Saint Paul, opened in 2019.",
+  "image": {
+    "file": "File:Allianz Field Aug 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Allianz_Field_Aug_2022.jpg/1280px-Allianz_Field_Aug_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Allianz_Field_Aug_2022.jpg",
+    "author": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of Allianz Field",
+    "caption": "Allianz Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Denmark",
+      "source": "https://www.wikidata.org/wiki/Q29430146",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 2, 1998, Bramming",
+      "source": "https://www.wikidata.org/wiki/Q29430146",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Anders Dreyer",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Anders_Dreyer",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Anders Dreyer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Anders_Dreyer",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Anders Dreyer (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q29430146",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-diego-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Anders_Dreyer",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Danish winger who scored twice in the club’s first match and was 2025 Newcomer of the Year.",
+  "image": {
+    "file": "File:Anders Dreyer Red Bulls v San Diego 10 October 2026-061.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Anders_Dreyer_Red_Bulls_v_San_Diego_10_October_2026-061.jpg/1280px-Anders_Dreyer_Red_Bulls_v_San_Diego_10_October_2026-061.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anders_Dreyer_Red_Bulls_v_San_Diego_10_October_2026-061.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Anders Dreyer",
+    "caption": "Anders Dreyer",
+    "licenseChecked": "2026-11-05"
+  }
+}

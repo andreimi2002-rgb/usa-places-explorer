@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q30122953",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 14, 1997, Arlington",
+      "source": "https://www.wikidata.org/wiki/Q30122953",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Miles Robinson",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Miles Robinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Miles Robinson (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q30122953",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-cincinnati",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international centre-back, captain and Designated Player.",
+  "image": {
+    "file": "File:Miles Robinson Australia v USA 19 June 2026-72 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Miles_Robinson_Australia_v_USA_19_June_2026-72_%28cropped%29.jpg/1280px-Miles_Robinson_Australia_v_USA_19_June_2026-72_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Miles_Robinson_Australia_v_USA_19_June_2026-72_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Miles Robinson",
+    "caption": "Miles Robinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

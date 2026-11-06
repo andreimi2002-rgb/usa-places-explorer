@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q11640549",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 9, 1996, Buenos Aires",
+      "source": "https://www.wikidata.org/wiki/Q11640549",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sebastián Driussi",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Driussi",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sebastián Driussi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Driussi",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sebastián Driussi (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q11640549",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "austin-fc",
+      "role": "player",
+      "from": 2021,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Driussi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine forward signed from Zenit in 2021, the club’s first All-Star.",
+  "image": {
+    "file": "File:Driussi 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Driussi_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Driussi_2017.jpg",
+    "author": "Вячеслав Евдокимов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Sebastián Driussi",
+    "caption": "Sebastián Driussi",
+    "licenseChecked": "2026-11-05"
+  }
+}

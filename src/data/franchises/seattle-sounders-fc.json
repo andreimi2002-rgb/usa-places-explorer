@@ -133,6 +133,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/SEA.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -145,5 +150,25 @@
     "alt": "View of Lumen Field",
     "caption": "Lumen Field",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/seattle-sounders-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SEA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Sounder Blue",
+        "hex": "#0033A1"
+      },
+      {
+        "name": "Rave Green",
+        "hex": "#4FB84F"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SEA.svg",
+    "verified": "2026-11-06"
   }
 }

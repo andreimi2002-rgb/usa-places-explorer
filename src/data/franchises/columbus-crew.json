@@ -164,6 +164,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/CLB.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -176,5 +181,25 @@
     "alt": "View of ScottsMiracle-Gro Field",
     "caption": "ScottsMiracle-Gro Field",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/columbus-crew.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CLB.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FEDD00"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CLB.svg",
+    "verified": "2026-11-06"
   }
 }

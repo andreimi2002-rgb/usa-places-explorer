@@ -152,6 +152,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -164,5 +169,29 @@
     "alt": "View of Dignity Health Sports Park",
     "caption": "Dignity Health Sports Park",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/la-galaxy.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#15284B"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFCE00"
+      },
+      {
+        "name": "Silver",
+        "hex": "#DADBE1"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+    "verified": "2026-11-06"
   }
 }

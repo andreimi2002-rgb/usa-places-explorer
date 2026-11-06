@@ -331,5 +331,5 @@ only, short club texts, one photo pass.
 5. **Calendar seasons**: the schema now accepts "2026" as well as "2026-27"; title counting on city pages uses the
    end year.
 6. **Interim coaches** at Orlando City, LAFC and Columbus are shown with "(interim)".
-7. **No official MLS logos** yet; teams show initials.
+7. **Official MLS logos** from images.mlssoccer.com (29 of 30 downloaded; New York City FC still missing). Club colours are taken from the logo files; the colour names are ours.
 8. **Photos**: Chiellini's only photo has an unclear "Attribution" license and was not used.

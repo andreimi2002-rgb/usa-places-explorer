@@ -141,6 +141,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/MIA.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -153,5 +158,25 @@
     "alt": "View of Nu Stadium",
     "caption": "Nu Stadium",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/inter-miami-cf.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/MIA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Pink",
+        "hex": "#F7B5CD"
+      },
+      {
+        "name": "Black",
+        "hex": "#231F20"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/MIA.svg",
+    "verified": "2026-11-06"
   }
 }

@@ -127,6 +127,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -139,5 +144,25 @@
     "alt": "View of Inter&Co Stadium",
     "caption": "Inter&Co Stadium",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/orlando-city-sc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Pride Purple",
+        "hex": "#60269E"
+      },
+      {
+        "name": "Championship Gold",
+        "hex": "#F0D283"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+    "verified": "2026-11-06"
   }
 }

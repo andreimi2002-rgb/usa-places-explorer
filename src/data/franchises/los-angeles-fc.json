@@ -127,6 +127,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/LAFC.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -139,5 +144,25 @@
     "alt": "View of BMO Stadium",
     "caption": "BMO Stadium",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/los-angeles-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LAFC.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#010101"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C39F6C"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LAFC.svg",
+    "verified": "2026-11-06"
   }
 }

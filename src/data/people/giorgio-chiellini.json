@@ -55,5 +55,16 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Italy’s Euro 2020-winning captain, who finished his career at LAFC."
+  "summary": "Italy’s Euro 2020-winning captain, who finished his career at LAFC.",
+  "image": {
+    "file": "File:Giorgio Chiellini (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Giorgio_Chiellini_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Giorgio_Chiellini_(cropped).jpg",
+    "author": "PUMA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Giorgio Chiellini",
+    "caption": "Giorgio Chiellini",
+    "licenseChecked": "2026-11-05"
+  }
 }

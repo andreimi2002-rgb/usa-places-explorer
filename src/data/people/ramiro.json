@@ -33,5 +33,16 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Brazilian midfielder and FC Dallas captain."
+  "summary": "Brazilian midfielder and FC Dallas captain.",
+  "image": {
+    "file": "File:Ramiro Benetti.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ramiro_Benetti.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ramiro_Benetti.jpg",
+    "author": "Agencia de Noticias ANDES",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ramiro",
+    "caption": "Ramiro",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -22,5 +22,16 @@
     "verified": "2026-11-06"
   },
   "facts": [],
-  "summary": "A suburb south of Salt Lake City, under the Wasatch Mountains, home of Real Salt Lake’s stadium."
+  "summary": "A suburb south of Salt Lake City, under the Wasatch Mountains, home of Real Salt Lake’s stadium.",
+  "image": {
+    "file": "File:Rio Tinto Stadium panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rio_Tinto_Stadium_panorama.jpg/1280px-Rio_Tinto_Stadium_panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Tinto_Stadium_panorama.jpg",
+    "author": "Scott Catron",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of America First Field, Sandy",
+    "caption": "America First Field, Sandy",
+    "licenseChecked": "2026-11-05"
+  }
 }

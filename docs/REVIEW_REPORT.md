@@ -405,3 +405,21 @@ Requested by the user on 2026-11-07:
 2. **City photos**: add a hand-picked photo (no collages) to every city that has none: Chicago first, then Frisco, Sandy, Harrison, Commerce City, Foxborough, East Rutherford, Inglewood, Kansas City (Kansas) and the rest shown with initials on the Cities page. Replace the weak Chester photo (taken from a plane).
 3. **New York City FC logo**: find the official file on MLSsoccer.com.
 4. **LA Galaxy**: consider Chucky Lozano (on loan from San Diego in 2026) as a core player.
+
+## MLS final check: results (2026-11-07)
+
+All four to-do items are done:
+
+1. **Robert Lewandowski** added to Chicago Fire as a core player (signed June 29, 2026, Designated Player through
+   2027-28; sources: Chicago Fire FC, ESPN), and to the club's summary, history and Europe box.
+2. **City photos**: every one of the 59 cities now has a photo. Chicago, Washington, Kansas City (Kansas), Uniondale,
+   Chester (replaced) and East Rutherford (MetLife Stadium) got city photos; the stadium towns Commerce City, Foxborough,
+   Frisco, Harrison, Sandy and Inglewood use their stadium's photo, the most recognisable view of each.
+3. **NYCFC logo** found in a different folder on MLSsoccer.com; colours taken from it.
+4. **Chucky Lozano** added to the LA Galaxy core players (on loan from San Diego in 2026).
+
+General check: build passes (771 pages), 0 broken links, 0 orphan pages; graph 930 nodes and 1,195 edges with none
+dangling or isolated; 39 MLS and city pages checked at 375 px with no overflow or errors; 13 search tests return the
+right page first; every MLS club has a logo, colours, stadium photo, coach, owner and texts; all photos under free
+licenses. Five more player photos were found (Ben Olsen, Ramiro, Chiellini, Castellanos, Choupo-Moting). Nine players
+still have no free photo (Armas, Blanco, Abou Ali, Artur, Guilherme, Iván Jaime, Ronaldo Vieira, Berg Johnsen, Gauld).

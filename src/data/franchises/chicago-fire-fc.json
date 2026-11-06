@@ -47,6 +47,11 @@
     "rosterUrl": "https://www.mlssoccer.com/clubs/chicago-fire-fc/",
     "players": [
       {
+        "person": "robert-lewandowski",
+        "source": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
+        "verified": "2026-11-06"
+      },
+      {
         "person": "jack-elliott",
         "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
         "verified": "2026-11-06"
@@ -100,9 +105,16 @@
       "kind": "venue",
       "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
       "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Sign Robert Lewandowski",
+      "kind": "trade",
+      "source": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
+      "verified": "2026-11-06"
     }
   ],
-  "summary": "Champions in their very first season, 1998, when they won the MLS Cup and U.S. Open Cup double.",
+  "summary": "Champions in their very first season, 1998, and since June 2026 the club of Robert Lewandowski.",
   "sources": [
     {
       "title": "Chicago Fire FC (Wikipedia)",
@@ -127,6 +139,11 @@
     {
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/CHI.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Chicago Fire FC acquires Robert Lewandowski (Chicago Fire FC)",
+      "url": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
       "accessed": "2026-11-06"
     }
   ],

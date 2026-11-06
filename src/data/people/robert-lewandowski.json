@@ -1,0 +1,75 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Poland",
+      "source": "https://www.wikidata.org/wiki/Q151269",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 21, 1988, Warsaw",
+      "source": "https://www.wikidata.org/wiki/Q151269",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Signed",
+      "value": "June 29, 2026, as a Designated Player, through 2027-28",
+      "source": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Robert Lewandowski",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Robert Lewandowski (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Robert Lewandowski (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q151269",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Chicago Fire FC acquires Robert Lewandowski (Chicago Fire FC)",
+      "url": "https://matchcenter.chicagofirefc.com/news/a-defining-moment-in-chicago-sports-chicago-fire-fc-acquires-global-football-icon-robert-lewandowski",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Chicago Fire complete signing of Robert Lewandowski (ESPN)",
+      "url": "https://www.espn.com/soccer/story/_/id/49218680",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Poland’s record scorer, the Bayern Munich and Barcelona striker who joined the Fire in June 2026.",
+  "image": {
+    "file": "File:Robert Lewandowski 2018, JAP-POL (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Robert_Lewandowski_2018%2C_JAP-POL_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg",
+    "author": "Светлана Бекетова",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Robert Lewandowski",
+    "caption": "Robert Lewandowski",
+    "licenseChecked": "2026-11-05"
+  }
+}

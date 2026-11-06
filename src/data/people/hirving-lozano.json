@@ -1,0 +1,72 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Mexico",
+      "source": "https://www.wikidata.org/wiki/Q17633812",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 30, 1995, Mexico City",
+      "source": "https://www.wikidata.org/wiki/Q17633812",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Hirving Lozano",
+  "position": {
+    "value": "Left winger",
+    "source": "https://en.wikipedia.org/wiki/Hirving_Lozano",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Hirving Lozano (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hirving_Lozano",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Hirving Lozano (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q17633812",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "San Diego FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-diego-fc",
+      "role": "player",
+      "from": 2025,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Hirving_Lozano",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Mexico international winger, San Diego FC’s first Designated Player, on loan at the Galaxy in 2026.",
+  "image": {
+    "file": "File:Spartak - Napoli (16).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Spartak_-_Napoli_%2816%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spartak_-_Napoli_(16).jpg",
+    "author": "Антон Зайцев",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Hirving Lozano",
+    "caption": "Hirving Lozano",
+    "licenseChecked": "2026-11-05"
+  }
+}

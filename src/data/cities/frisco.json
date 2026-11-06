@@ -22,5 +22,16 @@
     "verified": "2026-11-06"
   },
   "facts": [],
-  "summary": "A fast-growing suburb north of Dallas, home of FC Dallas’s stadium since 2005."
+  "summary": "A fast-growing suburb north of Dallas, home of FC Dallas’s stadium since 2005.",
+  "image": {
+    "file": "File:Pizza Hut Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/1280px-Pizza_Hut_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_Park.jpg",
+    "author": "Jason Gulledge from Dallas, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Stadium, Frisco",
+    "caption": "Toyota Stadium, Frisco",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -22,5 +22,16 @@
     "verified": "2026-11-06"
   },
   "facts": [],
-  "summary": "A town between Boston and Providence, home of Gillette Stadium, the Patriots and the Revolution."
+  "summary": "A town between Boston and Providence, home of Gillette Stadium, the Patriots and the Revolution.",
+  "image": {
+    "file": "File:Gillette Stadium Foxborough.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gillette_Stadium_Foxborough.jpg/1280px-Gillette_Stadium_Foxborough.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxborough.jpg",
+    "author": "Max P",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Gillette Stadium, Foxborough",
+    "caption": "Gillette Stadium, Foxborough",
+    "licenseChecked": "2026-11-05"
+  }
 }

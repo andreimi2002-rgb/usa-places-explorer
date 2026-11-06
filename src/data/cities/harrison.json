@@ -22,5 +22,16 @@
     "verified": "2026-11-06"
   },
   "facts": [],
-  "summary": "A small New Jersey town across the river from Newark, home of the New York Red Bulls’ stadium since 2010."
+  "summary": "A small New Jersey town across the river from Newark, home of the New York Red Bulls’ stadium since 2010.",
+  "image": {
+    "file": "File:Red Bull Arena exterior 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Red_Bull_Arena_exterior_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Bull_Arena_exterior_2.jpg",
+    "author": "Claude Betancourt",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of The stadium in Harrison (then Red Bull Arena)",
+    "caption": "The stadium in Harrison (then Red Bull Arena)",
+    "licenseChecked": "2026-11-05"
+  }
 }

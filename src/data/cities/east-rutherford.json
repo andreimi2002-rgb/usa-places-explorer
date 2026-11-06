@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=East%20Rutherford&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5097459: East Rutherford, New Jersey"
+  },
+  "image": {
+    "file": "File:MetLife Stadium Exterior.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/MetLife_Stadium_Exterior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MetLife_Stadium_Exterior.jpg",
+    "author": "gargudojr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of MetLife Stadium, East Rutherford",
+    "caption": "MetLife Stadium, East Rutherford",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -116,6 +116,11 @@
       "title": "MLS Cup winners (MLSsoccer.com)",
       "url": "https://www.mlssoccer.com/news/mls-cup-winners",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/v1790743828/assets/logos/mls-svg-logos/NYC_rzhkyi.svg",
+      "accessed": "2026-11-06"
     }
   ],
   "image": {
@@ -128,5 +133,29 @@
     "alt": "View of Yankee Stadium",
     "caption": "Yankee Stadium",
     "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/new-york-city-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/v1790743828/assets/logos/mls-svg-logos/NYC_rzhkyi.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#000229"
+      },
+      {
+        "name": "Sky blue",
+        "hex": "#9FD2FF"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF5E36"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/v1790743828/assets/logos/mls-svg-logos/NYC_rzhkyi.svg",
+    "verified": "2026-11-06"
   }
 }

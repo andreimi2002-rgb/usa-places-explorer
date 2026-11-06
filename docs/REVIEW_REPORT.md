@@ -402,6 +402,6 @@ Requested by the user on 2026-11-07:
 
 1. **Chicago Fire: Robert Lewandowski** is missing and is by far the club's biggest name. Confirm his signing and
    years, then add him as a core player (and to the history and Europe box).
-2. **City photos**: add a hand-picked photo (no collages) to every city that has none, e.g. Frisco, Sandy, Harrison.
+2. **City photos**: add a hand-picked photo (no collages) to every city that has none: Chicago first, then Frisco, Sandy, Harrison, Commerce City, Foxborough, East Rutherford, Inglewood, Kansas City (Kansas) and the rest shown with initials on the Cities page. Replace the weak Chester photo (taken from a plane).
 3. **New York City FC logo**: find the official file on MLSsoccer.com.
 4. **LA Galaxy**: consider Chucky Lozano (on loan from San Diego in 2026) as a core player.

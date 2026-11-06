@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 8, 1959, Albuquerque, New Mexico, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XVI (1981 season), XIX (1984 season), XXIII (1988 season), XXIV (1989 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (XVI, XIX, XXIII, XXIV)",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (1981, 1983, 1986–1991)",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (1981–1984, 1986–1991)",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL interceptions leader (1986, 1991)",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL combined tackles leader (1982)",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ronnie Lott",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ronnie Lott (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 1981,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 1995,
+      "to": 1995,
+      "source": "https://en.wikipedia.org/wiki/Ronnie_Lott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive back of four Super Bowl wins.",
+  "image": {
+    "file": "File:Ronnie Lott and Jim Plunkett (CrashCouse Launch PSA) (cropped)Lott.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ronnie_Lott_and_Jim_Plunkett_%28CrashCouse_Launch_PSA%29_%28cropped%29Lott.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Ronnie_Lott_and_Jim_Plunkett_(CrashCouse_Launch_PSA)_(cropped)Lott.png",
+    "author": "TeachAids",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ronnie Lott",
+    "caption": "Ronnie Lott",
+    "licenseChecked": "2026-11-05"
+  }
+}

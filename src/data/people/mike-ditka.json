@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 18, 1939, Carnegie, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (VI)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL champion (1963)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1961)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1963, 1964)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1962, 1965, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1961–1965)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Mike Ditka",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mike Ditka (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 1961,
+      "to": 1966,
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "head-coach",
+      "from": 1982,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Mike_Ditka",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end of the 1963 champions and coach of Super Bowl XX.",
+  "image": {
+    "file": "File:Mike ditka topps card cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mike_ditka_topps_card_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_ditka_topps_card_cropped.jpg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Mike Ditka",
+    "caption": "Mike Ditka",
+    "licenseChecked": "2026-11-05"
+  }
+}

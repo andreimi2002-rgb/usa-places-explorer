@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "2005",
+  "level": "league",
+  "title": "Super Bowl XL",
+  "winner": "pittsburgh-steelers",
+  "runnerUp": "seattle-seahawks",
+  "winnerName": "Pittsburgh Steelers",
+  "runnerUpName": "Seattle Seahawks",
+  "result": "21–10",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

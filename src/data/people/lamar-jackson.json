@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 7, 1997, Pompano Beach, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL Most Valuable Player (2019, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2019, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2019, 2021, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (2019)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2016)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2016)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Athlete of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Lamar Jackson",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lamar Jackson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and two-time MVP, in 2019 and 2023.",
+  "image": {
+    "file": "File:149th Preakness (53731145142) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/149th_Preakness_%2853731145142%29_%28cropped%29.jpg/1280px-149th_Preakness_%2853731145142%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:149th_Preakness_(53731145142)_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Lamar Jackson",
+    "caption": "Lamar Jackson",
+    "licenseChecked": "2026-11-05"
+  }
+}

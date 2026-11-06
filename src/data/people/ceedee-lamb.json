@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 8, 1999, Opelousas, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2023)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2021–2025)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big 12 (2019)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Big 12 (2018)",
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "CeeDee Lamb",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "CeeDee Lamb (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and five-time Pro Bowl pick.",
+  "image": {
+    "file": "File:CeeDee Lamb by Gage Skidmore (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CeeDee_Lamb_by_Gage_Skidmore_%28cropped%29.jpg/1280px-CeeDee_Lamb_by_Gage_Skidmore_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CeeDee_Lamb_by_Gage_Skidmore_(cropped).jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of CeeDee Lamb",
+    "caption": "CeeDee Lamb",
+    "licenseChecked": "2026-11-05"
+  }
+}

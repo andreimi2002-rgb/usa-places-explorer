@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 10, 1969, Gulfport, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXI (1996 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXI)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Most Valuable Player (1995–1997)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1995)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1995–1997)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2001, 2002, 2007)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (1992, 1993, 1995–1997, 2001–2003, 2007–2009)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL passing touchdowns leader (1995–1997, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing yards leader (1995, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brett Favre",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brett Favre (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 1992,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Brett_Favre",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback for 16 seasons and three-time MVP.",
+  "image": {
+    "file": "File:Brett Favre Super Bowl 50.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Brett_Favre_Super_Bowl_50.jpg/1280px-Brett_Favre_Super_Bowl_50.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brett_Favre_Super_Bowl_50.jpg",
+    "author": "Arnie Papp",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Brett Favre",
+    "caption": "Brett Favre",
+    "licenseChecked": "2026-11-05"
+  }
+}

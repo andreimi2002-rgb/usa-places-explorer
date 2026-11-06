@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 25, 1946, Stow, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "VII (1972 season), VIII (1973 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (VII, VIII)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (VIII)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1979)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1971, 1973)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1972)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1970–1974)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Miami Dolphins Honor Roll",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Miami Dolphins No. 39 retired",
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Larry Csonka",
+  "position": {
+    "value": "Fullback",
+    "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Larry Csonka (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1968,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1979,
+      "to": 1979,
+      "source": "https://en.wikipedia.org/wiki/Larry_Csonka",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Fullback and MVP of Super Bowl VIII.",
+  "image": {
+    "file": "File:Larry Csonka 1972.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Larry_Csonka_1972.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Larry_Csonka_1972.jpg",
+    "author": "Roy Erickson",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Larry Csonka",
+    "caption": "Larry Csonka",
+    "licenseChecked": "2026-11-05"
+  }
+}

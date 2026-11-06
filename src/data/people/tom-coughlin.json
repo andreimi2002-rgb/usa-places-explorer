@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 31, 1946, Waterloo, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion:",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "* XXV (as assistant coach)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "* XLII, XLVI (as head coach)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Coach of the Year (1996)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Jaguars",
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tom Coughlin",
+  "sources": [
+    {
+      "title": "Tom Coughlin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "head-coach",
+      "from": 1995,
+      "to": 2002,
+      "source": "https://en.wikipedia.org/wiki/Tom_Coughlin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The club’s first coach, from 1995 to 2002.",
+  "image": {
+    "file": "File:Tom Coughlin crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Tom_Coughlin_crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Coughlin_crop.jpg",
+    "author": "Thatdee69",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Tom Coughlin",
+    "caption": "Tom Coughlin",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 11, 1994, Pewaukee, Wisconsin, U.S.",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2019–2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2019, 2024)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2018–2025)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Deacon Jones Award (2020, 2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL forced fumbles leader (2019, 2024)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Butkus Award (pro) (2020)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2017)",
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "T. J. Watt",
+  "position": {
+    "value": "Outside linebacker",
+    "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "T. J. Watt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/T._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 2021 Defensive Player of the Year.",
+  "image": {
+    "file": "File:T.J. Watt (51653079007) Cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T.J._Watt_%2851653079007%29_Cropped.jpg/1280px-T.J._Watt_%2851653079007%29_Cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:T.J._Watt_(51653079007)_Cropped.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of T. J. Watt",
+    "caption": "T. J. Watt",
+    "licenseChecked": "2026-11-05"
+  }
+}

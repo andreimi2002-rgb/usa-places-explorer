@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1973",
+  "level": "league",
+  "title": "Super Bowl VIII",
+  "winner": "miami-dolphins",
+  "winnerName": "Miami Dolphins",
+  "runnerUpName": "Minnesota Vikings",
+  "result": "24–7",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 27, 1976, Pahokee, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2007)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2007)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1998)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Jaguars",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bowl Alliance national champion (1996)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (1997)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-SEC (1997)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Florida–Georgia Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Fred Taylor",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Fred Taylor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 1998,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Fred_Taylor_(running_back)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back from 1998 to 2008.",
+  "image": {
+    "file": "File:Fred Taylor Jacksonville Jaguar Headshot.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Taylor_Jacksonville_Jaguar_Headshot.JPG/1280px-Fred_Taylor_Jacksonville_Jaguar_Headshot.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Fred_Taylor_Jacksonville_Jaguar_Headshot.JPG",
+    "author": "JollyOldStNick08",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Fred Taylor",
+    "caption": "Fred Taylor",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 4, 1984, Brookfield, Wisconsin, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× First-team All-Pro (2009–2011, 2013–2015)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2008, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (2007–2016)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2007)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cleveland Browns Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cleveland Browns Legends",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Outland Trophy (2006)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Thomas",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Thomas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 2007,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Joe_Thomas_(offensive_tackle)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Left tackle for eleven seasons.",
+  "image": {
+    "file": "File:Joe Thomas Cleveland Browns New Uniform Unveiling (16968332879).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Joe_Thomas_Cleveland_Browns_New_Uniform_Unveiling_%2816968332879%29.jpg/1280px-Joe_Thomas_Cleveland_Browns_New_Uniform_Unveiling_%2816968332879%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Thomas_Cleveland_Browns_New_Uniform_Unveiling_(16968332879).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Joe Thomas",
+    "caption": "Joe Thomas",
+    "licenseChecked": "2026-11-05"
+  }
+}

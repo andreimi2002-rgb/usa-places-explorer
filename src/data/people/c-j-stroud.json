@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 3, 2001, Rancho Cucamonga, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2023)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2023)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA passer rating leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Big Ten Offensive Player of the Year (2021, 2022)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Freshman of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "C. J. Stroud",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "C. J. Stroud (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 2023 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:CJ Stroud NFL Combine (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/CJ_Stroud_NFL_Combine_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:CJ_Stroud_NFL_Combine_(cropped).png",
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of C. J. Stroud",
+    "caption": "C. J. Stroud",
+    "licenseChecked": "2026-11-05"
+  }
+}

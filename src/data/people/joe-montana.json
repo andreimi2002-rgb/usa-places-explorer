@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 11, 1956, New Eagle, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XVI (1981 season), XIX (1984 season), XXIII (1988 season), XXIV (1989 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (XVI, XIX, XXIII, XXIV)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Super Bowl MVP (XVI, XIX, XXIV)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Most Valuable Player (1989, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1989)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Co-Comeback Player of the Year (1986)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1987, 1989, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1981, 1984)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1981, 1983–1985, 1987, 1989, 1990, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Montana",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Montana (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 1979,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Joe_Montana",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of four Super Bowl wins and three times their MVP.",
+  "image": {
+    "file": "File:Joe Montana ESPN cropped2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Joe_Montana_ESPN_cropped2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Montana_ESPN_cropped2.jpg",
+    "author": "photo taken by flcikr user Phil Hull",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Joe Montana",
+    "caption": "Joe Montana",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "pittsburgh-steelers",
+  "name": "Pittsburgh Pirates (NFL)",
+  "city": "pittsburgh",
+  "from": {
+    "value": 1933,
+    "source": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+    "verified": "2026-11-06"
+  },
+  "to": 1939,
+  "current": false
+}

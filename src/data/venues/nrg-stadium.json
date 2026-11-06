@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "NRG Stadium",
+  "city": "houston",
+  "opened": {
+    "value": "2002",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 72220,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "retractable",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Texans’ stadium in Houston since 2002, with a retractable roof.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Reliantstadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Reliantstadium.jpg/1280px-Reliantstadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Reliantstadium.jpg",
+    "author": "User eschipul on Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Inside NRG Stadium",
+    "caption": "Inside NRG Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

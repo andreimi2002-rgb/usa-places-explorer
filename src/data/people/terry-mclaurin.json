@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 15, 1995, Indianapolis, Indiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2024)",
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2015)",
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Terry McLaurin",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Terry McLaurin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Terry_McLaurin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and two-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Commanders vs. Giants 2025 Terry McLaurin.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Commanders_vs._Giants_2025_Terry_McLaurin.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Commanders_vs._Giants_2025_Terry_McLaurin.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Terry McLaurin",
+    "caption": "Terry McLaurin",
+    "licenseChecked": "2026-11-05"
+  }
+}

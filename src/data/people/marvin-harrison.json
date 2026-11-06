@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 25, 1972, Philadelphia, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLI (2006 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLI)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1999, 2002, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (2000, 2001, 2003–2005)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1999–2006)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving yards leader (1999, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receptions leader (2000, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving touchdowns co-leader (2005)",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Marvin Harrison",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marvin Harrison (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1996,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Marvin_Harrison",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and Manning’s top target.",
+  "image": {
+    "file": "File:Marvin Harrison 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Marvin_Harrison_2022.jpg/1280px-Marvin_Harrison_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marvin_Harrison_2022.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Marvin Harrison",
+    "caption": "Marvin Harrison",
+    "licenseChecked": "2026-11-05"
+  }
+}

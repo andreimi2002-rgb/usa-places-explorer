@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 13, 1997, Cumberland, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Pro Bowl (2019, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Chuck Bednarik Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lott Trophy (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bronko Nagurski Trophy (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jack Lambert Trophy (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Defensive Player of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2018)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Josh Hines-Allen",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Josh Hines-Allen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Josh_Hines-Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and two-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Josh Allen OLB 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Josh_Allen_OLB_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Josh_Allen_OLB_2022.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Josh Hines-Allen",
+    "caption": "Josh Hines-Allen",
+    "licenseChecked": "2026-11-05"
+  }
+}

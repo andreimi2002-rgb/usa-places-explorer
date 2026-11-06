@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 15, 1940, Logan, Utah, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× First-team All-Pro (1966–1970)",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1963–1965)",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "14× Pro Bowl (1962–1975)",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (1974)",
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Merlin Olsen",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Merlin Olsen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 1962,
+      "to": 1976,
+      "source": "https://en.wikipedia.org/wiki/Merlin_Olsen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle of the “Fearsome Foursome” and 14-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Merlin Olsen Jonathan Garvey Little House on the Prairie 1977.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Merlin_Olsen_Jonathan_Garvey_Little_House_on_the_Prairie_1977.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Merlin_Olsen_Jonathan_Garvey_Little_House_on_the_Prairie_1977.JPG",
+    "author": "NBC Television. While the logo portion of the press release is missing, the paper ran the photo and credited NBC as can be seen from the clipping on back.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Merlin Olsen",
+    "caption": "Merlin Olsen",
+    "licenseChecked": "2026-11-05"
+  }
+}

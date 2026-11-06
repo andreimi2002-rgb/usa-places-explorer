@@ -1,0 +1,160 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Arizona Cardinals",
+  "division": "nfl-nfc-west",
+  "founded": {
+    "value": 1898,
+    "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+    "verified": "2026-11-06",
+    "note": "Founded in 1898 in Chicago as the Morgan Athletic Club; a charter member of the NFL in 1920."
+  },
+  "firstSeason": {
+    "value": "1920",
+    "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Michael Bidwill (Bidwill family, since 1932)",
+    "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Mike LaFleur",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "state-farm-stadium",
+      "from": 2006,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "charley-trippi",
+    "larry-wilson",
+    "aeneas-williams",
+    "kurt-warner",
+    "larry-fitzgerald",
+    "pat-tillman"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/arizona-cardinals/roster",
+    "players": [
+      {
+        "person": "trey-mcbride",
+        "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "budda-baker",
+        "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1898",
+      "label": "Founded in Chicago",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1920",
+      "label": "A charter member of the NFL",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1947",
+      "label": "Win the NFL championship (also 1925)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1960",
+      "label": "Move to St. Louis",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1988",
+      "label": "Move to the Phoenix area",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "Open today’s stadium in Glendale",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Hire Mike LaFleur",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The oldest club in American professional football, from Chicago in 1898 to Arizona: one Super Bowl final, in the 2008 season.",
+  "sources": [
+    {
+      "title": "Arizona Cardinals (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/ARI.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/arizona-cardinals.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/ARI.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Cardinal red",
+        "hex": "#97233F"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+    "verified": "2026-11-06"
+  }
+}

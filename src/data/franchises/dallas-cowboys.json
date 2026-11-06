@@ -1,0 +1,184 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Dallas Cowboys",
+  "division": "nfl-nfc-east",
+  "founded": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+    "verified": "2026-11-06",
+    "note": "Founded January 28, 1960, as an expansion team."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Jerry Jones (since 1989)",
+    "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Brian Schottenheimer",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "att-stadium",
+      "from": 2009,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "roger-staubach",
+    "troy-aikman",
+    "emmitt-smith",
+    "michael-irvin",
+    "tom-landry"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/dallas-cowboys/roster",
+    "players": [
+      {
+        "person": "dak-prescott",
+        "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "ceedee-lamb",
+        "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960-01-28",
+      "label": "Founded as an expansion team, with Tom Landry as coach",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1971",
+      "label": "Move into Texas Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1972",
+      "label": "Win Super Bowl VI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1978",
+      "label": "Win Super Bowl XII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1989",
+      "label": "Jerry Jones buys the club and hires Jimmy Johnson",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1993",
+      "label": "Win Super Bowl XXVII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1994",
+      "label": "Win Super Bowl XXVIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1996",
+      "label": "Win Super Bowl XXX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2009",
+      "label": "Open AT&T Stadium in Arlington",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "“America’s Team”: five Super Bowls and a value Forbes put at about $13 billion in 2025.",
+  "sources": [
+    {
+      "title": "Dallas Cowboys (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/DAL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/dallas-cowboys.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/DAL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#002244"
+      },
+      {
+        "name": "Silver",
+        "hex": "#B0B7BC"
+      },
+      {
+        "name": "Royal blue",
+        "hex": "#00338D"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:AT&T Stadium, Arlington, Texas, United States.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/AT%26T_Stadium%2C_Arlington%2C_Texas%2C_United_States.jpg/1280px-AT%26T_Stadium%2C_Arlington%2C_Texas%2C_United_States.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Stadium,_Arlington,_Texas,_United_States.jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of AT&T Stadium",
+    "caption": "AT&T Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

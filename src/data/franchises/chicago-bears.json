@@ -1,0 +1,163 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Chicago Bears",
+  "division": "nfl-nfc-north",
+  "founded": {
+    "value": 1920,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+    "verified": "2026-11-06",
+    "note": "Founded September 17, 1920, as the Decatur Staleys, a charter member of the league."
+  },
+  "firstSeason": {
+    "value": "1920",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Halas–McCaskey family (chairman George McCaskey)",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Ben Johnson",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "soldier-field",
+      "from": 1971,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "walter-payton",
+    "dick-butkus",
+    "gale-sayers",
+    "mike-ditka",
+    "brian-urlacher",
+    "george-halas"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/chicago-bears/roster",
+    "players": [
+      {
+        "person": "caleb-williams",
+        "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "montez-sweat",
+        "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1920-09-17",
+      "label": "Founded as the Decatur Staleys",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1921",
+      "label": "Move to Chicago",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1922",
+      "label": "Renamed the Bears",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1963",
+      "label": "Win the eighth NFL championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1971",
+      "label": "Move into Soldier Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1986",
+      "label": "Win Super Bowl XX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Draft Caleb Williams first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-01-21",
+      "label": "Hire Ben Johnson",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "George Halas’s club, a founding member of the NFL: nine league titles, including Super Bowl XX.",
+  "sources": [
+    {
+      "title": "Chicago Bears (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/CHI.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/chicago-bears.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/CHI.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0B162A"
+      },
+      {
+        "name": "Orange",
+        "hex": "#C83803"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+    "verified": "2026-11-06"
+  }
+}

@@ -22,7 +22,7 @@ const { image, aspect = '16 / 9', eager = false, class: className } = Astro.prop
     <img src={image.url} alt={image.alt} loading={eager ? 'eager' : 'lazy'} decoding="async" />
   </div>
   <figcaption>
-    {image.caption && <span>{image.caption}. </span>}
+    {image.caption && <span>{image.caption.replace(/\.$/, '')}. </span>}
     <span class="credit"
       >Photo: {image.author} · {
         image.licenseUrl ? (

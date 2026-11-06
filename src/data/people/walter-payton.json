@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 25, 1953, Columbia, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XX (1985 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XX)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1977)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1977)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1977)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1976, 1977, 1980, 1984, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1978, 1979, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1976–1980, 1983–1986)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (1977)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Walter Payton",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Walter Payton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 1975,
+      "to": 1987,
+      "source": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "“Sweetness”, running back of the Super Bowl XX champions.",
+  "image": {
+    "file": "File:1986 Jeno's Pizza - 12 - Walter Payton (Walter Payton crop) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/1986_Jeno%27s_Pizza_-_12_-_Walter_Payton_%28Walter_Payton_crop%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1986_Jeno%27s_Pizza_-_12_-_Walter_Payton_(Walter_Payton_crop)_(cropped).jpg",
+    "author": "Jeno's",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Walter Payton",
+    "caption": "Walter Payton",
+    "licenseChecked": "2026-11-05"
+  }
+}

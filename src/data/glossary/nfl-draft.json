@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "NFL draft (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/NFL_draft",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "NFL draft",
+  "short": "The yearly selection of college players by NFL teams, held each April; the team with the worst record picks first.",
+  "sports": [
+    "american-football"
+  ],
+  "related": [
+    "quarterback"
+  ]
+}

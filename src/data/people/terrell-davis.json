@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 28, 1972, San Diego, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXII (1997 season), XXXIII (1998 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXXII, XXXIII)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXXII)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Offensive Player of the Year (1996, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (1997, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Terrell Davis",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Terrell Davis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 1995,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Terrell_Davis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back, MVP of Super Bowl XXXII and of the 1998 season.",
+  "image": {
+    "file": "File:Terrell Davis 1-31-05 050131-N-8102J-020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Terrell_Davis_1-31-05_050131-N-8102J-020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Terrell_Davis_1-31-05_050131-N-8102J-020.jpg",
+    "author": "Photographer's Mate 1st Class Aviation Warfare Systems Operator Toiete Jackson, USAF",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Terrell Davis",
+    "caption": "Terrell Davis",
+    "licenseChecked": "2026-11-05"
+  }
+}

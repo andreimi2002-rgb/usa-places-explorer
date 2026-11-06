@@ -1,0 +1,90 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 3, 1994, Houston, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LIV (2019 season), LVII (2022 season), LVIII (2023 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (LIV, LVII, LVIII)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2018, 2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2019–2025)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2016)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most consecutive games with a sack: 11",
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Chris Jones",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Chris Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chris_Jones_(defensive_tackle%2C_born_1994)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle at the heart of the Chiefs’ title defences.",
+  "image": {
+    "file": "File:Chris Jones at the White House (964941048258173) 01.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chris_Jones_at_the_White_House_%28964941048258173%29_01.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Jones_at_the_White_House_(964941048258173)_01.png",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Chris Jones",
+    "caption": "Chris Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 4, 1930, Grand River, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (VII, VIII)",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL champion (1968)",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× AP NFL Coach of the Year (1964, 1967, 1968, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sports Illustrated Sportsman of the Year (1993)",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lamar Hunt Award (2013)",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Miami Dolphins Honor Roll",
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Don Shula",
+  "sources": [
+    {
+      "title": "Don Shula (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Don_Shula",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1953,
+      "to": 1956,
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "indianapolis-colts",
+      "role": "head-coach",
+      "from": 1963,
+      "to": 1969,
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "miami-dolphins",
+      "role": "head-coach",
+      "from": 1970,
+      "to": 1995,
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach with the most wins in NFL history, with the Colts and then the Dolphins.",
+  "image": {
+    "file": "File:Don Shula at Giants Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Don_Shula_at_Giants_Stadium.jpg/1280px-Don_Shula_at_Giants_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Don_Shula_at_Giants_Stadium.jpg",
+    "author": "JazzyJoeyD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Don Shula",
+    "caption": "Don Shula",
+    "licenseChecked": "2026-11-05"
+  },
+  "position": {
+    "value": "Defensive back",
+    "source": "https://en.wikipedia.org/wiki/Don_Shula",
+    "verified": "2026-11-06"
+  }
+}

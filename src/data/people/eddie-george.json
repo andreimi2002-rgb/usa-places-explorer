@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 24, 1973, Philadelphia, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (1996)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2000)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1999)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1997–2000)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Titans/Oilers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tennessee Titans No. 27 retired",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (1995)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (1995)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Eddie George",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Eddie_George",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Eddie George (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eddie_George",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 1996,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Eddie_George",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back of the Super Bowl XXXIV team.",
+  "image": {
+    "file": "File:Eddie George Hypes You Up For Divisional Round Game Against the Bengals Hype Videos 0-17 screenshot 2022 (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Eddie_George_Hypes_You_Up_For_Divisional_Round_Game_Against_the_Bengals_Hype_Videos_0-17_screenshot_2022_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Eddie_George_Hypes_You_Up_For_Divisional_Round_Game_Against_the_Bengals_Hype_Videos_0-17_screenshot_2022_(cropped).png",
+    "author": "Tennessee Titans",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Eddie George",
+    "caption": "Eddie George",
+    "licenseChecked": "2026-11-05"
+  }
+}

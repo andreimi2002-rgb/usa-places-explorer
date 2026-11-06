@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 30, 1943, Wichita, Kansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Comeback Player of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1965)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1965–1969)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1965–1967, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing yards leader (1966, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL scoring leader (1965)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (1970)",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Gale Sayers",
+  "position": {
+    "value": "Halfback Return specialist",
+    "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Gale Sayers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 1965,
+      "to": 1971,
+      "source": "https://en.wikipedia.org/wiki/Gale_Sayers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Halfback and Offensive Rookie of the Year in 1965.",
+  "image": {
+    "file": "File:Gale sayers playing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Gale_sayers_playing.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gale_sayers_playing.jpg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Gale Sayers",
+    "caption": "Gale Sayers",
+    "licenseChecked": "2026-11-05"
+  }
+}

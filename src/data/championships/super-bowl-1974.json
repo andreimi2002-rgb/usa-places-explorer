@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1974",
+  "level": "league",
+  "title": "Super Bowl IX",
+  "winner": "pittsburgh-steelers",
+  "winnerName": "Pittsburgh Steelers",
+  "runnerUpName": "Minnesota Vikings",
+  "result": "16–6",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

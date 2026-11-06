@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 16, 1956, Muscle Shoals, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (1979, 1984)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1980–1983, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (1981, 1984, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1978)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cleveland Browns Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (1977)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ozzie Newsome",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ozzie Newsome (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 1978,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "baltimore-ravens",
+      "role": "executive",
+      "from": 1996,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Newsome",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end of the 1980s, later the Ravens’ general manager.",
+  "image": {
+    "file": "File:Ozzie Newsome Ravens Training Camp - 53104237446 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ozzie_Newsome_Ravens_Training_Camp_-_53104237446_%28cropped%29.jpg/1280px-Ozzie_Newsome_Ravens_Training_Camp_-_53104237446_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ozzie_Newsome_Ravens_Training_Camp_-_53104237446_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ozzie Newsome",
+    "caption": "Ozzie Newsome",
+    "licenseChecked": "2026-11-05"
+  }
+}

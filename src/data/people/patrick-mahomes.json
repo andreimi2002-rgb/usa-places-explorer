@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 17, 1995, Tyler, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LIV (2019 season), LVII (2022 season), LVIII (2023 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (LIV, LVII, LVIII)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Super Bowl MVP (LIV, LVII, LVIII)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Most Valuable Player (2018, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2018, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2020)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2018–2023)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Patrick Mahomes",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Patrick Mahomes (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The quarterback of the Chiefs’ dynasty: three Super Bowls and two MVP awards.",
+  "image": {
+    "file": "File:Patrick Mahomes (51615475056).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Patrick_Mahomes_%2851615475056%29.jpg/1280px-Patrick_Mahomes_%2851615475056%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Mahomes_(51615475056).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Patrick Mahomes",
+    "caption": "Patrick Mahomes",
+    "licenseChecked": "2026-11-05"
+  }
+}

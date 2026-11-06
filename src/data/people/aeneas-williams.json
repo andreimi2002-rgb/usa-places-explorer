@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 29, 1968, New Orleans, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (1995, 1997, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1994, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1994–1999, 2001, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL interceptions co-leader (1994)",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1991)",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Arizona Cardinals Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "St. Louis Rams 10th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Aeneas Williams",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Aeneas Williams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 1991,
+      "to": 2000,
+      "source": "https://en.wikipedia.org/wiki/Aeneas_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback of the 1990s.",
+  "image": {
+    "file": "File:Aeneas Williams.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aeneas_Williams.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aeneas_Williams.jpg",
+    "author": "Greg Peterson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Aeneas Williams",
+    "caption": "Aeneas Williams",
+    "licenseChecked": "2026-11-05"
+  }
+}

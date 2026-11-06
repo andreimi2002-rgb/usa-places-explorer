@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 9, 1978, Miami, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2005, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2003)",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2003–2007, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (2006)",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cincinnati Bengals Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cincinnati Bengals 40th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cincinnati Bengals 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Chad Johnson",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Chad Johnson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 2001,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Chad_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and six-time Pro Bowl pick.",
+  "image": {
+    "file": "File:ChadJohnson.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/ChadJohnson.jpg/1280px-ChadJohnson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ChadJohnson.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Chad Johnson",
+    "caption": "Chad Johnson",
+    "licenseChecked": "2026-11-05"
+  }
+}

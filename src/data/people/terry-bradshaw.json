@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 2, 1948, Shreveport, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IX (1974 season), X (1975 season), XIII (1978 season), XIV (1979 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (IX, X, XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Super Bowl MVP (XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1978)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1978)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (1975, 1978, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (1978, 1982)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sports Illustrated Sportsperson of the Year (1979)",
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Terry Bradshaw",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Terry Bradshaw (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 1970,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Terry_Bradshaw",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of four Super Bowl wins in the 1970s.",
+  "image": {
+    "file": "File:Terry Bradshaw Meet and Greet ASI Chicago show 071521-7 (51321819538).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Terry_Bradshaw_Meet_and_Greet_ASI_Chicago_show_071521-7_%2851321819538%29.jpg/1280px-Terry_Bradshaw_Meet_and_Greet_ASI_Chicago_show_071521-7_%2851321819538%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Terry_Bradshaw_Meet_and_Greet_ASI_Chicago_show_071521-7_(51321819538).jpg",
+    "author": "The ASI Show",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Terry Bradshaw",
+    "caption": "Terry Bradshaw",
+    "licenseChecked": "2026-11-05"
+  }
+}

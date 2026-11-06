@@ -1,0 +1,194 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Kansas City Chiefs",
+  "division": "nfl-afc-west",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+    "verified": "2026-11-06",
+    "note": "Founded by Lamar Hunt as the Dallas Texans, a charter member of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Hunt family (chairman and CEO Clark Hunt)",
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Andy Reid",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "andy-reid"
+  },
+  "venues": [
+    {
+      "venue": "arrowhead-stadium",
+      "from": 1972,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "len-dawson",
+    "derrick-thomas",
+    "tony-gonzalez",
+    "bobby-bell",
+    "willie-lanier",
+    "hank-stram"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
+    "players": [
+      {
+        "person": "patrick-mahomes",
+        "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "travis-kelce",
+        "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "chris-jones",
+        "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960",
+      "label": "First season, as the Dallas Texans of the AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1962",
+      "label": "Win the AFL championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1963",
+      "label": "Move to Kansas City and become the Chiefs",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1970",
+      "label": "Join the NFL in the AFL–NFL merger",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1970",
+      "label": "Win Super Bowl IV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1972",
+      "label": "Open Arrowhead Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "Hire Andy Reid as head coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Win Super Bowl LIV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Win Super Bowl LVII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Win Super Bowl LVIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Lamar Hunt’s AFL club, four-time Super Bowl champion and the team of Patrick Mahomes.",
+  "sources": [
+    {
+      "title": "Kansas City Chiefs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/KC.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/kansas-city-chiefs.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/KC.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#E31837"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFB612"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Aerial view of Arrowhead Stadium 08-31-2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1280px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+    "author": "Ichabod",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Arrowhead Stadium",
+    "caption": "Arrowhead Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

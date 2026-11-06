@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 2, 2001, Hampton, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2023)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2020)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lombardi Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Bronko Nagurski Trophy (2021, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Chuck Bednarik Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Will Anderson Jr.",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Will Anderson Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Will_Anderson_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher and 2023 Defensive Rookie of the Year.",
+  "image": {
+    "file": "File:Will Anderson Jr. NFL Combine (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Will_Anderson_Jr._NFL_Combine_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Will_Anderson_Jr._NFL_Combine_(cropped).png",
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Will Anderson Jr.",
+    "caption": "Will Anderson Jr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

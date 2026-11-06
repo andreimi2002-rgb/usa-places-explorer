@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 30, 2002, Huntersville, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Shaun Alexander Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Rookie of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Drake Maye",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Drake Maye (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-patriots",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Drake_Maye",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback drafted in 2024, who led the Patriots to the Super Bowl LX final.",
+  "image": {
+    "file": "File:Drake Maye Patriots vs Titans NOV2024.png (section) (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Drake_Maye_Patriots_vs_Titans_NOV2024.png_%28section%29_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Drake_Maye_Patriots_vs_Titans_NOV2024.png_(section)_(cropped).png",
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Drake Maye",
+    "caption": "Drake Maye",
+    "licenseChecked": "2026-11-05"
+  }
+}

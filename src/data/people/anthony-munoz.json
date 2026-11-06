@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 19, 1958, Ontario, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1991)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× first-team All-Pro (1981–1983, 1985–1990)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× second-team All-Pro (1984, 1991)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (1981–1991)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA NFL All-Rookie Team (1980)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Anthony Muñoz",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Anthony Muñoz (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 1980,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Anthony_Mu%C3%B1oz",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle, one of the best offensive linemen in history.",
+  "image": {
+    "file": "File:Anthony Muñoz 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Anthony_Mu%C3%B1oz_2015.jpg/1280px-Anthony_Mu%C3%B1oz_2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthony_Mu%C3%B1oz_2015.jpg",
+    "author": "Cheryle Rivas",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Anthony Muñoz",
+    "caption": "Anthony Muñoz",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 1, 1973, Pampa, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× First-team All-Pro (1998, 1999, 2002, 2003, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2001, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1999–2003, 2005, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Alumni Linebacker of the Year (1998, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL combined tackles leader (2002, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1996)",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Miami Dolphins Honor Roll",
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Zach Thomas",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Zach Thomas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1996,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Zach_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and five-time First-team All-Pro.",
+  "image": {
+    "file": "File:Zach Thomas.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Zach_Thomas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zach_Thomas.jpg",
+    "author": "Chrisjnelson at en.wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Zach Thomas",
+    "caption": "Zach Thomas",
+    "licenseChecked": "2026-11-05"
+  }
+}

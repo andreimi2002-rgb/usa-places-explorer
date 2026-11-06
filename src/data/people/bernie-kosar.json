@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1963, Youngstown, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXVIII)",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (1987)",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cleveland Browns Legends",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1983)",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-American (1984)",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-South Independent (1983)",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Passing attempts",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 3,365",
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bernie Kosar",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bernie Kosar (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 1985,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Bernie_Kosar",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the late-1980s teams.",
+  "image": {
+    "file": "File:Bernie Kosar (53017473957) (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bernie_Kosar_%2853017473957%29_%281%29.jpg/1280px-Bernie_Kosar_%2853017473957%29_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bernie_Kosar_(53017473957)_(1).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Bernie Kosar",
+    "caption": "Bernie Kosar",
+    "licenseChecked": "2026-11-05"
+  }
+}

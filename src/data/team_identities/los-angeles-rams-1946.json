@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "los-angeles-rams",
+  "name": "Los Angeles Rams",
+  "city": "los-angeles",
+  "from": {
+    "value": 1946,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+    "verified": "2026-11-06"
+  },
+  "to": 1994,
+  "current": false
+}

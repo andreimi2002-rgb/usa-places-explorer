@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 29, 1936, Elmwood Park, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "I (1966 season), II (1967 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (I, II)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL champion (1961, 1962, 1965–1967)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1964, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1962, 1963, 1965, 1967, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "1&times; Pro Bowl (1964)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 50th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ray Nitschke",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ray Nitschke (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 1958,
+      "to": 1972,
+      "source": "https://en.wikipedia.org/wiki/Ray_Nitschke",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the Lombardi dynasty.",
+  "image": {
+    "file": "File:Nitschke packers.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Nitschke_packers.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nitschke_packers.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ray Nitschke",
+    "caption": "Ray Nitschke",
+    "licenseChecked": "2026-11-05"
+  }
+}

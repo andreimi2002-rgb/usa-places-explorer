@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 10, 1996, Bellevue, Washington, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2017, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2017, 2019–2025)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL solo tackles leader (2019)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2017)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2016)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pac-12 (2015, 2016)",
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Budda Baker",
+  "position": {
+    "value": "Strong safety",
+    "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Budda Baker (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Budda_Baker",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and eight-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Budda Baker on FanDuel TV FEB2023 (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Budda_Baker_on_FanDuel_TV_FEB2023_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Budda_Baker_on_FanDuel_TV_FEB2023_(cropped).png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Budda Baker",
+    "caption": "Budda Baker",
+    "licenseChecked": "2026-11-05"
+  }
+}

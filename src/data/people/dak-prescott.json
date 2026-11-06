@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 29, 1993, Sulphur, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2023)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2016, 2018, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2016)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-SEC (2014, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Dak Prescott",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dak Prescott (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Dak_Prescott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback since 2016, Rookie of the Year that season.",
+  "image": {
+    "file": "File:Dak Prescott by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Dak_Prescott_by_Gage_Skidmore.jpg/1280px-Dak_Prescott_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dak_Prescott_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Dak Prescott",
+    "caption": "Dak Prescott",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 22, 1978, Fort Campbell, Kentucky, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (2004–2006)",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (2000, 2003, 2007, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "12× Pro Bowl (2000–2007, 2009–2012)",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL interceptions leader (2006)",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1999)",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Washington Commanders 90 Greatest",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Denver Broncos 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Champ Bailey",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Champ Bailey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2004,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Champ_Bailey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback and 12-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Champ Bailey 2010.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Champ_Bailey_2010.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Champ_Bailey_2010.JPG",
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Champ Bailey",
+    "caption": "Champ Bailey",
+    "licenseChecked": "2026-11-05"
+  }
+}

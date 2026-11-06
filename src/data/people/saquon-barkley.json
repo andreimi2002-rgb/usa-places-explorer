@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 9, 1997, The Bronx, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LIX (2024 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LIX)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2024)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2018, 2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (2024)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2018)",
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Saquon Barkley",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Saquon Barkley (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2024 Offensive Player of the Year, champion in his first Eagles season.",
+  "image": {
+    "file": "File:Saquon Barkley 112024 (cropped new).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Saquon_Barkley_112024_%28cropped_new%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saquon_Barkley_112024_(cropped_new).jpg",
+    "author": "PistonsFan2223",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Saquon Barkley",
+    "caption": "Saquon Barkley",
+    "licenseChecked": "2026-11-05"
+  }
+}

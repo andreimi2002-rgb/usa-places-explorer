@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 29, 1964, Allentown, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Second-team All-Pro (1989, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1988–1994)",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Receptions",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 951",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label2 = Receiving yards",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value2 = 13,258",
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Andre Reed",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Andre Reed (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "player",
+      "from": 1985,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/Andre_Reed",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of the four Super Bowl teams.",
+  "image": {
+    "file": "File:Andre Reed Autographs USS Ronald Reagan Mar 20, 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Andre_Reed_Autographs_USS_Ronald_Reagan_Mar_20%2C_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andre_Reed_Autographs_USS_Ronald_Reagan_Mar_20,_2009.jpg",
+    "author": "Petty Officer 3rd Class Gary Prill; cropped by User:Blueag9",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Andre Reed",
+    "caption": "Andre Reed",
+    "licenseChecked": "2026-11-05"
+  }
+}

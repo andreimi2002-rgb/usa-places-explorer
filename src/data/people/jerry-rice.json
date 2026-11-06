@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 13, 1962, Starkville, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXIII (1988 season), XXIV (1989 season), XXIX (1994 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXIII, XXIV, XXIX)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXIII)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Offensive Player of the Year (1987, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× First-team All-Pro (1986–1990, 1992–1996)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2002)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "13× Pro Bowl (1986–1996, 1998, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receptions leader (1990, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× NFL receiving yards leader (1986, 1989, 1990, 1993–1995)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jerry Rice",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jerry Rice (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 1985,
+      "to": 2000,
+      "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and the NFL’s career leader in catches and yards.",
+  "image": {
+    "file": "File:Super Bowl 44 Miami Florida NFL Network South Beach Set Deon Sanders interviews Jerry Rice (4331549867) (cropped) - Jerry Rice.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_%284331549867%29_%28cropped%29_-_Jerry_Rice.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_(4331549867)_(cropped)_-_Jerry_Rice.jpg",
+    "author": "Anthony Quintano from Honolulu, HI, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jerry Rice",
+    "caption": "Jerry Rice",
+    "licenseChecked": "2026-11-05"
+  }
+}

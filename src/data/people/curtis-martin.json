@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 1, 1973, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (1995)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2004)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1995, 1996, 1998, 2001, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2004)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1995)",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots All-1990s Team",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Curtis Martin",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Curtis Martin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 1998,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Curtis_Martin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back from 1998 to 2005.",
+  "image": {
+    "file": "File:Curtis Martin at 2010 pep rally.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Curtis_Martin_at_2010_pep_rally.jpg/1280px-Curtis_Martin_at_2010_pep_rally.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Curtis_Martin_at_2010_pep_rally.jpg",
+    "author": "Anthony Quintano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Curtis Martin",
+    "caption": "Curtis Martin",
+    "licenseChecked": "2026-11-05"
+  }
+}

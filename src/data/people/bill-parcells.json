@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 22, 1941, Englewood, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXI, XXV)",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AP NFL Coach of the Year (1986, 1994)",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "The Sporting News NFL Coach of Year (1986)",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Football Weekly NFL Coach of Year (1986, 1994)",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (1994)",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New England Patriots Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bill Parcells",
+  "sources": [
+    {
+      "title": "Bill Parcells (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "head-coach",
+      "from": 1983,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Bill_Parcells",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1983 to 1990 and winner of two Super Bowls.",
+  "image": {
+    "file": "File:Bill Parcells (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bill_Parcells_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_Parcells_(cropped).jpg",
+    "author": "US Air Force",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bill Parcells",
+    "caption": "Bill Parcells",
+    "licenseChecked": "2026-11-05"
+  }
+}

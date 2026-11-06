@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 19, 1996, San Marcos, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× First-team All-Pro (2020, 2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2020, 2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Fred Warner",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Fred Warner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and four-time First-team All-Pro.",
+  "image": {
+    "file": "File:49ers LB Fred Warner Super Bowl LIV Interview (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/49ers_LB_Fred_Warner_Super_Bowl_LIV_Interview_%28cropped%29.png/1280px-49ers_LB_Fred_Warner_Super_Bowl_LIV_Interview_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:49ers_LB_Fred_Warner_Super_Bowl_LIV_Interview_(cropped).png",
+    "author": "Time2Football",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Fred Warner",
+    "caption": "Fred Warner",
+    "licenseChecked": "2026-11-05"
+  }
+}

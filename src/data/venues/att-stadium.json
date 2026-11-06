@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "AT&T Stadium",
+  "city": "arlington-tx",
+  "opened": {
+    "value": "2009",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 80000,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "retractable",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Cowboys’ 80,000-seat stadium in Arlington, with a retractable roof, since 2009.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:AT&T Stadium, Arlington, Texas, United States.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/AT%26T_Stadium%2C_Arlington%2C_Texas%2C_United_States.jpg/1280px-AT%26T_Stadium%2C_Arlington%2C_Texas%2C_United_States.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Stadium,_Arlington,_Texas,_United_States.jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of AT&T Stadium",
+    "caption": "AT&T Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

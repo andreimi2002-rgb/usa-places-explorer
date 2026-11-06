@@ -1,0 +1,155 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Buffalo Bills",
+  "division": "nfl-afc-east",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+    "verified": "2026-11-06",
+    "note": "Founded October 28, 1959, a charter member of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Terry Pegula (Pegula family, since 2014)",
+    "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Joe Brady",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "highmark-stadium",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "jim-kelly",
+    "thurman-thomas",
+    "bruce-smith",
+    "andre-reed",
+    "marv-levy"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/buffalo-bills/roster",
+    "players": [
+      {
+        "person": "josh-allen",
+        "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "james-cook",
+        "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1959-10-28",
+      "label": "Founded for the new AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1964",
+      "label": "Win the AFL championship (again in 1965)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1973",
+      "label": "Move to Orchard Park",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1986",
+      "label": "Sign Jim Kelly and hire Marv Levy",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2014",
+      "label": "Terry and Kim Pegula buy the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Draft Josh Allen",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Open the new Highmark Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The only team to reach four Super Bowls in a row, and the team of the 2024 MVP Josh Allen.",
+  "sources": [
+    {
+      "title": "Buffalo Bills (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/BUF.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/buffalo-bills.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/BUF.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Royal blue",
+        "hex": "#00338D"
+      },
+      {
+        "name": "Red",
+        "hex": "#C60C30"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+    "verified": "2026-11-06"
+  }
+}

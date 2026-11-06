@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 27, 1999, Queen Creek, Arizona, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2023)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2022)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Big 12 (2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Big 12 (2019)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL records",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Highest career passer rating: 104.8",
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brock Purdy",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brock Purdy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback since 2022, picked last in his draft and a starter within months.",
+  "image": {
+    "file": "File:BrockPurdy2021 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/BrockPurdy2021_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BrockPurdy2021_(cropped).jpg",
+    "author": "Jar-Lar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brock Purdy",
+    "caption": "Brock Purdy",
+    "licenseChecked": "2026-11-05"
+  }
+}

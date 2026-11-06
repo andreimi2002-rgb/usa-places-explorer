@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "AFL–NFL merger (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/AFL%E2%80%93NFL_merger",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "term": "AFL–NFL merger",
+  "short": "The 1970 union of the NFL with its rival, the American Football League. The two champions had met in the first Super Bowls from the 1966 season.",
+  "sports": [
+    "american-football"
+  ],
+  "related": [
+    "super-bowl"
+  ]
+}

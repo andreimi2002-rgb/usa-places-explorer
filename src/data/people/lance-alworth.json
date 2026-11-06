@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 3, 1940, Houston, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (VI)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1963)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Player of the Year (1963)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Joe F. Carr Trophy (1968)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× First-team All-AFL (1963–1968)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-AFL (1969)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× AFL All-Star (1963–1969)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× AFL receiving yards leader (1965, 1966, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Lance Alworth",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lance Alworth (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 1962,
+      "to": 1970,
+      "source": "https://en.wikipedia.org/wiki/Lance_Alworth",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of the 1963 AFL champions.",
+  "image": {
+    "file": "File:Lance Alworth wr (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lance_Alworth_wr_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lance_Alworth_wr_(cropped).jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Lance Alworth",
+    "caption": "Lance Alworth",
+    "licenseChecked": "2026-11-05"
+  }
+}

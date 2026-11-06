@@ -1,0 +1,168 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Jacksonville Jaguars",
+  "division": "nfl-afc-south",
+  "founded": {
+    "value": 1993,
+    "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+    "verified": "2026-11-06",
+    "note": "Founded November 30, 1993, as an expansion team; first season 1995."
+  },
+  "firstSeason": {
+    "value": "1995",
+    "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Shad Khan (since 2012)",
+    "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Liam Coen",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "everbank-stadium",
+      "from": 1995,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "tony-boselli",
+    "fred-taylor",
+    "jimmy-smith",
+    "maurice-jones-drew",
+    "mark-brunell",
+    "tom-coughlin"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/jacksonville-jaguars/roster",
+    "players": [
+      {
+        "person": "trevor-lawrence",
+        "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "travis-hunter",
+        "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "josh-hines-allen",
+        "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "brian-thomas-jr",
+        "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1993-11-30",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1995",
+      "label": "First season, in today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Shad Khan buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "First game in London, the start of a yearly series there",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021",
+      "label": "Draft Trevor Lawrence first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-01-24",
+      "label": "Hire Liam Coen",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "An expansion team from 1995 and the NFL’s London regulars, with 16 games there since 2013.",
+  "sources": [
+    {
+      "title": "Jacksonville Jaguars (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "NFL International Series (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/NFL_International_Series",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/JAX.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/jacksonville-jaguars.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/JAX.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Teal",
+        "hex": "#006778"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#D7A22A"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+    "verified": "2026-11-06"
+  }
+}

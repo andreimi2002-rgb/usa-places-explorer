@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "State Farm Stadium",
+  "city": "glendale-az",
+  "opened": {
+    "value": "2006",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 63400,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "retractable",
+      "surface": "Bermuda grass"
+    }
+  },
+  "summary": "The Cardinals’ stadium in Glendale since 2006, with a roof and a grass field that rolls outside.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Phoenix - State Farm Stadium - IMG 8244 (51576996287).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phoenix_-_State_Farm_Stadium_-_IMG_8244_%2851576996287%29.jpg/1280px-Phoenix_-_State_Farm_Stadium_-_IMG_8244_%2851576996287%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Phoenix_-_State_Farm_Stadium_-_IMG_8244_(51576996287).jpg",
+    "author": "John Martinez Pavliga from San Pablo, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "State Farm Stadium",
+    "caption": "State Farm Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

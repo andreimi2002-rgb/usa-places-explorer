@@ -1,0 +1,199 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "San Francisco 49ers",
+  "division": "nfl-nfc-west",
+  "founded": {
+    "value": 1944,
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+    "verified": "2026-11-06",
+    "note": "Founded June 4, 1944; first season 1946 in the All-America Football Conference."
+  },
+  "firstSeason": {
+    "value": "1946",
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "York family (controlling owner Jed York)",
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Kyle Shanahan",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "kyle-shanahan"
+  },
+  "venues": [
+    {
+      "venue": "levis-stadium",
+      "from": 2014,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "joe-montana",
+    "jerry-rice",
+    "steve-young",
+    "ronnie-lott",
+    "bill-walsh"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/san-francisco-49ers/roster",
+    "players": [
+      {
+        "person": "brock-purdy",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "christian-mccaffrey",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "george-kittle",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "nick-bosa",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "fred-warner",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1946",
+      "label": "First season, in the All-America Football Conference",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1950",
+      "label": "Join the NFL",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1971",
+      "label": "Move into Candlestick Park",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1979",
+      "label": "Hire Bill Walsh and draft Joe Montana",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1982",
+      "label": "Win Super Bowl XVI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1985",
+      "label": "Win Super Bowl XIX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1989",
+      "label": "Win Super Bowl XXIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1990",
+      "label": "Win Super Bowl XXIV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1995",
+      "label": "Win Super Bowl XXIX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2014",
+      "label": "Open Levi’s Stadium in Santa Clara",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Hire Kyle Shanahan",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The team of Montana, Rice and Bill Walsh’s West Coast offence: five Super Bowls between the 1981 and 1994 seasons.",
+  "sources": [
+    {
+      "title": "San Francisco 49ers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/SF.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/san-francisco-49ers.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/SF.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#AA0000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#B3995D"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 3, 1923, Chicago, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (IV)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× AFL champion (1962, 1966, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AP AFL Coach of the Year (1966, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "UPI AFL Coach of the Year (1968)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Kansas City Chiefs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Hank Stram",
+  "sources": [
+    {
+      "title": "Hank Stram (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "head-coach",
+      "from": 1960,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Hank_Stram",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from the Dallas Texans days to Super Bowl IV.",
+  "image": {
+    "file": "File:Hank Stram, circa 1974.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Hank_Stram%2C_circa_1974.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Hank_Stram,_circa_1974.png",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Hank Stram",
+    "caption": "Hank Stram",
+    "licenseChecked": "2026-11-05"
+  }
+}

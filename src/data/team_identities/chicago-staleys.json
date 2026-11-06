@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "chicago-bears",
+  "name": "Chicago Staleys",
+  "city": "chicago",
+  "from": {
+    "value": 1921,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Bears",
+    "verified": "2026-11-06"
+  },
+  "to": 1921,
+  "current": false
+}

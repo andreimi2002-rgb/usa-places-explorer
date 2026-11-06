@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 5, 1942, Cincinnati, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "VI (1971 season), XII (1977 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (VI, XII)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (VI)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1978)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1971)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1971, 1975–1979)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (1973)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL passer rating leader (1971, 1973, 1978, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Roger Staubach",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Roger Staubach (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 1969,
+      "to": 1979,
+      "source": "https://en.wikipedia.org/wiki/Roger_Staubach",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl VI.",
+  "image": {
+    "file": "File:President Donald J. Trump Presents Medal of Freedom - 45863432812 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/President_Donald_J._Trump_Presents_Medal_of_Freedom_-_45863432812_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:President_Donald_J._Trump_Presents_Medal_of_Freedom_-_45863432812_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Roger Staubach",
+    "caption": "Roger Staubach",
+    "licenseChecked": "2026-11-05"
+  }
+}

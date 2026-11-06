@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 23, 1934, Wilmington, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1960)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× first-team All-Pro (1961, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× second-team All-Pro (1964, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1961, 1964, 1966, 1967, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL passing yards leader (1961, 1962, 1966, 1967, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (1961, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (1967)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (1970)",
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sonny Jurgensen",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sonny Jurgensen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "player",
+      "from": 1964,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Sonny_Jurgensen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback from 1964 to 1974.",
+  "image": {
+    "file": "File:Sonny Jurgensen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sonny_Jurgensen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sonny_Jurgensen.jpg",
+    "author": "National Football League",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Sonny Jurgensen",
+    "caption": "Sonny Jurgensen",
+    "licenseChecked": "2026-11-05"
+  }
+}

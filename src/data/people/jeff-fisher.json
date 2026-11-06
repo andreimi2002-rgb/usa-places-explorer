@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 25, 1958, Culver City, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XX)",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1978)",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (2008)",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tennessee Titans Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Interceptions",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 5",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jeff Fisher",
+  "sources": [
+    {
+      "title": "Jeff Fisher (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "head-coach",
+      "from": 1994,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Jeff_Fisher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1994 to 2010, from Houston to Nashville.",
+  "image": {
+    "file": "File:Former Titans Coach Jeff Fisher Surprised w TN Sports Hall of Fame Announcement 0-16 screenshot 2020 (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Former_Titans_Coach_Jeff_Fisher_Surprised_w_TN_Sports_Hall_of_Fame_Announcement_0-16_screenshot_2020_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Former_Titans_Coach_Jeff_Fisher_Surprised_w_TN_Sports_Hall_of_Fame_Announcement_0-16_screenshot_2020_(cropped).png",
+    "author": "Tennessee Titans",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jeff Fisher",
+    "caption": "Jeff Fisher",
+    "licenseChecked": "2026-11-05"
+  }
+}

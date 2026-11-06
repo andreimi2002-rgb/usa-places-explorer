@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 21, 1996, Firebaugh, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2024)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2020, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2020, 2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-MWC (2016)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Wyoming Cowboys No. 17 retired",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Highest passer rating in a single postseason: 149.0 (2021)",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most career rushing touchdowns by a quarterback: 88",
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Josh Allen",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Josh Allen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Josh_Allen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback since 2018 and 2024 MVP.",
+  "image": {
+    "file": "File:Josh Allen SEPT2021 (cropped2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Josh_Allen_SEPT2021_%28cropped2%29.jpg/1280px-Josh_Allen_SEPT2021_%28cropped2%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Josh_Allen_SEPT2021_(cropped2).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Josh Allen",
+    "caption": "Josh Allen",
+    "licenseChecked": "2026-11-05"
+  }
+}

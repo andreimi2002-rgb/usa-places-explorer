@@ -1,0 +1,175 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Cleveland Browns",
+  "division": "nfl-afc-north",
+  "founded": {
+    "value": 1944,
+    "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+    "verified": "2026-11-06",
+    "note": "Founded June 4, 1944; first season 1946 in the AAFC. Inactive from 1996 to 1998, when the team’s players moved to Baltimore; the Browns returned in 1999 with their name and history."
+  },
+  "firstSeason": {
+    "value": "1946",
+    "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Jimmy and Dee Haslam",
+    "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Todd Monken",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "huntington-bank-field",
+      "from": 1999,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "jim-brown",
+    "otto-graham",
+    "lou-groza",
+    "ozzie-newsome",
+    "joe-thomas",
+    "bernie-kosar",
+    "myles-garrett",
+    "paul-brown"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/cleveland-browns/roster",
+    "players": [
+      {
+        "person": "denzel-ward",
+        "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "shedeur-sanders",
+        "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "quinshon-judkins",
+        "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1944-06-04",
+      "label": "Founded, named after the coach Paul Brown",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1946",
+      "label": "First season; win the first of four AAFC titles",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1950",
+      "label": "Join the NFL and win the championship in the first season",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1964",
+      "label": "Win the NFL championship, the last so far",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1996",
+      "label": "The team’s players move to Baltimore; the Browns go inactive",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1999",
+      "label": "Return to the NFL and open today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Hire Todd Monken",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Trade Myles Garrett to the Rams",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Eight titles in the AAFC and the NFL before the Super Bowl era, Jim Brown, and a city that won its team back.",
+  "sources": [
+    {
+      "title": "Cleveland Browns (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Cleveland Browns season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Cleveland_Browns_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/CLE.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/cleveland-browns.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/CLE.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Brown",
+        "hex": "#311D00"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF3C00"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+    "verified": "2026-11-06"
+  }
+}

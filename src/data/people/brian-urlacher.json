@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 25, 1978, Pasco, Washington, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2005)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2000)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2001, 2002, 2005, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2010)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2000–2003, 2005, 2006, 2010, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL solo tackles leader (2002)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2000)",
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brian Urlacher",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brian Urlacher (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 2000,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Brian_Urlacher",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 2005 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Brian Urlacher (15795829749) (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Brian_Urlacher_%2815795829749%29_%281%29.jpg/1280px-Brian_Urlacher_%2815795829749%29_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brian_Urlacher_(15795829749)_(1).jpg",
+    "author": "US Army Africa from Vicenza, Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Brian Urlacher",
+    "caption": "Brian Urlacher",
+    "licenseChecked": "2026-11-05"
+  }
+}

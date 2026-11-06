@@ -1,0 +1,155 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Los Angeles Chargers",
+  "division": "nfl-afc-west",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+    "verified": "2026-11-06",
+    "note": "Founded August 14, 1959, a charter member of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Dean Spanos (Spanos family)",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Jim Harbaugh",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "jim-harbaugh"
+  },
+  "venues": [
+    {
+      "venue": "sofi-stadium",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "lance-alworth",
+    "dan-fouts",
+    "junior-seau",
+    "ladainian-tomlinson",
+    "antonio-gates",
+    "philip-rivers"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/los-angeles-chargers/roster",
+    "players": [
+      {
+        "person": "justin-herbert",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "derwin-james",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "joe-alt",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1959-08-14",
+      "label": "Founded for the new AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1961",
+      "label": "Move to San Diego",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1963",
+      "label": "Win the AFL championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Return to Los Angeles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Open SoFi Stadium, shared with the Rams",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Hire Jim Harbaugh",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Fifty-six years in San Diego and back in Los Angeles since 2017: one Super Bowl final, and Justin Herbert at quarterback.",
+  "sources": [
+    {
+      "title": "Los Angeles Chargers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/LAC.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/los-angeles-chargers.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/LAC.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Powder blue",
+        "hex": "#0080C6"
+      },
+      {
+        "name": "Sunshine gold",
+        "hex": "#FFC20E"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+    "verified": "2026-11-06"
+  }
+}

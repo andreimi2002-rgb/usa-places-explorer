@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 18, 1956, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× Grey Cup champion (1978–1982)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Grey Cup MVP (1980, 1982)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFL Most Outstanding Player (1983)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1990)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1989)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jeff Nicklin Memorial Trophy (1983)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1990)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFL All-Star (1983)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Warren Moon",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Warren Moon (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 1984,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Warren_Moon",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Oilers, after five Grey Cups in Canada.",
+  "image": {
+    "file": "File:Warren Moon Press Conference Oilers Tribute Week 4-45 screenshot 2021 (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Warren_Moon_Press_Conference_Oilers_Tribute_Week_4-45_screenshot_2021_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Warren_Moon_Press_Conference_Oilers_Tribute_Week_4-45_screenshot_2021_(cropped).png",
+    "author": "Warren Moon Press Conference | Oilers Tribute Week",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Warren Moon",
+    "caption": "Warren Moon",
+    "licenseChecked": "2026-11-05"
+  }
+}

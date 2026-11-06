@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 11, 1913, Brooklyn, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (I, II)",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL champion (1961, 1962, 1965, 1966, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Coach of the Year (1959, 1961)",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFF Distinguished American Award (1970)",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Green Bay Packers Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Washington Redskins Ring of Fame",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "|stat_label1=Win–loss record",
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Vince Lombardi",
+  "sources": [
+    {
+      "title": "Vince Lombardi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "head-coach",
+      "from": 1959,
+      "to": 1967,
+      "source": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The coach of the 1960s dynasty and the first two Super Bowls.",
+  "image": {
+    "file": "File:Vince Lombardi (1913-1970) in 1964 Crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vince_Lombardi_%281913-1970%29_in_1964_Crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vince_Lombardi_(1913-1970)_in_1964_Crop.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Vince Lombardi",
+    "caption": "Vince Lombardi",
+    "licenseChecked": "2026-11-05"
+  }
+}

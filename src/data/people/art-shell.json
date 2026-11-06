@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 26, 1946, Charleston, South Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XI (1976 season), XV (1980 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XI, XV, XVIII)",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1974, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1975, 1978)",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1972–1978, 1980)",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team Little All-American (1967)",
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Art Shell",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Art_Shell",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Art Shell (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Art_Shell",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 1968,
+      "to": 1982,
+      "source": "https://en.wikipedia.org/wiki/Art_Shell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle of three Super Bowl wins, later the club’s coach.",
+  "image": {
+    "file": "File:Art Shell in 2006.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Art_Shell_in_2006.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Art_Shell_in_2006.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Art Shell",
+    "caption": "Art Shell",
+    "licenseChecked": "2026-11-05"
+  }
+}

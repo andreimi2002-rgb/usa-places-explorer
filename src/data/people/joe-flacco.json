@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 16, 1985, Voorhees Township, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVII (2012 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVII)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XLVII)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pepsi NFL Rookie of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2025)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ECAC Player of the Year (2007)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-CAA (2007)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CAA Co-Offensive Player of the Year (2007)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Flacco",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Flacco (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2008,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Joe_Flacco",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl XLVII.",
+  "image": {
+    "file": "File:Joe Flacco 2025 Browns Camp (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joe_Flacco_2025_Browns_Camp_%28cropped%29.jpg/1280px-Joe_Flacco_2025_Browns_Camp_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Flacco_2025_Browns_Camp_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Joe Flacco",
+    "caption": "Joe Flacco",
+    "licenseChecked": "2026-11-05"
+  }
+}

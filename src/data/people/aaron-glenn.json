@@ -1,0 +1,92 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 16, 1972, Humble, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Pro Bowl (1997, 1998, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets All-Time Four Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (1993)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SWC Defensive Player of the Year (1993)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-SWC (1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SWC Newcomer of the Year (1992)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Tackles",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 639",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Aaron Glenn",
+  "sources": [
+    {
+      "title": "Aaron Glenn (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 1994,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-york-jets",
+      "role": "head-coach",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Glenn",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Former Jets cornerback, head coach since 2025.",
+  "image": {
+    "file": "File:2025 NYJ HC Aaron Glenn.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/2025_NYJ_HC_Aaron_Glenn.png",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_NYJ_HC_Aaron_Glenn.png",
+    "author": "New York Jets",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Aaron Glenn",
+    "caption": "Aaron Glenn",
+    "licenseChecked": "2026-11-05"
+  }
+}

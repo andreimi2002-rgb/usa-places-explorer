@@ -1,0 +1,97 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 29, 1995, Arlington, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL Defensive Player of the Year (2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (2020, 2021, 2023–2025)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2018, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2018, 2020−2025)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Deacon Jones Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2017)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bill Willis Trophy (2015)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2016)",
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Myles Garrett",
+  "position": {
+    "value": "Outside linebacker",
+    "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Myles Garrett (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 2017,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Myles_Garrett",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher and twice Defensive Player of the Year, traded to the Rams in 2026.",
+  "image": {
+    "file": "File:Myles Garrett 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Myles_Garrett_2026.jpg/1280px-Myles_Garrett_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Myles_Garrett_2026.jpg",
+    "author": "WOH3030",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Myles Garrett",
+    "caption": "Myles Garrett",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 10, 1996, Ames, Iowa, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL Comeback Player of the Year (2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (2021)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2019)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP National Championship Offensive MVP (2019)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Burrow",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Burrow (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Joe_Burrow",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, the first pick of the 2020 draft, who led Cincinnati to Super Bowl LVI.",
+  "image": {
+    "file": "File:Joe Burrow - Lordstown interview - 1 (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Joe_Burrow_-_Lordstown_interview_-_1_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Burrow_-_Lordstown_interview_-_1_(cropped).png",
+    "author": "Lordstown Motors",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Joe Burrow",
+    "caption": "Joe Burrow",
+    "licenseChecked": "2026-11-05"
+  }
+}

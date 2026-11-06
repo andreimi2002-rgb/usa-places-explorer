@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 5, 1966, Fort Lauderdale, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXVII, XXVIII, XXX)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1991)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1991–1995)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (1991)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Dallas Cowboys Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1987)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Michael Irvin",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Michael Irvin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 1988,
+      "to": 1988,
+      "source": "https://en.wikipedia.org/wiki/Michael_Irvin",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of “The Triplets” with Aikman and Smith.",
+  "image": {
+    "file": "File:Michael Irvin by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Michael_Irvin_by_Gage_Skidmore.jpg/1280px-Michael_Irvin_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Irvin_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Michael Irvin",
+    "caption": "Michael Irvin",
+    "licenseChecked": "2026-11-05"
+  }
+}

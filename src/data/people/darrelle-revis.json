@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 14, 1985, Aliquippa, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLIX)",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2009–2011, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2008–2011, 2013–2015)",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2007)",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Big East (2005, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Darrelle Revis",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Darrelle Revis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 2007,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 2015,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Darrelle_Revis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback famous for shutting down receivers on his own.",
+  "image": {
+    "file": "File:Darrelle Revis ESPNWeekend2010-051.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Darrelle_Revis_ESPNWeekend2010-051.jpg/1280px-Darrelle_Revis_ESPNWeekend2010-051.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darrelle_Revis_ESPNWeekend2010-051.jpg",
+    "author": "Jeff Kern",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Darrelle Revis",
+    "caption": "Darrelle Revis",
+    "licenseChecked": "2026-11-05"
+  }
+}

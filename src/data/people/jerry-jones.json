@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 13, 1942, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "National champion (1964)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Super Bowl champion (XXVII, XXVIII, XXX)",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2014 NFL Executive of the Year",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jerry Jones",
+  "sources": [
+    {
+      "title": "Jerry Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "owner",
+      "from": 1989,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jerry_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Owner since 1989, who built the 1990s champions and AT&T Stadium.",
+  "image": {
+    "file": "File:Jerry Jones2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Jerry_Jones2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerry_Jones2026.jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jerry Jones",
+    "caption": "Jerry Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

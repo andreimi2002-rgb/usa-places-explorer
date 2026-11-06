@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 21, 1971, Houston, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLII (2007 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLII)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (2001)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1997, 1998, 2001, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2002, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1997–1999, 2001–2003, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL sacks leader (2001, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL forced fumbles co-leader (2001)",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Michael Strahan",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Michael Strahan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 1993,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and 2001 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Michael Strahan 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Michael_Strahan_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Strahan_2022_(cropped).jpg",
+    "author": "Airman 1st Class Andrew Britten",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Michael Strahan",
+    "caption": "Michael Strahan",
+    "licenseChecked": "2026-11-05"
+  }
+}

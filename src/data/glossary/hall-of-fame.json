@@ -6,12 +6,24 @@
       "title": "Basketball Hall of Fame inductees (NBA.com)",
       "url": "https://www.nba.com/news/basketball-hall-of-fame-all-time",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Pro Football Hall of Fame (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pro_Football_Hall_of_Fame",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "National Soccer Hall of Fame (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/National_Soccer_Hall_of_Fame",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Hall of Fame",
-  "short": "An honor roll of a sport’s greatest figures. Basketball’s is the Naismith Memorial Basketball Hall of Fame; teams also keep their own halls for local legends.",
+  "short": "An honour roll of a sport’s greatest figures: for basketball the Naismith Memorial Basketball Hall of Fame, for American football the Pro Football Hall of Fame in Canton, Ohio.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football",
+    "soccer"
   ],
   "related": []
 }

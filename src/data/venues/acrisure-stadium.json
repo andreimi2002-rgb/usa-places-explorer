@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Heinz Field",
+      "from": 2001,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "name": "Acrisure Stadium",
+  "city": "pittsburgh",
+  "opened": {
+    "value": "2001",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 68984,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open"
+    }
+  },
+  "summary": "The Steelers’ riverside stadium since 2001, opened as Heinz Field.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Acrisure Stadium with Fort Pitt Bridge in foreground, Pittsburgh, 2024-05-27.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Acrisure_Stadium_with_Fort_Pitt_Bridge_in_foreground%2C_Pittsburgh%2C_2024-05-27.jpg/1280px-Acrisure_Stadium_with_Fort_Pitt_Bridge_in_foreground%2C_Pittsburgh%2C_2024-05-27.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Acrisure_Stadium_with_Fort_Pitt_Bridge_in_foreground,_Pittsburgh,_2024-05-27.jpg",
+    "author": "Cbaile19",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of Acrisure Stadium",
+    "caption": "Acrisure Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

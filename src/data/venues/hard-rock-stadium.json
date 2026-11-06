@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Hard Rock Stadium",
+  "city": "miami-gardens",
+  "opened": {
+    "value": "1987",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 65326,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Bermuda grass"
+    }
+  },
+  "summary": "The Dolphins’ stadium in Miami Gardens since 1987.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Interior of updated Hard Rock Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Interior_of_updated_Hard_Rock_Stadium.jpg/1280px-Interior_of_updated_Hard_Rock_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Interior_of_updated_Hard_Rock_Stadium.jpg",
+    "author": "Gatorfan252525",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Inside Hard Rock Stadium",
+    "caption": "Inside Hard Rock Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

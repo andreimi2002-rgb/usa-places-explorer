@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 15, 1961, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1984)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1984)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1994)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1998)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "The Sporting News NFL Rookie of the Year (1983)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3x First-team All-Pro (1984–1986)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1983, 1988, 1992, 1994, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1983–1987, 1991, 1992, 1994, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Dan Marino",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dan Marino (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1983,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/Dan_Marino",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback for 17 seasons and 1984 MVP."
+}

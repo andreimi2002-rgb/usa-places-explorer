@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 31, 1943, Beaver Falls, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "III (1968 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (III)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (III)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Rookie of the Year (1965)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1968)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Championship MVP (1968)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AFL passing yards leader (1966, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Most Valuable Player (1968)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (1972)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Namath",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Namath (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 1965,
+      "to": 1976,
+      "source": "https://en.wikipedia.org/wiki/Joe_Namath",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "“Broadway Joe”, who guaranteed and won Super Bowl III.",
+  "image": {
+    "file": "File:Namath 1965.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Namath_1965.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Namath_1965.jpg",
+    "author": "New York Jets",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe Namath",
+    "caption": "Joe Namath",
+    "licenseChecked": "2026-11-05"
+  }
+}

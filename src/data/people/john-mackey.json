@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 24, 1941, Roosevelt, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "V (1970 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (V)",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL champion (1968)",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1966–1968)",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1963, 1965–1968)",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 50th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Baltimore Ravens Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Mackey",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "John Mackey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1963,
+      "to": 1971,
+      "source": "https://en.wikipedia.org/wiki/John_Mackey_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end of the Super Bowl V win.",
+  "image": {
+    "file": "File:John mackey press photo 1972.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/John_mackey_press_photo_1972.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_mackey_press_photo_1972.jpg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of John Mackey",
+    "caption": "John Mackey",
+    "licenseChecked": "2026-11-05"
+  }
+}

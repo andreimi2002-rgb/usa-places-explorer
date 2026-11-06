@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 29, 1963, San Mateo, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Eastern Illinois Panthers No. 18 retired",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Eastern Illinois University Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl champion (XLIV)",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP NFL Coach of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Greasy Neale Award (2006, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Passing attempts",
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sean Payton",
+  "sources": [
+    {
+      "title": "Sean Payton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "head-coach",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2023.",
+  "image": {
+    "file": "File:Sean Payton 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sean_Payton_2021.jpg/1280px-Sean_Payton_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sean_Payton_2021.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Sean Payton",
+    "caption": "Sean Payton",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 2, 1960, Sealy, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Player of the Year (1986)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1983)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× UPI NFC Offensive Player of the Year (1983, 1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1983, 1984, 1986–1988)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1983, 1984, 1986–1989)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL rushing yards leader (1983, 1984, 1986, 1988)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns co-leader (1984)",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Eric Dickerson",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Eric Dickerson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 1983,
+      "to": 1987,
+      "source": "https://en.wikipedia.org/wiki/Eric_Dickerson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back who set the single-season rushing record in 1984.",
+  "image": {
+    "file": "File:Eric Dickerson.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eric_Dickerson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eric_Dickerson.jpg",
+    "author": "Master Sgt. Cohen A. Young",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Eric Dickerson",
+    "caption": "Eric Dickerson",
+    "licenseChecked": "2026-11-05"
+  }
+}

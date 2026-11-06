@@ -442,3 +442,107 @@ soft shading; the sponsor is written under it as text (no sponsor logos are draw
 4. **Hand-researched kits kept**: Orlando Magic and Los Angeles Lakers (NBA.com sources); Orlando City (Wikipedia).
 5. **FC Dallas**: Wikipedia gives only full-colour pattern images, so its colours were read from the images (red and navy hoops; ice-blue alternate). **Gaps**: some MLS clubs show one or two kits where
    Wikipedia lists only those. Colour names in the descriptions are computed from the colours and may be approximate.
+
+# NFL skeleton and lot 1: Chiefs, Eagles, Seahawks, Cowboys, Packers, Patriots, Steelers
+
+Date: 2026-11-07. Branch `nfl`. Lean format, like MLS.
+
+## Things to check
+
+1. **Super Bowls only**: the 60 Super Bowls (I, 1966 season, to LX, 2025 season) are stored; NFL titles before 1966
+   (e.g. the Packers' nine, the Eagles' three) are mentioned in the texts but not counted in the title totals.
+2. **Seasons** are stored by the year the season began (Super Bowl LX = 2025 season, played in February 2026).
+3. **Sources**: Wikipedia team pages, the current stadiums list, the current head coaches list and each player's
+   infobox (years with the team, position, birth, highlights as honours, photo). NFL.com for logos.
+4. **Core players** are well-known current starters chosen from the team pages and confirmed as "present" in their
+   infoboxes; there is no single official list like MLS's Designated Players.
+5. **Seahawks owner**: a group led by Vinod Khosla completed its purchase on September 3, 2026 (Wikipedia).
+6. **No uniform drawings yet** for the NFL: the drawing has only basketball and soccer shapes.
+7. **Photos**: no free photo found for Derrick Thomas and Art Rooney (their infobox images are not on Commons).
+
+# NFL lot 2: 49ers, Rams, Giants, Bears, Raiders, Broncos, Dolphins
+
+Date: 2026-11-06. Branch `nfl`. Same lean format and sources as lot 1.
+
+## Things to check
+
+1. **New this year (from Wikipedia)**: John Harbaugh (Giants), Klint Kubiak (Raiders) and Jeff Hafley (Dolphins) are
+   new head coaches for 2026; the Raiders drafted Fernando Mendoza first overall; the Rams traded for Myles Garrett and
+   Trent McDuffie, and Aaron Donald came back; the Dolphins released Tua Tagovailoa and traded Jaylen Waddle to Denver.
+2. **Dolphins core players**: only De'Von Achane is listed, because he is the only well-known starter confirmed as
+   current in his infobox after the 2026 departures.
+3. **Coaches' years** for Bill Walsh, John Madden, Al Davis, Bill Parcells, Don Shula, George Halas and Mike Ditka were
+   entered by hand (their infoboxes use a format the parser does not read). Halas has founder, player and four coaching spells.
+4. **Identities**: the Rams (Cleveland, Los Angeles, St. Louis, Los Angeles) and Raiders (Oakland, Los Angeles,
+   Oakland, Las Vegas) each have four. The Bears' first season as the Decatur Staleys (1920) is in the text only.
+5. **Allegiant Stadium** is filed under the new Las Vegas city page; the text says it is in Paradise, next to the Strip.
+   New cities: Santa Clara, Las Vegas, Miami Gardens. New venues: Levi's, SoFi, MetLife, Allegiant, Empower Field,
+   Hard Rock. Soldier Field gained an American-football capacity.
+6. **European games** come from the NFL International Series article (London, Munich, Frankfurt, Madrid).
+7. **Photos**: none for Gene Upshaw and Al Davis (not on Commons), Abdul Carter and Von Miller (no infobox image), or Dan
+   Marino (the Commons file has no author, so the CC BY-SA credit cannot be given).
+
+# Site-wide fixes after the NFL lot 2 review (2026-11-06)
+
+Reported by the user: Miami and Denver city pages missed their NFL stadiums, two "Kansas City" pages, FC Dallas missing
+from Dallas. Fixed at the root, plus the other problems found by a full audit:
+
+1. **City areas**: cities can name a `hub`. Suburbs and stadium towns now feed their main city's page (Frisco and
+   Arlington → Dallas; Commerce City → Denver; Miami Gardens and Fort Lauderdale → Miami; Kansas City, Kansas → Kansas City;
+   Foxborough → Boston; East Rutherford, Harrison, Uniondale → New York; Inglewood, Carson → Los Angeles; Chester →
+   Philadelphia; Sandy → Salt Lake City; Santa Clara → San Francisco; Saint Paul → Minneapolis). The suburb page says
+   which area it belongs to. The Cities list counts whole areas.
+2. **City pages**: renamed teams ("Denver Rockets", "Dallas Burn", "MetroStars") moved from "Teams that left" to a new
+   "Earlier names" list; titles are counted per name (the Rockets no longer show the Nuggets' 2023 title); "then moved
+   to..." links now work when the next name starts the year after; empty stats hidden; singular/plural fixed.
+3. **City texts**: 28 city summaries and texts were still NBA-only (e.g. Kansas City "Home of the Kings", Seattle only
+   about the SuperSonics, Oakland with no text). Rewritten to cover every league, from the data.
+4. **Glossary**: playoffs, MVP, Hall of Fame, player-coach, salary cap, trade, free agency and expansion team had
+   NBA-only definitions shown on NFL and MLS pages. Short definitions made league-neutral, plus an NFL/MLS paragraph.
+5. **Photo captions**: 33 captions cut off mid-sentence (e.g. "with the Boston Celtics in") replaced; no double full
+   stop after names ending in "Jr.".
+6. **Team colours**: navy and black team colours were invisible on the dark background (labels, lines). A readable
+   team colour is now picked for text and lines.
+7. **Team pages**: Super Bowl rows name the game ("Super Bowl VI (1971 season)"), so they match the timeline year.
+8. **Other**: Kevin Durant marked active; empty NFL divisions say "Teams coming soon"; home page no longer says "tip-off".
+
+# NFL lot 3: Bills, Jets, Ravens, Bengals, Browns, Chargers
+
+Date: 2026-11-06. Branch `nfl`. Same lean format and sources. AFC East and AFC North are now complete.
+
+## Things to check
+
+1. **Browns and Ravens**: the Browns have one identity from 1946; the 1996–1998 gap (players moved to Baltimore) is in
+   the founding note and the text. The Ravens start in 1996 with no Browns history, as the NFL ruled.
+2. **New coaches for 2026**: Joe Brady (Bills), Jesse Minter (Ravens), Todd Monken (Browns). John Harbaugh now has
+   both his Ravens (2008–2025) and Giants roles; Jim Harbaugh and Aaron Glenn have player and coach roles.
+3. **Pre-Super Bowl titles** (Browns' four AAFC and four NFL titles; AFL titles of the Bills, Jets and Chargers) are in
+   the texts only, as for the other teams.
+4. **New**: Orchard Park (part of the Buffalo area) and four stadiums: Highmark Stadium (the new one, 2026), M&T Bank
+   Stadium, Paycor Stadium, Huntington Bank Field. City texts for Buffalo, Baltimore, Cincinnati, Cleveland, San Diego,
+   Los Angeles and New York updated.
+5. **Photos**: none for Joe Klecko (the only free photo shows two people).
+6. **Fix**: "have not won an Super Bowl title" is now "a Super Bowl title" ("an NBA title", "an MLS Cup" unchanged).
+
+# NFL lot 4: Texans, Colts, Jaguars, Titans, Commanders, Cardinals
+
+Date: 2026-11-06. Branch `nfl`. AFC South, NFC East and NFC West are now complete (26 of 32 teams).
+
+## Things to check
+
+1. **Players who left in 2026** (from their infoboxes) are not listed as core players: Kyler Murray (now Vikings),
+   Marvin Harrison Jr. (Texans), Quenton Nelson (Seahawks), Jeffery Simmons (Bears). The Cardinals' core is therefore
+   short (Trey McBride, Budda Baker).
+2. **Identities**: Colts (Baltimore 1953–1983, Indianapolis); Titans (Houston Oilers, Tennessee Oilers in Memphis in
+   1997 and Nashville in 1998, Titans from 1999); Washington (Boston Braves and Redskins, Washington Redskins
+   1937–2019, Washington Football Team, Commanders from 2022); Cardinals (Racine and Chicago Cardinals 1920–1959,
+   St. Louis, Phoenix, Arizona). The Cardinals' 1898 founding as an amateur club is in the founding note.
+3. **Coaches by hand**: Tony Dungy, Weeb Ewbank and Don Shula (Colts), Tom Coughlin, Jeff Fisher, Joe Gibbs (two spells).
+4. **New**: Jacksonville, Landover (Washington area), Glendale (Phoenix area) and six stadiums. City texts updated for
+   Houston, Indianapolis, Nashville, Memphis, Washington, Phoenix, St. Louis and Chicago.
+5. **European games**: Wikipedia's International Series table is inconsistent for 2026 (a Colts–Commanders game at
+   Wembley appears in the list but not in the Colts' totals). The game is mentioned on both pages; please confirm.
+6. **Photos**: none for Johnny Unitas (Commons file has no author), Bruce Matthews (photo with his brother), Tony Boselli,
+   Jimmy Smith (no infobox photo).
+7. **Generator fix**: a person who still has a current role at another club now stays "active" (Derrick Henry had
+   been marked historical when his Titans years were added).

@@ -12,6 +12,7 @@
   "region": "New York",
   "country": "United States",
   "timezone": "America/New_York",
+  "metro": "New York metropolitan area",
   "summary": "Long Island home of the New York Nets in the 1970s, when they won two ABA titles.",
   "coordinates": {
     "value": {
@@ -32,5 +33,6 @@
     "alt": "View of Uniondale and Nassau Coliseum",
     "caption": "Uniondale and Nassau Coliseum",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "hub": "new-york"
 }

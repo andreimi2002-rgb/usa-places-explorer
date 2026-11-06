@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 14, 1997, Oxford, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2020)",
+      "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2020, 2023)",
+      "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "DK Metcalf",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "DK Metcalf (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/DK_Metcalf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver, with the Steelers since 2025.",
+  "image": {
+    "file": "File:DKMetcalf2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/DKMetcalf2025.jpg/1280px-DKMetcalf2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DKMetcalf2025.jpg",
+    "author": "Cramerwiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of DK Metcalf",
+    "caption": "DK Metcalf",
+    "licenseChecked": "2026-11-05"
+  }
+}

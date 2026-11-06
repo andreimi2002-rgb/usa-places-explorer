@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 21, 1966, West Covina, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXVII (1992 season), XXVIII (1993 season), XXX (1995 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXVII, XXVIII, XXX)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXVII)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1997)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1991–1996)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (1993)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1989)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Dallas Cowboys Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1985)",
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Troy Aikman",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Troy Aikman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 1989,
+      "to": 2000,
+      "source": "https://en.wikipedia.org/wiki/Troy_Aikman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of three Super Bowl wins in the 1990s.",
+  "image": {
+    "file": "File:Troy aikman 2011 cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Troy_aikman_2011_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Troy_aikman_2011_cropped.jpg",
+    "author": "Leahdi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Troy Aikman",
+    "caption": "Troy Aikman",
+    "licenseChecked": "2026-11-05"
+  }
+}

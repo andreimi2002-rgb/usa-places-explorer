@@ -1,0 +1,179 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Green Bay Packers",
+  "division": "nfl-nfc-north",
+  "founded": {
+    "value": 1919,
+    "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+    "verified": "2026-11-06",
+    "note": "Founded August 11, 1919, by Curly Lambeau and George Whitney Calhoun."
+  },
+  "firstSeason": {
+    "value": "1919",
+    "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Green Bay Packers, Inc.: a non-profit owned by its fans’ shares",
+    "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Matt LaFleur",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "lambeau-field",
+      "from": 1957,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "bart-starr",
+    "brett-favre",
+    "aaron-rodgers",
+    "reggie-white",
+    "ray-nitschke",
+    "vince-lombardi"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/green-bay-packers/roster",
+    "players": [
+      {
+        "person": "jordan-love",
+        "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "micah-parsons",
+        "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "josh-jacobs",
+        "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1919-08-11",
+      "label": "Founded in Green Bay",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1957",
+      "label": "Open Lambeau Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1959-02-02",
+      "label": "Hire Vince Lombardi",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1967",
+      "label": "Win Super Bowl I",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1968",
+      "label": "Win Super Bowl II",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1992",
+      "label": "Acquire Brett Favre",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Win Super Bowl XXXI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Win Super Bowl XLV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The fan-owned club from America’s smallest major-league city: 13 league titles, including the first two Super Bowls.",
+  "sources": [
+    {
+      "title": "Green Bay Packers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/GB.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/green-bay-packers.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/GB.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Dark green",
+        "hex": "#203731"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFB612"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Lambeau Field from Titletown.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lambeau_Field_from_Titletown.jpg/1280px-Lambeau_Field_from_Titletown.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lambeau_Field_from_Titletown.jpg",
+    "author": "Gonzo fan2007",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lambeau Field",
+    "caption": "Lambeau Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

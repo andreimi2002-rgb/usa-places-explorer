@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 28, 2003, Lafayette, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2024)",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2024)",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2023)",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-SEC (2023)",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most games with 5 or more receptions by a rookie: 14 games",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Youngest WR with multiple touchdowns in a game: 21 years and 56 days",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most targets by a rookie in a season",
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Malik Nabers",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Malik Nabers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Malik_Nabers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver drafted in 2024.",
+  "image": {
+    "file": "File:Malik Nabers Giants week 1 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Malik_Nabers_Giants_week_1_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Malik_Nabers_Giants_week_1_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Malik Nabers",
+    "caption": "Malik Nabers",
+    "licenseChecked": "2026-11-05"
+  }
+}

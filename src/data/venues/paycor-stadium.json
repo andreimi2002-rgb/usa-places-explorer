@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Paycor Stadium",
+  "city": "cincinnati",
+  "opened": {
+    "value": "2000",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 65515,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Bengals’ riverside stadium since 2000, opened as Paul Brown Stadium.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Paul Brown Stadium interior 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paul_Brown_Stadium_interior_2017.jpg/1280px-Paul_Brown_Stadium_interior_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Brown_Stadium_interior_2017.jpg",
+    "author": "JonRidinger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Inside Paycor Stadium, 2017",
+    "caption": "Inside Paycor Stadium, 2017",
+    "licenseChecked": "2026-11-05"
+  }
+}

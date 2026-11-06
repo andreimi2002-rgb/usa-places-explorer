@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 7, 1988, Tampa, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LVI (2021 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LVI)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (2025)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2011)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2014, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2008)",
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Matthew Stafford",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Matthew Stafford (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Matthew_Stafford",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl LVI win and 2025 MVP.",
+  "image": {
+    "file": "File:Stafford 6 731 (cropped3).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Stafford_6_731_%28cropped3%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stafford_6_731_(cropped3).jpg",
+    "author": "Sewageboy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Matthew Stafford",
+    "caption": "Matthew Stafford",
+    "licenseChecked": "2026-11-05"
+  }
+}

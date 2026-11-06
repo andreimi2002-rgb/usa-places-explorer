@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1981",
+  "level": "league",
+  "title": "Super Bowl XVI",
+  "winner": "san-francisco-49ers",
+  "runnerUp": "cincinnati-bengals",
+  "winnerName": "San Francisco 49ers",
+  "runnerUpName": "Cincinnati Bengals",
+  "result": "26–21",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

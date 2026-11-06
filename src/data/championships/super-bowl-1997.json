@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1997",
+  "level": "league",
+  "title": "Super Bowl XXXII",
+  "winner": "denver-broncos",
+  "runnerUp": "green-bay-packers",
+  "winnerName": "Denver Broncos",
+  "runnerUpName": "Green Bay Packers",
+  "result": "31–24",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1975",
+  "level": "league",
+  "title": "Super Bowl X",
+  "winner": "pittsburgh-steelers",
+  "runnerUp": "dallas-cowboys",
+  "winnerName": "Pittsburgh Steelers",
+  "runnerUpName": "Dallas Cowboys",
+  "result": "21–17",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

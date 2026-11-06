@@ -37,7 +37,6 @@ const cities = new Map((await getCollection('cities')).map((c) => [c.id, c]));
 const venuesAll = await getCollection('venues');
 const championships = (await getCollection('championships', (c) => c.data.level === 'league' && Boolean(c.data.verified) && Boolean(c.data.winner)));
 
-/** Titles a franchise won while it played in this city, using the identity's years. */
 /** The calendar year a season ends in: "1994-95" -> 1995, "2025" -> 2025. */
 const endYear = (season: string) => Number(season.slice(0, 4)) + (season.length > 4 ? 1 : 0);
 function titlesHere(franchiseId: string) {
@@ -51,7 +50,7 @@ function titlesHere(franchiseId: string) {
         ids.some(
           (i) =>
             i.data.name.replace(/ \(.*\)$/, '') === c.data.winnerName &&
-            endYear(c.data.season) > (i.data.from?.value ?? 0) &&
+            Number(c.data.season.slice(0, 4)) >= (i.data.from?.value ?? 0) &&
             endYear(c.data.season) <= (i.data.to ?? 9999),
         ),
     )

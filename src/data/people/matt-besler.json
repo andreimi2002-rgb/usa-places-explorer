@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q166558",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 11, 1987, Overland Park",
+      "source": "https://www.wikidata.org/wiki/Q166558",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2013",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Matt Besler",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Matt_Besler",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Matt Besler (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matt_Besler",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Matt Besler (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q166558",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 2009,
+      "to": 2020,
+      "source": "https://en.wikipedia.org/wiki/Matt_Besler",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Centre-back, Defender of the Year in 2012 and a champion in 2013.",
+  "image": {
+    "file": "File:Matt Besler (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Matt_Besler_%28cropped%29.jpg/1280px-Matt_Besler_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matt_Besler_(cropped).jpg",
+    "author": "Frenchieinportland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Matt Besler",
+    "caption": "Matt Besler",
+    "licenseChecked": "2026-11-05"
+  }
+}

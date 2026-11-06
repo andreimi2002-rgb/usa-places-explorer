@@ -1,0 +1,173 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Real Salt Lake",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2004,
+    "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+    "verified": "2026-11-06",
+    "note": "Franchise awarded July 14, 2004."
+  },
+  "firstSeason": {
+    "value": "2005",
+    "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Miller Sports + Entertainment (Gail Miller), since April 2025",
+    "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Pablo Mastroeni",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "america-first-field",
+      "from": 2008,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "kyle-beckerman",
+    "nick-rimando",
+    "javier-morales",
+    "jason-kreis"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/real-salt-lake/",
+    "players": [
+      {
+        "person": "rafael-cabral",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "justen-glad",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "morgan-guilavogui",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2005",
+      "label": "First season; Jason Kreis scores the club’s first goal",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2007-05",
+      "label": "Jason Kreis retires as a player to become coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008-10-09",
+      "label": "Open the stadium in Sandy",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2009",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Reach the CONCACAF Champions League final",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "Reach the MLS Cup final, lost on penalties",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Utah’s club, champion in 2009 and led for over a decade by Kyle Beckerman and Nick Rimando.",
+  "sources": [
+    {
+      "title": "Real Salt Lake (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/RSL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/real-salt-lake.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/RSL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Claret",
+        "hex": "#A32035"
+      },
+      {
+        "name": "Navy",
+        "hex": "#001E61"
+      },
+      {
+        "name": "Gold",
+        "hex": "#DAA900"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/RSL.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Rio Tinto Stadium panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rio_Tinto_Stadium_panorama.jpg/1280px-Rio_Tinto_Stadium_panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Tinto_Stadium_panorama.jpg",
+    "author": "Scott Catron",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of America First Field (then Rio Tinto Stadium)",
+    "caption": "America First Field (then Rio Tinto Stadium)",
+    "licenseChecked": "2026-11-05"
+  }
+}

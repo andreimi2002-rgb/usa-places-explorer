@@ -1,0 +1,37 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Mexico",
+      "source": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc_Blanco",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Cuauhtémoc Blanco",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc_Blanco",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Cuauhtémoc Blanco (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc_Blanco",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2007,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc_Blanco",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Mexico’s great forward, a Designated Player in Chicago from 2007 to 2009."
+}

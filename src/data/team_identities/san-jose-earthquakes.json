@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "san-jose-earthquakes",
+  "name": "San Jose Earthquakes",
+  "city": "san-jose",
+  "from": {
+    "value": 2008,
+    "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

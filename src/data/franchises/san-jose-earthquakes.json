@@ -1,0 +1,192 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "San Jose Earthquakes",
+  "conference": "mls-western",
+  "founded": {
+    "value": 1994,
+    "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+    "verified": "2026-11-06",
+    "note": "Founded June 15, 1994; a charter member of MLS."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "John Fisher (majority owner)",
+    "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+    "verified": "2026-11-06",
+    "note": "Put the club up for sale in June 2025."
+  },
+  "headCoach": {
+    "name": "Bruce Arena",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "paypal-park",
+      "from": 2015,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "chris-wondolowski",
+    "landon-donovan",
+    "dwayne-de-rosario"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/san-jose-earthquakes/",
+    "players": [
+      {
+        "person": "ronaldo-vieira",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "timo-werner",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996-04-06",
+      "label": "Win MLS’s first ever match, 1–0 against D.C. United, as the San Jose Clash",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1999-10-27",
+      "label": "Become the Earthquakes",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2001",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2003",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2005",
+      "label": "Win the Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "The team moves to Houston; San Jose keeps the name and history",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Return to MLS as a new club with the old history",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Win a second Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Open PayPal Park",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019-05-18",
+      "label": "Chris Wondolowski becomes MLS’s all-time top scorer",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A founding club, champion in 2001 and 2003, that left for two years and came back with its history.",
+  "sources": [
+    {
+      "title": "San Jose Earthquakes (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/SJ.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/san-jose-earthquakes.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SJ.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#003DA6"
+      },
+      {
+        "name": "Grey",
+        "hex": "#54565A"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SJ.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Avaya Stadium, 1-7-15.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Avaya_Stadium%2C_1-7-15.jpg/1280px-Avaya_Stadium%2C_1-7-15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avaya_Stadium,_1-7-15.jpg",
+    "author": "Jbburgess0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of PayPal Park (then Avaya Stadium)",
+    "caption": "PayPal Park (then Avaya Stadium)",
+    "licenseChecked": "2026-11-05"
+  }
+}

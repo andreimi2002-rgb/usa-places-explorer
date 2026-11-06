@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q890635",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 8, 1981, St. Charles",
+      "source": "https://www.wikidata.org/wiki/Q890635",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2006, 2007",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Brad Davis",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Brad_Davis_(soccer)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brad Davis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brad_Davis_(soccer)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Brad Davis (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q890635",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-dynamo-fc",
+      "role": "player",
+      "from": 2006,
+      "to": 2015,
+      "source": "https://en.wikipedia.org/wiki/Brad_Davis_(soccer)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Left-footed midfielder, a Dynamo from the first season to 2015.",
+  "image": {
+    "file": "File:Brad Davis - Houston Dynamo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Brad_Davis_-_Houston_Dynamo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brad_Davis_-_Houston_Dynamo.jpg",
+    "author": "wjarrettc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Brad Davis",
+    "caption": "Brad Davis",
+    "licenseChecked": "2026-11-05"
+  }
+}

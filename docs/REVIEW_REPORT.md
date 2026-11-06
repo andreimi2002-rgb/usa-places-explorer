@@ -348,3 +348,23 @@ Date: 2026-11-07. Same sources and method as lot 1.
 4. **Providence Park** opening year (1926) not stored: the Timbers page does not give it.
 5. **Photos**: Ben Olsen's only photo is a general match scene and was not used; no Harrison city photo yet.
 6. **Champions label** in the Finals table is now gold on every team page (it was invisible for black team colours).
+
+# MLS lot 3: Chicago Fire, FC Dallas, Houston Dynamo, Sporting Kansas City, Real Salt Lake, San Jose Earthquakes
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Few core players** at some clubs: several Designated Players on MLS's May list left during 2026 (Hugo Cuypers,
+   Ezequiel Ponce, Dejan Joveljić, Manu García), so Chicago, Dallas and San Jose show two and Kansas City one.
+2. **San Jose and Houston**: the 2006 move is modelled as MLS treats it: the Earthquakes keep the 1996–2005 history and
+   titles (identities: Clash 1996–1999, Earthquakes 2000–2005 and since 2008); Houston starts in 2006.
+3. **Renames**: Dallas Burn → FC Dallas (2005), Kansas City Wiz/Wizards → Sporting Kansas City (2011), Chicago Fire →
+   Chicago Fire FC (2020), Houston Dynamo → Houston Dynamo FC (2020).
+4. **Sporting Kansas City's stadium** is shown as "Sporting Park", the name in the 2026 season table; it was also called
+   Children's Mercy Park.
+5. **Jack Elliott** (Chicago captain) and **Javier Morales** have no Wikipedia page of their own; their years come from
+   the club pages and Wikidata.
+6. **City title counts fixed**: for calendar-year seasons, a title won in a club's first season (D.C. United 1996,
+   Chicago 1998, Houston 2006) was not counted on the city page. NBA counts are unchanged.
+7. **No city photo** yet for Frisco and Sandy (only city-hall pictures found).

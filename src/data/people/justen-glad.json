@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q19818481",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 28, 1997, Pasadena",
+      "source": "https://www.wikidata.org/wiki/Q19818481",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Justen Glad",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Justen_Glad",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Justen Glad (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Justen_Glad",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Justen Glad (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q19818481",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2014,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Justen_Glad",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Centre-back, with the club since 2014.",
+  "image": {
+    "file": "File:Justen Thomas Glad.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Justen_Thomas_Glad.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Justen_Thomas_Glad.jpg",
+    "author": "Ray Terrill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Justen Glad",
+    "caption": "Justen Glad",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "houston-dynamo-fc",
+  "name": "Houston Dynamo",
+  "city": "houston",
+  "from": {
+    "value": 2006,
+    "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+    "verified": "2026-11-06"
+  },
+  "to": 2019,
+  "current": false
+}

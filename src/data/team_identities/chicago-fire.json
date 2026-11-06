@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "chicago-fire-fc",
+  "name": "Chicago Fire",
+  "city": "chicago",
+  "from": {
+    "value": 1998,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+    "verified": "2026-11-06"
+  },
+  "to": 2019,
+  "current": false
+}

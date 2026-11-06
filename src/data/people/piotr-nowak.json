@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Poland",
+      "source": "https://www.wikidata.org/wiki/Q205351",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 5, 1964, Pabianice",
+      "source": "https://www.wikidata.org/wiki/Q205351",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "1998",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (1998)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Piotr Nowak",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Piotr_Nowak",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Piotr Nowak (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Piotr_Nowak",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Piotr Nowak (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q205351",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 1998,
+      "to": 2002,
+      "source": "https://en.wikipedia.org/wiki/Piotr_Nowak",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Polish playmaker and MLS Cup MVP of the 1998 champions.",
+  "image": {
+    "file": "File:2011-06-18 Piotr-Nowak.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/2011-06-18_Piotr-Nowak.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2011-06-18_Piotr-Nowak.jpg",
+    "author": "Wwongbc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Piotr Nowak",
+    "caption": "Piotr Nowak",
+    "licenseChecked": "2026-11-05"
+  }
+}

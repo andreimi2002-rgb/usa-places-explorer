@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Poland",
+      "source": "https://www.wikidata.org/wiki/Q60675667",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 22, 2001, Ruda Śląska",
+      "source": "https://www.wikidata.org/wiki/Q60675667",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Mateusz Bogusz",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Mateusz_Bogusz",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mateusz Bogusz (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mateusz_Bogusz",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Mateusz Bogusz (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q60675667",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-dynamo-fc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Mateusz_Bogusz",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Polish international playmaker, a Designated Player since 2026.",
+  "image": {
+    "file": "File:Mateusz Bogusz at Timbers v Dynamo 1 November 2026 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mateusz_Bogusz_at_Timbers_v_Dynamo_1_November_2026_02.jpg/1280px-Mateusz_Bogusz_at_Timbers_v_Dynamo_1_November_2026_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mateusz_Bogusz_at_Timbers_v_Dynamo_1_November_2026_02.jpg",
+    "author": "Joe Peacock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Mateusz Bogusz",
+    "caption": "Mateusz Bogusz",
+    "licenseChecked": "2026-11-05"
+  }
+}

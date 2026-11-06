@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Germany",
+      "source": "https://www.wikidata.org/wiki/Q44298",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 1, 1984, Kolbermoor",
+      "source": "https://www.wikidata.org/wiki/Q44298",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Bastian Schweinsteiger",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bastian Schweinsteiger (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Bastian Schweinsteiger (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q44298",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2017,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Germany’s 2014 World Cup winner, who finished his career with the Fire.",
+  "image": {
+    "file": "File:Re-publica 23 - Tag 3 (52957826298) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg/1280px-Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Re-publica_23_-_Tag_3_(52957826298)_(cropped).jpg",
+    "author": "Anne Barth / re:publica",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Bastian Schweinsteiger",
+    "caption": "Bastian Schweinsteiger",
+    "licenseChecked": "2026-11-05"
+  }
+}

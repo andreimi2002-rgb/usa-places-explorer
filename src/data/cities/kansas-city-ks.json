@@ -1,0 +1,26 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Kansas City",
+  "region": "Kansas",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "metro": "Kansas City metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 39.11417,
+      "lon": -94.62746
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Kansas%20City&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "The Kansas half of the Kansas City area, home of Sporting Kansas City’s stadium since 2011."
+}

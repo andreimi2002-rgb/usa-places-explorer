@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q464739",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 24, 1978, Haleiwa",
+      "source": "https://www.wikidata.org/wiki/Q464739",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2006, 2007",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (2006)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brian Ching",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Brian_Ching",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brian Ching (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brian_Ching",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Brian Ching (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q464739",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-dynamo-fc",
+      "role": "player",
+      "from": 2006,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Brian_Ching",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Hawaiian-born striker, MLS Cup MVP of the Dynamo’s first title in 2006.",
+  "image": {
+    "file": "File:Brian Ching Testimonial Match Speaking After The Game (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Brian_Ching_Testimonial_Match_Speaking_After_The_Game_%28cropped%29.JPG/1280px-Brian_Ching_Testimonial_Match_Speaking_After_The_Game_%28cropped%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Brian_Ching_Testimonial_Match_Speaking_After_The_Game_(cropped).JPG",
+    "author": "Greatness21",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Brian Ching",
+    "caption": "Brian Ching",
+    "licenseChecked": "2026-11-05"
+  }
+}

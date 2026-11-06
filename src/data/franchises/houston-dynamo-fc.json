@@ -1,0 +1,175 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Houston Dynamo FC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2005,
+    "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+    "verified": "2026-11-06",
+    "note": "Founded December 15, 2005, when MLS moved the San Jose team’s players and staff to Houston."
+  },
+  "firstSeason": {
+    "value": "2006",
+    "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Ted Segal (majority owner since 2021)",
+    "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Ben Olsen",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "shell-energy-stadium",
+      "from": 2012,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "brian-ching",
+    "dwayne-de-rosario",
+    "brad-davis"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/houston-dynamo-fc/",
+    "players": [
+      {
+        "person": "artur",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "mateusz-bogusz",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "guilherme",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2005-12-15",
+      "label": "The San Jose team’s players and staff move to Houston",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "First season, coached by Dominic Kinnear",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2007",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Move into a new downtown stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Win the U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Win a second U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Champions in their first two seasons, 2006 and 2007, with a team that had moved from San Jose.",
+  "sources": [
+    {
+      "title": "Houston Dynamo FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/HOU.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/houston-dynamo-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/HOU.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Orange",
+        "hex": "#FF6B00"
+      },
+      {
+        "name": "Black",
+        "hex": "#101820"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/HOU.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Shell Energy Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Shell_Energy_Stadium.jpg/1280px-Shell_Energy_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shell_Energy_Stadium.jpg",
+    "author": "HDFC PR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Shell Energy Stadium",
+    "caption": "Shell Energy Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q29415000",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 25, 1995, London",
+      "source": "https://www.wikidata.org/wiki/Q29415000",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jack Elliott",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jack Elliott (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jack Elliott (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q29415000",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "English centre-back and the Fire’s captain.",
+  "image": {
+    "file": "File:Jack Elliott NYCFC v Chicago 25 July 2026-222.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Jack_Elliott_NYCFC_v_Chicago_25_July_2026-222.jpg/1280px-Jack_Elliott_NYCFC_v_Chicago_25_July_2026-222.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jack_Elliott_NYCFC_v_Chicago_25_July_2026-222.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jack Elliott",
+    "caption": "Jack Elliott",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q2469430",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 10, 1980, Buenos Aires",
+      "source": "https://www.wikidata.org/wiki/Q2469430",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2009",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Javier Morales",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Javier Morales (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Javier Morales (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2469430",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2007,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine playmaker of the 2009 champions.",
+  "image": {
+    "file": "File:Javier Morales.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Javier_Morales.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Javier_Morales.jpg",
+    "author": "Leon7",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Javier Morales",
+    "caption": "Javier Morales",
+    "licenseChecked": "2026-11-05"
+  }
+}

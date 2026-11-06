@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Ivory Coast",
+      "source": "https://www.wikidata.org/wiki/Q18921387",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 26, 1996, Alfortville",
+      "source": "https://www.wikidata.org/wiki/Q18921387",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jonathan Bamba",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Jonathan_Bamba",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jonathan Bamba (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Bamba",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jonathan Bamba (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q18921387",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Bamba",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Ivory Coast international winger and Designated Player since 2025.",
+  "image": {
+    "file": "File:Jonathan Bamba Philadelphia Chicago 10.26.25-002 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jonathan_Bamba_Philadelphia_Chicago_10.26.25-002_%28cropped%29.jpg/1280px-Jonathan_Bamba_Philadelphia_Chicago_10.26.25-002_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Bamba_Philadelphia_Chicago_10.26.25-002_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jonathan Bamba",
+    "caption": "Jonathan Bamba",
+    "licenseChecked": "2026-11-05"
+  }
+}

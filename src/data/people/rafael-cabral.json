@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q615668",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 20, 1990, Sorocaba",
+      "source": "https://www.wikidata.org/wiki/Q615668",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Rafael Cabral",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Rafael_Cabral",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rafael Cabral (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rafael_Cabral",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Rafael Cabral (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q615668",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Rafael_Cabral",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian goalkeeper and Real Salt Lake’s captain.",
+  "image": {
+    "file": "File:Naples vs Barcelone - Genève - aout 2014 - Rafael Cabral.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Naples_vs_Barcelone_-_Gen%C3%A8ve_-_aout_2014_-_Rafael_Cabral.jpg/1280px-Naples_vs_Barcelone_-_Gen%C3%A8ve_-_aout_2014_-_Rafael_Cabral.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naples_vs_Barcelone_-_Gen%C3%A8ve_-_aout_2014_-_Rafael_Cabral.jpg",
+    "author": "Ludovic Péron",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Rafael Cabral",
+    "caption": "Rafael Cabral",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Chicago Fire FC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 1997,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+    "verified": "2026-11-06",
+    "note": "Founded October 8, 1997, the 126th anniversary of the Great Chicago Fire."
+  },
+  "firstSeason": {
+    "value": "1998",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Joe Mansueto (sole owner since 2019)",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Gregg Berhalter",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "soldier-field",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "piotr-nowak",
+    "chris-armas",
+    "cuauhtemoc-blanco",
+    "bastian-schweinsteiger"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/chicago-fire-fc/",
+    "players": [
+      {
+        "person": "jack-elliott",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "jonathan-bamba",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1998",
+      "label": "First season: win the MLS Cup and U.S. Open Cup double",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1998",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2003",
+      "label": "Win the Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "Move to a new stadium in suburban Bridgeview",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Sign Bastian Schweinsteiger",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Return to Soldier Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Champions in their very first season, 1998, when they won the MLS Cup and U.S. Open Cup double.",
+  "sources": [
+    {
+      "title": "Chicago Fire FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/CHI.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/chicago-fire-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CHI.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Navy",
+        "hex": "#141946"
+      },
+      {
+        "name": "Light blue",
+        "hex": "#7CCDEF"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CHI.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Soldier Field- Chicago (5392940417).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Soldier_Field-_Chicago_%285392940417%29.jpg/1280px-Soldier_Field-_Chicago_%285392940417%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soldier_Field-_Chicago_(5392940417).jpg",
+    "author": "Loco Steve from Bromley , UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Soldier Field",
+    "caption": "Soldier Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

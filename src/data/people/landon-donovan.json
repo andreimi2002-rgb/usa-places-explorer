@@ -71,12 +71,20 @@
       "accessed": "2026-11-06"
     },
     {
-      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
-      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "title": "San Jose Earthquakes (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
       "accessed": "2026-11-06"
     }
   ],
   "roles": [
+    {
+      "franchise": "san-jose-earthquakes",
+      "role": "player",
+      "from": 2001,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Landon_Donovan",
+      "verified": "2026-11-06"
+    },
     {
       "franchise": "la-galaxy",
       "role": "player",

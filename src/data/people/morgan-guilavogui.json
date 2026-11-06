@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Guinea",
+      "source": "https://www.wikidata.org/wiki/Q99485544",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 10, 1998, Ollioules",
+      "source": "https://www.wikidata.org/wiki/Q99485544",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Morgan Guilavogui",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Morgan_Guilavogui",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Morgan Guilavogui (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Morgan_Guilavogui",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Morgan Guilavogui (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q99485544",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Morgan_Guilavogui",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Guinea international forward, signed in 2026.",
+  "image": {
+    "file": "File:Morgan Guilavogui 4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Morgan_Guilavogui_4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Morgan_Guilavogui_4.jpg",
+    "author": "Mamadou Saliou Barry - Fédération Guinéenne de Football",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Morgan Guilavogui",
+    "caption": "Morgan Guilavogui",
+    "licenseChecked": "2026-11-05"
+  }
+}

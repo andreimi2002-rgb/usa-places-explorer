@@ -1,0 +1,173 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Sporting Kansas City",
+  "conference": "mls-western",
+  "founded": {
+    "value": 1995,
+    "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+    "verified": "2026-11-06",
+    "note": "Founded June 6, 1995, by Lamar Hunt, as the Kansas City Wiz."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Sporting Club (majority owner Peter Mallouk since January 2026)",
+    "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Raphaël Wicky",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "sporting-park",
+      "from": 2011,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "preki",
+    "tony-meola",
+    "matt-besler",
+    "graham-zusi"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/sporting-kansas-city/",
+    "players": [
+      {
+        "person": "lasse-berg-johnsen",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996-04-13",
+      "label": "First match, as the Kansas City Wiz",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Become the Kansas City Wizards",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2000",
+      "label": "Win the Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2000",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010-11",
+      "label": "Become Sporting Kansas City",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Move into a new stadium in Kansas City, Kansas",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Win the U.S. Open Cup (also 2004, 2015 and 2017)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Two-time champion, as the Wizards in 2000 and as Sporting in 2013, with a stadium in Kansas.",
+  "sources": [
+    {
+      "title": "Sporting Kansas City (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/SKC.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/sporting-kansas-city.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SKC.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0A2240"
+      },
+      {
+        "name": "Light blue",
+        "hex": "#A6BBD6"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SKC.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Children's Mercy Park Aerial.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Children%27s_Mercy_Park_Aerial.jpg/1280px-Children%27s_Mercy_Park_Aerial.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Children%27s_Mercy_Park_Aerial.jpg",
+    "author": "Lectrician2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Sporting Park",
+    "caption": "Sporting Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

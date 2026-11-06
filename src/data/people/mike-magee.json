@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q2889530",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 2, 1984, Chicago",
+      "source": "https://www.wikidata.org/wiki/Q2889530",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2013)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Mike Magee",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Michael_Magee",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mike Magee (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Michael_Magee",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Mike Magee (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2889530",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 2013,
+      "to": 2015,
+      "source": "https://en.wikipedia.org/wiki/Michael_Magee",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Forward and the 2013 MVP.",
+  "image": {
+    "file": "File:Mike Magee NYRB.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mike_Magee_NYRB.jpg/1280px-Mike_Magee_NYRB.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Magee_NYRB.jpg",
+    "author": "Diego Valenzuela's Photos from Buenos Aires, Argentina",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Mike Magee",
+    "caption": "Mike Magee",
+    "licenseChecked": "2026-11-05"
+  }
+}

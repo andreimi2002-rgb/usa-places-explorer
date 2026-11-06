@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "BBVA Compass Stadium",
+      "from": 2012,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Shell Energy Stadium",
+  "city": "houston",
+  "opened": {
+    "value": "2012",
+    "source": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 22039,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Houston Dynamo FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Dynamo’s downtown Houston stadium since 2012.",
+  "image": {
+    "file": "File:Shell Energy Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Shell_Energy_Stadium.jpg/1280px-Shell_Energy_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shell_Energy_Stadium.jpg",
+    "author": "HDFC PR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Shell Energy Stadium",
+    "caption": "Shell Energy Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

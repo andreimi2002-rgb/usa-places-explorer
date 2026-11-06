@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "San Jose",
+  "region": "California",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "metro": "San Francisco Bay Area",
+  "coordinates": {
+    "value": {
+      "lat": 37.33939,
+      "lon": -121.89496
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=San%20Jose&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "The largest city of Silicon Valley, home of one of MLS’s founding clubs.",
+  "image": {
+    "file": "File:San Jose California Skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/San_Jose_California_Skyline.jpg/1280px-San_Jose_California_Skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Jose_California_Skyline.jpg",
+    "author": "Michael from San Jose, California, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of San Jose",
+    "caption": "San Jose",
+    "licenseChecked": "2026-11-05"
+  }
+}

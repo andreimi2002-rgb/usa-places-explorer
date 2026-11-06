@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q29708",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 18, 1986, Longwood",
+      "source": "https://www.wikidata.org/wiki/Q29708",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2013",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Graham Zusi",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Graham_Zusi",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Graham Zusi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Graham_Zusi",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Graham Zusi (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q29708",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 2009,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Graham_Zusi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Midfielder and right-back for fifteen seasons, the league’s assist leader in 2012.",
+  "image": {
+    "file": "File:Graham Zusi 2022.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Graham_Zusi_2022.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Graham_Zusi_2022.png",
+    "author": "Conman33",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Graham Zusi",
+    "caption": "Graham Zusi",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "Soldier Field",
+  "city": "chicago",
+  "capacity": {
+    "soccer": {
+      "value": 24955,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Chicago Fire FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Chicago’s lakefront NFL stadium, home of the Bears, and of the Fire in 1998–2005 and again since 2020.",
+  "image": {
+    "file": "File:Soldier Field- Chicago (5392940417).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Soldier_Field-_Chicago_%285392940417%29.jpg/1280px-Soldier_Field-_Chicago_%285392940417%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soldier_Field-_Chicago_(5392940417).jpg",
+    "author": "Loco Steve from Bromley , UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Soldier Field",
+    "caption": "Soldier Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

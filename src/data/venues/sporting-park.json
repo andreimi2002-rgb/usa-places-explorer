@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Children’s Mercy Park",
+      "from": 2015,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Sporting Park",
+  "city": "kansas-city-ks",
+  "opened": {
+    "value": "2011",
+    "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 18467,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Sporting Kansas City (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Sporting Kansas City’s stadium in Kansas City, Kansas, since 2011.",
+  "image": {
+    "file": "File:Children's Mercy Park Aerial.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Children%27s_Mercy_Park_Aerial.jpg/1280px-Children%27s_Mercy_Park_Aerial.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Children%27s_Mercy_Park_Aerial.jpg",
+    "author": "Lectrician2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Sporting Park",
+    "caption": "Sporting Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -440,5 +440,5 @@ soft shading; the sponsor is written under it as text (no sponsor logos are draw
    2026 list (February 2026). Portland Trail Blazers' patch is listed as vacant.
 3. **Kit names**: the new 2026 MLS kit of each club gets its official name from MLSsoccer.com's Jersey Week.
 4. **Hand-researched kits kept**: Orlando Magic and Los Angeles Lakers (NBA.com sources); Orlando City (Wikipedia).
-5. **Gaps**: FC Dallas has no kit fields on Wikipedia, so no drawing yet; some MLS clubs show one or two kits where
+5. **FC Dallas**: Wikipedia gives only full-colour pattern images, so its colours were read from the images (red and navy hoops; ice-blue alternate). **Gaps**: some MLS clubs show one or two kits where
    Wikipedia lists only those. Colour names in the descriptions are computed from the colours and may be approximate.

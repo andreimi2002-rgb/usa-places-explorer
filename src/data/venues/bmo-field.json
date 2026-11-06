@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "BMO Field",
+  "city": "toronto",
+  "opened": {
+    "value": "2007",
+    "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 28351,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "sources": [
+    {
+      "title": "Toronto FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Toronto FC’s stadium at Exhibition Place, by Lake Ontario, since the club’s first season in 2007.",
+  "image": {
+    "file": "File:Toronto - ON - BMO Field.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Toronto_-_ON_-_BMO_Field.jpg/1280px-Toronto_-_ON_-_BMO_Field.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_BMO_Field.jpg",
+    "author": "Wladyslaw",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "View of BMO Field",
+    "caption": "BMO Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

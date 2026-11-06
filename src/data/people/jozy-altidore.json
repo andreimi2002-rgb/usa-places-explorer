@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q208619",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 6, 1989, Livingston",
+      "source": "https://www.wikidata.org/wiki/Q208619",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2017",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jozy Altidore",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Jozy_Altidore",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jozy Altidore (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jozy_Altidore",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jozy Altidore (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q208619",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2015,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Jozy_Altidore",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international striker who scored the opener in the 2017 MLS Cup final.",
+  "image": {
+    "file": "File:Jozy Altidore RedBullNY.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jozy_Altidore_RedBullNY.jpg/1280px-Jozy_Altidore_RedBullNY.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jozy_Altidore_RedBullNY.jpg",
+    "author": "Diego Valenzuela",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jozy Altidore",
+    "caption": "Jozy Altidore",
+    "licenseChecked": "2026-11-05"
+  }
+}

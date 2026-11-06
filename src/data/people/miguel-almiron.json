@@ -1,0 +1,78 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Paraguay",
+      "source": "https://www.wikidata.org/wiki/Q16145667",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 10, 1994, Asunción",
+      "source": "https://www.wikidata.org/wiki/Q16145667",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2018",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Miguel Almirón",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Miguel Almirón (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Miguel Almirón (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q16145667",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-united-fc",
+      "role": "player",
+      "from": 2016,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "atlanta-united-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Paraguayan playmaker of the 2018 champions, back from Newcastle as captain since 2025.",
+  "image": {
+    "file": "File:Miguel Almiron France v Paraguay 4 July 2026-025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Miguel_Almiron_France_v_Paraguay_4_July_2026-025.jpg/1280px-Miguel_Almiron_France_v_Paraguay_4_July_2026-025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Miguel_Almiron_France_v_Paraguay_4_July_2026-025.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Miguel Almirón",
+    "caption": "Miguel Almirón",
+    "licenseChecked": "2026-11-05"
+  }
+}

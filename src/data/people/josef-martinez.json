@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Venezuela",
+      "source": "https://www.wikidata.org/wiki/Q2072675",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 19, 1993, Valencia",
+      "source": "https://www.wikidata.org/wiki/Q2072675",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2018",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2018)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Josef Martínez",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Josef Martínez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Josef Martínez (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2072675",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-united-fc",
+      "role": "player",
+      "from": 2017,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Venezuelan striker, 2018 MVP and the goal machine of Atlanta’s title team.",
+  "image": {
+    "file": "File:Josef Martínez Atlanta United 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Josef_Mart%C3%ADnez_Atlanta_United_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Josef_Mart%C3%ADnez_Atlanta_United_2017.jpg",
+    "author": "Delta News Hub",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Josef Martínez",
+    "caption": "Josef Martínez",
+    "licenseChecked": "2026-11-05"
+  }
+}

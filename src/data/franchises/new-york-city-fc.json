@@ -1,0 +1,132 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "New York City FC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2013,
+    "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+    "verified": "2026-11-06",
+    "note": "Founded May 21, 2013."
+  },
+  "firstSeason": {
+    "value": "2015",
+    "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "City Football Group (80%), Marcelo Claure and the New York Yankees’ owners",
+    "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Pascal Jansen",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "yankee-stadium",
+      "from": 2015,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "david-villa",
+    "frank-lampard",
+    "andrea-pirlo",
+    "valentin-castellanos"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/new-york-city-football-club/",
+    "players": [
+      {
+        "person": "thiago-martins",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "talles-magno",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2013-05-21",
+      "label": "Founded by Manchester City’s owners and the New York Yankees",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "First MLS season, with David Villa, Frank Lampard and Andrea Pirlo",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win the Campeones Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2027",
+      "label": "Etihad Park, the club’s own stadium in Queens, due to open",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The New York club of Manchester City’s owners, MLS champion in 2021.",
+  "sources": [
+    {
+      "title": "New York City FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Yankee Stadium 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Yankee_Stadium_2009.jpg/1280px-Yankee_Stadium_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yankee_Stadium_2009.jpg",
+    "author": "LawrenceFung",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Yankee Stadium",
+    "caption": "Yankee Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

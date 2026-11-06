@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Yankee Stadium",
+  "city": "new-york",
+  "opened": {
+    "value": "2009",
+    "source": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 41992,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "sources": [
+    {
+      "title": "Yankee Stadium (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "New York City FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_City_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The baseball stadium in the Bronx, home of the New York Yankees, where NYCFC has played most of its home games since 2015.",
+  "image": {
+    "file": "File:Yankee Stadium 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Yankee_Stadium_2009.jpg/1280px-Yankee_Stadium_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yankee_Stadium_2009.jpg",
+    "author": "LawrenceFung",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Yankee Stadium",
+    "caption": "Yankee Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

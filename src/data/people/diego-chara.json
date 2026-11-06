@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Colombia",
+      "source": "https://www.wikidata.org/wiki/Q2467202",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 5, 1986, Cali",
+      "source": "https://www.wikidata.org/wiki/Q2467202",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2015",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Diego Chará",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Diego Chará (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Diego Chará (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2467202",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-timbers",
+      "role": "player",
+      "from": 2011,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Colombian midfielder and captain, a Timber since the club’s first MLS season.",
+  "image": {
+    "file": "File:Diego Chará at Timbers v Dynamo 1 November 2026 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Diego_Char%C3%A1_at_Timbers_v_Dynamo_1_November_2026_02.jpg/1280px-Diego_Char%C3%A1_at_Timbers_v_Dynamo_1_November_2026_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Diego_Char%C3%A1_at_Timbers_v_Dynamo_1_November_2026_02.jpg",
+    "author": "Joe Peacock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Diego Chará",
+    "caption": "Diego Chará",
+    "licenseChecked": "2026-11-05"
+  }
+}

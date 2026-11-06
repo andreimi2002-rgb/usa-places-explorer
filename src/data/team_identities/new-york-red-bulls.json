@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "new-york-red-bulls",
+  "name": "New York Red Bulls",
+  "city": "harrison",
+  "from": {
+    "value": 2006,
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

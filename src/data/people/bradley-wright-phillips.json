@@ -1,0 +1,67 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q897070",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 12, 1985, Lewisham",
+      "source": "https://www.wikidata.org/wiki/Q897070",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Bradley Wright-Phillips",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Bradley_Wright-Phillips",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bradley Wright-Phillips (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bradley_Wright-Phillips",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Bradley Wright-Phillips (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q897070",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2013,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Bradley_Wright-Phillips",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2022,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Bradley_Wright-Phillips",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "English striker and the club’s all-time top scorer.",
+  "image": {
+    "file": "File:Bradley Wright-Phillips NY Red Bulls v FC Dallas 2 May 2026-39 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Bradley_Wright-Phillips_NY_Red_Bulls_v_FC_Dallas_2_May_2026-39_%28cropped%29.jpg/1280px-Bradley_Wright-Phillips_NY_Red_Bulls_v_FC_Dallas_2_May_2026-39_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bradley_Wright-Phillips_NY_Red_Bulls_v_FC_Dallas_2_May_2026-39_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Bradley Wright-Phillips",
+    "caption": "Bradley Wright-Phillips",
+    "licenseChecked": "2026-11-05"
+  }
+}

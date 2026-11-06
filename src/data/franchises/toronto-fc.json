@@ -1,0 +1,162 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Toronto FC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2005,
+    "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+    "verified": "2026-11-06",
+    "note": "Founded October 27, 2005."
+  },
+  "firstSeason": {
+    "value": "2007",
+    "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Maple Leaf Sports & Entertainment (MLSE)",
+    "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Robin Fraser",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "bmo-field",
+      "from": 2007,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "sebastian-giovinco",
+    "michael-bradley",
+    "jozy-altidore",
+    "alejandro-pozuelo"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/toronto-fc/",
+    "players": [
+      {
+        "person": "jonathan-osorio",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "djordje-mihailovic",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "josh-sargent",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2007-05-12",
+      "label": "First home match, a 3–1 win over Chicago, as MLS’s first Canadian club",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Sign Sebastian Giovinco from Juventus",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Win the domestic treble: Supporters’ Shield, MLS Cup and Canadian Championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Reach the CONCACAF Champions League final",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MLS’s first Canadian club and the first to win the domestic treble, in 2017.",
+  "sources": [
+    {
+      "title": "Toronto FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toronto_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/TOR.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/toronto-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/TOR.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#AA182C"
+      },
+      {
+        "name": "Grey",
+        "hex": "#323E48"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/TOR.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Toronto - ON - BMO Field.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Toronto_-_ON_-_BMO_Field.jpg/1280px-Toronto_-_ON_-_BMO_Field.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_BMO_Field.jpg",
+    "author": "Wladyslaw",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "View of BMO Field",
+    "caption": "BMO Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

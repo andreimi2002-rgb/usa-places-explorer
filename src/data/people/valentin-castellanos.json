@@ -1,0 +1,48 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://en.wikipedia.org/wiki/Taty_Castellanos",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2021",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Valentín Castellanos",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Taty_Castellanos",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Valentín Castellanos (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Taty_Castellanos",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2018,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Taty_Castellanos",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine striker, 2021 Golden Boot winner and MLS Cup champion."
+}

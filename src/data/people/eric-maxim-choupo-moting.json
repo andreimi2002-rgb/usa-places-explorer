@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Cameroon",
+      "source": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Eric Maxim Choupo-Moting",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Eric Maxim Choupo-Moting (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cameroon international striker, at the Red Bulls since 2025."
+}

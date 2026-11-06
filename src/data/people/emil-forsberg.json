@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Sweden",
+      "source": "https://www.wikidata.org/wiki/Q5371234",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 23, 1991, Sundsvall",
+      "source": "https://www.wikidata.org/wiki/Q5371234",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Emil Forsberg",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Emil_Forsberg",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Emil Forsberg (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Emil_Forsberg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Emil Forsberg (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q5371234",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Emil_Forsberg",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Swedish playmaker who joined from RB Leipzig in 2024; the Red Bulls’ captain.",
+  "image": {
+    "file": "File:Emil Forsberg Red Bull Atlanta 5.31.25-153 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Emil_Forsberg_Red_Bull_Atlanta_5.31.25-153_%28cropped%29.jpg/1280px-Emil_Forsberg_Red_Bull_Atlanta_5.31.25-153_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Emil_Forsberg_Red_Bull_Atlanta_5.31.25-153_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Emil Forsberg",
+    "caption": "Emil Forsberg",
+    "licenseChecked": "2026-11-05"
+  }
+}

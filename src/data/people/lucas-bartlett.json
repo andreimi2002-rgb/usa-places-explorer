@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q113508264",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 26, 1997, Kansas City",
+      "source": "https://www.wikidata.org/wiki/Q113508264",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Lucas Bartlett",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Lucas_Bartlett",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lucas Bartlett (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lucas_Bartlett",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Lucas Bartlett (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q113508264",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Lucas_Bartlett",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Centre-back and D.C. United’s captain.",
+  "image": {
+    "file": "File:Lucas Bartlett NYCFC vs DC United on Aug 30 2025-056 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lucas_Bartlett_NYCFC_vs_DC_United_on_Aug_30_2025-056_%28cropped%29.jpg/1280px-Lucas_Bartlett_NYCFC_vs_DC_United_on_Aug_30_2025-056_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lucas_Bartlett_NYCFC_vs_DC_United_on_Aug_30_2025-056_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Lucas Bartlett",
+    "caption": "Lucas Bartlett",
+    "licenseChecked": "2026-11-05"
+  }
+}

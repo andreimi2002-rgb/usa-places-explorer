@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Italy",
+      "source": "https://www.wikidata.org/wiki/Q43926",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 19, 1979, Flero",
+      "source": "https://www.wikidata.org/wiki/Q43926",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Andrea Pirlo",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Andrea_Pirlo",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Andrea Pirlo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Andrea_Pirlo",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Andrea Pirlo (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q43926",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2015,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Andrea_Pirlo",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Italy’s 2006 World Cup-winning playmaker, who ended his career at NYCFC.",
+  "image": {
+    "file": "File:20150616 - Portugal - Italie - Genève - Andrea Pirlo (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
+    "author": "Clément Bucco-Lechat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Andrea Pirlo",
+    "caption": "Andrea Pirlo",
+    "licenseChecked": "2026-11-05"
+  }
+}

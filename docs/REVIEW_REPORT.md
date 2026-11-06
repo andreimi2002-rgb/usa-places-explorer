@@ -333,3 +333,18 @@ only, short club texts, one photo pass.
 6. **Interim coaches** at Orlando City, LAFC and Columbus are shown with "(interim)".
 7. **Official MLS logos** from images.mlssoccer.com (29 of 30 downloaded; New York City FC still missing). Club colours are taken from the logo files; the colour names are ours.
 8. **Photos**: Chiellini's only photo has an unclear "Attribution" license and was not used.
+
+# MLS lot 2: D.C. United, New York Red Bulls, New York City FC, Atlanta United, Toronto FC, Portland Timbers
+
+Date: 2026-11-07. Same sources and method as lot 1.
+
+## Things to check
+
+1. **Left out**: Nicolás Fernández Mercau (NYCFC; years not found) and David Da Costa (Portland; Wikidata matches a
+   different player). NYCFC and Portland show two core players.
+2. **Red Bulls identities**: MetroStars 1996–2005 (East Rutherford, Giants Stadium) and New York Red Bulls since 2006
+   (shown in Harrison, where the stadium has been since 2010; 2006–2009 were still at Giants Stadium).
+3. **NYCFC logo** not found on MLSsoccer.com under the expected file name; the club shows initials and default colours.
+4. **Providence Park** opening year (1926) not stored: the Timbers page does not give it.
+5. **Photos**: Ben Olsen's only photo is a general match scene and was not used; no Harrison city photo yet.
+6. **Champions label** in the Finals table is now gold on every team page (it was invisible for black team colours).

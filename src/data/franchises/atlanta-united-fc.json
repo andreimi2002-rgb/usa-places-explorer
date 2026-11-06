@@ -1,0 +1,165 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Atlanta United FC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2014,
+    "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+    "verified": "2026-11-06",
+    "note": "Founded April 16, 2014."
+  },
+  "firstSeason": {
+    "value": "2017",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Arthur Blank",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Gerardo Martino",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "mercedes-benz-stadium",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "josef-martinez",
+    "miguel-almiron",
+    "brad-guzan"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/atlanta-united/",
+    "players": [
+      {
+        "person": "miguel-almiron",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "emmanuel-latte-lath",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "aleksei-miranchuk",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2017",
+      "label": "First MLS season, coached by Gerardo Martino",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Average 53,002 fans a game, the first MLS club over 50,000",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019",
+      "label": "Win the U.S. Open Cup and the Campeones Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-11-06",
+      "label": "Gerardo Martino returns as coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The record-breaking 2017 expansion club, champion in only its second season in front of 73,019 fans.",
+  "sources": [
+    {
+      "title": "Atlanta United FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/ATL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/atlanta-united-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ATL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Victory Red",
+        "hex": "#A32035"
+      },
+      {
+        "name": "Black",
+        "hex": "#2D2A26"
+      },
+      {
+        "name": "Gold",
+        "hex": "#AA9767"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ATL.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Mercedes-Benz Stadium, December 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mercedes-Benz_Stadium%2C_December_2024.jpg/1280px-Mercedes-Benz_Stadium%2C_December_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_December_2024.jpg",
+    "author": "BullDawg2021",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Mercedes-Benz Stadium",
+    "caption": "Mercedes-Benz Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q65718359",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 26, 2002, Rio de Janeiro",
+      "source": "https://www.wikidata.org/wiki/Q65718359",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2021",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Talles Magno",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Talles_Magno",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Talles Magno (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Talles_Magno",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Talles Magno (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q65718359",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Talles_Magno",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian winger, part of the 2021 MLS Cup team.",
+  "image": {
+    "file": "File:Talles Magno NYCFC v Colorado Mar 14 2026-14 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Talles_Magno_NYCFC_v_Colorado_Mar_14_2026-14_%28cropped%29.jpg/1280px-Talles_Magno_NYCFC_v_Colorado_Mar_14_2026-14_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Talles_Magno_NYCFC_v_Colorado_Mar_14_2026-14_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Talles Magno",
+    "caption": "Talles Magno",
+    "licenseChecked": "2026-11-05"
+  }
+}

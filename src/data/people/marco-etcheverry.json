@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Bolivia",
+      "source": "https://www.wikidata.org/wiki/Q246243",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 26, 1970, Santa Cruz de la Sierra",
+      "source": "https://www.wikidata.org/wiki/Q246243",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "1996, 1997, 1999",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (1998)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (1996)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Marco Etcheverry",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Marco_Etcheverry",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marco Etcheverry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marco_Etcheverry",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Marco Etcheverry (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q246243",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 1996,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Marco_Etcheverry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Bolivian playmaker and the creative heart of D.C. United’s first champions.",
+  "image": {
+    "file": "File:Marco Etcheverry cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Marco_Etcheverry_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marco_Etcheverry_cropped.jpg",
+    "author": "Marco_Etcheverry_presents_DC_United_jersey_to_Sec_of_Defense_William_Cohen_000504-D-9880W-036.jpg: R. D. Ward / United States Department of Defense derivative work: Ytoyoda (talk)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Marco Etcheverry",
+    "caption": "Marco Etcheverry",
+    "licenseChecked": "2026-11-05"
+  }
+}

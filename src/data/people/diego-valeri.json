@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q2325983",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 1, 1986, Lanús",
+      "source": "https://www.wikidata.org/wiki/Q2325983",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2015",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2017)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (2015)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Diego Valeri",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Diego_Valeri",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Diego Valeri (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Diego_Valeri",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Diego Valeri (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2325983",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-timbers",
+      "role": "player",
+      "from": 2013,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Diego_Valeri",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine playmaker, MLS Cup MVP in 2015 and league MVP in 2017.",
+  "image": {
+    "file": "File:PORTLAND TIMBERS VS. SPORTING KC 2 - 2 (10).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/PORTLAND_TIMBERS_VS._SPORTING_KC_2_-_2_%2810%29.jpg/1280px-PORTLAND_TIMBERS_VS._SPORTING_KC_2_-_2_%2810%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:PORTLAND_TIMBERS_VS._SPORTING_KC_2_-_2_(10).jpg",
+    "author": "Ray Terrill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Diego Valeri",
+    "caption": "Diego Valeri",
+    "licenseChecked": "2026-11-05"
+  }
+}

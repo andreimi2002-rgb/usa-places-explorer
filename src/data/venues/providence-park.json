@@ -1,0 +1,44 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Providence Park",
+  "city": "portland",
+  "capacity": {
+    "soccer": {
+      "value": 25218,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "sources": [
+    {
+      "title": "Portland Timbers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Timbers’ downtown stadium, home of the Timbers Army supporters.",
+  "image": {
+    "file": "File:Exterior of Providence Park from south in 2024 - Portland, OR.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Exterior_of_Providence_Park_from_south_in_2024_-_Portland%2C_OR.jpg/1280px-Exterior_of_Providence_Park_from_south_in_2024_-_Portland%2C_OR.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Providence_Park_from_south_in_2024_-_Portland,_OR.jpg",
+    "author": "Steve Morgan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Providence Park",
+    "caption": "Providence Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

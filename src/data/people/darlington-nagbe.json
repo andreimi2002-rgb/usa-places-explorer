@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q3016402",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 19, 1990, Monrovia",
+      "source": "https://www.wikidata.org/wiki/Q3016402",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2015",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Darlington Nagbe",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Darlington Nagbe (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Darlington Nagbe (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3016402",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-timbers",
+      "role": "player",
+      "from": 2011,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Liberian-born US international, a Timber from the first MLS season to the 2015 title.",
+  "image": {
+    "file": "File:Darlington Nagbe Portland cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Darlington_Nagbe_Portland_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darlington_Nagbe_Portland_cropped.jpg",
+    "author": "jon oropeza",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Darlington Nagbe",
+    "caption": "Darlington Nagbe",
+    "licenseChecked": "2026-11-05"
+  }
+}

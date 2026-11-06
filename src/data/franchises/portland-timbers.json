@@ -1,0 +1,149 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Portland Timbers",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2009,
+    "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+    "verified": "2026-11-06",
+    "note": "MLS club founded March 20, 2009; the Timbers name dates from 1975."
+  },
+  "firstSeason": {
+    "value": "2011",
+    "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Peregrine Sports (majority owner Merritt Paulson)",
+    "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Martí Cifuentes",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "providence-park",
+      "from": 2011,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "diego-valeri",
+    "diego-chara",
+    "darlington-nagbe"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/portland-timbers/",
+    "players": [
+      {
+        "person": "diego-chara",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "kristoffer-velde",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1975",
+      "label": "The first Portland Timbers play in the NASL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011-03-19",
+      "label": "First MLS match, a 3–1 loss in Colorado",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Win the MLS is Back Tournament",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A soccer city’s club with roots in 1975, champion in 2015 and backed by the Timbers Army.",
+  "sources": [
+    {
+      "title": "Portland Timbers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/POR.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "mls/portland-timbers.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/POR.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Green",
+        "hex": "#2C5234"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C99700"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/POR.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Exterior of Providence Park from south in 2024 - Portland, OR.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Exterior_of_Providence_Park_from_south_in_2024_-_Portland%2C_OR.jpg/1280px-Exterior_of_Providence_Park_from_south_in_2024_-_Portland%2C_OR.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Providence_Park_from_south_in_2024_-_Portland,_OR.jpg",
+    "author": "Steve Morgan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Providence Park",
+    "caption": "Providence Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

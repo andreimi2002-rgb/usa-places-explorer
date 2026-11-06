@@ -69,7 +69,11 @@ export async function prose(collection: string, id: string, section: string) {
 /** League → conference → division for a franchise. */
 export async function structureOf(f: Franchise) {
   const division = f.data.division ? await getEntry(f.data.division) : undefined;
-  const conference = division ? await getEntry(division.data.conference) : undefined;
+  const conference = division
+    ? await getEntry(division.data.conference)
+    : f.data.conference
+      ? await getEntry(f.data.conference)
+      : undefined;
   const league = await getEntry(f.data.league);
   return { league, conference, division };
 }

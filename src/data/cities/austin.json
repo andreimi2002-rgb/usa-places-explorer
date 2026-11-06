@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Austin",
+  "region": "Texas",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 30.26715,
+      "lon": -97.74306
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Austin&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Texas’s capital, a music and tech city, with its first major-league team since 2021: Austin FC.",
+  "image": {
+    "file": "File:Austin Texas skyline, December 2023 - Day.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Austin_Texas_skyline%2C_December_2023_-_Day.jpg/1280px-Austin_Texas_skyline%2C_December_2023_-_Day.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_Texas_skyline,_December_2023_-_Day.jpg",
+    "author": "Steve",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of Austin",
+    "caption": "Austin",
+    "licenseChecked": "2026-11-05"
+  }
+}

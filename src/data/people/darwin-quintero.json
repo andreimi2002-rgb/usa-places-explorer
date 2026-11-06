@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Colombia",
+      "source": "https://www.wikidata.org/wiki/Q2710368",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 19, 1987, Cali",
+      "source": "https://www.wikidata.org/wiki/Q2710368",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Darwin Quintero",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Darwin_Quintero",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Darwin Quintero (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Darwin_Quintero",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Darwin Quintero (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2710368",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-united-fc",
+      "role": "player",
+      "from": 2018,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Darwin_Quintero",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Colombian forward who led the 2018 team in goals and assists.",
+  "image": {
+    "file": "File:Darwin Quintero, Minnesota United FC v New York City FC (MLS); 13 Apr 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Darwin_Quintero%2C_Minnesota_United_FC_v_New_York_City_FC_%28MLS%29%3B_13_Apr_2019.jpg/1280px-Darwin_Quintero%2C_Minnesota_United_FC_v_New_York_City_FC_%28MLS%29%3B_13_Apr_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darwin_Quintero,_Minnesota_United_FC_v_New_York_City_FC_(MLS);_13_Apr_2019.jpg",
+    "author": "Andy Witchger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Darwin Quintero",
+    "caption": "Darwin Quintero",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -25,7 +25,6 @@ const body = await prose('venues', venue.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
 const europe = await prose('venues', venue.id, 'europe');
 const Europe = europe ? (await render(europe)).Content : undefined;
-const basketball = d.capacity?.basketball;
 ---
 
 <Base title={d.name} description={d.summary ?? `${d.name}: history, teams and how to visit.`}>
@@ -64,7 +63,7 @@ const basketball = d.capacity?.basketball;
         rows={[
           { label: 'Opened', value: d.opened ? formatDate(d.opened.value) : undefined, source: d.opened?.source, verified: d.opened?.verified },
           { label: 'Closed', value: d.closed ? formatDate(d.closed.value) : undefined, source: d.closed?.source, verified: d.closed?.verified },
-          { label: 'Basketball capacity', value: basketball ? formatNumber(basketball.value) : undefined, source: basketball?.source, verified: basketball?.verified },
+          ...Object.entries(d.capacity ?? {}).map(([sport, c]) => ({ label: `${sport.charAt(0).toUpperCase()}${sport.slice(1)} capacity`, value: formatNumber(c.value), source: c.source, verified: c.verified })),
           { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
           ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
           ...d.formerNames.map((n) => ({ label: 'Former name', value: `${n.name}${n.from ? ` (${n.from}–${n.to ?? ''})` : ''}`, source: n.source, verified: n.verified })),

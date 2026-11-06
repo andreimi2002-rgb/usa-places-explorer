@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q13569294",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 19, 1993, Lawrenceville",
+      "source": "https://www.wikidata.org/wiki/Q13569294",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Walker Zimmerman",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Walker Zimmerman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Walker Zimmerman (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q13569294",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "nashville-sc",
+      "role": "player",
+      "from": 2020,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international defender who scored Nashville’s first MLS goal.",
+  "image": {
+    "file": "File:2022 FIFA World Cup England 0-0 USA - Walker Zimmerman (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2022_FIFA_World_Cup_England_0-0_USA_-_Walker_Zimmerman_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_England_0-0_USA_-_Walker_Zimmerman_(cropped).jpg",
+    "author": "Hossein Zohrevand",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Walker Zimmerman",
+    "caption": "Walker Zimmerman",
+    "licenseChecked": "2026-11-05"
+  }
+}

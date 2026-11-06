@@ -45,6 +45,8 @@ const image = z.object({
 const status = z.enum(['active', 'historical']);
 const progress = z.enum(['not-started', 'researching', 'content-ready', 'under-review', 'complete']);
 const year = z.number().int().min(1850).max(2100);
+/** A season: "2026-27" for leagues that span two years, "2026" for calendar-year leagues such as MLS. */
+const seasonId = z.string().regex(/^\d{4}(-\d{2})?$/);
 const hex = z.string().regex(/^#[0-9A-Fa-f]{6}$/);
 
 /** Fields every entity carries. */
@@ -76,6 +78,20 @@ const leagues = defineCollection({
     founded: fact(year).optional(),
     website: z.url().optional(),
     summary: z.string(),
+    /** Words that differ between leagues. */
+    terms: z
+      .object({
+        /** The championship series or game, e.g. "NBA Finals", "MLS Cup". */
+        final: z.string(),
+        /** One title, e.g. "NBA title", "MLS Cup". */
+        title: z.string(),
+        titles: z.string(),
+        /** Where the official roster lives, e.g. "NBA.com". */
+        rosterSite: z.string(),
+        /** Optional intro for the uniforms section. */
+        kitsIntro: z.string().optional(),
+      })
+      .optional(),
   }),
 });
 
@@ -93,7 +109,7 @@ const headCoach = z.object({
   name: z.string(),
   person: reference('people').optional(),
   /** The season this was last confirmed for, e.g. "2026-27". */
-  asOf: z.string().regex(/^\d{4}-\d{2}$/),
+  asOf: seasonId,
   source: z.url(),
   verified: isoDate.nullable(),
 });
@@ -114,8 +130,10 @@ const franchises = defineCollection({
     name: z.string(),
     league: reference('leagues'),
     division: reference('divisions').nullable(),
+    /** For leagues without divisions (e.g. MLS); otherwise the conference comes from the division. */
+    conference: reference('conferences').optional(),
     founded: fact(year).optional(),
-    firstSeason: fact(z.string().regex(/^\d{4}-\d{2}$/)).optional(),
+    firstSeason: fact(seasonId).optional(),
     colors: z
       .object({ value: z.array(z.object({ name: z.string(), hex })), source: z.url(), verified: isoDate.nullable() })
       .optional(),
@@ -139,13 +157,25 @@ const franchises = defineCollection({
       .array(
         z.object({
           edition: z.enum(['association', 'icon', 'statement', 'city', 'classic', 'home', 'away', 'third', 'alternate']),
-          season: z.string().regex(/^\d{4}-\d{2}$/),
+          season: seasonId,
           base: hex,
           /** Shoulder panel color, when a source describes one. */
           panel: hex.optional(),
           /** Trim or stripe color, when a source describes one. */
           trim: hex.optional(),
           pinstripes: z.boolean().default(false),
+          /** Pattern on the shirt; "texture" is a subtle all-over print. */
+          pattern: z.enum(['plain', 'pinstripes', 'stripes', 'hoops', 'sash', 'band', 'halves', 'texture']).optional(),
+          patternColor: hex.optional(),
+          /** Separate colours, when they differ from the base. */
+          sleeves: hex.optional(),
+          collar: hex.optional(),
+          shorts: hex.optional(),
+          socks: hex.optional(),
+          /** The kit's official name, e.g. "Sunken Treasure Kit". */
+          name: z.string().optional(),
+          /** Shirt sponsor or jersey patch partner, shown as text under the drawing. */
+          sponsor: z.string().optional(),
           wordmark: z.string().optional(),
           maker: z.string().optional(),
           description: z.string(),
@@ -161,7 +191,7 @@ const franchises = defineCollection({
     /** The faces of the current roster (not the full roster), confirmed for one season. */
     corePlayers: z
       .object({
-        asOf: z.string().regex(/^\d{4}-\d{2}$/),
+        asOf: seasonId,
         rosterUrl: z.url(),
         players: z.array(z.object({ person: reference('people'), source: z.url(), verified: isoDate.nullable() })),
       })
@@ -169,7 +199,7 @@ const franchises = defineCollection({
     /** First-year players on the current roster, with their draft slot when they were drafted. */
     rookies: z
       .object({
-        asOf: z.string().regex(/^\d{4}-\d{2}$/),
+        asOf: seasonId,
         /** Shown when the roster has no rookies, e.g. "The club made no picks in the 2026 draft." */
         note: z.string().optional(),
         noteSource: z.url().optional(),
@@ -218,6 +248,7 @@ const venueExtensions = z
       .object({ leftField: fact(z.number()).optional(), centerField: fact(z.number()).optional(), rightField: fact(z.number()).optional() })
       .optional(),
     hockey: z.object({ rinkSize: z.string().optional() }).optional(),
+    soccer: z.object({ surface: z.enum(['grass', 'artificial', 'hybrid']).optional(), soccerSpecific: z.boolean().optional() }).optional(),
   })
   .optional();
 
@@ -304,7 +335,7 @@ const championships = defineCollection({
   schema: z.object({
     ...base,
     league: reference('leagues'),
-    season: z.string().regex(/^\d{4}-\d{2}$/),
+    season: seasonId,
     level: z.enum(['league', 'conference']),
     title: z.string(),
     /** The franchise, when it still exists in the data; defunct clubs only have a name. */

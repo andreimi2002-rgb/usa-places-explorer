@@ -1,0 +1,284 @@
+---
+/**
+ * The Cities: every city in the encyclopedia, with its photo, its current teams by league
+ * and the clubs that once played there. Filterable by name, state and league in the browser.
+ */
+import { getCollection } from 'astro:content';
+import EntityHeader from '../../components/EntityHeader.astro';
+import Base from '../../layouts/Base.astro';
+import { routes } from '../../lib/entities';
+import { thumb } from '../../lib/images';
+
+const [cities, identities, franchises, leagues, venues] = await Promise.all([
+  getCollection('cities'),
+  getCollection('team_identities'),
+  getCollection('franchises'),
+  getCollection('leagues'),
+  getCollection('venues'),
+]);
+const venueCity = new Map(venues.map((v) => [v.id, v.data.city.id]));
+const franchiseById = new Map(franchises.map((f) => [f.id, f]));
+const leagueName = new Map(leagues.map((l) => [l.id, l.data.shortName]));
+
+const rows = cities
+  .map((c) => {
+    const here = identities.filter((i) => i.data.city.id === c.id);
+    const current = here.filter((i) => i.data.current && franchiseById.get(i.data.franchise.id)?.data.status === 'active');
+    const currentIds = new Set(current.map((i) => i.data.franchise.id));
+    const former = new Set(here.filter((i) => !i.data.current && !currentIds.has(i.data.franchise.id)).map((i) => i.data.franchise.id));
+    const byLeague = new Map<string, number>();
+    for (const i of current) {
+      const lg = leagueName.get(franchiseById.get(i.data.franchise.id)!.data.league.id) ?? '';
+      byLeague.set(lg, (byLeague.get(lg) ?? 0) + 1);
+    }
+    // Teams named after another city whose current stadium is here (e.g. the LA Galaxy in Carson).
+    const stadiumLeagues = [...new Set(franchises
+      .filter((f) => f.data.status === 'active' && !currentIds.has(f.id))
+      .filter((f) => f.data.venues.some((v) => v.to === null && venueCity.get(v.venue.id) === c.id))
+      .map((f) => leagueName.get(f.data.league.id) ?? ''))].sort();
+    return { c, teams: current.length, byLeague: [...byLeague].sort((a, b) => a[0].localeCompare(b[0])), former: former.size, stadiumLeagues };
+  })
+  .sort((a, b) => a.c.data.name.localeCompare(b.c.data.name));
+
+const hubs = [...rows].filter((r) => r.teams > 1).sort((a, b) => b.teams - a.teams || a.c.data.name.localeCompare(b.c.data.name));
+const leagueList = [...new Set(rows.flatMap((r) => r.byLeague.map(([l]) => l)))].sort();
+const regions = new Set(rows.map((r) => r.c.data.region)).size;
+---
+
+<Base title="The Cities" description="Every city in the encyclopedia: its teams across the leagues, its venues, local time and weather.">
+  <EntityHeader
+    eyebrow="Cities"
+    title="The Cities"
+    intro={`American sport is built around cities. These are the ${rows.length} cities in the encyclopedia so far, across ${regions} states and provinces: where each team plays today, and where clubs used to play.`}
+    crumbs={[{ label: 'Home', href: '/' }, { label: 'Cities' }]}
+  />
+
+  {hubs.length > 0 && (
+    <section class="container section" aria-labelledby="hubs-title">
+      <div class="section-head"><h2 id="hubs-title">Biggest sports cities</h2></div>
+      <p class="muted">Cities with more than one team in the leagues covered so far.</p>
+      <ol class="hubs">
+        {hubs.map((r) => (
+          <li>
+            <a href={routes.cities(r.c.id)}>
+              <strong>{r.c.data.name}</strong>
+              <span class="subtle">{r.byLeague.map(([l, n]) => `${n} ${l}`).join(' · ')}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
+  <section class="container section" aria-labelledby="all-title">
+    <div class="section-head"><h2 id="all-title">All cities</h2></div>
+    <div class="filters" data-filters>
+      <label class="search">
+        <span class="sr-only">Filter cities</span>
+        <input type="search" placeholder="Filter by city or state" data-q />
+      </label>
+      <div class="chips" role="group" aria-label="Filter by league">
+        <button type="button" class="chip active" data-league="">All</button>
+        {leagueList.map((l) => <button type="button" class="chip" data-league={l}>{l}</button>)}
+        <button type="button" class="chip" data-league="former">Former teams only</button>
+      </div>
+    </div>
+    <ul class="city-grid" data-grid>
+      {rows.map((r) => (
+        <li
+          data-name={`${r.c.data.name} ${r.c.data.region} ${r.c.data.country}`.toLowerCase()}
+          data-leagues={[...r.byLeague.map(([l]) => l), ...r.stadiumLeagues].join(' ')}
+          data-former={r.teams === 0 && r.former > 0 ? '1' : '0'}
+        >
+          <a href={routes.cities(r.c.id)}>
+            <div class="img">
+              {r.c.data.image ? <img src={thumb(r.c.data.image.url, 500)} alt="" loading="lazy" decoding="async" /> : <span class="noimg" aria-hidden="true">{r.c.data.name.slice(0, 2)}</span>}
+            </div>
+            <div class="body">
+              <strong>{r.c.data.name}</strong>
+              <span class="subtle">{r.c.data.region}{r.c.data.country !== 'United States' ? `, ${r.c.data.country}` : ''}</span>
+              <span class="tags">
+                {r.byLeague.map(([l, n]) => <span class="tag">{n > 1 ? `${n} ${l}` : l}</span>)}
+                {r.stadiumLeagues.map((l) => <span class="tag">{l} stadium</span>)}
+                {r.teams === 0 && r.former > 0 && <span class="tag former">Former teams</span>}
+                {r.teams > 0 && r.former > 0 && <span class="tag former">+{r.former} former</span>}
+              </span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="subtle empty" data-empty hidden>No city matches this filter.</p>
+  </section>
+</Base>
+
+<script>
+  const root = document.querySelector('[data-filters]');
+  const items = [...document.querySelectorAll<HTMLLIElement>('[data-grid] > li')];
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  let league = '';
+  let q = '';
+  const apply = () => {
+    let shown = 0;
+    for (const li of items) {
+      const okQ = !q || li.dataset.name!.includes(q);
+      const okL = !league || (league === 'former' ? li.dataset.former === '1' : li.dataset.leagues!.split(' ').includes(league));
+      li.hidden = !(okQ && okL);
+      if (!li.hidden) shown++;
+    }
+    empty.hidden = shown > 0;
+  };
+  root?.querySelector<HTMLInputElement>('[data-q]')?.addEventListener('input', (e) => {
+    q = (e.target as HTMLInputElement).value.trim().toLowerCase();
+    apply();
+  });
+  root?.querySelectorAll<HTMLButtonElement>('[data-league]').forEach((b) =>
+    b.addEventListener('click', () => {
+      league = b.dataset.league ?? '';
+      root.querySelectorAll('.chip').forEach((c) => c.classList.toggle('active', c === b));
+      apply();
+    }),
+  );
+</script>
+
+<style>
+  .hubs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    counter-reset: hub;
+  }
+  .hubs a {
+    display: grid;
+    gap: 0.2rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .hubs a:hover {
+    border-color: var(--accent-strong);
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+  .search input {
+    width: min(20rem, 100%);
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    color: var(--text);
+    font: inherit;
+  }
+  .search {
+    flex: 1 1 14rem;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .chip {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: var(--step--1);
+    cursor: pointer;
+  }
+  .chip.active,
+  .chip:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .city-grid li[hidden] {
+    display: none;
+  }
+  .city-grid a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--bg-raised);
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.15s;
+  }
+  .city-grid a:hover {
+    border-color: var(--accent-strong);
+  }
+  .img {
+    flex: none;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .noimg {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--line-strong);
+    text-transform: uppercase;
+  }
+  .body {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.8rem 1rem 1rem;
+  }
+  .body strong {
+    font-size: var(--step-1);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+  }
+  .tag {
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .tag.former {
+    color: var(--text-subtle);
+    font-weight: 400;
+  }
+  .empty {
+    margin-top: 1rem;
+  }
+</style>

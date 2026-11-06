@@ -1,0 +1,201 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "FC Dallas",
+  "conference": "mls-western",
+  "founded": {
+    "value": 1995,
+    "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+    "verified": "2026-11-06",
+    "note": "Founded June 6, 1995, as the Dallas Burn."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Hunt Sports Group (Clark and Dan Hunt)",
+    "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Eric Quill",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "toyota-stadium",
+      "from": 2005,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "jason-kreis",
+    "david-ferreira"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/fc-dallas/",
+    "players": [
+      {
+        "person": "ramiro",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "petar-musa",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996-04-14",
+      "label": "First match, as the Dallas Burn",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Win the U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2005",
+      "label": "Become FC Dallas and move to Frisco",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Reach the MLS Cup final, lost after extra time to Colorado",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2016",
+      "label": "Win the Supporters’ Shield and the U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A founding club with one of the best youth academies in the country.",
+  "sources": [
+    {
+      "title": "FC Dallas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/DAL.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/fc-dallas.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/DAL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#C6093B"
+      },
+      {
+        "name": "Navy",
+        "hex": "#001F5B"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/DAL.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Pizza Hut Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/1280px-Pizza_Hut_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_Park.jpg",
+    "author": "Jason Gulledge from Dallas, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Stadium (then Pizza Hut Park)",
+    "caption": "Toyota Stadium (then Pizza Hut Park)",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "DNA Kit",
+      "base": "#AE0722",
+      "sleeves": "#AE0722",
+      "shorts": "#010644",
+      "socks": "#AE0722",
+      "pattern": "hoops",
+      "patternColor": "#010644",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Children’s Health",
+      "description": "Red and navy horizontal hoops, the club’s traditional design, with navy shorts and red socks. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#E4FAFF",
+      "sleeves": "#FFFFFF",
+      "shorts": "#E4FAFF",
+      "socks": "#FFFFFF",
+      "collar": "#010644",
+      "trim": "#010644",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "UT Southwestern Medical Center",
+      "description": "Ice blue with white sleeves and socks and navy trim; the alternate kit first worn in 2025.",
+      "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "verified": "2026-11-07"
+    }
+  ]
+}

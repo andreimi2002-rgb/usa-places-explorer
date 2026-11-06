@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "PayPal Park",
+  "city": "san-jose",
+  "opened": {
+    "value": "2015",
+    "source": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 18000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "San Jose Earthquakes (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Earthquakes’ stadium in San Jose since 2015.",
+  "image": {
+    "file": "File:Avaya Stadium, 1-7-15.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Avaya_Stadium%2C_1-7-15.jpg/1280px-Avaya_Stadium%2C_1-7-15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avaya_Stadium,_1-7-15.jpg",
+    "author": "Jbburgess0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of PayPal Park (then Avaya Stadium)",
+    "caption": "PayPal Park (then Avaya Stadium)",
+    "licenseChecked": "2026-11-05"
+  }
+}

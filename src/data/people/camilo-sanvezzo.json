@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q488460",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 21, 1988, Presidente Prudente",
+      "source": "https://www.wikidata.org/wiki/Q488460",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Camilo Sanvezzo",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Camilo_Sanvezzo",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Camilo Sanvezzo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Camilo_Sanvezzo",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Camilo Sanvezzo (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q488460",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "vancouver-whitecaps-fc",
+      "role": "player",
+      "from": 2011,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Camilo_Sanvezzo",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian striker and 2013 Golden Boot winner.",
+  "image": {
+    "file": "File:Camilo Sanvezzo MLS AllStar 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Camilo_Sanvezzo_MLS_AllStar_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Camilo_Sanvezzo_MLS_AllStar_2013.jpg",
+    "author": "Warrenfish",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Camilo Sanvezzo",
+    "caption": "Camilo Sanvezzo",
+    "licenseChecked": "2026-11-05"
+  }
+}

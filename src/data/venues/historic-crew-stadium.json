@@ -1,0 +1,45 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Columbus Crew Stadium",
+      "from": 1999,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Historic Crew Stadium",
+  "city": "columbus",
+  "opened": {
+    "value": "1999",
+    "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Columbus Crew (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Opened in 1999 as the first stadium built for an MLS club; the Crew’s home until 2021.",
+  "image": {
+    "file": "File:Drone Last Game at Historic Crew Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Drone_Last_Game_at_Historic_Crew_Stadium.jpg/1280px-Drone_Last_Game_at_Historic_Crew_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Drone_Last_Game_at_Historic_Crew_Stadium.jpg",
+    "author": "InvadingInvader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Historic Crew Stadium",
+    "caption": "Historic Crew Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

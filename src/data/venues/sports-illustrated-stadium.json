@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Red Bull Arena",
+      "from": 2010,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "name": "Sports Illustrated Stadium",
+  "city": "harrison",
+  "opened": {
+    "value": "2010",
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 25000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "sources": [
+    {
+      "title": "New York Red Bulls (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Red Bulls’ soccer stadium in Harrison, New Jersey, since 2010.",
+  "image": {
+    "file": "File:Red Bull Arena exterior 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Red_Bull_Arena_exterior_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Bull_Arena_exterior_2.jpg",
+    "author": "Claude Betancourt",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Sports Illustrated Stadium (then Red Bull Arena)",
+    "caption": "Sports Illustrated Stadium (then Red Bull Arena)",
+    "licenseChecked": "2026-11-05"
+  }
+}

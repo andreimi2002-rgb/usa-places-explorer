@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "Lumen Field",
+  "city": "seattle",
+  "opened": {
+    "value": "2002",
+    "source": "https://en.wikipedia.org/wiki/Lumen_Field",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 37722,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Lumen Field (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lumen_Field",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Seattle Sounders FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Seattle’s downtown stadium, shared by the Sounders and the NFL’s Seahawks; the capacity shown is the usual Sounders setting.",
+  "image": {
+    "file": "File:Lumen Field exterior, July 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lumen_Field_exterior%2C_July_2023.jpg/1280px-Lumen_Field_exterior%2C_July_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lumen_Field_exterior,_July_2023.jpg",
+    "author": "PCN02WPS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lumen Field",
+    "caption": "Lumen Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

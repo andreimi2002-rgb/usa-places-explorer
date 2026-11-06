@@ -61,6 +61,11 @@
       "title": "2026-27 roster (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/BOS/2027.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Boston Celtics (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Boston_Celtics",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Boston Celtics",
@@ -301,5 +306,45 @@
         "verified": "2026-11-05"
       }
     ]
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Amica Mutual Insurance",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Boston_Celtics",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#006843",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Amica Mutual Insurance",
+      "description": "Dark green, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Boston_Celtics",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#1E1F21",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Amica Mutual Insurance",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Boston_Celtics",
+      "verified": "2026-11-07"
+    }
+  ]
 }

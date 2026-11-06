@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q816579",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 3, 1977, Harrisburg",
+      "source": "https://www.wikidata.org/wiki/Q816579",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "1999, 2004",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (1999)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ben Olsen",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Ben_Olsen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ben Olsen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ben_Olsen",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ben Olsen (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q816579",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 1998,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Ben_Olsen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "D.C. United midfielder for twelve seasons and later its coach; Houston’s coach in 2026.",
+  "image": {
+    "file": "File:Ben Olsen (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ben_Olsen_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ben_Olsen_(cropped).jpg",
+    "author": "Paul Frederiksen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ben Olsen",
+    "caption": "Ben Olsen",
+    "licenseChecked": "2026-11-05"
+  }
+}

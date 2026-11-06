@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Uniondale&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 5141927: Uniondale, New York"
+  },
+  "image": {
+    "file": "File:Uniondale.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Uniondale.JPG/1280px-Uniondale.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Uniondale.JPG",
+    "author": "Retep412 at English Wikipedia",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "alt": "View of Uniondale and Nassau Coliseum",
+    "caption": "Uniondale and Nassau Coliseum",
+    "licenseChecked": "2026-11-05"
   }
 }

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q541952",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 8, 1967, Chicago",
+      "source": "https://www.wikidata.org/wiki/Q541952",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Marcelo Balboa",
+  "position": {
+    "value": "Defender",
+    "source": "https://en.wikipedia.org/wiki/Marcelo_Balboa",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marcelo Balboa (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marcelo_Balboa",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Marcelo Balboa (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q541952",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "colorado-rapids",
+      "role": "player",
+      "from": 1996,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Marcelo_Balboa",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US World Cup defender who scored the Rapids’ first ever goal.",
+  "image": {
+    "file": "File:MarceloBalboa 20060410.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MarceloBalboa_20060410.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MarceloBalboa_20060410.jpg",
+    "author": "Jarrett Campbell from Cary, North Carolina, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Marcelo Balboa",
+    "caption": "Marcelo Balboa",
+    "licenseChecked": "2026-11-05"
+  }
+}

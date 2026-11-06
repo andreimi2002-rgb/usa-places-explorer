@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q41533",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 20, 1978, Romford",
+      "source": "https://www.wikidata.org/wiki/Q41533",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Frank Lampard",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Frank_Lampard",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Frank Lampard (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Frank_Lampard",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Frank Lampard (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q41533",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2015,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Frank_Lampard",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Chelsea’s great midfielder, a Designated Player in NYCFC’s first two seasons.",
+  "image": {
+    "file": "File:Frank Lampard 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Frank_Lampard_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Frank_Lampard_2019.jpg",
+    "author": "Mehdi Bolourian",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Frank Lampard",
+    "caption": "Frank Lampard",
+    "licenseChecked": "2026-11-05"
+  }
+}

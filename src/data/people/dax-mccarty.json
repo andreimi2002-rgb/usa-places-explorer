@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q179044",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 30, 1987, Winter Park",
+      "source": "https://www.wikidata.org/wiki/Q179044",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Dax McCarty",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Dax_McCarty",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dax McCarty (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dax_McCarty",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Dax McCarty (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q179044",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2011,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Dax_McCarty",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Midfielder and captain, part of the Shield-winning teams of 2013 and 2015.",
+  "image": {
+    "file": "File:DaxMcCarty.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/DaxMcCarty.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:DaxMcCarty.JPG",
+    "author": "F. Vera | DailyHarrison.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Dax McCarty",
+    "caption": "Dax McCarty",
+    "licenseChecked": "2026-11-05"
+  }
+}

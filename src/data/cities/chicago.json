@@ -21,5 +21,16 @@
     "source": "https://geocoding-api.open-meteo.com/v1/search?name=Chicago&count=10&language=en&format=json&countryCode=US",
     "verified": "2026-11-05",
     "note": "GeoNames 4887398: Chicago, Illinois"
+  },
+  "image": {
+    "file": "File:Chicago Skyline - August 2026 - 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Chicago_Skyline_-_August_2026_-_01.jpg/1280px-Chicago_Skyline_-_August_2026_-_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_-_August_2026_-_01.jpg",
+    "author": "NorbertNagel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Chicago skyline",
+    "caption": "Chicago skyline",
+    "licenseChecked": "2026-11-05"
   }
 }

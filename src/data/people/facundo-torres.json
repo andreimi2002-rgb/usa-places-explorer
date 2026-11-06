@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Uruguay",
+      "source": "https://www.wikidata.org/wiki/Q27982962",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 13, 2000, Montevideo",
+      "source": "https://www.wikidata.org/wiki/Q27982962",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Facundo Torres",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Facundo_Torres",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Facundo Torres (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Facundo_Torres",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Facundo Torres (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q27982962",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "austin-fc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Facundo_Torres",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Uruguay international winger, signed in 2026 after spells at Orlando City and Palmeiras.",
+  "image": {
+    "file": "File:Facundo-torres-palmeiras-sport-ago-25 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Facundo-torres-palmeiras-sport-ago-25_%28cropped%29.jpg/1280px-Facundo-torres-palmeiras-sport-ago-25_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Facundo-torres-palmeiras-sport-ago-25_(cropped).jpg",
+    "author": "NullReason",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Facundo Torres",
+    "caption": "Facundo Torres",
+    "licenseChecked": "2026-11-05"
+  }
+}

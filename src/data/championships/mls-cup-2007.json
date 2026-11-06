@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2007",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "houston-dynamo-fc",
+  "runnerUp": "new-england-revolution",
+  "winnerName": "Houston Dynamo",
+  "runnerUpName": "New England Revolution",
+  "result": "2–1",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

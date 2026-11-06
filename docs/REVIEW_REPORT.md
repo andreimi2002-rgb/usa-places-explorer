@@ -312,3 +312,133 @@ MLB and NHL will be built in. Only the exceptions are listed.
 7. **New glossary terms**: All-Star, All-NBA Team, salary cap (2026-27 cap from NBA PR).
 8. **Franz Wagner and the Berlin game**: we say Orlando won in Berlin in his home city, not that he played; he
    missed much of 2025-26 injured.
+
+# MLS skeleton and lot 1: Orlando City, Inter Miami, LA Galaxy, LAFC, Seattle Sounders, Columbus Crew
+
+Date: 2026-11-06. Branch `mls`. Lean format (see the credit note in the master plan): core players and legends
+only, short club texts, one photo pass.
+
+## Things to check
+
+1. **Wikipedia as the main club source**: founding years, owners, stadium openings, trophies and players' years at
+   each club come from Wikipedia (club pages and player infoboxes) and Wikidata. The 2026 coaches, captains and stadium
+   capacities come from Wikipedia's 2026 MLS season page. MLS's own club pages give almost no facts.
+2. **Core players** are each club's captain plus its Designated Players from MLS's own list, updated May 11, 2026;
+   summer transfers after that date may be missing.
+3. **Left out**: Gabriel Pec (seems to have left the Galaxy in 2026), Aaron Long and Raúl Ruidíaz (years not
+   confirmed), Luis Suárez (2026 status not confirmed). The Galaxy show two core players.
+4. **Supporters' Shield list** not stored: the NBC Sports list we found has mistakes (2012, 2014).
+5. **Calendar seasons**: the schema now accepts "2026" as well as "2026-27"; title counting on city pages uses the
+   end year.
+6. **Interim coaches** at Orlando City, LAFC and Columbus are shown with "(interim)".
+7. **Official MLS logos** from images.mlssoccer.com (29 of 30 downloaded; New York City FC still missing). Club colours are taken from the logo files; the colour names are ours.
+8. **Photos**: Chiellini's only photo has an unclear "Attribution" license and was not used.
+
+# MLS lot 2: D.C. United, New York Red Bulls, New York City FC, Atlanta United, Toronto FC, Portland Timbers
+
+Date: 2026-11-07. Same sources and method as lot 1.
+
+## Things to check
+
+1. **Left out**: Nicolás Fernández Mercau (NYCFC; years not found) and David Da Costa (Portland; Wikidata matches a
+   different player). NYCFC and Portland show two core players.
+2. **Red Bulls identities**: MetroStars 1996–2005 (East Rutherford, Giants Stadium) and New York Red Bulls since 2006
+   (shown in Harrison, where the stadium has been since 2010; 2006–2009 were still at Giants Stadium).
+3. **NYCFC logo** not found on MLSsoccer.com under the expected file name; the club shows initials and default colours.
+4. **Providence Park** opening year (1926) not stored: the Timbers page does not give it.
+5. **Photos**: Ben Olsen's only photo is a general match scene and was not used; no Harrison city photo yet.
+6. **Champions label** in the Finals table is now gold on every team page (it was invisible for black team colours).
+
+# MLS lot 3: Chicago Fire, FC Dallas, Houston Dynamo, Sporting Kansas City, Real Salt Lake, San Jose Earthquakes
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Few core players** at some clubs: several Designated Players on MLS's May list left during 2026 (Hugo Cuypers,
+   Ezequiel Ponce, Dejan Joveljić, Manu García), so Chicago, Dallas and San Jose show two and Kansas City one.
+2. **San Jose and Houston**: the 2006 move is modelled as MLS treats it: the Earthquakes keep the 1996–2005 history and
+   titles (identities: Clash 1996–1999, Earthquakes 2000–2005 and since 2008); Houston starts in 2006.
+3. **Renames**: Dallas Burn → FC Dallas (2005), Kansas City Wiz/Wizards → Sporting Kansas City (2011), Chicago Fire →
+   Chicago Fire FC (2020), Houston Dynamo → Houston Dynamo FC (2020).
+4. **Sporting Kansas City's stadium** is shown as "Sporting Park", the name in the 2026 season table; it was also called
+   Children's Mercy Park.
+5. **Jack Elliott** (Chicago captain) and **Javier Morales** have no Wikipedia page of their own; their years come from
+   the club pages and Wikidata.
+6. **City title counts fixed**: for calendar-year seasons, a title won in a club's first season (D.C. United 1996,
+   Chicago 1998, Houston 2006) was not counted on the city page. NBA counts are unchanged.
+7. **No city photo** yet for Frisco and Sandy (only city-hall pictures found).
+
+# MLS lot 4: Colorado Rapids, New England Revolution, Philadelphia Union, Vancouver Whitecaps, CF Montréal, Nashville SC
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Left out**: Rafael Navarro (left Colorado in 2026) and Patrice Bernier (end year not found). Colorado, New England,
+   Vancouver and Montréal show two core players.
+2. **Andre Blake**: sources disagree on his draft year (2012 vs 2014); only "first overall pick" is shown.
+3. **Nashville's 2026 Supporters' Shield** comes from Wikipedia's 2026 season page, written a few days before the
+   regular season ended (November 7).
+4. **Montréal** is the first Canadian-French city; its renaming from Montreal Impact (2021) is an identity change.
+5. **New cities**: Commerce City, Foxborough, Chester, Nashville, Montréal (with photos for the last three).
+
+# MLS lot 5: FC Cincinnati, Minnesota United, Austin FC, Charlotte FC, St. Louis City SC, San Diego FC (all 30 clubs)
+
+Date: 2026-11-07.
+
+## Things to check
+
+1. **Left out**: Wilfried Zaha (Charlotte loan ended in 2026), Emanuel Reynoso (Minnesota; end year not found) and
+   Chucky Lozano (San Diego; now on loan at the LA Galaxy).
+2. **Young clubs** (San Diego, St. Louis, Charlotte) have few or no legends yet; San Diego shows none.
+3. **FC Cincinnati's captain**: the 2026 season table says Miles Robinson, the club page says Evander; both are core.
+4. **Austin's coach**: Davy Arnaud is interim; Jim Curtin is named to take over after the 2026 season.
+5. **All MLS Cup finals** now link both finalists.
+
+# MLS final check: to-do list (before the MLS production merge)
+
+Requested by the user on 2026-11-07:
+
+1. **Chicago Fire: Robert Lewandowski** is missing and is by far the club's biggest name. Confirm his signing and
+   years, then add him as a core player (and to the history and Europe box).
+2. **City photos**: add a hand-picked photo (no collages) to every city that has none: Chicago first, then Frisco, Sandy, Harrison, Commerce City, Foxborough, East Rutherford, Inglewood, Kansas City (Kansas) and the rest shown with initials on the Cities page. Replace the weak Chester photo (taken from a plane).
+3. **New York City FC logo**: find the official file on MLSsoccer.com.
+4. **LA Galaxy**: consider Chucky Lozano (on loan from San Diego in 2026) as a core player.
+
+## MLS final check: results (2026-11-07)
+
+All four to-do items are done:
+
+1. **Robert Lewandowski** added to Chicago Fire as a core player (signed June 29, 2026, Designated Player through
+   2027-28; sources: Chicago Fire FC, ESPN), and to the club's summary, history and Europe box.
+2. **City photos**: every one of the 59 cities now has a photo. Chicago, Washington, Kansas City (Kansas), Uniondale,
+   Chester (replaced) and East Rutherford (MetLife Stadium) got city photos; the stadium towns Commerce City, Foxborough,
+   Frisco, Harrison, Sandy and Inglewood use their stadium's photo, the most recognisable view of each.
+3. **NYCFC logo** found in a different folder on MLSsoccer.com; colours taken from it.
+4. **Chucky Lozano** added to the LA Galaxy core players (on loan from San Diego in 2026).
+
+General check: build passes (771 pages), 0 broken links, 0 orphan pages; graph 930 nodes and 1,195 edges with none
+dangling or isolated; 39 MLS and city pages checked at 375 px with no overflow or errors; 13 search tests return the
+right page first; every MLS club has a logo, colours, stadium photo, coach, owner and texts; all photos under free
+licenses. Five more player photos were found (Ben Olsen, Ramiro, Chiellini, Castellanos, Choupo-Moting). Nine players
+still have no free photo (Armas, Blanco, Abou Ali, Artur, Guilherme, Iván Jaime, Ronaldo Vieira, Berg Johnsen, Gauld).
+
+# Uniform drawings for every team (2026-11-07)
+
+New drawing: basketball jersey and shorts, or soccer shirt, shorts and socks, with the team crest, pattern, trim and
+soft shading; the sponsor is written under it as text (no sponsor logos are drawn).
+
+## Where the data comes from
+
+1. **Colours and patterns**: each team's Wikipedia infobox kit fields and the kit pattern images on Wikimedia Commons
+   (CC0 / CC BY-SA). For MLS the infobox gives exact shirt, sleeve, shorts and socks colours; the pattern image adds
+   the collar colour and whether the shirt has stripes, hoops or a print. For NBA the colours are read from the full
+   jersey images; patterns are not detected (wordmarks and numbers confuse the detector), so NBA drawings are plain
+   with collar/armhole trim.
+2. **Sponsors**: NBA jersey patches from each team's Wikipedia infobox; MLS front-of-shirt sponsors from ForSoccer's
+   2026 list (February 2026). Portland Trail Blazers' patch is listed as vacant.
+3. **Kit names**: the new 2026 MLS kit of each club gets its official name from MLSsoccer.com's Jersey Week.
+4. **Hand-researched kits kept**: Orlando Magic and Los Angeles Lakers (NBA.com sources); Orlando City (Wikipedia).
+5. **FC Dallas**: Wikipedia gives only full-colour pattern images, so its colours were read from the images (red and navy hoops; ice-blue alternate). **Gaps**: some MLS clubs show one or two kits where
+   Wikipedia lists only those. Colour names in the descriptions are computed from the colours and may be approximate.

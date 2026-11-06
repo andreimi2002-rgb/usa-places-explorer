@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Rio Tinto Stadium",
+      "from": 2008,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "America First Field",
+  "city": "sandy",
+  "opened": {
+    "value": "2008-10-09",
+    "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20213,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Real Salt Lake (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Real Salt Lake’s stadium in Sandy, Utah, opened in October 2008.",
+  "image": {
+    "file": "File:Rio Tinto Stadium panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rio_Tinto_Stadium_panorama.jpg/1280px-Rio_Tinto_Stadium_panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Tinto_Stadium_panorama.jpg",
+    "author": "Scott Catron",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of America First Field (then Rio Tinto Stadium)",
+    "caption": "America First Field (then Rio Tinto Stadium)",
+    "licenseChecked": "2026-11-05"
+  }
+}

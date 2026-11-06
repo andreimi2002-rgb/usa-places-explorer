@@ -1,0 +1,203 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Charlotte FC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2019,
+    "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+    "verified": "2026-11-06",
+    "note": "Awarded to David Tepper on December 17, 2019."
+  },
+  "firstSeason": {
+    "value": "2022",
+    "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "David Tepper (also owner of the NFL’s Carolina Panthers)",
+    "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Dean Smith",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "bank-of-america-stadium",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "karol-swiderski"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/charlotte-fc/",
+    "players": [
+      {
+        "person": "ashley-westwood",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "liel-abada",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "pep-biel",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2022-02-26",
+      "label": "First MLS match, a 3–0 loss at D.C. United",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022-03-05",
+      "label": "First home match in front of 74,479, then an MLS record",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023-12-12",
+      "label": "Dean Smith becomes head coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The 2022 expansion club that drew a record 74,479 fans to its first home game.",
+  "sources": [
+    {
+      "title": "Charlotte FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/CLT.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/charlotte-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CLT.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#0085CA"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CLT.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Bank of America Stadium soccer.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bank_of_America_Stadium_soccer.jpg/1280px-Bank_of_America_Stadium_soccer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Stadium_soccer.jpg",
+    "author": "jb2e75",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Bank of America Stadium",
+    "caption": "Bank of America Stadium",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Carolina Kit: Crowns Up",
+      "base": "#0085CA",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#0085CA",
+      "socks": "#0085CA",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Ally",
+      "description": "Blue, white collar. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#000000",
+      "shorts": "#000000",
+      "socks": "#000000",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Ally",
+      "description": "Black.",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#EAFA9D",
+      "shorts": "#EAFA9D",
+      "socks": "#EAFA9D",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Ally",
+      "description": "Green.",
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-07"
+    }
+  ]
+}

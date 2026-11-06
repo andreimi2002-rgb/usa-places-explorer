@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1362545",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 29, 1987, Englewood",
+      "source": "https://www.wikidata.org/wiki/Q1362545",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Alejandro Bedoya",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Alejandro_Bedoya",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Alejandro Bedoya (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alejandro_Bedoya",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Alejandro Bedoya (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1362545",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-union",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Alejandro_Bedoya",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international midfielder and the Union’s captain since 2016.",
+  "image": {
+    "file": "File:Alejandro Bedoya Philadelphia Union New York City FC Nov 23 2025-021 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Alejandro_Bedoya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-021_%28cropped%29.jpg/1280px-Alejandro_Bedoya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-021_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alejandro_Bedoya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-021_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Alejandro Bedoya",
+    "caption": "Alejandro Bedoya",
+    "licenseChecked": "2026-11-05"
+  }
+}

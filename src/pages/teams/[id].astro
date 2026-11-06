@@ -27,6 +27,7 @@ export async function getStaticPaths() {
 const { franchise } = Astro.props;
 const d = franchise.data;
 const { league, conference, division } = await structureOf(franchise);
+const terms = league?.data.terms ?? { final: 'Finals', title: 'title', titles: 'Titles', rosterSite: 'the official site', kitsIntro: undefined };
 const city = await cityOf(franchise.id);
 const identities = await Promise.all(
   (await identitiesOf(franchise.id)).map(async (i) => ({ i, city: await getEntry(i.data.city) })),
@@ -112,6 +113,9 @@ const finals = championships
   });
 const description = d.summary ?? `${d.name}: history, home venue, legends and rivalries, explained for newcomers.`;
 const kits = d.kits.filter((k) => k.verified);
+const kitSport = league?.data.sport.id === 'soccer' ? 'soccer' : 'basketball';
+const logoFiles = import.meta.glob<string>('/src/assets/logos/**/*.svg', { eager: true, query: '?url', import: 'default' });
+const crestUrl = d.logo ? logoFiles[`/src/assets/logos/${d.logo.file}`] : undefined;
 const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p) => p.data.image)];
 ---
 
@@ -130,7 +134,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
           {city && <li><span>City</span><a href={routes.cities(city.id)}>{city.data.name}</a></li>}
           {shown(d.founded) && <li><span>Founded</span>{shown(d.founded)}</li>}
           {currentVenue && <li><span>Home</span><a href={routes.venues(currentVenue.id)}>{currentVenue.data.name}</a></li>}
-          <li><span>NBA titles</span>{titles.length}</li>
+          <li><span>{terms.titles}</span>{titles.length}</li>
           {colors.length > 0 && (
             <li>
               <span>Colors</span>
@@ -173,7 +177,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
                 verified: d.headCoach?.verified,
               },
               {
-                label: 'NBA Finals reached',
+                label: `${terms.final} reached`,
                 value: finalsSummary,
                 source: finalsLost[0]?.data.source,
                 verified: finalsLost[0]?.data.verified ?? titles[0]?.data.verified,
@@ -226,13 +230,11 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
         <section class="section container" aria-labelledby="kits-title">
           <div class="section-head"><h2 id="kits-title">Uniforms</h2></div>
           <p class="muted kits-intro">
-            NBA teams wear several uniforms a season. The white <strong>Association</strong> and colored <strong>Icon</strong> sets are the
-            everyday pair; the <strong>Statement</strong> set is an alternate. The drawings are our own simplified sketches of the
-            {' '}{kits[0].season} set, not the exact designs.
+            {terms.kitsIntro && <Fragment set:html={terms.kitsIntro} />}{' '}The drawings are our own, made from the colours and patterns of the {kits[0].season} kits; they are not the exact designs and leave out sponsor logos.
           </p>
           <div class="kits">
             <ul class="kit-list">
-              {kits.map((k, i) => <li><Kit kit={k} uid={`${franchise.id}-${i}`} /></li>)}
+              {kits.map((k, i) => <li><Kit kit={k} uid={`${franchise.id}-${i}`} sport={kitSport} crest={crestUrl} /></li>)}
             </ul>
             {d.kitPhoto && <Photo image={d.kitPhoto} aspect="3 / 4" class="kit-photo" />}
           </div>
@@ -245,14 +247,14 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
           <div class="section-head"><h2 id="timeline-title">Championships &amp; milestones</h2></div>
           <p class="muted">
             {titles.length === 0
-              ? `${d.name} have not won an NBA title yet. They have reached the NBA Finals ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`
-              : `${titles.length} NBA title${titles.length === 1 ? '' : 's'}.`}
+              ? `${d.name} have not won an ${terms.title} yet.${finalsLost.length === 0 ? '' : ` They have reached the ${terms.final} ${finalsLost.length === 1 ? 'once' : finalsLost.length === 2 ? 'twice' : `${finalsLost.length} times`}.`}`
+              : `${titles.length} ${titles.length === 1 ? terms.title : terms.titles}.`}
           </p>
           {finals.length > 0 && (
             <div class="finals-wrap">
               <table class="finals">
-                <caption class="sr-only">Every NBA Finals appearance</caption>
-                <thead><tr><th scope="col">Season</th><th scope="col">Result</th><th scope="col">Opponent</th><th scope="col">Series</th></tr></thead>
+                <caption class="sr-only">Every {terms.final} appearance</caption>
+                <thead><tr><th scope="col">Season</th><th scope="col">Result</th><th scope="col">Opponent</th><th scope="col">Score</th></tr></thead>
                 <tbody>
                   {finals.map((x) => (
                     <tr class:list={[{ won: x.won }]}>
@@ -282,7 +284,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
           <div class="section-head"><h2 id={`${g.key}-title`}>{g.title}</h2></div>
           <p class="muted cards-intro">
             {g.intro}{g.cards.length > 0 && ' Tap a card to flip it.'}
-            {g.link && <> <a href={g.link} rel="noopener" target="_blank">Full roster on NBA.com →</a></>}
+            {g.link && <> <a href={g.link} rel="noopener" target="_blank">Full roster on {terms.rosterSite} →</a></>}
           </p>
           {g.cards.length > 0 ? (
             <ul class="card-grid">
@@ -374,7 +376,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
     {d.logo?.official && (
       <p class="subtle updated">
         Logo: a trademark of the {d.name}, shown for identification only. File from{' '}
-        {d.logo.source ? <a href={d.logo.source} rel="noopener" target="_blank">NBA.com</a> : 'the team'}.
+        {d.logo.source ? <a href={d.logo.source} rel="noopener" target="_blank">{terms.rosterSite}</a> : 'the team'}.
       </p>
     )}
     <p class="subtle updated">Status: {d.progress.replace('-', ' ')}. Facts checked {formatDate(d.sources[0]?.accessed ?? '2026-11-05')}.</p>
@@ -592,7 +594,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
     color: var(--text-subtle);
   }
   .finals tr.won td:nth-child(2) {
-    color: var(--team-1);
+    color: var(--warn);
     font-weight: 700;
   }
   .time-weather {

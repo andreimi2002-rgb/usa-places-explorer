@@ -1,0 +1,50 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Audi Field",
+  "city": "washington",
+  "opened": {
+    "value": "2018-07-09",
+    "source": "https://en.wikipedia.org/wiki/D.C._United",
+    "verified": "2026-11-06",
+    "note": "Ribbon cutting; first match July 14, 2018."
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "sources": [
+    {
+      "title": "D.C. United (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/D.C._United",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "D.C. United’s stadium in Washington since 2018.",
+  "image": {
+    "file": "File:Audi Field DC United.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Audi_Field_DC_United.jpg/1280px-Audi_Field_DC_United.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Audi_Field_DC_United.jpg",
+    "author": "David",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Audi Field",
+    "caption": "Audi Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

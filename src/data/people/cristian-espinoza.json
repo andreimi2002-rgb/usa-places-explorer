@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q17628109",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 3, 1995, Buenos Aires",
+      "source": "https://www.wikidata.org/wiki/Q17628109",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Cristian Espinoza",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Cristian_Espinoza",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Cristian Espinoza (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cristian_Espinoza",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Cristian Espinoza (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q17628109",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "nashville-sc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Cristian_Espinoza",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine winger and Designated Player since 2026.",
+  "image": {
+    "file": "File:Cristian Espinoza NYCFC v Nashville 4 Sep 2026-044 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Cristian_Espinoza_NYCFC_v_Nashville_4_Sep_2026-044_%28cropped%29.jpg/1280px-Cristian_Espinoza_NYCFC_v_Nashville_4_Sep_2026-044_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cristian_Espinoza_NYCFC_v_Nashville_4_Sep_2026-044_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Cristian Espinoza",
+    "caption": "Cristian Espinoza",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Poland",
+      "source": "https://www.wikidata.org/wiki/Q19662767",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 23, 1997",
+      "source": "https://www.wikidata.org/wiki/Q19662767",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Karol Świderski",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/Karol_%C5%9Awiderski",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Karol Świderski (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Karol_%C5%9Awiderski",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Karol Świderski (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q19662767",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-fc",
+      "role": "player",
+      "from": 2022,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Karol_%C5%9Awiderski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Poland international striker, the club’s first Designated Player and top scorer in 2022 and 2023.",
+  "image": {
+    "file": "File:Karol Swiderski 2019.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Karol_Swiderski_2019.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Karol_Swiderski_2019.png",
+    "author": "PAOK FC / ΠΑΕ ΠΑΟΚ",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Karol Świderski",
+    "caption": "Karol Świderski",
+    "licenseChecked": "2026-11-05"
+  }
+}

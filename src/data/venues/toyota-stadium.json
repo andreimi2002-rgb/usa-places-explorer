@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Toyota Stadium",
+  "city": "frisco",
+  "opened": {
+    "value": "2005-08",
+    "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20500,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "FC Dallas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "FC Dallas’s stadium in Frisco since August 2005.",
+  "image": {
+    "file": "File:Pizza Hut Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/1280px-Pizza_Hut_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_Park.jpg",
+    "author": "Jason Gulledge from Dallas, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Stadium (then Pizza Hut Park)",
+    "caption": "Toyota Stadium (then Pizza Hut Park)",
+    "licenseChecked": "2026-11-05"
+  }
+}

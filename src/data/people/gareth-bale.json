@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Wales",
+      "source": "https://www.wikidata.org/wiki/Q184586",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 16, 1989, Cardiff",
+      "source": "https://www.wikidata.org/wiki/Q184586",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2022",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Gareth Bale",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Gareth_Bale",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Gareth Bale (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gareth_Bale",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Gareth Bale (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q184586",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-fc",
+      "role": "player",
+      "from": 2022,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Gareth_Bale",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Wales star who scored the late equaliser in the 2022 MLS Cup final.",
+  "image": {
+    "file": "File:2022 FIFA World Cup United States 1–1 Wales - (32) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2832%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg",
+    "author": "حسین ظهروند",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Gareth Bale",
+    "caption": "Gareth Bale",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Fort Lauderdale",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Miami metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 26.12231,
+      "lon": -80.14338
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Fort%20Lauderdale&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A coastal city north of Miami, where Inter Miami played its first six seasons.",
+  "image": {
+    "file": "File:Skyline of Fort Lauderdale, Nov-15 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Skyline_of_Fort_Lauderdale%2C_Nov-15_%28cropped%29.jpg/1280px-Skyline_of_Fort_Lauderdale%2C_Nov-15_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Fort_Lauderdale,_Nov-15_(cropped).jpg",
+    "author": "KeanoManu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Fort Lauderdale",
+    "caption": "Fort Lauderdale",
+    "licenseChecked": "2026-11-05"
+  }
+}

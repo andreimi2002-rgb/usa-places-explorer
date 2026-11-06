@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://en.wikipedia.org/wiki/Ramiro_(footballer%2C_born_1993)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ramiro",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Ramiro_(footballer%2C_born_1993)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ramiro (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ramiro_(footballer%2C_born_1993)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-dallas",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Ramiro_(footballer%2C_born_1993)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian midfielder and FC Dallas captain.",
+  "image": {
+    "file": "File:Ramiro Benetti.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ramiro_Benetti.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ramiro_Benetti.jpg",
+    "author": "Agencia de Noticias ANDES",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ramiro",
+    "caption": "Ramiro",
+    "licenseChecked": "2026-11-05"
+  }
+}

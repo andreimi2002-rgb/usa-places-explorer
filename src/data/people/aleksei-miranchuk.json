@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Russia",
+      "source": "https://www.wikidata.org/wiki/Q11722657",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 17, 1995, Slavyansk-na-Kubani",
+      "source": "https://www.wikidata.org/wiki/Q11722657",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Aleksei Miranchuk",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Aleksei_Miranchuk",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Aleksei Miranchuk (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aleksei_Miranchuk",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Aleksei Miranchuk (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q11722657",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-united-fc",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aleksei_Miranchuk",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Russian playmaker who joined from Atalanta in 2024.",
+  "image": {
+    "file": "File:Aleksei Miranchuk Red Bull Atlanta 5.31.25-105 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Aleksei_Miranchuk_Red_Bull_Atlanta_5.31.25-105_%28cropped%29.jpg/1280px-Aleksei_Miranchuk_Red_Bull_Atlanta_5.31.25-105_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aleksei_Miranchuk_Red_Bull_Atlanta_5.31.25-105_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Aleksei Miranchuk",
+    "caption": "Aleksei Miranchuk",
+    "licenseChecked": "2026-11-05"
+  }
+}

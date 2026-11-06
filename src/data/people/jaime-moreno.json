@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Bolivia",
+      "source": "https://www.wikidata.org/wiki/Q467979",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 19, 1974, Santa Cruz de la Sierra",
+      "source": "https://www.wikidata.org/wiki/Q467979",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "1996, 1997, 1999, 2004",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (1997)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jaime Moreno",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Jaime_Moreno",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jaime Moreno (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jaime_Moreno",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jaime Moreno (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q467979",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 1996,
+      "to": 2002,
+      "source": "https://en.wikipedia.org/wiki/Jaime_Moreno",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 2004,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Jaime_Moreno",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Bolivian forward who played two long spells for D.C. United, winning four MLS Cups.",
+  "image": {
+    "file": "File:Moreno-toronto-rfk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moreno-toronto-rfk.jpg/1280px-Moreno-toronto-rfk.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Moreno-toronto-rfk.jpg",
+    "author": "Paul Frederiksen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jaime Moreno",
+    "caption": "Jaime Moreno",
+    "licenseChecked": "2026-11-05"
+  }
+}

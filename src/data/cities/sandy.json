@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Sandy",
+  "region": "Utah",
+  "country": "United States",
+  "timezone": "America/Denver",
+  "metro": "Salt Lake City metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 40.59161,
+      "lon": -111.8841
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Sandy&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A suburb south of Salt Lake City, under the Wasatch Mountains, home of Real Salt Lake’s stadium.",
+  "image": {
+    "file": "File:Rio Tinto Stadium panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rio_Tinto_Stadium_panorama.jpg/1280px-Rio_Tinto_Stadium_panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Tinto_Stadium_panorama.jpg",
+    "author": "Scott Catron",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of America First Field, Sandy",
+    "caption": "America First Field, Sandy",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Romania",
+      "source": "https://www.wikidata.org/wiki/Q77977211",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 16, 2002, Vaslui",
+      "source": "https://www.wikidata.org/wiki/Q77977211",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Louis Munteanu",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Louis_Munteanu",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Louis Munteanu (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Louis_Munteanu",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Louis Munteanu (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q77977211",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Louis_Munteanu",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Romanian international striker, signed as a Designated Player in 2026.",
+  "image": {
+    "file": "File:Louis Munteanu - Romania U21 vs Switzerland U21, 15 October 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Louis_Munteanu_-_Romania_U21_vs_Switzerland_U21%2C_15_October_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Louis_Munteanu_-_Romania_U21_vs_Switzerland_U21,_15_October_2024.jpg",
+    "author": "8Dodo8",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Louis Munteanu",
+    "caption": "Louis Munteanu",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q464385",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 16, 1970, Detroit",
+      "source": "https://www.wikidata.org/wiki/Q464385",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2002, 2005",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Cobi Jones",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Cobi_Jones",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Cobi Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cobi_Jones",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Cobi Jones (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q464385",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 1996,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Cobi_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "A Galaxy original who played the club’s first twelve seasons.",
+  "image": {
+    "file": "File:Cobi Jones (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cobi_Jones_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cobi_Jones_(cropped).jpg",
+    "author": "The original uploader was Hamedog at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Cobi Jones",
+    "caption": "Cobi Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

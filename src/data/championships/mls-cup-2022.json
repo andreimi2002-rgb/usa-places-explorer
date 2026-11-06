@@ -1,0 +1,27 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup all-time winners (NBC Sports)",
+      "url": "https://www.nbcsports.com/soccer/news/major-league-soccer-history-mls-cup-all-time-winners-supporters-shield-victors-more",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2022",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "los-angeles-fc",
+  "runnerUp": "philadelphia-union",
+  "winnerName": "Los Angeles FC",
+  "runnerUpName": "Philadelphia Union",
+  "result": "3–3, 3–0 on penalties",
+  "source": "https://www.nbcsports.com/soccer/news/major-league-soccer-history-mls-cup-all-time-winners-supporters-shield-victors-more",
+  "verified": "2026-11-06"
+}

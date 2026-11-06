@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Colombia",
+      "source": "https://www.wikidata.org/wiki/Q2721937",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 9, 1979, Santa Marta",
+      "source": "https://www.wikidata.org/wiki/Q2721937",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2010)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "David Ferreira",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/David_Ferreira",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "David Ferreira (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/David_Ferreira",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "David Ferreira (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2721937",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-dallas",
+      "role": "player",
+      "from": 2009,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/David_Ferreira",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Colombian playmaker and the 2010 MVP.",
+  "image": {
+    "file": "File:David Ferreira FCD.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/David_Ferreira_FCD.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:David_Ferreira_FCD.jpg",
+    "author": "Mahanga",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of David Ferreira",
+    "caption": "David Ferreira",
+    "licenseChecked": "2026-11-05"
+  }
+}

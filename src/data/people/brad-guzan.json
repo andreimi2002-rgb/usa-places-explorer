@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q219167",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 9, 1984, Evergreen Park",
+      "source": "https://www.wikidata.org/wiki/Q219167",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2018",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Brad Guzan",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Brad_Guzan",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brad Guzan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brad_Guzan",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Brad Guzan (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q219167",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-united-fc",
+      "role": "player",
+      "from": 2017,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Brad_Guzan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Goalkeeper and the club’s longest-serving captain, retired after 2025.",
+  "image": {
+    "file": "File:ATLUTD 20240331 ATLvsCHI MM1 0825 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/ATLUTD_20240331_ATLvsCHI_MM1_0825_%28cropped%29.jpg/1280px-ATLUTD_20240331_ATLvsCHI_MM1_0825_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ATLUTD_20240331_ATLvsCHI_MM1_0825_(cropped).jpg",
+    "author": "Antonio.tinajero",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brad Guzan",
+    "caption": "Brad Guzan",
+    "licenseChecked": "2026-11-05"
+  }
+}

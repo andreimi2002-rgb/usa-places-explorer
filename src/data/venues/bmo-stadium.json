@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "BMO Stadium",
+  "city": "los-angeles",
+  "opened": {
+    "value": "2018",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 22000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Los Angeles FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "LAFC’s stadium in Exposition Park, near downtown Los Angeles, open since 2018.",
+  "image": {
+    "file": "File:BMO Stadium (Los Angeles).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/BMO_Stadium_%28Los_Angeles%29.jpg/1280px-BMO_Stadium_%28Los_Angeles%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BMO_Stadium_(Los_Angeles).jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of BMO Stadium",
+    "caption": "BMO Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

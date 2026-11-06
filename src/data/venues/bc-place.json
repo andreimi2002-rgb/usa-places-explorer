@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "BC Place",
+  "city": "vancouver",
+  "opened": {
+    "value": "1983",
+    "source": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 22120,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Vancouver Whitecaps FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Vancouver’s domed downtown stadium, opened in 1983, set for about 22,000 at Whitecaps matches.",
+  "image": {
+    "file": "File:BC Place, Vancouver, south view 20240901 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/BC_Place%2C_Vancouver%2C_south_view_20240901_1.jpg/1280px-BC_Place%2C_Vancouver%2C_south_view_20240901_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BC_Place,_Vancouver,_south_view_20240901_1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of BC Place",
+    "caption": "BC Place",
+    "licenseChecked": "2026-11-05"
+  }
+}

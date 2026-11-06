@@ -1,0 +1,189 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "FC Cincinnati",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2015,
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06",
+    "note": "Founded August 12, 2015, in the USL."
+  },
+  "firstSeason": {
+    "value": "2019",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Lindner family (Carl Lindner III, majority owner)",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Pat Noonan",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "tql-stadium",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "luciano-acosta"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/fc-cincinnati/",
+    "players": [
+      {
+        "person": "miles-robinson",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "evander",
+        "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "kevin-denkey",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2016",
+      "label": "First season, in the USL at Nippert Stadium",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018-05-29",
+      "label": "Awarded an MLS place",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019",
+      "label": "First MLS season",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021-05-16",
+      "label": "Open TQL Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023-09-30",
+      "label": "Win the Supporters’ Shield; Luciano Acosta is MVP",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "From the USL in 2016 to the Supporters’ Shield in 2023, with MVP Luciano Acosta.",
+  "sources": [
+    {
+      "title": "FC Cincinnati (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/CIN.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/fc-cincinnati.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CIN.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Orange",
+        "hex": "#FE5000"
+      },
+      {
+        "name": "Navy",
+        "hex": "#003087"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/CIN.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Elevated view of TQL Stadium and its environs from 12th St and Central Parkway.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg/1280px-Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg",
+    "author": "Phasmatisnox",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of TQL Stadium",
+    "caption": "TQL Stadium",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#032BE4",
+      "sleeves": "#03134C",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#032BE4",
+      "socks": "#032BE4",
+      "pattern": "hoops",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Mercy Health",
+      "description": "Blue, black sleeves, white collar and horizontal hoops.",
+      "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "verified": "2026-11-07"
+    }
+  ]
+}

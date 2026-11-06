@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Geodis Park",
+  "city": "nashville",
+  "opened": {
+    "value": "2022",
+    "source": "https://en.wikipedia.org/wiki/Nashville_SC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 30000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Nashville SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Nashville SC’s 30,000-seat stadium, opened in 2022.",
+  "image": {
+    "file": "File:GEODIS Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEODIS_Park.jpg/1280px-GEODIS_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GEODIS_Park.jpg",
+    "author": "CheckeredYeti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Geodis Park",
+    "caption": "Geodis Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

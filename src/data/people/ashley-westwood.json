@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q59428",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 1, 1990, Nantwich",
+      "source": "https://www.wikidata.org/wiki/Q59428",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ashley Westwood",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ashley Westwood (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ashley Westwood (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q59428",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "charlotte-fc",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "English midfielder and Charlotte’s captain since 2023.",
+  "image": {
+    "file": "File:Ashley Westwood NYCFC v Charlotte 20 Sep 2025-030 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Ashley_Westwood_NYCFC_v_Charlotte_20_Sep_2025-030_%28cropped%29.jpg/1280px-Ashley_Westwood_NYCFC_v_Charlotte_20_Sep_2025-030_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ashley_Westwood_NYCFC_v_Charlotte_20_Sep_2025-030_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Ashley Westwood",
+    "caption": "Ashley Westwood",
+    "licenseChecked": "2026-11-05"
+  }
+}

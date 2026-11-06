@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q187159",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 21, 1989, L'Hospitalet de Llobregat",
+      "source": "https://www.wikidata.org/wiki/Q187159",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2025",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jordi Alba",
+  "position": {
+    "value": "Left-back",
+    "source": "https://en.wikipedia.org/wiki/Jordi_Alba",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jordi Alba (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jordi_Alba",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jordi Alba (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q187159",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "inter-miami-cf",
+      "role": "player",
+      "from": 2023,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Jordi_Alba",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spain’s attacking left-back, reunited with Messi and Busquets in Miami from 2023 to 2025.",
+  "image": {
+    "file": "File:Russia-Spain 2017 (11).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Russia-Spain_2017_%2811%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Russia-Spain_2017_(11).jpg",
+    "author": "Кирилл Венедиктов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Jordi Alba",
+    "caption": "Jordi Alba",
+    "licenseChecked": "2026-11-05"
+  }
+}

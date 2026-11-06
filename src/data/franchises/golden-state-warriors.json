@@ -56,6 +56,11 @@
       "title": "Golden State Warriors NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Golden State Warriors (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Golden_State_Warriors",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Golden State Warriors",
@@ -284,5 +289,32 @@
     "alt": "Exterior of Chase Center in San Francisco",
     "caption": "Chase Center, San Francisco",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Rakuten",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Golden_State_Warriors",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#234189",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Rakuten",
+      "description": "Blue, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Golden_State_Warriors",
+      "verified": "2026-11-07"
+    }
+  ]
 }

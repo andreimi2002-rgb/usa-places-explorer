@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Norway",
+      "source": "https://www.wikidata.org/wiki/Q55238094",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 9, 1999, Haugesund Municipality",
+      "source": "https://www.wikidata.org/wiki/Q55238094",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Kristoffer Velde",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Kristoffer_Velde",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kristoffer Velde (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kristoffer_Velde",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Kristoffer Velde (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q55238094",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "portland-timbers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kristoffer_Velde",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Norwegian winger and Designated Player since 2025.",
+  "image": {
+    "file": "File:Kristoffer Velde at Timbers v Dynamo 1 November 2026 04 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kristoffer_Velde_at_Timbers_v_Dynamo_1_November_2026_04_%28cropped%29.jpg/1280px-Kristoffer_Velde_at_Timbers_v_Dynamo_1_November_2026_04_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kristoffer_Velde_at_Timbers_v_Dynamo_1_November_2026_04_(cropped).jpg",
+    "author": "Joe Peacock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Kristoffer Velde",
+    "caption": "Kristoffer Velde",
+    "licenseChecked": "2026-11-05"
+  }
+}

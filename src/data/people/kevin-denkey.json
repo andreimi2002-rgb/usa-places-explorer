@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Togo",
+      "source": "https://www.wikidata.org/wiki/Q57078974",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 30, 2000, Lomé",
+      "source": "https://www.wikidata.org/wiki/Q57078974",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Kévin Denkey",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/K%C3%A9vin_Denkey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kévin Denkey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/K%C3%A9vin_Denkey",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Kévin Denkey (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q57078974",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-cincinnati",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/K%C3%A9vin_Denkey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Togo international striker, signed as a Designated Player in 2025.",
+  "image": {
+    "file": "File:Kevin Denkey NYCFC v Cincinnati 22 Apr 26-50 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kevin_Denkey_NYCFC_v_Cincinnati_22_Apr_26-50_%28cropped%29.jpg/1280px-Kevin_Denkey_NYCFC_v_Cincinnati_22_Apr_26-50_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Denkey_NYCFC_v_Cincinnati_22_Apr_26-50_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Kévin Denkey",
+    "caption": "Kévin Denkey",
+    "licenseChecked": "2026-11-05"
+  }
+}

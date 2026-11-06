@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "France",
+      "source": "https://www.wikidata.org/wiki/Q1907",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "December 26, 1986, Nice",
+      "source": "https://www.wikidata.org/wiki/Q1907",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Hugo Lloris",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Hugo_Lloris",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Hugo Lloris (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hugo_Lloris",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Hugo Lloris (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1907",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-fc",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Hugo_Lloris",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "France’s World Cup-winning captain of 2018, LAFC’s goalkeeper since 2024.",
+  "image": {
+    "file": "File:Lloris 2018 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lloris_2018_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lloris_2018_(cropped).jpg",
+    "author": "Кирилл Венедиктов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Hugo Lloris",
+    "caption": "Hugo Lloris",
+    "licenseChecked": "2026-11-05"
+  }
+}

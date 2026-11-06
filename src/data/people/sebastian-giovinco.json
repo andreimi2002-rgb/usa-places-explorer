@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Italy",
+      "source": "https://www.wikidata.org/wiki/Q213111",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 26, 1987, Turin",
+      "source": "https://www.wikidata.org/wiki/Q213111",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2017",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2015)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sebastian Giovinco",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Sebastian_Giovinco",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sebastian Giovinco (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sebastian_Giovinco",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sebastian Giovinco (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q213111",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2015,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Sebastian_Giovinco",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The small Italian forward from Juventus who won MVP in his first MLS season.",
+  "image": {
+    "file": "File:Sebastian Giovinco 2015-05-23 Toronto FC (edited).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sebastian_Giovinco_2015-05-23_Toronto_FC_%28edited%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sebastian_Giovinco_2015-05-23_Toronto_FC_(edited).jpg",
+    "author": "Original: HighlanderICT from Toronto, Canada / Derivative work: Danyele This JPG graphic was created with GIMP.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Sebastian Giovinco",
+    "caption": "Sebastian Giovinco",
+    "licenseChecked": "2026-11-05"
+  }
+}

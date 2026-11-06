@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Switzerland",
+      "source": "https://www.wikidata.org/wiki/Q524870",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 14, 1990, Münsingen",
+      "source": "https://www.wikidata.org/wiki/Q524870",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Roman Bürki",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Roman Bürki (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Roman Bürki (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q524870",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-city-sc",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Swiss goalkeeper, captain and 2023 Goalkeeper of the Year.",
+  "image": {
+    "file": "File:Buerki170727-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Buerki170727-2.jpg/1280px-Buerki170727-2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Buerki170727-2.jpg",
+    "author": "Reto Stauffer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Roman Bürki",
+    "caption": "Roman Bürki",
+    "licenseChecked": "2026-11-05"
+  }
+}

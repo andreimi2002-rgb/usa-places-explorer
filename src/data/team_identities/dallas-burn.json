@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "fc-dallas",
+  "name": "Dallas Burn",
+  "city": "dallas",
+  "from": {
+    "value": 1996,
+    "source": "https://en.wikipedia.org/wiki/FC_Dallas",
+    "verified": "2026-11-06"
+  },
+  "to": 2004,
+  "current": false
+}

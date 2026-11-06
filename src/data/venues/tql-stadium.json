@@ -1,0 +1,50 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "TQL Stadium",
+  "city": "cincinnati",
+  "opened": {
+    "value": "2021-05-16",
+    "source": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+    "verified": "2026-11-06",
+    "note": "First match."
+  },
+  "capacity": {
+    "soccer": {
+      "value": 26000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "FC Cincinnati (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "FC Cincinnati’s stadium in the West End, open since May 2021.",
+  "image": {
+    "file": "File:Elevated view of TQL Stadium and its environs from 12th St and Central Parkway.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg/1280px-Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elevated_view_of_TQL_Stadium_and_its_environs_from_12th_St_and_Central_Parkway.jpg",
+    "author": "Phasmatisnox",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of TQL Stadium",
+    "caption": "TQL Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

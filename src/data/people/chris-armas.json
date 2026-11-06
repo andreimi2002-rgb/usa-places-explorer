@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q303090",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 27, 1972, The Bronx",
+      "source": "https://www.wikidata.org/wiki/Q303090",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "1998",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Chris Armas",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Chris_Armas",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Chris Armas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chris_Armas",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Chris Armas (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q303090",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-fire-fc",
+      "role": "player",
+      "from": 1998,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Chris_Armas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Midfielder of the 1998 double team, ten seasons with the Fire."
+}

@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q2436078",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 11, 1985, San Cristóbal",
+      "source": "https://www.wikidata.org/wiki/Q2436078",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2016",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Osvaldo Alonso",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Osvaldo_Alonso",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Osvaldo Alonso (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Osvaldo_Alonso",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Osvaldo Alonso (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2436078",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-sounders-fc",
+      "role": "player",
+      "from": 2009,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Osvaldo_Alonso",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cuban-born midfielder, an original Sounder and long-time captain.",
+  "image": {
+    "file": "File:Alonso running.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Alonso_running.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alonso_running.jpg",
+    "author": "Albumen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Osvaldo Alonso",
+    "caption": "Osvaldo Alonso",
+    "licenseChecked": "2026-11-05"
+  }
+}

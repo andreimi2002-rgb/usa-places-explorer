@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "France",
+      "source": "https://www.wikidata.org/wiki/Q45901",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 17, 1977, Les Ulis",
+      "source": "https://www.wikidata.org/wiki/Q45901",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Thierry Henry",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Thierry Henry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thierry_Henry",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Thierry Henry (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q45901",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-red-bulls",
+      "role": "player",
+      "from": 2010,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "France and Arsenal’s great striker, who finished his career with the Red Bulls.",
+  "image": {
+    "file": "File:Thierry Henry (51649035951) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Thierry Henry",
+    "caption": "Thierry Henry",
+    "licenseChecked": "2026-11-05"
+  }
+}

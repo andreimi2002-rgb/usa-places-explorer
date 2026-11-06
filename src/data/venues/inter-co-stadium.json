@@ -1,0 +1,75 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Orlando City Stadium",
+      "from": 2017,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Inter%26Co_Stadium",
+      "verified": "2026-11-06"
+    },
+    {
+      "name": "Exploria Stadium",
+      "from": 2019,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/Inter%26Co_Stadium",
+      "verified": "2026-11-06"
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Inter&Co Stadium",
+  "city": "orlando",
+  "opened": {
+    "value": "2017",
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 25500,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "owner": {
+    "value": "Orlando City SC",
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06",
+    "note": "Owned and operated by the club."
+  },
+  "sources": [
+    {
+      "title": "Orlando City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Inter&Co Stadium (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inter%26Co_Stadium",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Orlando City’s own soccer stadium west of downtown, open since 2017 and shared with the Orlando Pride.",
+  "image": {
+    "file": "File:Orlando City Stadium (04-21-18) 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orlando_City_Stadium_%2804-21-18%29_1.jpg/1280px-Orlando_City_Stadium_%2804-21-18%29_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Orlando_City_Stadium_(04-21-18)_1.jpg",
+    "author": "Porsche997SBS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Inter&Co Stadium",
+    "caption": "Inter&Co Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

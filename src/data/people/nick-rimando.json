@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1356730",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 17, 1979, Montclair",
+      "source": "https://www.wikidata.org/wiki/Q1356730",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2009",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (2009)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Nick Rimando",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Nick_Rimando",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Nick Rimando (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nick_Rimando",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Nick Rimando (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1356730",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2007,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Nick_Rimando",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Goalkeeper and MLS Cup MVP in the 2009 final, won on penalties.",
+  "image": {
+    "file": "File:Nick Rimando.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Nick_Rimando.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nick_Rimando.jpg",
+    "author": "Leon7",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Nick Rimando",
+    "caption": "Nick Rimando",
+    "licenseChecked": "2026-11-05"
+  }
+}

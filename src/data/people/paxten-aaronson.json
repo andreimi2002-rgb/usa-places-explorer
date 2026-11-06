@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q97657174",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 26, 2003, Medford",
+      "source": "https://www.wikidata.org/wiki/Q97657174",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Paxten Aaronson",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Paxten_Aaronson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Paxten Aaronson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Paxten_Aaronson",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Paxten Aaronson (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q97657174",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "colorado-rapids",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Paxten_Aaronson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US midfielder and Designated Player since 2025.",
+  "image": {
+    "file": "File:Paxten Aaronson NYCFC v Colorado Mar 14 2026-28 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Paxten_Aaronson_NYCFC_v_Colorado_Mar_14_2026-28_%28cropped%29.jpg/1280px-Paxten_Aaronson_NYCFC_v_Colorado_Mar_14_2026-28_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paxten_Aaronson_NYCFC_v_Colorado_Mar_14_2026-28_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Paxten Aaronson",
+    "caption": "Paxten Aaronson",
+    "licenseChecked": "2026-11-05"
+  }
+}

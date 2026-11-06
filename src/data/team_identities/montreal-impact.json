@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "cf-montreal",
+  "name": "Montreal Impact",
+  "city": "montreal",
+  "from": {
+    "value": 2012,
+    "source": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+    "verified": "2026-11-06"
+  },
+  "to": 2020,
+  "current": false
+}

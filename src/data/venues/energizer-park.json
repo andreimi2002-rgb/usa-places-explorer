@@ -1,0 +1,52 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "CityPark",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Energizer Park",
+  "city": "st-louis",
+  "capacity": {
+    "soccer": {
+      "value": 22423,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "St. Louis City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "St. Louis City SC’s downtown stadium, home since the club’s first season in 2023.",
+  "image": {
+    "file": "File:St. Louis City SC vs. FC Cincinnati at CityPark (20230416094533).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_%2820230416094533%29.jpg/1280px-St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_%2820230416094533%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_(20230416094533).jpg",
+    "author": "Cornfield948",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Energizer Park (then CityPark)",
+    "caption": "Energizer Park (then CityPark)",
+    "licenseChecked": "2026-11-05"
+  }
+}

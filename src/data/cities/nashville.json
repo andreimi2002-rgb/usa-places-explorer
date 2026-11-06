@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Nashville",
+  "region": "Tennessee",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 36.16589,
+      "lon": -86.78444
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Nashville&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Tennessee’s capital, known as Music City, with an MLS club since 2020.",
+  "image": {
+    "file": "File:Nashville Skyline at Twilight.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Nashville_Skyline_at_Twilight.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nashville_Skyline_at_Twilight.jpg",
+    "author": "Joel יוֹאֵל",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of Nashville",
+    "caption": "Nashville",
+    "licenseChecked": "2026-11-05"
+  }
+}

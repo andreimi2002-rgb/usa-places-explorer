@@ -1,0 +1,99 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q944999",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 24, 1963, Belgrade",
+      "source": "https://www.wikidata.org/wiki/Q944999",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2000",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (1997)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS MVP (2003)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Preki",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Preki",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Preki (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Preki",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Preki (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q944999",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 1996,
+      "to": 2000,
+      "source": "https://en.wikipedia.org/wiki/Preki",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 2002,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Preki",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Serbian-born US international, the only two-time MVP before Messi.",
+  "image": {
+    "file": "File:PREKI.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/PREKI.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:PREKI.jpg",
+    "author": "The original uploader was Tedzsee at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Preki",
+    "caption": "Preki",
+    "licenseChecked": "2026-11-05"
+  }
+}

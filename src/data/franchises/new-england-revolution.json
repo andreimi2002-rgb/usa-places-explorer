@@ -1,0 +1,218 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "New England Revolution",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 1995,
+    "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+    "verified": "2026-11-06"
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Robert Kraft (also owner of the NFL’s New England Patriots)",
+    "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Marko Mitrović",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "gillette-stadium",
+      "from": 2002,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "taylor-twellman",
+    "shalrie-joseph",
+    "carles-gil"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/new-england-revolution/",
+    "players": [
+      {
+        "person": "carles-gil",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "matt-turner",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996",
+      "label": "First MLS season, at Foxboro Stadium",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Move to Gillette Stadium; lose the MLS Cup final there",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2007",
+      "label": "Win the U.S. Open Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Win the North American SuperLiga",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021",
+      "label": "Win the Supporters’ Shield; Carles Gil is MVP",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Kraft family’s club: five MLS Cup finals, all lost, and the 2021 Supporters’ Shield.",
+  "sources": [
+    {
+      "title": "New England Revolution (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/NE.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/new-england-revolution.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/NE.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#0A2240"
+      },
+      {
+        "name": "Red",
+        "hex": "#CE0E2D"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/NE.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Gillette Stadium Foxborough.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gillette_Stadium_Foxborough.jpg/1280px-Gillette_Stadium_Foxborough.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxborough.jpg",
+    "author": "Max P",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Gillette Stadium",
+    "caption": "Gillette Stadium",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Independence Day Kit",
+      "base": "#122946",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#122946",
+      "socks": "#122946",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Gillette",
+      "description": "Navy, white collar. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "socks": "#FFFFFF",
+      "pattern": "texture",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Gillette",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#F93934",
+      "sleeves": "#242F5D",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#242F5D",
+      "socks": "#F93934",
+      "pattern": "hoops",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Gillette",
+      "description": "Red, navy sleeves, white collar, horizontal hoops, navy shorts and red socks.",
+      "source": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "verified": "2026-11-07"
+    }
+  ]
+}

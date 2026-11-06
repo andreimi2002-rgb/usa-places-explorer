@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Harrison",
+  "region": "New Jersey",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "New York metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 40.74649,
+      "lon": -74.15626
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Harrison&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A small New Jersey town across the river from Newark, home of the New York Red Bulls’ stadium since 2010.",
+  "image": {
+    "file": "File:Red Bull Arena exterior 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Red_Bull_Arena_exterior_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Bull_Arena_exterior_2.jpg",
+    "author": "Claude Betancourt",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of The stadium in Harrison (then Red Bull Arena)",
+    "caption": "The stadium in Harrison (then Red Bull Arena)",
+    "licenseChecked": "2026-11-05"
+  }
+}

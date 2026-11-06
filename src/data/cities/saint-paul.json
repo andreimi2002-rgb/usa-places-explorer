@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Saint Paul",
+  "region": "Minnesota",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "metro": "Minneapolis–Saint Paul",
+  "coordinates": {
+    "value": {
+      "lat": 44.94441,
+      "lon": -93.09327
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Saint%20Paul&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Minnesota’s capital, twin city of Minneapolis, home of Minnesota United’s stadium since 2019.",
+  "image": {
+    "file": "File:Saint Paul April 2025 01 (skyline).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Saint_Paul_April_2025_01_%28skyline%29.jpg/1280px-Saint_Paul_April_2025_01_%28skyline%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Paul_April_2025_01_(skyline).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Saint Paul",
+    "caption": "Saint Paul",
+    "licenseChecked": "2026-11-05"
+  }
+}

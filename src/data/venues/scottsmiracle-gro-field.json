@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [
+    {
+      "name": "Lower.com Field",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "verified": null
+    }
+  ],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "ScottsMiracle-Gro Field",
+  "city": "columbus",
+  "opened": {
+    "value": "2021",
+    "source": "https://en.wikipedia.org/wiki/Columbus_Crew",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 20011,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Columbus Crew (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Crew’s downtown stadium since 2021, built after the campaign that kept the club in Columbus.",
+  "image": {
+    "file": "File:Opening Match at Lower.com Field.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Opening_Match_at_Lower.com_Field.jpg/1280px-Opening_Match_at_Lower.com_Field.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Opening_Match_at_Lower.com_Field.jpg",
+    "author": "DrexRockman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of ScottsMiracle-Gro Field",
+    "caption": "ScottsMiracle-Gro Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

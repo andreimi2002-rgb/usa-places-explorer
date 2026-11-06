@@ -151,6 +151,11 @@
       "title": "Orlando Magic: team name and mascot (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Orlando_Magic",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Walt Disney World extends its Orlando Magic sponsorship (Attractions Magazine)",
+      "url": "https://attractionsmagazine.com/disney-world-extends-sponsorship-orlando-magic-basketball",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Orlando Magic",
@@ -354,7 +359,8 @@
       "maker": "Nike",
       "description": "White, with pinstripes that bring back the look of the team’s first years (1989–98).",
       "source": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Walt Disney World"
     },
     {
       "edition": "icon",
@@ -364,7 +370,8 @@
       "maker": "Nike",
       "description": "Magic blue, with the same pinstripes and trim as the white set.",
       "source": "https://www.nba.com/news/magic-unveil-new-logo-uniforms-2025-26",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Walt Disney World"
     },
     {
       "edition": "statement",
@@ -377,7 +384,8 @@
       "maker": "Jordan Brand",
       "description": "Black, inspired by the original warm-up jackets: a blue shoulder panel and two silver stripes framing the wordmark.",
       "source": "https://news.sportslogos.net/2025/06/03/orlando-magic-unveil-new-uniforms-logos-court-design/basketball/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-05",
+      "sponsor": "Walt Disney World"
     }
   ],
   "kitPhoto": {

@@ -46,6 +46,11 @@
       "title": "Oklahoma City Thunder NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Oklahoma City Thunder (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Oklahoma_City_Thunder",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Oklahoma City Thunder",
@@ -252,5 +257,45 @@
     "alt": "Exterior of the Paycom Center in Oklahoma City",
     "caption": "Paycom Center, September 2021",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Love's",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Oklahoma_City_Thunder",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#0068D7",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Love's",
+      "description": "Blue, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Oklahoma_City_Thunder",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#FF3B01",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Love's",
+      "description": "Red, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Oklahoma_City_Thunder",
+      "verified": "2026-11-07"
+    }
+  ]
 }

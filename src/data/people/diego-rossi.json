@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Uruguay",
+      "source": "https://www.wikidata.org/wiki/Q16301971",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 5, 1998, Montevideo",
+      "source": "https://www.wikidata.org/wiki/Q16301971",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2023",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Diego Rossi",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Diego_Rossi_(footballer)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Diego Rossi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Diego_Rossi_(footballer)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Diego Rossi (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q16301971",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "columbus-crew",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Diego_Rossi_(footballer)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Uruguayan forward and Designated Player, part of the 2023 title team.",
+  "image": {
+    "file": "File:Diego Rossi NYCFC v Columbus 10 May 2026-71 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Diego_Rossi_NYCFC_v_Columbus_10_May_2026-71_%28cropped%29.jpg/1280px-Diego_Rossi_NYCFC_v_Columbus_10_May_2026-71_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Diego_Rossi_NYCFC_v_Columbus_10_May_2026-71_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Diego Rossi",
+    "caption": "Diego Rossi",
+    "licenseChecked": "2026-11-05"
+  }
+}

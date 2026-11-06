@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q28800388",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 10, 1998",
+      "source": "https://www.wikidata.org/wiki/Q28800388",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Djordje Mihailovic",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Djordje_Mihailovic",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Djordje Mihailovic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Djordje_Mihailovic",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Djordje Mihailovic (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q28800388",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Djordje_Mihailovic",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international playmaker and Designated Player since 2025.",
+  "image": {
+    "file": "File:Djordje Mihailovic September 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Djordje_Mihailovic_September_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Djordje_Mihailovic_September_2017.jpg",
+    "author": "DjoMihailovic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Djordje Mihailovic",
+    "caption": "Djordje Mihailovic",
+    "licenseChecked": "2026-11-05"
+  }
+}

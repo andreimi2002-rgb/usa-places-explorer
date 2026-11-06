@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Jamaica",
+      "source": "https://www.wikidata.org/wiki/Q15924494",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 21, 1990, May Pen",
+      "source": "https://www.wikidata.org/wiki/Q15924494",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Andre Blake",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Andre_Blake",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Andre Blake (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Andre_Blake",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Andre Blake (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q15924494",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-union",
+      "role": "player",
+      "from": 2014,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Andre_Blake",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Jamaica’s goalkeeper, a first overall draft pick and Goalkeeper of the Year in 2016.",
+  "image": {
+    "file": "File:Andre Blake Philadelphia Chicago 10.26.25-045 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Andre_Blake_Philadelphia_Chicago_10.26.25-045_%28cropped%29.jpg/1280px-Andre_Blake_Philadelphia_Chicago_10.26.25-045_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andre_Blake_Philadelphia_Chicago_10.26.25-045_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Andre Blake",
+    "caption": "Andre Blake",
+    "licenseChecked": "2026-11-05"
+  }
+}

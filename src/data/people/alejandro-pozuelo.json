@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q26051",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "September 20, 1991, Seville",
+      "source": "https://www.wikidata.org/wiki/Q26051",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2020)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Alejandro Pozuelo",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Alejandro_Pozuelo",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Alejandro Pozuelo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alejandro_Pozuelo",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Alejandro Pozuelo (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q26051",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2019,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Alejandro_Pozuelo",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spanish playmaker and the 2020 MVP.",
+  "image": {
+    "file": "File:Alejandro Pozuelo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Alejandro_Pozuelo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alejandro_Pozuelo.jpg",
+    "author": "Benjamin Blackler",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Alejandro Pozuelo",
+    "caption": "Alejandro Pozuelo",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2004",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "dc-united",
+  "runnerUp": "sporting-kansas-city",
+  "winnerName": "D.C. United",
+  "runnerUpName": "Kansas City Wizards",
+  "result": "3–2",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

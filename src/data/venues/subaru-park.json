@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Subaru Park",
+  "city": "chester",
+  "opened": {
+    "value": "2010-06",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 18500,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Philadelphia Union (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "The Union’s riverside stadium in Chester since June 2010.",
+  "image": {
+    "file": "File:Philadelphia Union versus Chicago Fire at Subaru Park 8-13-2022.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg/1280px-Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_Union_versus_Chicago_Fire_at_Subaru_Park_8-13-2022.jpeg",
+    "author": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Subaru Park",
+    "caption": "Subaru Park",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Major League Soccer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Major_League_Soccer",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "Promotion and relegation",
+  "short": "The European system in which the worst teams drop to a lower division. MLS, like the other big American leagues, has none: clubs join by buying an expansion place.",
+  "sports": [
+    "soccer"
+  ],
+  "related": [
+    "expansion-team"
+  ]
+}

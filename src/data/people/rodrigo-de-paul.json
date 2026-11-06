@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q6110670",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 24, 1994, Sarandí",
+      "source": "https://www.wikidata.org/wiki/Q6110670",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2025",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Rodrigo De Paul",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rodrigo De Paul (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Rodrigo De Paul (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q6110670",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "inter-miami-cf",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentina’s World Cup-winning midfielder, at Inter Miami since 2025.",
+  "image": {
+    "file": "File:Rodrigo De Paul Argentina v Spain 19 July 2026-159.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rodrigo_De_Paul_Argentina_v_Spain_19_July_2026-159.jpg/1280px-Rodrigo_De_Paul_Argentina_v_Spain_19_July_2026-159.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodrigo_De_Paul_Argentina_v_Spain_19_July_2026-159.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Rodrigo De Paul",
+    "caption": "Rodrigo De Paul",
+    "licenseChecked": "2026-11-05"
+  }
+}

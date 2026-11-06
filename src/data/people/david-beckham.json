@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q10520",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "May 2, 1975",
+      "source": "https://www.wikidata.org/wiki/Q10520",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2011, 2012",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "David Beckham",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/David_Beckham",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "David Beckham (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/David_Beckham",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "David Beckham (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q10520",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2007,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/David_Beckham",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "England’s former captain, whose 2007 move from Real Madrid changed MLS; later the founder of Inter Miami.",
+  "image": {
+    "file": "File:David Beckham UNICEF (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/David_Beckham_UNICEF_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:David_Beckham_UNICEF_(cropped).jpg",
+    "author": "Soccer Aid for Unicef",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of David Beckham",
+    "caption": "David Beckham",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -21,5 +21,16 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4140963: Washington D.C., District of Columbia"
   },
-  "summary": "Home of the Bullets and Wizards since 1973."
+  "summary": "Home of the Bullets and Wizards since 1973.",
+  "image": {
+    "file": "File:Washington dc skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Washington_dc_skyline.jpg/1280px-Washington_dc_skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Washington_dc_skyline.jpg",
+    "author": "Ad Meskens",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Washington, D.C., from the National Cathedral",
+    "caption": "Washington, D.C., from the National Cathedral",
+    "licenseChecked": "2026-11-05"
+  }
 }

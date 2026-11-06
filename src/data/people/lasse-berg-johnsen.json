@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Norway",
+      "source": "https://www.wikidata.org/wiki/Q63159232",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "August 18, 1999, Stavanger",
+      "source": "https://www.wikidata.org/wiki/Q63159232",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Lasse Berg Johnsen",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Lasse_Berg_Johnsen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lasse Berg Johnsen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lasse_Berg_Johnsen",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Lasse Berg Johnsen (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q63159232",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Lasse_Berg_Johnsen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Norwegian midfielder and Sporting’s captain."
+}

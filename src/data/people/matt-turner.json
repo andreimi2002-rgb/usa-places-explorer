@@ -1,0 +1,67 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q24663885",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 24, 1994, Park Ridge",
+      "source": "https://www.wikidata.org/wiki/Q24663885",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Matt Turner",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Matt Turner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Matt Turner (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q24663885",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2016,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US national team goalkeeper, back at the Revolution since 2025.",
+  "image": {
+    "file": "File:Matt Turner Australia v USA 19 June 2026-46 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Matt_Turner_Australia_v_USA_19_June_2026-46_%28cropped%29.jpg/1280px-Matt_Turner_Australia_v_USA_19_June_2026-46_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matt_Turner_Australia_v_USA_19_June_2026-46_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Matt Turner",
+    "caption": "Matt Turner",
+    "licenseChecked": "2026-11-05"
+  }
+}

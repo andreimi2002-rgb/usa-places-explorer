@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q83006",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "December 3, 1981, Langreo",
+      "source": "https://www.wikidata.org/wiki/Q83006",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2016)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "David Villa",
+  "position": {
+    "value": "Striker",
+    "source": "https://en.wikipedia.org/wiki/David_Villa",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "David Villa (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/David_Villa",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "David Villa (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q83006",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2014,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/David_Villa",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spain’s record scorer, NYCFC’s first star and its all-time top scorer.",
+  "image": {
+    "file": "File:Spain-Tahiti, Confederations Cup 2013 (02) (Villa crop).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spain-Tahiti,_Confederations_Cup_2013_(02)_(Villa_crop).jpg",
+    "author": "Tânia Rêgo/ABr",
+    "license": "CC BY 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "alt": "Photo of David Villa",
+    "caption": "David Villa",
+    "licenseChecked": "2026-11-05"
+  }
+}

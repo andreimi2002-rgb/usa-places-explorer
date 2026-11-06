@@ -46,6 +46,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Sacramento Kings (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Sacramento_Kings",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Sacramento Kings",
@@ -235,5 +240,46 @@
     "alt": "Exterior of Golden 1 Center in Sacramento",
     "caption": "Golden 1 Center, 2017",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Phoong Law",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Sacramento_Kings",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#18171D",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Phoong Law",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Sacramento_Kings",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#561899",
+      "trim": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Phoong Law",
+      "description": "Purple, white trim and white shorts.",
+      "source": "https://en.wikipedia.org/wiki/Sacramento_Kings",
+      "verified": "2026-11-07"
+    }
+  ]
 }

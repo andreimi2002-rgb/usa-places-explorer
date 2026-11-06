@@ -1,0 +1,44 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "name": "Bank of America Stadium",
+  "city": "charlotte",
+  "capacity": {
+    "soccer": {
+      "value": 38000,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Charlotte FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Charlotte’s downtown NFL stadium, shared by the Panthers and Charlotte FC.",
+  "image": {
+    "file": "File:Bank of America Stadium soccer.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bank_of_America_Stadium_soccer.jpg/1280px-Bank_of_America_Stadium_soccer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Stadium_soccer.jpg",
+    "author": "jb2e75",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Bank of America Stadium",
+    "caption": "Bank of America Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

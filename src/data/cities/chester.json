@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Chester",
+  "region": "Pennsylvania",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Philadelphia metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 39.84753,
+      "lon": -75.35785
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Chester&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city on the Delaware River south-west of Philadelphia, home of the Philadelphia Union’s stadium.",
+  "image": {
+    "file": "File:Chester, Pennsylvania (2894760946).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chester%2C_Pennsylvania_%282894760946%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chester,_Pennsylvania_(2894760946).jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "View of Chester",
+    "caption": "Chester",
+    "licenseChecked": "2026-11-05"
+  }
+}

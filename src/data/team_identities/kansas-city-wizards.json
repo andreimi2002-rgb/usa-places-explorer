@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "sporting-kansas-city",
+  "name": "Kansas City Wizards",
+  "city": "kansas-city",
+  "from": {
+    "value": 1997,
+    "source": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+    "verified": "2026-11-06"
+  },
+  "to": 2010,
+  "current": false
+}

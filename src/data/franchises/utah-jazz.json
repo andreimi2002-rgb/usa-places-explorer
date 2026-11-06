@@ -41,6 +41,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Utah Jazz (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Utah_Jazz",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Utah Jazz",
@@ -229,5 +234,45 @@
     "alt": "Exterior of the Delta Center in Salt Lake City",
     "caption": "Delta Center, 2023",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FEFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "HealthEquity",
+      "description": "Cream.",
+      "source": "https://en.wikipedia.org/wiki/Utah_Jazz",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#310271",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "HealthEquity",
+      "description": "Purple, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Utah_Jazz",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#010101",
+      "trim": "#FFFEFE",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "HealthEquity",
+      "description": "Black, cream trim.",
+      "source": "https://en.wikipedia.org/wiki/Utah_Jazz",
+      "verified": "2026-11-07"
+    }
+  ]
 }

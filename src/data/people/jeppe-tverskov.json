@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Denmark",
+      "source": "https://www.wikidata.org/wiki/Q16948850",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 12, 1993, Copenhagen",
+      "source": "https://www.wikidata.org/wiki/Q16948850",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jeppe Tverskov",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Jeppe_Tverskov",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jeppe Tverskov (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jeppe_Tverskov",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jeppe Tverskov (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q16948850",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-diego-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jeppe_Tverskov",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Danish midfielder and San Diego’s captain.",
+  "image": {
+    "file": "File:Jeppe Tverskov Red Bulls v San Diego 10 October 2026-062 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Jeppe_Tverskov_Red_Bulls_v_San_Diego_10_October_2026-062_%28cropped%29.jpg/1280px-Jeppe_Tverskov_Red_Bulls_v_San_Diego_10_October_2026-062_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jeppe_Tverskov_Red_Bulls_v_San_Diego_10_October_2026-062_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jeppe Tverskov",
+    "caption": "Jeppe Tverskov",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": true
+    }
+  },
+  "name": "Nu Stadium",
+  "city": "miami",
+  "opened": {
+    "value": "2026-04",
+    "source": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 26700,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "title": "Inter Miami CF (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Inter Miami’s new stadium in Miami, open since April 2026.",
+  "image": {
+    "file": "File:Nu Stadium 2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Nu_Stadium_2026.jpg/1280px-Nu_Stadium_2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nu_Stadium_2026.jpg",
+    "author": "Cuban Boy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of Nu Stadium",
+    "caption": "Nu Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

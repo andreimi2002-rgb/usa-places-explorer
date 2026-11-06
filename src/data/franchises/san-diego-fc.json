@@ -1,0 +1,161 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "San Diego FC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2023,
+    "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+    "verified": "2026-11-06",
+    "note": "Awarded May 18, 2023."
+  },
+  "firstSeason": {
+    "value": "2025",
+    "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Mohamed Mansour and the Sycuan Band of the Kumeyaay Nation",
+    "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+    "verified": "2026-11-06",
+    "note": "Manny Machado of the San Diego Padres is part of the group."
+  },
+  "headCoach": {
+    "name": "Mikey Varas",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "snapdragon-stadium",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/san-diego-fc/",
+    "players": [
+      {
+        "person": "jeppe-tverskov",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "anders-dreyer",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2023-05-18",
+      "label": "MLS awards San Diego its 30th club",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "First season: top of the West with 63 points, an expansion record",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MLS’s 30th club, which set an expansion record of 63 points in its first season, 2025.",
+  "sources": [
+    {
+      "title": "San Diego FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/SD.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/san-diego-fc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SD.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#0F8AC8"
+      },
+      {
+        "name": "Clay",
+        "hex": "#AB5E58"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/SD.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:An aerial view of Snapdragon Stadium (2022-08-26).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg/1280px-An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+    "author": "Terrible Tim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Snapdragon Stadium",
+    "caption": "Snapdragon Stadium",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#02152B",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#02152B",
+      "socks": "#02152B",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "DIRECTV",
+      "description": "Black, white collar.",
+      "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "verified": "2026-11-07"
+    }
+  ]
+}

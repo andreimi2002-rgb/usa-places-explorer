@@ -1,0 +1,70 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1763892",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 23, 1982, Crofton",
+      "source": "https://www.wikidata.org/wiki/Q1763892",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2009",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Kyle Beckerman",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Kyle_Beckerman",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kyle Beckerman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Beckerman",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Kyle Beckerman (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1763892",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2007,
+      "to": 2020,
+      "source": "https://en.wikipedia.org/wiki/Kyle_Beckerman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Long-time captain, who played more regular-season games than any other outfield player in MLS history.",
+  "image": {
+    "file": "File:Kylebeckerman5a.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kylebeckerman5a.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kylebeckerman5a.JPG",
+    "author": "Julie Harper / Viequense at en.wikipedia",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Kyle Beckerman",
+    "caption": "Kyle Beckerman",
+    "licenseChecked": "2026-11-05"
+  }
+}

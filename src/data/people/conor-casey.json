@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1126533",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 25, 1981, Dover",
+      "source": "https://www.wikidata.org/wiki/Q1126533",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2010",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS Cup MVP (2010)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Conor Casey",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Conor_Casey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Conor Casey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Conor_Casey",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Conor Casey (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1126533",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "colorado-rapids",
+      "role": "player",
+      "from": 2007,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Conor_Casey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The club’s all-time top scorer and MLS Cup MVP of the 2010 title.",
+  "image": {
+    "file": "File:Conorcasey2006.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Conorcasey2006.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Conorcasey2006.jpg",
+    "author": "de:Benutzer:CKA",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Photo of Conor Casey",
+    "caption": "Conor Casey",
+    "licenseChecked": "2026-11-05"
+  }
+}

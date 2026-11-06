@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q735119",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 21, 1969, Belleville",
+      "source": "https://www.wikidata.org/wiki/Q735119",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2000",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2000)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cup MVP (2000)",
+      "source": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tony Meola",
+  "position": {
+    "value": "Goalkeeper",
+    "source": "https://en.wikipedia.org/wiki/Tony_Meola",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tony Meola (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tony_Meola",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Tony Meola (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q735119",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "History of MLS Cup MVPs (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/history-of-mls-cup-mvps-321202",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "sporting-kansas-city",
+      "role": "player",
+      "from": 1999,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Tony_Meola",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US World Cup goalkeeper, MVP and MLS Cup MVP of the 2000 title season.",
+  "image": {
+    "file": "File:TonyMeola 20060410.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/TonyMeola_20060410.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TonyMeola_20060410.jpg",
+    "author": "Jarrett Campbell from Cary, North Carolina, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tony Meola",
+    "caption": "Tony Meola",
+    "licenseChecked": "2026-11-05"
+  }
+}

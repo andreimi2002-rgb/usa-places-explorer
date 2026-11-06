@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Germany",
+      "source": "https://www.wikidata.org/wiki/Q3529022",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 6, 1996, Stuttgart",
+      "source": "https://www.wikidata.org/wiki/Q3529022",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Timo Werner",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Timo_Werner",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Timo Werner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Timo_Werner",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Timo Werner (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3529022",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-jose-earthquakes",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Timo_Werner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Germany international striker, signed from RB Leipzig in 2026: the club’s biggest transfer.",
+  "image": {
+    "file": "File:2020-03-10 Fußball, Männer, UEFA Champions League Achtelfinale, RB Leipzig - Tottenham Hotspur 1DX 3684 by Stepro.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3684_by_Stepro.jpg/1280px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3684_by_Stepro.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2020-03-10_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League_Achtelfinale,_RB_Leipzig_-_Tottenham_Hotspur_1DX_3684_by_Stepro.jpg",
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Timo Werner",
+    "caption": "Timo Werner",
+    "licenseChecked": "2026-11-05"
+  }
+}

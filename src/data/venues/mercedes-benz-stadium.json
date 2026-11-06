@@ -1,0 +1,49 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Mercedes-Benz Stadium",
+  "city": "atlanta",
+  "opened": {
+    "value": "2017",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "soccer": {
+      "value": 42500,
+      "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "sources": [
+    {
+      "title": "Atlanta United FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Atlanta’s roofed stadium, shared with the NFL’s Falcons; set for 42,500 at most Atlanta United games and up to 73,019 for MLS Cup 2018.",
+  "image": {
+    "file": "File:Mercedes-Benz Stadium, December 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mercedes-Benz_Stadium%2C_December_2024.jpg/1280px-Mercedes-Benz_Stadium%2C_December_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Stadium,_December_2024.jpg",
+    "author": "BullDawg2021",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "View of Mercedes-Benz Stadium",
+    "caption": "Mercedes-Benz Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

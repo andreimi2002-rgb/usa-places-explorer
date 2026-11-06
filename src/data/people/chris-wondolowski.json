@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1077877",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "January 28, 1983, Danville",
+      "source": "https://www.wikidata.org/wiki/Q1077877",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2012)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Chris Wondolowski",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Chris_Wondolowski",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Chris Wondolowski (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chris_Wondolowski",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Chris Wondolowski (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1077877",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-jose-earthquakes",
+      "role": "player",
+      "from": 2005,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Chris_Wondolowski",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "san-jose-earthquakes",
+      "role": "player",
+      "from": 2009,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Chris_Wondolowski",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MVP in 2012 and, from 2019, MLS’s all-time top scorer.",
+  "image": {
+    "file": "File:Chris Wondolowski at Galaxy at Earthquakes 2010-08-21 2.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Chris_Wondolowski_at_Galaxy_at_Earthquakes_2010-08-21_2.JPG/1280px-Chris_Wondolowski_at_Galaxy_at_Earthquakes_2010-08-21_2.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Wondolowski_at_Galaxy_at_Earthquakes_2010-08-21_2.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Chris Wondolowski",
+    "caption": "Chris Wondolowski",
+    "licenseChecked": "2026-11-05"
+  }
+}

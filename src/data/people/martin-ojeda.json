@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Argentina",
+      "source": "https://www.wikidata.org/wiki/Q23927871",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 27, 1998, Gualeguaychú",
+      "source": "https://www.wikidata.org/wiki/Q23927871",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Martín Ojeda",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Martín Ojeda (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Martín Ojeda (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q23927871",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-city-sc",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Argentine attacker and one of Orlando City’s Designated Players since 2023.",
+  "image": {
+    "file": "File:Martin Ojeda New England v Orlando 19 September 2026-049.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Martin_Ojeda_New_England_v_Orlando_19_September_2026-049.jpg/1280px-Martin_Ojeda_New_England_v_Orlando_19_September_2026-049.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Martin_Ojeda_New_England_v_Orlando_19_September_2026-049.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Martín Ojeda",
+    "caption": "Martín Ojeda",
+    "licenseChecked": "2026-11-05"
+  }
+}

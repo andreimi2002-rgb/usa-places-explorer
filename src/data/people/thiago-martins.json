@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q15831198",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 17, 1995, São João Evangelista",
+      "source": "https://www.wikidata.org/wiki/Q15831198",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Thiago Martins",
+  "position": {
+    "value": "Centre-back",
+    "source": "https://en.wikipedia.org/wiki/Thiago_Martins_(footballer%2C_born_1995)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Thiago Martins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thiago_Martins_(footballer%2C_born_1995)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Thiago Martins (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q15831198",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-city-fc",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Thiago_Martins_(footballer%2C_born_1995)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Brazilian centre-back, Designated Player and NYCFC’s captain.",
+  "image": {
+    "file": "File:Thiago Martins NYCvATL-06.12.25-035 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Thiago_Martins_NYCvATL-06.12.25-035_%28cropped%29.jpg/1280px-Thiago_Martins_NYCvATL-06.12.25-035_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thiago_Martins_NYCvATL-06.12.25-035_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Thiago Martins",
+    "caption": "Thiago Martins",
+    "licenseChecked": "2026-11-05"
+  }
+}

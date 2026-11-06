@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q30032829",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 20, 2000, O'Fallon",
+      "source": "https://www.wikidata.org/wiki/Q30032829",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Josh Sargent",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Josh_Sargent",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Josh Sargent (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Josh_Sargent",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Josh Sargent (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q30032829",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Josh_Sargent",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international striker who joined in 2026.",
+  "image": {
+    "file": "File:2022 FIFA World Cup United States 1–1 Wales - (20) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2820%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(20)_(cropped).jpg",
+    "author": "حسین ظهروند",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Josh Sargent",
+    "caption": "Josh Sargent",
+    "licenseChecked": "2026-11-05"
+  }
+}

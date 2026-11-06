@@ -33,6 +33,13 @@ const structure = await Promise.all(
           ),
         })),
     ),
+    // Leagues without divisions (e.g. MLS) list teams straight under the conference.
+    direct: await Promise.all(
+      franchises
+        .filter((f) => !f.data.division && f.data.conference?.id === c.id && f.data.status === 'active')
+        .sort((a, b) => a.data.name.localeCompare(b.data.name))
+        .map(async (f) => ({ f, city: await cityOf(f.id) })),
+    ),
   })),
 );
 const historical = franchises.filter((f) => f.data.status === 'historical');
@@ -60,12 +67,12 @@ const Body = body ? (await render(body)).Content : undefined;
   </div>
   <div class="container section">
     <div class="confs">
-      {structure.map(({ c, divisions }) => (
+      {structure.map(({ c, divisions, direct }) => (
         <section aria-labelledby={`c-${c.id}`}>
           <h2 id={`c-${c.id}`}>{c.data.name}</h2>
-          {divisions.map(({ dv, teams }) => (
+          {[...divisions, ...(direct.length ? [{ dv: undefined, teams: direct }] : [])].map(({ dv, teams }) => (
             <div class="division">
-              <h3>{dv.data.name}</h3>
+              {dv && <h3>{dv.data.name}</h3>}
               <ul>
                 {teams.map(({ f, city }) => (
                   <li class:list={[{ stub: f.data.progress === 'not-started' }]}>
@@ -106,8 +113,8 @@ const Body = body ? (await render(body)).Content : undefined;
         </div>
         <div class="table-wrap">
           <table class="champs">
-            <caption class="sr-only">{d.shortName} Finals results by season</caption>
-            <thead><tr><th scope="col">Season</th><th scope="col">Champion</th><th scope="col">Runner-up</th><th scope="col">Series</th></tr></thead>
+            <caption class="sr-only">{d.terms?.final ?? 'Final'} results by season</caption>
+            <thead><tr><th scope="col">Season</th><th scope="col">Champion</th><th scope="col">Runner-up</th><th scope="col">Score</th></tr></thead>
             <tbody>
               {champs.map((c) => (
                 <tr>

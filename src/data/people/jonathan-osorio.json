@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Canada",
+      "source": "https://www.wikidata.org/wiki/Q10554558",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "June 12, 1992, Toronto",
+      "source": "https://www.wikidata.org/wiki/Q10554558",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2017",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Jonathan Osorio",
+  "position": {
+    "value": "Midfielder",
+    "source": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jonathan Osorio (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jonathan Osorio (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q10554558",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-fc",
+      "role": "player",
+      "from": 2012,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Toronto-born midfielder and captain, with the club since 2012.",
+  "image": {
+    "file": "File:Jonathan Osorio Canada v Qatar 18 June 2026-029.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jonathan_Osorio_Canada_v_Qatar_18_June_2026-029.jpg/1280px-Jonathan_Osorio_Canada_v_Qatar_18_June_2026-029.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Osorio_Canada_v_Qatar_18_June_2026-029.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jonathan Osorio",
+    "caption": "Jonathan Osorio",
+    "licenseChecked": "2026-11-05"
+  }
+}

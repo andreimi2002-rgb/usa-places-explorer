@@ -1,0 +1,32 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "RFK Stadium",
+  "city": "washington",
+  "extensions": {
+    "soccer": {
+      "soccerSpecific": false
+    }
+  },
+  "sources": [
+    {
+      "title": "D.C. United (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/D.C._United",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "summary": "Robert F. Kennedy Memorial Stadium, D.C. United’s home from 1996 to 2017.",
+  "image": {
+    "file": "File:RFK Stadium (2015).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/RFK_Stadium_%282015%29.jpg/1280px-RFK_Stadium_%282015%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:RFK_Stadium_(2015).jpg",
+    "author": "Duane Lempke",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "View of RFK Stadium",
+    "caption": "RFK Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

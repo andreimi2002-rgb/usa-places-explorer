@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Guinea-Bissau",
+      "source": "https://www.wikidata.org/wiki/Q24691025",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 19, 1998, Bissau",
+      "source": "https://www.wikidata.org/wiki/Q24691025",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ronaldo Vieira",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Ronaldo_Vieira_(footballer%2C_born_1998)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ronaldo Vieira (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ronaldo_Vieira_(footballer%2C_born_1998)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ronaldo Vieira (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q24691025",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-jose-earthquakes",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Ronaldo_Vieira_(footballer%2C_born_1998)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Midfielder and the Earthquakes’ captain."
+}

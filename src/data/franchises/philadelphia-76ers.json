@@ -56,6 +56,11 @@
       "title": "Philadelphia 76ers NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Philadelphia 76ers (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_76ers",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Philadelphia 76ers",
@@ -270,5 +275,45 @@
     "alt": "Exterior of the arena, then called Wells Fargo Center",
     "caption": "The arena as Wells Fargo Center, 2019",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Bloom Energy",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_76ers",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#2C386B",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Bloom Energy",
+      "description": "Navy, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_76ers",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#B90728",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Bloom Energy",
+      "description": "Red, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_76ers",
+      "verified": "2026-11-07"
+    }
+  ]
 }

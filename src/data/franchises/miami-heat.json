@@ -66,6 +66,11 @@
       "title": "2026-27 roster (Basketball-Reference)",
       "url": "https://www.basketball-reference.com/teams/MIA/2027.html",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Miami Heat (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Miami_Heat",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Miami Heat",
@@ -295,5 +300,45 @@
         "verified": "2026-11-05"
       }
     ]
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FEFEFE",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Robinhood Markets",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Miami_Heat",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#191919",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Robinhood Markets",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Miami_Heat",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#98012D",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Robinhood Markets",
+      "description": "Pink, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Miami_Heat",
+      "verified": "2026-11-07"
+    }
+  ]
 }

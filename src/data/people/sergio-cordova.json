@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Venezuela",
+      "source": "https://www.wikidata.org/wiki/Q20666967",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "July 9, 1997, Calabozo",
+      "source": "https://www.wikidata.org/wiki/Q20666967",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Sergio Córdova",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Sergio_C%C3%B3rdova",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sergio Córdova (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sergio_C%C3%B3rdova",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Sergio Córdova (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q20666967",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-city-sc",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sergio_C%C3%B3rdova",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Venezuela international forward, on loan in 2026.",
+  "image": {
+    "file": "File:Sergio Córdova 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sergio_C%C3%B3rdova_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sergio_C%C3%B3rdova_2017.jpg",
+    "author": "Agencia de Noticias ANDES",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Sergio Córdova",
+    "caption": "Sergio Córdova",
+    "licenseChecked": "2026-11-05"
+  }
+}

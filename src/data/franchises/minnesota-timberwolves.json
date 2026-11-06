@@ -51,6 +51,11 @@
       "title": "Team logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Minnesota Timberwolves (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_Timberwolves",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Minnesota Timberwolves",
@@ -212,5 +217,45 @@
     "alt": "Exterior of Target Center in Minneapolis",
     "caption": "Target Center",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FEFEFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Sezzle",
+      "description": "Cream.",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Timberwolves",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#011FBF",
+      "trim": "#FFFFFE",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Sezzle",
+      "description": "Blue, cream trim.",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Timberwolves",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#000000",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Sezzle",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Timberwolves",
+      "verified": "2026-11-07"
+    }
+  ]
 }

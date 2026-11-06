@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "term": "Designated Player",
+  "short": "A player whose wages count only partly against the MLS salary cap, so clubs can sign stars. Each club may have up to three. The rule was created when David Beckham joined in 2007.",
+  "sports": [
+    "soccer"
+  ],
+  "related": [
+    "salary-cap"
+  ]
+}

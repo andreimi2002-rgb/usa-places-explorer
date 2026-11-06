@@ -1,0 +1,246 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "LA Galaxy",
+  "conference": "mls-western",
+  "founded": {
+    "value": 1994,
+    "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+    "verified": "2026-11-06",
+    "note": "Founded June 15, 1994; a charter member of MLS."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Anschutz Entertainment Group (AEG)",
+    "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Greg Vanney",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "dignity-health-sports-park",
+      "from": 2003,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "landon-donovan",
+    "david-beckham",
+    "cobi-jones",
+    "robbie-keane",
+    "zlatan-ibrahimovic"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/la-galaxy/",
+    "players": [
+      {
+        "person": "maya-yoshida",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "joseph-paintsil",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "hirving-lozano",
+        "source": "https://en.wikipedia.org/wiki/San_Diego_FC",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996",
+      "label": "First MLS season, at the Rose Bowl in Pasadena",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2000",
+      "label": "Win the CONCACAF Champions’ Cup",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2003",
+      "label": "Move into today’s stadium in Carson",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2005",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2007",
+      "label": "Sign David Beckham from Real Madrid",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2014",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MLS’s most successful club, with a record six MLS Cups, and the home of Beckham, Donovan and Zlatan.",
+  "sources": [
+    {
+      "title": "LA Galaxy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "image": {
+    "file": "File:Dignity Health Sports Park (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dignity_Health_Sports_Park_%281%29.jpg/1280px-Dignity_Health_Sports_Park_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dignity_Health_Sports_Park_(1).jpg",
+    "author": "Spatms",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Dignity Health Sports Park",
+    "caption": "Dignity Health Sports Park",
+    "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/la-galaxy.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#15284B"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFCE00"
+      },
+      {
+        "name": "Silver",
+        "hex": "#DADBE1"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/LA.svg",
+    "verified": "2026-11-06"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "VeloCITY Kit",
+      "base": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "socks": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Herbalife Nutrition",
+      "description": "White. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#2A2A4E",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#2A2A4E",
+      "socks": "#2A2A4E",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Herbalife Nutrition",
+      "description": "Navy, white collar.",
+      "source": "https://en.wikipedia.org/wiki/LA_Galaxy",
+      "verified": "2026-11-07"
+    }
+  ]
+}

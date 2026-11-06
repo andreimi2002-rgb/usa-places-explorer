@@ -46,6 +46,11 @@
       "title": "Chicago Bulls NBA logo (NBA.com CDN)",
       "url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Chicago Bulls (Wikipedia): uniforms",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Bulls",
+      "accessed": "2026-11-07"
     }
   ],
   "name": "Chicago Bulls",
@@ -258,5 +263,45 @@
     "alt": "Exterior of the United Center in Chicago",
     "caption": "United Center, Chicago",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "kits": [
+    {
+      "edition": "association",
+      "season": "2026-27",
+      "base": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Motorola Mobility",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bulls",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "icon",
+      "season": "2026-27",
+      "base": "#C4132D",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Nike",
+      "sponsor": "Motorola Mobility",
+      "description": "Red, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bulls",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "statement",
+      "season": "2026-27",
+      "base": "#12171A",
+      "trim": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "Jordan Brand",
+      "sponsor": "Motorola Mobility",
+      "description": "Black, white trim.",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Bulls",
+      "verified": "2026-11-07"
+    }
+  ]
 }

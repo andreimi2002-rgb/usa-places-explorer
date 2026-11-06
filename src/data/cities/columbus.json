@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Columbus",
+  "region": "Ohio",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 39.96118,
+      "lon": -82.99879
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Columbus&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Ohio’s capital and largest city, home of one of MLS’s founding clubs.",
+  "image": {
+    "file": "File:Downtown Columbus View from Main St Bridge - edit1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Downtown_Columbus_View_from_Main_St_Bridge_-_edit1.jpg/1280px-Downtown_Columbus_View_from_Main_St_Bridge_-_edit1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Columbus_View_from_Main_St_Bridge_-_edit1.jpg",
+    "author": "Paul Wasneski",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "View of Columbus",
+    "caption": "Columbus",
+    "licenseChecked": "2026-11-05"
+  }
+}

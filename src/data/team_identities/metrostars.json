@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "new-york-red-bulls",
+  "name": "MetroStars",
+  "city": "east-rutherford",
+  "from": {
+    "value": 1996,
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06"
+  },
+  "to": 2005,
+  "current": false
+}

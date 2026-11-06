@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Frisco",
+  "region": "Texas",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "metro": "Dallas–Fort Worth metroplex",
+  "coordinates": {
+    "value": {
+      "lat": 33.15067,
+      "lon": -96.82361
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Frisco&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A fast-growing suburb north of Dallas, home of FC Dallas’s stadium since 2005.",
+  "image": {
+    "file": "File:Pizza Hut Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/1280px-Pizza_Hut_Park.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_Park.jpg",
+    "author": "Jason Gulledge from Dallas, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Toyota Stadium, Frisco",
+    "caption": "Toyota Stadium, Frisco",
+    "licenseChecked": "2026-11-05"
+  }
+}

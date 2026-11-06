@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Spain",
+      "source": "https://www.wikidata.org/wiki/Q2607386",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "November 21, 1990, Barcelona",
+      "source": "https://www.wikidata.org/wiki/Q2607386",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Ilie Sánchez",
+  "position": {
+    "value": "Defensive midfielder",
+    "source": "https://en.wikipedia.org/wiki/Ilie_S%C3%A1nchez",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ilie Sánchez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ilie_S%C3%A1nchez",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Ilie Sánchez (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2607386",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "austin-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Ilie_S%C3%A1nchez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Spanish midfielder and Austin’s captain.",
+  "image": {
+    "file": "File:Ilie Sánchez Cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ilie_S%C3%A1nchez_Cropped.jpg/1280px-Ilie_S%C3%A1nchez_Cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilie_S%C3%A1nchez_Cropped.jpg",
+    "author": "Jamie Smed",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Ilie Sánchez",
+    "caption": "Ilie Sánchez",
+    "licenseChecked": "2026-11-05"
+  }
+}

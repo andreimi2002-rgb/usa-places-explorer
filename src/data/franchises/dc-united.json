@@ -1,0 +1,245 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "D.C. United",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 1994,
+    "source": "https://en.wikipedia.org/wiki/D.C._United",
+    "verified": "2026-11-06",
+    "note": "Selected by MLS on June 15, 1994."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/D.C._United",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "D.C. United Holdings (majority owner Jason Levien)",
+    "source": "https://en.wikipedia.org/wiki/D.C._United",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "René Weiler",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "rfk-stadium",
+      "from": 1996,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    },
+    {
+      "venue": "audi-field",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "marco-etcheverry",
+    "jaime-moreno",
+    "ben-olsen",
+    "wayne-rooney"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/d-c-united/",
+    "players": [
+      {
+        "person": "lucas-bartlett",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "louis-munteanu",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "tai-baribo",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996",
+      "label": "First MLS season, with Bruce Arena as coach",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1996",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1998",
+      "label": "Win the CONCACAF Champions’ Cup and the Copa Interamericana",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1999",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2004",
+      "label": "Win the MLS Cup",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Wayne Rooney arrives",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018-07-14",
+      "label": "First match at Audi Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "MLS’s first great team: four MLS Cups, three of them in the first four seasons.",
+  "sources": [
+    {
+      "title": "D.C. United (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/D.C._United",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/DC.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/dc-united.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/DC.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#2E2A25"
+      },
+      {
+        "name": "Red",
+        "hex": "#EB0029"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/DC.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Audi Field DC United.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Audi_Field_DC_United.jpg/1280px-Audi_Field_DC_United.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Audi_Field_DC_United.jpg",
+    "author": "David",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Audi Field",
+    "caption": "Audi Field",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Black-and-Red Kit",
+      "base": "#000000",
+      "shorts": "#000000",
+      "socks": "#000000",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Guidehouse",
+      "description": "Black. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#EBE2D9",
+      "shorts": "#EBE2D9",
+      "socks": "#EBE2D9",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Guidehouse",
+      "description": "Orange.",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#FFFFFF",
+      "shorts": "#FFFFFF",
+      "socks": "#FFFFFF",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Guidehouse",
+      "description": "White.",
+      "source": "https://en.wikipedia.org/wiki/D.C._United",
+      "verified": "2026-11-07"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://en.wikipedia.org/wiki/Brandon_V%C3%A1zquez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Brandon Vázquez",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Brandon_V%C3%A1zquez",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brandon Vázquez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brandon_V%C3%A1zquez",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "austin-fc",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Brandon_V%C3%A1zquez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "US international striker and Designated Player since 2025.",
+  "image": {
+    "file": "File:Brandon Vazquez after the Atlanta United game on June 2, 2018.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Brandon_Vazquez_after_the_Atlanta_United_game_on_June_2%2C_2018.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brandon_Vazquez_after_the_Atlanta_United_game_on_June_2,_2018.jpg",
+    "author": "Eric.Jason.Cross",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brandon Vazquez",
+    "caption": "Brandon Vazquez",
+    "licenseChecked": "2026-11-05"
+  }
+}

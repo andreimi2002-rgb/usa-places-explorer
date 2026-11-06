@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2001",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "san-jose-earthquakes",
+  "runnerUp": "la-galaxy",
+  "winnerName": "San Jose Earthquakes",
+  "runnerUpName": "LA Galaxy",
+  "result": "2–1 after extra time",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

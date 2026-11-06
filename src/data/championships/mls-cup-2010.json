@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "mls",
+  "season": "2010",
+  "level": "league",
+  "title": "MLS Cup",
+  "winner": "colorado-rapids",
+  "runnerUp": "fc-dallas",
+  "winnerName": "Colorado Rapids",
+  "runnerUpName": "FC Dallas",
+  "result": "2–1 after extra time",
+  "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,91 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q1337446",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "December 29, 1972, Omaha",
+      "source": "https://www.wikidata.org/wiki/Q1337446",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (1999)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jason Kreis",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Jason_Kreis",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jason Kreis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jason_Kreis",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Jason Kreis (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1337446",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Real Salt Lake (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "fc-dallas",
+      "role": "player",
+      "from": 1996,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Jason_Kreis",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "real-salt-lake",
+      "role": "player",
+      "from": 2005,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Jason_Kreis",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "real-salt-lake",
+      "role": "head-coach",
+      "from": 2007,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Scorer of the Dallas Burn’s first goal, 1999 MVP, then Real Salt Lake’s first player and title-winning coach.",
+  "image": {
+    "file": "File:JasonKreis 112409 MLS-Championship-Celebration Rio Tinto.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/JasonKreis_112409_MLS-Championship-Celebration_Rio_Tinto.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JasonKreis_112409_MLS-Championship-Celebration_Rio_Tinto.jpg",
+    "author": "Dlifferth",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Jason Kreis",
+    "caption": "Jason Kreis",
+    "licenseChecked": "2026-11-05"
+  }
+}

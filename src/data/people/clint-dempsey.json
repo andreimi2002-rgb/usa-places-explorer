@@ -1,0 +1,83 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "United States",
+      "source": "https://www.wikidata.org/wiki/Q201860",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 9, 1983, Nacogdoches",
+      "source": "https://www.wikidata.org/wiki/Q201860",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2016",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Clint Dempsey",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Clint Dempsey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Clint Dempsey (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q201860",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "New England Revolution (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-revolution",
+      "role": "player",
+      "from": 2004,
+      "to": 2006,
+      "source": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "seattle-sounders-fc",
+      "role": "player",
+      "from": 2013,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The US national team’s joint record scorer, who came to Seattle from Tottenham in 2013.",
+  "image": {
+    "file": "File:Clint Dempsey (26347615912) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Clint_Dempsey_%2826347615912%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clint_Dempsey_(26347615912)_(cropped).jpg",
+    "author": "Victor Araiza from Houston, TX, United States of America",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Clint Dempsey",
+    "caption": "Clint Dempsey",
+    "licenseChecked": "2026-11-05"
+  }
+}

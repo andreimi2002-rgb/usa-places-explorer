@@ -1,0 +1,224 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "Orlando City SC",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 2010,
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06",
+    "note": "Founded in the USL; joined MLS in 2015."
+  },
+  "firstSeason": {
+    "value": "2015",
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Wilf family (Zygi, Leonard and Mark Wilf)",
+    "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+    "verified": "2026-11-06",
+    "note": "Purchase completed July 21, 2021."
+  },
+  "headCoach": {
+    "name": "Martín Perelman (interim)",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "inter-co-stadium",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "kaka",
+    "nani"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/orlando-city/",
+    "players": [
+      {
+        "person": "robin-jansson",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "martin-ojeda",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "antoine-griezmann",
+        "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2010",
+      "label": "Founded in the USL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "First MLS season, with Kaká as the first Designated Player",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Move into the club’s own stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win the U.S. Open Cup, the club’s first major trophy",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Reach the Eastern Conference final for the first time",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Sign Antoine Griezmann",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Orlando’s MLS club since 2015, the Lions: Kaká’s first American club and, since 2026, Antoine Griezmann’s.",
+  "sources": [
+    {
+      "title": "Orlando City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "image": {
+    "file": "File:Orlando City Stadium (04-21-18) 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orlando_City_Stadium_%2804-21-18%29_1.jpg/1280px-Orlando_City_Stadium_%2804-21-18%29_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Orlando_City_Stadium_(04-21-18)_1.jpg",
+    "author": "Porsche997SBS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Inter&Co Stadium",
+    "caption": "Inter&Co Stadium",
+    "licenseChecked": "2026-11-05"
+  },
+  "logo": {
+    "file": "mls/orlando-city-sc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Pride Purple",
+        "hex": "#60269E"
+      },
+      {
+        "name": "Championship Gold",
+        "hex": "#F0D283"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
+    "verified": "2026-11-06"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#7460EE",
+      "shorts": "#41297A",
+      "socks": "#7460EE",
+      "collar": "#41297A",
+      "pattern": "texture",
+      "patternColor": "#41297A",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Purple shirt with a subtle all-over print and dark purple shorts; the primary kit, first worn in 2025.",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "name": "Sunken Treasure Kit",
+      "base": "#F7DE00",
+      "shorts": "#542A9B",
+      "socks": "#F7DE00",
+      "collar": "#542A9B",
+      "trim": "#542A9B",
+      "pattern": "texture",
+      "patternColor": "#C9A800",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Gold, with purple collar and shorts: the new secondary kit for 2026.",
+      "source": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#880000",
+      "shorts": "#880000",
+      "socks": "#EF0000",
+      "pattern": "texture",
+      "patternColor": "#EF0000",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Deep red from shirt to shorts, with bright red socks.",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-07"
+    }
+  ]
+}

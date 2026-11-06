@@ -1,0 +1,70 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Ghana",
+      "source": "https://www.wikidata.org/wiki/Q38367203",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "February 1, 1998, Accra",
+      "source": "https://www.wikidata.org/wiki/Q38367203",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2024",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Joseph Paintsil",
+  "position": {
+    "value": "Winger",
+    "source": "https://en.wikipedia.org/wiki/Joseph_Paintsil",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joseph Paintsil (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Paintsil",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Joseph Paintsil (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q38367203",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "la-galaxy",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Joseph_Paintsil",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Ghanaian winger and Designated Player, part of the Galaxy’s 2024 title team.",
+  "image": {
+    "file": "File:Joseph Paintsil.2020.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Joseph_Paintsil.2020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Paintsil.2020.jpg",
+    "author": "Ankaragücü",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Joseph Paintsil",
+    "caption": "Joseph Paintsil",
+    "licenseChecked": "2026-11-05"
+  }
+}

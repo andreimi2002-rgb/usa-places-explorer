@@ -1,0 +1,180 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "St. Louis City SC",
+  "conference": "mls-western",
+  "founded": {
+    "value": 2019,
+    "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+    "verified": "2026-11-06",
+    "note": "Approved by MLS on August 20, 2019."
+  },
+  "firstSeason": {
+    "value": "2023",
+    "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Carolyn Kindle, Jo Ann Taylor Kindle and Jim Kavanaugh",
+    "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+    "verified": "2026-11-06",
+    "note": "MLS’s first female majority-owned club."
+  },
+  "headCoach": {
+    "name": "Yoann Damet",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "energizer-park",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "roman-burki",
+    "joao-klauss",
+    "eduard-lowen"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/st-louis-city-sc/",
+    "players": [
+      {
+        "person": "roman-burki",
+        "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "sergio-cordova",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "2019-08-20",
+      "label": "MLS approves the club",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "First season: top of the Western Conference",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The 2023 expansion club that topped the Western Conference in its first season.",
+  "sources": [
+    {
+      "title": "St. Louis City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/STL.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/st-louis-city-sc.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/STL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#001544"
+      },
+      {
+        "name": "City pink",
+        "hex": "#EC1458"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/STL.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:St. Louis City SC vs. FC Cincinnati at CityPark (20230416094533).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_%2820230416094533%29.jpg/1280px-St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_%2820230416094533%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Louis_City_SC_vs._FC_Cincinnati_at_CityPark_(20230416094533).jpg",
+    "author": "Cornfield948",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "View of Energizer Park (then CityPark)",
+    "caption": "Energizer Park (then CityPark)",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#EC1458",
+      "collar": "#FFFFFF",
+      "trim": "#FFFFFF",
+      "shorts": "#EC1458",
+      "socks": "#EC1458",
+      "pattern": "texture",
+      "patternColor": "#FFFFFF",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Purina",
+      "description": "Pink, white collar.",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "name": "Tina Turner Kit",
+      "base": "#D4BB8D",
+      "shorts": "#D4BB8D",
+      "socks": "#D4BB8D",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Purina",
+      "description": "Orange. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "verified": "2026-11-07"
+    }
+  ]
+}

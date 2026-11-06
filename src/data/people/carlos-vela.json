@@ -1,0 +1,81 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Mexico",
+      "source": "https://www.wikidata.org/wiki/Q47950",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "March 1, 1989, Cancun",
+      "source": "https://www.wikidata.org/wiki/Q47950",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MLS Cups with the club",
+      "value": "2022",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "MLS MVP (2019)",
+      "source": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Carlos Vela",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Carlos_Vela",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Carlos Vela (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Vela",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Carlos Vela (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q47950",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Landon Donovan MLS MVP winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/landon-donovan-mls-most-valuable-player-winners",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-fc",
+      "role": "player",
+      "from": 2018,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/Carlos_Vela",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "LAFC’s first Designated Player and the 2019 MVP.",
+  "image": {
+    "file": "File:Mex-Kor (21) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mex-Kor_%2821%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mex-Kor_(21)_(cropped).jpg",
+    "author": "Светлана Бекетова",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Carlos Vela",
+    "caption": "Carlos Vela",
+    "licenseChecked": "2026-11-05"
+  }
+}

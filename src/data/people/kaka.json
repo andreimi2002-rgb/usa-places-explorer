@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "Brazil",
+      "source": "https://www.wikidata.org/wiki/Q531814",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "April 22, 1982, Gama",
+      "source": "https://www.wikidata.org/wiki/Q531814",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Kaká",
+  "position": {
+    "value": "Attacking midfielder",
+    "source": "https://en.wikipedia.org/wiki/Kak%C3%A1",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kaká (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kak%C3%A1",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Kaká (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q531814",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "orlando-city-sc",
+      "role": "player",
+      "from": 2014,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Kak%C3%A1",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The 2007 Ballon d’Or winner, Orlando City’s first Designated Player and first star.",
+  "image": {
+    "file": "File:Ricardo Izecson dos Santos Leite (Kaká) 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ricardo_Izecson_dos_Santos_Leite_%28Kak%C3%A1%29_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ricardo_Izecson_dos_Santos_Leite_(Kak%C3%A1)_01.jpg",
+    "author": "José Cruz/ABr (cropped by tales.ebner)",
+    "license": "CC BY 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "alt": "Photo of Kaká",
+    "caption": "Kaká",
+    "licenseChecked": "2026-11-05"
+  }
+}

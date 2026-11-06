@@ -1,0 +1,59 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Country",
+      "value": "England",
+      "source": "https://www.wikidata.org/wiki/Q266613",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Born",
+      "value": "October 24, 1985, Liverpool",
+      "source": "https://www.wikidata.org/wiki/Q266613",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Wayne Rooney",
+  "position": {
+    "value": "Forward",
+    "source": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Wayne Rooney (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Wayne Rooney (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q266613",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dc-united",
+      "role": "player",
+      "from": 2018,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "England’s former captain, D.C. United’s top scorer in 2018 and 2019 and later its coach.",
+  "image": {
+    "file": "File:Wayne-Rooney-2015-10-21.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Wayne-Rooney-2015-10-21.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wayne-Rooney-2015-10-21.jpg",
+    "author": "Дмитрий Голубович",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Wayne Rooney",
+    "caption": "Wayne Rooney",
+    "licenseChecked": "2026-11-05"
+  }
+}

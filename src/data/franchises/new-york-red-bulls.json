@@ -1,0 +1,230 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mls",
+  "division": null,
+  "name": "New York Red Bulls",
+  "conference": "mls-eastern",
+  "founded": {
+    "value": 1994,
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06",
+    "note": "Founded as the New York/New Jersey MetroStars."
+  },
+  "firstSeason": {
+    "value": "1996",
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Red Bull GmbH (since March 2006)",
+    "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Michael Bradley",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "sports-illustrated-stadium",
+      "from": 2010,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "thierry-henry",
+    "bradley-wright-phillips",
+    "dax-mccarty"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlssoccer.com/clubs/red-bull-new-york/",
+    "players": [
+      {
+        "person": "emil-forsberg",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "eric-maxim-choupo-moting",
+        "source": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1996",
+      "label": "First MLS season, as the MetroStars at Giants Stadium",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006-03",
+      "label": "Red Bull buys the club and renames it",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Move into a new soccer stadium in Harrison; Thierry Henry signs",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2013",
+      "label": "Win the Supporters’ Shield, the club’s first major trophy",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Win a second Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Win a third Supporters’ Shield",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Reach the MLS Cup final, lost 2–1 to the LA Galaxy",
+      "kind": "finals",
+      "source": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Red Bull club of the New York area: three Supporters’ Shields, two MLS Cup finals and Thierry Henry.",
+  "sources": [
+    {
+      "title": "New York Red Bulls (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 Major League Soccer season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Every Designated Player in MLS (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/every-designated-player-in-mls-full-list-dps",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Cup winners (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-cup-winners",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Club logo (MLSsoccer.com)",
+      "url": "https://images.mlssoccer.com/image/upload/assets/logos/RBNY.svg",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "2026 MLS jersey sponsors (ForSoccer)",
+      "url": "https://www.forsoccer.com/insight/2026-mls-jersey-sponsors/",
+      "accessed": "2026-11-07"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "logo": {
+    "file": "mls/new-york-red-bulls.svg",
+    "official": true,
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/RBNY.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#B91F31"
+      },
+      {
+        "name": "Navy",
+        "hex": "#182852"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFC72C"
+      }
+    ],
+    "source": "https://images.mlssoccer.com/image/upload/assets/logos/RBNY.svg",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Red Bull Arena exterior 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Red_Bull_Arena_exterior_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Bull_Arena_exterior_2.jpg",
+    "author": "Claude Betancourt",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Sports Illustrated Stadium (then Red Bull Arena)",
+    "caption": "Sports Illustrated Stadium (then Red Bull Arena)",
+    "licenseChecked": "2026-11-05"
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "name": "Rooted Kit",
+      "base": "#000000",
+      "shorts": "#000000",
+      "socks": "#000000",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Red Bull",
+      "description": "Black. New for 2026.",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "base": "#F3EFE4",
+      "shorts": "#F3EFE4",
+      "socks": "#F3EFE4",
+      "pattern": "hoops",
+      "patternColor": "#1B2333",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Red Bull",
+      "description": "Cream, horizontal hoops.",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#1A1A1A",
+      "shorts": "#E32636",
+      "socks": "#E32636",
+      "pattern": "plain",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Red Bull",
+      "description": "Black, red shorts.",
+      "source": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "verified": "2026-11-07"
+    }
+  ]
+}

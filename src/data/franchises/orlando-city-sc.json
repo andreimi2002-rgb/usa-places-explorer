@@ -132,6 +132,11 @@
       "title": "Club logo (MLSsoccer.com)",
       "url": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "MLS Jersey Week: every new kit for 2026 (MLSsoccer.com)",
+      "url": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "accessed": "2026-11-07"
     }
   ],
   "image": {
@@ -164,5 +169,56 @@
     ],
     "source": "https://images.mlssoccer.com/image/upload/assets/logos/ORL.svg",
     "verified": "2026-11-06"
-  }
+  },
+  "kits": [
+    {
+      "edition": "home",
+      "season": "2026",
+      "base": "#7460EE",
+      "shorts": "#41297A",
+      "socks": "#7460EE",
+      "collar": "#41297A",
+      "pattern": "texture",
+      "patternColor": "#41297A",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Purple shirt with a subtle all-over print and dark purple shorts; the primary kit, first worn in 2025.",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "away",
+      "season": "2026",
+      "name": "Sunken Treasure Kit",
+      "base": "#F7DE00",
+      "shorts": "#542A9B",
+      "socks": "#F7DE00",
+      "collar": "#542A9B",
+      "trim": "#542A9B",
+      "pattern": "texture",
+      "patternColor": "#C9A800",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Gold, with purple collar and shorts: the new secondary kit for 2026.",
+      "source": "https://www.mlssoccer.com/news/mls-jersey-week-see-every-new-kit-for-the-2026-season",
+      "verified": "2026-11-07"
+    },
+    {
+      "edition": "third",
+      "season": "2026",
+      "base": "#880000",
+      "shorts": "#880000",
+      "socks": "#EF0000",
+      "pattern": "texture",
+      "patternColor": "#EF0000",
+      "pinstripes": false,
+      "maker": "adidas",
+      "sponsor": "Orlando Health",
+      "description": "Deep red from shirt to shorts, with bright red socks.",
+      "source": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "verified": "2026-11-07"
+    }
+  ]
 }

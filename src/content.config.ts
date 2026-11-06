@@ -164,6 +164,18 @@ const franchises = defineCollection({
           /** Trim or stripe color, when a source describes one. */
           trim: hex.optional(),
           pinstripes: z.boolean().default(false),
+          /** Pattern on the shirt; "texture" is a subtle all-over print. */
+          pattern: z.enum(['plain', 'pinstripes', 'stripes', 'hoops', 'sash', 'band', 'halves', 'texture']).optional(),
+          patternColor: hex.optional(),
+          /** Separate colours, when they differ from the base. */
+          sleeves: hex.optional(),
+          collar: hex.optional(),
+          shorts: hex.optional(),
+          socks: hex.optional(),
+          /** The kit's official name, e.g. "Sunken Treasure Kit". */
+          name: z.string().optional(),
+          /** Shirt sponsor or jersey patch partner, shown as text under the drawing. */
+          sponsor: z.string().optional(),
           wordmark: z.string().optional(),
           maker: z.string().optional(),
           description: z.string(),

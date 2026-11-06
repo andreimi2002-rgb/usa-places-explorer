@@ -1,0 +1,184 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Washington Commanders",
+  "division": "nfl-nfc-east",
+  "founded": {
+    "value": 1932,
+    "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+    "verified": "2026-11-06",
+    "note": "Founded July 9, 1932, as the Boston Braves; in Washington since 1937."
+  },
+  "firstSeason": {
+    "value": "1932",
+    "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Group led by Josh Harris (since 2023)",
+    "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Dan Quinn",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "northwest-stadium",
+      "from": 1997,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "sammy-baugh",
+    "sonny-jurgensen",
+    "john-riggins",
+    "art-monk",
+    "darrell-green",
+    "joe-gibbs"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/washington-commanders/roster",
+    "players": [
+      {
+        "person": "jayden-daniels",
+        "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "terry-mclaurin",
+        "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1932-07-09",
+      "label": "Founded in Boston as the Braves",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1937",
+      "label": "Move to Washington; win the NFL championship (again in 1942)",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1981",
+      "label": "Hire Joe Gibbs",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1983",
+      "label": "Win Super Bowl XVII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1988",
+      "label": "Win Super Bowl XXII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1992",
+      "label": "Win Super Bowl XXVI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Open today’s stadium in Landover",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Drop the Redskins name; play as the Washington Football Team",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Renamed the Commanders",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023-07-20",
+      "label": "Josh Harris’s group buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024",
+      "label": "Hire Dan Quinn and draft Jayden Daniels",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Washington’s team since 1937: three Super Bowls under Joe Gibbs, a new name since 2022 and Jayden Daniels at quarterback.",
+  "sources": [
+    {
+      "title": "Washington Commanders (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/WAS.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/washington-commanders.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/WAS.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Burgundy",
+        "hex": "#5A1414"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFB612"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+    "verified": "2026-11-06"
+  }
+}

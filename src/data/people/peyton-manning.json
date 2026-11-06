@@ -10,7 +10,7 @@
     },
     {
       "label": "Super Bowls with the club",
-      "value": "50 (2015 season)",
+      "value": "XLI (2006 season)",
       "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
       "verified": "2026-11-06"
     }
@@ -77,6 +77,14 @@
   ],
   "roles": [
     {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1998,
+      "to": 2011,
+      "source": "https://en.wikipedia.org/wiki/Peyton_Manning",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "denver-broncos",
       "role": "player",
       "from": 2012,
@@ -85,7 +93,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Quarterback of the Super Bowl 50 win and 2013 MVP.",
+  "summary": "Quarterback of the Colts and five-time MVP, later winner of Super Bowl 50 with Denver.",
   "image": {
     "file": "File:Peyton Manning (51665689271).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Peyton_Manning_%2851665689271%29.jpg/1280px-Peyton_Manning_%2851665689271%29.jpg",

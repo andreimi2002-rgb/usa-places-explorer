@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 14, 1921, Pittston, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1947)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1948)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1947)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (1952, 1953)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1940s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Arizona Cardinals Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1942)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Maxwell Award (1946)",
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Charley Trippi",
+  "position": {
+    "value": "Halfback",
+    "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Charley Trippi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 1947,
+      "to": 1955,
+      "source": "https://en.wikipedia.org/wiki/Charley_Trippi",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Halfback of the 1947 champions in Chicago.",
+  "image": {
+    "file": "File:CharleyTrippi1948Bowman.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/CharleyTrippi1948Bowman.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CharleyTrippi1948Bowman.jpg",
+    "author": "Bowman",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Charley Trippi",
+    "caption": "Charley Trippi",
+    "licenseChecked": "2026-11-05"
+  }
+}

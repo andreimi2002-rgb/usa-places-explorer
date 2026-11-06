@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "houston-texans",
+  "name": "Houston Texans",
+  "city": "houston",
+  "from": {
+    "value": 2002,
+    "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

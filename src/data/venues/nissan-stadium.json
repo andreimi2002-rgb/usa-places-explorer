@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Nissan Stadium",
+  "city": "nashville",
+  "opened": {
+    "value": "1999",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 69143,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Titans’ stadium on the Cumberland River in Nashville since 1999.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Night Settles on LP Field.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Night_Settles_on_LP_Field.jpg/1280px-Night_Settles_on_LP_Field.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Night_Settles_on_LP_Field.jpg",
+    "author": "Casey Fleser from Nashville, TN",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Nissan Stadium at dusk",
+    "caption": "Nissan Stadium at dusk",
+    "licenseChecked": "2026-11-05"
+  }
+}

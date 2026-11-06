@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 18, 2003, West Palm Beach, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Heisman Trophy (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Chuck Bednarik Award (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Fred Biletnikoff Award (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2023)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big 12 Defensive Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big 12 (2024)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-12 (2023)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Travis Hunter",
+  "position": {
+    "value": "Cornerback / Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Travis Hunter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Travis_Hunter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Two-way player, cornerback and receiver, and 2024 Heisman Trophy winner.",
+  "image": {
+    "file": "File:Travis Hunter 2024 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Travis_Hunter_2024_%28cropped%29.jpg/1280px-Travis_Hunter_2024_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Travis_Hunter_2024_(cropped).jpg",
+    "author": "Scott Tan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Travis Hunter",
+    "caption": "Travis Hunter",
+    "licenseChecked": "2026-11-05"
+  }
+}

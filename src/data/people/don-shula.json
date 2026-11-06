@@ -61,6 +61,22 @@
   ],
   "roles": [
     {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1953,
+      "to": 1956,
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "indianapolis-colts",
+      "role": "head-coach",
+      "from": 1963,
+      "to": 1969,
+      "source": "https://en.wikipedia.org/wiki/Don_Shula",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "miami-dolphins",
       "role": "head-coach",
       "from": 1970,
@@ -69,7 +85,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Coach from 1970 to 1995, with the most wins in NFL history.",
+  "summary": "Coach with the most wins in NFL history, with the Colts and then the Dolphins.",
   "image": {
     "file": "File:Don Shula at Giants Stadium.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Don_Shula_at_Giants_Stadium.jpg/1280px-Don_Shula_at_Giants_Stadium.jpg",
@@ -80,5 +96,10 @@
     "alt": "Photo of Don Shula",
     "caption": "Don Shula",
     "licenseChecked": "2026-11-05"
+  },
+  "position": {
+    "value": "Defensive back",
+    "source": "https://en.wikipedia.org/wiki/Don_Shula",
+    "verified": "2026-11-06"
   }
 }

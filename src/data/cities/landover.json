@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Landover",
+  "region": "Maryland",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Washington metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 38.934,
+      "lon": -76.89664
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Landover&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A Maryland suburb east of Washington, home of the Commanders’ stadium since 1997.",
+  "hub": "washington",
+  "image": {
+    "file": "File:Landover station exterior.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Landover_station_exterior.jpg/1280px-Landover_station_exterior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Landover_station_exterior.jpg",
+    "author": "Ben Schumin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Landover Metro station",
+    "caption": "Landover Metro station",
+    "licenseChecked": "2026-11-05"
+  }
+}

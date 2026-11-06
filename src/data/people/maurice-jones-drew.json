@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 23, 1985, Oakland, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2011)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2009–2011)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2011)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Alumni Running Back of the Year (2010, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Alumni Player of the Year (2011)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2006)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2005)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA average punt return yards leader (2005)",
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Maurice Jones-Drew",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Maurice Jones-Drew (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 2006,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Maurice_Jones-Drew",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2011 rushing leader.",
+  "image": {
+    "file": "File:Maurice Jones-Drew ESPNWeekend2010-066 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Maurice_Jones-Drew_ESPNWeekend2010-066_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurice_Jones-Drew_ESPNWeekend2010-066_(cropped).jpg",
+    "author": "Jeff Kern",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Maurice Jones-Drew",
+    "caption": "Maurice Jones-Drew",
+    "licenseChecked": "2026-11-05"
+  }
+}

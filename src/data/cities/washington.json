@@ -12,6 +12,7 @@
   "region": "District of Columbia",
   "country": "United States",
   "timezone": "America/New_York",
+  "metro": "Washington metropolitan area",
   "coordinates": {
     "value": {
       "lat": 38.8951,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4140963: Washington D.C., District of Columbia"
   },
-  "summary": "Home of the Wizards since 1973 and of D.C. United since 1996.",
+  "summary": "Home of the Wizards since 1973, D.C. United since 1996 and, since 1937, Washington’s NFL team.",
   "image": {
     "file": "File:Washington dc skyline.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Washington_dc_skyline.jpg/1280px-Washington_dc_skyline.jpg",

@@ -523,3 +523,26 @@ Date: 2026-11-06. Branch `nfl`. Same lean format and sources. AFC East and AFC N
    Los Angeles and New York updated.
 5. **Photos**: none for Joe Klecko (the only free photo shows two people).
 6. **Fix**: "have not won an Super Bowl title" is now "a Super Bowl title" ("an NBA title", "an MLS Cup" unchanged).
+
+# NFL lot 4: Texans, Colts, Jaguars, Titans, Commanders, Cardinals
+
+Date: 2026-11-06. Branch `nfl`. AFC South, NFC East and NFC West are now complete (26 of 32 teams).
+
+## Things to check
+
+1. **Players who left in 2026** (from their infoboxes) are not listed as core players: Kyler Murray (now Vikings),
+   Marvin Harrison Jr. (Texans), Quenton Nelson (Seahawks), Jeffery Simmons (Bears). The Cardinals' core is therefore
+   short (Trey McBride, Budda Baker).
+2. **Identities**: Colts (Baltimore 1953–1983, Indianapolis); Titans (Houston Oilers, Tennessee Oilers in Memphis in
+   1997 and Nashville in 1998, Titans from 1999); Washington (Boston Braves and Redskins, Washington Redskins
+   1937–2019, Washington Football Team, Commanders from 2022); Cardinals (Racine and Chicago Cardinals 1920–1959,
+   St. Louis, Phoenix, Arizona). The Cardinals' 1898 founding as an amateur club is in the founding note.
+3. **Coaches by hand**: Tony Dungy, Weeb Ewbank and Don Shula (Colts), Tom Coughlin, Jeff Fisher, Joe Gibbs (two spells).
+4. **New**: Jacksonville, Landover (Washington area), Glendale (Phoenix area) and six stadiums. City texts updated for
+   Houston, Indianapolis, Nashville, Memphis, Washington, Phoenix, St. Louis and Chicago.
+5. **European games**: Wikipedia's International Series table is inconsistent for 2026 (a Colts–Commanders game at
+   Wembley appears in the list but not in the Colts' totals). The game is mentioned on both pages; please confirm.
+6. **Photos**: none for Johnny Unitas (Commons file has no author), Bruce Matthews (photo with his brother), Tony Boselli,
+   Jimmy Smith (no infobox photo).
+7. **Generator fix**: a person who still has a current role at another club now stays "active" (Derrick Henry had
+   been marked historical when his Titans years were added).

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 17, 1914, Temple, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL champion (1937, 1942)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1937, 1940, 1942, 1943)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (1938, 1941, 1947, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1938–1942, 1951)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL passing yards leader (1937, 1940, 1947, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (1940, 1947)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL passer rating leader (1940, 1945, 1947)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× NFL completion percentage leader (1940, 1942, 1943, 1945–1949)",
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sammy Baugh",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sammy Baugh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "player",
+      "from": 1937,
+      "to": 1952,
+      "source": "https://en.wikipedia.org/wiki/Sammy_Baugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the 1937 and 1942 champions.",
+  "image": {
+    "file": "File:\"Slingin Sammy\" Baugh, Washington, D.C., Sept. 11. \"Slinging Sammy\" Baugh, new addition to the Washington Redskins, the Texas Christian U. star is rated as one of the greatest of this LCCN2016877914 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/%22Slingin_Sammy%22_Baugh%2C_Washington%2C_D.C.%2C_Sept._11._%22Slinging_Sammy%22_Baugh%2C_new_addition_to_the_Washington_Redskins%2C_the_Texas_Christian_U._star_is_rated_as_one_of_the_greatest_of_this_LCCN2016877914_%28cropped%29.jpg/1280px-thumbnail.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Slingin_Sammy%22_Baugh,_Washington,_D.C.,_Sept._11._%22Slinging_Sammy%22_Baugh,_new_addition_to_the_Washington_Redskins,_the_Texas_Christian_U._star_is_rated_as_one_of_the_greatest_of_this_LCCN2016877914_(cropped).jpg",
+    "author": "Harris &amp; Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Sammy Baugh",
+    "caption": "Sammy Baugh",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 9, 1969, Detroit, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXVII, XXVIII)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1998, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1997–2001)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions leader (1999)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Jaguars",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-SWAC (1991)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Receptions",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 862",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jimmy Smith",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jimmy Smith (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 1995,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Smith_(wide_receiver)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of the early teams."
+}

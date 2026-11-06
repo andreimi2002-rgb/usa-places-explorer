@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Jacksonville",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 30.33218,
+      "lon": -81.65565
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Jacksonville&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "Florida’s largest city by area, home of the Jaguars since 1995.",
+  "image": {
+    "file": "File:Jacksonville skyline.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jacksonville_skyline.jpg/1280px-Jacksonville_skyline.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jacksonville_skyline.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "The Jacksonville skyline",
+    "caption": "The Jacksonville skyline",
+    "licenseChecked": "2026-11-05"
+  }
+}

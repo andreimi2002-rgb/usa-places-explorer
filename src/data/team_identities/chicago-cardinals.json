@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "arizona-cardinals",
+  "name": "Chicago Cardinals",
+  "city": "chicago",
+  "from": {
+    "value": 1922,
+    "source": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+    "verified": "2026-11-06"
+  },
+  "to": 1959,
+  "current": false
+}

@@ -83,9 +83,17 @@
       "to": 2003,
       "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
       "verified": "2026-11-06"
+    },
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 2005,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
     }
   ],
-  "summary": "Quarterback and MVP of Super Bowl XXXIV in St. Louis.",
+  "summary": "Quarterback who won Super Bowl XXXIV with St. Louis and took Arizona to Super Bowl XLIII.",
   "image": {
     "file": "File:Kurt Warner 2022 (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kurt_Warner_2022_%28cropped%29.jpg",

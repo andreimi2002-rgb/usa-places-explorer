@@ -61,6 +61,14 @@
   ],
   "roles": [
     {
+      "franchise": "indianapolis-colts",
+      "role": "head-coach",
+      "from": 1954,
+      "to": 1962,
+      "source": "https://en.wikipedia.org/wiki/Weeb_Ewbank",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "new-york-jets",
       "role": "head-coach",
       "from": 1963,
@@ -69,7 +77,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Coach from 1963 to 1973 and winner of Super Bowl III.",
+  "summary": "Coach of the 1958 and 1959 Colts and of the Super Bowl III Jets.",
   "image": {
     "file": "File:Weeb Ewbank 1961.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Weeb_Ewbank_1961.jpg",

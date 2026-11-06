@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 4, 1949, Seneca, Kansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XVII (1982 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XVII)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XVII)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1978)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1983)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (1975)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (1983, 1984)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (1983)",
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Riggins",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/John_Riggins",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "John Riggins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Riggins",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "player",
+      "from": 1976,
+      "to": 1985,
+      "source": "https://en.wikipedia.org/wiki/John_Riggins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and MVP of Super Bowl XVII.",
+  "image": {
+    "file": "File:John Riggins.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/John_Riggins.jpg/1280px-John_Riggins.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Riggins.jpg",
+    "author": "ANestSport",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of John Riggins",
+    "caption": "John Riggins",
+    "licenseChecked": "2026-11-05"
+  }
+}

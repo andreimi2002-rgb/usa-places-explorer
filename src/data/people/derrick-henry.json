@@ -56,6 +56,14 @@
   ],
   "roles": [
     {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 2016,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Derrick_Henry",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "baltimore-ravens",
       "role": "player",
       "from": 2024,
@@ -64,7 +72,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Running back, with the Ravens since 2024.",
+  "summary": "Running back with Tennessee from 2016 to 2023, now with Baltimore.",
   "image": {
     "file": "File:Derrick Henry OCT2022 (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Derrick_Henry_OCT2022_%28cropped%29.jpg",

@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 8, 1961, Raleigh, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× First-team All-Pro (1988–1990, 1992, 1998–2000)",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1991, 1993, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "14× Pro Bowl (1988–2001)",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1983)",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Titans/Oilers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tennessee Titans No. 74 retired",
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bruce Matthews",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bruce Matthews (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 1983,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Bruce_Matthews",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Offensive lineman for 19 seasons, from Houston to Tennessee."
+}

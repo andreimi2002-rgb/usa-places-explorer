@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 27, 1997, Charlotte, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Jones_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [],
+  "name": "Daniel Jones",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Daniel_Jones_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Daniel Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Jones_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Daniel_Jones_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, with the Colts since 2025.",
+  "image": {
+    "file": "File:Daniel Jones 2019 crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Daniel_Jones_2019_crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daniel_Jones_2019_crop.jpg",
+    "author": "AlexanderJonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Daniel Jones",
+    "caption": "Daniel Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

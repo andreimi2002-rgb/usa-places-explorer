@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 19, 1999, Pinson, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Nico_Collins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Nico_Collins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Nico Collins",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Nico_Collins",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Nico Collins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nico_Collins",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Nico_Collins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and two-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Nico Collins 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Nico_Collins_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nico_Collins_2019.jpg",
+    "author": "Maize &amp; Blue Nation",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Nico Collins",
+    "caption": "Nico Collins",
+    "licenseChecked": "2026-11-05"
+  }
+}

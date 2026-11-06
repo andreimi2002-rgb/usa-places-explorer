@@ -1,0 +1,142 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Tennessee Titans",
+  "division": "nfl-afc-south",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+    "verified": "2026-11-06",
+    "note": "Founded August 14, 1959, as the Houston Oilers, a charter member of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Adams family (controlling owner Amy Adams Strunk)",
+    "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Robert Saleh",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "nissan-stadium",
+      "from": 1999,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "earl-campbell",
+    "warren-moon",
+    "bruce-matthews",
+    "steve-mcnair",
+    "eddie-george",
+    "derrick-henry",
+    "jeff-fisher"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/tennessee-titans/roster",
+    "players": [
+      {
+        "person": "cam-ward",
+        "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960",
+      "label": "First season, as the Houston Oilers; win the first AFL title (again in 1961)",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1997",
+      "label": "Move to Tennessee as the Tennessee Oilers",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1999",
+      "label": "Renamed the Titans; open today’s stadium",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Draft Cam Ward first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-01-20",
+      "label": "Hire Robert Saleh",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Houston Oilers until 1996, the Titans in Nashville since 1999: one Super Bowl final, lost by one yard.",
+  "sources": [
+    {
+      "title": "Tennessee Titans (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/TEN.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/tennessee-titans.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/TEN.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#001532"
+      },
+      {
+        "name": "Titans blue",
+        "hex": "#4495D2"
+      },
+      {
+        "name": "Red",
+        "hex": "#D50A0A"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+    "verified": "2026-11-06"
+  }
+}

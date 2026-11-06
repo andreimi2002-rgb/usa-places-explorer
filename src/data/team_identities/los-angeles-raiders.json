@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "las-vegas-raiders",
+  "name": "Los Angeles Raiders",
+  "city": "los-angeles",
+  "from": {
+    "value": 1982,
+    "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+    "verified": "2026-11-06"
+  },
+  "to": 1994,
+  "current": false
+}

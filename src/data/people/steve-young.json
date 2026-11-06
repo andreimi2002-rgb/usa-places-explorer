@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 11, 1961, Salt Lake City, Utah, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXIII (1988 season), XXIV (1989 season), XXIX (1994 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXIII, XXIV, XXIX)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXIX)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Most Valuable Player (1992, 1994)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1992)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× UPI NFC Offensive Player of the Year (1992, 1994)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1992–1994)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1995, 1997, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1992–1998)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Steve Young",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Steve_Young",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Steve Young (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Steve_Young",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 1987,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/Steve_Young",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl XXIX.",
+  "image": {
+    "file": "File:Steve Young (6837509849) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Steve_Young_%286837509849%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_Young_(6837509849)_(cropped).jpg",
+    "author": "SAB0TEUR",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Steve Young",
+    "caption": "Steve Young",
+    "licenseChecked": "2026-11-05"
+  }
+}

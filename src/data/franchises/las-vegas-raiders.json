@@ -1,0 +1,184 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Las Vegas Raiders",
+  "division": "nfl-afc-west",
+  "founded": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+    "verified": "2026-11-06",
+    "note": "Founded January 30, 1960, in Oakland, a charter member of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Mark Davis; Tom Brady among minority owners since 2024",
+    "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Klint Kubiak",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "allegiant-stadium",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "ken-stabler",
+    "gene-upshaw",
+    "art-shell",
+    "howie-long",
+    "marcus-allen",
+    "tim-brown",
+    "john-madden",
+    "al-davis"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/las-vegas-raiders/roster",
+    "players": [
+      {
+        "person": "maxx-crosby",
+        "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "brock-bowers",
+        "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "fernando-mendoza",
+        "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960-01-30",
+      "label": "Founded in Oakland for the new AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1963",
+      "label": "Hire Al Davis",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1967",
+      "label": "Win the AFL championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1977",
+      "label": "Win Super Bowl XI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1981",
+      "label": "Win Super Bowl XV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1982",
+      "label": "Move to Los Angeles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1984",
+      "label": "Win Super Bowl XVIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1995",
+      "label": "Return to Oakland",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Move to Las Vegas and open Allegiant Stadium",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Draft Fernando Mendoza first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Al Davis’s rebels in silver and black: three Super Bowls, two moves to Los Angeles and back, and Las Vegas since 2020.",
+  "sources": [
+    {
+      "title": "Las Vegas Raiders (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/LV.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/las-vegas-raiders.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/LV.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Silver",
+        "hex": "#A5ACAF"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+    "verified": "2026-11-06"
+  }
+}

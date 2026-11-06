@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 10, 1936, Austin, Minnesota, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Cal Poly Mustangs No. 74 retired",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "1957 All-California Collegiate Athletic Association",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "1959 All-American Bowl",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl champion (XI)",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1967)",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFW AFL Coach of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Madden",
+  "sources": [
+    {
+      "title": "John Madden (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Madden",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "head-coach",
+      "from": 1969,
+      "to": 1978,
+      "source": "https://en.wikipedia.org/wiki/John_Madden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1969 to 1978, winner of Super Bowl XI and later a famous broadcaster.",
+  "image": {
+    "file": "File:John Madden (Higher Quality).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/John_Madden_%28Higher_Quality%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Madden_(Higher_Quality).jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of John Madden",
+    "caption": "John Madden",
+    "licenseChecked": "2026-11-05"
+  }
+}

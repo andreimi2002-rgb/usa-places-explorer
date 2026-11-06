@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 14, 2000, Plantation, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2022–2025)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2021)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2020)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Defensive Player of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Patrick Surtain II",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Patrick Surtain II (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Patrick_Surtain_II",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback and 2024 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Patrick Surtain 2021 (51650411936) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Patrick_Surtain_2021_%2851650411936%29_%28cropped%29.jpg/1280px-Patrick_Surtain_2021_%2851650411936%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Surtain_2021_(51650411936)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Patrick Surtain II",
+    "caption": "Patrick Surtain II",
+    "licenseChecked": "2026-11-05"
+  }
+}

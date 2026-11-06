@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 23, 1997, Fort Lauderdale, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2022)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2019, 2021–2024)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Deacon Jones Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2017)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Defensive Lineman of the Year (2017)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Nick Bosa",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Nick Bosa (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and 2022 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Nick Bosa vs Redskins 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nick_Bosa_vs_Redskins_2019.jpg/1280px-Nick_Bosa_vs_Redskins_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nick_Bosa_vs_Redskins_2019.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Nick Bosa",
+    "caption": "Nick Bosa",
+    "licenseChecked": "2026-11-05"
+  }
+}

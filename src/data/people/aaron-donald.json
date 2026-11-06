@@ -1,0 +1,108 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 23, 1991, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LVI (2021 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LVI)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Defensive Player of the Year (2017, 2018, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2014)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (2015–2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (2014–2023)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Deacon Jones Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2014)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Aaron Donald",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Aaron Donald (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 2014,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Donald",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle, three times Defensive Player of the Year, back with the Rams in 2026.",
+  "image": {
+    "file": "File:Aaron Donald 2020 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Aaron_Donald_2020_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aaron_Donald_2020_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Aaron Donald",
+    "caption": "Aaron Donald",
+    "licenseChecked": "2026-11-05"
+  }
+}

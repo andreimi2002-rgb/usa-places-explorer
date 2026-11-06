@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 3, 1981, New Orleans, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLII (2007 season), XLVI (2011 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XLII, XLVI)",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Super Bowl MVP (XLII, XLVI)",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2008, 2011, 2012, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SN Athlete of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants No. 10 retired",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8th greatest New York Giant of all-time",
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Eli Manning",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Eli Manning (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 2004,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Eli_Manning",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of both Super Bowl wins over New England.",
+  "image": {
+    "file": "File:Eli Manning crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Eli_Manning_crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eli_Manning_crop.jpg",
+    "author": "Alexander Jonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Eli Manning",
+    "caption": "Eli Manning",
+    "licenseChecked": "2026-11-05"
+  }
+}

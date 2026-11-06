@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 13, 2003, Kaysville, Utah, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NCAA passer rating leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Conerly Trophy (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-SEC (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jaxson Dart",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jaxson Dart (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jaxson_Dart",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback drafted in 2025.",
+  "image": {
+    "file": "File:Jaxson Dart 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jaxson_Dart_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaxson_Dart_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jaxson Dart",
+    "caption": "Jaxson Dart",
+    "licenseChecked": "2026-11-05"
+  }
+}

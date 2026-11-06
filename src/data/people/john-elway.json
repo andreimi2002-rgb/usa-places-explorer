@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 28, 1960, Port Angeles, Washington, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXII (1997 season), XXXIII (1998 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXXII, XXXIII)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXXIII)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1987)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1992)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1987, 1993, 1996)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1986, 1987, 1989, 1991, 1993, 1994, 1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (1993)",
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Elway",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/John_Elway",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "John Elway (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Elway",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 1983,
+      "to": 1998,
+      "source": "https://en.wikipedia.org/wiki/John_Elway",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XXXII and XXXIII wins.",
+  "image": {
+    "file": "File:John Elway OCT2021 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/John_Elway_OCT2021_%28cropped%29.jpg/1280px-John_Elway_OCT2021_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Elway_OCT2021_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of John Elway",
+    "caption": "John Elway",
+    "licenseChecked": "2026-11-05"
+  }
+}

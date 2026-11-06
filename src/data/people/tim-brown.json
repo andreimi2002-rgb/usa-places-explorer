@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 22, 1966, Dallas, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (1988, 1997)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1988, 1991, 1993–1997, 1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions co-leader (1997)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL kickoff return yards leader (1988)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL punt return yards leader (1994)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1988)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (1987)",
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tim Brown",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tim Brown (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 1988,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Tim_Brown_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver for 16 seasons.",
+  "image": {
+    "file": "File:Tim Brown.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tim_Brown.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tim_Brown.jpg",
+    "author": "Photographer's Mate 1st Class Aviation Warfare Systems Operator Toiete Jackson",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Tim Brown",
+    "caption": "Tim Brown",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 3, 2003, Philadelphia, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "PFWA All-Rookie Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2024)",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Defensive Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× first-team All-Big Ten (2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Big Ten (2022)",
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Abdul Carter",
+  "position": {
+    "value": "Outside linebacker",
+    "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Abdul Carter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Abdul_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher, the third pick of the 2025 draft."
+}

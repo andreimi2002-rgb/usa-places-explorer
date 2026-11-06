@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 22, 1997, Lapeer, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Second-team All-Pro (2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2021–2025)",
+      "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-MAC (2017, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Maxx Crosby",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Maxx Crosby (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Maxx_Crosby",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and five-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Maxx Crosby 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Maxx_Crosby_2025.jpg/1280px-Maxx_Crosby_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maxx_Crosby_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Maxx Crosby",
+    "caption": "Maxx Crosby",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -11,7 +11,8 @@
   "term": "MVP",
   "short": "Most Valuable Player: the award for the best player of the NBA regular season.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football"
   ],
   "related": [
     "finals-mvp"

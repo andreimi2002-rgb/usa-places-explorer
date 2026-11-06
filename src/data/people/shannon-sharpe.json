@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 26, 1968, Chicago, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXII (1997 season), XXXIII (1998 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXXII, XXXIII, XXXV)",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1993, 1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1995)",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1992–1998, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Denver Broncos Ring of Fame",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Denver Broncos 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team DII All-American (1989)",
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Shannon Sharpe",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Shannon Sharpe (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 1990,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2002,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Shannon_Sharpe",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end of two Super Bowl wins in Denver.",
+  "image": {
+    "file": "File:Defense.gov photo essay 120106-A-AO884-354 (Cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Defense.gov_photo_essay_120106-A-AO884-354_%28Cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Defense.gov_photo_essay_120106-A-AO884-354_(Cropped).jpg",
+    "author": "Staff Sgt. Teddy Wade",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Shannon Sharpe",
+    "caption": "Shannon Sharpe",
+    "licenseChecked": "2026-11-05"
+  }
+}

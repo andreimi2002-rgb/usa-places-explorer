@@ -1,0 +1,56 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 4, 1929, Brockton, Massachusetts, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XI, XV, XVIII)",
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Executive of the Year (1976, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Coach of the Year (1963)",
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Al Davis",
+  "sources": [
+    {
+      "title": "Al Davis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Al_Davis",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "head-coach",
+      "from": 1963,
+      "to": 1965,
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "owner",
+      "from": 1972,
+      "to": 2011,
+      "source": "https://en.wikipedia.org/wiki/Al_Davis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach, then owner of the Raiders until his death in 2011."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Las Vegas",
+  "region": "Nevada",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "metro": "Las Vegas Valley",
+  "coordinates": {
+    "value": {
+      "lat": 36.17497,
+      "lon": -115.13722
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Las%20Vegas&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "The desert gambling and entertainment capital, home of the Raiders since 2020.",
+  "image": {
+    "file": "File:Downtown Las Vegas from Stratosphere 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Downtown_Las_Vegas_from_Stratosphere_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Las_Vegas_from_Stratosphere_3.jpg",
+    "author": "Ken Lund from Las Vegas, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Downtown Las Vegas seen from the Stratosphere Tower",
+    "caption": "Downtown Las Vegas seen from the Stratosphere Tower",
+    "licenseChecked": "2026-11-05"
+  }
+}

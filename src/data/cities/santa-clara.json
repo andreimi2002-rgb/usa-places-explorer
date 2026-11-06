@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Santa Clara",
+  "region": "California",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "metro": "San Francisco Bay Area",
+  "coordinates": {
+    "value": {
+      "lat": 37.35411,
+      "lon": -121.95524
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Santa%20Clara&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A Silicon Valley city south of San Francisco, home of the 49ers’ stadium since 2014.",
+  "image": {
+    "file": "File:Santaclaraconventioncenter.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Santaclaraconventioncenter.jpg/1280px-Santaclaraconventioncenter.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Santaclaraconventioncenter.jpg",
+    "author": "Coolcaesar at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "The Santa Clara Convention Center",
+    "caption": "The Santa Clara Convention Center",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -459,3 +459,25 @@ Date: 2026-11-07. Branch `nfl`. Lean format, like MLS.
 5. **Seahawks owner**: a group led by Vinod Khosla completed its purchase on September 3, 2026 (Wikipedia).
 6. **No uniform drawings yet** for the NFL: the drawing has only basketball and soccer shapes.
 7. **Photos**: no free photo found for Derrick Thomas and Art Rooney (their infobox images are not on Commons).
+
+# NFL lot 2: 49ers, Rams, Giants, Bears, Raiders, Broncos, Dolphins
+
+Date: 2026-11-06. Branch `nfl`. Same lean format and sources as lot 1.
+
+## Things to check
+
+1. **New this year (from Wikipedia)**: John Harbaugh (Giants), Klint Kubiak (Raiders) and Jeff Hafley (Dolphins) are
+   new head coaches for 2026; the Raiders drafted Fernando Mendoza first overall; the Rams traded for Myles Garrett and
+   Trent McDuffie, and Aaron Donald came back; the Dolphins released Tua Tagovailoa and traded Jaylen Waddle to Denver.
+2. **Dolphins core players**: only De'Von Achane is listed, because he is the only well-known starter confirmed as
+   current in his infobox after the 2026 departures.
+3. **Coaches' years** for Bill Walsh, John Madden, Al Davis, Bill Parcells, Don Shula, George Halas and Mike Ditka were
+   entered by hand (their infoboxes use a format the parser does not read). Halas has founder, player and four coaching spells.
+4. **Identities**: the Rams (Cleveland, Los Angeles, St. Louis, Los Angeles) and Raiders (Oakland, Los Angeles,
+   Oakland, Las Vegas) each have four. The Bears' first season as the Decatur Staleys (1920) is in the text only.
+5. **Allegiant Stadium** is filed under the new Las Vegas city page; the text says it is in Paradise, next to the Strip.
+   New cities: Santa Clara, Las Vegas, Miami Gardens. New venues: Levi's, SoFi, MetLife, Allegiant, Empower Field,
+   Hard Rock. Soldier Field gained an American-football capacity.
+6. **European games** come from the NFL International Series article (London, Munich, Frankfurt, Madrid).
+7. **Photos**: none for Gene Upshaw and Al Davis (not on Commons), Abdul Carter and Von Miller (no infobox image), or Dan
+   Marino (the Commons file has no author, so the CC BY-SA credit cannot be given).

@@ -11,7 +11,8 @@
   "term": "Hall of Fame",
   "short": "An honor roll of a sport’s greatest figures. Basketball’s is the Naismith Memorial Basketball Hall of Fame; teams also keep their own halls for local legends.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football"
   ],
   "related": []
 }

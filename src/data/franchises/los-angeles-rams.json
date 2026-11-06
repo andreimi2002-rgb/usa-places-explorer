@@ -1,0 +1,192 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Los Angeles Rams",
+  "division": "nfl-nfc-west",
+  "founded": {
+    "value": 1936,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+    "verified": "2026-11-06",
+    "note": "Founded April 11, 1936, in Cleveland."
+  },
+  "firstSeason": {
+    "value": "1936",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Stan Kroenke (majority owner since 2010)",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Sean McVay",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "sean-mcvay"
+  },
+  "venues": [
+    {
+      "venue": "sofi-stadium",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "deacon-jones",
+    "merlin-olsen",
+    "eric-dickerson",
+    "kurt-warner",
+    "marshall-faulk"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/los-angeles-rams/roster",
+    "players": [
+      {
+        "person": "matthew-stafford",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "puka-nacua",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "myles-garrett",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "aaron-donald",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1936-04-11",
+      "label": "Founded in Cleveland",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1945",
+      "label": "Win the NFL championship in Cleveland",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1946",
+      "label": "Move to Los Angeles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1951",
+      "label": "Win the NFL championship",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1995",
+      "label": "Move to St. Louis",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2000",
+      "label": "Win Super Bowl XXXIV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2016",
+      "label": "Return to Los Angeles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Hire Sean McVay",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Open SoFi Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Win Super Bowl LVI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cleveland, Los Angeles, St. Louis and Los Angeles again: two Super Bowls, and the 2025 MVP Matthew Stafford.",
+  "sources": [
+    {
+      "title": "Los Angeles Rams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Stan Kroenke (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Stan_Kroenke",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/LA.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/los-angeles-rams.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/LA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Royal blue",
+        "hex": "#003594"
+      },
+      {
+        "name": "Sol",
+        "hex": "#FFA300"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+    "verified": "2026-11-06"
+  }
+}

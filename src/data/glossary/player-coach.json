@@ -11,7 +11,8 @@
   "term": "Player-coach",
   "short": "A player who is also the team’s head coach. Bill Russell won two titles this way with Boston.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football"
   ],
   "related": [
     "nba-finals"

@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 4, 1996, Richmond, Kentucky, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2023)",
+      "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2018)",
+      "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× first-team All-SEC (2017, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Montez Sweat",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Montez Sweat (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Montez_Sweat",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end, with the Bears since 2023.",
+  "image": {
+    "file": "File:Montez Sweat - 2025 Commanders vs Bears (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Montez_Sweat_-_2025_Commanders_vs_Bears_%28cropped%29.jpg/1280px-Montez_Sweat_-_2025_Commanders_vs_Bears_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Montez_Sweat_-_2025_Commanders_vs_Bears_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Montez Sweat",
+    "caption": "Montez Sweat",
+    "licenseChecked": "2026-11-05"
+  }
+}

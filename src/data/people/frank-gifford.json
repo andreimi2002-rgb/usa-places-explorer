@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 16, 1929, Santa Monica, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1956)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1956)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1962)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× First-team All-Pro (1953, 1955–1959)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1953–1959, 1963)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1950s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants No. 16 retired",
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Frank Gifford",
+  "position": {
+    "value": "Halfback",
+    "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Frank Gifford (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 1952,
+      "to": 1960,
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 1962,
+      "to": 1964,
+      "source": "https://en.wikipedia.org/wiki/Frank_Gifford",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Halfback and 1956 MVP, later a famous broadcaster.",
+  "image": {
+    "file": "File:Frank Gifford 1949.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Frank_Gifford_1949.jpeg/1280px-Frank_Gifford_1949.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Frank_Gifford_1949.jpeg",
+    "author": "Unidentified (El Rodeo is the USC yearbook published by Associated Students of USC)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Frank Gifford",
+    "caption": "Frank Gifford",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -5,9 +5,9 @@
     {
       "name": "Heinz Field",
       "from": 2001,
-      "to": null,
-      "source": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
-      "verified": null
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Acrisure_Stadium",
+      "verified": "2026-11-08"
     }
   ],
   "facts": [],
@@ -36,6 +36,11 @@
       "title": "Current NFL stadiums (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Acrisure Stadium (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Acrisure_Stadium",
+      "accessed": "2026-11-08"
     }
   ],
   "image": {

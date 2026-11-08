@@ -568,3 +568,23 @@ Date: 2026-11-08. Branch `nfl`. All 32 NFL teams are in; every Super Bowl now li
 6. **Photos**: none for Alan Page, Claude Humphrey, Sam Mills, Lee Roy Selmon (not on Commons). Tampa's Wikidata photo
    is a montage, so a single skyline photo was chosen instead.
 7. **Fix**: source lists no longer repeat the same source (the NFL page listed the Super Bowl list twice).
+
+# NFL final check: results (2026-11-08)
+
+1. **Completeness, all 32 teams**: logo, colours, head coach, core players, legends, current stadium with photo and NFL
+   capacity, the four texts (why, history, venue, Europe), current identity and city photo: nothing missing.
+2. **Time zones**: every "N hours behind Central Europe" line was checked against the city's time zone: all correct.
+3. **European games**: checked against the 2026 NFL season article. Fixed: the 2026 Colts–Commanders game was at
+   Tottenham Hotspur Stadium (Washington at home), not Wembley; added it to the Colts page, and Baltimore's 34–31 win
+   over Dallas in Rio de Janeiro to the Cowboys page. Still open: Falcons–Bengals in Madrid (November 8) and
+   Lions–Patriots in Munich (November 15); the texts say "play" / "due to play" until results are published.
+4. **Photos**: 272 of 283 NFL people now have a photo (6 more found on Commons: Alan Page, Art Rooney, Bruce Matthews,
+   Johnny Unitas, Von Miller, Joe Klecko). Still none: Abdul Carter, Al Davis, Claude Humphrey, Dan Marino (only a
+   bronze bust on Commons), Derrick Thomas, Gene Upshaw, Jimmy Smith, Lee Roy Selmon, Rickey Jackson, Sam Mills,
+   Tony Boselli.
+5. **Photo credits, site-wide**: 29 credits read "Unknown authorUnknown author" and 6 had "&amp;", a pasted link or
+   "Life time: None"; all cleaned.
+6. **Hidden fact resolved**: Acrisure Stadium was Heinz Field from 2001 to 2022 (now verified and shown).
+7. **Pages**: all 32 team pages pass on mobile (no overflow, no console errors) and have the same sections; search finds
+   players, teams, stadiums and owners; build 0 errors, 0 broken links.
+8. **Not in this release**: uniform drawings for the NFL (the drawing has only basketball and soccer shapes).

@@ -85,5 +85,16 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Linebacker and MVP of Super Bowl 50."
+  "summary": "Linebacker and MVP of Super Bowl 50.",
+  "image": {
+    "file": "File:Von Miller 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Von_Miller_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Von_Miller_2017.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Von Miller",
+    "caption": "Von Miller",
+    "licenseChecked": "2026-11-05"
+  }
 }

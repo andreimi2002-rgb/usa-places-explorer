@@ -74,5 +74,16 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Offensive lineman for 19 seasons, from Houston to Tennessee."
+  "summary": "Offensive lineman for 19 seasons, from Houston to Tennessee.",
+  "image": {
+    "file": "File:Bruce Matthews (American football).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bruce_Matthews_%28American_football%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bruce_Matthews_(American_football).jpg",
+    "author": "Jerry Sherk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Bruce Matthews",
+    "caption": "Bruce Matthews",
+    "licenseChecked": "2026-11-05"
+  }
 }

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 20, 1943, San Antonio, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (1967)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1968)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1966–1968, 1970, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Rookie of the Year (1966)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Atlanta Falcons Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1963)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Maxwell Award (1965)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tommy Nobis",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tommy Nobis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 1966,
+      "to": 1976,
+      "source": "https://en.wikipedia.org/wiki/Tommy_Nobis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker, the club’s first-ever draft pick.",
+  "image": {
+    "file": "File:Tommy Nobis, 1964.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tommy_Nobis%2C_1964.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Tommy_Nobis,_1964.png",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Tommy Nobis",
+    "caption": "Tommy Nobis",
+    "licenseChecked": "2026-11-05"
+  }
+}

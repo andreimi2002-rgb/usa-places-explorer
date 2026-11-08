@@ -1,0 +1,54 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 17, 1963, Sandusky, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jon_Gruden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/Jon_Gruden",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tampa Bay Buccaneers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Jon_Gruden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jon Gruden",
+  "sources": [
+    {
+      "title": "Jon Gruden (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jon_Gruden",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "head-coach",
+      "from": 2002,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Jon_Gruden",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach of the Super Bowl XXXVII win.",
+  "image": {
+    "file": "File:Jon Gruden (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jon_Gruden_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jon_Gruden_(cropped).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jon Gruden",
+    "caption": "Jon Gruden",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 7, 1975, Roanoke, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVII (2002 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2001, 2004, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2002, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2001, 2004–2006, 2008)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL interceptions co-leader (2001)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tampa Bay Buccaneers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Third-team All-American (1994, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ronde Barber",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ronde Barber (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 1997,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Ronde_Barber",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback for 16 seasons.",
+  "image": {
+    "file": "File:Ronde Barber.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ronde_Barber.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Ronde_Barber.JPG",
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Ronde Barber",
+    "caption": "Ronde Barber",
+    "licenseChecked": "2026-11-05"
+  }
+}

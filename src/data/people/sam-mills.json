@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 3, 1959, Neptune City, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (1991, 1992, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1987, 1988, 1991, 1992, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (2004)",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Carolina Panthers Hall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Carolina Panthers No. 51 retired",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× DIII First-team All-American (1979, 1980)",
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sam Mills",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sam Mills (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 1995,
+      "to": 1997,
+      "source": "https://en.wikipedia.org/wiki/Sam_Mills",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker, whose motto “Keep pounding” became the club’s."
+}

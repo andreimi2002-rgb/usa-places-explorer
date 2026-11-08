@@ -1,0 +1,69 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 10, 1975, Breaux Bridge, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2005)",
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Carolina Panthers Hall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "World Bowl champion (1999)",
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Longest touchdown pass in a Super Bowl: 85 yards (XXXVIII, to Muhsin Muhammad)",
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jake Delhomme",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jake Delhomme (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2003,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Jake_Delhomme",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XXXVIII team.",
+  "image": {
+    "file": "File:Jake Delhomme (2008).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jake_Delhomme_%282008%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jake_Delhomme_(2008).jpg",
+    "author": "kyle tsui from Washington, DC, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jake Delhomme",
+    "caption": "Jake Delhomme",
+    "licenseChecked": "2026-11-05"
+  }
+}

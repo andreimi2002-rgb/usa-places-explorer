@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 3, 1940, Richmond, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1975)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1975)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1975)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1973)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1964, 1965, 1967–1970, 1974–1976)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (1978)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (1975)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (1977)",
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Fran Tarkenton",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Fran Tarkenton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1961,
+      "to": 1966,
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1972,
+      "to": 1978,
+      "source": "https://en.wikipedia.org/wiki/Fran_Tarkenton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Scrambling quarterback and 1975 MVP.",
+  "image": {
+    "file": "File:Fran Tarkenton January 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Fran_Tarkenton_January_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fran_Tarkenton_January_2010.jpg",
+    "author": "Steve Burns",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Fran Tarkenton",
+    "caption": "Fran Tarkenton",
+    "licenseChecked": "2026-11-05"
+  }
+}

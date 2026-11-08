@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 20, 1958, Pahokee, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXIX)",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1984–1986, 1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1983–1986, 1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints 45th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-American (1980)",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-East (1980)",
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Rickey Jackson",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Rickey Jackson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 1981,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Rickey_Jackson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the 1980s."
+}

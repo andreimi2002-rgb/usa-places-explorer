@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 25, 2001",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "CFP national champion (2020)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-SEC (2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-SEC (2022)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bryce Young",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bryce Young (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Bryce_Young",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, the first pick of the 2023 draft.",
+  "image": {
+    "file": "File:Bryce Young at W.P.T. Hill Field - 2024 - 02 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bryce_Young_at_W.P.T._Hill_Field_-_2024_-_02_%28cropped%29.jpg/1280px-Bryce_Young_at_W.P.T._Hill_Field_-_2024_-_02_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bryce_Young_at_W.P.T._Hill_Field_-_2024_-_02_(cropped).jpg",
+    "author": "Sgt. Andrew Skiver",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bryce Young",
+    "caption": "Bryce Young",
+    "licenseChecked": "2026-11-05"
+  }
+}

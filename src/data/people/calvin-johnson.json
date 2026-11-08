@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 29, 1985, Tyrone, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (2011–2013)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2010)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2010–2015)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving yards leader (2011, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions leader (2012)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving touchdowns co-leader (2008)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2007)",
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Calvin Johnson",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Calvin Johnson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 2007,
+      "to": 2015,
+      "source": "https://en.wikipedia.org/wiki/Calvin_Johnson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "“Megatron”, wide receiver and record-setter.",
+  "image": {
+    "file": "File:Calvin Johnson by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Calvin_Johnson_by_Gage_Skidmore.jpg/1280px-Calvin_Johnson_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Calvin_Johnson_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Calvin Johnson",
+    "caption": "Calvin Johnson",
+    "licenseChecked": "2026-11-05"
+  }
+}

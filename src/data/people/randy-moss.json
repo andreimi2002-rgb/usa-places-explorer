@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 13, 1977, Rand, West Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (1998)",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2007)",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1998, 2000, 2003, 2007)",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1998–2000, 2002, 2003, 2007)",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL receiving touchdowns leader (1998, 2000, 2003, 2007, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Minnesota Vikings Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Randy Moss",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Randy Moss (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1998,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 2010,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Randy_Moss",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and 1998 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:Randy Moss 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Randy_Moss_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Randy_Moss_2016.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Randy Moss",
+    "caption": "Randy Moss",
+    "licenseChecked": "2026-11-05"
+  }
+}

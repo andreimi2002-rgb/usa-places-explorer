@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 28, 1999, Chandler, Arizona, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tyler_Shough",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "PFWA All-Rookie Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Tyler_Shough",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tyler Shough",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Tyler_Shough",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tyler Shough (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tyler_Shough",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tyler_Shough",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback drafted in 2025.",
+  "image": {
+    "file": "File:TylerShough2.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/TylerShough2.png",
+    "page": "https://commons.wikimedia.org/wiki/File:TylerShough2.png",
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Tyler Shough",
+    "caption": "Tyler Shough",
+    "licenseChecked": "2026-11-05"
+  }
+}

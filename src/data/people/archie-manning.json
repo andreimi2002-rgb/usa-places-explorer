@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 19, 1949, Drew, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "UPI NFC Player of the Year (1978)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sporting News NFC Player of the Year (1978)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (1978, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFLPA Alan Page Community Award (1978)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jack Horrigan Award (1983)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Player of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Archie Manning",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Archie Manning (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 1971,
+      "to": 1982,
+      "source": "https://en.wikipedia.org/wiki/Archie_Manning",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the 1970s, father of Peyton and Eli.",
+  "image": {
+    "file": "File:Archie Manning by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Archie_Manning_by_Gage_Skidmore.jpg/1280px-Archie_Manning_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Archie_Manning_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Archie Manning",
+    "caption": "Archie Manning",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 25, 1971, Hinsdale, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVII (2002 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1999, 2000)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2001, 2002)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1997, 1999–2002, 2004–2007)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tampa Bay Buccaneers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Denver Broncos Ring of Fame",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (1992)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-10 (1992)",
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Lynch",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "John Lynch (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 1993,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/John_Lynch_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety of the Super Bowl XXXVII defence.",
+  "image": {
+    "file": "File:John Lynch 2019 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/John_Lynch_2019_%28cropped%29.jpg/1280px-John_Lynch_2019_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Lynch_2019_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of John Lynch",
+    "caption": "John Lynch",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 18, 1970, Pine Bluff, Arkansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× First-team All-Pro (1994, 1995, 2003, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1996, 1997, 2000, 2002, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (1994–2000, 2002–2005)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1993)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New Orleans Saints Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Willie Roaf",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Willie Roaf (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 1993,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Willie_Roaf",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle and four-time First-team All-Pro.",
+  "image": {
+    "file": "File:Willie Roaf at Camp Basra 2-3-09.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Willie_Roaf_at_Camp_Basra_2-3-09.JPG/1280px-Willie_Roaf_at_Camp_Basra_2-3-09.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Willie_Roaf_at_Camp_Basra_2-3-09.JPG",
+    "author": "Spc. Karah Cohen, USA",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Willie Roaf",
+    "caption": "Willie Roaf",
+    "licenseChecked": "2026-11-05"
+  }
+}

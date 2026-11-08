@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 16, 1998, Columbus, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LV (2020 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LV)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2023)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2021, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL forced fumbles co-leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2020)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Defensive Back of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big Ten (2019)",
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Antoine Winfield Jr.",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Antoine Winfield Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Antoine_Winfield_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and 2023 First-team All-Pro.",
+  "image": {
+    "file": "File:Antoine Winfield Jr WFT-Buccaneers NOV2021 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Antoine_Winfield_Jr_WFT-Buccaneers_NOV2021_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Antoine_Winfield_Jr_WFT-Buccaneers_NOV2021_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Antoine Winfield Jr.",
+    "caption": "Antoine Winfield Jr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

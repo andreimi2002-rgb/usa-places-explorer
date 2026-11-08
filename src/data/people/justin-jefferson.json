@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 16, 1999, St. Rose, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2020–2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA NFL All-Rookie Team (2020)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2019)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Justin Jefferson",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Justin Jefferson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and 2022 Offensive Player of the Year.",
+  "image": {
+    "file": "File:Jefferson 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Jefferson_2022.jpg/1280px-Jefferson_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jefferson_2022.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Justin Jefferson",
+    "caption": "Justin Jefferson",
+    "licenseChecked": "2026-11-05"
+  }
+}

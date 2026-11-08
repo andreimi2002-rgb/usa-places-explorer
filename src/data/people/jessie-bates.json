@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 26, 1997, Fort Wayne, Indiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Second-team All-Pro (2020, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2023)",
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2018)",
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-ACC (2016)",
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jessie Bates",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jessie Bates (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jessie_Bates",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and three-time Second-team All-Pro.",
+  "image": {
+    "file": "File:Jessie Bates (2026).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Jessie_Bates_%282026%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jessie_Bates_(2026).jpg",
+    "author": "Petty Officer 2nd Class Raquell Williams",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jessie Bates",
+    "caption": "Jessie Bates",
+    "licenseChecked": "2026-11-05"
+  }
+}

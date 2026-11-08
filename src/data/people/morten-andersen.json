@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 19, 1960, Copenhagen, Denmark",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× First-team All-Pro (1985–1987, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1988, 1992)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1985–1988, 1990, 1992, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Golden Toe Award (1986, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Camp Man of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (1981)",
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Morten Andersen",
+  "position": {
+    "value": "Kicker",
+    "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Morten Andersen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 1982,
+      "to": 1994,
+      "source": "https://en.wikipedia.org/wiki/Morten_Andersen",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Danish-born kicker, among the NFL’s all-time leading scorers.",
+  "image": {
+    "file": "File:Morten Andersen at NFL Fan Rally.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Morten_Andersen_at_NFL_Fan_Rally.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Morten_Andersen_at_NFL_Fan_Rally.jpg",
+    "author": "Samjudge. from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Morten Andersen",
+    "caption": "Morten Andersen",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 25, 1995, Atlanta, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2017)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2017, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2017–2021)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2017)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rushing touchdowns in a game: 6 (tied with Gale Sayers)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Points scored in a game: 36 (tied with Gale Sayers)",
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Alvin Kamara",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Alvin Kamara (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-orleans-saints",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Alvin_Kamara",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2017 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:Alvin Kamara Sonoma 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Alvin_Kamara_Sonoma_2023.jpg/1280px-Alvin_Kamara_Sonoma_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alvin_Kamara_Sonoma_2023.jpg",
+    "author": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Alvin Kamara",
+    "caption": "Alvin Kamara",
+    "licenseChecked": "2026-11-05"
+  }
+}

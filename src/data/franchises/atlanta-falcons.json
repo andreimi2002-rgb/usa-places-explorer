@@ -1,0 +1,155 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Atlanta Falcons",
+  "division": "nfl-nfc-south",
+  "founded": {
+    "value": 1965,
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+    "verified": "2026-11-06",
+    "note": "Founded June 30, 1965, as an expansion team; first season 1966."
+  },
+  "firstSeason": {
+    "value": "1966",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Arthur Blank, who also owns Atlanta United",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Kevin Stefanski",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "mercedes-benz-stadium",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "tommy-nobis",
+    "claude-humphrey",
+    "deion-sanders",
+    "matt-ryan",
+    "julio-jones"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/atlanta-falcons/roster",
+    "players": [
+      {
+        "person": "bijan-robinson",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "drake-london",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "tua-tagovailoa",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "jessie-bates",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1965-06-30",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Arthur Blank buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Draft Matt Ryan",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Open Mercedes-Benz Stadium, shared with Atlanta United",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-01-17",
+      "label": "Hire Kevin Stefanski",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Two Super Bowl finals, including Super Bowl LI, lost after leading 28–3: the biggest comeback in Super Bowl history.",
+  "sources": [
+    {
+      "title": "Atlanta Falcons (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/ATL.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/atlanta-falcons.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/ATL.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#A71930"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Silver",
+        "hex": "#A5ACAF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+    "verified": "2026-11-06"
+  }
+}

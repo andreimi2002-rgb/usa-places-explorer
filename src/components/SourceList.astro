@@ -14,8 +14,10 @@ interface Props {
   sources: { title: string; url: string; accessed: string }[];
   credits?: (Credit | undefined)[];
 }
-const { sources, credits = [] } = Astro.props;
-const images = credits.filter((c): c is Credit => Boolean(c));
+const { sources: all, credits = [] } = Astro.props;
+// The same source can arrive from several places (league data, championships...): list it once.
+const sources = all.filter((s, i) => all.findIndex((o) => o.url === s.url) === i);
+const images = credits.filter((c, i): c is Credit => Boolean(c) && credits.findIndex((o) => o?.page === c!.page) === i);
 ---
 
 <section class="sources" aria-labelledby="sources-title">

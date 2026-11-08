@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 11, 1989, Atlanta, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2015)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2015)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (2011)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2015)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2011, 2013, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× BCS national champion (2008, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NJCAA national champion (2009)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2010)",
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Cam Newton",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Cam Newton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2011,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2021,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Cam_Newton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 2015 MVP.",
+  "image": {
+    "file": "File:Cam Newton 2021 WFT vs CAR (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cam_Newton_2021_WFT_vs_CAR_%28cropped%29.jpg/1280px-Cam_Newton_2021_WFT_vs_CAR_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cam_Newton_2021_WFT_vs_CAR_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Cam Newton",
+    "caption": "Cam Newton",
+    "licenseChecked": "2026-11-05"
+  }
+}

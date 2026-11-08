@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 24, 1999, Mount Vernon, Iowa, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LV (2020 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LV)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2022)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2021–2025)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2020)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Offensive Lineman of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big Ten (2019)",
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tristan Wirfs",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tristan Wirfs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tristan_Wirfs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle and two-time First-team All-Pro.",
+  "image": {
+    "file": "File:Tristan Wirfs (50832403298) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tristan_Wirfs_%2850832403298%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tristan_Wirfs_(50832403298)_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Tristan Wirfs",
+    "caption": "Tristan Wirfs",
+    "licenseChecked": "2026-11-05"
+  }
+}

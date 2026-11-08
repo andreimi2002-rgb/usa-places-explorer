@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 24, 2001",
+      "source": "https://en.wikipedia.org/wiki/Drake_London",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pac-12 Offensive Player of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/Drake_London",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-12 (2021)",
+      "source": "https://en.wikipedia.org/wiki/Drake_London",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pac-12 (2020)",
+      "source": "https://en.wikipedia.org/wiki/Drake_London",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Drake London",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Drake_London",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Drake London (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Drake_London",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Drake_London",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver drafted in 2022.",
+  "image": {
+    "file": "File:Drake London Falcons camp 2022.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Drake_London_Falcons_camp_2022.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Drake_London_Falcons_camp_2022.png",
+    "author": "Atlanta Falcons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Drake London",
+    "caption": "Drake London",
+    "licenseChecked": "2026-11-05"
+  }
+}

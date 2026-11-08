@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "U.S. Bank Stadium",
+  "city": "minneapolis",
+  "opened": {
+    "value": "2016",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 66655,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "dome",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Vikings’ stadium in downtown Minneapolis since 2016, under a translucent roof.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Vikings-US16.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Vikings-US16.jpg/1280px-Vikings-US16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vikings-US16.jpg",
+    "author": "Jason7373",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "U.S. Bank Stadium at its first game, 2016",
+    "caption": "U.S. Bank Stadium at its first game, 2016",
+    "licenseChecked": "2026-11-05"
+  }
+}

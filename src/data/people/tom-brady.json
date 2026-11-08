@@ -10,7 +10,7 @@
     },
     {
       "label": "Super Bowls with the club",
-      "value": "XXXVI (2001 season), XXXVIII (2003 season), XXXIX (2004 season), XLIX (2014 season), LI (2016 season), LIII (2018 season)",
+      "value": "LV (2020 season)",
       "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
       "verified": "2026-11-06"
     }
@@ -83,9 +83,17 @@
       "to": 2019,
       "source": "https://en.wikipedia.org/wiki/Tom_Brady",
       "verified": "2026-11-06"
+    },
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 2020,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "verified": "2026-11-06"
     }
   ],
-  "summary": "Quarterback of six Super Bowl wins in New England, seven in his career.",
+  "summary": "Quarterback of seven Super Bowl wins: six with New England and one, LV, with Tampa Bay.",
   "image": {
     "file": "File:25th Laureus World Sports Awards - Red Carpet - Tom Brady - 240422 191334 (cropped) (cropped).jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",

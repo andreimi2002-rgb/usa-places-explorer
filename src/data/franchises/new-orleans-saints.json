@@ -1,0 +1,154 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "New Orleans Saints",
+  "division": "nfl-nfc-south",
+  "founded": {
+    "value": 1966,
+    "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+    "verified": "2026-11-06",
+    "note": "Founded November 1, 1966, as an expansion team; first season 1967."
+  },
+  "firstSeason": {
+    "value": "1967",
+    "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Gayle Benson (since 2018), who also owns the NBA’s Pelicans",
+    "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Kellen Moore",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "caesars-superdome",
+      "from": 1975,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "archie-manning",
+    "rickey-jackson",
+    "morten-andersen",
+    "willie-roaf",
+    "drew-brees",
+    "sean-payton"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/new-orleans-saints/roster",
+    "players": [
+      {
+        "person": "alvin-kamara",
+        "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "chris-olave",
+        "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "tyler-shough",
+        "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1966-11-01",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1975",
+      "label": "Move into the Superdome",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2006",
+      "label": "Return to the Superdome after Hurricane Katrina; sign Drew Brees and hire Sean Payton",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Win Super Bowl XLIV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Gayle Benson takes over after Tom Benson’s death",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-02-11",
+      "label": "Hire Kellen Moore",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The team that brought joy back to New Orleans after Hurricane Katrina, with Drew Brees and Super Bowl XLIV.",
+  "sources": [
+    {
+      "title": "New Orleans Saints (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/NO.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/new-orleans-saints.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/NO.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Old gold",
+        "hex": "#D3BC8D"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 18, 1973, Pensacola, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVII (2002 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (2002)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2000)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1999, 2000, 2002, 2004, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (1997, 1998, 2001, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (1997–2006, 2008)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL solo tackles leader (1998, 2000, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL combined tackles leader (1998)",
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Derrick Brooks",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Derrick Brooks (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 1995,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Derrick_Brooks",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 2002 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Dbrooks 03 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dbrooks_03_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dbrooks_03_(cropped).jpg",
+    "author": "Spiderman789",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Derrick Brooks",
+    "caption": "Derrick Brooks",
+    "licenseChecked": "2026-11-05"
+  }
+}

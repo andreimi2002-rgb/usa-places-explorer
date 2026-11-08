@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 25, 1942, Winston-Salem, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1969)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NEA NFL Defensive Player of the Year (1971)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1968–1971, 1973)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1967, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1968–1971, 1973, 1974)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL sacks co-leader (1969)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Minnesota Vikings Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Carl Eller",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Carl Eller (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1964,
+      "to": 1978,
+      "source": "https://en.wikipedia.org/wiki/Carl_Eller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end of the “Purple People Eaters”.",
+  "image": {
+    "file": "File:Carl Eller 2007.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Carl_Eller_2007.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Eller_2007.jpg",
+    "author": "MN National Guard",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Carl Eller",
+    "caption": "Carl Eller",
+    "licenseChecked": "2026-11-05"
+  }
+}

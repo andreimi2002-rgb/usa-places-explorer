@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Tampa",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Tampa Bay area",
+  "coordinates": {
+    "value": {
+      "lat": 27.94752,
+      "lon": -82.45843
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Tampa&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city on Florida’s Gulf coast, home of the Buccaneers since 1976.",
+  "image": {
+    "file": "File:Tampa Skyline - Eric Statzer.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tampa_Skyline_-_Eric_Statzer.jpg/1280px-Tampa_Skyline_-_Eric_Statzer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tampa_Skyline_-_Eric_Statzer.jpg",
+    "author": "Eric Statzer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Downtown Tampa across the Hillsborough River",
+    "caption": "Downtown Tampa across the Hillsborough River",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 30, 2002, Tucson, Arizona, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Doak Walker Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Big 12 (2021, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Freshman All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bijan Robinson",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bijan Robinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Bijan_Robinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2025 First-team All-Pro.",
+  "image": {
+    "file": "File:Bijan Robinson 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bijan_Robinson_2025.jpg/1280px-Bijan_Robinson_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bijan_Robinson_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Bijan Robinson",
+    "caption": "Bijan Robinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

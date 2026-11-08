@@ -51,6 +51,14 @@
   ],
   "roles": [
     {
+      "franchise": "new-orleans-saints",
+      "role": "head-coach",
+      "from": 2006,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Sean_Payton",
+      "verified": "2026-11-06"
+    },
+    {
       "franchise": "denver-broncos",
       "role": "head-coach",
       "from": 2023,
@@ -59,7 +67,7 @@
       "verified": "2026-11-06"
     }
   ],
-  "summary": "Head coach since 2023.",
+  "summary": "Head coach of the Broncos since 2023; won Super Bowl XLIV with the Saints.",
   "image": {
     "file": "File:Sean Payton 2021.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sean_Payton_2021.jpg/1280px-Sean_Payton_2021.jpg",

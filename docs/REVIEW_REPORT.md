@@ -546,3 +546,25 @@ Date: 2026-11-06. Branch `nfl`. AFC South, NFC East and NFC West are now complet
    Jimmy Smith (no infobox photo).
 7. **Generator fix**: a person who still has a current role at another club now stays "active" (Derrick Henry had
    been marked historical when his Titans years were added).
+
+# NFL lot 5: Lions, Vikings, Falcons, Panthers, Saints, Buccaneers
+
+Date: 2026-11-08. Branch `nfl`. All 32 NFL teams are in; every Super Bowl now links both teams.
+
+## Things to check
+
+1. **2026 moves used**: Kyler Murray (Vikings) and Tua Tagovailoa (Falcons) are core players; Mike Evans (Buccaneers
+   until 2025) is a legend only. Matt Ryan works for the Falcons as an executive and is listed as a retired player.
+2. **Owners shared with other clubs** (all already in the data): Wilf family (Vikings, Orlando City), Arthur Blank
+   (Falcons, Atlanta United), David Tepper (Panthers, Charlotte FC), Gayle Benson (Saints, Pelicans); the Glazers
+   (Buccaneers) also own Manchester United.
+3. **Lions**: identity starts in 1930 as the Portsmouth Spartans (new city page: Portsmouth, Ohio). A 2024 club record
+   was left out because the Wikipedia team page does not state it.
+4. **Games this week**: the Falcons play the Bengals in Madrid on November 8, 2026, and the Lions play the Patriots in
+   Munich on November 15, 2026. The texts say "play" / "due to play"; update them once the results are in.
+5. **New**: Tampa, Portsmouth (Ohio); Ford Field, U.S. Bank Stadium, Caesars Superdome, Raymond James Stadium; NFL
+   capacities for Mercedes-Benz Stadium and Bank of America Stadium. City texts updated for Detroit, Minneapolis,
+   Atlanta, Charlotte and New Orleans.
+6. **Photos**: none for Alan Page, Claude Humphrey, Sam Mills, Lee Roy Selmon (not on Commons). Tampa's Wikidata photo
+   is a montage, so a single skyline photo was chosen instead.
+7. **Fix**: source lists no longer repeat the same source (the NFL page listed the Super Bowl list twice).

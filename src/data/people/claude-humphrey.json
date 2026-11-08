@@ -1,0 +1,78 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 29, 1944, Memphis, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (1968)",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1971–1974, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1969, 1970, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1970–1974, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Atlanta Falcons Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team Little All-American (1967)",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Fumble recoveries",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_value1 = 11",
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Claude Humphrey",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Claude Humphrey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 1968,
+      "to": 1978,
+      "source": "https://en.wikipedia.org/wiki/Claude_Humphrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and five-time First-team All-Pro."
+}

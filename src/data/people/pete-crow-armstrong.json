@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 25, 2002, Sherman Oaks, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "All-MLB Second Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Gold Glove Award (2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL home run leader (2026)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Pete Crow-Armstrong",
+  "position": {
+    "value": "Center fielder",
+    "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Pete Crow-Armstrong (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Pete_Crow-Armstrong",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Center fielder and two-time All-Star.",
+  "image": {
+    "file": "File:Pete Crow-Armstrong (53104160703) (cropped)-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pete_Crow-Armstrong_%2853104160703%29_%28cropped%29-2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pete_Crow-Armstrong_(53104160703)_(cropped)-2.jpg",
+    "author": "Minda Haas Kuhlmann",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Pete Crow-Armstrong",
+    "caption": "Pete Crow-Armstrong",
+    "licenseChecked": "2026-11-05"
+  }
+}

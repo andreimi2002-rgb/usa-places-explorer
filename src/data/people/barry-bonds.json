@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 24, 1964, Riverside, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "14× All-Star (1990, 1992–1998, 2000–2004, 2007)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× NL MVP (1990, 1992, 1993, 2001–2004)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "8× Gold Glove Award (1990–1994, 1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "12× Silver Slugger Award (1990–1994, 1996, 1997, 2000–2004)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× NL Hank Aaron Award (2001, 2002, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL batting champion (2002, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL home run leader (1993, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL RBI leader (1993)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Barry Bonds",
+  "position": {
+    "value": "Left fielder",
+    "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Barry Bonds (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1993,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Barry_Bonds",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Left fielder, seven-time MVP and holder of the career home run record.",
+  "image": {
+    "file": "File:BarryBonds1993.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BarryBonds1993.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg",
+    "author": "Jim Accordino at https://www.flickr.com/photos/jimmyack205/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Barry Bonds",
+    "caption": "Barry Bonds",
+    "licenseChecked": "2026-11-05"
+  }
+}

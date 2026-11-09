@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "st-louis-cardinals",
+  "name": "St. Louis Browns (NL)",
+  "city": "st-louis",
+  "from": {
+    "value": 1882,
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09"
+  },
+  "to": 1898,
+  "current": false
+}

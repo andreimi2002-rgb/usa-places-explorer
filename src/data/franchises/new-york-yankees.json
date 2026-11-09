@@ -1,0 +1,345 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "New York Yankees",
+  "division": "mlb-al-east",
+  "founded": {
+    "value": 1903,
+    "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+    "verified": "2026-11-09",
+    "note": "In New York since 1903, first as the Highlanders; renamed the Yankees in 1913."
+  },
+  "firstSeason": {
+    "value": "1903",
+    "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "Yankee Global Enterprises (Steinbrenner family; chairman Hal Steinbrenner)",
+    "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Aaron Boone",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09",
+    "person": "aaron-boone"
+  },
+  "venues": [
+    {
+      "venue": "yankee-stadium",
+      "from": 2009,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "babe-ruth",
+    "lou-gehrig",
+    "joe-dimaggio",
+    "yogi-berra",
+    "mickey-mantle",
+    "derek-jeter",
+    "mariano-rivera"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/yankees/roster",
+    "players": [
+      {
+        "person": "aaron-judge",
+        "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "gerrit-cole",
+        "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "max-fried",
+        "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1903",
+      "label": "First season in New York, as the Highlanders",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1913",
+      "label": "Renamed the Yankees",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1920",
+      "label": "Buy Babe Ruth from the Red Sox",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1923",
+      "label": "Open the first Yankee Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1923",
+      "label": "Win the 1923 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1927",
+      "label": "Win the 1927 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1928",
+      "label": "Win the 1928 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1932",
+      "label": "Win the 1932 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1936",
+      "label": "Win the 1936 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1937",
+      "label": "Win the 1937 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1938",
+      "label": "Win the 1938 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1939",
+      "label": "Win the 1939 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1941",
+      "label": "Win the 1941 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1943",
+      "label": "Win the 1943 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1947",
+      "label": "Win the 1947 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1949",
+      "label": "Win the 1949 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1950",
+      "label": "Win the 1950 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1951",
+      "label": "Win the 1951 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1952",
+      "label": "Win the 1952 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1953",
+      "label": "Win the 1953 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1956",
+      "label": "Win the 1956 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1958",
+      "label": "Win the 1958 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1961",
+      "label": "Win the 1961 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1962",
+      "label": "Win the 1962 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1973",
+      "label": "George Steinbrenner buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1977",
+      "label": "Win the 1977 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1978",
+      "label": "Win the 1978 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1996",
+      "label": "Win the 1996 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1998",
+      "label": "Win the 1998 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1999",
+      "label": "Win the 1999 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2000",
+      "label": "Win the 2000 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2009",
+      "label": "Open today’s Yankee Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2009",
+      "label": "Win the 2009 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "The most successful club in American sport: 27 World Series, Babe Ruth, Joe DiMaggio, Mickey Mantle, Derek Jeter and Aaron Judge.",
+  "sources": [
+    {
+      "title": "New York Yankees (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/147.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/new-york-yankees.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/147.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#132448"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_York_Yankees",
+    "verified": "2026-11-09"
+  }
+}

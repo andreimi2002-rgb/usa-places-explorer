@@ -1,0 +1,40 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "Major League Baseball (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Major_League_Baseball",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "name": "Major League Baseball",
+  "shortName": "MLB",
+  "sport": "baseball",
+  "country": "United States",
+  "founded": {
+    "value": 1903,
+    "source": "https://en.wikipedia.org/wiki/Major_League_Baseball",
+    "verified": "2026-11-09",
+    "note": "The National League dates from 1876 and the American League from 1901; they first met in the World Series in 1903."
+  },
+  "website": "https://www.mlb.com/",
+  "summary": "The oldest of the major leagues: 30 teams, 162 games from spring to autumn, and the World Series in October.",
+  "terms": {
+    "final": "World Series",
+    "title": "World Series title",
+    "titles": "World Series",
+    "rosterSite": "MLB.com",
+    "coach": "Manager"
+  }
+}

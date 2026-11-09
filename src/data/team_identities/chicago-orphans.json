@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "chicago-cubs",
+  "name": "Chicago Orphans",
+  "city": "chicago",
+  "from": {
+    "value": 1898,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+    "verified": "2026-11-09"
+  },
+  "to": 1902,
+  "current": false
+}

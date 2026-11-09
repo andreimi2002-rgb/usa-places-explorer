@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 15, 1938, Whistler, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1962², 1964, 1965, 1968, 1972, 1973)",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Rookie of the Year (1961)",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL batting champion (1972)",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs No. 26 retired",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Billy Williams",
+  "position": {
+    "value": "Left fielder",
+    "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Billy Williams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1959,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Billy_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Left fielder and 1961 Rookie of the Year.",
+  "image": {
+    "file": "File:Billy Williams 1964.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Billy_Williams_1964.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Billy_Williams_1964.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Billy Williams",
+    "caption": "Billy Williams",
+    "licenseChecked": "2026-11-05"
+  }
+}

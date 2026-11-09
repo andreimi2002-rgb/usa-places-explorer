@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Busch Stadium",
+  "city": "st-louis",
+  "opened": {
+    "value": "2006",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-09"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 44383,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
+    }
+  },
+  "summary": "The Cardinals’ downtown ballpark in St. Louis since 2006.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "image": {
+    "file": "File:Busch Stadium 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Busch_Stadium_2022.jpg/1280px-Busch_Stadium_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Busch_Stadium_2022.jpg",
+    "author": "Lightmetro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Busch Stadium and the Gateway Arch, 2022",
+    "caption": "Busch Stadium and the Gateway Arch, 2022",
+    "licenseChecked": "2026-11-05"
+  }
+}

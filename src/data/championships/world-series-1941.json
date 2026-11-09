@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "league": "mlb",
+  "season": "1941",
+  "level": "league",
+  "title": "1941 World Series",
+  "winner": "new-york-yankees",
+  "runnerUp": "los-angeles-dodgers",
+  "winnerName": "New York Yankees",
+  "runnerUpName": "Brooklyn Dodgers",
+  "result": "4–1",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-09"
+}

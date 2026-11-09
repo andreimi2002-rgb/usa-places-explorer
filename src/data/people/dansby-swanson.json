@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 11, 1994, Kennesaw, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (2021)",
+      "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Gold Glove Award (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Dansby Swanson",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Dansby Swanson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Dansby_Swanson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Shortstop and two-time Gold Glove winner.",
+  "image": {
+    "file": "File:Dansby Swanson on April 6, 2021 (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Dansby_Swanson_on_April_6%2C_2021_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dansby_Swanson_on_April_6,_2021_(2).jpg",
+    "author": "All-Pro Reels on Flickr (Original version) UCinternational (Crop)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Dansby Swanson",
+    "caption": "Dansby Swanson",
+    "licenseChecked": "2026-11-05"
+  }
+}

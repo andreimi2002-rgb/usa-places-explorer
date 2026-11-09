@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 18, 1975, Santo Domingo, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2004, 2007, 2013",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (2004–2008, 2010–2013, 2016)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× World Series champion (2004, 2007, 2013)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series MVP (2013)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× Silver Slugger Award (2004–2007, 2011, 2013, 2016)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL Hank Aaron Award (2005, 2016)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2011)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL home run leader (2006)",
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "David Ortiz",
+  "position": {
+    "value": "Designated hitter",
+    "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "David Ortiz (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 2003,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/David_Ortiz",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "“Big Papi”, designated hitter of three World Series champions.",
+  "image": {
+    "file": "File:David Ortiz on July 27, 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/David_Ortiz_on_July_27%2C_2013.jpg/1280px-David_Ortiz_on_July_27%2C_2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:David_Ortiz_on_July_27,_2013.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of David Ortiz",
+    "caption": "David Ortiz",
+    "licenseChecked": "2026-11-05"
+  }
+}

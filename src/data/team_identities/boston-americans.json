@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "boston-red-sox",
+  "name": "Boston Americans",
+  "city": "boston",
+  "from": {
+    "value": 1901,
+    "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+    "verified": "2026-11-09"
+  },
+  "to": 1907,
+  "current": false
+}

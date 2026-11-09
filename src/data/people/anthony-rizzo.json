@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 8, 1989, Parkland, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2016",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2014–2016)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (2016)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× Gold Glove Award (2016, 2018–2020)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Silver Slugger Award (2016)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2017)",
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Anthony Rizzo",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Anthony Rizzo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 2012,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Anthony_Rizzo",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "First baseman of the 2016 champions.",
+  "image": {
+    "file": "File:Anthony Rizzo on July 16, 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Anthony_Rizzo_on_July_16%2C_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthony_Rizzo_on_July_16,_2016.jpg",
+    "author": "Julie Fennell on Flickr (Original version) UCinternational (Crop)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Anthony Rizzo",
+    "caption": "Anthony Rizzo",
+    "licenseChecked": "2026-11-05"
+  }
+}

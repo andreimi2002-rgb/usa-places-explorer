@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "league": "mlb",
+  "season": "1927",
+  "level": "league",
+  "title": "1927 World Series",
+  "winner": "new-york-yankees",
+  "winnerName": "New York Yankees",
+  "runnerUpName": "Pittsburgh Pirates",
+  "result": "4–0",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-09"
+}

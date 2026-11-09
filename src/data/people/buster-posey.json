@@ -1,0 +1,116 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 27, 1987, Leesburg, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2010, 2012, 2014",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (2012, 2013, 2015–2018, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× World Series champion (2010, 2012, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (2012)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Rookie of the Year (2010)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Gold Glove Award (2016)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Silver Slugger Award (2012, 2014, 2015, 2017, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Hank Aaron Award (2012)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL Comeback Player of the Year (2012, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Buster Posey",
+  "position": {
+    "value": "Catcher ",
+    "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Buster Posey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2009,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2021,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "san-francisco-giants",
+      "role": "executive",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Buster_Posey",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Catcher of the 2010, 2012 and 2014 champions; now the club’s president of baseball operations.",
+  "image": {
+    "file": "File:Buster Posey in 2018 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Buster_Posey_in_2018_%28cropped%29.jpg/1280px-Buster_Posey_in_2018_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Buster_Posey_in_2018_(cropped).jpg",
+    "author": "Ian D'Andrea",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Buster Posey",
+    "caption": "Buster Posey",
+    "licenseChecked": "2026-11-05"
+  }
+}

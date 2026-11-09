@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 28, 1993, Victorville, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Matt_Chapman",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Star (2019)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Chapman",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Gold Glove Award (2018, 2019, 2021, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Chapman",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Matt Chapman",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Matt_Chapman",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Matt Chapman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matt_Chapman",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Matt_Chapman",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Third baseman and five-time Gold Glove winner.",
+  "image": {
+    "file": "File:Matt Chapman (52066694784) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matt_Chapman_%2852066694784%29_%28cropped%29.jpg/1280px-Matt_Chapman_%2852066694784%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matt_Chapman_(52066694784)_(cropped).jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Matt Chapman",
+    "caption": "Matt Chapman",
+    "licenseChecked": "2026-11-05"
+  }
+}

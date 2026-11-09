@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 18, 1959, Spokane, Washington, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (1984–1993)",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (1984)",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "9× Gold Glove Award (1983–1991)",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× Silver Slugger Award (1984, 1985, 1988–1992)",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL home run leader (1990)",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs No. 23 retired",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Ryne Sandberg",
+  "position": {
+    "value": "Second baseman ",
+    "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Ryne Sandberg (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1982,
+      "to": 1994,
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1996,
+      "to": 1997,
+      "source": "https://en.wikipedia.org/wiki/Ryne_Sandberg",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Second baseman and 1984 NL MVP.",
+  "image": {
+    "file": "File:Pic of ryne sandberg from the early 90's.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pic_of_ryne_sandberg_from_the_early_90%27s.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pic_of_ryne_sandberg_from_the_early_90%27s.jpg",
+    "author": "Wjmummert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Ryne Sandberg",
+    "caption": "Ryne Sandberg",
+    "licenseChecked": "2026-11-05"
+  }
+}

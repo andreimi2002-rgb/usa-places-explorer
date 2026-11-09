@@ -1,0 +1,14 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "name": "NL Central",
+  "conference": "mlb-nl",
+  "order": 2
+}

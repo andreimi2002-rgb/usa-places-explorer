@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 7, 1992, Nashville, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2020, 2024, 2025",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (2016–2019, 2021–2024)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× World Series champion (2018, 2020, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL MVP (2018)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× All-MLB First Team (2020, 2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "All-MLB Second Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× Gold Glove Award (2016–2020, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× Silver Slugger Award (2016, 2018–2020, 2022–2024)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Mookie Betts",
+  "position": {
+    "value": "Outfielder ",
+    "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Mookie Betts (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Outfielder and infielder, champion with Boston and Los Angeles.",
+  "image": {
+    "file": "File:Dodgers at Nationals (53676957188) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Dodgers_at_Nationals_%2853676957188%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53676957188)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mookie Betts",
+    "caption": "Mookie Betts",
+    "licenseChecked": "2026-11-05"
+  }
+}

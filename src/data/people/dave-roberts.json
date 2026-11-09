@@ -1,0 +1,62 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 31, 1972, Naha, Okinawa, Japan",
+      "source": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× World Series champion (2004, 2020, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Manager of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Dave Roberts",
+  "sources": [
+    {
+      "title": "Dave Roberts (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2002,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "head-coach",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Dave_Roberts_(baseball_manager)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Manager since 2016 and winner of three World Series.",
+  "image": {
+    "file": "File:Dave Roberts (7671446) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dave_Roberts_%287671446%29_%28cropped%29.jpg/1280px-Dave_Roberts_%287671446%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dave_Roberts_(7671446)_(cropped).jpg",
+    "author": "U.S. Air Force photo by Airman 1st Class Elias Carrero)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dave Roberts",
+    "caption": "Dave Roberts",
+    "licenseChecked": "2026-11-05"
+  }
+}

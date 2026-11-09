@@ -1,0 +1,69 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 25, 1940, Seattle, Washington, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "9× All-Star (1963–1966, 1968, 1969, 1971–1973)",
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Gold Glove Award (1964–1968)",
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs No. 10 retired",
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Ron Santo",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Ron Santo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1960,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Ron_Santo",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Third baseman and five-time Gold Glove winner.",
+  "image": {
+    "file": "File:Ron Santo 1961.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ron_Santo_1961.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Ron_Santo_1961.JPG",
+    "author": "Photographer-Matt Giblin Photography, St. Louis. While this was at one time part of the photo files/library of the Sporting News, the photographer was not with the publication.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ron Santo",
+    "caption": "Ron Santo",
+    "licenseChecked": "2026-11-05"
+  }
+}

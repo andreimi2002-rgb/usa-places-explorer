@@ -1,0 +1,90 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 18, 1939, El Dorado, Arkansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1964, 1967",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1967, 1971, 1972, 1974, 1975, 1979)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× World Series champion (1964, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (1975)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "8× NL stolen base leader (1966–1969, 1971–1974)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals No. 20 retired",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Lou Brock",
+  "position": {
+    "value": "Left fielder",
+    "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Lou Brock (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1964,
+      "to": 1979,
+      "source": "https://en.wikipedia.org/wiki/Lou_Brock",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Left fielder and base-stealer of the 1964 and 1967 champions.",
+  "image": {
+    "file": "File:Lou Brock 1964.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lou_Brock_1964.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lou_Brock_1964.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Lou Brock",
+    "caption": "Lou Brock",
+    "licenseChecked": "2026-11-05"
+  }
+}

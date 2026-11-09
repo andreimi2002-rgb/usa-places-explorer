@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 6, 1931, Westfield, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1954",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "24× All-Star (1954–1973)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (1954)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL MVP (1954, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Rookie of the Year (1951)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "12× Gold Glove Award (1957–1968)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (1971)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL batting champion (1954)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× NL home run leader (1955, 1962, 1964, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Willie Mays",
+  "position": {
+    "value": "Center fielder",
+    "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Willie Mays (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1951,
+      "to": 1952,
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1954,
+      "to": 1972,
+      "source": "https://en.wikipedia.org/wiki/Willie_Mays",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "“The Say Hey Kid”, center fielder and two-time NL MVP.",
+  "image": {
+    "file": "File:Willie Mays (1955) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Willie_Mays_%281955%29_%28cropped%29.jpg/1280px-Willie_Mays_%281955%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Willie_Mays_(1955)_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Willie Mays",
+    "caption": "Willie Mays",
+    "licenseChecked": "2026-11-05"
+  }
+}

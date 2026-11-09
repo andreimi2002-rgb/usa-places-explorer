@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Oracle Park",
+  "city": "san-francisco",
+  "opened": {
+    "value": "2000",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-09"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 41331,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
+    }
+  },
+  "summary": "The Giants’ waterfront ballpark on San Francisco Bay since 2000.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "image": {
+    "file": "File:Oracle Park 2021.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Oracle_Park_2021.jpg/1280px-Oracle_Park_2021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oracle_Park_2021.jpg",
+    "author": "Chris6d",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Oracle Park during a game, 2021",
+    "caption": "Oracle Park during a game, 2021",
+    "licenseChecked": "2026-11-05"
+  }
+}

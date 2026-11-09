@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 21, 1970, South Bend, Indiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Craig_Counsell",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× World Series champion (1997, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Craig_Counsell",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Milwaukee Brewers Wall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Craig_Counsell",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Craig Counsell",
+  "sources": [
+    {
+      "title": "Craig Counsell (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Craig_Counsell",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "head-coach",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Craig_Counsell",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Manager since 2024.",
+  "image": {
+    "file": "File:Craig Counsell.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Craig_Counsell.jpg/1280px-Craig_Counsell.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Craig_Counsell.jpg",
+    "author": "Keiteay",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Craig Counsell",
+    "caption": "Craig Counsell",
+    "licenseChecked": "2026-11-05"
+  }
+}

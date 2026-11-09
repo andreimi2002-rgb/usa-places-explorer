@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 18, 1994, Santa Monica, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Max_Fried",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [],
+  "name": "Max Fried",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Max_Fried",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Max Fried (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Max_Fried",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Max_Fried",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher, with the Yankees since 2025.",
+  "image": {
+    "file": "File:Max Fried Press Conference (VKIIShN0KY8).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Max_Fried_Press_Conference_%28VKIIShN0KY8%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Max_Fried_Press_Conference_(VKIIShN0KY8).png",
+    "author": "YESNetwork",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Max Fried",
+    "caption": "Max Fried",
+    "licenseChecked": "2026-11-05"
+  }
+}

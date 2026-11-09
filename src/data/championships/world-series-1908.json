@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "league": "mlb",
+  "season": "1908",
+  "level": "league",
+  "title": "1908 World Series",
+  "winner": "chicago-cubs",
+  "winnerName": "Chicago Cubs",
+  "runnerUpName": "Detroit Tigers",
+  "result": "4–1",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-09"
+}

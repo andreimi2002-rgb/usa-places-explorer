@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 5, 1996, Corona, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jarren_Duran",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Star (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jarren_Duran",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL triples leader (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jarren_Duran",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Jarren Duran",
+  "position": {
+    "value": "Outfielder",
+    "source": "https://en.wikipedia.org/wiki/Jarren_Duran",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Jarren Duran (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jarren_Duran",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jarren_Duran",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Outfielder and 2024 All-Star.",
+  "image": {
+    "file": "File:JarrenDuran.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/JarrenDuran.jpg/1280px-JarrenDuran.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JarrenDuran.jpg",
+    "author": "Rickmunroe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jarren Duran",
+    "caption": "Jarren Duran",
+    "licenseChecked": "2026-11-05"
+  }
+}

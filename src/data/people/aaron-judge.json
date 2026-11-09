@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 26, 1992, Sacramento, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (2017, 2018, 2021–2026)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL MVP (2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× All-MLB First Team (2021, 2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Rookie of the Year (2017)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Silver Slugger Award (2017, 2021, 2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL Hank Aaron Award (2022, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB batting champion (2025)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Aaron Judge",
+  "position": {
+    "value": "Right fielder",
+    "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Aaron Judge (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Right fielder and three-time AL MVP, who set the AL record of 62 home runs in 2022.",
+  "image": {
+    "file": "File:Aaron Judge posing with Donald Trump 2025-09-11 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aaron_Judge_posing_with_Donald_Trump_2025-09-11_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aaron_Judge_posing_with_Donald_Trump_2025-09-11_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Aaron Judge",
+    "caption": "Aaron Judge",
+    "licenseChecked": "2026-11-05"
+  }
+}

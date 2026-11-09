@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 21, 1999, Ocean Springs, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "All-MLB First Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Comeback Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB strikeout leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Garrett Crochet",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Garrett Crochet (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Garrett_Crochet",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher and 2025 All-MLB First Team.",
+  "image": {
+    "file": "File:Garrett Crochet Tennessee (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Garrett_Crochet_Tennessee_%28cropped%29.jpg/1280px-Garrett_Crochet_Tennessee_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Garrett_Crochet_Tennessee_(cropped).jpg",
+    "author": "Photo by Baumology (Twitter &amp; Instagram @_baumology_)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Garrett Crochet",
+    "caption": "Garrett Crochet",
+    "licenseChecked": "2026-11-05"
+  }
+}

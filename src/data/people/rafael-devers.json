@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 24, 1996, Sánchez, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2021, 2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (2018)",
+      "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Silver Slugger Award (2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Rafael Devers",
+  "position": {
+    "value": "Infielder ",
+    "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Rafael Devers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Rafael_Devers",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Infielder, traded from Boston in 2025.",
+  "image": {
+    "file": "File:Rafael Devers during warmups, September 4, 2024 (4) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Rafael_Devers_during_warmups%2C_September_4%2C_2024_%284%29_%28cropped%29.jpg/1280px-Rafael_Devers_during_warmups%2C_September_4%2C_2024_%284%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rafael_Devers_during_warmups,_September_4,_2024_(4)_(cropped).jpg",
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Rafael Devers",
+    "caption": "Rafael Devers",
+    "licenseChecked": "2026-11-05"
+  }
+}

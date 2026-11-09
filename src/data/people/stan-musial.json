@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 21, 1920, Donora, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1942, 1944, 1946",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "24× All-Star (1943, 1944, 1946–1963)",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× World Series champion (1942, 1944, 1946)",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× NL MVP (1943, 1946, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× NL batting champion (1943, 1946, 1948, 1950–1952, 1957)",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL RBI leader (1948, 1956)",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals No. 6 retired",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Major League Baseball All-Century Team",
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Stan Musial",
+  "position": {
+    "value": "Outfielder ",
+    "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Stan Musial (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1941,
+      "to": 1944,
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1946,
+      "to": 1963,
+      "source": "https://en.wikipedia.org/wiki/Stan_Musial",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "“Stan the Man”, outfielder and three-time NL MVP.",
+  "image": {
+    "file": "File:Stan Musial 1953.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Stan_Musial_1953.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stan_Musial_1953.jpg",
+    "author": "Bowman Gum",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Stan Musial",
+    "caption": "Stan Musial",
+    "licenseChecked": "2026-11-05"
+  }
+}

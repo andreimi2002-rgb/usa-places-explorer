@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "World Series (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/World_Series",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "term": "World Series",
+  "short": "MLB’s championship: a best-of-seven series in October between the champions of the American and National Leagues.",
+  "sports": [
+    "baseball"
+  ],
+  "related": [
+    "playoffs",
+    "inning"
+  ]
+}

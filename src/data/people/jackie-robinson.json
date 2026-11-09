@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 31, 1919, Cairo, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1955",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NgL All-Star (1945)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× All-Star (1949–1954)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (1955)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (1949)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Rookie of the Year (1947)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL batting champion (1949)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NAL home run leader (1945)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL stolen base leader (1947, 1949)",
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Jackie Robinson",
+  "position": {
+    "value": "Second baseman",
+    "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Jackie Robinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 1947,
+      "to": 1956,
+      "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "The first Black player in the modern major leagues, in 1947.",
+  "image": {
+    "file": "File:Jackie Robinson, NPG 97 135.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
+    "author": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Jackie Robinson",
+    "caption": "Jackie Robinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

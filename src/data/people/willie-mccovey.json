@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 10, 1938, Mobile, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1963, 1966, 1968–1971)",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (1969)",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Rookie of the Year (1959)",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× NL home run leader (1963, 1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL RBI leader (1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "San Francisco Giants No. 44 retired",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "San Francisco Giants Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Willie McCovey",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Willie McCovey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1959,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1977,
+      "to": 1980,
+      "source": "https://en.wikipedia.org/wiki/Willie_McCovey",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "First baseman and 1969 NL MVP; the cove behind the ballpark is named after him.",
+  "image": {
+    "file": "File:Willie McCovey 1961.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Willie_McCovey_1961.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Willie_McCovey_1961.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Willie McCovey",
+    "caption": "Willie McCovey",
+    "licenseChecked": "2026-11-05"
+  }
+}

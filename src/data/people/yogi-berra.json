@@ -1,0 +1,90 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 12, 1925, St. Louis, Missouri, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1947, 1949, 1950, 1951, 1952, 1953, 1956, 1958, 1961, 1962",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "18× All-Star (1948–1961², 1962²)",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "13× World Series champion (1947, 1949–1953, 1956, 1958, 1961, 1962, 1969, 1977, 1978)",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL MVP (1951, 1954, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "New York Yankees No. 8 retired",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Monument Park honoree",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Major League Baseball All-Century Team",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Yogi Berra",
+  "position": {
+    "value": "Catcher ",
+    "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Yogi Berra (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1946,
+      "to": 1963,
+      "source": "https://en.wikipedia.org/wiki/Yogi_Berra",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Catcher of 13 World Series champions, famous for his sayings.",
+  "image": {
+    "file": "File:Yogi Berra (1957) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Yogi_Berra_%281957%29_%28cropped%29.jpg/1280px-Yogi_Berra_%281957%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yogi_Berra_(1957)_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Yogi Berra",
+    "caption": "Yogi Berra",
+    "licenseChecked": "2026-11-05"
+  }
+}

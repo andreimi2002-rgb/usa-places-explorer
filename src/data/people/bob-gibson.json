@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 9, 1935, Omaha, Nebraska, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1964, 1967",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "9× All-Star (1962, 1962², 1965–1970, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× World Series champion (1964, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (1968)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL Cy Young Award (1968, 1970)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× World Series MVP (1964, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "9× Gold Glove Award (1965–1973)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL wins leader (1970)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB ERA leader (1968)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Bob Gibson",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Bob Gibson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1959,
+      "to": 1975,
+      "source": "https://en.wikipedia.org/wiki/Bob_Gibson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher and 1968 NL MVP.",
+  "image": {
+    "file": "File:Bob Gibson 1962.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bob_Gibson_1962.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob_Gibson_1962.png",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bob Gibson",
+    "caption": "Bob Gibson",
+    "licenseChecked": "2026-11-05"
+  }
+}

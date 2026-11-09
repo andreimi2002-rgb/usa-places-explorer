@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 6, 1895, Baltimore, Maryland, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1915, 1916, 1918",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (1933, 1934)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× World Series champion (1915, 1916, 1918, 1923, 1927, 1928, 1932)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL MVP (1923)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL batting champion (1924)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "12× AL home run leader (1918–1921, 1923, 1924, 1926–1931)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× AL RBI leader (1919–1921, 1923, 1926, 1928)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL ERA leader (1916)",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "New York Yankees No. 3 retired",
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Babe Ruth",
+  "position": {
+    "value": "Outfielder ",
+    "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Babe Ruth (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1914,
+      "to": 1919,
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1920,
+      "to": 1934,
+      "source": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "The most famous player in baseball history, sold by Boston to New York in 1920.",
+  "image": {
+    "file": "File:Babe Ruth2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Babe_Ruth2.jpg/1280px-Babe_Ruth2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg",
+    "author": "Irwin, La Broad, &amp; Pudlin.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Babe Ruth",
+    "caption": "Babe Ruth",
+    "licenseChecked": "2026-11-05"
+  }
+}

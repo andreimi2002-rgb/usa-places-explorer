@@ -1,0 +1,98 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 30, 1981, Brunswick, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2006",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2010, 2013, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (2006)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Gold Glove Award (2009, 2013)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Silver Slugger Award (2017)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2020)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL wins leader (2009, 2013)",
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Adam Wainwright",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Adam Wainwright (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 2005,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 2012,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Adam_Wainwright",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the 2006 champions.",
+  "image": {
+    "file": "File:Adam Wainright (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Adam_Wainright_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adam_Wainright_(cropped).jpg",
+    "author": "Dirk Hansen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Adam Wainwright",
+    "caption": "Adam Wainwright",
+    "licenseChecked": "2026-11-05"
+  }
+}

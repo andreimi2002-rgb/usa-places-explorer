@@ -1,0 +1,20 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Inning (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inning",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "term": "Inning",
+  "short": "One round of a baseball game, in which each team bats until it makes three outs. A game has nine.",
+  "sports": [
+    "baseball"
+  ],
+  "related": [
+    "home-run",
+    "pitcher"
+  ]
+}

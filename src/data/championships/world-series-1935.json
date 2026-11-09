@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "league": "mlb",
+  "season": "1935",
+  "level": "league",
+  "title": "1935 World Series",
+  "runnerUp": "chicago-cubs",
+  "winnerName": "Detroit Tigers",
+  "runnerUpName": "Chicago Cubs",
+  "result": "4–2",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-09"
+}

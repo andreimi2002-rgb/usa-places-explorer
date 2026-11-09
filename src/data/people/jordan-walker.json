@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 22, 2002, Stone Mountain, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jordan_Walker_(baseball)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Star (2026)",
+      "source": "https://en.wikipedia.org/wiki/Jordan_Walker_(baseball)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Jordan Walker",
+  "position": {
+    "value": "Right fielder",
+    "source": "https://en.wikipedia.org/wiki/Jordan_Walker_(baseball)",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Jordan Walker (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Walker_(baseball)",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jordan_Walker_(baseball)",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Right fielder and 2026 All-Star.",
+  "image": {
+    "file": "File:Walker Pirates 9-16-24 26944.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Walker_Pirates_9-16-24_26944.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Walker_Pirates_9-16-24_26944.png",
+    "author": "Johnmaxmena2",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Jordan Walker",
+    "caption": "Jordan Walker",
+    "licenseChecked": "2026-11-05"
+  }
+}

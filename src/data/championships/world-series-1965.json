@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "league": "mlb",
+  "season": "1965",
+  "level": "league",
+  "title": "1965 World Series",
+  "winner": "los-angeles-dodgers",
+  "winnerName": "Los Angeles Dodgers",
+  "runnerUpName": "Minnesota Twins",
+  "result": "4–3",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-09"
+}

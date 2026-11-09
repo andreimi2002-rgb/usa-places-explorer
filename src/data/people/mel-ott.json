@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 2, 1909, Gretna, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1933",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1934–1945)",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (1933)",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× NL home run leader (1932, 1934, 1936–1938, 1942)",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL RBI leader (1934)",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "San Francisco Giants No. 4 retired",
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Mel Ott",
+  "position": {
+    "value": "Right fielder ",
+    "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Mel Ott (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1926,
+      "to": 1947,
+      "source": "https://en.wikipedia.org/wiki/Mel_Ott",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Right fielder of the New York Giants.",
+  "image": {
+    "file": "File:Mel Ott.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mel_Ott.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mel_Ott.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Mel Ott",
+    "caption": "Mel Ott",
+    "licenseChecked": "2026-11-05"
+  }
+}

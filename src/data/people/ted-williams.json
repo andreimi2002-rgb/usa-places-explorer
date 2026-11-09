@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 30, 1918, San Diego, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "19× All-Star (1940–1942, 1946–1951, 1953–1960²)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL MVP (1946, 1949)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Triple Crown (1942, 1947)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× AL batting champion (1941, 1942, 1947, 1948, 1957, 1958)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× AL home run leader (1941, 1942, 1947, 1949)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× AL RBI leader (1939, 1942, 1947, 1949)",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB record .482 career on-base percentage",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Boston Red Sox No. 9 retired",
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Ted Williams",
+  "position": {
+    "value": "Left fielder ",
+    "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Ted Williams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1939,
+      "to": 1942,
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1946,
+      "to": 1960,
+      "source": "https://en.wikipedia.org/wiki/Ted_Williams",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Left fielder and the last player to hit .400 in a season, in 1941.",
+  "image": {
+    "file": "File:Ted Williams (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Ted_Williams_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ted_Williams_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ted Williams",
+    "caption": "Ted Williams",
+    "licenseChecked": "2026-11-05"
+  }
+}

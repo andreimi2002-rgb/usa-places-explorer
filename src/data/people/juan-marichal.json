@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 20, 1937, Laguna Verde, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (1962–1969, 1971)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL wins leader (1963, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB ERA leader (1969)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pitched a no-hitter on June 15, 1963",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "San Francisco Giants No. 27 retired",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "San Francisco Giants Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Juan Marichal",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Juan Marichal (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1960,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Juan_Marichal",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Dominican pitcher of the 1960s.",
+  "image": {
+    "file": "File:Juan Marichal 1962.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Juan_Marichal_1962.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Juan_Marichal_1962.png",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Juan Marichal",
+    "caption": "Juan Marichal",
+    "licenseChecked": "2026-11-05"
+  }
+}

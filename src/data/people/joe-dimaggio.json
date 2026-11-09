@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1914, Martinez, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1936, 1937, 1938, 1939, 1941, 1947, 1949, 1950, 1951",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "13× All-Star (1936–1942, 1946–1951)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "9× World Series champion (1936–1939, 1941, 1947, 1949–1951)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL MVP (1939, 1941, 1947)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL batting champion (1939, 1940)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL home run leader (1937, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL RBI leader (1941, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB record 56-game hitting streak",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "New York Yankees No. 5 retired",
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Joe DiMaggio",
+  "position": {
+    "value": "Center fielder",
+    "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Joe DiMaggio (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1936,
+      "to": 1942,
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1946,
+      "to": 1951,
+      "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Center fielder, whose 56-game hitting streak of 1941 is still a record.",
+  "image": {
+    "file": "File:Joe DiMaggio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joe_DiMaggio.jpg/1280px-Joe_DiMaggio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_DiMaggio.jpg",
+    "author": "Tom Sande",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe DiMaggio",
+    "caption": "Joe DiMaggio",
+    "licenseChecked": "2026-11-05"
+  }
+}

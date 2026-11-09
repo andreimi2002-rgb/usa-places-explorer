@@ -20,9 +20,12 @@ const venueCity = new Map(venues.map((v) => [v.id, v.data.city.id]));
 const franchiseById = new Map(franchises.map((f) => [f.id, f]));
 const leagueName = new Map(leagues.map((l) => [l.id, l.data.shortName]));
 
+const cityName = new Map(cities.map((c) => [c.id, c.data.name]));
 const rows = cities
   .map((c) => {
-    const here = identities.filter((i) => i.data.city.id === c.id);
+    // A main city counts its whole area: itself plus the towns that name it as their hub.
+    const area = new Set([c.id, ...cities.filter((o) => o.data.hub?.id === c.id).map((o) => o.id)]);
+    const here = identities.filter((i) => area.has(i.data.city.id));
     const current = here.filter((i) => i.data.current && franchiseById.get(i.data.franchise.id)?.data.status === 'active');
     const currentIds = new Set(current.map((i) => i.data.franchise.id));
     const former = new Set(here.filter((i) => !i.data.current && !currentIds.has(i.data.franchise.id)).map((i) => i.data.franchise.id));
@@ -34,13 +37,13 @@ const rows = cities
     // Teams named after another city whose current stadium is here (e.g. the LA Galaxy in Carson).
     const stadiumLeagues = [...new Set(franchises
       .filter((f) => f.data.status === 'active' && !currentIds.has(f.id))
-      .filter((f) => f.data.venues.some((v) => v.to === null && venueCity.get(v.venue.id) === c.id))
+      .filter((f) => f.data.venues.some((v) => v.to === null && area.has(venueCity.get(v.venue.id) ?? '')))
       .map((f) => leagueName.get(f.data.league.id) ?? ''))].sort();
-    return { c, teams: current.length, byLeague: [...byLeague].sort((a, b) => a[0].localeCompare(b[0])), former: former.size, stadiumLeagues };
+    return { c, hubName: c.data.hub ? cityName.get(c.data.hub.id) : undefined, teams: current.length, byLeague: [...byLeague].sort((a, b) => a[0].localeCompare(b[0])), former: former.size, stadiumLeagues };
   })
   .sort((a, b) => a.c.data.name.localeCompare(b.c.data.name));
 
-const hubs = [...rows].filter((r) => r.teams > 1).sort((a, b) => b.teams - a.teams || a.c.data.name.localeCompare(b.c.data.name));
+const hubs = [...rows].filter((r) => r.teams > 1 && !r.hubName).sort((a, b) => b.teams - a.teams || a.c.data.name.localeCompare(b.c.data.name));
 const leagueList = [...new Set(rows.flatMap((r) => r.byLeague.map(([l]) => l)))].sort();
 const regions = new Set(rows.map((r) => r.c.data.region)).size;
 ---
@@ -56,7 +59,7 @@ const regions = new Set(rows.map((r) => r.c.data.region)).size;
   {hubs.length > 0 && (
     <section class="container section" aria-labelledby="hubs-title">
       <div class="section-head"><h2 id="hubs-title">Biggest sports cities</h2></div>
-      <p class="muted">Cities with more than one team in the leagues covered so far.</p>
+      <p class="muted">Cities with more than one team in the leagues covered so far, counting the towns of their area.</p>
       <ol class="hubs">
         {hubs.map((r) => (
           <li>
@@ -98,6 +101,7 @@ const regions = new Set(rows.map((r) => r.c.data.region)).size;
               <strong>{r.c.data.name}</strong>
               <span class="subtle">{r.c.data.region}{r.c.data.country !== 'United States' ? `, ${r.c.data.country}` : ''}</span>
               <span class="tags">
+                {r.hubName && <span class="tag area">{r.hubName} area</span>}
                 {r.byLeague.map(([l, n]) => <span class="tag">{n > 1 ? `${n} ${l}` : l}</span>)}
                 {r.stadiumLeagues.map((l) => <span class="tag">{l} stadium</span>)}
                 {r.teams === 0 && r.former > 0 && <span class="tag former">Former teams</span>}
@@ -274,7 +278,8 @@ const regions = new Set(rows.map((r) => r.c.data.region)).size;
     font-size: 0.75rem;
     font-weight: 600;
   }
-  .tag.former {
+  .tag.former,
+  .tag.area {
     color: var(--text-subtle);
     font-weight: 400;
   }

@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 24, 1999, Anaheim Hills, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2022–2025)",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-12 (2020)",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pac-12 (2019)",
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Amon-Ra St. Brown",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Amon-Ra St. Brown (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and two-time First-team All-Pro.",
+  "image": {
+    "file": "File:Amon-Ra St. Brown FanDuel Interview.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Amon-Ra_St._Brown_FanDuel_Interview.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Amon-Ra_St._Brown_FanDuel_Interview.png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Amon-Ra St. Brown",
+    "caption": "Amon-Ra St. Brown",
+    "licenseChecked": "2026-11-05"
+  }
+}

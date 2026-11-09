@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "green-bay-packers",
+  "name": "Green Bay Packers",
+  "city": "green-bay",
+  "from": {
+    "value": 1919,
+    "source": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

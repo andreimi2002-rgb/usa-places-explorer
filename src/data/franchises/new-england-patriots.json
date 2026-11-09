@@ -1,0 +1,198 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "New England Patriots",
+  "division": "nfl-afc-east",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+    "verified": "2026-11-06",
+    "note": "Founded November 16, 1959, as the Boston Patriots of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Robert Kraft (since 1994)",
+    "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Mike Vrabel",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "gillette-stadium",
+      "from": 2002,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "tom-brady",
+    "rob-gronkowski",
+    "john-hannah",
+    "tedy-bruschi",
+    "bill-belichick"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/new-england-patriots/roster",
+    "players": [
+      {
+        "person": "drake-maye",
+        "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "christian-gonzalez",
+        "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960",
+      "label": "First season, as the Boston Patriots of the AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1971",
+      "label": "Move to Foxborough and become the New England Patriots",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1994",
+      "label": "Robert Kraft buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2000",
+      "label": "Hire Bill Belichick; draft Tom Brady",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Open Gillette Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Win Super Bowl XXXVI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2004",
+      "label": "Win Super Bowl XXXVIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2005",
+      "label": "Win Super Bowl XXXIX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2015",
+      "label": "Win Super Bowl XLIX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2017",
+      "label": "Win Super Bowl LI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2019",
+      "label": "Win Super Bowl LIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The Brady–Belichick dynasty: six Super Bowls between the 2001 and 2018 seasons, and back in the final in February 2026.",
+  "sources": [
+    {
+      "title": "New England Patriots (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_England_Patriots",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/NE.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/new-england-patriots.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/NE.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#002244"
+      },
+      {
+        "name": "Red",
+        "hex": "#C60C30"
+      },
+      {
+        "name": "Silver",
+        "hex": "#B0B7BC"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_England_Patriots",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Gillette Stadium Foxborough.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gillette_Stadium_Foxborough.jpg/1280px-Gillette_Stadium_Foxborough.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxborough.jpg",
+    "author": "Max P",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "View of Gillette Stadium",
+    "caption": "Gillette Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

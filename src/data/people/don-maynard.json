@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 25, 1935, Crosbyton, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "III (1968 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (III)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1968)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-AFL (1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-AFL (1960, 1965, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× AFL All-Star (1965, 1967–1969)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL receiving touchdowns co-leader (1965)",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets No. 13 retired",
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Don Maynard",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Don Maynard (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 1960,
+      "to": 1972,
+      "source": "https://en.wikipedia.org/wiki/Don_Maynard",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver from the Titans days to Super Bowl III.",
+  "image": {
+    "file": "File:Don Maynard 1963 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Don_Maynard_1963_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Don_Maynard_1963_(cropped).jpg",
+    "author": "Jay Publishing",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Don Maynard",
+    "caption": "Don Maynard",
+    "licenseChecked": "2026-11-05"
+  }
+}

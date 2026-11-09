@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1940, Mocksville, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Football:",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Super Bowl champion (XVII, XXII, XXVI)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Coach of the Year (1982, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Washington Commanders Ring of Fame",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Washington Commanders 90 Greatest",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Football Hall of Fame (1996)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Auto racing:",
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Gibbs",
+  "sources": [
+    {
+      "title": "Joe Gibbs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "head-coach",
+      "from": 1981,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "washington-commanders",
+      "role": "head-coach",
+      "from": 2004,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Joe_Gibbs",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach of all three Super Bowl wins, in two spells.",
+  "image": {
+    "file": "File:Joe Gibbs, 2026 NASCAR Las Vegas fall portrait - presser.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Joe_Gibbs%2C_2026_NASCAR_Las_Vegas_fall_portrait_-_presser.jpg/1280px-Joe_Gibbs%2C_2026_NASCAR_Las_Vegas_fall_portrait_-_presser.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Gibbs,_2026_NASCAR_Las_Vegas_fall_portrait_-_presser.jpg",
+    "author": "Nascar9919",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Joe Gibbs",
+    "caption": "Joe Gibbs",
+    "licenseChecked": "2026-11-05"
+  }
+}

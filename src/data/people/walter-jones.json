@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 19, 1974, Aliceville, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× First-team All-Pro (2001, 2004, 2005, 2007)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2006, 2008)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1999, 2001–2008)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1997)",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks 35th Anniversary team",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Walter Jones",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Walter Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 1997,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Walter_Jones_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Left tackle and one of the best offensive linemen of his era.",
+  "image": {
+    "file": "File:Walter-Jones-2008-11-02-vsEagles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Walter-Jones-2008-11-02-vsEagles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Walter-Jones-2008-11-02-vsEagles.jpg",
+    "author": "Luis Antonio Rodríguez Ochoa from Redmond, Washington. Cropped by User:Blueag9.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Walter Jones",
+    "caption": "Walter Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

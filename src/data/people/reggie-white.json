@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 19, 1961, Chattanooga, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXI (1996 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXI)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Defensive Player of the Year (1987, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× UPI NFC Defensive Player of the Year (1987, 1991, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (1986–1991, 1995, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Second-team All-Pro (1992–1994, 1996, 1997)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "13× Pro Bowl (1986–1998)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL sacks leader (1987, 1988)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Reggie White",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Reggie_White",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Reggie White (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Reggie_White",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "player",
+      "from": 1985,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 1993,
+      "to": 1998,
+      "source": "https://en.wikipedia.org/wiki/Reggie_White",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end, twice Defensive Player of the Year, in Philadelphia and Green Bay.",
+  "image": {
+    "file": "File:Reggie White at the White House.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Reggie_White_at_the_White_House.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Reggie_White_at_the_White_House.jpg",
+    "author": "Barbara Kinney",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Reggie White",
+    "caption": "Reggie White",
+    "licenseChecked": "2026-11-05"
+  }
+}

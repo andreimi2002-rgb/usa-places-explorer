@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 19, 1926, Santa Anna, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× NFL champion (1952, 1953, 1957)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1952, 1956)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (1953, 1954, 1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1951–1953, 1956, 1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing yards leader (1950, 1951)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (1951)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (1955)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL scoring leader (1956)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bobby Layne",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bobby Layne (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 1950,
+      "to": 1958,
+      "source": "https://en.wikipedia.org/wiki/Bobby_Layne",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of three NFL titles in the 1950s.",
+  "image": {
+    "file": "File:Bobby Layne 1961.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bobby_Layne_1961.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bobby_Layne_1961.jpg",
+    "author": "Jay Publishing",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bobby Layne",
+    "caption": "Bobby Layne",
+    "licenseChecked": "2026-11-05"
+  }
+}

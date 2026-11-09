@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 15, 1969, Pensacola, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXVII (1992 season), XXVIII (1993 season), XXX (1995 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (XXVII, XXVIII, XXX)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXVIII)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1993)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1990)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1992–1995)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1991)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1990–1995, 1998, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL rushing yards leader (1991–1993, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Emmitt Smith",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Emmitt Smith (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "dallas-cowboys",
+      "role": "player",
+      "from": 1990,
+      "to": 2002,
+      "source": "https://en.wikipedia.org/wiki/Emmitt_Smith",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The NFL’s all-time leading rusher.",
+  "image": {
+    "file": "File:Super Bowl 44 Emmitt Smith (4344089199) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Super_Bowl_44_Emmitt_Smith_%284344089199%29_%28cropped%29.jpg/1280px-Super_Bowl_44_Emmitt_Smith_%284344089199%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Emmitt_Smith_(4344089199)_(cropped).jpg",
+    "author": "Anthony Quintano from Honolulu, HI, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Emmitt Smith",
+    "caption": "Emmitt Smith",
+    "licenseChecked": "2026-11-05"
+  }
+}

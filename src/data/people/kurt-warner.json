@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 22, 1971, Burlington, Iowa, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXIV (1999 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXIV)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXXIV)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Most Valuable Player (1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1999–2001, 2008)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL completion percentage leader (1999–2001)",
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Kurt Warner",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kurt Warner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 1998,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 2005,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Kurt_Warner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback who won Super Bowl XXXIV with St. Louis and took Arizona to Super Bowl XLIII.",
+  "image": {
+    "file": "File:Kurt Warner 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kurt_Warner_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kurt_Warner_2022_(cropped).jpg",
+    "author": "Staff Sgt. Cody Trimble",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Kurt Warner",
+    "caption": "Kurt Warner",
+    "licenseChecked": "2026-11-05"
+  }
+}

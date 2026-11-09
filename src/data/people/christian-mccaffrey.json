@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 7, 1996, Castle Rock, Colorado, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Player of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (2025)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2019, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2018)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2019, 2022, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Paul Hornung Award (2015)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jet Award (2015)",
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Christian McCaffrey",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Christian McCaffrey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back, 2023 Offensive Player of the Year.",
+  "image": {
+    "file": "File:Christian McCaffrey 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Christian_McCaffrey_2019.jpg/1280px-Christian_McCaffrey_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Christian_McCaffrey_2019.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Christian McCaffrey",
+    "caption": "Christian McCaffrey",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 31, 2001, Detroit, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2022)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AAC Defensive Player of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-AAC (2019–2021)",
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sauce Gardner",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Sauce Gardner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback, traded from the Jets in 2025.",
+  "image": {
+    "file": "File:2025 NYJ Media Day Sauce Gardner (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/2025_NYJ_Media_Day_Sauce_Gardner_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_NYJ_Media_Day_Sauce_Gardner_(cropped).png",
+    "author": "New York Jets",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Sauce Gardner",
+    "caption": "Sauce Gardner",
+    "licenseChecked": "2026-11-05"
+  }
+}

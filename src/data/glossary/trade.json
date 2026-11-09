@@ -6,12 +6,19 @@
       "title": "1993 NBA transactions (RealGM)",
       "url": "https://basketball.realgm.com/nba/transactions/league/1993",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Los Angeles Rams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Trade",
   "short": "A deal in which teams swap players, draft picks or both. Unlike a European football transfer, it is mainly an exchange of assets rather than a sale for a fee.",
   "sports": [
-    "basketball"
+    "basketball",
+    "american-football",
+    "soccer"
   ],
   "related": [
     "free-agency",

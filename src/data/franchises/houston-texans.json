@@ -1,0 +1,142 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Houston Texans",
+  "division": "nfl-afc-south",
+  "founded": {
+    "value": 1999,
+    "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+    "verified": "2026-11-06",
+    "note": "Founded October 6, 1999, as an expansion team; first season 2002."
+  },
+  "firstSeason": {
+    "value": "2002",
+    "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Cal McNair (McNair family)",
+    "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "DeMeco Ryans",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "demeco-ryans"
+  },
+  "venues": [
+    {
+      "venue": "nrg-stadium",
+      "from": 2002,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "andre-johnson",
+    "j-j-watt"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/houston-texans/roster",
+    "players": [
+      {
+        "person": "c-j-stroud",
+        "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "nico-collins",
+        "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "will-anderson-jr",
+        "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "derek-stingley-jr",
+        "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1999-10-06",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "First season, in today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Draft J. J. Watt",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Hire DeMeco Ryans and draft C. J. Stroud",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The NFL’s newest team, born in 2002: never in a Super Bowl yet, but a playoff team with C. J. Stroud.",
+  "sources": [
+    {
+      "title": "Houston Texans (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Houston_Texans",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/HOU.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/houston-texans.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/HOU.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Deep steel blue",
+        "hex": "#021018"
+      },
+      {
+        "name": "Battle red",
+        "hex": "#EB0028"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Houston_Texans",
+    "verified": "2026-11-06"
+  }
+}

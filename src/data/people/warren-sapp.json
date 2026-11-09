@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 19, 1972, Orlando, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVII (2002 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (1999)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1999–2002)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1997, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1997–2003)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1995)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Warren Sapp",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Warren Sapp (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 1995,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Warren_Sapp",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle and 1999 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Warren Sapp by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Warren_Sapp_by_Gage_Skidmore.jpg/1280px-Warren_Sapp_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Warren_Sapp_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Warren Sapp",
+    "caption": "Warren Sapp",
+    "licenseChecked": "2026-11-05"
+  }
+}

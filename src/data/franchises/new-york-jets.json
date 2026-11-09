@@ -1,0 +1,150 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "New York Jets",
+  "division": "nfl-afc-east",
+  "founded": {
+    "value": 1959,
+    "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "verified": "2026-11-06",
+    "note": "Founded August 14, 1959, as the New York Titans of the AFL."
+  },
+  "firstSeason": {
+    "value": "1960",
+    "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Woody Johnson and Christopher Johnson",
+    "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Aaron Glenn",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "aaron-glenn"
+  },
+  "venues": [
+    {
+      "venue": "metlife-stadium",
+      "from": 2010,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "joe-namath",
+    "don-maynard",
+    "curtis-martin",
+    "darrelle-revis",
+    "joe-klecko",
+    "weeb-ewbank"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/new-york-jets/roster",
+    "players": [
+      {
+        "person": "garrett-wilson",
+        "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "breece-hall",
+        "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1959-08-14",
+      "label": "Founded as the New York Titans",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1963",
+      "label": "Renamed the Jets; hire Weeb Ewbank",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1965",
+      "label": "Sign Joe Namath",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1969",
+      "label": "Win Super Bowl III",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Open MetLife Stadium, shared with the Giants",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Hire Aaron Glenn",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Joe Namath’s Jets won Super Bowl III, the AFL’s first win over the NFL, and are still waiting for a second.",
+  "sources": [
+    {
+      "title": "New York Jets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/NYJ.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/new-york-jets.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/NYJ.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Green",
+        "hex": "#115740"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "verified": "2026-11-06"
+  }
+}

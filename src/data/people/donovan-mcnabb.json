@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1976, Chicago, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× Pro Bowl (2000–2004, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Eagles 75th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Eagles Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Eagles No. 5 retired",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Sports Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Big East Offensive Player of the Year (1996–1998)",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big East Rookie of the Year (1995)",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Big East (1995–1998)",
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Donovan McNabb",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Donovan McNabb (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "player",
+      "from": 1999,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Donovan_McNabb",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback from 1999 to 2009 and six-time Pro Bowl pick.",
+  "image": {
+    "file": "File:McNabb cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/McNabb_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:McNabb_cropped.jpg",
+    "author": "Rachel Lynne Smith",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Donovan McNabb",
+    "caption": "Donovan McNabb",
+    "licenseChecked": "2026-11-05"
+  }
+}

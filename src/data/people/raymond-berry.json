@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 27, 1933, Corpus Christi, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL champion (1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1958–1960)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1957, 1961, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1958–1961, 1963, 1964)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL receiving yards leader (1957, 1959, 1960)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL receptions leader (1958–1960)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving touchdowns leader (1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Raymond Berry",
+  "position": {
+    "value": "Split end",
+    "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Raymond Berry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1955,
+      "to": 1967,
+      "source": "https://en.wikipedia.org/wiki/Raymond_Berry",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Receiver and Unitas’s favourite target.",
+  "image": {
+    "file": "File:Berry 1961 Topps.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Berry_1961_Topps.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Berry_1961_Topps.jpg",
+    "author": "Topps",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Raymond Berry",
+    "caption": "Raymond Berry",
+    "licenseChecked": "2026-11-05"
+  }
+}

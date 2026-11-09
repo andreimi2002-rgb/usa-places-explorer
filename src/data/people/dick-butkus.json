@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 9, 1942, Chicago, Illinois]], U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NEA NFL Defensive Player of the Year (1969, 1970)",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1965, 1968–1970, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1966, 1967, 1971)",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1965–1972)",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (1974)",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Dick Butkus",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dick Butkus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 1965,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Dick_Butkus",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the 1960s and early 1970s.",
+  "image": {
+    "file": "File:Dickbutkus.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dickbutkus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dickbutkus.jpg",
+    "author": "Alan Light",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Dick Butkus",
+    "caption": "Dick Butkus",
+    "licenseChecked": "2026-11-05"
+  }
+}

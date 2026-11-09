@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 17, 1940, Shelby, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IV (1969 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (IV)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL champion (1966)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1970)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-AFL (1965–1969)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1971)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-AFL (1964)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (1970–1972)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× AFL All-Star (1964–1969)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bobby Bell",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bobby Bell (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 1963,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Bobby_Bell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the AFL and Super Bowl IV champions.",
+  "image": {
+    "file": "File:Bobby Bell 2014 (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bobby_Bell_2014_%28cropped%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bobby_Bell_2014_(cropped).JPG",
+    "author": "U.S. Air Force photo by Airman 1st Class Joel Pfiester/Released",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bobby Bell",
+    "caption": "Bobby Bell",
+    "licenseChecked": "2026-11-05"
+  }
+}

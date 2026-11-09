@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 20, 2001, Baton Rouge, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2019)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2019)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2020)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-SEC (2019, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Derek Stingley Jr.",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Derek Stingley Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Derek_Stingley_Jr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback and two-time First-team All-Pro.",
+  "image": {
+    "file": "File:Derek Stingley Jr. LSUvsNWLA 1043A (49105656226) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Derek_Stingley_Jr._LSUvsNWLA_1043A_%2849105656226%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derek_Stingley_Jr._LSUvsNWLA_1043A_(49105656226)_(cropped).jpg",
+    "author": "Tammy Anthony Baker from Louisiana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Derek Stingley Jr.",
+    "caption": "Derek Stingley Jr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 15, 1953, Chester, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (NEA, PFWA) (1981)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1981, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1983)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1981, 1983–1985)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL sacks leader (1981)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (1982)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Jets No. 73 retired",
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Klecko",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Klecko (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-jets",
+      "role": "player",
+      "from": 1977,
+      "to": 1987,
+      "source": "https://en.wikipedia.org/wiki/Joe_Klecko",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive lineman of the “New York Sack Exchange”.",
+  "image": {
+    "file": "File:1986 Jeno's Pizza - 30 - Joe Cribbs (Joe Klecko crop).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/1986_Jeno%27s_Pizza_-_30_-_Joe_Cribbs_%28Joe_Klecko_crop%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1986_Jeno%27s_Pizza_-_30_-_Joe_Cribbs_(Joe_Klecko_crop).jpg",
+    "author": "Jeno's",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe Klecko",
+    "caption": "Joe Klecko",
+    "licenseChecked": "2026-11-05"
+  }
+}

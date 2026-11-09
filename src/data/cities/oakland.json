@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "progress": "not-started",
+  "progress": "content-ready",
   "sources": [
     {
       "title": "IANA Time Zone Database",
@@ -20,7 +20,7 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "alt": "View of Oakland",
-    "caption": "The Oakland skyline as seen from the Oakland hills. Oakland, CA has a population of about",
+    "caption": "The Oakland skyline seen from the Oakland hills",
     "licenseChecked": "2026-11-05"
   },
   "coordinates": {
@@ -32,5 +32,6 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5378538: Oakland, California"
   },
-  "metro": "San Francisco Bay Area"
+  "metro": "San Francisco Bay Area",
+  "summary": "Home of the Raiders and the Warriors for decades, until both left in 2019."
 }

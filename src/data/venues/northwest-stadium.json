@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Northwest Stadium",
+  "city": "landover",
+  "opened": {
+    "value": "1997",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 64000,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Bermuda grass"
+    }
+  },
+  "summary": "The Commanders’ stadium in Landover, Maryland, since 1997.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Commanders vs Giants (53345178211).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Commanders_vs_Giants_%2853345178211%29.jpg/1280px-Commanders_vs_Giants_%2853345178211%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Commanders_vs_Giants_(53345178211).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Inside Northwest Stadium",
+    "caption": "Inside Northwest Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 14, 2002, Nacogdoches, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LX (2025 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LX)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2025)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rose Bowl Offensive MVP (2022)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-Big Ten (2021)",
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jaxon Smith-Njigba",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jaxon Smith-Njigba (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and 2025 Offensive Player of the Year.",
+  "image": {
+    "file": "File:Jaxon Smith-Njigba FanDuel Interview (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Jaxon_Smith-Njigba_FanDuel_Interview_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaxon_Smith-Njigba_FanDuel_Interview_(cropped).png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Jaxon Smith-Njigba",
+    "caption": "Jaxon Smith-Njigba",
+    "licenseChecked": "2026-11-05"
+  }
+}

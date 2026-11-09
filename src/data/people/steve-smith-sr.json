@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 12, 1979, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Comeback Player of the Year (2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Receiving Triple Crown (2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (2001, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2001, 2005, 2006, 2008, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions co-leader (2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving touchdowns co-leader (2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2001)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Steve Smith Sr.",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Steve Smith Sr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2001,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Steve_Smith_Sr.",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and 2005 receiving “triple crown” winner.",
+  "image": {
+    "file": "File:Steve Smith 2006-10-15.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Steve_Smith_2006-10-15.jpg/1280px-Steve_Smith_2006-10-15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_Smith_2006-10-15.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Steve Smith Sr.",
+    "caption": "Steve Smith Sr.",
+    "licenseChecked": "2026-11-05"
+  }
+}

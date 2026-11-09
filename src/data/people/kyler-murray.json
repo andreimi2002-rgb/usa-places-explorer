@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 7, 1997, Bedford, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2019)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2018)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Davey O'Brien Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Manning Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP College Football Player of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Earl Campbell Tyler Rose Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Kyler Murray",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Kyler Murray (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kyler_Murray",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, with the Vikings since 2026 after seven seasons in Arizona.",
+  "image": {
+    "file": "File:Kyler Murray in huddle (50369475187) (cropped) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Kyler_Murray_in_huddle_%2850369475187%29_%28cropped%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyler_Murray_in_huddle_(50369475187)_(cropped)_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kyler Murray",
+    "caption": "Kyler Murray",
+    "licenseChecked": "2026-11-05"
+  }
+}

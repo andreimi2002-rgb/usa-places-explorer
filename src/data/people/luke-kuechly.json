@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 20, 1991, Cincinnati, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2013)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2012)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (2013–2015, 2017, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2016, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2013–2019)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL combined tackles leader (2012, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Butkus Award (pro) (2014, 2015, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Luke Kuechly",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Luke Kuechly (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2012,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Luke_Kuechly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 2013 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Luke Kuechly.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Luke_Kuechly.jpg/1280px-Luke_Kuechly.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Luke_Kuechly.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Luke Kuechly",
+    "caption": "Luke Kuechly",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Miami Gardens",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Miami metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 25.94204,
+      "lon": -80.24561
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Miami%20Gardens&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A city north of Miami, home of the Dolphins’ stadium since 1987.",
+  "image": {
+    "file": "File:Miami Gardens FL Sunshine State Arch 01.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Miami_Gardens_FL_Sunshine_State_Arch_01.JPG/1280px-Miami_Gardens_FL_Sunshine_State_Arch_01.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Miami_Gardens_FL_Sunshine_State_Arch_01.JPG",
+    "author": "Pietro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "The Sunshine State Arch in Miami Gardens",
+    "caption": "The Sunshine State Arch in Miami Gardens",
+    "licenseChecked": "2026-11-05"
+  },
+  "hub": "miami"
+}

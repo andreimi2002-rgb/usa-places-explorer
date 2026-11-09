@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 6, 1960, Somerville, Massachusetts, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XVIII (1983 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XVIII)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NEA NFL co-Defensive Player of the Year (1985)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1983–1985)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1986, 1989)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1983–1987, 1989, 1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-East (1980)",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "| stat_label1 = Sacks",
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Howie Long",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Howie_Long",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Howie Long (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Howie_Long",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 1981,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Howie_Long",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end of the Super Bowl XVIII win.",
+  "image": {
+    "file": "File:Howie Long 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Howie_Long_2022_%28cropped%29.jpg/1280px-Howie_Long_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Howie_Long_2022_(cropped).jpg",
+    "author": "Airman 1st Class Andrew Britten",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Howie Long",
+    "caption": "Howie Long",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 17, 1985, Exton, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2016)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2016)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (2010, 2012, 2014, 2016)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2016)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (2012)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2008)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Matt Ryan",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Matt Ryan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 2008,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 2016 MVP.",
+  "image": {
+    "file": "File:Washington Football Team at Atlanta Falcons (3 October 2021) DSC 4628 (51555290664) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Washington_Football_Team_at_Atlanta_Falcons_(3_October_2021)_DSC_4628_(51555290664)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Matt Ryan",
+    "caption": "Matt Ryan",
+    "licenseChecked": "2026-11-05"
+  }
+}

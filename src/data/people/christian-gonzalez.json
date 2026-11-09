@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 28, 2002, Carrollton, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2024)",
+      "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2025)",
+      "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-12 (2022)",
+      "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Christian Gonzalez",
+  "position": {
+    "value": "Cornerback",
+    "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Christian Gonzalez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-england-patriots",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Christian_Gonzalez",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Cornerback and 2025 Pro Bowl pick.",
+  "image": {
+    "file": "File:Christian Gonzalez NFL Combine (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Christian_Gonzalez_NFL_Combine_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Christian_Gonzalez_NFL_Combine_(cropped).png",
+    "author": "Tennessee Titans (4:36)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Christian Gonzalez",
+    "caption": "Christian Gonzalez",
+    "licenseChecked": "2026-11-05"
+  }
+}

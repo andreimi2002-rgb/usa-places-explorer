@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Caesars Superdome",
+  "city": "new-orleans",
+  "opened": {
+    "value": "1975",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 73208,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "dome",
+      "surface": "Artificial turf"
+    }
+  },
+  "summary": "The Saints’ dome in New Orleans since 1975, a shelter during Hurricane Katrina.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:The Dome New Orleans Man Trip.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/The_Dome_New_Orleans_Man_Trip.jpg/1280px-The_Dome_New_Orleans_Man_Trip.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Dome_New_Orleans_Man_Trip.jpg",
+    "author": "David Reber",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Inside the Superdome",
+    "caption": "Inside the Superdome",
+    "licenseChecked": "2026-11-05"
+  }
+}

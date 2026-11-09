@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 31, 1983, Minneapolis, Minnesota, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2008)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2009, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (2005, 2007–2013, 2015–2017)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receptions leader (2005, 2016)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving touchdowns leader (2008, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Larry Fitzgerald",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Larry Fitzgerald (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 2004,
+      "to": 2020,
+      "source": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver for 17 seasons, second in NFL history in catches.",
+  "image": {
+    "file": "File:Larry Fitzgerald 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Larry_Fitzgerald_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Larry_Fitzgerald_2017.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Larry Fitzgerald",
+    "caption": "Larry Fitzgerald",
+    "licenseChecked": "2026-11-05"
+  }
+}

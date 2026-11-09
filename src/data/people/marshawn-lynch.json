@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 22, 1986, Oakland, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVIII (2013 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVIII)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2012)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2014)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2008, 2011–2014)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (2013, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Seattle Seahawks Top 50 players",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2007)",
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Marshawn Lynch",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marshawn Lynch (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2010,
+      "to": 2015,
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 2019,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Marshawn_Lynch",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back of the “Beast Quake” run and Super Bowl XLVIII.",
+  "image": {
+    "file": "File:Historic NASCAR Race Begins on Naval Base Coronado (1) 9764068 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Historic_NASCAR_Race_Begins_on_Naval_Base_Coronado_%281%29_9764068_%28cropped%29.jpg/1280px-Historic_NASCAR_Race_Begins_on_Naval_Base_Coronado_%281%29_9764068_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Historic_NASCAR_Race_Begins_on_Naval_Base_Coronado_(1)_9764068_(cropped).jpg",
+    "author": "Mass Communication Specialist Seaman Edward Martisius",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Marshawn Lynch",
+    "caption": "Marshawn Lynch",
+    "licenseChecked": "2026-11-05"
+  }
+}

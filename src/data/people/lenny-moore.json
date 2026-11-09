@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1933, Reading, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL champion (1958, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1964)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1964)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Rookie of the Year (1956)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1958–1961, 1964)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1956, 1957)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1956, 1958–1962, 1964)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns leader (1964)",
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Lenny Moore",
+  "position": {
+    "value": "Halfback",
+    "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lenny Moore (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 1956,
+      "to": 1967,
+      "source": "https://en.wikipedia.org/wiki/Lenny_Moore",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Halfback and 1964 MVP.",
+  "image": {
+    "file": "File:1lenny moore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/1lenny_moore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1lenny_moore.jpg",
+    "author": "Marylandstater",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Lenny Moore",
+    "caption": "Lenny Moore",
+    "licenseChecked": "2026-11-05"
+  }
+}

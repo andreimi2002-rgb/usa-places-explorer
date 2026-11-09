@@ -12,7 +12,8 @@
   "region": "Missouri",
   "country": "United States",
   "timezone": "America/Chicago",
-  "summary": "Home of the Kings from 1972 to 1985.",
+  "metro": "Kansas City metropolitan area",
+  "summary": "Home of the Chiefs since 1963, and centre of the area of Sporting Kansas City.",
   "coordinates": {
     "value": {
       "lat": 39.0997,

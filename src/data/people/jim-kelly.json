@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 14, 1960, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "USFL Most Valuable Player (1984)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "USFL Rookie of the Year (1984)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-USFL (1984, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1991)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1992)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1987, 1988, 1990–1992)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (1991)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (1990)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jim Kelly",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jim Kelly (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "player",
+      "from": 1986,
+      "to": 1996,
+      "source": "https://en.wikipedia.org/wiki/Jim_Kelly",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the four straight Super Bowl teams.",
+  "image": {
+    "file": "File:Jim Kelly 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jim_Kelly_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jim_Kelly_2010.jpg",
+    "author": "Staff Sgt. Corenthia Fennell",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jim Kelly",
+    "caption": "Jim Kelly",
+    "licenseChecked": "2026-11-05"
+  }
+}

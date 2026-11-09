@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 23, 1979, Rosebud, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2006)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2004, 2006, 2007)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2002, 2003, 2005)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2002, 2004–2007)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing yards leader (2006, 2007)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL rushing touchdowns leader (2004, 2006, 2007)",
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "LaDainian Tomlinson",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "LaDainian Tomlinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2001,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2006 MVP.",
+  "image": {
+    "file": "File:LaDainian Tomlinson 2017 closeup.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/LaDainian_Tomlinson_2017_closeup.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LaDainian_Tomlinson_2017_closeup.jpg",
+    "author": "original: U.S. Navy MC2 Jesse Monford on behalf of Naval Surface Warriorsderivative: Diddykong1130",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of LaDainian Tomlinson",
+    "caption": "LaDainian Tomlinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

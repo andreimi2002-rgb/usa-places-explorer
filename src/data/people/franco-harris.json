@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 7, 1950, Fort Dix, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IX (1974 season), X (1975 season), XIII (1978 season), XIV (1979 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (IX, X, XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (IX)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1972)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1976)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1977)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1972, 1975)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1972–1980)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns leader (1976)",
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Franco Harris",
+  "position": {
+    "value": "Fullback",
+    "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Franco Harris (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 1972,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Franco_Harris",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and MVP of Super Bowl IX.",
+  "image": {
+    "file": "File:Franco Harris 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Franco_Harris_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Franco_Harris_2022.jpg",
+    "author": "Governor Tom Wolf from Harrisburg, PA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Franco Harris",
+    "caption": "Franco Harris",
+    "licenseChecked": "2026-11-05"
+  }
+}

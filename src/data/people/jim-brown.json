@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 17, 1936, St. Simons, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1964)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Most Valuable Player (1957, 1958, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Rookie of the Year (1957)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (1957–1961, 1963–1965)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1962)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1957–1965)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× NFL rushing yards leader (1957–1961, 1963–1965)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL rushing touchdowns leader (1957–1959, 1963, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jim Brown",
+  "position": {
+    "value": "Fullback",
+    "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jim Brown (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 1957,
+      "to": 1965,
+      "source": "https://en.wikipedia.org/wiki/Jim_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Fullback and three-time MVP, often called the greatest player ever.",
+  "image": {
+    "file": "File:Jim Brown 1959 Topps cropped and recoloured.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jim_Brown_1959_Topps_cropped_and_recoloured.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jim_Brown_1959_Topps_cropped_and_recoloured.jpg",
+    "author": "Topps",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jim Brown",
+    "caption": "Jim Brown",
+    "licenseChecked": "2026-11-05"
+  }
+}

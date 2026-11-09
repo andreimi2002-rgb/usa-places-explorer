@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 9, 1993, Madison, Wisconsin, U.S.",
+      "source": "https://en.wikipedia.org/wiki/George_Kittle",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2019, 2023)",
+      "source": "https://en.wikipedia.org/wiki/George_Kittle",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2018, 2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/George_Kittle",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2018, 2019, 2021–2025)",
+      "source": "https://en.wikipedia.org/wiki/George_Kittle",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "George Kittle",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/George_Kittle",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "George Kittle (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/George_Kittle",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "player",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/George_Kittle",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end and seven-time Pro Bowl pick.",
+  "image": {
+    "file": "File:George Kittle DSC08082 (48940368597) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/George_Kittle_DSC08082_%2848940368597%29_%28cropped%29.jpg/1280px-George_Kittle_DSC08082_%2848940368597%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Kittle_DSC08082_(48940368597)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of George Kittle",
+    "caption": "George Kittle",
+    "licenseChecked": "2026-11-05"
+  }
+}

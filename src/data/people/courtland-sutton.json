@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 10, 1995, Brenham, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Pro Bowl (2019, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-AAC (2016, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Courtland Sutton",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Courtland Sutton (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver, a Bronco since 2018.",
+  "image": {
+    "file": "File:Courtland Sutton Salute to Service Boot Camp (10).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Courtland_Sutton_Salute_to_Service_Boot_Camp_%2810%29.jpg/1280px-Courtland_Sutton_Salute_to_Service_Boot_Camp_%2810%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Courtland_Sutton_Salute_to_Service_Boot_Camp_(10).jpg",
+    "author": "Senior Airman Brooke Wise",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Courtland Sutton",
+    "caption": "Courtland Sutton",
+    "licenseChecked": "2026-11-05"
+  }
+}

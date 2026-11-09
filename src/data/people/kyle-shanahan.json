@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 14, 1979, Minneapolis, Minnesota, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Shanahan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "AP NFL Assistant Coach of the Year (2016)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Shanahan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "The Sporting News Coach of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Shanahan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Kyle Shanahan",
+  "sources": [
+    {
+      "title": "Kyle Shanahan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Shanahan",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-49ers",
+      "role": "head-coach",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kyle_Shanahan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2017, twice a Super Bowl finalist.",
+  "image": {
+    "file": "File:Kyle Shanahan (tight crop).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kyle_Shanahan_%28tight_crop%29.jpg/1280px-Kyle_Shanahan_%28tight_crop%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyle_Shanahan_(tight_crop).jpg",
+    "author": "AlexanderJonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Kyle Shanahan",
+    "caption": "Kyle Shanahan",
+    "licenseChecked": "2026-11-05"
+  }
+}

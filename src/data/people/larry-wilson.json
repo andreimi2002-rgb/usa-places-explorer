@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 24, 1938, Rigby, Idaho, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (1966)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× First-team All-Pro (1963, 1966–1970)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1965)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1962, 1963, 1965–1970)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL interceptions leader (1966)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Larry Wilson",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Larry Wilson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 1960,
+      "to": 1972,
+      "source": "https://en.wikipedia.org/wiki/Larry_Wilson_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety of the St. Louis years.",
+  "image": {
+    "file": "File:LarryWilson.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/LarryWilson.png",
+    "page": "https://commons.wikimedia.org/wiki/File:LarryWilson.png",
+    "author": "Glendale Stamps",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Larry Wilson",
+    "caption": "Larry Wilson",
+    "licenseChecked": "2026-11-05"
+  }
+}

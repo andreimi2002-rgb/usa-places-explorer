@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 5, 2003, Waimānalo, Hawaii, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2025)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Polynesian College Football Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2024)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big 12 (2024)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pac-12 (2023)",
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tetairoa McMillan",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tetairoa McMillan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tetairoa_McMillan",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and 2025 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:Tetairoa McMillan Super Bowl LX 2026.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tetairoa_McMillan_Super_Bowl_LX_2026.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Tetairoa_McMillan_Super_Bowl_LX_2026.png",
+    "author": "MMG",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Tetairoa McMillan",
+    "caption": "Tetairoa McMillan",
+    "licenseChecked": "2026-11-05"
+  }
+}

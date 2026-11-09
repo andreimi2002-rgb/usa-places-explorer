@@ -1,0 +1,158 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Detroit Lions",
+  "division": "nfl-nfc-north",
+  "founded": {
+    "value": 1928,
+    "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+    "verified": "2026-11-06",
+    "note": "Founded as the Portsmouth Spartans in Portsmouth, Ohio; in the NFL from 1930 and in Detroit since 1934."
+  },
+  "firstSeason": {
+    "value": "1930",
+    "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Sheila Ford Hamp (Ford family, owners since 1964)",
+    "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Dan Campbell",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "ford-field",
+      "from": 2002,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "bobby-layne",
+    "joe-schmidt",
+    "lem-barney",
+    "barry-sanders",
+    "calvin-johnson"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/detroit-lions/roster",
+    "players": [
+      {
+        "person": "jared-goff",
+        "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "amon-ra-st-brown",
+        "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "jahmyr-gibbs",
+        "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "aidan-hutchinson",
+        "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1930",
+      "label": "First NFL season, as the Portsmouth Spartans",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1934",
+      "label": "Move to Detroit and become the Lions",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1935",
+      "label": "Win the NFL championship (again in 1952, 1953 and 1957)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1989",
+      "label": "Draft Barry Sanders",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Open Ford Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021",
+      "label": "Hire Dan Campbell",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Four NFL titles before 1958, then a long wait: one of four teams never to reach a Super Bowl, but a power again under Dan Campbell.",
+  "sources": [
+    {
+      "title": "Detroit Lions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/DET.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/detroit-lions.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/DET.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Honolulu blue",
+        "hex": "#0076B6"
+      },
+      {
+        "name": "Silver",
+        "hex": "#B0B7BC"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "carolina-panthers",
+  "name": "Carolina Panthers",
+  "city": "charlotte",
+  "from": {
+    "value": 1995,
+    "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

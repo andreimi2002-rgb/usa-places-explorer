@@ -1,0 +1,105 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 1, 1974, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Player of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2007)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2000, 2002, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2001)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2000, 2002, 2004–2007)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL sacks leader (2002)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL forced fumbles leader (2006)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1997)",
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jason Taylor",
+  "position": {
+    "value": "Defensive ends",
+    "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jason Taylor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1997,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 2009,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 2011,
+      "to": 2011,
+      "source": "https://en.wikipedia.org/wiki/Jason_Taylor_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end and 2006 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Jason Taylor Jets-Dolphin game Nov 1, 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Jason_Taylor_Jets-Dolphin_game_Nov_1%2C_2009.jpg/1280px-Jason_Taylor_Jets-Dolphin_game_Nov_1%2C_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jason_Taylor_Jets-Dolphin_game_Nov_1,_2009.jpg",
+    "author": "Ed Yourdon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jason Taylor",
+    "caption": "Jason Taylor",
+    "licenseChecked": "2026-11-05"
+  }
+}

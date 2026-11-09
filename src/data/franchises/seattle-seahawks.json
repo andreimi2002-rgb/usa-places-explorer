@@ -1,0 +1,169 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Seattle Seahawks",
+  "division": "nfl-nfc-west",
+  "founded": {
+    "value": 1974,
+    "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+    "verified": "2026-11-06",
+    "note": "Founded June 4, 1974; first season 1976."
+  },
+  "firstSeason": {
+    "value": "1976",
+    "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Group led by Vinod Khosla (since September 2026)",
+    "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Mike Macdonald",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "lumen-field",
+      "from": 2002,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "steve-largent",
+    "walter-jones",
+    "russell-wilson",
+    "marshawn-lynch",
+    "richard-sherman",
+    "pete-carroll"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/seattle-seahawks/roster",
+    "players": [
+      {
+        "person": "sam-darnold",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "jaxon-smith-njigba",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "devon-witherspoon",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1976",
+      "label": "First season, as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2002",
+      "label": "Return to the NFC and open today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Hire Pete Carroll as head coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2014",
+      "label": "Win Super Bowl XLVIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026",
+      "label": "Win Super Bowl LX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-09-03",
+      "label": "Vinod Khosla’s group completes its purchase of the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The reigning Super Bowl champion, winner of Super Bowl LX in February 2026, and famous for its loud “12s”.",
+  "sources": [
+    {
+      "title": "Seattle Seahawks (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/SEA.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/seattle-seahawks.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/SEA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#002244"
+      },
+      {
+        "name": "Action green",
+        "hex": "#69BE28"
+      },
+      {
+        "name": "Wolf grey",
+        "hex": "#A5ACAF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Lumen Field exterior, July 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lumen_Field_exterior%2C_July_2023.jpg/1280px-Lumen_Field_exterior%2C_July_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lumen_Field_exterior,_July_2023.jpg",
+    "author": "PCN02WPS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lumen Field",
+    "caption": "Lumen Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

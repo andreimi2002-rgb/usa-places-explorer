@@ -1,0 +1,124 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 2, 1895, Chicago, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× NFL champion (1921, 1932, 1933, 1940, 1941, 1943, 1946, 1963)",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AP NFL Coach of the Year (1963, 1965)",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1920s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sporting News 1940s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1920)",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Chicago Bears No. 7 retired",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "100 greatest Bears of All-Time",
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "George Halas",
+  "sources": [
+    {
+      "title": "George Halas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/George_Halas",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "founder",
+      "from": 1920,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 1920,
+      "to": 1929,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "head-coach",
+      "from": 1920,
+      "to": 1929,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "head-coach",
+      "from": 1933,
+      "to": 1942,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "head-coach",
+      "from": 1946,
+      "to": 1955,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "chicago-bears",
+      "role": "head-coach",
+      "from": 1958,
+      "to": 1967,
+      "source": "https://en.wikipedia.org/wiki/George_Halas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Founder, owner, player and coach (in four spells) of the Bears, and a founder of the NFL.",
+  "image": {
+    "file": "File:George Halas (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/George_Halas_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Halas_(cropped).jpg",
+    "author": "Jim Summaria",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of George Halas",
+    "caption": "George Halas",
+    "licenseChecked": "2026-11-05"
+  }
+}

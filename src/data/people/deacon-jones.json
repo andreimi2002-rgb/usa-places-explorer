@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 9, 1938, Eatonville, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL Defensive Player of the Year (1967, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1965–1969)",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1964, 1970, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1964–1970, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL sacks leader (1964, 1965, 1967–1969)",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1960s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Deacon Jones",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Deacon Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 1961,
+      "to": 1971,
+      "source": "https://en.wikipedia.org/wiki/Deacon_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end of the “Fearsome Foursome” line.",
+  "image": {
+    "file": "File:Deacon Jones in 1971 Brady Bunch promo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Deacon_Jones_in_1971_Brady_Bunch_promo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Deacon_Jones_in_1971_Brady_Bunch_promo.jpg",
+    "author": "ABC Television",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Deacon Jones",
+    "caption": "Deacon Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "2023",
+  "level": "league",
+  "title": "Super Bowl LVIII",
+  "winner": "kansas-city-chiefs",
+  "runnerUp": "san-francisco-49ers",
+  "winnerName": "Kansas City Chiefs",
+  "runnerUpName": "San Francisco 49ers",
+  "result": "25–22",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "new-york-jets",
+  "name": "New York Jets",
+  "city": "new-york",
+  "from": {
+    "value": 1963,
+    "source": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "verified": "2026-11-06"
+  },
+  "to": null,
+  "current": true
+}

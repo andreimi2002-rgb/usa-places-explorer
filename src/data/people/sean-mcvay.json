@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 24, 1986, Dayton, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LVI)",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP NFL Coach of the Year (2017)",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Youngest head coach hired in NFL history: 30",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Youngest head coach to reach the Super Bowl: 33",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Youngest head coach to win the Super Bowl: 36",
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Sean McVay",
+  "sources": [
+    {
+      "title": "Sean McVay (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "head-coach",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Sean_McVay",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2017 and winner of Super Bowl LVI.",
+  "image": {
+    "file": "File:Sean McVay 2019 (cropped2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sean_McVay_2019_%28cropped2%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sean_McVay_2019_(cropped2).jpg",
+    "author": "The 621st Contingency Response Wing",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Sean McVay",
+    "caption": "Sean McVay",
+    "licenseChecked": "2026-11-05"
+  }
+}

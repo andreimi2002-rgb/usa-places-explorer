@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "tennessee-titans",
+  "name": "Houston Oilers",
+  "city": "houston",
+  "from": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+    "verified": "2026-11-06"
+  },
+  "to": 1996,
+  "current": false
+}

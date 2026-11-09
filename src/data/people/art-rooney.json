@@ -1,0 +1,54 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 27, 1901, Coulterville, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Art_Rooney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Super Bowl champion (IX, X, XIII, XIV)",
+      "source": "https://en.wikipedia.org/wiki/Art_Rooney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pittsburgh Steelers Hall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Art_Rooney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Art Rooney",
+  "sources": [
+    {
+      "title": "Art Rooney (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Art_Rooney",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "founder",
+      "from": 1933,
+      "to": 1988,
+      "source": "https://en.wikipedia.org/wiki/Art_Rooney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Founder and owner of the Steelers.",
+  "image": {
+    "file": "File:Rooney-Art-1934 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Rooney-Art-1934_%28cropped%29.jpg/1280px-Rooney-Art-1934_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rooney-Art-1934_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Art Rooney",
+    "caption": "Art Rooney",
+    "licenseChecked": "2026-11-05"
+  }
+}

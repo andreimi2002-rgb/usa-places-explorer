@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 14, 1973, Mount Olive, Mississippi, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2003)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2003)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2000, 2003, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2003)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Titans/Oilers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tennessee Titans No. 9 retired",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton Award (1994)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× SWAC Offensive Player of the Year (1991–1994)",
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Steve McNair",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Steve McNair (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 1995,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Steve_McNair",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XXXIV team and co-MVP in 2003.",
+  "image": {
+    "file": "File:Steve McNair 2007-08-10.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Steve_McNair_2007-08-10.jpg/1280px-Steve_McNair_2007-08-10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_McNair_2007-08-10.jpg",
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Steve McNair",
+    "caption": "Steve McNair",
+    "licenseChecked": "2026-11-05"
+  }
+}

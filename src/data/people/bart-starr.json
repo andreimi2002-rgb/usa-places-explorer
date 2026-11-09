@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 9, 1934, Montgomery, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "I (1966 season), II (1967 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (I, II)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Super Bowl MVP (I, II)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× NFL champion (1961, 1962, 1965–1967)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1966)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1966)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1961, 1962, 1964)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1960–1962, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL passer rating leader (1964, 1966, 1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bart Starr",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bart Starr (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 1956,
+      "to": 1971,
+      "source": "https://en.wikipedia.org/wiki/Bart_Starr",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of the first two Super Bowls.",
+  "image": {
+    "file": "File:Bart starr bw.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bart_starr_bw.jpg/1280px-Bart_starr_bw.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bart_starr_bw.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bart Starr",
+    "caption": "Bart Starr",
+    "licenseChecked": "2026-11-05"
+  }
+}

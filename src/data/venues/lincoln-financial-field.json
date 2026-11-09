@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Lincoln Financial Field",
+  "city": "philadelphia",
+  "opened": {
+    "value": "2003",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 69596,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "GrassMaster hybrid grass"
+    }
+  },
+  "summary": "The Eagles’ stadium in South Philadelphia since 2003.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Lincoln Financial Field, Philadelphia, 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lincoln_Financial_Field%2C_Philadelphia%2C_2024.jpg/1280px-Lincoln_Financial_Field%2C_Philadelphia%2C_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_2024.jpg",
+    "author": "JJonahJackalope",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lincoln Financial Field",
+    "caption": "Lincoln Financial Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 3, 1955, Springfield, Kentucky, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXI (1986 season), XXV (1990 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXI, XXV)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXI)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1993)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (1985, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jim Thorpe Trophy (1986)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NEA First-team All-Pro (1986)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1979)",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "New York Giants Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Phil Simms",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Phil Simms (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 1979,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Phil_Simms",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl XXI.",
+  "image": {
+    "file": "File:Phil Simms Feb 2019 3 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Phil_Simms_Feb_2019_3_%28cropped%29.jpg/1280px-Phil_Simms_Feb_2019_3_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Phil_Simms_Feb_2019_3_(cropped).jpg",
+    "author": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Phil Simms",
+    "caption": "Phil Simms",
+    "licenseChecked": "2026-11-05"
+  }
+}

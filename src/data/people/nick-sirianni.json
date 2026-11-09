@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 15, 1981, Jamestown, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× NCAA Division III champion (2000–2002)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl champion (LIX)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Nick Sirianni",
+  "sources": [
+    {
+      "title": "Nick Sirianni (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "head-coach",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Nick_Sirianni",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2021, champion in Super Bowl LIX.",
+  "image": {
+    "file": "File:Nick Sirianni in 2025 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Nick_Sirianni_in_2025_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nick_Sirianni_in_2025_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Nick Sirianni",
+    "caption": "Nick Sirianni",
+    "licenseChecked": "2026-11-05"
+  }
+}

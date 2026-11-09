@@ -1,0 +1,175 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Tampa Bay Buccaneers",
+  "division": "nfl-nfc-south",
+  "founded": {
+    "value": 1974,
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+    "verified": "2026-11-06",
+    "note": "Founded April 24, 1974, as an expansion team; first season 1976."
+  },
+  "firstSeason": {
+    "value": "1976",
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Glazer family, who also own Manchester United",
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Todd Bowles",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "raymond-james-stadium",
+      "from": 1998,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "lee-roy-selmon",
+    "derrick-brooks",
+    "warren-sapp",
+    "john-lynch",
+    "ronde-barber",
+    "mike-alstott",
+    "mike-evans",
+    "tom-brady",
+    "jon-gruden"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/tampa-bay-buccaneers/roster",
+    "players": [
+      {
+        "person": "baker-mayfield",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "tristan-wirfs",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "antoine-winfield-jr",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1974-04-24",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1976",
+      "label": "First season: 0–14",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1995",
+      "label": "The Glazer family buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1998",
+      "label": "Open Raymond James Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2003",
+      "label": "Win Super Bowl XXXVII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2020",
+      "label": "Sign Tom Brady",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2021",
+      "label": "Win Super Bowl LV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Todd Bowles becomes coach",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "From 26 straight defeats at the start to two Super Bowls, the second with Tom Brady in their own stadium.",
+  "sources": [
+    {
+      "title": "Tampa Bay Buccaneers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/TB.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/tampa-bay-buccaneers.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/TB.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Buccaneer red",
+        "hex": "#A71930"
+      },
+      {
+        "name": "Pewter",
+        "hex": "#322F2B"
+      },
+      {
+        "name": "Orange",
+        "hex": "#DC4405"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+    "verified": "2026-11-06"
+  }
+}

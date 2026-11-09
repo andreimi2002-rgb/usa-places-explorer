@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 3, 1945, Evansville, Indiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "VII (1972 season), VIII (1973 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (VII, VIII)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1971, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1970, 1971, 1973, 1974, 1977, 1978)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns leader (1977)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (1977)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (1978)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AFL All-Star (1967, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jim Thorpe Trophy (1971)",
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bob Griese",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bob Griese (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "miami-dolphins",
+      "role": "player",
+      "from": 1967,
+      "to": 1980,
+      "source": "https://en.wikipedia.org/wiki/Bob_Griese",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the two Super Bowl wins.",
+  "image": {
+    "file": "File:Bob Griese with soldier CROP.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bob_Griese_with_soldier_CROP.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob_Griese_with_soldier_CROP.jpg",
+    "author": "Bob_Griese_with_soldier.jpg: Staff Sgt. Jordan Jones derivative work: Delaywaves talk • contribs",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bob Griese",
+    "caption": "Bob Griese",
+    "licenseChecked": "2026-11-05"
+  }
+}

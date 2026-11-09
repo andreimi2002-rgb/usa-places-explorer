@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 25, 2000, Arkadelphia, Arkansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "William V. Campbell Trophy (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA completion percentage leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA passing touchdowns leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pac-12 Offensive Player of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-12 (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Freshman of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Completion percentage in a season: 77.45% (2023)",
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bo Nix",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Bo Nix (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Bo_Nix",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback drafted in 2024.",
+  "image": {
+    "file": "File:Bo Nix scramble.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bo_Nix_scramble.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Bo_Nix_scramble.png",
+    "author": "Tennessee Titans",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Bo Nix",
+    "caption": "Bo Nix",
+    "licenseChecked": "2026-11-05"
+  }
+}

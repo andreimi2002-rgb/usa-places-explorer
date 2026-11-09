@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 18, 1980, Wilson, North Carolina, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (2002)",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2004, 2006, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2008, 2009, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (2004–2006, 2008–2012, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2002)",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Carolina Panthers Hall of Honor",
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Julius Peppers",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Julius Peppers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2002,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "carolina-panthers",
+      "role": "player",
+      "from": 2017,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/Julius_Peppers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher, in two spells.",
+  "image": {
+    "file": "File:Julius Peppers (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Julius_Peppers_%28cropped%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Julius_Peppers_(cropped).JPG",
+    "author": "United States Marine Corps/Sgt. D.R. Cotton",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Julius Peppers",
+    "caption": "Julius Peppers",
+    "licenseChecked": "2026-11-05"
+  }
+}

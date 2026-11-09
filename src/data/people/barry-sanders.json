@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 16, 1968, Wichita, Kansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1997)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Offensive Player of the Year (1994, 1997)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1989)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× First-team All-Pro (1989–1991, 1994, 1995, 1997)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (1992, 1993, 1996, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (1989–1998)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL rushing yards leader (1990, 1994, 1996, 1997)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns leader (1991)",
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Barry Sanders",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Barry Sanders (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 1989,
+      "to": 1998,
+      "source": "https://en.wikipedia.org/wiki/Barry_Sanders",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 1997 MVP, who retired at his peak.",
+  "image": {
+    "file": "File:Barry Sanders 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Barry_Sanders_2019.jpg/1280px-Barry_Sanders_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Barry_Sanders_2019.jpg",
+    "author": "Greg2600",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Barry Sanders",
+    "caption": "Barry Sanders",
+    "licenseChecked": "2026-11-05"
+  }
+}

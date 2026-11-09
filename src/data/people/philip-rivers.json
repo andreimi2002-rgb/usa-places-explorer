@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 8, 1981, Decatur, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Comeback Player of the Year (2013)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2006, 2009–2011, 2013, 2016–2018)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (2010)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing touchdowns co-leader (2008)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (2008)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL completion percentage leader (2013)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "San Diego Chargers 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA passer rating leader (2003)",
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Philip Rivers",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Philip Rivers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2004,
+      "to": 2019,
+      "source": "https://en.wikipedia.org/wiki/Philip_Rivers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback for sixteen seasons.",
+  "image": {
+    "file": "File:Philip Rivers Indianapolis Colts Helmet.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Philip_Rivers_Indianapolis_Colts_Helmet.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philip_Rivers_Indianapolis_Colts_Helmet.jpg",
+    "author": "Behind Enemy Lines: Titans at Colts",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Philip Rivers",
+    "caption": "Philip Rivers",
+    "licenseChecked": "2026-11-05"
+  }
+}

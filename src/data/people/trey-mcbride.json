@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 22, 1999, Greeley, Colorado, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "John Mackey Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "MW Male Athlete of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-MW (2019, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-MW (2020)",
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Trey McBride",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Trey McBride (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Trey_McBride",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end and 2025 First-team All-Pro.",
+  "image": {
+    "file": "File:2024 FanDuel Interview Trey McBride (cropped).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2024_FanDuel_Interview_Trey_McBride_%28cropped%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_FanDuel_Interview_Trey_McBride_(cropped).png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Trey McBride",
+    "caption": "Trey McBride",
+    "licenseChecked": "2026-11-05"
+  }
+}

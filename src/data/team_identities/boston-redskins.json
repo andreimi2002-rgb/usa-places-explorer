@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Washington_Commanders",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "washington-commanders",
+  "name": "Boston Redskins",
+  "city": "boston",
+  "from": {
+    "value": 1933,
+    "source": "https://en.wikipedia.org/wiki/Washington_Commanders",
+    "verified": "2026-11-06"
+  },
+  "to": 1936,
+  "current": false
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 28, 1954, Tulsa, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Man of the Year (1988)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1983, 1985, 1987)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (1978, 1979, 1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1978, 1979, 1981, 1984–1987)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving yards leader (1979, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1980s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1976)",
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Steve Largent",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Steve Largent (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "player",
+      "from": 1976,
+      "to": 1989,
+      "source": "https://en.wikipedia.org/wiki/Steve_Largent",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and the club’s first Hall of Famer.",
+  "image": {
+    "file": "File:Stevelargent.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Stevelargent.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stevelargent.jpg",
+    "author": "United States House of Representatives",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Steve Largent",
+    "caption": "Steve Largent",
+    "licenseChecked": "2026-11-05"
+  }
+}

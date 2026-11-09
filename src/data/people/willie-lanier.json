@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 21, 1945, Clover, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IV (1969 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (IV)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× All-Pro (1968–1975)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1970–1975)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1972)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AFL All-Star (1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× All-AFL (1968, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 75th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Willie Lanier",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Willie Lanier (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 1967,
+      "to": 1977,
+      "source": "https://en.wikipedia.org/wiki/Willie_Lanier",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the Super Bowl IV team.",
+  "image": {
+    "file": "File:WillieLanierKC.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/WillieLanierKC.png",
+    "page": "https://commons.wikimedia.org/wiki/File:WillieLanierKC.png",
+    "author": "Hank Young",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Willie Lanier",
+    "caption": "Willie Lanier",
+    "licenseChecked": "2026-11-05"
+  }
+}

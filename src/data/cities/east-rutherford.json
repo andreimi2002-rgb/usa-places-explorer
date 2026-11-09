@@ -12,7 +12,8 @@
   "region": "New Jersey",
   "country": "United States",
   "timezone": "America/New_York",
-  "summary": "New Jersey home of the Nets in the NBA era before their move to Brooklyn.",
+  "metro": "New York metropolitan area",
+  "summary": "New Jersey home of MetLife Stadium, where the Giants and the Jets play, and once of the Nets.",
   "coordinates": {
     "value": {
       "lat": 40.834,
@@ -32,5 +33,6 @@
     "alt": "View of MetLife Stadium, East Rutherford",
     "caption": "MetLife Stadium, East Rutherford",
     "licenseChecked": "2026-11-05"
-  }
+  },
+  "hub": "new-york"
 }

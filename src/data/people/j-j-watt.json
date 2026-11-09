@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 22, 1989, Pewaukee, Wisconsin, U.S.",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× NFL Defensive Player of the Year (2012, 2014, 2015)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Payton NFL Man of the Year (2017)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (2012–2015, 2018)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2014, 2018)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (2012–2015, 2018)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL sacks leader (2012, 2015)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL forced fumbles co-leader (2018)",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "J. J. Watt",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "J. J. Watt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2011,
+      "to": 2020,
+      "source": "https://en.wikipedia.org/wiki/J._J._Watt",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive end, three times Defensive Player of the Year.",
+  "image": {
+    "file": "File:J.J. Watt 2018—2.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/J.J._Watt_2018%E2%80%942.JPG/1280px-J.J._Watt_2018%E2%80%942.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:J.J._Watt_2018%E2%80%942.JPG",
+    "author": "Denverjeffrey",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of J. J. Watt",
+    "caption": "J. J. Watt",
+    "licenseChecked": "2026-11-05"
+  }
+}

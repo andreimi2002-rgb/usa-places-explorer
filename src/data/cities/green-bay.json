@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Green Bay",
+  "region": "Wisconsin",
+  "country": "United States",
+  "timezone": "America/Chicago",
+  "coordinates": {
+    "value": {
+      "lat": 44.51916,
+      "lon": -88.01983
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Green%20Bay&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A small city on Lake Michigan’s Green Bay, home of the Packers since 1919.",
+  "image": {
+    "file": "File:Green Bay July 2024 062 (Green Bay Downtown Historic District).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_Bay_July_2024_062_%28Green_Bay_Downtown_Historic_District%29.jpg/1280px-Green_Bay_July_2024_062_%28Green_Bay_Downtown_Historic_District%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Bay_July_2024_062_(Green_Bay_Downtown_Historic_District).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Downtown Green Bay",
+    "caption": "Downtown Green Bay",
+    "licenseChecked": "2026-11-05"
+  }
+}

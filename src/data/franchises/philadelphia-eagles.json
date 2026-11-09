@@ -1,0 +1,163 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Philadelphia Eagles",
+  "division": "nfl-nfc-east",
+  "founded": {
+    "value": 1933,
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+    "verified": "2026-11-06",
+    "note": "Founded July 8, 1933."
+  },
+  "firstSeason": {
+    "value": "1933",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Jeffrey Lurie (since 1994)",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Nick Sirianni",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "nick-sirianni"
+  },
+  "venues": [
+    {
+      "venue": "lincoln-financial-field",
+      "from": 2003,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "chuck-bednarik",
+    "reggie-white",
+    "brian-dawkins",
+    "donovan-mcnabb"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/philadelphia-eagles/roster",
+    "players": [
+      {
+        "person": "jalen-hurts",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "saquon-barkley",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1933-07-08",
+      "label": "Founded",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1948",
+      "label": "Win the NFL championship (again in 1949 and 1960)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1994",
+      "label": "Jeffrey Lurie buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2003",
+      "label": "Move into Lincoln Financial Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "Win Super Bowl LII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025",
+      "label": "Win Super Bowl LIX",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Philadelphia’s team since 1933: three NFL titles before the Super Bowl era, then Super Bowls LII and LIX.",
+  "sources": [
+    {
+      "title": "Philadelphia Eagles (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/PHI.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/philadelphia-eagles.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/PHI.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Midnight green",
+        "hex": "#004851"
+      },
+      {
+        "name": "Silver",
+        "hex": "#A2AAAD"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+    "verified": "2026-11-06"
+  },
+  "image": {
+    "file": "File:Lincoln Financial Field, Philadelphia, 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lincoln_Financial_Field%2C_Philadelphia%2C_2024.jpg/1280px-Lincoln_Financial_Field%2C_Philadelphia%2C_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field,_Philadelphia,_2024.jpg",
+    "author": "JJonahJackalope",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "View of Lincoln Financial Field",
+    "caption": "Lincoln Financial Field",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 5, 1989, Westlake, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LIV (2019 season), LVII (2022 season), LVIII (2023 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (LIV, LVII, LVIII)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2016, 2018, 2020, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2017, 2019, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "11× Pro Bowl (2015–2025)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big East (2012)",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Career postseason receptions: 178",
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Travis Kelce",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Travis Kelce (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 2013,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end and Mahomes’s favourite target, a Chief since 2013.",
+  "image": {
+    "file": "File:Travis Kelce in the Oval Office of the White House on June 5, 2023 - P20230605AS-0902 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5%2C_2023_-_P20230605AS-0902_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5,_2023_-_P20230605AS-0902_(cropped).jpg",
+    "author": "Adam Schultz",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Travis Kelce",
+    "caption": "Travis Kelce",
+    "licenseChecked": "2026-11-05"
+  }
+}

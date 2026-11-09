@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 29, 1955, Tyler, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1979)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Offensive Player of the Year (1978–1980)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1978)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1978–1980)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1978–1981, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Joe F. Carr Trophy (1978)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL rushing yards leader (1978–1980)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (1979, 1980)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Earl Campbell",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Earl Campbell (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tennessee-titans",
+      "role": "player",
+      "from": 1978,
+      "to": 1984,
+      "source": "https://en.wikipedia.org/wiki/Earl_Campbell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back of the Houston Oilers and 1979 MVP.",
+  "image": {
+    "file": "File:Earl campbell shaggybevo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Earl_campbell_shaggybevo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Earl_campbell_shaggybevo.jpg",
+    "author": "TankedBevo of ShaggyBevo.com",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "alt": "Photo of Earl Campbell",
+    "caption": "Earl Campbell",
+    "licenseChecked": "2026-11-05"
+  }
+}

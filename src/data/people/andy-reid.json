@@ -1,0 +1,82 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 19, 1958, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× Super Bowl champion (LIV, LVII, LVIII)",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP NFL Coach of the Year (2002)",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Sporting News Coach of the Year (2000, 2002, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Football Weekly Coach of the Year (2002)",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Greasy Neale Award (2000, 2002, 2010, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Philadelphia Eagles 75th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Andy Reid",
+  "sources": [
+    {
+      "title": "Andy Reid (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-eagles",
+      "role": "head-coach",
+      "from": 1999,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "head-coach",
+      "from": 2013,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Andy_Reid",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2013, winner of three Super Bowls in Kansas City.",
+  "image": {
+    "file": "File:Andy Reid (Kansas City Chiefs at Washington Football Team, October 17, 2021) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Andy_Reid_%28Kansas_City_Chiefs_at_Washington_Football_Team%2C_October_17%2C_2021%29_%28cropped%29.jpg/1280px-Andy_Reid_%28Kansas_City_Chiefs_at_Washington_Football_Team%2C_October_17%2C_2021%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Andy_Reid_(Kansas_City_Chiefs_at_Washington_Football_Team,_October_17,_2021)_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Andy Reid",
+    "caption": "Andy Reid",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Allegiant Stadium",
+  "city": "las-vegas",
+  "opened": {
+    "value": "2020",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 66000,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "dome",
+      "surface": "Bermuda grass"
+    }
+  },
+  "summary": "The Raiders’ domed stadium off the Las Vegas Strip since 2020.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:2022 Las Vegas Bowl Allegiant Stadium.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2022_Las_Vegas_Bowl_Allegiant_Stadium.jpg/1280px-2022_Las_Vegas_Bowl_Allegiant_Stadium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_Las_Vegas_Bowl_Allegiant_Stadium.jpg",
+    "author": "Frogis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Inside Allegiant Stadium",
+    "caption": "Inside Allegiant Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

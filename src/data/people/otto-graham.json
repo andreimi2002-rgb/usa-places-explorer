@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 6, 1921, Waukegan, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× NFL champion (1950, 1954, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× AAFC champion (1946–1949)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Most Valuable Player (1951, 1953, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× AAFC Most Valuable Player (1947, 1948)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (1951, 1953–1955)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-AAFC (1947–1949)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1950, 1952)",
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Otto Graham",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Otto Graham (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "player",
+      "from": 1946,
+      "to": 1955,
+      "source": "https://en.wikipedia.org/wiki/Otto_Graham",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of ten finals in ten seasons.",
+  "image": {
+    "file": "File:A_photo_of_Otto_Graham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/A_photo_of_Otto_Graham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_photo_of_Otto_Graham.jpg",
+    "author": "United States Coast Guard photo",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Otto Graham",
+    "caption": "Otto Graham",
+    "licenseChecked": "2026-11-05"
+  }
+}

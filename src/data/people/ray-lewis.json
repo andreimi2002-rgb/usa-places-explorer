@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 15, 1975, Bartow, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXV (2000 season), XLVII (2012 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXXV, XLVII)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XXXV)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL Defensive Player of the Year (2000, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× First-team All-Pro (1999–2001, 2003, 2004, 2008, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1997, 1998, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "13× Pro Bowl (1997–2001, 2003, 2004, 2006–2011)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL solo tackles leader (1997, 1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL combined tackles leader (1997, 1999, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ray Lewis",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ray Lewis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 1996,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Ray_Lewis",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and MVP of Super Bowl XXXV.",
+  "image": {
+    "file": "File:Ray Lewis 2015 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ray_Lewis_2015_%28cropped%29.jpg/1280px-Ray_Lewis_2015_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ray_Lewis_2015_(cropped).jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ray Lewis",
+    "caption": "Ray Lewis",
+    "licenseChecked": "2026-11-05"
+  }
+}

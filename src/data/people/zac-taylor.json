@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 10, 1983, Norman, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Big 12 Offensive Player of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Big 12 (2006)",
+      "source": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Zac Taylor",
+  "sources": [
+    {
+      "title": "Zac Taylor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "head-coach",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Zac_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2019.",
+  "image": {
+    "file": "File:Zac Taylor 2019.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Zac_Taylor_2019.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zac_Taylor_2019.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Zac Taylor",
+    "caption": "Zac Taylor",
+    "licenseChecked": "2026-11-05"
+  }
+}

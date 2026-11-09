@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "indianapolis-colts",
+  "name": "Baltimore Colts",
+  "city": "baltimore",
+  "from": {
+    "value": 1953,
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+    "verified": "2026-11-06"
+  },
+  "to": 1983,
+  "current": false
+}

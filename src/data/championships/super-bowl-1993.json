@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "league": "nfl",
+  "season": "1993",
+  "level": "league",
+  "title": "Super Bowl XXVIII",
+  "winner": "dallas-cowboys",
+  "runnerUp": "buffalo-bills",
+  "winnerName": "Dallas Cowboys",
+  "runnerUpName": "Buffalo Bills",
+  "result": "30–13",
+  "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+  "verified": "2026-11-06"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 19, 1999, Salem, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2021)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (2021, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing yards leader (2021)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (2021, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Bert Bell Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2020)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Doak Walker Award (2018, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Unanimous All-American (2018, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jonathan Taylor",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jonathan Taylor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jonathan_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and three-time Pro Bowl pick.",
+  "image": {
+    "file": "File:Jonathan Taylor.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Jonathan_Taylor.jpg/1280px-Jonathan_Taylor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Taylor.jpg",
+    "author": "Brady Klain",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jonathan Taylor",
+    "caption": "Jonathan Taylor",
+    "licenseChecked": "2026-11-05"
+  }
+}

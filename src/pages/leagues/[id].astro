@@ -85,6 +85,7 @@ const Body = body ? (await render(body)).Content : undefined;
                     </a>
                   </li>
                 ))}
+                {teams.length === 0 && <li class="subtle">Teams coming soon</li>}
               </ul>
             </div>
           ))}

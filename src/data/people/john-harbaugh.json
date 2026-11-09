@@ -1,0 +1,72 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 23, 1962, Toledo, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVII)",
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP NFL Coach of the Year (2019)",
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Greasy Neale Award (2019)",
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most road playoff wins: 8",
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "John Harbaugh",
+  "sources": [
+    {
+      "title": "John Harbaugh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "head-coach",
+      "from": 2008,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "new-york-giants",
+      "role": "head-coach",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/John_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach of the Giants since 2026, after 18 seasons with Baltimore and a win in Super Bowl XLVII.",
+  "image": {
+    "file": "File:John Harbaugh (52093585046) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/John_Harbaugh_%2852093585046%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Harbaugh_(52093585046)_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of John Harbaugh",
+    "caption": "John Harbaugh",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 23, 1963, Toledo, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Indianapolis Colts Ring of Honor (2005)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (1997)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Comeback Player of the Year (1995)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (1995)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passer rating leader (1995)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Chic Harley Award (1986)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-American (1986)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA passer rating leader (1985)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jim Harbaugh",
+  "sources": [
+    {
+      "title": "Jim Harbaugh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 1999,
+      "to": 2000,
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "head-coach",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jim_Harbaugh",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Head coach since 2024, who played quarterback for the Chargers in 1999 and 2000.",
+  "image": {
+    "file": "File:Jim Harbaugh (Michigan Wolverines football coach) during Sept. 29, 2018 game against Northwestern Wildcats at Ryan Field (441201710451).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jim_Harbaugh_%28Michigan_Wolverines_football_coach%29_during_Sept._29%2C_2018_game_against_Northwestern_Wildcats_at_Ryan_Field_%28441201710451%29.jpg/1280px-Jim_Harbaugh_%28Michigan_Wolverines_football_coach%29_during_Sept._29%2C_2018_game_against_Northwestern_Wildcats_at_Ryan_Field_%28441201710451%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jim_Harbaugh_(Michigan_Wolverines_football_coach)_during_Sept._29,_2018_game_against_Northwestern_Wildcats_at_Ryan_Field_(441201710451).jpg",
+    "author": "Maize & Blue Nation",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Jim Harbaugh",
+    "caption": "Jim Harbaugh",
+    "licenseChecked": "2026-11-05"
+  }
+}

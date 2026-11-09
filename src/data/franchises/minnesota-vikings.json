@@ -1,0 +1,160 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Minnesota Vikings",
+  "division": "nfl-nfc-north",
+  "founded": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+    "verified": "2026-11-06",
+    "note": "Founded January 28, 1960, as an NFL expansion team; first season 1961."
+  },
+  "firstSeason": {
+    "value": "1961",
+    "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Wilf family (Zygi Wilf), who also own Orlando City SC",
+    "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Kevin O’Connell",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "us-bank-stadium",
+      "from": 2016,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "fran-tarkenton",
+    "alan-page",
+    "carl-eller",
+    "cris-carter",
+    "randy-moss",
+    "adrian-peterson",
+    "bud-grant"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/minnesota-vikings/roster",
+    "players": [
+      {
+        "person": "justin-jefferson",
+        "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "kyler-murray",
+        "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "brian-oneill",
+        "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1960-01-28",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1967",
+      "label": "Hire Bud Grant",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1969",
+      "label": "Win the NFL championship, the last before the merger",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1982",
+      "label": "Move into the Metrodome",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2016",
+      "label": "Open U.S. Bank Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2022",
+      "label": "Hire Kevin O’Connell",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Purple and gold, Scandinavian-inspired, and one of the NFL’s most successful teams without a Super Bowl: four finals, four defeats.",
+  "sources": [
+    {
+      "title": "Minnesota Vikings (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Orlando City SC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Orlando_City_SC",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/MIN.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/minnesota-vikings.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/MIN.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Purple",
+        "hex": "#4F2683"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFC62F"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 21, 1985, Palestine, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (2012)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (2012)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (2007)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2008, 2009, 2012, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2007, 2010, 2013)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2007–2010, 2012, 2013, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL rushing yards leader (2008, 2012, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL rushing touchdowns leader (2009, 2015)",
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Adrian Peterson",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Adrian Peterson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 2007,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Adrian_Peterson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 2012 MVP.",
+  "image": {
+    "file": "File:Adrian Peterson 2026 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Adrian_Peterson_2026_%28cropped%29.jpg/1280px-Adrian_Peterson_2026_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adrian_Peterson_2026_(cropped).jpg",
+    "author": "2C2K Photography",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Adrian Peterson",
+    "caption": "Adrian Peterson",
+    "licenseChecked": "2026-11-05"
+  }
+}

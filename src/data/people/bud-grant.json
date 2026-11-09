@@ -1,0 +1,87 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 20, 1927, Superior, Wisconsin, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× Grey Cup champion (1958, 1959, 1961, 1962)",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL champion (1969)",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Coach of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFL Coach of the Year ()",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Minnesota Vikings Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "50 Greatest Vikings",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Minnesota Vikings 25th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Bud Grant",
+  "sources": [
+    {
+      "title": "Bud Grant (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "head-coach",
+      "from": 1967,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "minnesota-vikings",
+      "role": "head-coach",
+      "from": 1985,
+      "to": 1985,
+      "source": "https://en.wikipedia.org/wiki/Bud_Grant",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach who took the Vikings to four Super Bowls.",
+  "image": {
+    "file": "File:Bud Grant 1968.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bud_Grant_1968.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bud_Grant_1968.jpg",
+    "author": "The Gazette Company",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bud Grant",
+    "caption": "Bud Grant",
+    "licenseChecked": "2026-11-05"
+  }
+}

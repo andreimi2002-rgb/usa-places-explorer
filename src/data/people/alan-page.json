@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 7, 1945, Canton, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL champion (1969)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1971)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (1971)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (1970, 1971, 1973–1975)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1969, 1972, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (1968–1976)",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1970s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Alan Page",
+  "position": {
+    "value": "Defensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Alan_Page",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Alan Page (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alan_Page",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1967,
+      "to": 1978,
+      "source": "https://en.wikipedia.org/wiki/Alan_Page",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Defensive tackle, the first defender named league MVP, in 1971.",
+  "image": {
+    "file": "File:Alan Page 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Alan_Page_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alan_Page_2009.jpg",
+    "author": "VocalEssence Ensemble Singers",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Alan Page",
+    "caption": "Alan Page",
+    "licenseChecked": "2026-11-05"
+  }
+}

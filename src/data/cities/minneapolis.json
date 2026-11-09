@@ -12,6 +12,7 @@
   "region": "Minnesota",
   "country": "United States",
   "timezone": "America/Chicago",
+  "metro": "Minneapolis–Saint Paul",
   "coordinates": {
     "value": {
       "lat": 44.98,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5037649: Minneapolis, Minnesota"
   },
-  "summary": "Home of the Timberwolves since 1989, and of the Lakers from 1947 to 1960.",
+  "summary": "Home of the Vikings since 1961 and the Timberwolves since 1989, and once of the Lakers; Minnesota United play in Saint Paul.",
   "image": {
     "file": "File:2008-0712-MPLS-panorama.JPG",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2008-0712-MPLS-panorama.JPG/960px-2008-0712-MPLS-panorama.JPG",

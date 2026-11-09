@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "kansas-city-chiefs",
+  "name": "Dallas Texans",
+  "city": "dallas",
+  "from": {
+    "value": 1960,
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+    "verified": "2026-11-06"
+  },
+  "to": 1962,
+  "current": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "franchise": "detroit-lions",
+  "name": "Portsmouth Spartans",
+  "city": "portsmouth-oh",
+  "from": {
+    "value": 1930,
+    "source": "https://en.wikipedia.org/wiki/Detroit_Lions",
+    "verified": "2026-11-06"
+  },
+  "to": 1933,
+  "current": false
+}

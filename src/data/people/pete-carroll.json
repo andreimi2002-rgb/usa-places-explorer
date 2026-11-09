@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 15, 1951, San Francisco, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVIII)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× national champion (2003, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pac-10 champion (2002–2008)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Home Depot Coach of the Year Award (2003)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFCA Coach of the Year Award (2003)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Munger Award (2003)",
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Pete Carroll",
+  "sources": [
+    {
+      "title": "Pete Carroll (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "seattle-seahawks",
+      "role": "head-coach",
+      "from": 2010,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Pete_Carroll",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 2010 to 2023 and winner of Super Bowl XLVIII.",
+  "image": {
+    "file": "File:Pete Carroll, Sept. 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pete_Carroll%2C_Sept._2025.jpg/1280px-Pete_Carroll%2C_Sept._2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pete_Carroll,_Sept._2025.jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Pete Carroll",
+    "caption": "Pete Carroll",
+    "licenseChecked": "2026-11-05"
+  }
+}

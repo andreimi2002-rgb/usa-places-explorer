@@ -7,6 +7,7 @@
  */
 import { getCollection, render } from 'astro:content';
 import { thumb } from '../../lib/images';
+import { readableTeamColor } from '../../lib/colors';
 import EntityHeader from '../../components/EntityHeader.astro';
 import EuropeBox from '../../components/EuropeBox.astro';
 import FactBox from '../../components/FactBox.astro';
@@ -29,7 +30,6 @@ const { city } = Astro.props;
 const d = city.data;
 
 const allIdentities = await getCollection('team_identities');
-const here = allIdentities.filter((i) => i.data.city.id === city.id);
 const franchises = new Map((await getCollection('franchises')).map((f) => [f.id, f]));
 const leagues = new Map((await getCollection('leagues')).map((l) => [l.id, l]));
 const sports = new Map((await getCollection('sports')).map((s) => [s.id, s]));
@@ -37,26 +37,31 @@ const cities = new Map((await getCollection('cities')).map((c) => [c.id, c]));
 const venuesAll = await getCollection('venues');
 const championships = (await getCollection('championships', (c) => c.data.level === 'league' && Boolean(c.data.verified) && Boolean(c.data.winner)));
 
+// A main city's page covers its whole area: the city itself plus the suburbs and stadium towns that name it
+// as their hub (Frisco and Arlington for Dallas, Miami Gardens for Miami...). A suburb's page covers itself.
+const hub = d.hub ? cities.get(d.hub.id) : undefined;
+const satellites = [...cities.values()].filter((c) => c.data.hub?.id === city.id).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const area = new Set([city.id, ...satellites.map((c) => c.id)]);
+const here = allIdentities.filter((i) => area.has(i.data.city.id));
+
 /** The calendar year a season ends in: "1994-95" -> 1995, "2025" -> 2025. */
 const endYear = (season: string) => Number(season.slice(0, 4)) + (season.length > 4 ? 1 : 0);
-function titlesHere(franchiseId: string) {
-  // A title counts here when the team's name that season matches an identity in this city,
-  // and (when the identity's start year is known) the season falls inside its years.
-  const ids = here.filter((i) => i.data.franchise.id === franchiseId);
+/** Titles won under these identities: the winner's name that season matches, and the season falls inside its years. */
+function titlesOf(ids: typeof here) {
   return championships
-    .filter(
-      (c) =>
-        c.data.winner!.id === franchiseId &&
-        ids.some(
-          (i) =>
-            i.data.name.replace(/ \(.*\)$/, '') === c.data.winnerName &&
-            Number(c.data.season.slice(0, 4)) >= (i.data.from?.value ?? 0) &&
-            endYear(c.data.season) <= (i.data.to ?? 9999),
-        ),
+    .filter((c) =>
+      ids.some(
+        (i) =>
+          c.data.winner!.id === i.data.franchise.id &&
+          i.data.name.replace(/ \(.*\)$/, '') === c.data.winnerName &&
+          Number(c.data.season.slice(0, 4)) >= (i.data.from?.value ?? 0) &&
+          endYear(c.data.season) <= (i.data.to ?? 9999),
+      ),
     )
     .map((c) => endYear(c.data.season))
     .sort();
 }
+const titlesHere = (franchiseId: string) => titlesOf(here.filter((i) => i.data.franchise.id === franchiseId));
 
 // Current teams, grouped by sport, then league.
 const currentIds = [...new Set(here.filter((i) => i.data.current).map((i) => i.data.franchise.id))];
@@ -76,19 +81,29 @@ for (const f of current) {
   bySport.set(sportId, group);
 }
 
-// Teams that played here and moved (or folded).
-const former = here
+// Past identities. A franchise still in the area only changed its name (or moved within the area);
+// the others left. The next identity starts the year this one ends, or the year after.
+const pastRows = here
   .filter((i) => i.data.to !== null)
   .map((i) => {
     const f = franchises.get(i.data.franchise.id)!;
-    const next = allIdentities.find((o) => o.data.franchise.id === f.id && (o.data.from?.value ?? 0) === i.data.to);
-    return { i, f, nextCity: next ? cities.get(next.data.city.id) : undefined, nextName: next?.data.name, titles: titlesHere(f.id) };
+    const next = allIdentities
+      .filter((o) => o.data.franchise.id === f.id && o.id !== i.id && [i.data.to, i.data.to! + 1].includes(o.data.from?.value ?? -1))
+      .sort((a, b) => (a.data.from?.value ?? 0) - (b.data.from?.value ?? 0))[0];
+    return { i, f, nextCity: next ? cities.get(next.data.city.id) : undefined, nextName: next?.data.name, titles: titlesOf([i]) };
   })
   .sort((a, b) => (a.i.data.from?.value ?? 0) - (b.i.data.from?.value ?? 0));
+const former = pastRows.filter((r) => !currentIds.includes(r.f.id));
+const earlier = pastRows.filter((r) => currentIds.includes(r.f.id));
+const formerFranchises = new Set(former.map((r) => r.f.id));
 
-const venues = venuesAll.filter((v) => v.data.city.id === city.id);
+const venues = venuesAll
+  .filter((v) => area.has(v.data.city.id))
+  .sort((a, b) => Number(a.data.status === 'historical') - Number(b.data.status === 'historical') || a.data.name.localeCompare(b.data.name));
 const rivalries = await getCollection('rivalries', (r) => r.data.franchises.some((f) => currentIds.includes(f.id)));
-const neighbours = d.metro ? [...cities.values()].filter((c) => c.id !== city.id && c.data.metro === d.metro) : [];
+const neighbours = [...cities.values()]
+  .filter((c) => c.id !== city.id && !area.has(c.id) && c.id !== hub?.id && d.metro && c.data.metro === d.metro)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const totalTitles = [...new Set(here.map((i) => i.data.franchise.id))].reduce((n, id) => n + titlesHere(id).length, 0);
 const leagueCount = new Set(current.map((f) => f.data.league.id)).size;
@@ -111,18 +126,21 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
   />
 
   <div class="container section">
-    <ul class="stats" aria-label="At a glance">
+    {(current.length > 0 || formerFranchises.size > 0) && <ul class="stats" aria-label="At a glance">
       <li><strong>{current.length}</strong><span>{current.length === 1 ? 'team today' : 'teams today'}</span></li>
-      <li><strong>{leagueCount}</strong><span>{leagueCount === 1 ? 'league' : 'leagues'}</span></li>
-      <li><strong>{totalTitles}</strong><span>league titles won here</span></li>
-      {former.length > 0 && <li><strong>{former.length}</strong><span>{former.length === 1 ? 'former team' : 'former teams'}</span></li>}
-    </ul>
-    <p class="subtle small">Counted from the leagues covered so far. More sports are on the way.</p>
+      {leagueCount > 0 && <li><strong>{leagueCount}</strong><span>{leagueCount === 1 ? 'league' : 'leagues'}</span></li>}
+      <li><strong>{totalTitles}</strong><span>{totalTitles === 1 ? 'league title won here' : 'league titles won here'}</span></li>
+      {formerFranchises.size > 0 && <li><strong>{formerFranchises.size}</strong><span>{formerFranchises.size === 1 ? 'former team' : 'former teams'}</span></li>}
+    </ul>}
+    {(current.length > 0 || formerFranchises.size > 0) && <p class="subtle small">Counted from the leagues covered so far{satellites.length > 0 ? `, for ${d.name} and the towns of its area (${satellites.map((c) => c.data.name).join(', ')})` : ''}. More sports are on the way.</p>}
+    {hub && (
+      <p class="hub-note">{d.name === hub.data.name ? `${d.name}, ${d.region},` : d.name} is part of the <a href={routes.cities(hub.id)}>{d.name === hub.data.name ? `${hub.data.name}, ${hub.data.region}` : hub.data.name}</a> area. That page lists all the area's teams and venues.</p>
+    )}
   </div>
 
   {bySport.size > 0 && (
     <section class="container section" aria-labelledby="teams-title">
-      <div class="section-head"><h2 id="teams-title">Teams in {d.name} today</h2></div>
+      <div class="section-head"><h2 id="teams-title">{satellites.length > 0 ? `Teams in the ${d.name} area today` : `Teams in ${d.name} today`}</h2></div>
       {[...bySport.values()].map((g) => (
         <div class="sport">
           <h3>{g.sport}</h3>
@@ -132,13 +150,13 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
                 const v = venueOf(f);
                 const t = titlesHere(f.id);
                 return (
-                  <li style={f.data.colors?.verified ? `--team-1:${f.data.colors.value[0].hex}` : undefined}>
+                  <li style={f.data.colors?.verified ? `--team-1:${f.data.colors.value[0].hex}; --team-ink:${readableTeamColor(f.data.colors.value.map((x) => x.hex))}` : undefined}>
                     <a href={routes.franchises(f.id)}>
                       <Logo logo={f.data.logo} name={f.data.name} size={56} />
                       <span class="team-text">
                         <span class="eyebrow">{lg.league}</span>
                         <strong>{f.data.name}</strong>
-                        <span class="subtle">{[v?.data.name, `${t.length} ${t.length === 1 ? 'title' : 'titles'} here`].filter(Boolean).join(' · ')}</span>
+                        <span class="subtle">{[v && (v.data.city.id === city.id ? v.data.name : `${v.data.name}, ${cities.get(v.data.city.id)?.data.name}`), `${t.length} ${t.length === 1 ? 'title' : 'titles'} here`].filter(Boolean).join(' · ')}</span>
                       </span>
                     </a>
                   </li>
@@ -160,7 +178,7 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
       {former.length > 0 && (
         <section class="mt" aria-labelledby="former-title">
           <h2 id="former-title">Teams that left</h2>
-          <p class="muted">Clubs that played here and then moved or changed their name. Their history continues on the franchise page.</p>
+          <p class="muted">Clubs that played here and then moved away. Their history continues on the franchise page.</p>
           <ul class="former">
             {former.map(({ i, f, nextCity, nextName, titles }) => (
               <li>
@@ -168,6 +186,23 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
                 <span class="subtle"> · {i.data.from?.value ?? '?'}–{i.data.to}</span>
                 {nextCity && <span> · then {nextName} in <a href={routes.cities(nextCity.id)}>{nextCity.data.name}</a></span>}
                 {titles.length > 0 && <span class="subtle"> · titles here: {titles.join(', ')}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {earlier.length > 0 && (
+        <section class="mt" aria-labelledby="earlier-title">
+          <h2 id="earlier-title">Earlier names</h2>
+          <p class="muted">Today's teams, under the names they used before.</p>
+          <ul class="former">
+            {earlier.map(({ i, f, nextCity, nextName, titles }) => (
+              <li>
+                <strong>{i.data.name}</strong>
+                <span class="subtle"> · {i.data.from?.value ?? '?'}–{i.data.to}</span>
+                {nextName && <span> · then <a href={routes.franchises(f.id)}>{nextName}</a>{nextCity && nextCity.id !== i.data.city.id && <span> in <a href={routes.cities(nextCity.id)}>{nextCity.data.name}</a></span>}</span>}
+                {titles.length > 0 && <span class="subtle"> · titles: {titles.join(', ')}</span>}
               </li>
             ))}
           </ul>
@@ -182,7 +217,7 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
               <li>
                 <a href={routes.venues(v.id)}>
                   {v.data.image && <img src={thumb(v.data.image.url, 500)} alt="" loading="lazy" />}
-                  <span><strong>{v.data.name}</strong>{v.data.status === 'historical' && <span class="subtle"> (historical)</span>}</span>
+                  <span><strong>{v.data.name}</strong>{v.data.city.id !== city.id && <span class="subtle"> · {cities.get(v.data.city.id)?.data.name}</span>}{v.data.status === 'historical' && <span class="subtle"> (historical)</span>}</span>
                 </a>
               </li>
             ))}
@@ -194,6 +229,13 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
         <section class="mt" aria-labelledby="rivalries-title">
           <h2 id="rivalries-title">Rivalries</h2>
           <ul>{rivalries.map((r) => <li><a href={routes.rivalries(r.id)}>{r.data.name}</a> <span class="muted">{r.data.summary}</span></li>)}</ul>
+        </section>
+      )}
+
+      {satellites.length > 0 && (
+        <section class="mt" aria-labelledby="area-title">
+          <h2 id="area-title">Towns in the {d.name} area</h2>
+          <ul>{satellites.map((c) => <li><a href={routes.cities(c.id)}>{c.data.name}</a>{c.data.summary && <span class="muted"> · {c.data.summary}</span>}</li>)}</ul>
         </section>
       )}
 
@@ -275,14 +317,14 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
     gap: 1rem;
     padding: 1rem;
     border: 1px solid var(--line);
-    border-left: 5px solid var(--team-1);
+    border-left: 5px solid var(--team-ink, var(--team-1));
     border-radius: var(--radius-lg);
     background: var(--bg-raised);
     color: var(--text);
     text-decoration: none;
   }
   .teams a:hover {
-    border-color: var(--team-1);
+    border-color: var(--team-ink, var(--team-1));
   }
   .team-text {
     display: grid;
@@ -325,5 +367,12 @@ const sources = [...d.sources, ...(d.coordinates ? [{ title: 'Coordinates: Open-
   }
   .mt {
     margin-top: 2rem;
+  }
+  .hub-note {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--accent);
+    background: var(--bg-raised);
+    border-radius: var(--radius-lg);
   }
 </style>

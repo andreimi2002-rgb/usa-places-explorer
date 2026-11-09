@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 17, 1970, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLIV)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Pro Bowl (1996, 1997, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL passing yards leader (1996)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Jaguars",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "National champion (1991)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pac-10 (1990, 1992)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rose Bowl MVP (1991)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Rose Bowl Hall of Fame (2015)",
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Mark Brunell",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mark Brunell (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 1995,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Mark_Brunell",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the early playoff teams.",
+  "image": {
+    "file": "File:Brunell8.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Brunell8.jpg/1280px-Brunell8.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brunell8.jpg",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mark Brunell",
+    "caption": "Mark Brunell",
+    "licenseChecked": "2026-11-05"
+  }
+}

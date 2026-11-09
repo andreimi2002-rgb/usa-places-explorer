@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 9, 2000, Plymouth, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-Pro (2025)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2022)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Ted Hendricks Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lombardi Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lott Trophy (2021)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big Ten Most Valuable Player (2021)",
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Aidan Hutchinson",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Aidan Hutchinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher from Michigan, drafted in 2022.",
+  "image": {
+    "file": "File:Aidan Hutchinson.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aidan_Hutchinson.jpg/1280px-Aidan_Hutchinson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aidan_Hutchinson.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Aidan Hutchinson",
+    "caption": "Aidan Hutchinson",
+    "licenseChecked": "2026-11-05"
+  }
+}

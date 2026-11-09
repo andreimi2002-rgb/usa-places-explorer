@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 4, 1959, Williamsburg, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXI (1986 season), XXV (1990 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (XXI, XXV)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1986)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Defensive Player of the Year (1981, 1982, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (1981)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× UPI NFC Player of the Year (1983, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (1981–1986, 1988, 1989)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1987, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (1981–1990)",
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Lawrence Taylor",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Lawrence Taylor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-giants",
+      "role": "player",
+      "from": 1981,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and 1986 MVP, one of the greatest defenders ever.",
+  "image": {
+    "file": "File:Lawrence Taylor in 2025 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lawrence_Taylor_in_2025_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lawrence_Taylor_in_2025_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Lawrence Taylor",
+    "caption": "Lawrence Taylor",
+    "licenseChecked": "2026-11-05"
+  }
+}

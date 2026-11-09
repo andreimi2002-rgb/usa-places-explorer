@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 1, 2003, Boston, Massachusetts, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "CFP national champion (2025)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP National Championship Game Offensive MVP (2025)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2025)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Fernando Mendoza",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Fernando Mendoza (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Fernando_Mendoza",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, Heisman Trophy winner and the first pick of the 2026 draft.",
+  "image": {
+    "file": "File:2026-0117 Fernando Mendoza.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2026-0117_Fernando_Mendoza.jpeg/1280px-2026-0117_Fernando_Mendoza.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026-0117_Fernando_Mendoza.jpeg",
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Fernando Mendoza",
+    "caption": "Fernando Mendoza",
+    "licenseChecked": "2026-11-05"
+  }
+}

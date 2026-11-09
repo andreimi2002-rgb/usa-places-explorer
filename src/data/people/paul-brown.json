@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 7, 1908, Norwalk, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× NFL champion (1950, 1954, 1955)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× AAFC champion (1946–1949)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP NFL Coach of the Year (1970)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× UPI NFL Coach of the Year (1957, 1969, 1970)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP AFL Coach of the Year (1969)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× The Sporting News Coach of the Year (1949, 1951, 1953)",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Cleveland Browns Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Paul Brown",
+  "sources": [
+    {
+      "title": "Paul Brown (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cleveland-browns",
+      "role": "head-coach",
+      "from": 1946,
+      "to": 1962,
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "founder",
+      "from": 1967,
+      "to": 1991,
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "head-coach",
+      "from": 1968,
+      "to": 1975,
+      "source": "https://en.wikipedia.org/wiki/Paul_Brown",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Founder of two clubs: coach of the Browns, then founder and coach of the Bengals.",
+  "image": {
+    "file": "File:Paul Brown, American football head coach.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Paul_Brown%2C_American_football_head_coach.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Brown,_American_football_head_coach.png",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Paul Brown",
+    "caption": "Paul Brown",
+    "licenseChecked": "2026-11-05"
+  }
+}

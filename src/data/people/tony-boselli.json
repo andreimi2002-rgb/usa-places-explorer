@@ -1,0 +1,73 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 17, 1972, Modesto, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× First-team All-Pro (1997–1999)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1996–2000)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (1995)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Jaguars",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Jacksonville Jaguars No. 71 retired",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (1994)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tony Boselli",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tony Boselli (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 1995,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Tony_Boselli",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tackle, the club’s first draft pick and first Hall of Famer."
+}

@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 21, 1993, Galveston, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "LV (2020 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (LV)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2016, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2016, 2018, 2019, 2021, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving touchdowns co-leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2014)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Consensus All-American (2013)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-SEC (2013)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Mike Evans",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mike Evans (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 2014,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver from 2014 to 2025, record holder for straight 1,000-yard seasons from the start of a career.",
+  "image": {
+    "file": "File:WFT vs. Buccaneers (51685960398) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/WFT_vs._Buccaneers_%2851685960398%29_%28cropped%29.jpg/1280px-WFT_vs._Buccaneers_%2851685960398%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WFT_vs._Buccaneers_(51685960398)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mike Evans",
+    "caption": "Mike Evans",
+    "licenseChecked": "2026-11-05"
+  }
+}

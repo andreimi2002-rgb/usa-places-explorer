@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 18, 1999, Oak Ridge, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2025)",
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2018)",
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-ACC (2019)",
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-ACC (2018)",
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tee Higgins",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Tee Higgins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "cincinnati-bengals",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tee_Higgins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver, a Bengal since 2020.",
+  "image": {
+    "file": "File:Tee Higgins (50677888797) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Tee_Higgins_%2850677888797%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tee_Higgins_(50677888797)_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Tee Higgins",
+    "caption": "Tee Higgins",
+    "licenseChecked": "2026-11-05"
+  }
+}

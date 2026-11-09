@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 18, 2001, Washington, D.C., U.S.",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Heisman Trophy (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Maxwell Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Walter Camp Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AP College Football Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SN College Football Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NCAA passing touchdowns leader (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pac-12 Offensive Player of the Year (2022)",
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Caleb Williams",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Caleb Williams (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-bears",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, the first pick of the 2024 draft.",
+  "image": {
+    "file": "File:Caleb Williams (54858668366) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Caleb_Williams_%2854858668366%29_%28cropped%29.jpg/1280px-Caleb_Williams_%2854858668366%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Caleb_Williams_(54858668366)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Caleb Williams",
+    "caption": "Caleb Williams",
+    "licenseChecked": "2026-11-05"
+  }
+}

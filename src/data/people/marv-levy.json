@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 3, 1925, Chicago, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Grey Cup champion (1974, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Annis Stukus Trophy (1974)",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Sporting News NFL Coach of the Year (1988)",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SoCon champion (1966)",
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Marv Levy",
+  "sources": [
+    {
+      "title": "Marv Levy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "head-coach",
+      "from": 1986,
+      "to": 1997,
+      "source": "https://en.wikipedia.org/wiki/Marv_Levy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach from 1986 to 1997, who took the Bills to four Super Bowls in a row.",
+  "image": {
+    "file": "File:Marv Levy (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Marv_Levy_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marv_Levy_(cropped).jpg",
+    "author": "The Rockpile",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Marv Levy",
+    "caption": "Marv Levy",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 11, 1978, St. Rose, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLVII (2012 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLVII)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Player of the Year (2004)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Alumni Defensive Back of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× First-team All-Pro (2004, 2006–2008, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2003, 2009, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "9× Pro Bowl (2003, 2004, 2006–2012)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL interceptions leader (2004, 2008, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ed Reed",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ed Reed (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-ravens",
+      "role": "player",
+      "from": 2002,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Ed_Reed",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety and 2004 Defensive Player of the Year.",
+  "image": {
+    "file": "File:Ed Reed by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ed_Reed_by_Gage_Skidmore.jpg/1280px-Ed_Reed_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ed_Reed_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Ed Reed",
+    "caption": "Ed Reed",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 16, 1966, Houston, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Most Valuable Player (1991)",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1991)",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1990, 1991)",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1989, 1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "5× Pro Bowl (1989–1993)",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Buffalo Bills 50th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Thurman Thomas",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Thurman Thomas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "buffalo-bills",
+      "role": "player",
+      "from": 1988,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/Thurman_Thomas",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back and 1991 MVP.",
+  "image": {
+    "file": "File:Thurman Thomas ESPNWeekend2010-067.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Thurman_Thomas_ESPNWeekend2010-067.jpg/1280px-Thurman_Thomas_ESPNWeekend2010-067.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thurman_Thomas_ESPNWeekend2010-067.jpg",
+    "author": "Jeff Kern",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Thurman Thomas",
+    "caption": "Thurman Thomas",
+    "licenseChecked": "2026-11-05"
+  }
+}

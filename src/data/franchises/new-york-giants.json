@@ -1,0 +1,173 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "New York Giants",
+  "division": "nfl-nfc-east",
+  "founded": {
+    "value": 1925,
+    "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+    "verified": "2026-11-06",
+    "note": "Founded August 1, 1925, by Tim Mara."
+  },
+  "firstSeason": {
+    "value": "1925",
+    "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Mara and Tisch families (John Mara and Steve Tisch)",
+    "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "John Harbaugh",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06",
+    "person": "john-harbaugh"
+  },
+  "venues": [
+    {
+      "venue": "metlife-stadium",
+      "from": 2010,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "lawrence-taylor",
+    "michael-strahan",
+    "eli-manning",
+    "phil-simms",
+    "frank-gifford",
+    "bill-parcells"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/new-york-giants/roster",
+    "players": [
+      {
+        "person": "jaxson-dart",
+        "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "malik-nabers",
+        "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "abdul-carter",
+        "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1925-08-01",
+      "label": "Founded by Tim Mara",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1956",
+      "label": "Win the NFL championship, the fourth before the Super Bowl era",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1987",
+      "label": "Win Super Bowl XXI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1991",
+      "label": "Win Super Bowl XXV",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Win Super Bowl XLII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2010",
+      "label": "Open MetLife Stadium, shared with the Jets",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2012",
+      "label": "Win Super Bowl XLVI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-01-17",
+      "label": "Hire John Harbaugh",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "One of the NFL’s oldest clubs: eight league titles, including four Super Bowls, two of them against the Patriots.",
+  "sources": [
+    {
+      "title": "New York Giants (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Giants",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/NYG.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/new-york-giants.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/NYG.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Dark blue",
+        "hex": "#0B2265"
+      },
+      {
+        "name": "Red",
+        "hex": "#A71930"
+      },
+      {
+        "name": "Grey",
+        "hex": "#A5ACAF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_York_Giants",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 8, 1989, Foley, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× First-team All-Pro (2015, 2016)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (2017–2019)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2012, 2014–2019)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL receiving yards leader (2015, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions co-leader (2015)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2011)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "BCS national champion (2009)",
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Julio Jones",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Julio Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-falcons",
+      "role": "player",
+      "from": 2011,
+      "to": 2020,
+      "source": "https://en.wikipedia.org/wiki/Julio_Jones",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver and two-time First-team All-Pro.",
+  "image": {
+    "file": "File:Julio Jones 2019 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Julio_Jones_2019_%28cropped%29.jpg/1280px-Julio_Jones_2019_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Julio_Jones_2019_(cropped).jpg",
+    "author": "Lisa Ferdinando on behalf of U.S. Secretary of Defense",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Julio Jones",
+    "caption": "Julio Jones",
+    "licenseChecked": "2026-11-05"
+  }
+}

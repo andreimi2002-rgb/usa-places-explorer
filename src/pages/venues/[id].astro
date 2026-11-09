@@ -63,7 +63,7 @@ const Europe = europe ? (await render(europe)).Content : undefined;
         rows={[
           { label: 'Opened', value: d.opened ? formatDate(d.opened.value) : undefined, source: d.opened?.source, verified: d.opened?.verified },
           { label: 'Closed', value: d.closed ? formatDate(d.closed.value) : undefined, source: d.closed?.source, verified: d.closed?.verified },
-          ...Object.entries(d.capacity ?? {}).map(([sport, c]) => ({ label: `${sport.charAt(0).toUpperCase()}${sport.slice(1)} capacity`, value: formatNumber(c.value), source: c.source, verified: c.verified })),
+          ...Object.entries(d.capacity ?? {}).map(([sport, c]) => ({ label: `${({ basketball: 'Basketball', soccer: 'Soccer', 'american-football': 'American football', baseball: 'Baseball', hockey: 'Ice hockey' } as Record<string, string>)[sport] ?? sport} capacity`, value: formatNumber(c.value), source: c.source, verified: c.verified })),
           { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
           ...d.facts.map((f) => ({ label: f.label, value: f.value, source: f.source, verified: f.verified })),
           ...d.formerNames.map((n) => ({ label: 'Former name', value: `${n.name}${n.from ? ` (${n.from}–${n.to ?? ''})` : ''}`, source: n.source, verified: n.verified })),

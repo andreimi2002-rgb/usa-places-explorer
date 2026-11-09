@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 19, 1980, Hartford, Connecticut, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLI (2006 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLI)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2004, 2005, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2003)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (2003–2005, 2008–2011)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL sacks leader (2004)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL forced fumbles co-leader (2002)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2000s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2002)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Dwight Freeney",
+  "position": {
+    "value": "Defensive end",
+    "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Dwight Freeney (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 2002,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Dwight_Freeney",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Pass rusher of the Super Bowl XLI win.",
+  "image": {
+    "file": "File:Dwight Freeney.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dwight_Freeney.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Dwight_Freeney.JPG",
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Dwight Freeney",
+    "caption": "Dwight Freeney",
+    "licenseChecked": "2026-11-05"
+  }
+}

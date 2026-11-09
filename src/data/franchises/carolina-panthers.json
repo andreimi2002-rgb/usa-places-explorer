@@ -1,0 +1,153 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Carolina Panthers",
+  "division": "nfl-nfc-south",
+  "founded": {
+    "value": 1993,
+    "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+    "verified": "2026-11-06",
+    "note": "Founded October 26, 1993, as an expansion team; first season 1995."
+  },
+  "firstSeason": {
+    "value": "1995",
+    "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "David Tepper (since 2018), who also owns Charlotte FC",
+    "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Dave Canales",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "bank-of-america-stadium",
+      "from": 1996,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "sam-mills",
+    "steve-smith-sr",
+    "julius-peppers",
+    "jake-delhomme",
+    "cam-newton",
+    "luke-kuechly"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/carolina-panthers/roster",
+    "players": [
+      {
+        "person": "bryce-young",
+        "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "tetairoa-mcmillan",
+        "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1993-10-26",
+      "label": "Founded as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1996",
+      "label": "Open today’s stadium in Charlotte",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2011",
+      "label": "Draft Cam Newton first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2018",
+      "label": "David Tepper buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2023",
+      "label": "Draft Bryce Young first overall",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2024-01-25",
+      "label": "Hire Dave Canales",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "The team of both Carolinas since 1995: two Super Bowl finals, and Cam Newton’s MVP season in 2015.",
+  "sources": [
+    {
+      "title": "Carolina Panthers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/CAR.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/carolina-panthers.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/CAR.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Panther blue",
+        "hex": "#0085CA"
+      },
+      {
+        "name": "Silver",
+        "hex": "#BFC0BF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+    "verified": "2026-11-06"
+  }
+}

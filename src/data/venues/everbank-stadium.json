@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "EverBank Stadium",
+  "city": "jacksonville",
+  "opened": {
+    "value": "1995",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 69132,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Bermuda grass"
+    }
+  },
+  "summary": "The Jaguars’ riverside stadium since 1995, being rebuilt from 2026.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:Chiefs at Jaguars (53314666155).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chiefs_at_Jaguars_%2853314666155%29.jpg/1280px-Chiefs_at_Jaguars_%2853314666155%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiefs_at_Jaguars_(53314666155).jpg",
+    "author": "elisfkc2",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "EverBank Stadium during a Jaguars game",
+    "caption": "EverBank Stadium during a Jaguars game",
+    "licenseChecked": "2026-11-05"
+  }
+}

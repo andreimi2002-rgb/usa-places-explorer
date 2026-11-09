@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 18, 2000, Fontana, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pro Bowl (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Heisman Trophy (2023)",
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Male Athlete of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jayden Daniels",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jayden Daniels (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "washington-commanders",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 2024 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:Jayden Daniels 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Jayden_Daniels_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jayden_Daniels_2025.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jayden Daniels",
+    "caption": "Jayden Daniels",
+    "licenseChecked": "2026-11-05"
+  }
+}

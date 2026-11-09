@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 20, 1935, Alliance, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "IV (1969 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (IV)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× AFL champion (1962, 1966, 1969)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (IV)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL championship MVP (1966)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "AFL Most Valuable Player (1962)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Man of the Year (1973)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-AFL (1962, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-AFL (1964, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Len Dawson",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Len Dawson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "kansas-city-chiefs",
+      "role": "player",
+      "from": 1962,
+      "to": 1975,
+      "source": "https://en.wikipedia.org/wiki/Len_Dawson",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl IV, the club’s first.",
+  "image": {
+    "file": "File:LenDawson.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/LenDawson.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:LenDawson.JPG",
+    "author": "U.S. Air Force photo by Airman 1st Class Joel Pfiester/Released",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Len Dawson",
+    "caption": "Len Dawson",
+    "licenseChecked": "2026-11-05"
+  }
+}

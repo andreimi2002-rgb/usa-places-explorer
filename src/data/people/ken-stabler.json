@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 25, 1945, Foley, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XI (1976 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XI)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (1974)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Player of the Year (1974)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (1974)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1976)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Pro Bowl (1973, 1974, 1976, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (1974, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL completion percentage leader (1973, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Ken Stabler",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Ken Stabler (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 1970,
+      "to": 1979,
+      "source": "https://en.wikipedia.org/wiki/Ken_Stabler",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback of the Super Bowl XI win.",
+  "image": {
+    "file": "File:Ken Stabler 2007 Alabama Broadcasters Convention.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ken_Stabler_2007_Alabama_Broadcasters_Convention.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ken_Stabler_2007_Alabama_Broadcasters_Convention.jpg",
+    "author": "NOAA",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ken Stabler",
+    "caption": "Ken Stabler",
+    "licenseChecked": "2026-11-05"
+  }
+}

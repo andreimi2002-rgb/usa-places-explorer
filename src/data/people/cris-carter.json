@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 25, 1965, Troy, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Walter Payton NFL Man of the Year (1999)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× First-team All-Pro (1994, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (1995)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (1993–2000)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receptions leader (1994)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL receiving touchdowns leader (1995, 1997, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1990s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Minnesota Vikings Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Cris Carter",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Cris Carter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 1990,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Cris_Carter",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of the 1990s.",
+  "image": {
+    "file": "File:Cris Carter HOF.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cris_Carter_HOF.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cris_Carter_HOF.JPG",
+    "author": "MN National Guard",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Cris Carter",
+    "caption": "Cris Carter",
+    "licenseChecked": "2026-11-05"
+  }
+}

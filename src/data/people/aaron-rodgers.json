@@ -1,0 +1,108 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 2, 1983, Chico, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLV (2010 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLV)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (XLV)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL Most Valuable Player (2011, 2014, 2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× First-team All-Pro (2011, 2014, 2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2012)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (2009, 2011, 2012, 2014–2016, 2018–2021)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× NFL passer rating leader (2011, 2012, 2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× NFL passing touchdowns leader (2016, 2020)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Aaron Rodgers",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Aaron Rodgers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 2005,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "pittsburgh-steelers",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and MVP of Super Bowl XLV; with the Steelers since 2025.",
+  "image": {
+    "file": "File:AaronRodgersSteelers (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/AaronRodgersSteelers_%28cropped%29.jpg/1280px-AaronRodgersSteelers_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AaronRodgersSteelers_(cropped).jpg",
+    "author": "Cramerwiki",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Aaron Rodgers",
+    "caption": "Aaron Rodgers",
+    "licenseChecked": "2026-11-05"
+  }
+}

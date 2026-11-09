@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 15, 1995, Wilmington, Delaware, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Pro Bowl (2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First team All-ACC (2017)",
+      "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-ACC (2016)",
+      "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brian O'Neill",
+  "position": {
+    "value": "Offensive tackle",
+    "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brian O'Neill (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "minnesota-vikings",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Brian_O'Neill_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Right tackle since 2018.",
+  "image": {
+    "file": "File:Brian O'Neill 2020.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Brian_O%27Neill_2020.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Brian_O%27Neill_2020.png",
+    "author": "Atlanta Falcons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Brian O'Neill",
+    "caption": "Brian O'Neill",
+    "licenseChecked": "2026-11-05"
+  }
+}

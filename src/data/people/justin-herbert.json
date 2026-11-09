@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 10, 1998, Eugene, Oregon, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Offensive Rookie of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2021, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "William V. Campbell Trophy (2019)",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most passing touchdowns by a rookie: 31",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Most pass completions by a rookie: 396",
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Justin Herbert",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Justin Herbert (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-chargers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Justin_Herbert",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback and 2020 Offensive Rookie of the Year.",
+  "image": {
+    "file": "File:Justin Herbert presnap against the Washington Commanders.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Justin_Herbert_presnap_against_the_Washington_Commanders.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Justin_Herbert_presnap_against_the_Washington_Commanders.jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Justin Herbert",
+    "caption": "Justin Herbert",
+    "licenseChecked": "2026-11-05"
+  }
+}

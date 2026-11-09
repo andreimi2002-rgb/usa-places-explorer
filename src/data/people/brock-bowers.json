@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 13, 2002, Napa, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "First-team All-Pro (2024)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2024)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× CFP national champion (2021, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× John Mackey Award (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Unanimous All-American (2023)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (2022)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-American (2021)",
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Brock Bowers",
+  "position": {
+    "value": "Tight end",
+    "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Brock Bowers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "las-vegas-raiders",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Brock_Bowers",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Tight end and the club’s single-season receptions leader.",
+  "image": {
+    "file": "File:Brock Bowers (2025).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Brock_Bowers_%282025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brock_Bowers_(2025).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Brock Bowers",
+    "caption": "Brock Bowers",
+    "licenseChecked": "2026-11-05"
+  }
+}

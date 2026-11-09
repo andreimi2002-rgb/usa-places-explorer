@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "January 19, 1932, Pittsburgh, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× NFL champion (1953, 1957)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× First-team All-Pro (1954–1959, 1961, 1962)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (1960, 1963)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "10× Pro Bowl (1954–1963)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 1950s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 100th Anniversary All-Time Team",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pride of the Lions",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Detroit Lions 75th Anniversary Team",
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Joe Schmidt",
+  "position": {
+    "value": "Linebacker",
+    "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Joe Schmidt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "detroit-lions",
+      "role": "player",
+      "from": 1953,
+      "to": 1965,
+      "source": "https://en.wikipedia.org/wiki/Joe_Schmidt_(American_football)",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker of the 1953 and 1957 champions.",
+  "image": {
+    "file": "File:Joe Schmidt (Pitt).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Joe_Schmidt_%28Pitt%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Schmidt_(Pitt).jpg",
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Joe Schmidt",
+    "caption": "Joe Schmidt",
+    "licenseChecked": "2026-11-05"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 2, 1998, Bakersfield, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jordan_Love",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Second-team All-MW (2018)",
+      "source": "https://en.wikipedia.org/wiki/Jordan_Love",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Jordan Love",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Jordan_Love",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Jordan Love (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Love",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "green-bay-packers",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jordan_Love",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback since 2020, Rodgers’s successor.",
+  "image": {
+    "file": "File:2025 Commanders at Packers 135 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2025_Commanders_at_Packers_135_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_Commanders_at_Packers_135_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Jordan Love",
+    "caption": "Jordan Love",
+    "licenseChecked": "2026-11-05"
+  }
+}

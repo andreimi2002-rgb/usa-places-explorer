@@ -6,13 +6,24 @@
       "title": "Season Review: 1989-90 (NBA.com)",
       "url": "https://www.nba.com/news/history-season-review-1989-90",
       "accessed": "2026-11-05"
+    },
+    {
+      "title": "Seattle Seahawks (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "San Diego FC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "accessed": "2026-11-06"
     }
   ],
   "term": "Expansion team",
   "short": "A brand-new team added to a league, rather than an existing team that moved. It usually starts with a thin roster built from other teams’ spare players.",
   "sports": [
     "basketball",
-    "soccer"
+    "soccer",
+    "american-football"
   ],
   "related": [
     "nba-draft"

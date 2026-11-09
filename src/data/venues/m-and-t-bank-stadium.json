@@ -1,0 +1,45 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "M&T Bank Stadium",
+  "city": "baltimore",
+  "opened": {
+    "value": "1998",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+    "verified": "2026-11-06"
+  },
+  "capacity": {
+    "american-football": {
+      "value": 71008,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "verified": "2026-11-06"
+    }
+  },
+  "extensions": {
+    "football": {
+      "roof": "open",
+      "surface": "Hybrid grass"
+    }
+  },
+  "summary": "The Ravens’ stadium in downtown Baltimore since 1998.",
+  "sources": [
+    {
+      "title": "Current NFL stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_stadiums",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "image": {
+    "file": "File:M&T Bank Stadium DoD.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/M%26T_Bank_Stadium_DoD.jpg/1280px-M%26T_Bank_Stadium_DoD.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%26T_Bank_Stadium_DoD.jpg",
+    "author": "United States Department of Defense Cherie Cullen",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Inside M&T Bank Stadium",
+    "caption": "Inside M&T Bank Stadium",
+    "licenseChecked": "2026-11-05"
+  }
+}

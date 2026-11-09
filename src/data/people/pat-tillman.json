@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 6, 1976, Fremont, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Arizona Cardinals Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Arizona Cardinals No. 40 retired",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-American (1997)",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Pac-10 Defensive Player of the Year (1997)",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pac-10 (1997)",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pac-10 (1995, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Arizona State Sun Devils No. 42 retired",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "East–West Shrine Bowl All-Century Team",
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Pat Tillman",
+  "position": {
+    "value": "Safety",
+    "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Pat Tillman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "arizona-cardinals",
+      "role": "player",
+      "from": 1998,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Pat_Tillman",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Safety who left football to join the US Army and was killed in Afghanistan in 2004.",
+  "image": {
+    "file": "File:Corporal Patrick Tillman.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Corporal_Patrick_Tillman.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Corporal_Patrick_Tillman.jpg",
+    "author": "DoD",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Pat Tillman",
+    "caption": "Pat Tillman",
+    "licenseChecked": "2026-11-05"
+  }
+}

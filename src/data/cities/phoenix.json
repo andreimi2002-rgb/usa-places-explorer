@@ -12,6 +12,7 @@
   "region": "Arizona",
   "country": "United States",
   "timezone": "America/Phoenix",
+  "metro": "Phoenix metropolitan area",
   "coordinates": {
     "value": {
       "lat": 33.4484,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 5308655: Phoenix, Arizona"
   },
-  "summary": "Home of the Suns since 1968.",
+  "summary": "Home of the Suns since 1968 and of the Cardinals since 1988.",
   "image": {
     "file": "File:Phoenix, Arizona.JPG",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Phoenix%2C_Arizona.JPG/960px-Phoenix%2C_Arizona.JPG",

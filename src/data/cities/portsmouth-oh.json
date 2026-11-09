@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "name": "Portsmouth",
+  "region": "Ohio",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "coordinates": {
+    "value": {
+      "lat": 38.73174,
+      "lon": -82.99767
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Portsmouth&count=5&language=en&countryCode=US",
+    "verified": "2026-11-06"
+  },
+  "facts": [],
+  "summary": "A small Ohio River city, the first home of today’s Detroit Lions.",
+  "image": {
+    "file": "File:US Grant Bridge aerial 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/US_Grant_Bridge_aerial_2017.jpg/1280px-US_Grant_Bridge_aerial_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Grant_Bridge_aerial_2017.jpg",
+    "author": "Antony-22",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Portsmouth and the U.S. Grant Bridge over the Ohio River",
+    "caption": "Portsmouth and the U.S. Grant Bridge over the Ohio River",
+    "licenseChecked": "2026-11-05"
+  }
+}

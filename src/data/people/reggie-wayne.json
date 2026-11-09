@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 17, 1978, New Orleans, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XLI (2006 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XLI)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "First-team All-Pro (2010)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Pro (2007, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (2006–2010, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL receiving yards leader (2007)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Indianapolis Colts Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Big East Rookie of the Year (1997)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Big East (1997)",
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Reggie Wayne",
+  "position": {
+    "value": "Wide receiver",
+    "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Reggie Wayne (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "player",
+      "from": 2001,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Reggie_Wayne",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Wide receiver of the Super Bowl XLI win.",
+  "image": {
+    "file": "File:Reggie Wayne by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Reggie_Wayne_by_Gage_Skidmore.jpg/1280px-Reggie_Wayne_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Reggie_Wayne_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Reggie Wayne",
+    "caption": "Reggie Wayne",
+    "licenseChecked": "2026-11-05"
+  }
+}

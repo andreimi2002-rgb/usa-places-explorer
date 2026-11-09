@@ -1,0 +1,87 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 28, 1984, Bessemer, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "NFL Defensive Rookie of the Year (2006)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-team All-Pro (2007)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Pro Bowl (2007, 2009)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL solo tackles leader (2006)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "PFWA All-Rookie Team (2006)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lott Trophy (2005)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "SEC Defensive Player of the Year (2005)",
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "DeMeco Ryans",
+  "sources": [
+    {
+      "title": "DeMeco Ryans (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "houston-texans",
+      "role": "player",
+      "from": 2006,
+      "to": 2011,
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    },
+    {
+      "franchise": "houston-texans",
+      "role": "head-coach",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/DeMeco_Ryans",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Former Texans linebacker, head coach since 2023.",
+  "image": {
+    "file": "File:DeMeco Ryans 2010-09-28 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/DeMeco_Ryans_2010-09-28_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DeMeco_Ryans_2010-09-28_(cropped).jpg",
+    "author": "United States Department of Agriculture",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of DeMeco Ryans",
+    "caption": "DeMeco Ryans",
+    "licenseChecked": "2026-11-05"
+  }
+}

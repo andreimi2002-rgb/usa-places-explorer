@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 6, 1999, Knoxville, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Pro Bowl (2022)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP national champion (2018)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "CFP National Championship Game Offensive MVP (2019)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Archie Griffin Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Athlete of the Year (2021)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Player of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Offensive Player of the Year (2020)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "ACC Offensive Rookie of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Trevor Lawrence",
+  "position": {
+    "value": "Quarterback",
+    "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Trevor Lawrence (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "jacksonville-jaguars",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Trevor_Lawrence",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Quarterback, the first pick of the 2021 draft.",
+  "image": {
+    "file": "File:Trevor Lawrence (52377887812) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Trevor_Lawrence_%2852377887812%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trevor_Lawrence_(52377887812)_(cropped).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Trevor Lawrence",
+    "caption": "Trevor Lawrence",
+    "licenseChecked": "2026-11-05"
+  }
+}

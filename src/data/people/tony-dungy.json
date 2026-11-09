@@ -1,0 +1,84 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 6, 1955, Jackson, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "As player:",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl champion (XIII)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Big Ten (1975, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "As coach:",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl champion (XLI)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Greasy Neale Award (1997, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "George Halas Award (2006)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Lamar Hunt Award (2009)",
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Tony Dungy",
+  "sources": [
+    {
+      "title": "Tony Dungy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "indianapolis-colts",
+      "role": "head-coach",
+      "from": 2002,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Tony_Dungy",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Coach of the Super Bowl XLI win, the first by a Black head coach.",
+  "image": {
+    "file": "File:Tony Dungy (2021) B.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tony_Dungy_%282021%29_B.jpg/1280px-Tony_Dungy_%282021%29_B.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tony_Dungy_(2021)_B.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tony Dungy",
+    "caption": "Tony Dungy",
+    "licenseChecked": "2026-11-05"
+  }
+}

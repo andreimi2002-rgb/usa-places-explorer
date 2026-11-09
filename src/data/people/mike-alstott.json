@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 21, 1973, Joliet, Illinois, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXVII (2002 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXVII)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1997–1999)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Second-Team All-Pro (1996)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "6× Pro Bowl (1997–2002)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Tampa Bay Buccaneers Ring of Honor",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Third-team All-American (1995)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "2× Second-team All-Big Ten (1994, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Purdue Intercollegiate Athletics Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Mike Alstott",
+  "position": {
+    "value": "Fullback",
+    "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Mike Alstott (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-buccaneers",
+      "role": "player",
+      "from": 1996,
+      "to": 2007,
+      "source": "https://en.wikipedia.org/wiki/Mike_Alstott",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Fullback of the Super Bowl XXXVII team.",
+  "image": {
+    "file": "File:Mike Alstott ESPNWeekend2010-082.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mike_Alstott_ESPNWeekend2010-082.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Alstott_ESPNWeekend2010-082.jpg",
+    "author": "Jeff Kern",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Mike Alstott",
+    "caption": "Mike Alstott",
+    "licenseChecked": "2026-11-05"
+  }
+}

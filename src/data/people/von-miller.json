@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 26, 1989, DeSoto, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "50 (2015 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× Super Bowl champion (50, LVI)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowl MVP (50)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Defensive Rookie of the Year (2011)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (2012, 2015, 2016)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "4× Second-team All-Pro (2011, 2014, 2017, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "8× Pro Bowl (2011, 2012, 2014–2019)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL 2010s All-Decade Team",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Butkus Award (pro) (2012)",
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Von Miller",
+  "position": {
+    "value": "Outside linebacker",
+    "source": "https://en.wikipedia.org/wiki/Von_Miller",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Von Miller (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Von_Miller",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "denver-broncos",
+      "role": "player",
+      "from": 2011,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Von_Miller",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Linebacker and MVP of Super Bowl 50.",
+  "image": {
+    "file": "File:Von Miller 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Von_Miller_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Von_Miller_2017.jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Von Miller",
+    "caption": "Von Miller",
+    "licenseChecked": "2026-11-05"
+  }
+}

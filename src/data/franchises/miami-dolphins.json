@@ -1,0 +1,158 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Miami Dolphins",
+  "division": "nfl-afc-east",
+  "founded": {
+    "value": 1965,
+    "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+    "verified": "2026-11-06",
+    "note": "Founded August 16, 1965; first season 1966 in the AFL."
+  },
+  "firstSeason": {
+    "value": "1966",
+    "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Stephen Ross",
+    "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Jeff Hafley",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "hard-rock-stadium",
+      "from": 1987,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "dan-marino",
+    "bob-griese",
+    "larry-csonka",
+    "jason-taylor",
+    "zach-thomas",
+    "don-shula"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/miami-dolphins/roster",
+    "players": [
+      {
+        "person": "devon-achane",
+        "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1965-08-16",
+      "label": "Founded for the AFL",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1970",
+      "label": "Hire Don Shula; join the NFL in the merger",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1972",
+      "label": "The only perfect season in NFL history, 17–0",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1973",
+      "label": "Win Super Bowl VII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1974",
+      "label": "Win Super Bowl VIII",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1983",
+      "label": "Draft Dan Marino",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1987",
+      "label": "Open today’s stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2026-01-19",
+      "label": "Hire Jeff Hafley",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Don Shula’s Dolphins played the only perfect season in NFL history, 1972, on the way to two Super Bowls.",
+  "sources": [
+    {
+      "title": "Miami Dolphins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/MIA.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/miami-dolphins.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/MIA.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Aqua",
+        "hex": "#008E97"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FC4C02"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+    "verified": "2026-11-06"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 26, 1973, New Orleans, Louisiana, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "Super Bowls with the club",
+      "value": "XXXIV (1999 season)",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Super Bowl champion (XXXIV)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Most Valuable Player (2000)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× NFL Offensive Player of the Year (1999–2001)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL Offensive Rookie of the Year (1994)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× First-team All-Pro (1999–2001)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "3× Second-team All-Pro (1994, 1995, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "7× Pro Bowl (1994, 1995, 1998–2002)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    },
+    {
+      "label": "NFL rushing touchdowns leader (2000)",
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    }
+  ],
+  "name": "Marshall Faulk",
+  "position": {
+    "value": "Running back",
+    "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+    "verified": "2026-11-06"
+  },
+  "sources": [
+    {
+      "title": "Marshall Faulk (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-rams",
+      "role": "player",
+      "from": 1999,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Marshall_Faulk",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Running back of the “Greatest Show on Turf” and 2000 MVP.",
+  "image": {
+    "file": "File:Marshall Faulk by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Marshall_Faulk_by_Gage_Skidmore.jpg/1280px-Marshall_Faulk_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marshall_Faulk_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Marshall Faulk",
+    "caption": "Marshall Faulk",
+    "licenseChecked": "2026-11-05"
+  }
+}

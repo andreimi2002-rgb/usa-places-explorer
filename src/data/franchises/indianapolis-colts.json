@@ -1,0 +1,175 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "nfl",
+  "name": "Indianapolis Colts",
+  "division": "nfl-afc-south",
+  "founded": {
+    "value": 1953,
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+    "verified": "2026-11-06",
+    "note": "Founded in Baltimore in 1953; moved to Indianapolis in 1984."
+  },
+  "firstSeason": {
+    "value": "1953",
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+    "verified": "2026-11-06"
+  },
+  "owner": {
+    "value": "Carlie Irsay-Gordon (Irsay family, since 2025)",
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+    "verified": "2026-11-06"
+  },
+  "headCoach": {
+    "name": "Shane Steichen",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+    "verified": "2026-11-06"
+  },
+  "venues": [
+    {
+      "venue": "lucas-oil-stadium",
+      "from": 2008,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    }
+  ],
+  "legends": [
+    "johnny-unitas",
+    "raymond-berry",
+    "lenny-moore",
+    "john-mackey",
+    "peyton-manning",
+    "marvin-harrison",
+    "reggie-wayne",
+    "dwight-freeney",
+    "tony-dungy"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.nfl.com/teams/indianapolis-colts/roster",
+    "players": [
+      {
+        "person": "jonathan-taylor",
+        "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "daniel-jones",
+        "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+        "verified": "2026-11-06"
+      },
+      {
+        "person": "sauce-gardner",
+        "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+        "verified": "2026-11-06"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1953",
+      "label": "First season, in Baltimore",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1958",
+      "label": "Win the NFL championship (again in 1959 and 1968)",
+      "kind": "award",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1971",
+      "label": "Win Super Bowl V",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1984",
+      "label": "Move to Indianapolis",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "1998",
+      "label": "Draft Peyton Manning",
+      "kind": "draft",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2007",
+      "label": "Win Super Bowl XLI",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2008",
+      "label": "Open Lucas Oil Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    },
+    {
+      "date": "2025-06-09",
+      "label": "Carlie Irsay-Gordon becomes principal owner after Jim Irsay’s death",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "verified": "2026-11-06"
+    }
+  ],
+  "summary": "Johnny Unitas’s Baltimore Colts and Peyton Manning’s Indianapolis Colts: a Super Bowl in each city.",
+  "sources": [
+    {
+      "title": "Indianapolis Colts (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "List of Super Bowl champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current NFL head coaches (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Team logo (NFL.com)",
+      "url": "https://static.www.nfl.com/league/api/clubs/logos/IND.svg",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "logo": {
+    "file": "nfl/indianapolis-colts.svg",
+    "official": true,
+    "source": "https://static.www.nfl.com/league/api/clubs/logos/IND.svg",
+    "accessed": "2026-11-06"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Speed blue",
+        "hex": "#013369"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Grey",
+        "hex": "#A5ACAF"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+    "verified": "2026-11-06"
+  }
+}

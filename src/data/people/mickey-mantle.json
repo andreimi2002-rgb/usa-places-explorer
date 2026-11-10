@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 20, 1931, Spavinaw, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1951, 1952, 1953, 1956, 1958, 1961, 1962",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "20× All-Star (1952–1965, 1967, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× World Series champion (1951–1953, 1956, 1958, 1961, 1962)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL MVP (1956, 1957, 1962)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Triple Crown (1956)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Gold Glove Award (1962)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL batting champion (1956)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× AL home run leader (1955, 1956, 1958, 1960)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL RBI leader (1956)",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Mickey Mantle",
+  "position": {
+    "value": "Center fielder",
+    "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Mickey Mantle (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1951,
+      "to": 1968,
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mantle",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Center fielder of seven World Series champions.",
+  "image": {
+    "file": "File:Mickey Mantle 1957 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mickey_Mantle_1957_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mickey_Mantle_1957_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Mickey Mantle",
+    "caption": "Mickey Mantle",
+    "licenseChecked": "2026-11-09"
+  }
+}

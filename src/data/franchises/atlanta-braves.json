@@ -1,0 +1,191 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Atlanta Braves",
+  "division": "mlb-nl-east",
+  "founded": {
+    "value": 1871,
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+    "verified": "2026-11-10",
+    "note": "Founded in Boston in 1871, the oldest continuously operating club in American professional sport; in Milwaukee from 1953 and Atlanta since 1966."
+  },
+  "firstSeason": {
+    "value": "1871",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "Atlanta Braves Holdings (publicly traded)",
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "Walt Weiss",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10"
+  },
+  "venues": [
+    {
+      "venue": "truist-park",
+      "from": 2017,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "warren-spahn",
+    "eddie-mathews",
+    "hank-aaron",
+    "phil-niekro",
+    "dale-murphy",
+    "greg-maddux",
+    "tom-glavine",
+    "john-smoltz",
+    "chipper-jones",
+    "bobby-cox"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/braves/roster",
+    "players": [
+      {
+        "person": "ronald-acuna-jr",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "austin-riley",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "matt-olson",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "chris-sale",
+        "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1871",
+      "label": "Founded in Boston",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1914",
+      "label": "Win the 1914 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1953",
+      "label": "Move to Milwaukee",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1957",
+      "label": "Win the 1957 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1966",
+      "label": "Move to Atlanta",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1974-04-08",
+      "label": "Hank Aaron hits his 715th home run, passing Babe Ruth",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1995",
+      "label": "Win the 1995 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2017",
+      "label": "Open today’s ballpark",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2021",
+      "label": "Win the 2021 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2025-11",
+      "label": "Promote Walt Weiss to manager",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "The oldest club in American professional sport, from Boston to Milwaukee to Atlanta: Hank Aaron and four World Series.",
+  "sources": [
+    {
+      "title": "Atlanta Braves (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/144.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/atlanta-braves.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/144.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#13274F"
+      },
+      {
+        "name": "Red",
+        "hex": "#CE1141"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+    "verified": "2026-11-10"
+  }
+}

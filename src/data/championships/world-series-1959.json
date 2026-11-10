@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "1959",
+  "level": "league",
+  "title": "1959 World Series",
+  "winner": "los-angeles-dodgers",
+  "winnerName": "Los Angeles Dodgers",
+  "runnerUpName": "Chicago White Sox",
+  "result": "4–2",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

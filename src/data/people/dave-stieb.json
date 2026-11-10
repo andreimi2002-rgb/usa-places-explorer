@@ -1,0 +1,88 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 22, 1957, Santa Ana, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1992",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (1980, 1981, 1983–1985, 1988, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL ERA leader (1985)",
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched a no-hitter on September 2, 1990",
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays Level of Excellence",
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Dave Stieb",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Dave Stieb (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1979,
+      "to": 1992,
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1998,
+      "to": 1998,
+      "source": "https://en.wikipedia.org/wiki/Dave_Stieb",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher of the club’s first great teams.",
+  "image": {
+    "file": "File:Dave Stieb 1980 JD McCarthy.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Dave_Stieb_1980_JD_McCarthy.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dave_Stieb_1980_JD_McCarthy.jpeg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dave Stieb",
+    "caption": "Dave Stieb",
+    "licenseChecked": "2026-11-10"
+  }
+}

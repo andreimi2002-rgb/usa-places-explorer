@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 5, 1934, Mobile, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1957",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "25× All-Star (1955–1975)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1957)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (1957)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Gold Glove Award (1958–1960)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL batting champion (1956, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL home run leader (1957, 1963, 1966, 1967)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL RBI leader (1957, 1960, 1963, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 44 retired",
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Hank Aaron",
+  "position": {
+    "value": "Right fielder",
+    "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Hank Aaron (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1954,
+      "to": 1974,
+      "source": "https://en.wikipedia.org/wiki/Hank_Aaron",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Right fielder who passed Babe Ruth’s home run record in 1974.",
+  "image": {
+    "file": "File:Hank Aaron 1974.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hank_Aaron_1974.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hank_Aaron_1974.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Hank Aaron",
+    "caption": "Hank Aaron",
+    "licenseChecked": "2026-11-10"
+  }
+}

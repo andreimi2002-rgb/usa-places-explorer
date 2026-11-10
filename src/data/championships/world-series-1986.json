@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "1986",
+  "level": "league",
+  "title": "1986 World Series",
+  "winner": "new-york-mets",
+  "runnerUp": "boston-red-sox",
+  "winnerName": "New York Mets",
+  "runnerUpName": "Boston Red Sox",
+  "result": "4–3",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

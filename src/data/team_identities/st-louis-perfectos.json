@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "st-louis-cardinals",
+  "name": "St. Louis Perfectos",
+  "city": "st-louis",
+  "from": {
+    "value": 1899,
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09"
+  },
+  "to": 1899,
+  "current": false
+}

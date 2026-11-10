@@ -1,0 +1,168 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Philadelphia Phillies",
+  "division": "mlb-nl-east",
+  "founded": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "verified": "2026-11-10",
+    "note": "Founded in 1883; the oldest one-name, one-city team in American professional sport."
+  },
+  "firstSeason": {
+    "value": "1883",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "John Middleton",
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "Don Mattingly",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10",
+    "note": "Interim manager from April 28, 2026, made permanent on October 14, 2026."
+  },
+  "venues": [
+    {
+      "venue": "citizens-bank-park",
+      "from": 2004,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "grover-cleveland-alexander",
+    "robin-roberts",
+    "richie-ashburn",
+    "mike-schmidt",
+    "steve-carlton",
+    "jimmy-rollins",
+    "chase-utley",
+    "ryan-howard",
+    "roy-halladay"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/phillies/roster",
+    "players": [
+      {
+        "person": "bryce-harper",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "kyle-schwarber",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "zack-wheeler",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "trea-turner",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "cristopher-sanchez",
+        "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1883",
+      "label": "First season",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1980",
+      "label": "Win the 1980 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2004",
+      "label": "Open Citizens Bank Park",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2008",
+      "label": "Win the 2008 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2019",
+      "label": "Sign Bryce Harper",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2026-04-28",
+      "label": "Don Mattingly replaces Rob Thomson as manager",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Philadelphia’s team since 1883, the oldest one-name, one-city club in American sport: World Series in 1980 and 2008.",
+  "sources": [
+    {
+      "title": "Philadelphia Phillies (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/143.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/philadelphia-phillies.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/143.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#E81828"
+      },
+      {
+        "name": "Blue",
+        "hex": "#003278"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "verified": "2026-11-10"
+  }
+}

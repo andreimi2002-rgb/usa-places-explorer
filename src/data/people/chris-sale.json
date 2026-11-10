@@ -1,0 +1,89 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 30, 1989, Lakeland, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (2012–2018, 2024–2026)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2018)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Cy Young Award (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Triple Crown (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB First Team (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Gold Glove Award (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Comeback Player of the Year (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL wins leader (2024)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Chris Sale",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Chris Sale (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chris_Sale",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and 2024 NL Cy Young winner.",
+  "image": {
+    "file": "File:Chris Sale in 2017 (37185846582) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Chris_Sale_in_2017_%2837185846582%29_%28cropped%29.jpg/1280px-Chris_Sale_in_2017_%2837185846582%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chris_Sale_in_2017_(37185846582)_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Chris Sale",
+    "caption": "Chris Sale",
+    "licenseChecked": "2026-11-10"
+  }
+}

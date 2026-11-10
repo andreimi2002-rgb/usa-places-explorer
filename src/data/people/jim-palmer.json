@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 15, 1945, New York City, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1966, 1970, 1983",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1970–1972, 1975, 1977, 1978)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× World Series champion (1966, 1970, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× AL Cy Young Award (1973, 1975, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Gold Glove Award (1976–1979)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× AL wins leader (1975–1977)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× AL ERA leader (1973, 1975)",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched a no-hitter on August 13, 1969",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles No. 22 retired",
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Jim Palmer",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Jim Palmer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1965,
+      "to": 1967,
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1969,
+      "to": 1984,
+      "source": "https://en.wikipedia.org/wiki/Jim_Palmer",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher of three World Series champions.",
+  "image": {
+    "file": "File:Jim Palmer 1972.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Jim_Palmer_1972.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jim_Palmer_1972.jpg",
+    "author": "Unknown (Associated Press)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jim Palmer",
+    "caption": "Jim Palmer",
+    "licenseChecked": "2026-11-10"
+  }
+}

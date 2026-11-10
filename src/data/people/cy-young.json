@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 29, 1867, Gilmore, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1903",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "World Series champion (1903)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Triple Crown (1901)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Wins leader (1892, 1895, 1901–1903)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× ERA leader (1892, 1901)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Strikeout leader (1896, 1901)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pitched a perfect game on May 5, 1904",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pitched three no-hitters (1897, 1904, 1908)",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Boston Red Sox Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Cy Young",
+  "position": {
+    "value": "Pitcher ",
+    "source": "https://en.wikipedia.org/wiki/Cy_Young",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Cy Young (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cy_Young",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1901,
+      "to": 1908,
+      "source": "https://en.wikipedia.org/wiki/Cy_Young",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the first World Series champions in 1903; the award for the best pitcher bears his name.",
+  "image": {
+    "file": "File:Cy Young by Conlon, 1911-crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Cy_Young_by_Conlon%2C_1911-crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cy_Young_by_Conlon,_1911-crop.jpg",
+    "author": "Charles M. Conlon",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Cy Young",
+    "caption": "Cy Young",
+    "licenseChecked": "2026-11-09"
+  }
+}

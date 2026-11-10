@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 4, 2003, Austin, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jackson_Holliday",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [],
+  "name": "Jackson Holliday",
+  "position": {
+    "value": "Second baseman ",
+    "source": "https://en.wikipedia.org/wiki/Jackson_Holliday",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Jackson Holliday (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jackson_Holliday",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Jackson_Holliday",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Second baseman, the first pick of the 2022 draft.",
+  "image": {
+    "file": "File:Jackson Holliday Orioles Caravan (54299424773) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jackson_Holliday_Orioles_Caravan_%2854299424773%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jackson_Holliday_Orioles_Caravan_(54299424773)_(cropped).jpg",
+    "author": "Baltimore County Government",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Jackson Holliday",
+    "caption": "Jackson Holliday",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 17, 1978, Pasadena, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2008",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (2006–2010, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2008)",
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (2006–2009)",
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Chase Utley",
+  "position": {
+    "value": "Second baseman",
+    "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Chase Utley (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2003,
+      "to": 2015,
+      "source": "https://en.wikipedia.org/wiki/Chase_Utley",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Second baseman of the 2008 champions.",
+  "image": {
+    "file": "File:Chase Utley 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chase_Utley_2009.jpg/1280px-Chase_Utley_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chase_Utley_2009.jpg",
+    "author": "L-Rey on Picasa Web Albums (Original version) UCinternational (Crop)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Chase Utley",
+    "caption": "Chase Utley",
+    "licenseChecked": "2026-11-10"
+  }
+}

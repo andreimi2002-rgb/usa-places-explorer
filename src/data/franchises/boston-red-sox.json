@@ -1,0 +1,216 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Boston Red Sox",
+  "division": "mlb-al-east",
+  "founded": {
+    "value": 1901,
+    "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+    "verified": "2026-11-09",
+    "note": "Founded in 1901 for the new American League; known as the Boston Americans until 1907."
+  },
+  "firstSeason": {
+    "value": "1901",
+    "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "Fenway Sports Group (John Henry), which also owns Liverpool FC",
+    "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Chad Tracy",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09",
+    "note": "Manager since April 2026, after Alex Cora."
+  },
+  "venues": [
+    {
+      "venue": "fenway-park",
+      "from": 1912,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "cy-young",
+    "babe-ruth",
+    "ted-williams",
+    "carl-yastrzemski",
+    "pedro-martinez",
+    "david-ortiz"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/redsox/roster",
+    "players": [
+      {
+        "person": "garrett-crochet",
+        "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "jarren-duran",
+        "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "roman-anthony",
+        "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1901",
+      "label": "First season, in the new American League",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1903",
+      "label": "Win the 1903 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1908",
+      "label": "Renamed the Red Sox",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1912",
+      "label": "Open Fenway Park",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1912",
+      "label": "Win the 1912 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1915",
+      "label": "Win the 1915 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1916",
+      "label": "Win the 1916 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1918",
+      "label": "Win the 1918 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1920",
+      "label": "Sell Babe Ruth to the Yankees",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2002",
+      "label": "John Henry’s group buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2004",
+      "label": "Win the 2004 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2007",
+      "label": "Win the 2007 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2013",
+      "label": "Win the 2013 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2018",
+      "label": "Win the 2018 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Fenway Park, the “Curse of the Bambino” and its end in 2004: nine World Series, and owners who also run Liverpool FC.",
+  "sources": [
+    {
+      "title": "Boston Red Sox (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Fenway Sports Group (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fenway_Sports_Group",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/111.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/boston-red-sox.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/111.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#BD3039"
+      },
+      {
+        "name": "Navy",
+        "hex": "#0D2B56"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+    "verified": "2026-11-09"
+  }
+}

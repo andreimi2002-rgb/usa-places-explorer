@@ -1,0 +1,214 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "San Francisco Giants",
+  "division": "mlb-nl-west",
+  "founded": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+    "verified": "2026-11-09",
+    "note": "Founded in New York in 1883 as the Gothams, the Giants from 1885; in San Francisco since 1958."
+  },
+  "firstSeason": {
+    "value": "1883",
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "Johnson family (Charles B. Johnson; chairman Greg Johnson)",
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Tony Vitello",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09"
+  },
+  "venues": [
+    {
+      "venue": "oracle-park",
+      "from": 2000,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "christy-mathewson",
+    "mel-ott",
+    "willie-mays",
+    "willie-mccovey",
+    "juan-marichal",
+    "barry-bonds",
+    "buster-posey",
+    "madison-bumgarner"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/giants/roster",
+    "players": [
+      {
+        "person": "rafael-devers",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "logan-webb",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "matt-chapman",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "willy-adames",
+        "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1883",
+      "label": "Founded in New York",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1905",
+      "label": "Win the 1905 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1921",
+      "label": "Win the 1921 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1922",
+      "label": "Win the 1922 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1933",
+      "label": "Win the 1933 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1954",
+      "label": "Win the World Series in New York, with Willie Mays",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1954",
+      "label": "Win the 1954 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1958",
+      "label": "Move to San Francisco",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2000",
+      "label": "Open today’s ballpark",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2010",
+      "label": "Win the 2010 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2012",
+      "label": "Win the 2012 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2014",
+      "label": "Win the 2014 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2025",
+      "label": "Trade for Rafael Devers",
+      "kind": "trade",
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "The New York Giants of Christy Mathewson and Willie Mays, San Francisco since 1958: three World Series in five years, 2010 to 2014.",
+  "sources": [
+    {
+      "title": "San Francisco Giants (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/137.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/san-francisco-giants.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/137.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FD5B1E"
+      },
+      {
+        "name": "Gold",
+        "hex": "#8B6F4E"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+    "verified": "2026-11-09"
+  }
+}

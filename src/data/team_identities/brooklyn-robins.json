@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "los-angeles-dodgers",
+  "name": "Brooklyn Robins",
+  "city": "new-york",
+  "from": {
+    "value": 1914,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+    "verified": "2026-11-09"
+  },
+  "to": 1931,
+  "current": false
+}

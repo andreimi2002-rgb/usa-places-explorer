@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 19, 1988, Dallas, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2020, 2024, 2025",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "11× All-Star (2011–2017, 2019, 2022, 2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× World Series champion (2020, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (2014)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× NL Cy Young Award (2011, 2013, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Triple Crown (2011)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Gold Glove Award (2011)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2012)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× NL wins leader (2011, 2014, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Clayton Kershaw",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Clayton Kershaw (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2008,
+      "to": 2025,
+      "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher from 2008 to 2025 and three-time Cy Young Award winner.",
+  "image": {
+    "file": "File:Clayton Kershaw on July 23, 2015 (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Clayton_Kershaw_on_July_23%2C_2015_%282%29.jpg/1280px-Clayton_Kershaw_on_July_23%2C_2015_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clayton_Kershaw_on_July_23,_2015_(2).jpg",
+    "author": "Arturo Pardavila III on Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Clayton Kershaw",
+    "caption": "Clayton Kershaw",
+    "licenseChecked": "2026-11-09"
+  }
+}

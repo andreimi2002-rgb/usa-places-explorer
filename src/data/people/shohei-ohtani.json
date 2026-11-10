@@ -1,0 +1,95 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 5, 1994, Mizusawa, Iwate, Japan",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2024, 2025",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (2013–2017)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Japan Series champion (2016)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pacific League MVP (2016)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NPB All-Star Game MVP (2016 Game 2)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× Best Nine Award (2015–2016²)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Best Battery Award (2015)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pacific League ERA leader (2015)",
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Shohei Ohtani",
+  "position": {
+    "value": "Designated hitter ",
+    "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Shohei Ohtani (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Japanese two-way star who both pitches and hits, signed in 2024.",
+  "image": {
+    "file": "File:Dodgers at Nationals (53677192000) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dodgers_at_Nationals_%2853677192000%29_%28cropped%29.jpg/1280px-Dodgers_at_Nationals_%2853677192000%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53677192000)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Shohei Ohtani",
+    "caption": "Shohei Ohtani",
+    "licenseChecked": "2026-11-09"
+  }
+}

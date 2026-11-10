@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 1, 1960, Etchohuaquila, Sonora, Mexico",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1981, 1988",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1981–1986)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (1981)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Cy Young Award (1981)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Rookie of the Year (1981)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Gold Glove Award (1986)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Silver Slugger Award (1981, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL wins leader (1986)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB strikeout leader (1981)",
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Fernando Valenzuela",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Fernando Valenzuela (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 1980,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Fernando_Valenzuela",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Mexican pitcher whose 1981 season started “Fernandomania”.",
+  "image": {
+    "file": "File:Fernando Valenzuela in wind up for pitch (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Fernando_Valenzuela_in_wind_up_for_pitch_%28cropped%29.jpg/1280px-Fernando_Valenzuela_in_wind_up_for_pitch_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fernando_Valenzuela_in_wind_up_for_pitch_(cropped).jpg",
+    "author": "Tony Barnard, Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Fernando Valenzuela",
+    "caption": "Fernando Valenzuela",
+    "licenseChecked": "2026-11-09"
+  }
+}

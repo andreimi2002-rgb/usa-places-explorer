@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 30, 1935, Brooklyn, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1955, 1959, 1963, 1965",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (1961–1962, 1963–1966)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× World Series champion (1955, 1959, 1963, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL MVP (1963)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× Cy Young Award (1963, 1965, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× World Series MVP (1963, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× Triple Crown (1963, 1965, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× MLB wins leader (1963, 1965, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× NL ERA leader (1962–1966)",
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Sandy Koufax",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Sandy Koufax (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 1955,
+      "to": 1966,
+      "source": "https://en.wikipedia.org/wiki/Sandy_Koufax",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the 1960s and three-time Cy Young Award winner.",
+  "image": {
+    "file": "File:Sandy Koufax.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sandy_Koufax.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sandy_Koufax.jpg",
+    "author": "publicity still",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Sandy Koufax",
+    "caption": "Sandy Koufax",
+    "licenseChecked": "2026-11-09"
+  }
+}

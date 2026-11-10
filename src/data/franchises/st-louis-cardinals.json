@@ -1,0 +1,218 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "St. Louis Cardinals",
+  "division": "mlb-nl-central",
+  "founded": {
+    "value": 1882,
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09",
+    "note": "Founded in 1882 as the St. Louis Brown Stockings in the American Association; in the National League since 1892; the Cardinals since 1900."
+  },
+  "firstSeason": {
+    "value": "1882",
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "William DeWitt Jr. (since 1996)",
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Oliver Marmol",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09"
+  },
+  "venues": [
+    {
+      "venue": "busch-stadium",
+      "from": 2006,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "rogers-hornsby",
+    "stan-musial",
+    "bob-gibson",
+    "lou-brock",
+    "ozzie-smith",
+    "albert-pujols",
+    "yadier-molina",
+    "adam-wainwright"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/cardinals/roster",
+    "players": [
+      {
+        "person": "jordan-walker",
+        "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "masyn-winn",
+        "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1882",
+      "label": "Founded as the Brown Stockings",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1900",
+      "label": "Renamed the Cardinals",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1926",
+      "label": "Win the 1926 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1931",
+      "label": "Win the 1931 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1934",
+      "label": "Win the 1934 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1942",
+      "label": "Win the 1942 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1944",
+      "label": "Win the 1944 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1946",
+      "label": "Win the 1946 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1964",
+      "label": "Win the 1964 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1967",
+      "label": "Win the 1967 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1982",
+      "label": "Win the 1982 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1996",
+      "label": "William DeWitt Jr.’s group buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2006",
+      "label": "Open today’s Busch Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2006",
+      "label": "Win the 2006 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2011",
+      "label": "Win the 2011 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "The National League’s most successful club: 11 World Series, from Rogers Hornsby and Stan Musial to Albert Pujols.",
+  "sources": [
+    {
+      "title": "St. Louis Cardinals (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/138.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/st-louis-cardinals.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/138.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Red",
+        "hex": "#BE0A14"
+      },
+      {
+        "name": "Navy",
+        "hex": "#001541"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FEDB00"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+    "verified": "2026-11-09"
+  }
+}

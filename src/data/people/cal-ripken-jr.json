@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 24, 1960, Havre de Grace, Maryland, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1983",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "19× All-Star (1983–2001)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1983)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× AL MVP (1983, 1991)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Rookie of the Year (1982)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Gold Glove Award (1991, 1992)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "8× Silver Slugger Award (1983–1986, 1989, 1991, 1993, 1994)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (1992)",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB record 2,632 consecutive games played",
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Cal Ripken Jr.",
+  "position": {
+    "value": "Shortstop ",
+    "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Cal Ripken Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1981,
+      "to": 2001,
+      "source": "https://en.wikipedia.org/wiki/Cal_Ripken_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "“The Iron Man”, shortstop who played 2,632 games in a row.",
+  "image": {
+    "file": "File:Lieutenant Governor Boyd Rutherford with Cal Ripken Jr (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lieutenant_Governor_Boyd_Rutherford_with_Cal_Ripken_Jr_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lieutenant_Governor_Boyd_Rutherford_with_Cal_Ripken_Jr_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Cal Ripken Jr.",
+    "caption": "Cal Ripken Jr.",
+    "licenseChecked": "2026-11-10"
+  }
+}

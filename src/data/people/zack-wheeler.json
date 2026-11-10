@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 30, 1990, Smyrna, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2021, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB First Team (2024)",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Comeback Player of the Year (2026)",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Gold Glove Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL strikeout leader (2021)",
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Zack Wheeler",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Zack Wheeler (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2020,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Zack_Wheeler",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and 2024 All-MLB First Team.",
+  "image": {
+    "file": "File:Zack Wheeler Phillies 2022.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Zack_Wheeler_Phillies_2022.png/1280px-Zack_Wheeler_Phillies_2022.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Zack_Wheeler_Phillies_2022.png",
+    "author": "Zach McHoul",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Zack Wheeler",
+    "caption": "Zack Wheeler",
+    "licenseChecked": "2026-11-10"
+  }
+}

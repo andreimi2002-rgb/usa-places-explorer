@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "franchise": "toronto-blue-jays",
+  "name": "Toronto Blue Jays",
+  "city": "toronto",
+  "from": {
+    "value": 1977,
+    "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+    "verified": "2026-11-10"
+  },
+  "to": null,
+  "current": true
+}

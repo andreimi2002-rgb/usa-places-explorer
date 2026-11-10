@@ -1,0 +1,103 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 15, 1967, Warren, Michigan, U.S.",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1995",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1989, 1992, 1993, 1996, 2002, 2003, 2005, 2007)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1995)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Cy Young Award (1996)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (1997)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rolaids Relief Man Award (2002)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (2005)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL wins leader (1996, 2006)",
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "John Smoltz",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "John Smoltz (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1988,
+      "to": 1999,
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2001,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/John_Smoltz",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher, starter and closer, of the 1995 champions.",
+  "image": {
+    "file": "File:Hall of Famer John Smoltz speaks to reporters before the MLBPAA's 2016 Legends for Youth Dinner (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Hall_of_Famer_John_Smoltz_speaks_to_reporters_before_the_MLBPAA%27s_2016_Legends_for_Youth_Dinner_%28cropped%29.jpg/1280px-Hall_of_Famer_John_Smoltz_speaks_to_reporters_before_the_MLBPAA%27s_2016_Legends_for_Youth_Dinner_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hall_of_Famer_John_Smoltz_speaks_to_reporters_before_the_MLBPAA%27s_2016_Legends_for_Youth_Dinner_(cropped).jpg",
+    "author": "apardavila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of John Smoltz",
+    "caption": "John Smoltz",
+    "licenseChecked": "2026-11-10"
+  }
+}

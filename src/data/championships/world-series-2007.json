@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "2007",
+  "level": "league",
+  "title": "2007 World Series",
+  "winner": "boston-red-sox",
+  "winnerName": "Boston Red Sox",
+  "runnerUpName": "Colorado Rockies",
+  "result": "4–0",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 17, 1998, Bizen, Okayama, Japan",
+      "source": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2024, 2025",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Japan Series champion (2022)",
+      "source": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Yoshinobu Yamamoto",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Yoshinobu Yamamoto (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2024,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Japanese pitcher, signed in 2024.",
+  "image": {
+    "file": "File:Yoshinobu Yamamoto in 2024 (53676737736) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Yoshinobu_Yamamoto_in_2024_%2853676737736%29_%28cropped%29.jpg/1280px-Yoshinobu_Yamamoto_in_2024_%2853676737736%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yoshinobu_Yamamoto_in_2024_(53676737736)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Yoshinobu Yamamoto",
+    "caption": "Yoshinobu Yamamoto",
+    "licenseChecked": "2026-11-09"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Pitcher (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pitcher",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "term": "Pitcher",
+  "short": "The player who throws the ball to the batter from the mound in the middle of the infield: the key position in baseball.",
+  "sports": [
+    "baseball"
+  ],
+  "related": [
+    "inning"
+  ]
+}

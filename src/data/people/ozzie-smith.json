@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 26, 1954, Mobile, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1982",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "15× All-Star (1981–1992, 1994–1996)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (1982)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "13× Gold Glove Award (1980–1992)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Silver Slugger Award (1987)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (1995)",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals No. 1 retired",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Ozzie Smith",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Ozzie Smith (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1982,
+      "to": 1996,
+      "source": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "“The Wizard”, shortstop famous for his defence.",
+  "image": {
+    "file": "File:Ozzie Smith 1983 Saint Louis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ozzie_Smith_1983_Saint_Louis.jpg/1280px-Ozzie_Smith_1983_Saint_Louis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ozzie_Smith_1983_Saint_Louis.jpg",
+    "author": "Johnmaxmena",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Ozzie Smith",
+    "caption": "Ozzie Smith",
+    "licenseChecked": "2026-11-09"
+  }
+}

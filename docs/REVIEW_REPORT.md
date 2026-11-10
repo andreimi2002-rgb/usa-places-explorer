@@ -588,3 +588,46 @@ Date: 2026-11-08. Branch `nfl`. All 32 NFL teams are in; every Super Bowl now li
 7. **Pages**: all 32 team pages pass on mobile (no overflow, no console errors) and have the same sections; search finds
    players, teams, stadiums and owners; build 0 errors, 0 broken links.
 8. **Not in this release**: uniform drawings for the NFL (the drawing has only basketball and soccer shapes).
+
+# MLB skeleton and lot 1: Yankees, Red Sox, Dodgers, Cubs, Giants, Cardinals
+
+Date: 2026-11-09. Branch `mlb`. Lean format, like the NFL.
+
+## Things to check
+
+1. **World Series**: all 122 series from 1903 to 2026 (none in 1904 and 1994) come from Wikipedia's list; the 2026
+   series (Brewers over Rays, 4–1) is included. Pre-1903 league titles are not counted.
+2. **Managers**: baseball calls the head coach "Manager"; a new optional league term (`coach`) changes the label on team
+   and people pages. Chad Tracy has managed the Red Sox since April 2026, after Alex Cora.
+3. **Identities**: Yankees (Highlanders 1903–1912), Red Sox (Boston Americans 1901–1907), Dodgers (Brooklyn Robins and
+   Dodgers; the earlier Brooklyn names are in the founding note), Cubs (White Stockings, Colts, Orphans), Giants (New York
+   Gothams and Giants), Cardinals (Browns, Perfectos).
+4. **Players who left after the 2026 season** are not core players: Seiya Suzuki, Shota Imanaga and Kyle Tucker (Cubs),
+   Nolan Arenado and Willson Contreras (Cardinals), Alex Bregman (Red Sox).
+5. **Owners and Europe**: Fenway Sports Group (Red Sox) also owns Liverpool FC. Mark Walter (Dodgers) sold his Chelsea
+   stake in September 2026, so it is not mentioned. He also agreed in August 2026 to sell the NBA's Lakers to Josh Kushner
+   and Bob Iger; the Lakers' owner note now says so (sale pending).
+6. **European games**: the London Series (Yankees–Red Sox 2019, Cubs–Cardinals 2023), from Wikipedia. The 2026 London
+   series is described there as "planned", so it is not mentioned.
+7. **Logos**: official logos for all 30 MLB teams from mlbstatic.com (MLB.com).
+8. **Fixes**: photo credits no longer repeat ("Unknown authorUnknown author", fixed at the source); one-season spells
+   show a single year ("2003", not "2003–2003"); the "accessed" date of new data is now the real date.
+
+# MLB lot 2: Orioles, Rays, Blue Jays, Braves, Mets, Phillies
+
+Date: 2026-11-10. Branch `mlb`. AL East and NL East are now complete.
+
+## Things to check
+
+1. **Players who left after the 2026 season** are not core players: Adley Rutschman (Orioles), George Springer and
+   Bo Bichette (Blue Jays), Pete Alonso (Mets).
+2. **Managers**: Craig Albernaz (Orioles), Kevin Cash (Rays), John Schneider (Blue Jays), Walt Weiss (Braves, after
+   Brian Snitker), Andy Green (Mets, since June 2026), Don Mattingly (Phillies, interim from April 2026, permanent since
+   October 14, 2026).
+3. **Rays**: two spells at Tropicana Field (1998–2024 and since 2026); the 2025 season at Steinbrenner Field in Tampa is
+   in the texts only. Owner Patrick Zalupski since 2025.
+4. **Identities**: Orioles (Milwaukee Brewers 1901, St. Louis Browns 1902–1953); Braves (Boston Beaneaters 1883–1906 and
+   Braves 1912–1952, with the "Bees" years 1936–1940 inside that span; Milwaukee 1953–1965); Rays (Devil Rays to 2007).
+5. **New**: St. Petersburg (Tampa area), Cumberland, Georgia (Atlanta area); six ballparks. City texts updated for
+   Baltimore, Toronto, Atlanta, New York, Philadelphia, Boston and Tampa.
+6. **Fix**: photos now record the real date their licence was checked (it was fixed at November 5).

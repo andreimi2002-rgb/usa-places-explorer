@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "franchise": "baltimore-orioles",
+  "name": "St. Louis Browns",
+  "city": "st-louis",
+  "from": {
+    "value": 1902,
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+    "verified": "2026-11-10"
+  },
+  "to": 1953,
+  "current": false
+}

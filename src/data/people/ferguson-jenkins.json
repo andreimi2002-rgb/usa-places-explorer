@@ -1,0 +1,92 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 13, 1942, Chatham, Ontario, Canada",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (1967, 1971, 1972)",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL Cy Young Award (1971)",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Wins leader (1971, 1974)",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL strikeout leader (1969)",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs No. 31 retired",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Chicago Cubs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Texas Rangers Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Ferguson Jenkins",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Ferguson Jenkins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1966,
+      "to": 1973,
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "chicago-cubs",
+      "role": "player",
+      "from": 1982,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Ferguson_Jenkins",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Canadian pitcher and 1971 Cy Young Award winner.",
+  "image": {
+    "file": "File:Fergie Jenkins 1973.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Fergie_Jenkins_1973.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fergie_Jenkins_1973.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Ferguson Jenkins",
+    "caption": "Ferguson Jenkins",
+    "licenseChecked": "2026-11-09"
+  }
+}

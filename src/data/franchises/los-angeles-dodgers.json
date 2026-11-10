@@ -1,0 +1,233 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Los Angeles Dodgers",
+  "division": "mlb-nl-west",
+  "founded": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+    "verified": "2026-11-09",
+    "note": "Founded in Brooklyn in 1883 and known by several names (Bridegrooms, Superbas, Robins) before settling on Dodgers in 1932; in Los Angeles since 1958."
+  },
+  "firstSeason": {
+    "value": "1884",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "Guggenheim Baseball Management (chairman Mark Walter; partners include Magic Johnson)",
+    "source": "https://en.wikipedia.org/wiki/Guggenheim_Baseball_Management",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Dave Roberts",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09",
+    "person": "dave-roberts"
+  },
+  "venues": [
+    {
+      "venue": "dodger-stadium",
+      "from": 1962,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "jackie-robinson",
+    "duke-snider",
+    "sandy-koufax",
+    "don-drysdale",
+    "fernando-valenzuela",
+    "clayton-kershaw",
+    "tommy-lasorda"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/dodgers/roster",
+    "players": [
+      {
+        "person": "shohei-ohtani",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "mookie-betts",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "freddie-freeman",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "yoshinobu-yamamoto",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1883",
+      "label": "Founded in Brooklyn",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1947-04-15",
+      "label": "Jackie Robinson breaks baseball’s colour line",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1955",
+      "label": "Win the 1955 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1958",
+      "label": "Move to Los Angeles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1959",
+      "label": "Win the 1959 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1962",
+      "label": "Open Dodger Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1963",
+      "label": "Win the 1963 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1965",
+      "label": "Win the 1965 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1981",
+      "label": "Win the 1981 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1988",
+      "label": "Win the 1988 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2012",
+      "label": "Guggenheim Baseball Management buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2020",
+      "label": "Win the 2020 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2024",
+      "label": "Sign Shohei Ohtani",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2024",
+      "label": "Win the 2024 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2025",
+      "label": "Win the 2025 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Jackie Robinson’s Brooklyn team and today Shohei Ohtani’s: World Series winners in 2024 and 2025.",
+  "sources": [
+    {
+      "title": "Los Angeles Dodgers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Guggenheim Baseball Management (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Guggenheim_Baseball_Management",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/119.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/los-angeles-dodgers.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/119.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Dodger blue",
+        "hex": "#005A9C"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Red",
+        "hex": "#EF3E42"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+    "verified": "2026-11-09"
+  }
+}

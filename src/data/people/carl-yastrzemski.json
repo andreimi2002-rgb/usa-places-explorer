@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 22, 1939, Southampton, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "18× All-Star (1963, 1965–1979, 1982, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL MVP (1967)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Triple Crown (1967)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× Gold Glove Award (1963, 1965, 1967–1969, 1971, 1977)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL batting champion (1963, 1967, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL home run leader (1967)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL RBI leader (1967)",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Boston Red Sox No. 8 retired",
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Carl Yastrzemski",
+  "position": {
+    "value": "Left fielder ",
+    "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Carl Yastrzemski (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1961,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Carl_Yastrzemski",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Left fielder and 1967 Triple Crown winner.",
+  "image": {
+    "file": "File:Carl Yastrzemski 1966.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Carl_Yastrzemski_1966.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Yastrzemski_1966.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Carl Yastrzemski",
+    "caption": "Carl Yastrzemski",
+    "licenseChecked": "2026-11-09"
+  }
+}

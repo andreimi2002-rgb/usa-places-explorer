@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Rogers Centre",
+  "city": "toronto",
+  "opened": {
+    "value": "1989",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-10"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 39150,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-10"
+    }
+  },
+  "summary": "The Blue Jays’ stadium in downtown Toronto since 1989, the first with a fully retractable roof.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "image": {
+    "file": "File:Interior of Rogers Centre (Roof Closed) 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Interior_of_Rogers_Centre_%28Roof_Closed%29_2024.jpg/1280px-Interior_of_Rogers_Centre_%28Roof_Closed%29_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Rogers_Centre_(Roof_Closed)_2024.jpg",
+    "author": "JFVoll",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Inside Rogers Centre with the roof closed, 2024",
+    "caption": "Inside Rogers Centre with the roof closed, 2024",
+    "licenseChecked": "2026-11-10"
+  }
+}

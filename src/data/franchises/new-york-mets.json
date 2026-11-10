@@ -1,0 +1,164 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "New York Mets",
+  "division": "mlb-nl-east",
+  "founded": {
+    "value": 1962,
+    "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+    "verified": "2026-11-10",
+    "note": "Founded as an expansion team in 1962, after the Dodgers and Giants left New York."
+  },
+  "firstSeason": {
+    "value": "1962",
+    "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "Steve and Alexandra Cohen (since 2020)",
+    "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "Andy Green",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10",
+    "note": "Manager since June 2026, after Carlos Mendoza."
+  },
+  "venues": [
+    {
+      "venue": "citi-field",
+      "from": 2009,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "tom-seaver",
+    "keith-hernandez",
+    "dwight-gooden",
+    "darryl-strawberry",
+    "mike-piazza",
+    "david-wright"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/mets/roster",
+    "players": [
+      {
+        "person": "juan-soto",
+        "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "francisco-lindor",
+        "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1962",
+      "label": "First season, as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1964",
+      "label": "Move into Shea Stadium",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1969",
+      "label": "Win the 1969 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1986",
+      "label": "Win the 1986 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2009",
+      "label": "Open Citi Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2020",
+      "label": "Steve Cohen buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2025",
+      "label": "Sign Juan Soto",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2026-06-26",
+      "label": "Andy Green replaces Carlos Mendoza as manager",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "New York’s National League team since 1962: the “Miracle Mets” of 1969, the 1986 champions and today Juan Soto.",
+  "sources": [
+    {
+      "title": "New York Mets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_York_Mets",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/121.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/new-york-mets.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/121.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#002D72"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF5910"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/New_York_Mets",
+    "verified": "2026-11-10"
+  }
+}

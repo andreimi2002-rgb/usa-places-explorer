@@ -1,0 +1,83 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 22, 1927, Norristown, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1955",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× World Series champion (1981, 1988)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL Manager of the Year (1983, 1988)",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Los Angeles Dodgers No. 2 retired",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Tommy Lasorda",
+  "position": {
+    "value": "Pitcher ",
+    "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Tommy Lasorda (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 1954,
+      "to": 1955,
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "head-coach",
+      "from": 1976,
+      "to": 1996,
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Manager from 1976 to 1996 and winner of two World Series.",
+  "image": {
+    "file": "File:Tommy Lasorda 1981.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Tommy_Lasorda_1981.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tommy_Lasorda_1981.jpg",
+    "author": "Series: Reagan White House Photographs, 1/20/1981 - 1/20/1989 Collection: White House Photographic Collection, 1/20/1981 - 1/20/1989",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Tommy Lasorda",
+    "caption": "Tommy Lasorda",
+    "licenseChecked": "2026-11-09"
+  }
+}

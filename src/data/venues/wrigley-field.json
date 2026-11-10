@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Wrigley Field",
+  "city": "chicago",
+  "opened": {
+    "value": "1914",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-09"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 41649,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
+    }
+  },
+  "summary": "The Cubs’ ivy-covered ballpark in Chicago’s North Side, open since 1914.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "image": {
+    "file": "File:Wrigley Field 2018 - 42195054760.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wrigley_Field_2018_-_42195054760.jpg/1280px-Wrigley_Field_2018_-_42195054760.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrigley_Field_2018_-_42195054760.jpg",
+    "author": "Ryan Dickey",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Wrigley Field, 2018",
+    "caption": "Wrigley Field, 2018",
+    "licenseChecked": "2026-11-09"
+  }
+}

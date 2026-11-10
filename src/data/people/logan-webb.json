@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 18, 1996, Rocklin, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2024–2026)",
+      "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Gold Glove Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "NL strikeout leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Logan Webb",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Logan Webb (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Logan_Webb",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher and three-time All-Star.",
+  "image": {
+    "file": "File:Logan Webb (5-stwy4BMKU).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Logan_Webb_%285-stwy4BMKU%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Logan_Webb_(5-stwy4BMKU).png",
+    "author": "FanDuel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Photo of Logan Webb",
+    "caption": "Logan Webb",
+    "licenseChecked": "2026-11-09"
+  }
+}

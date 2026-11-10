@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 9, 1973, La Mesa, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Boone",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Star (2003)",
+      "source": "https://en.wikipedia.org/wiki/Aaron_Boone",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Aaron Boone",
+  "sources": [
+    {
+      "title": "Aaron Boone (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Boone",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 2003,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Boone",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "new-york-yankees",
+      "role": "head-coach",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Aaron_Boone",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Manager since 2018; as a player he hit a famous 2003 home run against Boston.",
+  "image": {
+    "file": "File:Aaron Boone June 18, 2018 (50121262646) cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Aaron_Boone_June_18%2C_2018_%2850121262646%29_cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aaron_Boone_June_18,_2018_(50121262646)_cropped.jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Aaron Boone",
+    "caption": "Aaron Boone",
+    "licenseChecked": "2026-11-09"
+  }
+}

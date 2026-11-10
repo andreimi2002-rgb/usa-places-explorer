@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 14, 1977, Denver, Colorado, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (2002, 2003, 2005, 2006, 2008–2011)",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Cy Young Award (2003, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× MLB wins leader (2003, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched a perfect game on May 29, 2010",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched a postseason no-hitter on October 6, 2010",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays No. 32 retired",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies No. 34 retired",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays Level of Excellence",
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Roy Halladay",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Roy Halladay (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1998,
+      "to": 2009,
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2010,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Roy_Halladay",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and two-time Cy Young winner, with Toronto and Philadelphia.",
+  "image": {
+    "file": "File:Roy Halladay pitches allison full.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Roy_Halladay_pitches_allison_full.jpg/1280px-Roy_Halladay_pitches_allison_full.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roy_Halladay_pitches_allison_full.jpg",
+    "author": "User Keith Allison on Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Roy Halladay",
+    "caption": "Roy Halladay",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 23, 1921, Buffalo, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1957",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "17× All-Star (1947, 1949–1954, 1956–1959², 1961–1963)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1957)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Cy Young Award (1957)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "8× NL wins leader (1949, 1950, 1953, 1957–1961)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL ERA leader (1947, 1953, 1961)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL strikeout leader (1949–1952)",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched two no-hitters",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 21 retired",
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Warren Spahn",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Warren Spahn (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1942,
+      "to": 1942,
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1946,
+      "to": 1964,
+      "source": "https://en.wikipedia.org/wiki/Warren_Spahn",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Left-handed pitcher with 363 wins.",
+  "image": {
+    "file": "File:WarrenSpahnBOS.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/WarrenSpahnBOS.png",
+    "page": "https://commons.wikimedia.org/wiki/File:WarrenSpahnBOS.png",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Warren Spahn",
+    "caption": "Warren Spahn",
+    "licenseChecked": "2026-11-10"
+  }
+}

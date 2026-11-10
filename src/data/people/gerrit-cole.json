@@ -1,0 +1,87 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 8, 1990, Tustin, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (2015, 2018, 2019, 2021–2023)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Cy Young Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× All-MLB First Team (2019, 2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL wins leader (2021)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL ERA leader (2019, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× MLB strikeout leader (2019, 2022)",
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Gerrit Cole",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Gerrit Cole (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 2020,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Gerrit_Cole",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher and 2023 AL Cy Young Award winner.",
+  "image": {
+    "file": "File:Gerrit Cole (53947688783) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gerrit_Cole_%2853947688783%29_%28cropped%29.jpg/1280px-Gerrit_Cole_%2853947688783%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gerrit_Cole_(53947688783)_(cropped).jpg",
+    "author": "Jeffrey Hyde from Bryan, TX, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Gerrit Cole",
+    "caption": "Gerrit Cole",
+    "licenseChecked": "2026-11-09"
+  }
+}

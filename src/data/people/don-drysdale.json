@@ -1,0 +1,90 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 23, 1936, Van Nuys, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1959, 1963, 1965",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "9× All-Star (1959, 1959², 1961², 1962, 1963–1965, 1967, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× World Series champion (1959, 1963, 1965)",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Cy Young Award (1962)",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB wins leader (1962)",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× MLB strikeout leader (1959, 1960, 1962)",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Los Angeles Dodgers No. 53 retired",
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Don Drysdale",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Don Drysdale (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 1956,
+      "to": 1969,
+      "source": "https://en.wikipedia.org/wiki/Don_Drysdale",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the 1959, 1963 and 1965 champions.",
+  "image": {
+    "file": "File:Don Drysdale - Los Angeles Dodgers - 1961.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Don_Drysdale_-_Los_Angeles_Dodgers_-_1961.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Don_Drysdale_-_Los_Angeles_Dodgers_-_1961.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Don Drysdale",
+    "caption": "Don Drysdale",
+    "licenseChecked": "2026-11-09"
+  }
+}

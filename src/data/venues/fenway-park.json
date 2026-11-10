@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Fenway Park",
+  "city": "boston",
+  "opened": {
+    "value": "1912",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-09"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 37755,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
+    }
+  },
+  "summary": "The Red Sox’s home since 1912, the oldest ballpark in Major League Baseball.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "image": {
+    "file": "File:Fenway from Legend's Box.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Fenway_from_Legend%27s_Box.jpg/1280px-Fenway_from_Legend%27s_Box.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fenway_from_Legend%27s_Box.jpg",
+    "author": "User Jared Vincent on Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Fenway Park and the Green Monster",
+    "caption": "Fenway Park and the Green Monster",
+    "licenseChecked": "2026-11-09"
+  }
+}

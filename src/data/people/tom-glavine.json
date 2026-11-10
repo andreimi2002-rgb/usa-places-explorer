@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 25, 1966, Concord, Massachusetts, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1995",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (1991–1993, 1996–1998, 2000, 2002, 2004, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1995)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL Cy Young Award (1991, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series MVP (1995)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (1991, 1995, 1996, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "5× NL wins leader (1991–1993, 1998, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 47 retired",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Braves Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Tom Glavine",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Tom Glavine (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1987,
+      "to": 2002,
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2008,
+      "to": 2008,
+      "source": "https://en.wikipedia.org/wiki/Tom_Glavine",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and two-time Cy Young winner.",
+  "image": {
+    "file": "File:Tom Glavine (51008654853) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tom_Glavine_%2851008654853%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Glavine_(51008654853)_(cropped).jpg",
+    "author": "Jeffrey Hayes",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Tom Glavine",
+    "caption": "Tom Glavine",
+    "licenseChecked": "2026-11-10"
+  }
+}

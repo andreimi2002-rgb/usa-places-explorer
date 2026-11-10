@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 14, 1966, San Angelo, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1995",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1988, 1992, 1994–1998, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1995)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL Cy Young Award (1992–1995)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "18× Gold Glove Award (1990–2002, 2004–2008)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL wins leader (1992, 1994, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL ERA leader (1993–1995, 1998)",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Chicago Cubs No. 31 retired",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 31 retired",
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Greg Maddux",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Greg Maddux (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1993,
+      "to": 2003,
+      "source": "https://en.wikipedia.org/wiki/Greg_Maddux",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and four-time Cy Young winner.",
+  "image": {
+    "file": "File:Maddux 53.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Maddux_53.jpg/1280px-Maddux_53.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maddux_53.jpg",
+    "author": "User ScottRAnselmo on en.wikipedia ScottRAnselmo (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Greg Maddux",
+    "caption": "Greg Maddux",
+    "licenseChecked": "2026-11-10"
+  }
+}

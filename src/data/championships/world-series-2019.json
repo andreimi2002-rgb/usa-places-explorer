@@ -1,0 +1,20 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "2019",
+  "level": "league",
+  "title": "2019 World Series",
+  "winnerName": "Washington Nationals",
+  "runnerUpName": "Houston Astros",
+  "result": "4–3",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 13, 2004, West Palm Beach, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Roman_Anthony",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [],
+  "name": "Roman Anthony",
+  "position": {
+    "value": "Outfielder",
+    "source": "https://en.wikipedia.org/wiki/Roman_Anthony",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Roman Anthony (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Roman_Anthony",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Roman_Anthony",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Outfielder who reached the majors in 2025.",
+  "image": {
+    "file": "File:Roman Anthony in 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Roman_Anthony_in_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roman_Anthony_in_2025.jpg",
+    "author": "KENGRIFFEY24FAN",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Roman Anthony",
+    "caption": "Roman Anthony",
+    "licenseChecked": "2026-11-09"
+  }
+}

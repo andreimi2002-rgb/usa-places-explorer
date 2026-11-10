@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "2013",
+  "level": "league",
+  "title": "2013 World Series",
+  "winner": "boston-red-sox",
+  "runnerUp": "st-louis-cardinals",
+  "winnerName": "Boston Red Sox",
+  "runnerUpName": "St. Louis Cardinals",
+  "result": "4–2",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

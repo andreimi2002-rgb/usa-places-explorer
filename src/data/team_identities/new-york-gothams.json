@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "franchise": "san-francisco-giants",
+  "name": "New York Gothams",
+  "city": "new-york",
+  "from": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+    "verified": "2026-11-09"
+  },
+  "to": 1884,
+  "current": false
+}

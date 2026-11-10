@@ -1,0 +1,82 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 20, 1982, Norfolk, Virginia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (2006–2010, 2012, 2013)",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Gold Glove Award (2007, 2008)",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (2007, 2008)",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets No. 5 retired",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "David Wright",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/David_Wright",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "David Wright (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/David_Wright",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 2004,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 2018,
+      "to": 2018,
+      "source": "https://en.wikipedia.org/wiki/David_Wright",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman and captain, whose number 5 was retired in 2025.",
+  "image": {
+    "file": "File:WrightMarch2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/WrightMarch2016.jpg/1280px-WrightMarch2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WrightMarch2016.jpg",
+    "author": "slgckgc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of David Wright",
+    "caption": "David Wright",
+    "licenseChecked": "2026-11-10"
+  }
+}

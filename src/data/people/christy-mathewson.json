@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 12, 1880, Factoryville, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1905",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× World Series champion (1905, 1921)",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× Triple Crown (1905, 1908)",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× NL wins leader (1905, 1907, 1908, 1910)",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× NL ERA leader (1905, 1908, 1909, 1911, 1913)",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× NL strikeout leader (1903–1905, 1907, 1908)",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Pitched two no-hitters",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Name honored by the Giants",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Major League Baseball All-Century Team",
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Christy Mathewson",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Christy Mathewson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 1900,
+      "to": 1916,
+      "source": "https://en.wikipedia.org/wiki/Christy_Mathewson",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the New York Giants and one of the first five Hall of Famers.",
+  "image": {
+    "file": "File:Christy-Mathewson-1910.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Christy-Mathewson-1910.jpeg/1280px-Christy-Mathewson-1910.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Christy-Mathewson-1910.jpeg",
+    "author": "Paul Thompson, photographer.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Christy Mathewson",
+    "caption": "Christy Mathewson",
+    "licenseChecked": "2026-11-09"
+  }
+}

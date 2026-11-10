@@ -1,0 +1,89 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 12, 1956, Portland, Oregon, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (1980, 1982–1987)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL MVP (1982, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "5× Gold Glove Award (1982–1986)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (1982–1985)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (1988)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL home run leader (1984, 1985)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL RBI leader (1982, 1983)",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 3 retired",
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Dale Murphy",
+  "position": {
+    "value": "Outfielder",
+    "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Dale Murphy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1976,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Dale_Murphy",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Outfielder and two-time NL MVP.",
+  "image": {
+    "file": "File:Dale Murphy 1984 Braves Police Set (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Dale_Murphy_1984_Braves_Police_Set_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dale_Murphy_1984_Braves_Police_Set_(cropped).jpg",
+    "author": "Atlanta Braves",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dale Murphy",
+    "caption": "Dale Murphy",
+    "licenseChecked": "2026-11-10"
+  }
+}

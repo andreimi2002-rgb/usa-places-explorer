@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 29, 1969, Panama City, Panama",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1996, 1998, 1999, 2000, 2009",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "13× All-Star (1997, 1999–2002, 2004–2006, 2008–2011, 2013)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× World Series champion (1996, 1998–2000, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series MVP (1999)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× AL Rolaids Relief Man Award (1999, 2001, 2004–2005, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× Delivery Man of the Year (2005–2006, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Comeback Player of the Year (2013)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× MLB saves leader (1999, 2001, 2004)",
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Mariano Rivera",
+  "position": {
+    "value": "Relief pitcher",
+    "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Mariano Rivera (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1995,
+      "to": 2013,
+      "source": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Closer, the first player elected unanimously to the Hall of Fame.",
+  "image": {
+    "file": "File:Mariano Rivera allison 7 29 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mariano_Rivera_allison_7_29_07.jpg/1280px-Mariano_Rivera_allison_7_29_07.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mariano_Rivera_allison_7_29_07.jpg",
+    "author": "User Keith Allison on Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Mariano Rivera",
+    "caption": "Mariano Rivera",
+    "licenseChecked": "2026-11-09"
+  }
+}

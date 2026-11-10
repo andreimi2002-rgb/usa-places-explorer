@@ -88,6 +88,8 @@ const leagues = defineCollection({
         titles: z.string(),
         /** Where the official roster lives, e.g. "NBA.com". */
         rosterSite: z.string(),
+        /** What the head coach is called, when it is not "Head coach" (e.g. "Manager" in baseball). */
+        coach: z.string().optional(),
         /** Optional intro for the uniforms section. */
         kitsIntro: z.string().optional(),
       })

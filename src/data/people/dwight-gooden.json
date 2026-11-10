@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 16, 1964, Tampa, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1986",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× All-Star (1984–1986, 1988)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1986, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Cy Young Award (1985)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Triple Crown (1985)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (1984)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (1992)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB wins leader (1985)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB ERA leader (1985)",
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Dwight Gooden",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Dwight Gooden (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1984,
+      "to": 1994,
+      "source": "https://en.wikipedia.org/wiki/Dwight_Gooden",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "“Doc”, pitcher of the 1986 champions.",
+  "image": {
+    "file": "File:Dwight Gooden 1986 by Barry Colla.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Dwight_Gooden_1986_by_Barry_Colla.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dwight_Gooden_1986_by_Barry_Colla.jpg",
+    "author": "Barry Colla Photography",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Dwight Gooden",
+    "caption": "Dwight Gooden",
+    "licenseChecked": "2026-11-10"
+  }
+}

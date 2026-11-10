@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 26, 1974, Pequannock Township, New Jersey, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1996, 1998, 1999, 2000, 2009",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "14× All-Star (1998–2002, 2004, 2006–2012, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× World Series champion (1996, 1998–2000, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series MVP (2000)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL Rookie of the Year (1996)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Gold Glove Award (2004–2006, 2009, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× Silver Slugger Award (2006–2009, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL Hank Aaron Award (2006, 2009)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2009)",
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Derek Jeter",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Derek Jeter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1995,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Shortstop and captain of five World Series champions.",
+  "image": {
+    "file": "File:Derek Jeter during MLB on Fox pre-game show, October 16, 2024 - 001 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Derek_Jeter_during_MLB_on_Fox_pre-game_show%2C_October_16%2C_2024_-_001_%28cropped%29.jpg/1280px-Derek_Jeter_during_MLB_on_Fox_pre-game_show%2C_October_16%2C_2024_-_001_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derek_Jeter_during_MLB_on_Fox_pre-game_show,_October_16,_2024_-_001_(cropped).jpg",
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Derek Jeter",
+    "caption": "Derek Jeter",
+    "licenseChecked": "2026-11-09"
+  }
+}

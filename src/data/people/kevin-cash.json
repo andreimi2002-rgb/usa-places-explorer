@@ -1,0 +1,57 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 6, 1977, Tampa, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Kevin_Cash",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× AL Manager of the Year (2020, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Kevin_Cash",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Kevin Cash",
+  "sources": [
+    {
+      "title": "Kevin Cash (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Cash",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2005,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Kevin_Cash",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "head-coach",
+      "from": 2015,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kevin_Cash",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Manager since 2015 and twice AL Manager of the Year.",
+  "image": {
+    "file": "File:2015 -WinterMeetings- Kevin Cash (23586674746).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2015_-WinterMeetings-_Kevin_Cash_%2823586674746%29.jpg/1280px-2015_-WinterMeetings-_Kevin_Cash_%2823586674746%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2015_-WinterMeetings-_Kevin_Cash_(23586674746).jpg",
+    "author": "Arturo Pardavila III from Hoboken, NJ, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Kevin Cash",
+    "caption": "Kevin Cash",
+    "licenseChecked": "2026-11-10"
+  }
+}

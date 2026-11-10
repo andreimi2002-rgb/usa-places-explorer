@@ -1,0 +1,90 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 13, 1931, Texarkana, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1957",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1953, 1955–1961², 1962²)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1957, 1968)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL home run leader (1953, 1959)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 41 retired",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Braves Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "American Family Field Walk of Fame",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Eddie Mathews",
+  "position": {
+    "value": "Third baseman ",
+    "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Eddie Mathews (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1952,
+      "to": 1966,
+      "source": "https://en.wikipedia.org/wiki/Eddie_Mathews",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman of the 1957 Milwaukee champions.",
+  "image": {
+    "file": "File:Edwin Lee Mathews head shot, circa 1963.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Edwin_Lee_Mathews_head_shot%2C_circa_1963.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Edwin_Lee_Mathews_head_shot,_circa_1963.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Eddie Mathews",
+    "caption": "Eddie Mathews",
+    "licenseChecked": "2026-11-10"
+  }
+}

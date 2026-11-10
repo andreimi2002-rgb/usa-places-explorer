@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 19, 1903, Manhattan, New York, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1923, 1927, 1928, 1932, 1936, 1937, 1938, 1939",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "7× All-Star (1933–1939)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "6× World Series champion (1927, 1928, 1932, 1936–1938)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× AL MVP (1927, 1936)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Triple Crown (1934)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "AL batting champion (1934)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL home run leader (1931, 1934, 1936)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× AL RBI leader (1927, 1928, 1930, 1931, 1934)",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Hit four home runs in one game on June 3, 1932",
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Lou Gehrig",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Lou Gehrig (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-yankees",
+      "role": "player",
+      "from": 1923,
+      "to": 1939,
+      "source": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "“The Iron Horse”, first baseman who played 2,130 games in a row.",
+  "image": {
+    "file": "File:Lou Gehrig in 1923 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lou_Gehrig_in_1923_%28cropped%29.jpg/1280px-Lou_Gehrig_in_1923_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lou_Gehrig_in_1923_(cropped).jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Lou Gehrig",
+    "caption": "Lou Gehrig",
+    "licenseChecked": "2026-11-09"
+  }
+}

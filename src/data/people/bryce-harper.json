@@ -1,0 +1,84 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 16, 1992, Las Vegas, Nevada, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "9× All-Star (2012, 2013, 2015–2018, 2022, 2024, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL MVP (2015, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB First Team (2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (2012)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (2015, 2021, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL Hank Aaron Award (2015, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL home run leader (2015)",
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Bryce Harper",
+  "position": {
+    "value": "First baseman ",
+    "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Bryce Harper (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman and two-time NL MVP.",
+  "image": {
+    "file": "File:Bryce Harper Stare Down Pregame from Nationals vs. Phillies at Nationals Park, May 13th, 2021 (All-Pro Reels Photography) (51188354283) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bryce_Harper_Stare_Down_Pregame_from_Nationals_vs._Phillies_at_Nationals_Park%2C_May_13th%2C_2021_%28All-Pro_Reels_Photography%29_%2851188354283%29_%28cropped%29.jpg/1280px-Bryce_Harper_Stare_Down_Pregame_from_Nationals_vs._Phillies_at_Nationals_Park%2C_May_13th%2C_2021_%28All-Pro_Reels_Photography%29_%2851188354283%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bryce_Harper_Stare_Down_Pregame_from_Nationals_vs._Phillies_at_Nationals_Park,_May_13th,_2021_(All-Pro_Reels_Photography)_(51188354283)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Bryce Harper",
+    "caption": "Bryce Harper",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 27, 1978, Oakland, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2008",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2001, 2002, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2008)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (2007)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Gold Glove Award (2007–2009, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2007)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (2014)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL stolen base leader (2001)",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Jimmy Rollins",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Jimmy Rollins (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2000,
+      "to": 2014,
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Rollins",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Shortstop of the 2008 champions and 2007 NL MVP.",
+  "image": {
+    "file": "File:Jimmy Rollins runs the bases.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Jimmy_Rollins_runs_the_bases.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Rollins_runs_the_bases.JPG",
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Jimmy Rollins",
+    "caption": "Jimmy Rollins",
+    "licenseChecked": "2026-11-10"
+  }
+}

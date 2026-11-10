@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "1982",
+  "level": "league",
+  "title": "1982 World Series",
+  "winner": "st-louis-cardinals",
+  "winnerName": "St. Louis Cardinals",
+  "runnerUpName": "Milwaukee Brewers",
+  "result": "4–3",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

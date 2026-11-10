@@ -1,0 +1,155 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Tampa Bay Rays",
+  "division": "mlb-al-east",
+  "founded": {
+    "value": 1995,
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+    "verified": "2026-11-10",
+    "note": "Awarded in 1995 as an expansion team; first season 1998, as the Devil Rays until 2007."
+  },
+  "firstSeason": {
+    "value": "1998",
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "Patrick Zalupski (since 2025)",
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "Kevin Cash",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10",
+    "person": "kevin-cash"
+  },
+  "venues": [
+    {
+      "venue": "tropicana-field",
+      "from": 1998,
+      "to": 2024,
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    },
+    {
+      "venue": "tropicana-field",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "carl-crawford",
+    "evan-longoria"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/rays/roster",
+    "players": [
+      {
+        "person": "junior-caminero",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "yandy-diaz",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "shane-mcclanahan",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1998",
+      "label": "First season, as the Devil Rays",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2008",
+      "label": "Renamed the Rays; reach the World Series",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2015",
+      "label": "Kevin Cash becomes manager",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2025",
+      "label": "Play the season in Tampa after hurricane damage to their ballpark; Patrick Zalupski buys the club",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2026",
+      "label": "Return to Tropicana Field and reach the World Series",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "One of baseball’s smallest budgets and some of its smartest management: three World Series finals, the latest in 2026.",
+  "sources": [
+    {
+      "title": "Tampa Bay Rays (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/139.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/tampa-bay-rays.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/139.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Navy",
+        "hex": "#092C5C"
+      },
+      {
+        "name": "Columbia blue",
+        "hex": "#8FBCE6"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F5D130"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+    "verified": "2026-11-10"
+  }
+}

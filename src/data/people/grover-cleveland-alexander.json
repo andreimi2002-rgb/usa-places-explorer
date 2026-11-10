@@ -1,0 +1,97 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 26, 1887, Elba, Nebraska, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "World Series champion (1926)",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Triple Crown (1915, 1916, 1920)",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "6× NL wins leader (1911, 1914–1917, 1920)",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL ERA leader (1915, 1916, 1919, 1920)",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "6× NL strikeout leader (1912, 1914–1917, 1920)",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies jersey retired",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Chicago Cubs Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Grover Cleveland Alexander",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Grover Cleveland Alexander (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 1911,
+      "to": 1917,
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 1930,
+      "to": 1930,
+      "source": "https://en.wikipedia.org/wiki/Grover_Cleveland_Alexander",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher of the 1910s with 373 career wins.",
+  "image": {
+    "file": "File:Grover Cleveland Alexander by Conlon, 1915-crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Grover_Cleveland_Alexander_by_Conlon%2C_1915-crop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grover_Cleveland_Alexander_by_Conlon,_1915-crop.jpg",
+    "author": "Charles M. Conlon",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Grover Cleveland Alexander",
+    "caption": "Grover Cleveland Alexander",
+    "licenseChecked": "2026-11-10"
+  }
+}

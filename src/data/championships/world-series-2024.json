@@ -1,0 +1,22 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "2024",
+  "level": "league",
+  "title": "2024 World Series",
+  "winner": "los-angeles-dodgers",
+  "runnerUp": "new-york-yankees",
+  "winnerName": "Los Angeles Dodgers",
+  "runnerUpName": "New York Yankees",
+  "result": "4–1",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

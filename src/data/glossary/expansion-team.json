@@ -23,7 +23,8 @@
   "sports": [
     "basketball",
     "soccer",
-    "american-football"
+    "american-football",
+    "baseball"
   ],
   "related": [
     "nba-draft"

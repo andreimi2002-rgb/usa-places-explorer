@@ -66,7 +66,7 @@ const finalsSummary =
     : finalsSeasons.length <= 3
       ? finalsSeasons.join(', ')
       : `${finalsSeasons.length} times, most recently ${finalsSeasons.at(-1)}`;
-const ROLE_LABELS = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
+const ROLE_LABELS = { player: 'Player', 'head-coach': terms.coach ?? 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
 const legendIds = new Set(d.legends.map((r) => r.id));
 const coreIds = new Set(d.corePlayers?.players.map((p) => p.person.id) ?? []);
 const rookieIds = new Set(d.rookies?.players.map((p) => p.person.id) ?? []);
@@ -82,7 +82,7 @@ function card(p: PersonEntry, tier: Tier, note?: string) {
     name: p.data.name,
     tier,
     position: shown(p.data.position),
-    years: here.length ? `${kinds} · ${from}–${to}` : '',
+    years: here.length ? `${kinds} · ${from === to ? from : `${from}–${to}`}` : '',
     image: p.data.image ? { url: p.data.image.url, alt: p.data.image.alt } : undefined,
     facts: p.data.facts.filter((x) => x.verified).map((x) => ({ label: x.label, value: x.value })),
     note,
@@ -174,7 +174,7 @@ const credits = [d.image, d.kitPhoto, currentVenue?.data.image, ...people.map((p
               { label: 'First season', value: d.firstSeason?.value, source: d.firstSeason?.source, verified: d.firstSeason?.verified },
               { label: 'Owner', value: d.owner?.value, source: d.owner?.source, verified: d.owner?.verified },
               {
-                label: `Head coach (${d.headCoach?.asOf ?? ''})`,
+                label: `${terms.coach ?? 'Head coach'} (${d.headCoach?.asOf ?? ''})`,
                 value: d.headCoach?.name,
                 source: d.headCoach?.source,
                 verified: d.headCoach?.verified,

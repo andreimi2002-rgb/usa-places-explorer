@@ -22,8 +22,13 @@ const trades = await Promise.all(
 );
 const body = await prose('people', person.id, 'body');
 const Body = body ? (await render(body)).Content : undefined;
-const roleLabel = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
+const baseLabel = { player: 'Player', 'head-coach': 'Head coach', executive: 'Executive', owner: 'Owner', founder: 'Co-founder' } as const;
+const leagueTerms = new Map((await getCollection('leagues')).map((l) => [l.id, l.data.terms]));
+// "Head coach" is called "Manager" in baseball: the label follows the league of each role's team.
+const label = (r: (typeof roles)[number]) => (r.role === 'head-coach' ? (r.team && leagueTerms.get(r.team.data.league.id)?.coach) || baseLabel[r.role] : baseLabel[r.role]);
 const first = roles[0];
+/** "2003" for a single season, "2018–today" for a current role. */
+const years = (a: number, b: number | null, open = 'today') => (b === a ? String(a) : `${a}–${b ?? open}`);
 const honours = d.honours.filter((h) => h.verified);
 const honoursSource = honours[0]?.source;
 // Award rows already shown in "Career honours" are left out of the Key facts box.
@@ -33,7 +38,7 @@ const keyFacts = honours.length > 0 ? d.facts.filter((f) => !awardFact.test(f.la
 
 <Base title={d.name} description={d.summary}>
   <EntityHeader
-    eyebrow={first ? `${roleLabel[first.role]} · ${first.team?.data.name} · ${first.from}–${first.to ?? ''}` : 'Person'}
+    eyebrow={first ? `${label(first)} · ${first.team?.data.name} · ${years(first.from, first.to, '')}` : 'Person'}
     title={d.name}
     intro={d.summary}
     crumbs={[{ label: 'Home', href: '/' }, ...(first?.team ? [{ label: first.team.data.name, href: routes.franchises(first.team.id) }] : []), { label: d.name }]}
@@ -75,8 +80,8 @@ const keyFacts = honours.length > 0 ? d.facts.filter((f) => !awardFact.test(f.la
           title="Key facts"
           rows={[
             ...roles.map((r) => ({
-              label: roleLabel[r.role],
-              value: `${r.team?.data.name ?? ''}, ${r.from}–${r.to ?? 'today'}`,
+              label: label(r),
+              value: `${r.team?.data.name ?? ''}, ${years(r.from, r.to)}`,
               href: r.team ? routes.franchises(r.team.id) : undefined,
               source: r.source,
               verified: r.verified,

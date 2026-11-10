@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 17, 1944, Fresno, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1969",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1967–1973, 1975–1978, 1981)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1969)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL Cy Young Award (1969, 1973, 1975)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (1967)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL wins leader (1969, 1975, 1981)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL ERA leader (1970, 1971, 1973)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "5× NL strikeout leader (1970, 1971, 1973, 1975, 1976)",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Pitched a no-hitter on June 16, 1978",
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Tom Seaver",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Tom Seaver (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1967,
+      "to": 1977,
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1983,
+      "to": 1983,
+      "source": "https://en.wikipedia.org/wiki/Tom_Seaver",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "“Tom Terrific”, pitcher of the 1969 “Miracle Mets”.",
+  "image": {
+    "file": "File:Tom Seaver Mets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tom_Seaver_Mets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Seaver_Mets.jpg",
+    "author": "New York Mets",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Tom Seaver",
+    "caption": "Tom Seaver",
+    "licenseChecked": "2026-11-10"
+  }
+}

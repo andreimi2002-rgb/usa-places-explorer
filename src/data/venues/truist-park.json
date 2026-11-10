@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Truist Park",
+  "city": "cumberland-ga",
+  "opened": {
+    "value": "2017",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-10"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 41084,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-10"
+    }
+  },
+  "summary": "The Braves’ ballpark north-west of Atlanta since 2017.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "image": {
+    "file": "File:SunTrust Park Opening Day 2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/SunTrust_Park_Opening_Day_2017.jpg/1280px-SunTrust_Park_Opening_Day_2017.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:SunTrust_Park_Opening_Day_2017.jpg",
+    "author": "Thechased at English Wikipedia",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Truist Park on its opening day, 2017",
+    "caption": "Truist Park on its opening day, 2017",
+    "licenseChecked": "2026-11-10"
+  }
+}

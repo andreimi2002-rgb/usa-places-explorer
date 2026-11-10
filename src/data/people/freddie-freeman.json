@@ -1,0 +1,108 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 12, 1989, Fountain Valley, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2021",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (2013, 2014, 2018, 2019, 2021–2026)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× World Series champion (2021, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (2020)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series MVP (2024)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× All-MLB First Team (2020, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Gold Glove Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Silver Slugger Award (2019–2021)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Hank Aaron Award (2020)",
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Freddie Freeman",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Freddie Freeman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2010,
+      "to": 2021,
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "los-angeles-dodgers",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "First baseman of the 2021 Braves champions, later World Series MVP with the Dodgers in 2024.",
+  "image": {
+    "file": "File:Freddie Freeman - Dodgers vs Nationals 4-23-2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Freddie_Freeman_-_Dodgers_vs_Nationals_4-23-2024.jpg/1280px-Freddie_Freeman_-_Dodgers_vs_Nationals_4-23-2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Freddie_Freeman_-_Dodgers_vs_Nationals_4-23-2024.jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Freddie Freeman",
+    "caption": "Freddie Freeman",
+    "licenseChecked": "2026-11-10"
+  }
+}

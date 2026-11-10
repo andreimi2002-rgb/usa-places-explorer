@@ -1,0 +1,54 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 21, 2002, Katy, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Masyn_Winn",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "Gold Glove Award (2025)",
+      "source": "https://en.wikipedia.org/wiki/Masyn_Winn",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Masyn Winn",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Masyn_Winn",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Masyn Winn (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Masyn_Winn",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Masyn_Winn",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Shortstop and 2025 Gold Glove winner.",
+  "image": {
+    "file": "File:MasynWinn2024.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MasynWinn2024.png",
+    "page": "https://commons.wikimedia.org/wiki/File:MasynWinn2024.png",
+    "author": "Johnmaxmena2",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Masyn Winn",
+    "caption": "Masyn Winn",
+    "licenseChecked": "2026-11-09"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "1948",
+  "level": "league",
+  "title": "1948 World Series",
+  "runnerUp": "atlanta-braves",
+  "winnerName": "Cleveland Indians",
+  "runnerUpName": "Boston Braves",
+  "result": "4–2",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

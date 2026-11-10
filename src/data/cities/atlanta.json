@@ -12,6 +12,7 @@
   "region": "Georgia",
   "country": "United States",
   "timezone": "America/New_York",
+  "metro": "Atlanta metropolitan area",
   "coordinates": {
     "value": {
       "lat": 33.749,
@@ -21,7 +22,7 @@
     "verified": "2026-11-05",
     "note": "GeoNames 4180439: Atlanta, Georgia"
   },
-  "summary": "Home of the Falcons since 1966, the Hawks since 1968 and Atlanta United since 2017.",
+  "summary": "Home of the Braves since 1966, the Falcons since 1966, the Hawks since 1968 and Atlanta United since 2017.",
   "image": {
     "file": "File:Atlanta skyline from Jackson Street Bridge 2020.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg/1280px-Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg",

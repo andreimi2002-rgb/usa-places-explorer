@@ -1,0 +1,79 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 7, 1985, Downey, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2008–2010)",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Rookie of the Year (2008)",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Gold Glove Award (2009, 2010, 2017)",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2009)",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Tampa Bay Rays No. 3 retired",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Tampa Bay Rays Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Evan Longoria",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Evan Longoria (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2008,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Evan_Longoria",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman of the 2008 pennant winners.",
+  "image": {
+    "file": "File:Evan Longoria at-bat 2017 (35511678331) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Evan_Longoria_at-bat_2017_%2835511678331%29_%28cropped%29.jpg/1280px-Evan_Longoria_at-bat_2017_%2835511678331%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Evan_Longoria_at-bat_2017_(35511678331)_(cropped).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Evan Longoria",
+    "caption": "Evan Longoria",
+    "licenseChecked": "2026-11-10"
+  }
+}

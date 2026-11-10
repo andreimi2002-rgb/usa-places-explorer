@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 25, 1971, Manoguayabo, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2004",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1996–2000, 2002, 2005, 2006)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series champion (2004)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× Cy Young Award (1997, 1999, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Triple Crown (1999)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "MLB wins leader (1999)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "5× MLB ERA leader (1997, 1999, 2000, 2002, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "3× AL strikeout leader (1999, 2000, 2002)",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Boston Red Sox No. 45 retired",
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Pedro Martínez",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Pedro Martínez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "boston-red-sox",
+      "role": "player",
+      "from": 1998,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Pedro_Mart%C3%ADnez",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Pitcher of the 2004 champions and three-time Cy Young Award winner.",
+  "image": {
+    "file": "File:Pedro's return.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pedro%27s_return.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pedro%27s_return.jpg",
+    "author": "Andrew Malone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Pedro Martínez",
+    "caption": "Pedro Martínez",
+    "licenseChecked": "2026-11-09"
+  }
+}

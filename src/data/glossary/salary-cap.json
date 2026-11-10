@@ -11,6 +11,11 @@
       "title": "Salary cap (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Salary_cap",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Luxury tax (sports) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Luxury_tax_(sports)",
+      "accessed": "2026-11-09"
     }
   ],
   "term": "Salary cap",
@@ -18,7 +23,8 @@
   "sports": [
     "basketball",
     "soccer",
-    "american-football"
+    "american-football",
+    "baseball"
   ],
   "related": [
     "free-agency",

@@ -15,6 +15,11 @@
       "value": 41992,
       "source": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
       "verified": "2026-11-06"
+    },
+    "baseball": {
+      "value": 46537,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
     }
   },
   "extensions": {
@@ -37,6 +42,11 @@
       "title": "2026 MLS season (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
       "accessed": "2026-11-06"
+    },
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
     }
   ],
   "summary": "The baseball stadium in the Bronx, home of the New York Yankees, where NYCFC has played most of its home games since 2015.",

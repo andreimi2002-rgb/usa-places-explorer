@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "franchise": "philadelphia-phillies",
+  "name": "Philadelphia Phillies",
+  "city": "philadelphia",
+  "from": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "verified": "2026-11-10"
+  },
+  "to": null,
+  "current": true
+}

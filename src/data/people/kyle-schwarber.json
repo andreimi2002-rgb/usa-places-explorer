@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 5, 1993, Middletown, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× All-Star (2021, 2022, 2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2016)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL home run leader (2022, 2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB RBI leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Hit four home runs in one game on August 28, 2025",
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Kyle Schwarber",
+  "position": {
+    "value": "Left fielder ",
+    "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Kyle Schwarber (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Slugger and designated hitter.",
+  "image": {
+    "file": "File:Kyle Schwarber taking a practice swing, August 13, 2022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kyle_Schwarber_taking_a_practice_swing%2C_August_13%2C_2022.jpg/1280px-Kyle_Schwarber_taking_a_practice_swing%2C_August_13%2C_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyle_Schwarber_taking_a_practice_swing,_August_13,_2022.jpg",
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Kyle Schwarber",
+    "caption": "Kyle Schwarber",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 2, 1997, Memphis, Tennessee, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2021",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2021)",
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× All-MLB First Team (2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (2021, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Austin Riley",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Austin Riley (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Austin_Riley",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman of the 2021 champions.",
+  "image": {
+    "file": "File:Austin Riley (50331512017).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Austin_Riley_%2850331512017%29.jpg/1280px-Austin_Riley_%2850331512017%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_Riley_(50331512017).jpg",
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Austin Riley",
+    "caption": "Austin Riley",
+    "licenseChecked": "2026-11-10"
+  }
+}

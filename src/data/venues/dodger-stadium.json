@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Dodger Stadium",
+  "city": "los-angeles",
+  "opened": {
+    "value": "1962",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-09"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 56000,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-09"
+    }
+  },
+  "summary": "The Dodgers’ hillside ballpark in Los Angeles since 1962, the largest in the major leagues.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "image": {
+    "file": "File:Dodger Stadium field from upper deck 2015-10-04.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Dodger_Stadium_field_from_upper_deck_2015-10-04.jpg/1280px-Dodger_Stadium_field_from_upper_deck_2015-10-04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dodger_Stadium_field_from_upper_deck_2015-10-04.jpg",
+    "author": "Junkyardsparkle",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Dodger Stadium from the upper deck",
+    "caption": "Dodger Stadium from the upper deck",
+    "licenseChecked": "2026-11-09"
+  }
+}

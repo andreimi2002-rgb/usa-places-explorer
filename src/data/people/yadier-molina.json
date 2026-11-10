@@ -1,0 +1,90 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 13, 1982, Bayamón, Puerto Rico",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2006, 2011",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "10× All-Star (2009–2015, 2017, 2018, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× World Series champion (2006, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "9× Gold Glove Award (2008–2015, 2018)",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Silver Slugger Award (2013)",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Roberto Clemente Award (2018)",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Yadier Molina",
+  "position": {
+    "value": "Catcher",
+    "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Yadier Molina (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 2004,
+      "to": 2022,
+      "source": "https://en.wikipedia.org/wiki/Yadier_Molina",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Catcher of the 2006 and 2011 champions.",
+  "image": {
+    "file": "File:Yadier Molina (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Yadier_Molina_%28cropped%29.jpg/1280px-Yadier_Molina_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yadier_Molina_(cropped).jpg",
+    "author": "shgmom56 (Original version) UCinternational (Crop)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Yadier Molina",
+    "caption": "Yadier Molina",
+    "licenseChecked": "2026-11-09"
+  }
+}

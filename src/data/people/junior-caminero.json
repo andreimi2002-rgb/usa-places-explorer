@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "July 5, 2003, Santo Domingo, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB Second Team (2025)",
+      "source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Junior Caminero",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Junior Caminero (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman and two-time All-Star.",
+  "image": {
+    "file": "File:JuniorCaminero.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/JuniorCaminero.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JuniorCaminero.jpg",
+    "author": "Raysfanjake1984",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Junior Caminero",
+    "caption": "Junior Caminero",
+    "licenseChecked": "2026-11-10"
+  }
+}

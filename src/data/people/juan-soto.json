@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 25, 1998, Santo Domingo, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (2021–2024, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2019)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× All-MLB First Team (2020, 2021, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "6× Silver Slugger Award (2020–2025)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL batting champion (2020)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL stolen base leader (2025)",
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Juan Soto",
+  "position": {
+    "value": "Outfielder",
+    "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Juan Soto (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Juan_Soto",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Dominican outfielder, signed in 2025 on a record contract.",
+  "image": {
+    "file": "File:Mets Spring Training, March 23, 2025 (Leo Altes) - 00010 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mets_Spring_Training%2C_March_23%2C_2025_%28Leo_Altes%29_-_00010_%28cropped%29.jpg/1280px-Mets_Spring_Training%2C_March_23%2C_2025_%28Leo_Altes%29_-_00010_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mets_Spring_Training,_March_23,_2025_(Leo_Altes)_-_00010_(cropped).jpg",
+    "author": "Leo Altes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of Juan Soto",
+    "caption": "Juan Soto",
+    "licenseChecked": "2026-11-10"
+  }
+}

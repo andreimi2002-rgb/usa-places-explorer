@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 4, 1968, Norristown, Pennsylvania, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1993–2002, 2004, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (1993)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "10× Silver Slugger Award (1993–2002)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets No. 31 retired",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Mike Piazza",
+  "position": {
+    "value": "Catcher",
+    "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Mike Piazza (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1998,
+      "to": 2005,
+      "source": "https://en.wikipedia.org/wiki/Mike_Piazza",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Catcher of the 2000 pennant winners.",
+  "image": {
+    "file": "File:Mike Piazza HOF Press Conference.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mike_Piazza_HOF_Press_Conference.jpg/1280px-Mike_Piazza_HOF_Press_Conference.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Piazza_HOF_Press_Conference.jpg",
+    "author": "Arturo Pardavila III from Hoboken, NJ, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Mike Piazza",
+    "caption": "Mike Piazza",
+    "licenseChecked": "2026-11-10"
+  }
+}

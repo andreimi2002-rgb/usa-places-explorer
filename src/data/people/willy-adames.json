@@ -1,0 +1,48 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 2, 1995, Santiago, Santiago, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Willy_Adames",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [],
+  "name": "Willy Adames",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Willy_Adames",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Willy Adames (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Willy_Adames",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "san-francisco-giants",
+      "role": "player",
+      "from": 2025,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Willy_Adames",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Shortstop, signed in 2025.",
+  "image": {
+    "file": "File:Willy Adames Nationals vs. Rays at Nationals Park, September 8, 2020 (All-Pro Reels Photography) (50330392726) (cropped 2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Willy_Adames_Nationals_vs._Rays_at_Nationals_Park%2C_September_8%2C_2020_%28All-Pro_Reels_Photography%29_%2850330392726%29_%28cropped_2%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Willy_Adames_Nationals_vs._Rays_at_Nationals_Park,_September_8,_2020_(All-Pro_Reels_Photography)_(50330392726)_(cropped_2).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Willy Adames",
+    "caption": "Willy Adames",
+    "licenseChecked": "2026-11-09"
+  }
+}

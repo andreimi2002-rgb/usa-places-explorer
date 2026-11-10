@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 27, 1896, Winters, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1926",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    }
+  ],
+  "honours": [
+    {
+      "label": "World Series champion (1926)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL MVP (1925, 1929)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL Triple Crown (1922, 1925)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "7× NL batting champion (1920–1925, 1928)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "2× NL home run leader (1922, 1925)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "4× NL RBI leader (1920–1922, 1925)",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "Name honored by St. Louis Cardinals",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    }
+  ],
+  "name": "Rogers Hornsby",
+  "position": {
+    "value": "Second baseman ",
+    "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+    "verified": "2026-11-09"
+  },
+  "sources": [
+    {
+      "title": "Rogers Hornsby (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1915,
+      "to": 1926,
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    },
+    {
+      "franchise": "st-louis-cardinals",
+      "role": "player",
+      "from": 1933,
+      "to": 1933,
+      "source": "https://en.wikipedia.org/wiki/Rogers_Hornsby",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "Second baseman of the 1926 champions.",
+  "image": {
+    "file": "File:Rogers Hornsby.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rogers_Hornsby.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogers_Hornsby.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Rogers Hornsby",
+    "caption": "Rogers Hornsby",
+    "licenseChecked": "2026-11-09"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "active",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "franchise": "tampa-bay-rays",
+  "name": "Tampa Bay Rays",
+  "city": "st-petersburg",
+  "from": {
+    "value": 2008,
+    "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+    "verified": "2026-11-10"
+  },
+  "to": null,
+  "current": true
+}

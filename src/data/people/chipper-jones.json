@@ -1,0 +1,103 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 24, 1972, DeLand, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1995",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1996–1998, 2000, 2001, 2008, 2011, 2012)",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1995)",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (1999)",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (1999, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB batting champion (2008)",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 10 retired",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Braves Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Chipper Jones",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Chipper Jones (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1993,
+      "to": 1993,
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 1995,
+      "to": 2012,
+      "source": "https://en.wikipedia.org/wiki/Chipper_Jones",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman of the 1995 champions and 1999 NL MVP.",
+  "image": {
+    "file": "File:Chipper Jones in San Diego.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chipper_Jones_in_San_Diego.jpg/1280px-Chipper_Jones_in_San_Diego.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chipper_Jones_in_San_Diego.jpg",
+    "author": "Djh57",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Chipper Jones",
+    "caption": "Chipper Jones",
+    "licenseChecked": "2026-11-10"
+  }
+}

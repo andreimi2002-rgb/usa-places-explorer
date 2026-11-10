@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "league": "mlb",
+  "season": "2003",
+  "level": "league",
+  "title": "2003 World Series",
+  "runnerUp": "new-york-yankees",
+  "winnerName": "Florida Marlins",
+  "runnerUpName": "New York Yankees",
+  "result": "4–2",
+  "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+  "verified": "2026-11-10"
+}

@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 19, 1979, Florissant, Missouri, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2008",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2006, 2009, 2010)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2008)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (2006)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (2005)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2006)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Hank Aaron Award (2006)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× MLB home run leader (2006, 2008)",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Ryan Howard",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Ryan Howard (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2004,
+      "to": 2016,
+      "source": "https://en.wikipedia.org/wiki/Ryan_Howard",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman and 2006 NL MVP.",
+  "image": {
+    "file": "File:Ryan Howard (18878856955).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ryan_Howard_%2818878856955%29.jpg/1280px-Ryan_Howard_%2818878856955%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ryan_Howard_(18878856955).jpg",
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ryan Howard",
+    "caption": "Ryan Howard",
+    "licenseChecked": "2026-11-10"
+  }
+}

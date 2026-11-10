@@ -1,0 +1,164 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Chicago Cubs",
+  "division": "mlb-nl-central",
+  "founded": {
+    "value": 1870,
+    "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+    "verified": "2026-11-09",
+    "note": "Founded in 1870 as the Chicago White Stockings; a charter member of the National League in 1876; called the Cubs since 1903."
+  },
+  "firstSeason": {
+    "value": "1876",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+    "verified": "2026-11-09"
+  },
+  "owner": {
+    "value": "Ricketts family (since 2009)",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+    "verified": "2026-11-09"
+  },
+  "headCoach": {
+    "name": "Craig Counsell",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-09",
+    "person": "craig-counsell"
+  },
+  "venues": [
+    {
+      "venue": "wrigley-field",
+      "from": 1916,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    }
+  ],
+  "legends": [
+    "ernie-banks",
+    "ron-santo",
+    "billy-williams",
+    "ferguson-jenkins",
+    "ryne-sandberg",
+    "anthony-rizzo"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/cubs/roster",
+    "players": [
+      {
+        "person": "pete-crow-armstrong",
+        "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+        "verified": "2026-11-09"
+      },
+      {
+        "person": "dansby-swanson",
+        "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+        "verified": "2026-11-09"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1876",
+      "label": "A charter member of the National League",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1903",
+      "label": "Called the Cubs",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1907",
+      "label": "Win the 1907 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1908",
+      "label": "Win the 1908 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "1916",
+      "label": "Move into Wrigley Field",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2009",
+      "label": "The Ricketts family buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2016",
+      "label": "Win the 2016 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-09"
+    },
+    {
+      "date": "2023-11-06",
+      "label": "Hire Craig Counsell",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "verified": "2026-11-09"
+    }
+  ],
+  "summary": "One of the two clubs left from the National League’s first season, 1876, and Wrigley Field: the 2016 World Series ended a 108-year wait.",
+  "sources": [
+    {
+      "title": "Chicago Cubs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/112.svg",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "logo": {
+    "file": "mlb/chicago-cubs.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/112.svg",
+    "accessed": "2026-11-09"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Blue",
+        "hex": "#0E3386"
+      },
+      {
+        "name": "Red",
+        "hex": "#CC3433"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Chicago_Cubs",
+    "verified": "2026-11-09"
+  }
+}

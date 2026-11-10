@@ -612,3 +612,22 @@ Date: 2026-11-09. Branch `mlb`. Lean format, like the NFL.
 7. **Logos**: official logos for all 30 MLB teams from mlbstatic.com (MLB.com).
 8. **Fixes**: photo credits no longer repeat ("Unknown authorUnknown author", fixed at the source); one-season spells
    show a single year ("2003", not "2003–2003"); the "accessed" date of new data is now the real date.
+
+# MLB lot 2: Orioles, Rays, Blue Jays, Braves, Mets, Phillies
+
+Date: 2026-11-10. Branch `mlb`. AL East and NL East are now complete.
+
+## Things to check
+
+1. **Players who left after the 2026 season** are not core players: Adley Rutschman (Orioles), George Springer and
+   Bo Bichette (Blue Jays), Pete Alonso (Mets).
+2. **Managers**: Craig Albernaz (Orioles), Kevin Cash (Rays), John Schneider (Blue Jays), Walt Weiss (Braves, after
+   Brian Snitker), Andy Green (Mets, since June 2026), Don Mattingly (Phillies, interim from April 2026, permanent since
+   October 14, 2026).
+3. **Rays**: two spells at Tropicana Field (1998–2024 and since 2026); the 2025 season at Steinbrenner Field in Tampa is
+   in the texts only. Owner Patrick Zalupski since 2025.
+4. **Identities**: Orioles (Milwaukee Brewers 1901, St. Louis Browns 1902–1953); Braves (Boston Beaneaters 1883–1906 and
+   Braves 1912–1952, with the "Bees" years 1936–1940 inside that span; Milwaukee 1953–1965); Rays (Devil Rays to 2007).
+5. **New**: St. Petersburg (Tampa area), Cumberland, Georgia (Atlanta area); six ballparks. City texts updated for
+   Baltimore, Toronto, Atlanta, New York, Philadelphia, Boston and Tampa.
+6. **Fix**: photos now record the real date their licence was checked (it was fixed at November 5).

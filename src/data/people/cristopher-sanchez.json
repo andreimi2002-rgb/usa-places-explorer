@@ -1,0 +1,59 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 12, 1996, La Romana, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2024, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL wins leader (2026)",
+      "source": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Cristopher Sánchez",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Cristopher Sánchez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Cristopher_S%C3%A1nchez",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Dominican pitcher and 2026 NL wins leader.",
+  "image": {
+    "file": "File:Cris Sanchez (tn7yj 4wAM4).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cris_Sanchez_%28tn7yj_4wAM4%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Cris_Sanchez_(tn7yj_4wAM4).png",
+    "author": "Latinos En Pelota",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Cristopher Sánchez",
+    "caption": "Cristopher Sánchez",
+    "licenseChecked": "2026-11-10"
+  }
+}

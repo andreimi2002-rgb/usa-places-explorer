@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 25, 1972, Aguadilla, Puerto Rico",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1993",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2000, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Silver Slugger Award (1999, 2000, 2003)",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Hank Aaron Award (2000)",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (2006)",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL RBI leader (2003)",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Hit four home runs in one game on September 25, 2003",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays Level of Excellence",
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Carlos Delgado",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Carlos Delgado (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1993,
+      "to": 2004,
+      "source": "https://en.wikipedia.org/wiki/Carlos_Delgado",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Puerto Rican first baseman.",
+  "image": {
+    "file": "File:Carlos Delgado, New York Mets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Carlos_Delgado%2C_New_York_Mets.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carlos_Delgado,_New_York_Mets.jpg",
+    "author": "Rafael Amado Deras",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Carlos Delgado",
+    "caption": "Carlos Delgado",
+    "licenseChecked": "2026-11-10"
+  }
+}

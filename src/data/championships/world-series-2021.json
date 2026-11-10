@@ -5,16 +5,17 @@
     {
       "title": "List of World Series champions (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-      "accessed": "2026-11-09"
+      "accessed": "2026-11-10"
     }
   ],
   "league": "mlb",
   "season": "2021",
   "level": "league",
   "title": "2021 World Series",
+  "winner": "atlanta-braves",
   "winnerName": "Atlanta Braves",
   "runnerUpName": "Houston Astros",
   "result": "4–2",
   "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-  "verified": "2026-11-09"
+  "verified": "2026-11-10"
 }

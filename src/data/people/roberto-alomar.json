@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 5, 1968, Ponce, Puerto Rico",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1992, 1993",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1990–2001)",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "10× Gold Glove Award (1991–1996, 1998–2001)",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (1992, 1996, 1999, 2000)",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Roberto Alomar",
+  "position": {
+    "value": "Second baseman",
+    "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Roberto Alomar (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1991,
+      "to": 1995,
+      "source": "https://en.wikipedia.org/wiki/Roberto_Alomar",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Puerto Rican second baseman of the 1992 and 1993 champions.",
+  "image": {
+    "file": "File:Roberto Alomar 2011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Roberto_Alomar_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roberto_Alomar_2011.jpg",
+    "author": "Mental Lint from North Creek NY",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Roberto Alomar",
+    "caption": "Roberto Alomar",
+    "licenseChecked": "2026-11-10"
+  }
+}

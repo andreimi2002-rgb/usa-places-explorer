@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 31, 1935, Beaumont, Texas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1966, 1970",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "14× All-Star (1956, 1957, 1959, 1959², 1961, 1961², 1962², 1965–1967, 1969–1971, 1974)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1966, 1970)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× MVP (1961, 1966)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series MVP (1966)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Triple Crown (1966)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (1956)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Gold Glove Award (1958)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL batting champion (1966)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Frank Robinson",
+  "position": {
+    "value": "Outfielder ",
+    "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Frank Robinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1966,
+      "to": 1971,
+      "source": "https://en.wikipedia.org/wiki/Frank_Robinson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Outfielder and 1966 Triple Crown winner, later MLB’s first Black manager.",
+  "image": {
+    "file": "File:Frank Robinson 1961.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Frank_Robinson_1961.jpg/1280px-Frank_Robinson_1961.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Frank_Robinson_1961.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Frank Robinson",
+    "caption": "Frank Robinson",
+    "licenseChecked": "2026-11-10"
+  }
+}

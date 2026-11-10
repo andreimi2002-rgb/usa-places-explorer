@@ -5,7 +5,7 @@
     {
       "title": "List of World Series champions (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-      "accessed": "2026-11-09"
+      "accessed": "2026-11-10"
     }
   ],
   "league": "mlb",
@@ -13,9 +13,10 @@
   "level": "league",
   "title": "2020 World Series",
   "winner": "los-angeles-dodgers",
+  "runnerUp": "tampa-bay-rays",
   "winnerName": "Los Angeles Dodgers",
   "runnerUpName": "Tampa Bay Rays",
   "result": "4–2",
   "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-  "verified": "2026-11-09"
+  "verified": "2026-11-10"
 }

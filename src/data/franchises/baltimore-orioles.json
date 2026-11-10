@@ -1,0 +1,170 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Baltimore Orioles",
+  "division": "mlb-al-east",
+  "founded": {
+    "value": 1894,
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+    "verified": "2026-11-10",
+    "note": "Began as the minor-league Milwaukee Brewers; in the American League from 1901, as the St. Louis Browns from 1902 and in Baltimore since 1954."
+  },
+  "firstSeason": {
+    "value": "1901",
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "Group led by David Rubenstein (since 2024)",
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "Craig Albernaz",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10"
+  },
+  "venues": [
+    {
+      "venue": "oriole-park-at-camden-yards",
+      "from": 1992,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "brooks-robinson",
+    "frank-robinson",
+    "jim-palmer",
+    "eddie-murray",
+    "cal-ripken-jr",
+    "earl-weaver"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/orioles/roster",
+    "players": [
+      {
+        "person": "gunnar-henderson",
+        "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "jackson-holliday",
+        "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1901",
+      "label": "First American League season, as the Milwaukee Brewers",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1902",
+      "label": "Move to St. Louis as the Browns",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1954",
+      "label": "Move to Baltimore and become the Orioles",
+      "kind": "identity",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1966",
+      "label": "Win the 1966 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1970",
+      "label": "Win the 1970 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1983",
+      "label": "Win the 1983 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1992",
+      "label": "Open Camden Yards",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1995-09-06",
+      "label": "Cal Ripken Jr. plays his 2,131st game in a row, breaking Lou Gehrig’s record",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2024",
+      "label": "David Rubenstein’s group buys the club",
+      "kind": "ownership",
+      "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "The St. Louis Browns until 1953, then Baltimore’s Orioles: three World Series, Brooks Robinson and Cal Ripken Jr.",
+  "sources": [
+    {
+      "title": "Baltimore Orioles (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/110.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/baltimore-orioles.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/110.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Orange",
+        "hex": "#DF4601"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+    "verified": "2026-11-10"
+  }
+}

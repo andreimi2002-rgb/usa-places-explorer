@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "name": "Cumberland",
+  "region": "Georgia",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Atlanta metropolitan area",
+  "coordinates": {
+    "value": {
+      "lat": 33.88426,
+      "lon": -84.46438
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cumberland&count=5&language=en&countryCode=US",
+    "verified": "2026-11-10"
+  },
+  "facts": [],
+  "summary": "A business district north-west of Atlanta, home of the Braves’ ballpark since 2017.",
+  "hub": "atlanta",
+  "image": {
+    "file": "File:Cumberland, Georgia office buildings, 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cumberland%2C_Georgia_office_buildings%2C_2016.jpg/1280px-Cumberland%2C_Georgia_office_buildings%2C_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cumberland,_Georgia_office_buildings,_2016.jpg",
+    "author": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Office buildings in Cumberland",
+    "caption": "Office buildings in Cumberland",
+    "licenseChecked": "2026-11-10"
+  }
+}

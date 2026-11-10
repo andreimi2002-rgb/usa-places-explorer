@@ -1,0 +1,72 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 21, 1941, Tulsa, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× World Series champion (1977, 1995)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Manager of the Year (1985, 1991, 2004, 2005)",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Atlanta Braves No. 6 retired",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Braves Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Bobby Cox",
+  "sources": [
+    {
+      "title": "Bobby Cox (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "head-coach",
+      "from": 1978,
+      "to": 1981,
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "atlanta-braves",
+      "role": "head-coach",
+      "from": 1990,
+      "to": 2010,
+      "source": "https://en.wikipedia.org/wiki/Bobby_Cox",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Manager of the 1995 champions and of 14 division titles in a row.",
+  "image": {
+    "file": "File:Bobby Cox signs autograph CROPPED.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bobby_Cox_signs_autograph_CROPPED.jpg/1280px-Bobby_Cox_signs_autograph_CROPPED.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bobby_Cox_signs_autograph_CROPPED.jpg",
+    "author": "Bobby_Cox_signs_autograph.jpg: Dottie White derivative work: Delaywaves talk • contribs",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Bobby Cox",
+    "caption": "Bobby Cox",
+    "licenseChecked": "2026-11-10"
+  }
+}

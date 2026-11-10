@@ -1,0 +1,100 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "December 18, 1997, La Guaira, Venezuela",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "2021",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (2019, 2021–2023, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (2023)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB First Team (2023)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (2018)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Silver Slugger Award (2019, 2020, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Hank Aaron Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Comeback Player of the Year (2025)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL stolen base leader (2019, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Ronald Acuña Jr.",
+  "position": {
+    "value": "Outfielder",
+    "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Ronald Acuña Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2018,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Venezuelan outfielder and 2023 NL MVP.",
+  "image": {
+    "file": "File:Ronald Acuna Jr. HR from Nationals vs. Braves at Nationals Park, April 6th, 2021 (All-Pro Reels Photography) (51102624580).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ronald_Acuna_Jr._HR_from_Nationals_vs._Braves_at_Nationals_Park%2C_April_6th%2C_2021_%28All-Pro_Reels_Photography%29_%2851102624580%29.png/1280px-Ronald_Acuna_Jr._HR_from_Nationals_vs._Braves_at_Nationals_Park%2C_April_6th%2C_2021_%28All-Pro_Reels_Photography%29_%2851102624580%29.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Ronald_Acuna_Jr._HR_from_Nationals_vs._Braves_at_Nationals_Park,_April_6th,_2021_(All-Pro_Reels_Photography)_(51102624580).png",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Ronald Acuña Jr.",
+    "caption": "Ronald Acuña Jr.",
+    "licenseChecked": "2026-11-10"
+  }
+}

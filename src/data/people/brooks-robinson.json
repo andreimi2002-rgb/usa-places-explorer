@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "May 18, 1937, Little Rock, Arkansas, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1966, 1970",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "18× All-Star (1960–1974)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1966, 1970)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL MVP (1964)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series MVP (1970)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "16× Gold Glove Award (1960–1975)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (1972)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL RBI leader (1964)",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles No. 5 retired",
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Brooks Robinson",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Brooks Robinson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1955,
+      "to": 1977,
+      "source": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman, “the Human Vacuum Cleaner”, with 16 Gold Gloves.",
+  "image": {
+    "file": "File:Brooks Robinson 1966 (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Brooks_Robinson_1966_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brooks_Robinson_1966_(2).jpg",
+    "author": "Sports Service",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Brooks Robinson",
+    "caption": "Brooks Robinson",
+    "licenseChecked": "2026-11-10"
+  }
+}

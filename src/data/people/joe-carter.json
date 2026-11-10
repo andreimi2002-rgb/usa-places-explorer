@@ -1,0 +1,85 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 7, 1960, Oklahoma City, Oklahoma, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1992, 1993",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (1991–1994, 1996)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1992, 1993)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (1991, 1992)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL RBI leader (1986)",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays Level of Excellence",
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Joe Carter",
+  "position": {
+    "value": "Outfielder ",
+    "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Joe Carter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 1991,
+      "to": 1997,
+      "source": "https://en.wikipedia.org/wiki/Joe_Carter",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Outfielder whose home run won the 1993 World Series.",
+  "image": {
+    "file": "File:Joe Carter by Gage Skidmore.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Joe_Carter_by_Gage_Skidmore.jpg/1280px-Joe_Carter_by_Gage_Skidmore.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joe_Carter_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Photo of Joe Carter",
+    "caption": "Joe Carter",
+    "licenseChecked": "2026-11-10"
+  }
+}

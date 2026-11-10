@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 8, 1991, Sagua La Grande, Villa Clara, Cuba",
+      "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2023, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL batting champion (2023)",
+      "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Yandy Díaz",
+  "position": {
+    "value": "First baseman ",
+    "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Yandy Díaz (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Cuban first baseman and 2023 AL batting champion.",
+  "image": {
+    "file": "File:ProfileDiazstlrays2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/ProfileDiazstlrays2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ProfileDiazstlrays2024.jpg",
+    "author": "Johnmaxmena2",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Yandy Díaz",
+    "caption": "Yandy Díaz",
+    "licenseChecked": "2026-11-10"
+  }
+}

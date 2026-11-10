@@ -5,16 +5,18 @@
     {
       "title": "List of World Series champions (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-      "accessed": "2026-11-09"
+      "accessed": "2026-11-10"
     }
   ],
   "league": "mlb",
   "season": "1992",
   "level": "league",
   "title": "1992 World Series",
+  "winner": "toronto-blue-jays",
+  "runnerUp": "atlanta-braves",
   "winnerName": "Toronto Blue Jays",
   "runnerUpName": "Atlanta Braves",
   "result": "4–2",
   "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
-  "verified": "2026-11-09"
+  "verified": "2026-11-10"
 }

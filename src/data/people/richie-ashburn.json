@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 19, 1927, Tilden, Nebraska, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (1948, 1951, 1953, 1958, 1962, 1962²)",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL batting champion (1955, 1958)",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL stolen base leader (1948)",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies No. 1 retired",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Philadelphia Phillies Wall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Richie Ashburn",
+  "position": {
+    "value": "Center fielder",
+    "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Richie Ashburn (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 1948,
+      "to": 1959,
+      "source": "https://en.wikipedia.org/wiki/Richie_Ashburn",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Center fielder and two-time NL batting champion.",
+  "image": {
+    "file": "File:Richie Ashburn 1953.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Richie_Ashburn_1953.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Richie_Ashburn_1953.jpg",
+    "author": "Bowman Gum",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Richie Ashburn",
+    "caption": "Richie Ashburn",
+    "licenseChecked": "2026-11-10"
+  }
+}

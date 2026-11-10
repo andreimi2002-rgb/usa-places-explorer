@@ -1,0 +1,108 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "February 24, 1956, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1983",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1978, 1981–1986, 1991)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1983)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Rookie of the Year (1977)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Gold Glove Award (1982–1984)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Silver Slugger Award (1983, 1984, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL home run leader (1981)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL RBI leader (1981)",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles No. 33 retired",
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Eddie Murray",
+  "position": {
+    "value": "First baseman ",
+    "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Eddie Murray (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1977,
+      "to": 1988,
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 1996,
+      "to": 1996,
+      "source": "https://en.wikipedia.org/wiki/Eddie_Murray",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman of the 1983 champions.",
+  "image": {
+    "file": "File:Eddie Murray Field at BGE Ribbon Cutting (24618935508) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Eddie_Murray_Field_at_BGE_Ribbon_Cutting_%2824618935508%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eddie_Murray_Field_at_BGE_Ribbon_Cutting_(24618935508)_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Photo of Eddie Murray",
+    "caption": "Eddie Murray",
+    "licenseChecked": "2026-11-10"
+  }
+}

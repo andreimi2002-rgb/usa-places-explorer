@@ -1,0 +1,69 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "November 14, 1993, Caguas, Puerto Rico",
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (2016–2019, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Gold Glove Award (2016, 2019)",
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Silver Slugger Award (2017, 2018, 2023, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Roberto Clemente Award (2026)",
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Francisco Lindor",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Francisco Lindor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 2021,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Francisco_Lindor",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Puerto Rican shortstop and team leader.",
+  "image": {
+    "file": "File:Francisco Lindor during warmups, March 15, 2024 (1) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Francisco_Lindor_during_warmups%2C_March_15%2C_2024_%281%29_%28cropped%29.jpg/1280px-Francisco_Lindor_during_warmups%2C_March_15%2C_2024_%281%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Francisco_Lindor_during_warmups,_March_15,_2024_(1)_(cropped).jpg",
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Francisco Lindor",
+    "caption": "Francisco Lindor",
+    "licenseChecked": "2026-11-10"
+  }
+}

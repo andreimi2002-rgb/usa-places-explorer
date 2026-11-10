@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Citi Field",
+  "city": "new-york",
+  "opened": {
+    "value": "2009",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-10"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 41922,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-10"
+    }
+  },
+  "summary": "The Mets’ ballpark in Queens since 2009.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "image": {
+    "file": "File:Citi Field, June 2 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Citi_Field%2C_June_2_2012.jpg/1280px-Citi_Field%2C_June_2_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Citi_Field,_June_2_2012.jpg",
+    "author": "Richiekim",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Citi Field during a Mets game",
+    "caption": "Citi Field during a Mets game",
+    "licenseChecked": "2026-11-10"
+  }
+}

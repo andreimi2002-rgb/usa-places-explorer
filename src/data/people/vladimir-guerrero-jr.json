@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 16, 1999, Montreal, Quebec, Canada",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (2021–2026)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× All-MLB First Team (2021, 2024, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Gold Glove Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (2021, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Hank Aaron Award (2021)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "MLB home run leader (2021)",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Vladimir Guerrero Jr.",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Vladimir Guerrero Jr. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 2019,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman and six-time All-Star.",
+  "image": {
+    "file": "File:Vladimir guerrero jr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Vladimir_guerrero_jr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vladimir_guerrero_jr.jpg",
+    "author": "Hexagonsunshine",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Vladimir Guerrero Jr.",
+    "caption": "Vladimir Guerrero Jr.",
+    "licenseChecked": "2026-11-10"
+  }
+}

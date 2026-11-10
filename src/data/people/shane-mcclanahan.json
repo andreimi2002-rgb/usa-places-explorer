@@ -1,0 +1,62 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "April 28, 1997, Baltimore, Maryland, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "2× All-Star (2022, 2023)",
+      "source": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Shane McClanahan",
+  "position": {
+    "value": "Pitcher",
+    "source": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Shane McClanahan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2020,
+      "to": 2023,
+      "source": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "tampa-bay-rays",
+      "role": "player",
+      "from": 2026,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Shane_McClanahan",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Pitcher and two-time All-Star.",
+  "image": {
+    "file": "File:ShaneMcClanahan2026.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ShaneMcClanahan2026.jpg/1280px-ShaneMcClanahan2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ShaneMcClanahan2026.jpg",
+    "author": "Raysfanjake1984",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Shane McClanahan",
+    "caption": "Shane McClanahan",
+    "licenseChecked": "2026-11-10"
+  }
+}

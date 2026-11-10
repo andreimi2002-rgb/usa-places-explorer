@@ -1,0 +1,79 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 30, 1993, Boynton Beach, Florida, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "3× All-Star (2021, 2022, 2024)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (2019)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "All-MLB First Team (2022)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2022)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL batting champion (2021, 2025)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× NL stolen base leader (2018, 2021)",
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Trea Turner",
+  "position": {
+    "value": "Shortstop",
+    "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Trea Turner (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 2023,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Trea_Turner",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Shortstop and three-time All-Star.",
+  "image": {
+    "file": "File:Trea Turner (51296241224) (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Trea_Turner_%2851296241224%29_%28cropped%29.jpg/1280px-Trea_Turner_%2851296241224%29_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trea_Turner_(51296241224)_(cropped).jpg",
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Trea Turner",
+    "caption": "Trea Turner",
+    "licenseChecked": "2026-11-10"
+  }
+}

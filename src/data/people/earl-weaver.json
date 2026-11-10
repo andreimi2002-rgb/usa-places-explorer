@@ -1,0 +1,67 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "August 14, 1930, St. Louis, Missouri, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "World Series champion (1970)",
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles No. 4 retired",
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Baltimore Orioles Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Earl Weaver",
+  "sources": [
+    {
+      "title": "Earl Weaver (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "head-coach",
+      "from": 1968,
+      "to": 1982,
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    },
+    {
+      "franchise": "baltimore-orioles",
+      "role": "head-coach",
+      "from": 1985,
+      "to": 1986,
+      "source": "https://en.wikipedia.org/wiki/Earl_Weaver",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Manager of four AL pennants and the 1970 champions.",
+  "image": {
+    "file": "File:Earl Weaver Orioles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Earl_Weaver_Orioles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Earl_Weaver_Orioles.jpg",
+    "author": "Baltimore Orioles",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Earl Weaver",
+    "caption": "Earl Weaver",
+    "licenseChecked": "2026-11-10"
+  }
+}

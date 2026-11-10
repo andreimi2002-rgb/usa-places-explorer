@@ -1,0 +1,95 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 12, 1962, Los Angeles, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1986",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "8× All-Star (1984–1991)",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× World Series champion (1986, 1996, 1999)",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL Rookie of the Year (1983)",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (1988, 1990)",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL home run leader (1988)",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets No. 18 retired",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Darryl Strawberry",
+  "position": {
+    "value": "Right fielder",
+    "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Darryl Strawberry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1983,
+      "to": 1990,
+      "source": "https://en.wikipedia.org/wiki/Darryl_Strawberry",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Right fielder of the 1986 champions.",
+  "image": {
+    "file": "File:Daryl Strawberry (29297363126).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Daryl_Strawberry_%2829297363126%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daryl_Strawberry_(29297363126).jpg",
+    "author": "Greg2600",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Photo of Darryl Strawberry",
+    "caption": "Darryl Strawberry",
+    "licenseChecked": "2026-11-10"
+  }
+}

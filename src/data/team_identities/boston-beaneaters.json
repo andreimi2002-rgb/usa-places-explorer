@@ -1,0 +1,21 @@
+{
+  "status": "historical",
+  "progress": "complete",
+  "sources": [
+    {
+      "title": "Club history (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "franchise": "atlanta-braves",
+  "name": "Boston Beaneaters",
+  "city": "boston",
+  "from": {
+    "value": 1883,
+    "source": "https://en.wikipedia.org/wiki/Atlanta_Braves",
+    "verified": "2026-11-10"
+  },
+  "to": 1906,
+  "current": false
+}

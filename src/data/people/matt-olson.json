@@ -1,0 +1,74 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "March 29, 1994, Atlanta, Georgia, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "4× All-Star (2021, 2023, 2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× Gold Glove Award (2018, 2019, 2025, 2026)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL home run leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL RBI leader (2023)",
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Matt Olson",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Matt Olson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "atlanta-braves",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Matt_Olson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman and four-time Gold Glove winner.",
+  "image": {
+    "file": "File:Matt Olson at first base, Aug 05 2022 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Matt_Olson_at_first_base%2C_Aug_05_2022_%28cropped%29.jpg/1280px-Matt_Olson_at_first_base%2C_Aug_05_2022_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matt_Olson_at_first_base,_Aug_05_2022_(cropped).jpg",
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Photo of Matt Olson",
+    "caption": "Matt Olson",
+    "licenseChecked": "2026-11-10"
+  }
+}

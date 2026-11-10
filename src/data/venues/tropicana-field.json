@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Tropicana Field",
+  "city": "st-petersburg",
+  "opened": {
+    "value": "1990",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-10"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 25000,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-10"
+    }
+  },
+  "summary": "The Rays’ domed ballpark in St. Petersburg, back in use since 2026 after hurricane repairs.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "image": {
+    "file": "File:Tropicana Field Playing Field Opening Day 2010.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tropicana_Field_Playing_Field_Opening_Day_2010.JPG/1280px-Tropicana_Field_Playing_Field_Opening_Day_2010.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Tropicana_Field_Playing_Field_Opening_Day_2010.JPG",
+    "author": "EaglesFanInTampa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Inside Tropicana Field",
+    "caption": "Inside Tropicana Field",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "June 29, 2001, Montgomery, Alabama, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "All-Star (2024)",
+      "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "AL Rookie of the Year (2023)",
+      "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Silver Slugger Award (2023)",
+      "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Gunnar Henderson",
+  "position": {
+    "value": "Shortstop ",
+    "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Gunnar Henderson (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "baltimore-orioles",
+      "role": "player",
+      "from": 2022,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Gunnar_Henderson",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Shortstop and 2023 AL Rookie of the Year.",
+  "image": {
+    "file": "File:GunnarHenderson.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/GunnarHenderson.jpg/1280px-GunnarHenderson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GunnarHenderson.jpg",
+    "author": "Reunion",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Photo of Gunnar Henderson",
+    "caption": "Gunnar Henderson",
+    "licenseChecked": "2026-11-10"
+  }
+}

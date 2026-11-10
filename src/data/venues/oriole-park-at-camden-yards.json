@@ -1,0 +1,39 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "formerNames": [],
+  "facts": [],
+  "name": "Oriole Park at Camden Yards",
+  "city": "baltimore",
+  "opened": {
+    "value": "1992",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+    "verified": "2026-11-10"
+  },
+  "capacity": {
+    "baseball": {
+      "value": 42455,
+      "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "verified": "2026-11-10"
+    }
+  },
+  "summary": "The Orioles’ downtown ballpark since 1992, the model for a generation of “retro” parks.",
+  "sources": [
+    {
+      "title": "Current MLB stadiums (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_stadiums",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "image": {
+    "file": "File:Camden Yards.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Camden_Yards.jpg/1280px-Camden_Yards.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Camden_Yards.jpg",
+    "author": "Chris6d",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Oriole Park at Camden Yards, 2021",
+    "caption": "Oriole Park at Camden Yards, 2021",
+    "licenseChecked": "2026-11-10"
+  }
+}

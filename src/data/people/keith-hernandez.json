@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 20, 1953, San Francisco, California, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1986",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "5× All-Star (1979, 1980, 1984, 1986, 1987)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× World Series champion (1982, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL MVP (1979)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "11× Gold Glove Award (1978–1988)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× Silver Slugger Award (1980, 1984)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "NL batting champion (1979)",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "New York Mets No. 17 retired",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "St. Louis Cardinals Hall of Fame",
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Keith Hernandez",
+  "position": {
+    "value": "First baseman",
+    "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Keith Hernandez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "new-york-mets",
+      "role": "player",
+      "from": 1983,
+      "to": 1989,
+      "source": "https://en.wikipedia.org/wiki/Keith_Hernandez",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "First baseman of the 1986 champions.",
+  "image": {
+    "file": "File:Keith Hernandez 1986.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Keith_Hernandez_1986.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Keith_Hernandez_1986.jpg",
+    "author": "Barry Colla Photography",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Keith Hernandez",
+    "caption": "Keith Hernandez",
+    "licenseChecked": "2026-11-10"
+  }
+}

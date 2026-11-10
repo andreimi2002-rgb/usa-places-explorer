@@ -1,0 +1,153 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "league": "mlb",
+  "name": "Toronto Blue Jays",
+  "division": "mlb-al-east",
+  "founded": {
+    "value": 1976,
+    "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+    "verified": "2026-11-10",
+    "note": "Founded as an expansion team; first season 1977."
+  },
+  "firstSeason": {
+    "value": "1977",
+    "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+    "verified": "2026-11-10"
+  },
+  "owner": {
+    "value": "Rogers Communications",
+    "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+    "verified": "2026-11-10"
+  },
+  "headCoach": {
+    "name": "John Schneider",
+    "asOf": "2026",
+    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+    "verified": "2026-11-10"
+  },
+  "venues": [
+    {
+      "venue": "rogers-centre",
+      "from": 1989,
+      "to": null,
+      "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "verified": "2026-11-10"
+    }
+  ],
+  "legends": [
+    "dave-stieb",
+    "roberto-alomar",
+    "joe-carter",
+    "carlos-delgado",
+    "roy-halladay",
+    "jose-bautista"
+  ],
+  "corePlayers": {
+    "asOf": "2026",
+    "rosterUrl": "https://www.mlb.com/bluejays/roster",
+    "players": [
+      {
+        "person": "vladimir-guerrero-jr",
+        "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+        "verified": "2026-11-10"
+      },
+      {
+        "person": "dylan-cease",
+        "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+        "verified": "2026-11-10"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "date": "1977",
+      "label": "First season, as an expansion team",
+      "kind": "founding",
+      "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1989",
+      "label": "Open the SkyDome, today’s Rogers Centre",
+      "kind": "venue",
+      "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1992",
+      "label": "Win the 1992 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1993",
+      "label": "Joe Carter’s home run wins a second World Series in a row",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "1993",
+      "label": "Win the 1993 World Series",
+      "kind": "finals",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    },
+    {
+      "date": "2025",
+      "label": "Reach the World Series, lost in seven games to the Dodgers",
+      "kind": "other",
+      "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Canada’s team: back-to-back World Series in 1992 and 1993, and the 2025 final against the Dodgers.",
+  "sources": [
+    {
+      "title": "Toronto Blue Jays (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Current MLB managers (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_managers",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "Team logo (MLB.com)",
+      "url": "https://www.mlbstatic.com/team-logos/141.svg",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "logo": {
+    "file": "mlb/toronto-blue-jays.svg",
+    "official": true,
+    "source": "https://www.mlbstatic.com/team-logos/141.svg",
+    "accessed": "2026-11-10"
+  },
+  "colors": {
+    "value": [
+      {
+        "name": "Royal blue",
+        "hex": "#134A8E"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1D2D5C"
+      },
+      {
+        "name": "Red",
+        "hex": "#E8291C"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+    "verified": "2026-11-10"
+  }
+}

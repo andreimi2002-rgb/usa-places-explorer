@@ -1,0 +1,74 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "October 19, 1980, Santo Domingo, Dominican Republic",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "6× All-Star (2010–2015)",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× Silver Slugger Award (2010, 2011, 2014)",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× AL Hank Aaron Award (2010, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "2× MLB home run leader (2010, 2011)",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "Toronto Blue Jays Level of Excellence",
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "José Bautista",
+  "position": {
+    "value": "Right fielder ",
+    "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "José Bautista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "toronto-blue-jays",
+      "role": "player",
+      "from": 2008,
+      "to": 2017,
+      "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bautista",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Dominican right fielder of the 2015 team.",
+  "image": {
+    "file": "File:Jose Bautista Las Vegas 2024.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jose_Bautista_Las_Vegas_2024.jpg/1280px-Jose_Bautista_Las_Vegas_2024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jose_Bautista_Las_Vegas_2024.jpg",
+    "author": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Photo of José Bautista",
+    "caption": "José Bautista",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "active",
+  "progress": "content-ready",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "name": "St. Petersburg",
+  "region": "Florida",
+  "country": "United States",
+  "timezone": "America/New_York",
+  "metro": "Tampa Bay area",
+  "coordinates": {
+    "value": {
+      "lat": 27.77086,
+      "lon": -82.67927
+    },
+    "source": "https://geocoding-api.open-meteo.com/v1/search?name=St.%20Petersburg&count=5&language=en&countryCode=US",
+    "verified": "2026-11-10"
+  },
+  "facts": [],
+  "summary": "A city across the bay from Tampa, home of the Rays’ domed ballpark.",
+  "hub": "tampa",
+  "image": {
+    "file": "File:Skyline StPetersburgFL.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Skyline_StPetersburgFL.jpg/1280px-Skyline_StPetersburgFL.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_StPetersburgFL.jpg",
+    "author": "Jamie Beverly from St. Petersburg, Florida, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "The St. Petersburg skyline",
+    "caption": "The St. Petersburg skyline",
+    "licenseChecked": "2026-11-10"
+  }
+}

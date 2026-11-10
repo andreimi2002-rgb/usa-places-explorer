@@ -1,0 +1,100 @@
+{
+  "status": "historical",
+  "progress": "content-ready",
+  "facts": [
+    {
+      "label": "Born",
+      "value": "September 27, 1949, Dayton, Ohio, U.S.",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series with the club",
+      "value": "1980",
+      "source": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "verified": "2026-11-10"
+    }
+  ],
+  "honours": [
+    {
+      "label": "12× All-Star (1974, 1976, 1977, 1979–1984, 1986, 1987, 1989)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series champion (1980)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "3× NL MVP (1980, 1981, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "World Series MVP (1980)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "10× Gold Glove Award (1976–1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "6× Silver Slugger Award (1980–1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "8× NL home run leader (1974–1976, 1980, 1981, 1983, 1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    },
+    {
+      "label": "4× NL RBI leader (1980, 1981, 1984, 1986)",
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    }
+  ],
+  "name": "Mike Schmidt",
+  "position": {
+    "value": "Third baseman",
+    "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+    "verified": "2026-11-10"
+  },
+  "sources": [
+    {
+      "title": "Mike Schmidt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "accessed": "2026-11-10"
+    },
+    {
+      "title": "List of World Series champions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "roles": [
+    {
+      "franchise": "philadelphia-phillies",
+      "role": "player",
+      "from": 1972,
+      "to": 1989,
+      "source": "https://en.wikipedia.org/wiki/Mike_Schmidt",
+      "verified": "2026-11-10"
+    }
+  ],
+  "summary": "Third baseman of the 1980 champions and three-time NL MVP.",
+  "image": {
+    "file": "File:Mike Schmidt Press Box.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mike_Schmidt_Press_Box.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Schmidt_Press_Box.jpg",
+    "author": "The Press Box",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "alt": "Photo of Mike Schmidt",
+    "caption": "Mike Schmidt",
+    "licenseChecked": "2026-11-10"
+  }
+}

@@ -37,7 +37,7 @@ export type AreaDetail = AreaSummary & {
   media: MediaRow[];
   childCounts: Partial<Record<AreaType, number>>;
   /** Overlapping/related areas (e.g. counties a city intersects). */
-  related: { area: AreaSummary; relationType: string; method: string | null; direction: "out" | "in" }[];
+  related: { area: AreaSummary; relationType: string; method: string | null; share: number | null; direction: "out" | "in" }[];
   entityCount: number;
 };
 

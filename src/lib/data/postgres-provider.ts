@@ -133,9 +133,9 @@ export class PostgresProvider implements DataProvider {
       this.q("select slug, name, area_type from area_ancestors($1)", [id]),
       this.q("select * from facts where area_id = $1 order by key, as_of", [id]),
       this.q("select area_type, count(*)::int as n from areas where parent_id = $1 group by area_type", [id]),
-      this.q(`select r.relation_type, r.method, 'out' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.related_area_id where r.area_id = $1
+      this.q(`select r.relation_type, r.method, r.share, 'out' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.related_area_id where r.area_id = $1
               union all
-              select r.relation_type, r.method, 'in' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.area_id where r.related_area_id = $1`, [id]),
+              select r.relation_type, r.method, r.share, 'in' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.area_id where r.related_area_id = $1`, [id]),
       this.q("select * from media where area_id = $1", [id]),
       this.q("select count(distinct ea.entity_id)::int as n from entity_areas ea join entity_summaries e on e.id = ea.entity_id where ea.area_id in (select area_descendants($1)) and ea.review_status <> 'rejected'", [id]),
     ]);
@@ -150,7 +150,7 @@ export class PostgresProvider implements DataProvider {
       facts: factRows, sources,
       media: media.map((m): MediaRow => ({ id: String(m.id), areaId: (m.area_id as string) ?? null, entityId: (m.entity_id as string) ?? null, kind: m.kind as MediaRow["kind"], url: String(m.url), pageUrl: String(m.page_url), alt: String(m.alt), credit: String(m.credit), license: String(m.license), licenseUrl: String(m.license_url), year: num(m.year), aiGenerated: Boolean(m.ai_generated) })),
       childCounts: Object.fromEntries(kids.map((k) => [k.area_type, k.n])),
-      related: rel.map((r) => ({ area: areaSummary(r), relationType: String(r.relation_type), method: (r.method as string) ?? null, direction: r.direction as "in" | "out" })),
+      related: rel.map((r) => ({ area: areaSummary(r), relationType: String(r.relation_type), method: (r.method as string) ?? null, share: num(r.share), direction: r.direction as "in" | "out" })),
       entityCount: Number(ent[0]?.n ?? 0),
     };
   }
@@ -283,7 +283,7 @@ export class PostgresProvider implements DataProvider {
           where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
         order by score desc, s.name limit $4`, [qn, qt, scope, limit]),
       this.q(`select a.slug, a.name, a.type_label, p.name as parent_name,
-          ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end as score
+          ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end + case when a.area_type = 'community' then -40 else 0 end as score
         from areas a left join areas p on p.id = a.parent_id
         where ${MATCH("a.search_text")} and ($3::text is null or a.id in (select area_descendants((select id from areas where slug = $3))))
         order by score desc, a.name limit $4`, [qn, qt, scope, limit]),
@@ -313,8 +313,16 @@ export class PostgresProvider implements DataProvider {
       this.q(`select s.dom_slug, s.review_status, count(*)::int as n from entity_summaries s
         where exists (select 1 from entity_areas ea where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants($1)))
         group by s.dom_slug, s.review_status`, [id]),
-      this.q(`select u.*, (select count(*)::int from areas a where a.area_type = u.area_type and a.id <> u.area_id and a.id in (select area_descendants(u.area_id))) as numerator
-        from coverage_universes u where u.area_id in (select area_descendants($1)) order by u.id`, [id]),
+      // Descendants are computed once per universe (lateral), not once per candidate row.
+      this.q(`select u.*, n.numerator
+        from coverage_universes u
+        cross join lateral (
+          select count(*)::int as numerator
+          from area_descendants(u.area_id) as d(id) join areas a on a.id = d.id
+          where a.area_type = u.area_type and a.id <> u.area_id
+            and (u.metric = 'area_count' or exists (select 1 from area_relations ar where ar.area_id = a.id and ar.relation_type = u.relation_type))
+        ) n
+        where u.area_id in (select area_descendants($1)) order by u.id`, [id]),
       this.q(`select i.kind, sum(i.n)::int as n from entity_open_issue_counts i join entity_summaries s on s.id = i.entity_id
         where exists (select 1 from entity_areas ea where ea.entity_id = i.entity_id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants($1)))
         group by i.kind order by n desc, i.kind`, [id]),

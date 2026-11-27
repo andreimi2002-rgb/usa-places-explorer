@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T13:12:19.042Z",
+ "generatedAt": "2026-11-27T15:00:10.353Z",
  "userAgent": "America360-ingest/0.1 (personal, non-commercial research; low request rate)",
  "checks": [
   {
@@ -879,6 +879,998 @@
    "evidence": [
     {
      "text": "Florida",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-martin-county-fl",
+   "url": "https://www.martin.fl.us",
+   "checkedAt": "2026-11-27T14:55:28.310Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.martin.fl.us/",
+   "pageTitle": "Martin County Florida | your county, your community",
+   "outcome": "ok",
+   "bodySha256": "e77bfcda1204ec15acb17851b232015b308bf8d2de1b4fe216b76b87fb040633",
+   "evidence": [
+    {
+     "text": "Martin",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-baker-county-fl",
+   "url": "https://www.bakercountyfl.org",
+   "checkedAt": "2026-11-27T14:55:29.675Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.bakercountyfl.org/",
+   "pageTitle": "Just a moment...",
+   "outcome": "blocked",
+   "bodySha256": "11a3f13ae5b116e19fe8a8b89835385a48e6bbff460fd5b691dc4a198fb81afd",
+   "evidence": [
+    {
+     "text": "Baker",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-escambia-county-fl",
+   "url": "https://myescambia.com/",
+   "checkedAt": "2026-11-27T14:55:30.821Z",
+   "httpStatus": 200,
+   "finalUrl": "https://myescambia.com/",
+   "pageTitle": "MyEscambia Home",
+   "outcome": "ok",
+   "bodySha256": "55f49d5e2443a593fb04c0fbdf53509252e7a24cd19a7fa526f30a036253dc08",
+   "evidence": [
+    {
+     "text": "Escambia",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-columbia-county-fl",
+   "url": "https://www.columbiacountyfla.com",
+   "checkedAt": "2026-11-27T14:55:33.738Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.columbiacountyfla.com/",
+   "pageTitle": "Columbia County, Florida - Home",
+   "outcome": "ok",
+   "bodySha256": "41a993606b8fc49cd4c0a8cd0f6b08194c3f348aa3a7bcd50940983b20dce1bb",
+   "evidence": [
+    {
+     "text": "Columbia",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-calhoun-county-fl",
+   "url": "https://www.calhouncountyfl.org",
+   "checkedAt": "2026-11-27T14:55:35.976Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.calhouncountyfl.org/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "d1ea96b168004e94d42c1941def873ff426f1d7cb3a93e8657fbf234d1234609",
+   "evidence": [
+    {
+     "text": "Calhoun",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-liberty-county-fl",
+   "url": "https://www.libertyclerk.com",
+   "checkedAt": "2026-11-27T14:55:37.122Z",
+   "httpStatus": 200,
+   "finalUrl": "https://libertyclerk.com/",
+   "pageTitle": "Liberty County Clerk of Court | Official Records, Court Services &amp; More",
+   "outcome": "ok",
+   "bodySha256": "76e2be3175f622227e5c8cbace634d653f0224231d77c40d6340e536172937e1",
+   "evidence": [
+    {
+     "text": "Liberty",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-hamilton-county-fl",
+   "url": "https://www.hamiltoncountyflorida.com",
+   "checkedAt": "2026-11-27T14:55:41.120Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Hamilton",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-manatee-county-fl",
+   "url": "https://www.mymanatee.org",
+   "checkedAt": "2026-11-27T14:56:03.458Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.mymanatee.org/",
+   "pageTitle": "Home",
+   "outcome": "ok",
+   "bodySha256": "93892dde630bd8f8d0be0b137a107f9087a76c4468df488fa6e15965da1bee39",
+   "evidence": [
+    {
+     "text": "Manatee",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-monroe-county-fl",
+   "url": "https://www.monroecounty-fl.gov",
+   "checkedAt": "2026-11-27T14:56:05.217Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Monroe",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-seminole-county-fl",
+   "url": "https://www.seminolecountyfl.gov",
+   "checkedAt": "2026-11-27T14:56:27.503Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.seminolecountyfl.gov/",
+   "pageTitle": null,
+   "outcome": "blocked",
+   "bodySha256": "28a2150bd8f2121d04998180b7055e8b03a311210febe71edb687459e725140a",
+   "evidence": [
+    {
+     "text": "Seminole",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-flagler-county-fl",
+   "url": "https://www.flaglercounty.org",
+   "checkedAt": "2026-11-27T14:56:29.137Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Flagler",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-miami-dade-county-fl",
+   "url": "https://www.miamidade.gov/",
+   "checkedAt": "2026-11-27T14:56:30.554Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.miamidade.gov/",
+   "pageTitle": "Just a moment...",
+   "outcome": "blocked",
+   "bodySha256": "53bd8a3ebd50139ae1e51a22682ce133c4784346b47c50f2a8f35d4b54828769",
+   "evidence": [
+    {
+     "text": "Miami-Dade",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-gulf-county-fl",
+   "url": "https://www.gulfcountygovernment.com",
+   "checkedAt": "2026-11-27T14:56:31.880Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.gulfcountygovernment.com/",
+   "pageTitle": "Situs Informasi di Kawasan Pemerintahan Florida - Gulf County Government",
+   "outcome": "ok",
+   "bodySha256": "1bacbb8f7a5fea39367ecccae09d9dbb3e13bf2f6c574f59d7f57782ec9dca3a",
+   "evidence": [
+    {
+     "text": "Gulf",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-glades-county-fl",
+   "url": "https://www.myglades.com",
+   "checkedAt": "2026-11-27T14:56:33.368Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.myglades.com/",
+   "pageTitle": "403 Forbidden",
+   "outcome": "blocked",
+   "bodySha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+   "evidence": [
+    {
+     "text": "Glades",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-hendry-county-fl",
+   "url": "https://www.hendryfla.net",
+   "checkedAt": "2026-11-27T14:56:35.109Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.hendryfla.net/",
+   "pageTitle": "403 Forbidden",
+   "outcome": "blocked",
+   "bodySha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+   "evidence": [
+    {
+     "text": "Hendry",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-charlotte-county-fl",
+   "url": "https://www.CharlotteCountyfl.gov",
+   "checkedAt": "2026-11-27T14:56:37.121Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.charlottecountyfl.gov/",
+   "pageTitle": "ERROR: The request could not be satisfied",
+   "outcome": "blocked",
+   "bodySha256": "c03615c7d310fa5432299efcb82357ca60e694c207c29ae338979176bd1169ba",
+   "evidence": [
+    {
+     "text": "Charlotte",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-brevard-county-fl",
+   "url": "https://www.brevardcounty.us",
+   "checkedAt": "2026-11-27T14:56:38.407Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Brevard",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-indian-river-county-fl",
+   "url": "https://www.ircgov.com",
+   "checkedAt": "2026-11-27T14:56:40.253Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.indianriver.gov/",
+   "pageTitle": "Indian River County Board of County Commissioners",
+   "outcome": "redirected_offsite",
+   "bodySha256": "6c021f4fb65883edbd368de411b9c665a4ed7bfda6288408d35d1c1aa9deb590",
+   "evidence": [
+    {
+     "text": "Indian River",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-orange-county-fl",
+   "url": "https://espanol.orangecountyfl.net/",
+   "checkedAt": "2026-11-27T14:56:42.279Z",
+   "httpStatus": 200,
+   "finalUrl": "https://espanol.orangecountyfl.net/",
+   "pageTitle": "Inicio",
+   "outcome": "ok",
+   "bodySha256": "88acf3e90374fe39fe77ebb9007815d5066639cdc348e8611ea88eaf01c7e97d",
+   "evidence": [
+    {
+     "text": "Orange",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-hernando-county-fl",
+   "url": "https://www.hernandocounty.us/",
+   "checkedAt": "2026-11-27T14:56:44.303Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.hernandocounty.us/",
+   "pageTitle": "Home | Hernando County",
+   "outcome": "ok",
+   "bodySha256": "568e61ece7b487c4d5c4ea1a5ce6e40db7289224d9acc552783e659bdf95ddd8",
+   "evidence": [
+    {
+     "text": "Hernando",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-leon-county-fl",
+   "url": "https://cms.leoncountyfl.gov/",
+   "checkedAt": "2026-11-27T14:56:47.190Z",
+   "httpStatus": 200,
+   "finalUrl": "https://cms.leoncountyfl.gov/",
+   "pageTitle": "Leon County Government",
+   "outcome": "ok",
+   "bodySha256": "9fd78a892a2b835169fcb96fb53ac0832fa05fc672438b804b322992f1199800",
+   "evidence": [
+    {
+     "text": "Leon",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-hardee-county-fl",
+   "url": "https://www.hardeecounty.net",
+   "checkedAt": "2026-11-27T14:56:49.544Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.hardeecountyfl.gov/",
+   "pageTitle": "Hardee County Board of County Commissioners",
+   "outcome": "redirected_offsite",
+   "bodySha256": "1ac3f0308f5df99214ec5344d92c8ad2328768b0d518ae10bcf034c75f8e4e76",
+   "evidence": [
+    {
+     "text": "Hardee",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-desoto-county-fl",
+   "url": "https://www.desotobocc.com",
+   "checkedAt": "2026-11-27T14:56:51.672Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "DeSoto",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-dixie-county-fl",
+   "url": "https://dixie.fl.gov",
+   "checkedAt": "2026-11-27T14:57:13.990Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Dixie",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-franklin-county-fl",
+   "url": "https://www.franklincountyflorida.com",
+   "checkedAt": "2026-11-27T14:57:15.629Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.franklincountyflorida.com/",
+   "pageTitle": "Franklin County Florida – Official Website for Franklin County Florida Government",
+   "outcome": "ok",
+   "bodySha256": "8bbee462197419fd16d362c09757053cd37e5c7b1a4eb27ce7ea604999eb2888",
+   "evidence": [
+    {
+     "text": "Franklin",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-citrus-county-fl",
+   "url": "https://www.citrusbocc.com/",
+   "checkedAt": "2026-11-27T14:57:18.191Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.citrusbocc.com/",
+   "pageTitle": "403 Forbidden",
+   "outcome": "blocked",
+   "bodySha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+   "evidence": [
+    {
+     "text": "Citrus",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-alachua-county-fl",
+   "url": "https://www.alachuacounty.us",
+   "checkedAt": "2026-11-27T14:57:20.187Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Alachua",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-clay-county-fl",
+   "url": "https://www.claycountygov.com/",
+   "checkedAt": "2026-11-27T14:57:22.268Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.claycountygov.com/",
+   "pageTitle": "Clay County, FL | Home",
+   "outcome": "ok",
+   "bodySha256": "e019c35e1754327db30c6c1852d17c92671b3314040017a361965080e6d65b43",
+   "evidence": [
+    {
+     "text": "Clay",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-bay-county-fl",
+   "url": "https://baycountyfl.gov",
+   "checkedAt": "2026-11-27T14:57:24.191Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.baycountyfl.gov/",
+   "pageTitle": "Access Denied",
+   "outcome": "blocked",
+   "bodySha256": "f2758f2303b13a21048e14bd07029d4da08b7a55799a4b6f99a77cdf47428aba",
+   "evidence": [
+    {
+     "text": "Bay",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-highlands-county-fl",
+   "url": "https://www.hcbcc.net",
+   "checkedAt": "2026-11-27T14:57:25.607Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.hcbcc.net/",
+   "pageTitle": "Highlands County, FL",
+   "outcome": "ok",
+   "bodySha256": "46c2d420b8688dce33d22ff0330d1e5cf2cf09b2846cd29eadba72775fb07e25",
+   "evidence": [
+    {
+     "text": "Highlands",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-duval-county-fl",
+   "url": "https://www.coj.net/",
+   "checkedAt": "2026-11-27T14:57:28.200Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Duval",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-st-johns-county-fl",
+   "url": "https://www.sjcfl.us",
+   "checkedAt": "2026-11-27T14:57:50.521Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.sjcfl.us/",
+   "pageTitle": "St. Johns County",
+   "outcome": "ok",
+   "bodySha256": "2cb4113493e2f26b68050730a2f1daf47a93cb49861389d2645e586623c74be7",
+   "evidence": [
+    {
+     "text": "St. Johns",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-santa-rosa-county-fl",
+   "url": "https://www.santarosa.fl.gov",
+   "checkedAt": "2026-11-27T14:57:52.079Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Santa Rosa",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-volusia-county-fl",
+   "url": "https://www.volusia.org",
+   "checkedAt": "2026-11-27T14:58:14.397Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.volusia.org/",
+   "pageTitle": "ERROR: The request could not be satisfied",
+   "outcome": "blocked",
+   "bodySha256": "a0d95ad234dc77ff2fb0d9c46f17ab242822d5315c08df468759b0e22b32cafe",
+   "evidence": [
+    {
+     "text": "Volusia",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-pinellas-county-fl",
+   "url": "https://pinellas.gov/",
+   "checkedAt": "2026-11-27T14:58:15.716Z",
+   "httpStatus": 200,
+   "finalUrl": "https://pinellas.gov/",
+   "pageTitle": "Home page - Pinellas County",
+   "outcome": "ok",
+   "bodySha256": "dbc40455576f003bf492259c2c0e9cc968c67005f93d637761a37ea4fa676d18",
+   "evidence": [
+    {
+     "text": "Pinellas",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-st-lucie-county-fl",
+   "url": "https://www.stlucieco.gov/",
+   "checkedAt": "2026-11-27T14:58:17.078Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.stlucieco.gov/",
+   "pageTitle": "St. Lucie County, FL | Home",
+   "outcome": "ok",
+   "bodySha256": "96b6d03eafbc4d6fecc848975d860f3693cc94d1bc164a36409e820e5095c81f",
+   "evidence": [
+    {
+     "text": "St. Lucie",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-broward-county-fl",
+   "url": "https://www.broward.org/",
+   "checkedAt": "2026-11-27T14:58:18.653Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.broward.org/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "1c052195b08d009bca4283aff4e6cb86bb012b242714eba563d642e17d862924",
+   "evidence": [
+    {
+     "text": "Broward",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-marion-county-fl",
+   "url": "https://www.marioncountyfl.org",
+   "checkedAt": "2026-11-27T14:58:19.769Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.marionfl.org/",
+   "pageTitle": "Access Denied",
+   "outcome": "blocked",
+   "bodySha256": "2832e8f9f270342afeb561ec0ec8290fe9fecd6043faca7628ee5043428acf22",
+   "evidence": [
+    {
+     "text": "Marion",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-polk-county-fl",
+   "url": "https://www.polk-county.net",
+   "checkedAt": "2026-11-27T14:58:21.943Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.polkfl.gov/",
+   "pageTitle": "Info, Events &amp; Things To Do in Polk County | Visit Polk County FL",
+   "outcome": "redirected_offsite",
+   "bodySha256": "df0016c91ebc3dac1cb96ac4bdcfc79fc577e6bcf9213b27c06830bb86c88fdc",
+   "evidence": [
+    {
+     "text": "Polk",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-okeechobee-county-fl",
+   "url": "https://www.co.okeechobee.fl.us",
+   "checkedAt": "2026-11-27T14:58:24.040Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Okeechobee",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-sarasota-county-fl",
+   "url": "https://www.scgov.net/",
+   "checkedAt": "2026-11-27T14:58:25.344Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.scgov.net/",
+   "pageTitle": "Sarasota County, FL | Home",
+   "outcome": "ok",
+   "bodySha256": "ea64b65e06755b4b9e885b849a3c3d3e16b6f5fe0a2d311d9f7962d5e82539c4",
+   "evidence": [
+    {
+     "text": "Sarasota",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-gadsden-county-fl",
+   "url": "https://www.gadsdengov.net",
+   "checkedAt": "2026-11-27T14:58:27.981Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Gadsden",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-putnam-county-fl",
+   "url": "https://www.putnam-fl.com/",
+   "checkedAt": "2026-11-27T14:58:30.154Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.putnam-fl.gov/",
+   "pageTitle": "Home - Putnam County, FL",
+   "outcome": "redirected_offsite",
+   "bodySha256": "b355d889da8de2f8914ada38101f7217cf5c2477f67145599ee7d70e411231ea",
+   "evidence": [
+    {
+     "text": "Putnam",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-taylor-county-fl",
+   "url": "https://www.taylorcountygov.com/",
+   "checkedAt": "2026-11-27T14:58:33.442Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.taylorcountygov.com/",
+   "pageTitle": "403 Forbidden",
+   "outcome": "blocked",
+   "bodySha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+   "evidence": [
+    {
+     "text": "Taylor",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-walton-county-fl",
+   "url": "https://www.co.walton.fl.us",
+   "checkedAt": "2026-11-27T14:58:35.252Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Walton",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-wakulla-county-fl",
+   "url": "https://www.mywakulla.com",
+   "checkedAt": "2026-11-27T14:58:57.612Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.mywakulla.com/",
+   "pageTitle": "403 Forbidden",
+   "outcome": "blocked",
+   "bodySha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+   "evidence": [
+    {
+     "text": "Wakulla",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-gilchrist-county-fl",
+   "url": "https://gilchrist.fl.us",
+   "checkedAt": "2026-11-27T14:58:59.697Z",
+   "httpStatus": 200,
+   "finalUrl": "https://gilchrist.fl.us/",
+   "pageTitle": "Gilchrist County Board of County Commissioners &#8211; Official Website",
+   "outcome": "ok",
+   "bodySha256": "ee677a6335a7fa475de43d2f90ad9e766fd478f64c10e4b0e7ec870374763476",
+   "evidence": [
+    {
+     "text": "Gilchrist",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-bradford-county-fl",
+   "url": "https://www.bradford-co-fla.org",
+   "checkedAt": "2026-11-27T14:59:07.519Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Bradford",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-washington-county-fl",
+   "url": "https://www.washingtonfl.com",
+   "checkedAt": "2026-11-27T14:59:08.591Z",
+   "httpStatus": 200,
+   "finalUrl": "https://washingtonfl.com/",
+   "pageTitle": "Home | Washington County Board of County Commissioners",
+   "outcome": "ok",
+   "bodySha256": "3539dec1021553e6fc53173e84675e271a4a448e62da4883beb667642031f1a4",
+   "evidence": [
+    {
+     "text": "Washington",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-collier-county-fl",
+   "url": "https://colliercountyfl.gov",
+   "checkedAt": "2026-11-27T14:59:12.228Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.collier.gov/Home",
+   "pageTitle": "Home | Collier County, FL",
+   "outcome": "redirected_offsite",
+   "bodySha256": "a6f82a938ccc82f7d74534cba8fdcd31f9cc12c391c71f9e52168eb227c5625d",
+   "evidence": [
+    {
+     "text": "Collier",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jackson-county-fl",
+   "url": "https://www.jacksoncountyfl.com",
+   "checkedAt": "2026-11-27T14:59:16.577Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Jackson",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-lafayette-county-fl",
+   "url": "https://www.mylafayettecounty.com",
+   "checkedAt": "2026-11-27T14:59:18.870Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.mylafayettecounty.com/",
+   "pageTitle": "MyFloridaCounty.com",
+   "outcome": "ok",
+   "bodySha256": "64a04ee40898f5f0ed6cb6019b4a26b92e2f9d3f1b25736834fe89d0222b6289",
+   "evidence": [
+    {
+     "text": "Lafayette",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-nassau-county-fl",
+   "url": "https://www.nassaucountyfl.com",
+   "checkedAt": "2026-11-27T14:59:21.046Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.nassaucountyfl.com/",
+   "pageTitle": "Just a moment...",
+   "outcome": "blocked",
+   "bodySha256": "a2dee9979b0e72eead770a6951a512b77b37b61e1346854e1e3598528b06c061",
+   "evidence": [
+    {
+     "text": "Nassau",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jefferson-county-fl",
+   "url": "https://www.jeffersoncountyfl.gov",
+   "checkedAt": "2026-11-27T14:59:22.209Z",
+   "httpStatus": 200,
+   "finalUrl": "https://jeffersoncountyfl.gov/",
+   "pageTitle": "Home - Jefferson County Florida",
+   "outcome": "ok",
+   "bodySha256": "42ecb6f12a808b9c8c030b7f8f9debf79019806d9a4eb7c7e7c3b6d81edc3d24",
+   "evidence": [
+    {
+     "text": "Jefferson",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-holmes-county-fl",
+   "url": "https://www.holmescountyonline.com",
+   "checkedAt": "2026-11-27T14:59:24.284Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.holmescountyonline.com/",
+   "pageTitle": null,
+   "outcome": "ok",
+   "bodySha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+   "evidence": [
+    {
+     "text": "Holmes",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-madison-county-fl",
+   "url": "https://www.madisoncountyfl.com",
+   "checkedAt": "2026-11-27T14:59:26.208Z",
+   "httpStatus": 200,
+   "finalUrl": "https://madisoncountyfl.com/",
+   "pageTitle": "Madison County Board of County Commissioners | Official Website",
+   "outcome": "ok",
+   "bodySha256": "aafe6dd83b005497ac7d488a6f73a96b2e8ff6167dfb10f895e8064bef02b2d2",
+   "evidence": [
+    {
+     "text": "Madison",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-okaloosa-county-fl",
+   "url": "https://www.co.okaloosa.fl.us",
+   "checkedAt": "2026-11-27T14:59:28.090Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Okaloosa",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-pasco-county-fl",
+   "url": "https://www.pascocountyfl.net",
+   "checkedAt": "2026-11-27T14:59:29.906Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Pasco",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-levy-county-fl",
+   "url": "https://www.levycounty.org",
+   "checkedAt": "2026-11-27T14:59:42.009Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.levycounty.org/",
+   "pageTitle": "Levy County, FL | Official Website",
+   "outcome": "ok",
+   "bodySha256": "49ad1b47d95f5916820d17b9e7a5b518def4940e77a644bfb1bba5f2ef49c973",
+   "evidence": [
+    {
+     "text": "Levy",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-suwannee-county-fl",
+   "url": "https://www.suwclerk.org/bcc.html",
+   "checkedAt": "2026-11-27T14:59:44.737Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Suwannee",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-union-county-fl",
+   "url": "https://myunioncounty.com",
+   "checkedAt": "2026-11-27T14:59:45.812Z",
+   "httpStatus": 200,
+   "finalUrl": "https://myunioncounty.com/",
+   "pageTitle": "MyFloridaCounty.com",
+   "outcome": "ok",
+   "bodySha256": "720aec1f0ecb3a80611e5bc409bf553b926818959914b36923cfe1b849b69cc4",
+   "evidence": [
+    {
+     "text": "Union",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-sumter-county-fl",
+   "url": "https://www.sumtercountyfl.gov",
+   "checkedAt": "2026-11-27T14:59:48.081Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Sumter",
      "found": false
     }
    ]

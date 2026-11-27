@@ -16,6 +16,7 @@ function synthetic(check: Partial<LinkCheck> | null, evidenceFound: Record<strin
   };
   return {
     ...base,
+    geography: null, // isolate entity logic from the Phase 2 geography bundle
     curated: { ...base.curated, entities: [entity], neighborhoods: [] },
     media: [],
     linkChecks: check

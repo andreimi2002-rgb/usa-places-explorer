@@ -125,7 +125,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       expect([b.entities, b.verifiedEntities, b.facts, b.sources, b.categories]).toEqual([a.entities, a.verifiedEntities, a.facts, a.sources, a.categories]);
     });
 
-    it.each(["florida", "duval-county-fl", "jacksonville-fl", "southside-jacksonville-fl", "midway-cdp-seminole-fl"])("same area detail: %s", async (slug) => {
+    it.each(["florida", "duval-county-fl", "leon-county-fl", "jacksonville-fl", "southside-jacksonville-fl", "mandarin-jacksonville-fl", "midway-cdp-seminole-fl", "duval-jacksonville-fl"])("same area detail: %s", async (slug) => {
       const [a, b] = [await fx.getArea(slug), await reader.getArea(slug)];
       expect(b!.breadcrumbs).toEqual(a!.breadcrumbs);
       expect(b!.childCounts).toEqual(a!.childCounts);
@@ -133,7 +133,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       expect(b!.populationEstimate).toBe(a!.populationEstimate);
       expect(b!.lat).toBeCloseTo(a!.lat ?? 0, 5);
       expect(new Set(b!.facts.map((f) => `${f.key}=${f.valueNum ?? f.valueText}`))).toEqual(new Set(a!.facts.map((f) => `${f.key}=${f.valueNum ?? f.valueText}`)));
-      expect(new Set(b!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}`))).toEqual(new Set(a!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}`)));
+      expect(new Set(b!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}:${r.share}`))).toEqual(new Set(a!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}:${r.share}`)));
       expect(new Set(b!.sources.map((s) => s.id))).toEqual(new Set(a!.sources.map((s) => s.id)));
     });
 
@@ -164,7 +164,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       if (query.q) expect(b.items[0]?.slug).toBe(a.items[0]?.slug);
     });
 
-    it.each(["jaguars", "duval", "JSO", "st johns", "supermarkets", "big talbot"])("same top search hit: %s", async (q) => {
+    it.each(["jaguars", "duval", "JSO", "st johns", "supermarkets", "big talbot", "mandarin", "tallahassee"])("same top search hit: %s", async (q) => {
       const [a, b] = [await fx.search(q), await reader.search(q)];
       expect(b[0]?.slug).toBe(a[0]?.slug);
       expect(new Set(b.map((h) => `${h.kind}:${h.slug}`))).toEqual(new Set(a.map((h) => `${h.kind}:${h.slug}`)));

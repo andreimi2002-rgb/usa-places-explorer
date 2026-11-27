@@ -21,7 +21,7 @@ import {
 
 const AREA_DEPTH_RANK: Record<AreaType, number> = {
   country: 0, state: 1, federal_district: 1, territory: 1, region: 2, metro_area: 2, tribal_area: 2,
-  county: 3, municipality: 4, cdp: 4, neighborhood: 5,
+  county: 3, municipality: 4, cdp: 4, community: 4, neighborhood: 5,
 };
 const TRUSTED: ReviewStatus[] = ["verified", "reviewed", "imported"];
 
@@ -29,6 +29,15 @@ export function clampPage(page?: number, pageSize?: number, max = 100) {
   const size = Math.min(Math.max(Math.trunc(pageSize ?? 24), 1), max);
   const p = Math.max(Math.trunc(page ?? 1), 1);
   return { page: p, pageSize: size, offset: (p - 1) * size };
+}
+
+/**
+ * Area ranking adjustment shared with the SQL in postgres-provider.ts: actively covered
+ * places get a small boost; thousands of GNIS named points must not outrank real
+ * jurisdictions with the same name (e.g. the "Duval" point vs. Duval County).
+ */
+export function areaBoost(areaType: AreaType, programStatus: "active" | "registry_only"): number {
+  return (programStatus === "active" ? 8 : 0) + (areaType === "community" ? -40 : 0);
 }
 
 /** Shared scoring so fixture and database search rank comparably. */
@@ -130,8 +139,8 @@ export class FixtureProvider implements DataProvider {
     for (const c of this.idx.areaChildren.get(a.id) ?? []) childCounts[c.areaType] = (childCounts[c.areaType] ?? 0) + 1;
     const related: AreaDetail["related"] = [];
     for (const r of this.ds.areaRelations) {
-      if (r.areaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.relatedAreaId)!), relationType: r.relationType, method: r.method, direction: "out" });
-      else if (r.relatedAreaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.areaId)!), relationType: r.relationType, method: r.method, direction: "in" });
+      if (r.areaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.relatedAreaId)!), relationType: r.relationType, method: r.method, share: r.share, direction: "out" });
+      else if (r.relatedAreaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.areaId)!), relationType: r.relationType, method: r.method, share: r.share, direction: "in" });
     }
     const facts = this.ds.facts.filter((f) => f.areaId === a.id && f.reviewStatus !== "rejected");
     const sourceIds = new Set([...a.sourceIds, ...facts.map((f) => f.sourceId)]);
@@ -274,14 +283,14 @@ export class FixtureProvider implements DataProvider {
       const s = scoreText(q, a.name + " " + a.aliases.join(" "), this.areaSearch.get(a.id)!);
       if (s > 0) {
         const parent = a.parentId ? this.idx.areaById.get(a.parentId)?.name : null;
-        hits.push({ kind: "area", slug: a.slug, name: a.name, subtitle: [a.typeLabel, parent].filter(Boolean).join(" · "), score: s + (a.programStatus === "active" ? 8 : 0) });
+        hits.push({ kind: "area", slug: a.slug, name: a.name, subtitle: [a.typeLabel, parent].filter(Boolean).join(" · "), score: s + areaBoost(a.areaType, a.programStatus) });
       }
     }
     for (const c of this.ds.categories) {
       const s = scoreText(q, c.name, `${c.name} ${c.nameRo ?? ""} ${c.description ?? ""}`);
       if (s > 0) hits.push({ kind: "category", slug: c.slug, name: c.name, subtitle: c.parentId ? this.idx.domainOf(c).name : "Domain", score: s });
     }
-    return hits.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "en")).slice(0, limit);
+    return hits.filter((h) => h.score > 0).sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "en")).slice(0, limit);
   }
 
   async getCoverage(areaSlug: string): Promise<CoverageReport | null> {
@@ -304,7 +313,7 @@ export class FixtureProvider implements DataProvider {
       .filter((u) => scope.has(u.areaId))
       .map((u) => ({
         id: u.id, label: u.label, definition: u.definition, denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId,
-        numerator: this.ds.areas.filter((a) => a.areaType === u.areaType && this.idx.descendantAreaIds(u.areaId).has(a.id) && a.id !== u.areaId).length,
+        numerator: this.ds.areas.filter((a) => a.areaType === u.areaType && this.idx.descendantAreaIds(u.areaId).has(a.id) && a.id !== u.areaId && (u.metric === "area_count" || this.ds.areaRelations.some((r) => r.areaId === a.id && r.relationType === u.relationType))).length,
       }));
     const entIds = new Set(ents.map((e) => e.id));
     const issueCounts = new Map<string, number>();

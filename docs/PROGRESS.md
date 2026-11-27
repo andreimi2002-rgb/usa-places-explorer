@@ -54,5 +54,33 @@ Windows 11, Docker 29.9.3 running, Node 26.13.1, npm 11.20, Git 2.56. Python is 
 - Netlify project `americaexplorer` (the requested target) is linked to a different repo (branch `team-drip-v2`) and was **not** updated. The CLI deploy command was blocked by this session's permission policy. To point it at America 360: Netlify UI → americaexplorer → Project configuration → Build & deploy → Link repository → `usa-places-explorer`, branch `main`.
 - Production uses `DATA_MODE=fixture` (no hosted database yet). Hosted PostgreSQL (e.g. Supabase free tier) plus `DATA_MODE=database` is a later step.
 
+## Session 2 — 2026-11-27: Phase 2, step 1 (complete Florida geography)
+
+Branch `phase-2-geography`, published via pull request and deploy preview only (Netlify credits: production deploys only on request).
+
+### Done
+- **New adapter `npm run ingest:geography`** (`scripts/ingest/florida-geography.ts`). Needs the local PostGIS for the spatial work only; its output is committed JSON, so the website needs no PostGIS.
+  - **Exact place/county intersections:** Census 2025 boundaries (958 places, all counties) intersected with `ST_Intersection`, storing area shares. 13 places span several counties. All 547 CDPs moved under the county with their largest share, and the bundle-1 internal-point approximations were removed.
+  - **County seats + websites:** taken from Wikidata (CC0), because FL DOS refuses automated access. 66/67 seats are linked to Census places (Collier's seat, "East Naples", is not a current Census place, so it is kept as an unreviewed fact). There are 62 websites.
+  - **USGS GNIS named populated places:** 7,076 records. 791 are the same as Census places and were dropped. 6 were merged into curated Jacksonville neighborhoods, which received official points. That leaves **6,279 new `community` areas**: 4,299 unincorporated and 1,980 inside municipalities, 162 of them inside Jacksonville.
+- **Place boundary polygons** (simplified) are shown on county, city and CDP maps and loaded into PostGIS `areas.geom` (958 valid geometries).
+- **County website link checks:** 62 checked → 26 confirmed (the county name was found on the page), 15 blocked (HTTP 403), 16 network errors, 5 redirects to a new domain. Many FL government servers do not answer from outside the U.S. (curl also times out), so these are left "unreviewed" and should be re-checked from a U.S. network.
+- **Schema:** migrations 0005–0006 add the `community` area type, the `county_seat` relation, `area_relations.share`, relation-based coverage universes and `area_rank`.
+- **UI:** county seat and website on county pages, "County seat of …" on city pages, area shares under "Related geography", a named-places section, new locality types (community, and a city-level locality list).
+- **Search:** GNIS points rank below real jurisdictions with the same name (`areaBoost`, identical in fixture and SQL).
+- **Performance:** the coverage query was rewritten with a lateral join (>8 s → 0.4 s), and the seed now runs `ANALYZE` after bulk loads.
+
+### Test results (actually run)
+| Check | Result |
+|---|---|
+| lint, typecheck, build | pass |
+| unit | 49/49 (11 new geography tests) |
+| integration, real PostGIS | 38/38 (parity now covers a county with its seat, a neighborhood with a GNIS point, a GNIS community, area shares and more searches) |
+| E2E fixture mode | 16/16 |
+| E2E database mode | 16/16 |
+
 ### Next milestone
+Phase 2, step 2: hosted Postgres (Supabase free tier) plus the editor/review queue with authentication. Re-run `ingest:links` from a U.S. network to resolve the geo-blocked government sites.
+
+### Next milestone (from session 1)
 Phase 2, step 1: TIGER/Line polygons in PostGIS → real CDP/municipality intersections, plus a manually curated county seat/website table with citations. Then the review-queue editor with authentication.

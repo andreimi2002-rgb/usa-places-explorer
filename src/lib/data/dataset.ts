@@ -38,6 +38,7 @@ export type AreaRelationRow = {
   relationType: string;
   sourceId: string;
   method: string | null;
+  share: number | null;
   reviewStatus: ReviewStatus;
 };
 
@@ -164,6 +165,8 @@ export type CoverageUniverseRow = {
   denominator: number;
   asOf: string;
   sourceId: string;
+  metric: "area_count" | "relation_count";
+  relationType: string | null;
 };
 
 export type Dataset = {

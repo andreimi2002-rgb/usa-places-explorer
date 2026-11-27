@@ -11,7 +11,7 @@ import path from "node:path";
 import pg from "pg";
 import { buildDataset } from "../../src/lib/data/build";
 import { DatasetIndex, areaSearchText, entitySearchText } from "../../src/lib/data/derive";
-import { loadGeometry, loadSeedInputs } from "../../src/lib/data/inputs";
+import { loadGeometry, loadPlaceGeometry, loadSeedInputs } from "../../src/lib/data/inputs";
 import { normalize } from "../../src/lib/text";
 import { sha256 } from "../ingest/lib";
 import { ownerUrl, withClient } from "./common";
@@ -19,7 +19,7 @@ import { ownerUrl, withClient } from "./common";
 type Col = [name: string, sqlType: string];
 type Row = Record<string, unknown>;
 
-export const SCHEMA_VERSION = "0003";
+export const SCHEMA_VERSION = "0006";
 
 async function upsert(c: pg.Client, table: string, cols: Col[], key: string[], rows: Row[]): Promise<number> {
   if (!rows.length) return 0;
@@ -92,19 +92,26 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
          where a.id = x.id and (a.internal_point is null or not st_equals(a.internal_point::geometry, st_setsrid(st_makepoint(x.lon, x.lat), 4326)))`,
         [JSON.stringify(ds.areas.filter((a) => a.lat !== null).map((a) => ({ id: a.id, lat: a.lat, lon: a.lon })))],
       )).rowCount ?? 0;
-      const geoRows = [...geometry.states.features, ...geometry.floridaCounties.features].map((f) => ({ slug: f.properties.slug, geojson: JSON.stringify(f.geometry) }));
-      counts.areaGeometries = (await c.query(
-        `update areas a set geom = g.geom, geom_source_id = $2
-         from (select x.slug, st_multi(st_collectionextract(st_makevalid(st_setsrid(st_geomfromgeojson(x.geojson), 4326)), 3)) as geom
-               from jsonb_to_recordset($1::jsonb) as x(slug text, geojson text)) g
-         where a.slug = g.slug and (a.geom is null or not st_equals(a.geom, g.geom))`,
-        [JSON.stringify(geoRows), geometry.sourceId],
-      )).rowCount ?? 0;
+      const placeGeo = loadPlaceGeometry();
+      const geoRows = [
+        ...[...geometry.states.features, ...geometry.floridaCounties.features].map((f) => ({ slug: f.properties.slug, geojson: JSON.stringify(f.geometry), source: geometry.sourceId })),
+        ...[...placeGeo.values()].map((f) => ({ slug: f.properties.slug, geojson: JSON.stringify(f.geometry), source: "census-cb-2025-places-counties" })),
+      ].filter((r) => ds.areas.some((a) => a.slug === r.slug));
+      counts.areaGeometries = 0;
+      for (let i = 0; i < geoRows.length; i += 300) {
+        counts.areaGeometries += (await c.query(
+          `update areas a set geom = g.geom, geom_source_id = g.source
+           from (select x.slug, x.source, st_multi(st_collectionextract(st_makevalid(st_setsrid(st_geomfromgeojson(x.geojson), 4326)), 3)) as geom
+                 from jsonb_to_recordset($1::jsonb) as x(slug text, geojson text, source text)) g
+           where a.slug = g.slug and (a.geom is null or not st_equals(a.geom, g.geom))`,
+          [JSON.stringify(geoRows.slice(i, i + 300))],
+        )).rowCount ?? 0;
+      }
       await c.query("delete from area_aliases where area_id = any($1::uuid[])", [ds.areas.map((a) => a.id)]);
       await upsert(c, "area_aliases", [["area_id", "uuid"], ["alias", "text"]], ["area_id", "alias"], ds.areas.flatMap((a) => a.aliases.map((alias) => ({ area_id: a.id, alias }))));
       counts.areaRelations = await upsert(c, "area_relations", [
-        ["id", "uuid"], ["area_id", "uuid"], ["related_area_id", "uuid"], ["relation_type", "text"], ["source_id", "text"], ["method", "text"], ["review_status", "review_status"],
-      ], ["id"], ds.areaRelations.map((r) => ({ id: r.id, area_id: r.areaId, related_area_id: r.relatedAreaId, relation_type: r.relationType, source_id: r.sourceId, method: r.method, review_status: r.reviewStatus })));
+        ["id", "uuid"], ["area_id", "uuid"], ["related_area_id", "uuid"], ["relation_type", "text"], ["source_id", "text"], ["method", "text"], ["share", "numeric"], ["review_status", "review_status"],
+      ], ["id"], ds.areaRelations.map((r) => ({ id: r.id, area_id: r.areaId, related_area_id: r.relatedAreaId, relation_type: r.relationType, source_id: r.sourceId, method: r.method, share: r.share, review_status: r.reviewStatus })));
 
       const cats = [...ds.categories].sort((a, b) => a.depth - b.depth);
       counts.categories = await upsert(c, "categories", [
@@ -158,8 +165,8 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
       )).rowCount ?? 0;
 
       counts.coverageUniverses = await upsert(c, "coverage_universes", [
-        ["id", "text"], ["area_id", "uuid"], ["label", "text"], ["definition", "text"], ["area_type", "area_type"], ["category_id", "uuid"], ["denominator", "int"], ["as_of", "date"], ["source_id", "text"],
-      ], ["id"], ds.coverageUniverses.map((u) => ({ id: u.id, area_id: u.areaId, label: u.label, definition: u.definition, area_type: u.areaType, category_id: u.categoryId, denominator: u.denominator, as_of: u.asOf, source_id: u.sourceId })));
+        ["id", "text"], ["area_id", "uuid"], ["label", "text"], ["definition", "text"], ["area_type", "area_type"], ["category_id", "uuid"], ["denominator", "int"], ["as_of", "date"], ["source_id", "text"], ["metric", "text"], ["relation_type", "text"],
+      ], ["id"], ds.coverageUniverses.map((u) => ({ id: u.id, area_id: u.areaId, label: u.label, definition: u.definition, area_type: u.areaType, category_id: u.categoryId, denominator: u.denominator, as_of: u.asOf, source_id: u.sourceId, metric: u.metric, relation_type: u.relationType })));
 
       // Snapshot semantics: remove rows no longer present in the seed.
       counts.pruned =
@@ -176,6 +183,8 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
         log("dry run — rolled back", counts);
       } else {
         await c.query("commit");
+        // Fresh planner statistics after a bulk load; without them recursive scope queries can pick slow plans.
+        await c.query("analyze");
         await c.query("update import_runs set status = 'succeeded', finished_at = now(), counts = $2 where id = $1", [run, counts]);
         log("seed committed", counts);
       }

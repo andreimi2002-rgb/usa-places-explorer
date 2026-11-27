@@ -48,5 +48,11 @@ Windows 11, Docker 29.9.3 running, Node 26.13.1, npm 11.20, Git 2.56. Python is 
 - The FWC, FDOT, Academy, CSX, JPL and Big Talbot (state parks) sites block automated checks. Their claims await manual review.
 - The "Cities & communities" domain shows 0 *entries* for Jacksonville because neighborhoods and municipalities are modeled as areas, not entities. They appear in the place pages instead.
 
+### GitHub and Netlify (2026-11-27, same session)
+- Code is on GitHub at `andreimi2002-rgb/usa-places-explorer`, branch `main`, as the owner chose. The previous `main` (American Sports Encyclopedia, Astro) is preserved on `archive/american-sports-encyclopedia-2026-11-27`, and git history is intact (fast-forward, no force push).
+- Netlify project `american-sports-encyclopedia` auto-builds from that repo's `main`, so it now builds America 360. The first build had no server function (HTTP 404) because the project was created for a static Astro site. Fix: `@netlify/plugin-nextjs` is declared in `netlify.toml` and devDependencies, and `seed/**/*.json` is traced into server functions (`outputFileTracingIncludes`).
+- Netlify project `americaexplorer` (the requested target) is linked to a different repo (branch `team-drip-v2`) and was **not** updated. The CLI deploy command was blocked by this session's permission policy. To point it at America 360: Netlify UI → americaexplorer → Project configuration → Build & deploy → Link repository → `usa-places-explorer`, branch `main`.
+- Production uses `DATA_MODE=fixture` (no hosted database yet). Hosted PostgreSQL (e.g. Supabase free tier) plus `DATA_MODE=database` is a later step.
+
 ### Next milestone
 Phase 2, step 1: TIGER/Line polygons in PostGIS → real CDP/municipality intersections, plus a manually curated county seat/website table with citations. Then the review-queue editor with authentication.

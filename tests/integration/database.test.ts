@@ -209,9 +209,16 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
     it.each([{ areaSlug: "jacksonville-fl" }, { areaSlug: "jacksonville-fl", categorySlug: "sports" }, { categorySlug: "museums" }])("same featured ordering: %o", async (q) => {
       const [a, b] = [await fx.listEntities({ ...q, sort: "featured", pageSize: 24 }), await reader.listEntities({ ...q, sort: "featured", pageSize: 24 })];
       // photo + type rank must agree exactly; names may tie-break differently between JS and SQL collations
-      const key = (e: { image: unknown; entityType: string }) => `${e.image ? 1 : 0}:${e.entityType}`;
+      const key = (e: { image: unknown; entityType: string; prominence: number }) => `${e.prominence}:${e.image ? 1 : 0}:${e.entityType}`;
       expect(b.items.map(key)).toEqual(a.items.map(key));
       expect(b.total).toBe(a.total);
+    });
+
+    it.each(["florida", "duval-county-fl"])("same brand presence totals and fame ranking: %s", async (slug) => {
+      const [a, b] = [await fx.listBrandPresence(slug, { limit: 500 }), await reader.listBrandPresence(slug, { limit: 500 })];
+      expect(new Map(b.map((x) => [x.entity.slug, x.count]))).toEqual(new Map(a.map((x) => [x.entity.slug, x.count])));
+      const [af, bf] = [await fx.listBrandPresence(slug, { sort: "prominence", limit: 10 }), await reader.listBrandPresence(slug, { sort: "prominence", limit: 10 })];
+      expect(bf.map((x) => `${x.entity.prominence}:${x.count}`)).toEqual(af.map((x) => `${x.entity.prominence}:${x.count}`));
     });
 
     it("same brand presence (OSM counts) for Jacksonville", async () => {

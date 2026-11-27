@@ -54,6 +54,8 @@ export type EntitySummary = {
   placeLabel: string | null;
   /** Best rights-cleared image (photo before logo), for cards. */
   image: { url: string; alt: string } | null;
+  /** Wikipedia language editions with an article (popularity signal, not a fact). */
+  prominence: number;
 };
 
 export type LinkedArea = Crumb & { relationType: string; reviewStatus: ReviewStatus; verifiedAt: string | null; evidence: string | null; note: string | null };
@@ -180,7 +182,7 @@ export interface DataProvider {
   /** Entities with sourced coordinates within radiusKm of this entity, nearest first. */
   nearbyEntities(slug: string, opts?: { limit?: number; radiusKm?: number }): Promise<NearbyEntity[]>;
   /** Brands with mapped locations in an area (OpenStreetMap counts), largest first. */
-  listBrandPresence(areaSlug: string, opts?: { categorySlug?: string; limit?: number }): Promise<BrandPresence[]>;
+  listBrandPresence(areaSlug: string, opts?: { categorySlug?: string; limit?: number; sort?: "count" | "prominence" }): Promise<BrandPresence[]>;
 }
 
 export const REVIEW_STATUSES: ReviewStatus[] = ["imported", "unreviewed", "reviewed", "verified", "stale", "rejected"];

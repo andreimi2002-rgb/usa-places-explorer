@@ -316,7 +316,7 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       sensitiveLocation: e.sensitiveLocation, visibility: e.visibility, reviewStatus,
       verifiedAt: latestVerified, createdAt, updatedAt: primaryCheck?.checkedAt ?? createdAt,
       aliases: e.aliases, primarySourceId: primary,
-      lat: null as number | null, lon: null as number | null, wikidataId: null as string | null,
+      lat: null as number | null, lon: null as number | null, wikidataId: null as string | null, prominence: 0,
       wikipedia: null as { title: string; url: string; extract: string; retrievedAt: string } | null,
     };
   });
@@ -356,8 +356,21 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     const bundleTime = bundle.generatedAt;
     for (const r of bundle.entities) {
       if (entityIdByQid.has(r.qid)) {
-        // Already added by an earlier bundle (another area): only add the area links.
+        // Already added by an earlier bundle (another area): add its area links and per-area (scoped) facts only.
         const id = entityIdByQid.get(r.qid)!;
+        const slugOf = entities.find((x) => x.id === id)!.slug;
+        for (const f of r.facts) {
+          if (!f.scopeAreaSlug) continue;
+          const fid = stableId("fact", `entity:${slugOf}:${f.key}:${f.sourceId}:${f.scopeAreaSlug}`);
+          if (facts.some((x) => x.id === fid)) continue;
+          facts.push({
+            id: fid, areaId: null, entityId: id, key: f.key, valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
+            unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
+            reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: areaId(f.scopeAreaSlug, `fact ${f.key}`),
+          });
+        }
+        const row0 = entities.find((x) => x.id === id)!;
+        row0.prominence = Math.max(row0.prominence, r.prominence ?? 0);
         for (const a of r.areas) if (!entityAreas.some((x) => x.entityId === id && x.areaId === areaIdBySlug.get(a.slug) && x.relationType === a.relation))
           entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
         continue;
@@ -373,7 +386,7 @@ export function buildDataset(inputs: SeedInputs): Dataset {
           shortDescription: desc && desc.length <= 280 ? desc : null, officialUrl: r.officialUrl ?? null,
           sensitiveLocation: false, visibility: "public", reviewStatus: "imported", verifiedAt: null,
           createdAt: bundleTime, updatedAt: bundleTime, aliases: r.aliases, primarySourceId: "wikidata",
-          lat: null, lon: null, wikidataId: null, wikipedia: null,
+          lat: null, lon: null, wikidataId: null, wikipedia: null, prominence: 0,
         };
         entities.push(row);
         r.categories.forEach((c) => {
@@ -404,6 +417,7 @@ export function buildDataset(inputs: SeedInputs): Dataset {
         row.lon = r.coords.lon;
       }
       row.wikidataId = r.qid;
+      row.prominence = Math.max(row.prominence, r.prominence ?? 0);
       if (r.wikipedia?.extract) row.wikipedia = r.wikipedia;
       for (const f of r.facts) {
         facts.push({

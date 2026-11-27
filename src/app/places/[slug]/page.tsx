@@ -6,6 +6,7 @@ import { getProvider } from "@/lib/data";
 import { loadGeometry, loadPlaceGeometry } from "@/lib/data/inputs";
 import type { AreaDetail, AreaSummary } from "@/lib/data/types";
 import { catName, getLocale, t } from "@/lib/i18n";
+import { commonsThumb } from "@/lib/media";
 import { formatNumber } from "@/lib/text";
 import { PlaceHeader, loadArea } from "./shared";
 
@@ -104,7 +105,9 @@ export default async function PlacePage({ params }: Props) {
       ? db.listChildAreas(area.slug, { areaType: "community", deep: true, pageSize: 1 })
       : null,
   ]);
-  const brands = area.areaType === "municipality" || area.areaType === "county" ? await db.listBrandPresence(area.slug, { limit: 300 }) : [];
+  const brands = ["municipality", "county", "state"].includes(area.areaType) ? await db.listBrandPresence(area.slug, { limit: 500 }) : [];
+  // Best-known brands: most Wikipedia language editions, then most locations.
+  const bestKnown = [...brands].sort((a, b) => b.entity.prominence - a.entity.prominence || b.count - a.count).slice(0, 10);
   const brandGroups = new Map<string, { name: string; nameRo: string | null; items: typeof brands }>();
   for (const b of brands) {
     const key = b.entity.primaryCategory.slug;
@@ -159,6 +162,16 @@ export default async function PlacePage({ params }: Props) {
         <div className="flex min-w-0 flex-col gap-10">
           {area.programStatus === "registry_only" && <EmptyState title={t("area.registryOnly")} hint={area.boundaryNote ?? undefined} />}
           {area.programStatus === "active" && area.boundaryNote && <p className="prose-note">{area.boundaryNote}</p>}
+
+          {entities.total > 0 && (
+            <section aria-labelledby="highlights" data-testid="highlights">
+              <SectionHeading eyebrow={`${entities.total.toLocaleString("en-US")} entries`} title="Highlights">
+                <Link href={`/places/${area.slug}/directory`} className="text-sm">{t("area.viewAll")} →</Link>
+              </SectionHeading>
+              <p className="prose-note -mt-2 mb-4">The best-known places here, ranked by how many Wikipedia language editions cover them.</p>
+              <EntityGrid items={showcase(entities.items)} />
+            </section>
+          )}
 
           <section aria-labelledby="facts">
             <SectionHeading eyebrow={t("area.facts")} title={area.areaType === "municipality" ? "City profile" : t("area.facts")} />
@@ -290,6 +303,23 @@ export default async function PlacePage({ params }: Props) {
               <p className="prose-note -mt-2 mb-4">
                 {brands.length} brands with locations mapped inside {area.name} (© OpenStreetMap contributors, ODbL, as of {brands[0]!.asOf}). Counts are mapped locations, not official store totals.
               </p>
+              <h3 className="mb-3 text-sm font-semibold tracking-wide text-gold-soft uppercase">Best-known brands</h3>
+              <ul className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5" data-testid="best-known-brands">
+                {bestKnown.map((b) => (
+                  <li key={b.entity.slug}>
+                    <Link href={`/entities/${b.entity.slug}`} className="card-link flex h-full flex-col items-center gap-2 p-3 text-center">
+                      {b.entity.image ? (
+                        // eslint-disable-next-line @next/next/no-img-element -- Commons logo thumbnail
+                        <img src={commonsThumb(b.entity.image.url, 330)} alt={b.entity.image.alt} loading="lazy" className="h-12 w-full rounded bg-white object-contain p-1" />
+                      ) : (
+                        <span className="flex h-12 w-full items-center justify-center rounded bg-navy-900 font-serif text-lg text-gold">{b.entity.name.slice(0, 1)}</span>
+                      )}
+                      <span className="text-sm leading-tight text-ink">{b.entity.name}</span>
+                      <span className="text-[11px] text-muted">{b.count.toLocaleString("en-US")} locations</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
               <div className="flex flex-col gap-5">
                 {[...brandGroups.entries()].map(([key, g]) => (
                   <div key={key}>
@@ -316,14 +346,6 @@ export default async function PlacePage({ params }: Props) {
             </section>
           )}
 
-          {entities.total > 0 && (
-            <section aria-labelledby="entries">
-              <SectionHeading eyebrow={`${entities.total}`} title={t("area.inThisArea")}>
-                <Link href={`/places/${area.slug}/directory`} className="text-sm">{t("area.viewAll")} →</Link>
-              </SectionHeading>
-              <EntityGrid items={showcase(entities.items)} />
-            </section>
-          )}
         </div>
 
         <aside className="flex flex-col gap-6" aria-label="Details">

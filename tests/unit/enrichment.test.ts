@@ -40,8 +40,30 @@ describe("enrichment bundles", () => {
     rec({ qid: "Q4", slug: "test-burger", name: "Test Burger", entityType: "brand", origin: "osm-brand", categories: [{ slug: "restaurant-chains", primary: true }, { slug: "fast-food", primary: false }],
       areas: [{ slug: "jacksonville-fl", relation: "operates_in" }],
       facts: [{ key: "osm-location-count", value: 12, unit: "locations", asOf: "2026-11-27", sourceId: "openstreetmap-overpass", sourceRef: "brand:wikidata=Q4", scopeAreaSlug: "jacksonville-fl" }] }),
+    // a famous brand counted in two counties: the state total is their sum
+    rec({ qid: "Q5", slug: "famous-coffee", name: "Famous Coffee", entityType: "brand", origin: "osm-brand", prominence: 90, categories: [{ slug: "restaurant-chains", primary: true }],
+      areas: [{ slug: "duval-county-fl", relation: "operates_in" }, { slug: "clay-county-fl", relation: "operates_in" }],
+      facts: [
+        { key: "osm-location-count", value: 7, unit: "locations", asOf: "2026-11-27", sourceId: "openstreetmap-overpass", sourceRef: "Q5 Duval", scopeAreaSlug: "duval-county-fl" },
+        { key: "osm-location-count", value: 3, unit: "locations", asOf: "2026-11-28", sourceId: "openstreetmap-overpass", sourceRef: "Q5 Clay", scopeAreaSlug: "clay-county-fl" },
+      ] }),
   ]));
   const db = new FixtureProvider(ds);
+
+  it("sums county brand counts for a state and ranks well-known brands first when asked", async () => {
+    const fl = await db.listBrandPresence("florida");
+    expect(fl.find((b) => b.entity.slug === "famous-coffee")).toMatchObject({ count: 10, asOf: "2026-11-28" });
+    expect(fl.some((b) => b.entity.slug === "test-burger")).toBe(false); // city-scoped only, not double counted at state level
+    const byFame = await db.listBrandPresence("duval-county-fl", { sort: "prominence" });
+    expect(byFame[0]?.entity.slug).toBe("famous-coffee");
+    expect(byFame[0]?.entity.prominence).toBe(90);
+  });
+
+  it("puts the best-known entries first in featured listings", async () => {
+    const page = await db.listEntities({ areaSlug: "jacksonville-fl", sort: "featured", pageSize: 5 });
+    const proms = page.items.map((e) => e.prominence);
+    expect([...proms].sort((a, b) => b - a)).toEqual(proms);
+  });
 
   it("creates new entities with sourced coordinates, Wikipedia text, facts and media", async () => {
     const e = await db.getEntity("test-museum");

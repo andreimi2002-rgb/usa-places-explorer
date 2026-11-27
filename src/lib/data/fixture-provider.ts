@@ -114,6 +114,7 @@ export class FixtureProvider implements DataProvider {
       slug: e.slug, name: e.name, entityType: e.entityType, shortDescription: e.shortDescription, reviewStatus: e.reviewStatus,
       primaryCategory: categoryRef(cat), domain: categoryRef(this.idx.domainOf(cat)), placeLabel: place?.name ?? null,
       image: img ? { url: img.url, alt: img.alt } : null,
+      prominence: e.prominence,
     };
   }
 
@@ -147,22 +148,36 @@ export class FixtureProvider implements DataProvider {
       .map(({ o, d }) => ({ ...this.entitySummary(o), distanceKm: Math.round(d * 100) / 100 }));
   }
 
-  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number } = {}): Promise<BrandPresence[]> {
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number; sort?: "count" | "prominence" } = {}): Promise<BrandPresence[]> {
     const area = this.idx.areaBySlug.get(areaSlug);
     if (!area) return [];
     const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
     const allowed = opts.categorySlug && this.idx.categoryBySlug.get(opts.categorySlug)
       ? this.idx.descendantCategoryIds(this.idx.categoryBySlug.get(opts.categorySlug)!.id)
       : null;
+    // Counts scoped to this exact area; otherwise (e.g. a state) the sum of its counties' counts.
+    const counts = this.ds.facts.filter((f) => f.key === "osm-location-count" && f.entityId && f.valueNum !== null);
+    let scoped = counts.filter((f) => f.scopeAreaId === area.id);
+    if (!scoped.length) {
+      const inside = this.idx.descendantAreaIds(area.id);
+      scoped = counts.filter((f) => f.scopeAreaId && inside.has(f.scopeAreaId) && this.idx.areaById.get(f.scopeAreaId)!.areaType === "county");
+    }
+    const byEntity = new Map<string, { n: number; asOf: string | null }>();
+    for (const f of scoped) {
+      const prev = byEntity.get(f.entityId!) ?? { n: 0, asOf: null };
+      byEntity.set(f.entityId!, { n: prev.n + f.valueNum!, asOf: !prev.asOf || (f.asOf && f.asOf > prev.asOf) ? f.asOf : prev.asOf });
+    }
     const rows: BrandPresence[] = [];
-    for (const f of this.ds.facts) {
-      if (f.key !== "osm-location-count" || f.scopeAreaId !== area.id || !f.entityId || f.valueNum === null) continue;
-      const e = this.idx.entityById.get(f.entityId)!;
+    for (const [id, v] of byEntity) {
+      const e = this.idx.entityById.get(id)!;
       if (!this.visible(e)) continue;
       if (allowed && !this.ds.entityCategories.some((ec) => ec.entityId === e.id && allowed.has(ec.categoryId))) continue;
-      rows.push({ entity: this.entitySummary(e), count: f.valueNum, asOf: f.asOf });
+      rows.push({ entity: this.entitySummary(e), count: v.n, asOf: v.asOf });
     }
-    return rows.sort((a, b) => b.count - a.count || a.entity.name.localeCompare(b.entity.name, "en")).slice(0, limit);
+    const byName = (a: BrandPresence, b: BrandPresence) => a.entity.name.localeCompare(b.entity.name, "en");
+    return rows
+      .sort((a, b) => (opts.sort === "prominence" ? b.entity.prominence - a.entity.prominence || b.count - a.count : b.count - a.count) || byName(a, b))
+      .slice(0, limit);
   }
 
   private lastCheck(sourceId: string): SourceCheck | null {
@@ -292,7 +307,7 @@ export class FixtureProvider implements DataProvider {
     if (query.q) scored = scored.filter((x) => x.s > 0);
     if (query.sort === "featured") {
       const rank = (t: string) => (FEATURED_TYPES.indexOf(t) === -1 ? 999 : FEATURED_TYPES.indexOf(t));
-      scored.sort((a, b) => b.s - a.s || Number(!!this.imageOf(b.e.id)) - Number(!!this.imageOf(a.e.id)) || rank(a.e.entityType) - rank(b.e.entityType) || a.e.name.localeCompare(b.e.name, "en"));
+      scored.sort((a, b) => b.s - a.s || b.e.prominence - a.e.prominence || Number(!!this.imageOf(b.e.id)) - Number(!!this.imageOf(a.e.id)) || rank(a.e.entityType) - rank(b.e.entityType) || a.e.name.localeCompare(b.e.name, "en"));
     } else scored.sort((a, b) => b.s - a.s || a.e.name.localeCompare(b.e.name, "en"));
     return { items: scored.slice(offset, offset + pageSize).map((x) => this.entitySummary(x.e)), total: scored.length, page, pageSize };
   }

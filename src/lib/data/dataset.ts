@@ -74,6 +74,8 @@ export type EntityRow = {
   lat: number | null;
   lon: number | null;
   wikidataId: string | null;
+  /** Wikipedia language editions with an article (Wikidata sitelinks); 0 when unknown. */
+  prominence: number;
   /** Wikipedia lead, shown verbatim with attribution (CC BY-SA); not a fact. */
   wikipedia: { title: string; url: string; extract: string; retrievedAt: string } | null;
 };

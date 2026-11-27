@@ -19,7 +19,7 @@ import { ownerUrl, withClient } from "./common";
 type Col = [name: string, sqlType: string];
 type Row = Record<string, unknown>;
 
-export const SCHEMA_VERSION = "0007";
+export const SCHEMA_VERSION = "0008";
 
 async function upsert(c: pg.Client, table: string, cols: Col[], key: string[], rows: Row[]): Promise<number> {
   if (!rows.length) return 0;
@@ -123,14 +123,14 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
         ["official_url", "text"], ["sensitive_location", "boolean"], ["visibility", "visibility"], ["review_status", "review_status"],
         ["primary_source_id", "text"], ["created_at", "timestamptz"], ["updated_at", "timestamptz"], ["verified_at", "timestamptz"],
         ["name_norm", "text"], ["search_text", "text"], ["wikidata_id", "text"], ["wikipedia_title", "text"], ["wikipedia_url", "text"],
-        ["wikipedia_extract", "text"], ["wikipedia_retrieved_at", "timestamptz"],
+        ["wikipedia_extract", "text"], ["wikipedia_retrieved_at", "timestamptz"], ["prominence", "int"],
       ], ["id"], ds.entities.map((e) => ({
         id: e.id, slug: e.slug, name: e.name, entity_type: e.entityType, status: e.status, short_description: e.shortDescription, official_url: e.officialUrl,
         sensitive_location: e.sensitiveLocation, visibility: e.visibility, review_status: e.reviewStatus, primary_source_id: e.primarySourceId,
         created_at: e.createdAt, updated_at: e.updatedAt, verified_at: e.verifiedAt,
         name_norm: nameKey(e.name, e.aliases), search_text: normalize(entitySearchText(idx, e)),
         wikidata_id: e.wikidataId, wikipedia_title: e.wikipedia?.title ?? null, wikipedia_url: e.wikipedia?.url ?? null,
-        wikipedia_extract: e.wikipedia?.extract ?? null, wikipedia_retrieved_at: e.wikipedia?.retrievedAt ?? null,
+        wikipedia_extract: e.wikipedia?.extract ?? null, wikipedia_retrieved_at: e.wikipedia?.retrievedAt ?? null, prominence: e.prominence,
       })));
       counts.entityPoints = (await c.query(
         `update entities e set location = case when x.lat is null then null else st_setsrid(st_makepoint(x.lon, x.lat), 4326)::geography end

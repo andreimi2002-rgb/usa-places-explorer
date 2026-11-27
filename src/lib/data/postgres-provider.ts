@@ -55,6 +55,7 @@ function entitySummary(r: R): EntitySummary {
     reviewStatus: r.review_status as ReviewStatus, primaryCategory: catRef(r.cat_slug, r.cat_name, r.cat_name_ro, r.domain_number),
     domain: catRef(r.dom_slug, r.dom_name, r.dom_name_ro, r.domain_number), placeLabel: (r.place_label as string) ?? null,
     image: r.image_url ? { url: String(r.image_url), alt: String(r.image_alt ?? "") } : null,
+    prominence: Number(r.prominence ?? 0),
   };
 }
 
@@ -256,7 +257,7 @@ export class PostgresProvider implements DataProvider {
         and ($5::text is null or s.entity_type = $5)
         and ($6::review_status is null or s.review_status = $6)
         and ($1::text is null or ${MATCH("s.search_text")})
-      order by score desc, ${query.sort === "featured" ? `(s.image_url is not null) desc, coalesce(array_position($9::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
+      order by score desc, ${query.sort === "featured" ? `s.prominence desc, (s.image_url is not null) desc, coalesce(array_position($9::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
       [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset, ...(query.sort === "featured" ? [FEATURED_TYPES] : [])]);
     return { items: rows.map(entitySummary), total: Number(rows[0]?.total ?? 0), page, pageSize };
   }
@@ -397,15 +398,24 @@ export class PostgresProvider implements DataProvider {
     return rows.map((r) => ({ ...entitySummary(r), distanceKm: Math.round(Number(r.km) * 100) / 100 }));
   }
 
-  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number } = {}): Promise<BrandPresence[]> {
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number; sort?: "count" | "prominence" } = {}): Promise<BrandPresence[]> {
     const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
-    const rows = await this.q(`select s.*, f.value_num as cnt, f.as_of
-      from facts f join areas a on a.id = f.scope_area_id and a.slug = $1
-      join entity_summaries s on s.id = f.entity_id
-      where f.key = 'osm-location-count' and f.review_status <> 'rejected'
-        and ($2::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $2
+    // Counts scoped to this exact area; otherwise (e.g. a state) the sum of its counties' counts — same rule as fixture mode.
+    const rows = await this.q(`with direct as (
+        select f.entity_id, f.value_num, f.as_of from facts f join areas a on a.id = f.scope_area_id
+        where a.slug = $1 and f.key = 'osm-location-count' and f.review_status <> 'rejected'),
+      agg as materialized (
+        select f.entity_id, sum(f.value_num) as value_num, max(f.as_of) as as_of
+        from facts f join areas c on c.id = f.scope_area_id and c.area_type = 'county'
+        where f.key = 'osm-location-count' and f.review_status <> 'rejected' and not exists (select 1 from direct)
+          and c.id in (select area_descendants((select id from areas where slug = $1)))
+        group by f.entity_id),
+      pres as (select * from direct union all select * from agg)
+      select s.*, p.value_num as cnt, p.as_of
+      from pres p join entity_summaries s on s.id = p.entity_id
+      where ($2::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $2
              where ec.entity_id = s.id and ec.category_id in (select category_descendants(root.id))))
-      order by cnt desc, s.name limit $3`, [areaSlug, opts.categorySlug ?? null, limit]);
+      order by ${opts.sort === "prominence" ? "s.prominence desc, " : ""}cnt desc, s.name limit $3`, [areaSlug, opts.categorySlug ?? null, limit]);
     return rows.map((r) => ({ entity: entitySummary(r), count: Number(r.cnt), asOf: isoDate(r.as_of) }));
   }
 

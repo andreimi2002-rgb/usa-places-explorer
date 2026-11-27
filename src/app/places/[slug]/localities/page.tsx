@@ -21,11 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const TYPES_FOR: Partial<Record<AreaType, AreaType[]>> = {
   country: ["state", "federal_district", "territory"],
-  state: ["county", "municipality", "cdp"],
-  county: ["municipality"],
+  state: ["county", "municipality", "cdp", "community"],
+  county: ["municipality", "cdp", "community"],
+  municipality: ["neighborhood", "community"],
 };
 const TYPE_LABEL: Partial<Record<AreaType, string>> = {
-  state: "States", federal_district: "Federal district", territory: "Territories", county: "Counties", municipality: "Municipalities", cdp: "Census designated places",
+  state: "States", federal_district: "Federal district", territory: "Territories", county: "Counties", municipality: "Municipalities", cdp: "Census designated places", community: "Communities & named places (GNIS)", neighborhood: "Neighborhoods",
 };
 
 export default async function LocalitiesPage({ params, searchParams }: Props) {
@@ -39,7 +40,7 @@ export default async function LocalitiesPage({ params, searchParams }: Props) {
   const q = param(sp, "q");
   const page = pageParam(sp);
   const db = getProvider();
-  const deep = area.areaType === "state" && type === "municipality";
+  const deep = true; // types are filtered, so descendants at any depth are listed
   const result = await db.listChildAreas(area.slug, { areaType: type, q, page, pageSize: 60, deep });
   const base = `/places/${area.slug}/localities`;
   const locale = getLocale();
@@ -62,8 +63,9 @@ export default async function LocalitiesPage({ params, searchParams }: Props) {
           <button className="btn" type="submit">{t("dir.filter")}</button>
         </form>
         <p className="mb-3 text-sm text-muted" role="status" data-testid="locality-count">
-          {result.total} {TYPE_LABEL[type]?.toLowerCase()} · Source: U.S. Census Bureau (2026 Gazetteer; Vintage 2025 population estimates)
+          {result.total} {TYPE_LABEL[type]?.toLowerCase()} · Source: {type === "community" ? "USGS GNIS Domestic Names" : type === "neighborhood" ? "Curated (Visit Jacksonville names; GNIS points where matched)" : "U.S. Census Bureau (2026 Gazetteer; Vintage 2025 population estimates)"}
         </p>
+        {type === "community" && <p className="prose-note mb-3">Officially named points from the federal Geographic Names Information System. They include unincorporated communities, neighborhoods, subdivisions and historical settlements, and have no legal boundaries.</p>}
         {type === "cdp" && <p className="prose-note mb-3">CDPs are statistical areas defined by the Census Bureau, not incorporated municipalities. Unincorporated communities without a CDP are not yet included.</p>}
         {result.items.length ? (
           <div className="overflow-x-auto">

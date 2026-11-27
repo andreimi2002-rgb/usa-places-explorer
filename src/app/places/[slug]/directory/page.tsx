@@ -32,7 +32,7 @@ export default async function DirectoryPage({ params, searchParams }: Props) {
 
   const [tree, result] = await Promise.all([
     db.getCategoryTree(area.slug),
-    db.listEntities({ areaSlug: area.slug, categorySlug: topic, q, reviewStatus: status, page, pageSize }),
+    db.listEntities({ areaSlug: area.slug, categorySlug: topic, q, reviewStatus: status, page, pageSize, sort: "featured" }),
   ]);
   const base = `/places/${area.slug}/directory`;
   const href = (p: number) => withQuery(base, { topic, q, status, page: p });

@@ -1,0 +1,1646 @@
+{
+ "generatedAt": "2026-11-27T19:10:47.352Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "dixie-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:10:47.352Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:10:47.352Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Dixie County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:10:47.352Z",
+   "checksumSha256": "c621da94325c69b83c1c1b668b8a050c75cbf7a8d25a449707e96fbb54c55cc0"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q1655525",
+   "slug": "cross-city-airport",
+   "name": "Cross City Airport",
+   "aliases": [
+    "CTY",
+    "KCTY"
+   ],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.635556,
+    "lon": -83.104722
+   },
+   "officialUrl": "https://www.dixiecounty.us/airport/",
+   "wikipedia": {
+    "title": "Cross City Airport",
+    "url": "https://en.wikipedia.org/wiki/Cross_City_Airport",
+    "extract": "Cross City Airport (IATA: CTY, ICAO: KCTY, FAA LID: CTY) is a county-owned, public-use airport located in unincorporated Dixie County, Florida, United States, 1 nautical mile (1.9 km) east of the central business district of Cross City. It is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a general aviation facility.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "508 241st, Cross City, FL 32628",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1655525 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1655525"
+    },
+    {
+     "provider": "iata",
+     "id": "CTY"
+    },
+    {
+     "provider": "icao",
+     "id": "KCTY"
+    },
+    {
+     "provider": "geonames",
+     "id": "4152389"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/CrossCityAirport.JPG/1920px-CrossCityAirport.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CrossCityAirport.JPG",
+     "alt": "Photograph of Cross City Airport",
+     "credit": "WillMcC",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5123713",
+   "slug": "city-of-hawkinsville",
+   "name": "City of Hawkinsville",
+   "aliases": [],
+   "description": "archaeological site in Dixie County, United States of America",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.607222,
+    "lon": -82.970833
+   },
+   "wikipedia": {
+    "title": "City of Hawkinsville (shipwreck)",
+    "url": "https://en.wikipedia.org/wiki/City_of_Hawkinsville_(shipwreck)",
+    "extract": "City of Hawkinsville was a paddle steamer constructed in Georgia in 1886. Sold in 1900 to a Tampa, Florida company, it delivered cargo and lumber along the Suwannee River. Eventually rendered obsolete by the advent of railroads in the region, it was abandoned in the middle of the Suwannee in 1922.\nIt became the third Florida Underwater Archaeological Preserve when it opened to the public in 1992. On May 31, 2001, it was added to the U.S. National Register of Historic Places as City of Hawkinsville (shipwreck). It is located in Dixie County, 100 yards south of the Old Town railroad trestle (which is part of the Nature Coast State Trail).",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5123713 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "01000533",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5123713 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5123713"
+    },
+    {
+     "provider": "nrhp",
+     "id": "01000533"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Old_Town_Nature_Coast_Trail_SP_Suwannee_south02.jpg/1920px-Old_Town_Nature_Coast_Trail_SP_Suwannee_south02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_Nature_Coast_Trail_SP_Suwannee_south02.jpg",
+     "alt": "Photograph of City of Hawkinsville",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6980896",
+   "slug": "nature-coast-state-trail",
+   "name": "Nature Coast State Trail",
+   "aliases": [],
+   "description": "rail trail in Florida",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.603738,
+    "lon": -82.983261
+   },
+   "wikipedia": {
+    "title": "Nature Coast State Trail",
+    "url": "https://en.wikipedia.org/wiki/Nature_Coast_State_Trail",
+    "extract": "The Nature Coast State Trail (NCST) is a 31.7-mile long segment of Florida's Statewide System of Greenways and Trails System built along abandoned railroad tracks, and designated by the U.S. Department of the Interior as a National Recreation Trail.  It has two primary sections following unused rail lines that were built by the Atlantic Coast Line Railroad. It includes historic sites such as a 1902 train trestle bridge over the Suwannee River near Old Town and train stations in Trenton, Cross City, and Chiefland.  At Wilcox Junction abandoned rail tracks cross and  connect with several communities. The trail is available to hikers, cyclists, and horse riders.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Recreation Trail",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6980896 P1435"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6980896"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Old_Town_Nature_Coast_Trail_SP_bridge02.jpg/1920px-Old_Town_Nature_Coast_Trail_SP_bridge02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_Nature_Coast_Trail_SP_bridge02.jpg",
+     "alt": "Photograph of Nature Coast State Trail",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7085279",
+   "slug": "old-town-elementary-school",
+   "name": "Old Town Elementary School",
+   "aliases": [],
+   "description": "Historic school in Florida, United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.5908,
+    "lon": -82.9817
+   },
+   "wikipedia": {
+    "title": "Old Town Elementary School (Old Town, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Old_Town_Elementary_School_(Old_Town,_Florida)",
+    "extract": "The former Old Town Elementary School is an historic two-story, four-classroom school building in Old Town, Dixie County, Florida. Built in 1909-1910 of bricks fired on site, it is the oldest public building in Dixie County. In 1930 the auditorium was built by George Levingston. In 1999, it was replaced by a new school. Today it is operated by the Dixie County Historical Society as the Dixie County Cultural Center, with space for its office, a local history museum and a library.\n \nIn 1989, the school complex was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1910",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7085279 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7085279"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Old_Town_Elem_School01.jpg/1920px-Old_Town_Elem_School01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_Elem_School01.jpg",
+     "alt": "Photograph of Old Town Elementary School",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5522283",
+   "slug": "garden-patch-archeological-site",
+   "name": "Garden Patch Archeological Site",
+   "aliases": [],
+   "description": "archaeological site in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "horseshoe-beach-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.44,
+    "lon": -83.29
+   },
+   "wikipedia": {
+    "title": "Garden Patch Archeological Site",
+    "url": "https://en.wikipedia.org/wiki/Garden_Patch_Archeological_Site",
+    "extract": "The Garden Patch is a Middle Woodland archaeological site in Horseshoe Cove, near Horseshoe Beach, Florida, off County Road 351. For a major part of its occupation, the site was a ceremonial center associated with the Swift Creek and Weeden Island cultures. On April 25, 1991, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5522283 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "91000454",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5522283 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5522283"
+    },
+    {
+     "provider": "nrhp",
+     "id": "91000454"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7957350",
+   "slug": "wufq",
+   "name": "WUFQ",
+   "aliases": [],
+   "description": "WUFT Classic radio station in Cross City, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.5264,
+    "lon": -83.2381
+   },
+   "officialUrl": "https://www.wuft.org/classic/",
+   "wikipedia": {
+    "title": "WUFQ",
+    "url": "https://en.wikipedia.org/wiki/WUFQ",
+    "extract": "WUFQ (88.5 FM) was a radio station licensed in Cross City, Florida. The station was owned by the University of Florida Board of Trustees.\nThe station was established in 2009 as WWLC, a replacement station for WBVM's Lecanto satellite, WLMS 88.3 FM, which, like WBVM, was owned by the neighboring Roman Catholic Diocese of Saint Petersburg. WLMS was acquired in late 2008 by the Central Florida Educational Foundation and was closed down, to enable like-minded Orlando station WPOZ (also on 88.3 FM) to increase its power.\nEffective July 26, 2019, the Roman Catholic Diocese of St. Augustine donated the station's license to the University of Florida. The station previously aired WUFT-HD2's \"WUFT Classic\" until late 2024. From there until mid-2026, simulcasted emergency information of the HD4 channel of WUFT-FM from Gainesville, Florida. The station's license was canceled on July 22, 2026.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2006",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7957350 P571"
+    },
+    {
+     "key": "owner",
+     "value": "University of Florida",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7957350 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7957350"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7958385",
+   "slug": "wzro-lp",
+   "name": "WZRO-LP",
+   "aliases": [],
+   "description": "radio station in Suwannee, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.3281,
+    "lon": -83.1436
+   },
+   "wikipedia": {
+    "title": "WZRO-LP",
+    "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_Florida",
+    "extract": "The following is a list of FCC-licensed radio stations in the U.S. state of Florida, which can be sorted by their call signs, frequencies, cities of license, licensees, and programming formats.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7958385"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7085296",
+   "slug": "old-town-methodist-church",
+   "name": "Old Town Methodist Church",
+   "aliases": [],
+   "description": "church building in Florida, United States of America",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6026,
+    "lon": -82.9846
+   },
+   "wikipedia": {
+    "title": "Old Town Methodist Church",
+    "url": "https://en.wikipedia.org/wiki/Old_Town_Methodist_Church",
+    "extract": "The original Old Town Methodist Church, built in 1890, is an historic wooden Methodist church building now situated behind the Old Town United Methodist Church built in 1983 a short distance west of the intersection of U.S. 19 and Road 349 in Old Town, Florida. Built by  Ed Hill and Charlie Hill at another location in Old Town, it has been moved several times before reaching its present site. In the 1980s, it was used as an annex to the new building. Today it serves as the Fellowship Hall.\nIn 1989, the 1890 church building was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1890",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7085296 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7085296"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Old_Town_Methodist_Church01.jpg/1920px-Old_Town_Methodist_Church01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_Methodist_Church01.jpg",
+     "alt": "Photograph of Old Town Methodist Church",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7958256",
+   "slug": "wzcc",
+   "name": "WZCC",
+   "aliases": [],
+   "description": "radio station in Cross City, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6097,
+    "lon": -83.1342
+   },
+   "officialUrl": "https://www.classichits933.com",
+   "wikipedia": {
+    "title": "WZCC",
+    "url": "https://en.wikipedia.org/wiki/WZCC",
+    "extract": "WZCC (1240 AM) is a commercial classic country radio station in Cross City, Florida, broadcasting to the Tri-County area of Dixie, Levy, and Gilchrist counties.\nIn 2007 the station was sold to WRGO RADIO, LLC.  In February 2010 the station was sold to Suncoast Radio, Inc.  The station was off the air for most of 2009.  WZCC resumed broadcasting on March 5, 2010.\nIn addition to classic country music WZCC airs NASCAR Sprint Cup Series races from the Motor Racing Network, and local high school football.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1985",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7958256 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7958256"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16877030",
+   "slug": "dixie-county-high-school",
+   "name": "Dixie County High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "cross-city-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6381,
+    "lon": -83.1333
+   },
+   "wikipedia": {
+    "title": "Dixie County High School",
+    "url": "https://en.wikipedia.org/wiki/Dixie_County_High_School",
+    "extract": "Dixie County Middle High School is part of Dixie District Schools serving Dixie County in Cross City, Florida, United States. It is at is at 17924 SE 19 HWY. The school changed its name in 2021 from Dixie County High School, due to the school now including grades 8–12. Students grades 6–7 in Dixie County are still taught at Ruth Raines Middle School.\nAccording to the school, the vision of Dixie County High School is to create a nurturing culture that strives to instill the desire in all students to become lifelong learners through a rigorous and relevant curriculum that prepares them for college, career, and success in a global society.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16877030"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Dixiecountyhs_%28old%29.jpg/1920px-Dixiecountyhs_%28old%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dixiecountyhs_(old).jpg",
+     "alt": "Photograph of Dixie County High School",
+     "credit": "WhisperToMe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q54322483",
+   "slug": "putnam-lodge",
+   "name": "Putnam Lodge",
+   "aliases": [],
+   "description": "Historic hotel in Florida",
+   "entityType": "hotel",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "hotels-lodging",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.641111,
+    "lon": -83.141944
+   },
+   "wikipedia": {
+    "title": "Putnam Lodge",
+    "url": "https://en.wikipedia.org/wiki/Putnam_Lodge",
+    "extract": "Putnam Lodge is a historic hotel built in 1927 in Dixie County, Florida. Depending on the source it is located in Shamrock, Florida or adjacent Cross City, Florida. It was built in the company town developed around Putnam Lumber Company's operations in Shamrock. The hotel was renovated for a 2014 reopening after being closed for many years.\nPutnam Lodge features a lobby with hand-stenciled pecky cypress columns and heart pine floors as well as a new spa added by the Tampa-based entrepreneurs who restored and revamped the lodge. It sits on 18 acres of land.\nThe hotel was built across from the mill and main commissary in Shamrock to welcome the growing number of tourists visiting Florida. A dairy and ice plant were also built. The hotel was noted in restaurant guide Duncan Hines put out in 1938.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q54322483"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shamrock_FL_Putnam_Lodge01.jpg/1920px-Shamrock_FL_Putnam_Lodge01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shamrock_FL_Putnam_Lodge01.jpg",
+     "alt": "Photograph of Putnam Lodge",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6970842",
+   "slug": "napa",
+   "name": "NAPA",
+   "aliases": [
+    "NAPA Auto Parts",
+    "National Automotive Parts Association"
+   ],
+   "description": "American automotive retailers' cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.napaonline.com/",
+   "wikipedia": {
+    "title": "NAPA Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/NAPA_Auto_Parts",
+    "extract": "The National Automotive Parts Association (NAPA, also known as NAPA Auto Parts), is an American retailers' cooperative distributing automotive replacement parts, accessories, and service items throughout North America. Established in 1925, NAPA is a division of Atlanta-based Genuine Parts Company.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q6970842 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6970842"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/NAPA_Auto_Parts_logo.svg/1920px-NAPA_Auto_Parts_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:NAPA_Auto_Parts_logo.svg",
+     "alt": "NAPA logo",
+     "credit": "National Automotive Parts Association",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7427972",
+   "slug": "save-a-lot",
+   "name": "Save-A-Lot",
+   "aliases": [
+    "Save A Lot"
+   ],
+   "description": "American retail and grocery company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://savealot.com/",
+   "wikipedia": {
+    "title": "Save A Lot",
+    "url": "https://en.wikipedia.org/wiki/Save_A_Lot",
+    "extract": "Save A Lot Food Stores Ltd. is an American discount supermarket chain store headquartered in St. Ann, Missouri, in Greater St. Louis. It has about 720 independently owned and operated stores across 32 states in the United States with over $2.6 billion in annual sales.\nStores carry most grocery products, with an assortment of fresh, canned and frozen produce, meat, meal products, household items and everyday groceries. Save A Lot grocery stores sell national brands and private label brands at a discounted price. A typical Save A Lot grocery store is 15,000 square feet (1,400 m2) with items displayed in their cardboard shipping boxes.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7427972 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Onex Corporation; SuperValu",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7427972 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Earth City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7427972 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7427972 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7427972"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Save_A_Lot_logo.svg/1920px-Save_A_Lot_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Save_A_Lot_logo.svg",
+     "alt": "Save-A-Lot logo",
+     "credit": "Moran Foods, LLC",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1141226",
+   "slug": "dairy-queen",
+   "name": "Dairy Queen",
+   "aliases": [
+    "DQ"
+   ],
+   "description": "American multinational fast food chain from Illinois",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 32,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dairyqueen.com/",
+   "wikipedia": {
+    "title": "Dairy Queen",
+    "url": "https://en.wikipedia.org/wiki/Dairy_Queen",
+    "extract": "International Dairy Queen, Inc. (DQ) is an American multinational fast food restaurant chain founded in 1940 and headquartered in Bloomington, Minnesota. The first Dairy Queen was owned and operated by Sherb Noble and opened on June 22, 1940, in Joliet, Illinois. It serves a variety of hot and fried food, as well as original frozen dairy products that vary from location to location.\nThe company has been owned by Berkshire Hathaway since 1998.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-06-22",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Edina; Bloomington",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1141226 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1141226"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1920px-Dairy_Queen_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dairy_Queen_logo.svg",
+     "alt": "Dairy Queen logo",
+     "credit": "International Dairy Queen",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5433101",
+   "slug": "family-dollar",
+   "name": "Family Dollar",
+   "aliases": [
+    "Family Dollar Stores, Inc.",
+    "FDO",
+    "Family Dollar Stores"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.familydollar.com/",
+   "wikipedia": {
+    "title": "Family Dollar",
+    "url": "https://en.wikipedia.org/wiki/Family_Dollar",
+    "extract": "Family Dollar Stores, Inc. is an American variety store chain founded in 1959 by Leon Levine in Charlotte, North Carolina. With over 8,000 locations in all states except Alaska and Hawaii, it was once the second largest retailer of its type in the United States until it was acquired by Dollar Tree in 2015. Its headquarters operations were then moved from Matthews, North Carolina, to Chesapeake, Virginia.\nIn June 2014, activist investor and major shareholder Carl Icahn demanded that Family Dollar be immediately put up for sale. On July 28, Dollar Tree announced that it would buy Family Dollar for $8.5 billion. The sale delivered a windfall to Icahn, who had acquired his 9.4 percent stake in June. In January 2015, Family Dollar shareholders approved the Dollar Tree bid.\nFamily Dollar, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. In 2022, Family Dollar was sued by the Arkansas Attorney General following an investigation by the FDA into a rat infestation at its West Memphis, Arkansas, distribution center. The lawsuit ended in a $41 million fine to the company and the temporary closure of 400 stores.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1959",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Leon Levine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5433101 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5433101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Family-Dollar-Logo-2.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Family-Dollar-Logo-2.png",
+     "alt": "Family Dollar logo",
+     "credit": "Tellermate 2021",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q16985303",
+   "slug": "hungry-howies-pizza",
+   "name": "Hungry Howie's Pizza",
+   "aliases": [
+    "Hungry Howie's"
+   ],
+   "description": "American pizza chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hungryhowies.com",
+   "wikipedia": {
+    "title": "Hungry Howie's Pizza",
+    "url": "https://en.wikipedia.org/wiki/Hungry_Howie%27s_Pizza",
+    "extract": "Hungry Howie's Pizza & Subs, Inc., also known as Hungry Howie's Pizza, is a franchise and the 11th largest pizza chain in the United States, with nearly 500 locations.  Hungry Howie's products include pizza, calzone-style subs, chicken wings and tenders, bread, salads, cookies, and brookies. Its headquarters are located in Madison Heights, Michigan in Metro Detroit.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison Heights",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16985303 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16985303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hungry_Howies_Athens_OH_USA.JPG/1920px-Hungry_Howies_Athens_OH_USA.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hungry_Howies_Athens_OH_USA.JPG",
+     "alt": "Photograph of Hungry Howie's Pizza",
+     "credit": "Ed!(talk)(Hall of Fame) (Transferred by Cloudbound/Originally uploaded by Ed!)",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q154950",
+   "slug": "shell-q154950",
+   "name": "Shell",
+   "aliases": [
+    "Royal Dutch Shell",
+    "RDS"
+   ],
+   "description": "British multinational oil and gas company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 76,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "wikipedia": {
+    "title": "Shell plc",
+    "url": "https://en.wikipedia.org/wiki/Shell_plc",
+    "extract": "Shell plc is a British multinational oil and gas company, headquartered in London, England. Shell is a public limited company with a primary listing on the London Stock Exchange (LSE) and secondary listings on Euronext Amsterdam and the New York Stock Exchange. Shell is the largest investor owned oil company in Europe, third largest globally behind ExxonMobil and Chevron, and among the world's largest companies out of any industry. Measured by both its own emissions, and the emissions of all the fossil fuels it sells, Shell was the ninth-largest corporate producer of greenhouse gas emissions in the period 1988–2015.\nShell was formed in April 1907 through the merger of Royal Dutch Petroleum Company of the Netherlands and the \"Shell\" Transport and Trading Company of the United Kingdom, with 60 percent of stock ownership under Royal Dutch. The merger was arranged by Calouste Gulbenkian, a British-Armenian oil magnate. The combined company rapidly became the leading competitor of the American Standard Oil and by 1920 Shell was the largest producer of oil in the world. Shell first entered the chemicals industry in 1929. Shell was one of the \"Seven Sisters\" which dominated the global petroleum industry from the mid-1940s to the mid-1970s. In 1964, Shell was a partner in the world's first commercial sea transportation of liquefied natural gas (LNG). In 1970, Shell acquired the mining company Billiton, which it subsequently sold in 1994 and now forms part of BHP. In recent decades gas has become an increasingly important part of Shell's business and Shell acquired BG Group in 2016.\nShell is vertically integrated and is active in every area of the oil and gas industry, including exploration, production, refining, transport, distribution and marketing, petrochemicals, power generation, and trading. Shell has operations in over 99 countries, produces around 3.7 million barrels of oil equivalent per day and has around 44,000 service stations worldwide. As of 31 December, Shell had total proved oil and gas reserves of 8.123 billion barrels of oil equivalent. Shell USA, its principal subsidiary in the United States, is one of the company's largest businesses. Shell holds 44% of Raízen, a publicly listed joint venture with Cosan, which is the third-largest Brazil-based energy company. In addition to the main Shell brand, the company also owns the Jiffy Lube, Pennzoil and Quaker State brands.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1890",
+     "sourceId": "wikidata",
+     "sourceRef": "Q154950 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; The Vanguard Group; Norges Bank Investment Management",
+     "sourceId": "wikidata",
+     "sourceRef": "Q154950 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "London",
+     "sourceId": "wikidata",
+     "sourceRef": "Q154950 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Marcus Samuel, 1st Viscount Bearsted; Henri Deterding",
+     "sourceId": "wikidata",
+     "sourceRef": "Q154950 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q154950 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q154950"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "dixie-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T19:10:47.352Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Dixie County boundary",
+     "scopeAreaSlug": "dixie-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "dixie-county-fl",
+  "wikidataCandidates": 42,
+  "places": 11,
+  "brands": 11,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 22,
+  "withFreeImage": 18,
+  "withCoordinates": 11,
+  "osmBrandedLocations": 17,
+  "unmappedClasses": 3
+ }
+}

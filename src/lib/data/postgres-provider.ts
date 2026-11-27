@@ -5,6 +5,7 @@ import type { FactRow, MediaRow, SourceRow } from "./dataset";
 import { clampPage, scoreText } from "./fixture-provider";
 import {
   emptyStatusCounts,
+  FEATURED_TYPES,
   type AreaDetail,
   type AreaSummary,
   type CategoryNode,
@@ -14,6 +15,8 @@ import {
   type EntityDetail,
   type EntityQuery,
   type EntitySummary,
+  type BrandPresence,
+  type NearbyEntity,
   type Page,
   type SearchHit,
   type SiteStats,
@@ -51,6 +54,16 @@ function entitySummary(r: R): EntitySummary {
     slug: String(r.slug), name: String(r.name), entityType: r.entity_type as EntityType, shortDescription: (r.short_description as string) ?? null,
     reviewStatus: r.review_status as ReviewStatus, primaryCategory: catRef(r.cat_slug, r.cat_name, r.cat_name_ro, r.domain_number),
     domain: catRef(r.dom_slug, r.dom_name, r.dom_name_ro, r.domain_number), placeLabel: (r.place_label as string) ?? null,
+    image: r.image_url ? { url: String(r.image_url), alt: String(r.image_alt ?? "") } : null,
+    prominence: Number(r.prominence ?? 0),
+  };
+}
+
+function mediaRow(m: R): MediaRow {
+  return {
+    id: String(m.id), areaId: (m.area_id as string) ?? null, entityId: (m.entity_id as string) ?? null, kind: m.kind as MediaRow["kind"],
+    url: String(m.url), pageUrl: String(m.page_url), alt: String(m.alt), credit: String(m.credit), license: String(m.license),
+    licenseUrl: String(m.license_url), year: num(m.year), aiGenerated: Boolean(m.ai_generated),
   };
 }
 
@@ -60,6 +73,7 @@ function factRow(r: R): FactRow {
     valueText: (r.value_text as string) ?? null, valueNum: num(r.value_num), unit: (r.unit as string) ?? null, asOf: isoDate(r.as_of),
     asOfLabel: (r.as_of_label as string) ?? null, sourceId: String(r.source_id), sourceRef: (r.source_ref as string) ?? null,
     reviewStatus: r.review_status as ReviewStatus, verifiedAt: iso(r.verified_at), note: (r.note as string) ?? null,
+    scopeAreaId: (r.scope_area_id as string) ?? null,
   };
 }
 
@@ -83,11 +97,19 @@ const SOURCE_WITH_CHECK = `s.*, lc.retrieved_at as lc_retrieved_at, lc.http_stat
 
 /** Ranking identical to fixture mode's scoreText(); $1 = normalized query, $2 = tokens. */
 const SCORE = (nameCol: string, docCol: string) => `case
-  when ${nameCol} = $1 then 100
-  when ${nameCol} like $1 || '%' then 70
-  when (select bool_and(${nameCol} ~ ('(^| )' || t)) from unnest($2::text[]) t) then 50
+  when $1 = any(string_to_array(${nameCol}, '/')) then 100
+  when exists (select 1 from unnest(string_to_array(${nameCol}, '/')) as nn(x) where nn.x like $1 || '%') then 70
+  when (select bool_and(${nameCol} ~ ('(^| |/)' || t)) from unnest($2::text[]) t) then 50
   when (select bool_and(${docCol} like '%' || t || '%') from unnest($2::text[]) t) then 25
   else 0 end`;
+/**
+ * Entities linked to an area or any of its descendants, computed ONCE per query
+ * (a correlated area_descendants() per row is O(entities × areas) and times out at state scale).
+ */
+const SCOPE_CTE = (param: number) => `with scope_ids as materialized (
+  select distinct ea.entity_id from entity_areas ea
+  where ea.review_status <> 'rejected' and $${param}::text is not null
+    and ea.area_id in (select area_descendants((select id from areas where slug = $${param}))))`;
 const MATCH = (docCol: string) => `(select bool_and(${docCol} like '%' || t || '%') from unnest($2::text[]) t)`;
 
 export class PostgresProvider implements DataProvider {
@@ -95,8 +117,8 @@ export class PostgresProvider implements DataProvider {
   private readonly pool: pg.Pool;
 
   constructor(connectionString: string) {
-    this.pool = new pg.Pool({ connectionString, max: 5, idleTimeoutMillis: 30_000, statement_timeout: 8_000, application_name: "america360-web" });
-    this.pool.on("connect", (c) => void c.query("set search_path = a360, public"));
+    // search_path is set as a connection option, not with a query racing the first statement.
+    this.pool = new pg.Pool({ connectionString, max: 5, idleTimeoutMillis: 30_000, statement_timeout: 8_000, application_name: "america360-web", options: "-c search_path=a360,public" });
   }
 
   private async q<T extends R = R>(sql: string, params: unknown[] = []): Promise<T[]> {
@@ -133,9 +155,9 @@ export class PostgresProvider implements DataProvider {
       this.q("select slug, name, area_type from area_ancestors($1)", [id]),
       this.q("select * from facts where area_id = $1 order by key, as_of", [id]),
       this.q("select area_type, count(*)::int as n from areas where parent_id = $1 group by area_type", [id]),
-      this.q(`select r.relation_type, r.method, 'out' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.related_area_id where r.area_id = $1
+      this.q(`select r.relation_type, r.method, r.share, 'out' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.related_area_id where r.area_id = $1
               union all
-              select r.relation_type, r.method, 'in' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.area_id where r.related_area_id = $1`, [id]),
+              select r.relation_type, r.method, r.share, 'in' as direction, ${AREA_SUMMARY_COLS} from area_relations r join areas a on a.id = r.area_id where r.related_area_id = $1`, [id]),
       this.q("select * from media where area_id = $1", [id]),
       this.q("select count(distinct ea.entity_id)::int as n from entity_areas ea join entity_summaries e on e.id = ea.entity_id where ea.area_id in (select area_descendants($1)) and ea.review_status <> 'rejected'", [id]),
     ]);
@@ -148,9 +170,9 @@ export class PostgresProvider implements DataProvider {
       boundaryNote: (a.boundary_note as string) ?? null, reviewStatus: a.review_status as ReviewStatus, aliases: a.aliases as string[],
       breadcrumbs: crumbs.map((c) => ({ slug: String(c.slug), name: String(c.name), areaType: c.area_type as AreaType })),
       facts: factRows, sources,
-      media: media.map((m): MediaRow => ({ id: String(m.id), areaId: (m.area_id as string) ?? null, entityId: (m.entity_id as string) ?? null, kind: m.kind as MediaRow["kind"], url: String(m.url), pageUrl: String(m.page_url), alt: String(m.alt), credit: String(m.credit), license: String(m.license), licenseUrl: String(m.license_url), year: num(m.year), aiGenerated: Boolean(m.ai_generated) })),
+      media: media.map(mediaRow),
       childCounts: Object.fromEntries(kids.map((k) => [k.area_type, k.n])),
-      related: rel.map((r) => ({ area: areaSummary(r), relationType: String(r.relation_type), method: (r.method as string) ?? null, direction: r.direction as "in" | "out" })),
+      related: rel.map((r) => ({ area: areaSummary(r), relationType: String(r.relation_type), method: (r.method as string) ?? null, share: num(r.share), direction: r.direction as "in" | "out" })),
       entityCount: Number(ent[0]?.n ?? 0),
     };
   }
@@ -169,11 +191,14 @@ export class PostgresProvider implements DataProvider {
 
   async getEntity(slug: string): Promise<EntityDetail | null> {
     const [e] = await this.q(`select s.*, e.status, e.official_url, e.sensitive_location, e.created_at, e.updated_at, e.verified_at, e.primary_source_id,
+        e.wikidata_id, e.wikipedia_title, e.wikipedia_url, e.wikipedia_extract, e.wikipedia_retrieved_at,
+        case when e.sensitive_location then null else st_y(e.location::geometry) end as lat,
+        case when e.sensitive_location then null else st_x(e.location::geometry) end as lon,
         coalesce((select array_agg(alias order by alias) from entity_aliases where entity_id = e.id), '{}') as aliases
       from entity_summaries s join entities e on e.id = s.id where s.slug = $1`, [slug]);
     if (!e) return null;
     const id = String(e.id);
-    const [cats, areas, rels, facts, ext, issues] = await Promise.all([
+    const [cats, areas, rels, facts, ext, media, presence, issues] = await Promise.all([
       this.q(`select c.slug, c.name, c.name_ro, c.domain_number, ec.is_primary,
                 (select json_agg(json_build_object('slug', pc.slug, 'name', pc.name, 'nameRo', pc.name_ro, 'domainNumber', pc.domain_number) order by ord)
                  from category_paths cp, unnest(cp.path) with ordinality as u(cid, ord) join categories pc on pc.id = u.cid where cp.id = c.id) as path
@@ -186,6 +211,8 @@ export class PostgresProvider implements DataProvider {
               where (r.from_entity_id = $1 or r.to_entity_id = $1) and r.review_status <> 'rejected'`, [id]),
       this.q("select * from facts where entity_id = $1 order by key", [id]),
       this.q("select provider, external_id from entity_external_ids where entity_id = $1 order by provider", [id]),
+      this.q("select * from media where entity_id = $1 order by (kind = 'photo') desc, id", [id]),
+      this.q("select a.slug, a.name, f.value_num, f.as_of from facts f join areas a on a.id = f.scope_area_id where f.entity_id = $1 and f.key = 'osm-location-count' order by f.value_num desc, a.slug collate \"C\"", [id]),
       this.q("select coalesce(sum(n), 0)::int as n from entity_open_issue_counts where entity_id = $1", [id]),
     ]);
     const factRows = facts.map(factRow);
@@ -211,6 +238,10 @@ export class PostgresProvider implements DataProvider {
       sources: sources.map((s) => ({ ...sourceRow(s), lastCheck: lastCheck(s) })),
       externalIds: ext.map((x) => ({ provider: String(x.provider), externalId: String(x.external_id) })),
       openIssues: Number(issues[0]?.n ?? 0),
+      lat: num(e.lat), lon: num(e.lon), wikidataId: (e.wikidata_id as string) ?? null,
+      presence: presence.map((p) => ({ areaSlug: String(p.slug), areaName: String(p.name), count: Number(p.value_num), asOf: isoDate(p.as_of) })),
+      wikipedia: e.wikipedia_extract ? { title: String(e.wikipedia_title), url: String(e.wikipedia_url), extract: String(e.wikipedia_extract), retrievedAt: iso(e.wikipedia_retrieved_at)! } : null,
+      media: media.map(mediaRow),
     };
   }
 
@@ -218,27 +249,26 @@ export class PostgresProvider implements DataProvider {
     const { page, pageSize, offset } = clampPage(query.page, query.pageSize);
     const qn = query.q ? normalize(query.q) : null;
     const qt = query.q ? tokens(query.q) : [];
-    const rows = await this.q(`select s.*, ${qn ? SCORE("s.name_norm", "s.search_text") : "1"} as score, count(*) over() as total
+    const rows = await this.q(`${SCOPE_CTE(3)} select s.*, ${qn ? SCORE("s.name_norm", "s.search_text") : "1"} as score, count(*) over() as total
       from entity_summaries s
-      where ($3::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $3
-                where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      where ($3::text is null or s.id in (select entity_id from scope_ids))
         and ($4::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $4
                 where ec.entity_id = s.id and ec.category_id in (select category_descendants(root.id))))
         and ($5::text is null or s.entity_type = $5)
         and ($6::review_status is null or s.review_status = $6)
         and ($1::text is null or ${MATCH("s.search_text")})
-      order by score desc, s.name limit $7 offset $8`,
-      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset]);
+        and ($9::text is null or s.entity_type <> $9)
+      order by score desc, ${query.sort === "featured" ? `s.prominence desc, (s.image_url is not null) desc, coalesce(array_position($10::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
+      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset, query.excludeEntityType ?? null, ...(query.sort === "featured" ? [FEATURED_TYPES] : [])]);
     return { items: rows.map(entitySummary), total: Number(rows[0]?.total ?? 0), page, pageSize };
   }
 
   private async tree(scopeAreaSlug?: string): Promise<CategoryNode[]> {
     const cats = await this.q("select id, slug, name, name_ro, description, parent_id, domain_number, depth, sort_order from categories order by domain_number, depth, sort_order");
-    const counts = await this.q(`select u.cid as id, count(distinct ec.entity_id)::int as n
+    const counts = await this.q(`${SCOPE_CTE(1)} select u.cid as id, count(distinct ec.entity_id)::int as n
       from entity_categories ec join entity_summaries s on s.id = ec.entity_id
       join category_paths cp on cp.id = ec.category_id, unnest(cp.path) as u(cid)
-      where ($1::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $1
-               where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      where ($1::text is null or s.id in (select entity_id from scope_ids))
       group by u.cid`, [scopeAreaSlug ?? null]);
     const n = new Map(counts.map((c) => [String(c.id), Number(c.n)]));
     const byId = new Map(cats.map((c) => [String(c.id), c]));
@@ -278,12 +308,11 @@ export class PostgresProvider implements DataProvider {
     const qn = normalize(q);
     const scope = opts.areaSlug ?? null;
     const [ents, areas, cats] = await Promise.all([
-      this.q(`select s.*, ${SCORE("s.name_norm", "s.search_text")} + 5 as score from entity_summaries s
-        where ${MATCH("s.search_text")} and ($3::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $3
-          where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      this.q(`${SCOPE_CTE(3)} select s.*, ${SCORE("s.name_norm", "s.search_text")} + 5 as score from entity_summaries s
+        where ${MATCH("s.search_text")} and ($3::text is null or s.id in (select entity_id from scope_ids))
         order by score desc, s.name limit $4`, [qn, qt, scope, limit]),
       this.q(`select a.slug, a.name, a.type_label, p.name as parent_name,
-          ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end as score
+          ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end + case when a.area_type = 'community' then -40 else 0 end as score
         from areas a left join areas p on p.id = a.parent_id
         where ${MATCH("a.search_text")} and ($3::text is null or a.id in (select area_descendants((select id from areas where slug = $3))))
         order by score desc, a.name limit $4`, [qn, qt, scope, limit]),
@@ -313,8 +342,16 @@ export class PostgresProvider implements DataProvider {
       this.q(`select s.dom_slug, s.review_status, count(*)::int as n from entity_summaries s
         where exists (select 1 from entity_areas ea where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants($1)))
         group by s.dom_slug, s.review_status`, [id]),
-      this.q(`select u.*, (select count(*)::int from areas a where a.area_type = u.area_type and a.id <> u.area_id and a.id in (select area_descendants(u.area_id))) as numerator
-        from coverage_universes u where u.area_id in (select area_descendants($1)) order by u.id`, [id]),
+      // Descendants are computed once per universe (lateral), not once per candidate row.
+      this.q(`select u.*, n.numerator
+        from coverage_universes u
+        cross join lateral (
+          select count(*)::int as numerator
+          from area_descendants(u.area_id) as d(id) join areas a on a.id = d.id
+          where a.area_type = u.area_type and a.id <> u.area_id
+            and (u.metric = 'area_count' or exists (select 1 from area_relations ar where ar.area_id = a.id and ar.relation_type = u.relation_type))
+        ) n
+        where u.area_id in (select area_descendants($1)) order by u.id`, [id]),
       this.q(`select i.kind, sum(i.n)::int as n from entity_open_issue_counts i join entity_summaries s on s.id = i.entity_id
         where exists (select 1 from entity_areas ea where ea.entity_id = i.entity_id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants($1)))
         group by i.kind order by n desc, i.kind`, [id]),
@@ -348,6 +385,39 @@ export class PostgresProvider implements DataProvider {
       ) u group by source_id`);
     const used = new Map(usage.map((u) => [String(u.source_id), Number(u.n)]));
     return rows.map((s) => ({ ...sourceRow(s), lastCheck: lastCheck(s), usage: used.get(String(s.id)) ?? 0 }));
+  }
+
+  async nearbyEntities(slug: string, opts: { limit?: number; radiusKm?: number } = {}): Promise<NearbyEntity[]> {
+    const limit = Math.min(Math.max(opts.limit ?? 8, 1), 30);
+    const radius = Math.min(opts.radiusKm ?? 3, 25);
+    // Spherical distance (use_spheroid = false) to match the fixture haversine.
+    const rows = await this.q(`select s.*, st_distance(o.location, e.location, false) / 1000 as km
+      from entities e join entities o on o.id <> e.id and o.location is not null and not o.sensitive_location
+      join entity_summaries s on s.id = o.id
+      where e.slug = $1 and e.location is not null and not e.sensitive_location and st_dwithin(o.location, e.location, $2 * 1000, false)
+      order by km, s.slug collate "C" limit $3`, [slug, radius, limit]);
+    return rows.map((r) => ({ ...entitySummary(r), distanceKm: Math.round(Number(r.km) * 100) / 100 }));
+  }
+
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number; sort?: "count" | "prominence" } = {}): Promise<BrandPresence[]> {
+    const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
+    // Counts scoped to this exact area; otherwise (e.g. a state) the sum of its counties' counts — same rule as fixture mode.
+    const rows = await this.q(`with direct as (
+        select f.entity_id, f.value_num, f.as_of from facts f join areas a on a.id = f.scope_area_id
+        where a.slug = $1 and f.key = 'osm-location-count' and f.review_status <> 'rejected'),
+      agg as materialized (
+        select f.entity_id, sum(f.value_num) as value_num, max(f.as_of) as as_of
+        from facts f join areas c on c.id = f.scope_area_id and c.area_type = 'county'
+        where f.key = 'osm-location-count' and f.review_status <> 'rejected' and not exists (select 1 from direct)
+          and c.id in (select area_descendants((select id from areas where slug = $1)))
+        group by f.entity_id),
+      pres as (select * from direct union all select * from agg)
+      select s.*, p.value_num as cnt, p.as_of
+      from pres p join entity_summaries s on s.id = p.entity_id
+      where ($2::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $2
+             where ec.entity_id = s.id and ec.category_id in (select category_descendants(root.id))))
+      order by ${opts.sort === "prominence" ? "s.prominence desc, " : ""}cnt desc, s.name limit $3`, [areaSlug, opts.categorySlug ?? null, limit]);
+    return rows.map((r) => ({ entity: entitySummary(r), count: Number(r.cnt), asOf: isoDate(r.as_of) }));
   }
 
   async resolveRedirect(kind: "entity" | "area" | "category", slug: string): Promise<string | null> {

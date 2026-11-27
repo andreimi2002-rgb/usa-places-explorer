@@ -1,0 +1,2096 @@
+{
+ "generatedAt": "2026-11-27T19:39:17.036Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "hamilton-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:39:17.036Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:39:17.036Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Hamilton County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:39:17.036Z",
+   "checksumSha256": "cfb50f086493fc55b9697eff13280b354980ac3a38ebdfefd659dd7f5fb2a8cf"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q4708316",
+   "slug": "alapahoochee-river",
+   "name": "Alapahoochee River",
+   "aliases": [],
+   "description": "river in Florida and Georgia, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.602158,
+    "lon": -83.073751
+   },
+   "wikipedia": {
+    "title": "Alapahoochee River",
+    "url": "https://en.wikipedia.org/wiki/Alapahoochee_River",
+    "extract": "The Alapahoochee River is a 14.4-mile-long (23.2 km) tributary of the Alapaha River in Georgia and Florida in the United States.  Via the Alapaha and Suwannee rivers, its waters flow to the Gulf of Mexico.\nThe river rises on the boundary between Lowndes and Echols counties at the confluence of Grand Bay Creek and Mud Creek, about 10 miles (16 km) southeast of Valdosta.  The river flows southeast through Echols County, crossing into Hamilton County, Florida, around 2 miles (3 km) above its confluence with the Alapaha River near the town of Jennings.\nOther names: Little River, Little Alapaha and Grand Bay Creek.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4708316"
+    },
+    {
+     "provider": "geonames",
+     "id": "4145729"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6179035",
+   "slug": "jennings-high-school",
+   "name": "Jennings High School",
+   "aliases": [
+    "North Hamilton Elementary School"
+   ],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jennings-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.603056,
+    "lon": -83.092778
+   },
+   "officialUrl": "https://hes.hamiltonfl.com/north",
+   "wikipedia": {
+    "title": "North Hamilton Elementary School",
+    "url": "https://en.wikipedia.org/wiki/North_Hamilton_Elementary_School",
+    "extract": "North Hamilton Elementary School, formerly the Jennings High School, is a historic school in Jennings, Florida. The high school was built in 1927 and converted to an elementary school in 1965. On January 10, 2008, it was added to the U.S. National Register of Historic Places. It is a part of the Hamilton County School District.\nNorth Hamilton Elementary was consolidated into a new elementary school, Hamilton County Elementary School, located in an unincorporated area south of Jasper. Its opening was scheduled for August 2017.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6179035 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "07001357",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6179035 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6179035"
+    },
+    {
+     "provider": "nrhp",
+     "id": "07001357"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Jennings_FL_High_School_pano01.jpg/1920px-Jennings_FL_High_School_pano01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jennings_FL_High_School_pano01.jpg",
+     "alt": "Photograph of Jennings High School",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7995416",
+   "slug": "white-springs-historic-district",
+   "name": "White Springs Historic District",
+   "aliases": [],
+   "description": "historic district in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "white-springs-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.333056,
+    "lon": -82.7625
+   },
+   "wikipedia": {
+    "title": "White Springs Historic District",
+    "url": "https://en.wikipedia.org/wiki/White_Springs_Historic_District",
+    "extract": "The White Springs Historic District  is a historic district in White Springs, Florida. It is bounded by River Street, 1st Street, Suwannee Street,  Hewitt Street, SR 25A, U.S. 41 and Suwannee Road, encompasses approximately 1,200 acres (4.9 km2), and contains 81 historic buildings and 1 object. The district was added to the U.S. National Register of Historic Places on September 19, 1997.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1840",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7995416 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7995416 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "97001143",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7995416 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7995416"
+    },
+    {
+     "provider": "nrhp",
+     "id": "97001143"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/White_Springs_Hist_Dist_Adams_House01a.jpg/1920px-White_Springs_Hist_Dist_Adams_House01a.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:White_Springs_Hist_Dist_Adams_House01a.jpg",
+     "alt": "Photograph of White Springs Historic District",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q28449853",
+   "slug": "suwannee-ridge-wildlife-and-environmental-area",
+   "name": "Suwannee Ridge Wildlife and Environmental Area",
+   "aliases": [],
+   "description": "nature preserve in Hamilton County, Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.461111,
+    "lon": -83.064444
+   },
+   "wikipedia": {
+    "title": "Suwannee Ridge Wildlife and Environmental Area",
+    "url": "https://en.wikipedia.org/wiki/Suwannee_Ridge_Wildlife_and_Environmental_Area",
+    "extract": "Suwannee Ridge Wildlife and Environmental Area (WEA) conserves 1,428 acres of longleaf pine uplands, karst topography and hardwood hammocks ten miles southwest of Jasper in Hamilton County, Florida, United States.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q28449853"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7949609",
+   "slug": "wfxu",
+   "name": "WFXU",
+   "aliases": [],
+   "description": "MeTV/MyNetworkTV affiliate in Live Oak, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.550222,
+    "lon": -83.013056
+   },
+   "officialUrl": "https://www.wctv.tv/station/wctv2",
+   "wikipedia": {
+    "title": "WFXU",
+    "url": "https://en.wikipedia.org/wiki/WFXU",
+    "extract": "WFXU (channels 15 and 57) is a television station licensed to Live Oak, Florida, United States, serving the Tallahassee, Florida–Thomasville, Georgia market. It is programmed primarily as an independent station, but maintains a secondary affiliation with MyNetworkTV. WFXU is owned by Gray Media alongside CBS affiliate WCTV (channel 6). The two stations share studios on Halstead Boulevard in Tallahassee (along I-10); WFXU's transmitter is located in Hamilton County, Florida, between Jasper and Jennings.\nDue to its transmitter being located on the eastern fringe of the Tallahassee–Thomasville market, WFXU's signal is unable to reach Tallahassee proper. In order to serve the entire market, two of WFXU's subchannels are relayed on WCTV from that station's transmitter in unincorporated Thomas County, Georgia, southeast of Metcalf, along the Florida state line.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1998-06-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949609 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Gray Media",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949609 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7949609"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/WFXU2025.svg/1920px-WFXU2025.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:WFXU2025.svg",
+     "alt": "WFXU logo",
+     "credit": "Gray Media",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16892060",
+   "slug": "hamilton-county-high-school",
+   "name": "Hamilton County High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.477,
+    "lon": -82.936
+   },
+   "wikipedia": {
+    "title": "Hamilton County High School",
+    "url": "https://en.wikipedia.org/wiki/Hamilton_County_High_School",
+    "extract": "Hamilton County High School (HCHS) is a public high school located at 5683 US Highway 129 in unincorporated Hamilton County, Florida, south of Jasper. A part of the Hamilton County School District (HCSD), its sports teams are nicknamed the \"Fighting Trojans\".\nThe school grounds houses the HCSD administrative offices. Serving middle school and high school levels, it was formerly at 1153 US Highway 41 N.W. in Jasper. The current building was scheduled to open in December 2003 or January 2004.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16892060"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16971540",
+   "slug": "big-shoals-state-forest",
+   "name": "Big Shoals State Forest",
+   "aliases": [],
+   "description": "protected area in Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.342176,
+    "lon": -82.707751
+   },
+   "wikipedia": {
+    "title": "Big Shoals State Forest",
+    "url": "https://en.wikipedia.org/wiki/Big_Shoals_State_Forest",
+    "extract": "Big Shoals State Forest is a protected area of 1,629 acres (659 ha) just east of White Springs, Florida and adjacent to Big Shoals State Park in Hamilton County. The state forest area comprises the north part of the 3,919-acre (1,586 ha) Big Shoals Public Lands and contains the largest area of whitewater in Florida. It is in the area of the Suwannee River.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16971540"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Big_Shoals_from_Florida_Trail_3_%284049487429%29.jpg/1920px-Big_Shoals_from_Florida_Trail_3_%284049487429%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Big_Shoals_from_Florida_Trail_3_(4049487429).jpg",
+     "alt": "Photograph of Big Shoals State Forest",
+     "credit": "B A Bowen Photography from New Port Richey, FL, United States",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q16999196",
+   "slug": "wjhc",
+   "name": "WJHC",
+   "aliases": [],
+   "description": "radio station in Jasper, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jasper-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.522222,
+    "lon": -82.951667
+   },
+   "officialUrl": "https://talk1075.com",
+   "wikipedia": {
+    "title": "WJHC (FM)",
+    "url": "https://en.wikipedia.org/wiki/WJHC_(FM)",
+    "extract": "WJHC (107.5 FM) is a radio station licensed to Jasper, Florida.  The station broadcasts a talk radio format and is owned by Smalltown Broadcasting, LLC.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16999196"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q2830643",
+   "slug": "alapaha-river",
+   "name": "Alapaha River",
+   "aliases": [],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4366,
+    "lon": -83.0965
+   },
+   "wikipedia": {
+    "title": "Alapaha River",
+    "url": "https://en.wikipedia.org/wiki/Alapaha_River",
+    "extract": "The Alapaha River  is a 202-mile-long (325 km) river in southern Georgia and northern Florida in the United States.  It is a tributary of the Suwannee River, which flows to the Gulf of Mexico.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2830643"
+    },
+    {
+     "provider": "geonames",
+     "id": "4145727"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Alapaha_River.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alapaha_River.jpg",
+     "alt": "Photograph of Alapaha River",
+     "credit": "Wikimedia Commons contributor",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4708315",
+   "slug": "alapaha-rise",
+   "name": "Alapaha Rise",
+   "aliases": [],
+   "description": "spring",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.438673,
+    "lon": -83.089593
+   },
+   "wikipedia": {
+    "title": "Alapaha Rise",
+    "url": "https://en.wikipedia.org/wiki/Alapaha_Rise",
+    "extract": "Alapaha Rise, also known as Shelley Run, is the largest single spring in the United States. The Alapaha Rise is located in Hamilton County, Florida. It flows at an average rate of 802 cubic feet (22.7 m3) per second. It drains into the Suwannee River about 1/3 mile upstream from where the Alapaha River meets the river. It is a First Magnitude spring, with high tannin levels.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4708315"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6268054",
+   "slug": "johns-house",
+   "name": "Johns House",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "white-springs-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.333056,
+    "lon": -82.748333
+   },
+   "wikipedia": {
+    "title": "Johns House",
+    "url": "https://en.wikipedia.org/wiki/Johns_House",
+    "extract": "The Johns House is a historic house in White Springs, Florida. It is located at the junction of CR 135 and Adams Memorial Drive. On July 10, 1998, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6268054 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "98000835",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6268054 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6268054"
+    },
+    {
+     "provider": "nrhp",
+     "id": "98000835"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Johns_House_White_Springs01.jpg/1920px-Johns_House_White_Springs01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Johns_House_White_Springs01.jpg",
+     "alt": "Photograph of Johns House",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7609214",
+   "slug": "stephen-foster-folk-culture-center-state-park",
+   "name": "Stephen Foster Folk Culture Center State Park",
+   "aliases": [],
+   "description": "state park in Florida, USA",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "white-springs-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.3311,
+    "lon": -82.7669
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/stephen-foster-folk-culture-center-state-park",
+   "wikipedia": {
+    "title": "Stephen Foster Folk Culture Center State Park",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Foster_Folk_Culture_Center_State_Park",
+    "extract": "Stephen Foster Folk Culture Center State Park is a Florida State Park located in White Springs off U.S. 41, along the Suwannee River in north Florida.\nStephen Foster is famous for having written the song \"Old Folks At Home\", also known as \"Way Down Upon the Suwannee River\". The song, referring  nostalgically to \"home far, far away\", is Florida's state song.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1950",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7609214 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7609214"
+    },
+    {
+     "provider": "geonames",
+     "id": "4174091"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5453992",
+   "slug": "first-united-methodist-church",
+   "name": "First United Methodist Church",
+   "aliases": [
+    "United Methodist Church"
+   ],
+   "description": "historic church in Jasper, Florida, United States",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jasper-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.514722,
+    "lon": -82.947778
+   },
+   "wikipedia": {
+    "title": "First United Methodist Church (Jasper, Florida)",
+    "url": "https://en.wikipedia.org/wiki/First_United_Methodist_Church_(Jasper,_Florida)",
+    "extract": "The First United Methodist Church is a historic  Carpenter Gothic church in Jasper, Florida. It is located at 405 Central Avenue, S.W. On September 29, 1978, it was added to the National Register of Historic Places as United Methodist Church.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5453992 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "78000943",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5453992 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5453992"
+    },
+    {
+     "provider": "nrhp",
+     "id": "78000943"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/United_Methodist_Church_Jasper01.jpg/1920px-United_Methodist_Church_Jasper01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:United_Methodist_Church_Jasper01.jpg",
+     "alt": "Photograph of First United Methodist Church",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q1141226",
+   "slug": "dairy-queen",
+   "name": "Dairy Queen",
+   "aliases": [
+    "DQ"
+   ],
+   "description": "American multinational fast food chain from Illinois",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 32,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dairyqueen.com/",
+   "wikipedia": {
+    "title": "Dairy Queen",
+    "url": "https://en.wikipedia.org/wiki/Dairy_Queen",
+    "extract": "International Dairy Queen, Inc. (DQ) is an American multinational fast food restaurant chain founded in 1940 and headquartered in Bloomington, Minnesota. The first Dairy Queen was owned and operated by Sherb Noble and opened on June 22, 1940, in Joliet, Illinois. It serves a variety of hot and fried food, as well as original frozen dairy products that vary from location to location.\nThe company has been owned by Berkshire Hathaway since 1998.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-06-22",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Edina; Bloomington",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1141226 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1141226"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1920px-Dairy_Queen_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dairy_Queen_logo.svg",
+     "alt": "Dairy Queen logo",
+     "credit": "International Dairy Queen",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1092539",
+   "slug": "cinnabon",
+   "name": "Cinnabon",
+   "aliases": [],
+   "description": "chain of American baked goods stores and kiosks",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 26,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cinnabon.com/",
+   "wikipedia": {
+    "title": "Cinnabon",
+    "url": "https://en.wikipedia.org/wiki/Cinnabon",
+    "extract": "Cinnabon, Inc., is an American chain of baked goods stores and kiosks, normally found in areas with high pedestrian traffic, such as malls, airports and rest stops. The company's signature item is the cinnamon roll. As of December 2017, there were more than 1,200 Cinnabon bakeries operating in 48 countries. Its headquarters are in Sandy Springs, Georgia, United States.\nThe company is co-owned—with Schlotzsky's, Carvel, Moe's Southwest Grill, McAlister's Deli, Jamba, and Auntie Anne's brands—by GoTo Foods (formerly Focus Brands), an affiliate of private equity firm Roark Capital Group, based in Sandy Springs and operating over 5,000 stores.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1985",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1092539 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1092539 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Focus Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1092539 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1092539 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1092539"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cinnabon_logo.svg/1920px-Cinnabon_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Cinnabon_logo.svg",
+     "alt": "Cinnabon logo",
+     "credit": "Cinnabon",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q550258",
+   "slug": "wendys",
+   "name": "Wendy's",
+   "aliases": [
+    "Wendys"
+   ],
+   "description": "American international fast food chain restaurant",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wendys.com/",
+   "wikipedia": {
+    "title": "Wendy's",
+    "url": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "extract": "Wendy's International, LLC, is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. Its headquarters moved to Dublin, Ohio, on January 29, 2006. On September 29, 2008, the company merged with Triarc, the publicly traded parent company of Arby's. As of December 31, 2018, Wendy's was the world's third-largest hamburger fast-food chain, following McDonald's and Burger King.\nAs of November 2, 2023, there were 7,166 Wendy's outlets, of which 415 are company-owned and 6,751 franchised, 83% of which are in the United States. The company specifies stores' standards; owners control opening hours, decor, and staff uniforms and pay.\nThe chain serves square hamburger patties on circular buns, sea salt fries, and the Frosty, soft ice cream mixed with starches. The food menu consists primarily of hamburgers, chicken sandwiches, and French fries. The company discontinued its Big Classic signature sandwich.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1969-11-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dublin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dave Thomas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q550258 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q550258"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wendy%27s_logo_black.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_black.jpg",
+     "alt": "Wendy's logo",
+     "credit": "Wendy's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1872496",
+   "slug": "loves-travel-stops-and-country-stores",
+   "name": "Love's Travel Stops & Country Stores",
+   "aliases": [
+    "Love's Travel Stops",
+    "Love's"
+   ],
+   "description": "truck stop chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "convenience-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.loves.com/",
+   "wikipedia": {
+    "title": "Love's",
+    "url": "https://en.wikipedia.org/wiki/Love%27s",
+    "extract": "Love's Travel Stops, doing business as Love's (or stylized as Loves), is an American family owned-and-operated chain of more than 670 travel stops in 42 states in the United States. The company is privately owned and headquartered in Oklahoma City. Love's ranked No. 15 on the 2025 Forbes list of America's largest private companies. Love's has two primary kinds of stores: country stores and travel stops. Country stores are fueling stations with a convenience store attached. The larger travel stops are located along highways and offer additional amenities such as food from restaurant chains such as Arby's, Bojangles, Burger King, Chester's, Dunkin' Donuts, McDonald's, Taco John's, Subway, Wendy's, Hardee's/Carl's Jr., truck parking spaces, showers and laundry. The company started adding RV hookups and RV Stops in 2022. Love's had more than 40,000 employees in 2023.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oklahoma City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Tom Love; Judy Love",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1872496 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1872496"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Love%27s_logo.svg/1920px-Love%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Love%27s_logo.svg",
+     "alt": "Love's Travel Stops & Country Stores logo",
+     "credit": "Love's Travel Stops &amp; Country Stores",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q111631907",
+   "slug": "cat-scale",
+   "name": "CAT Scale",
+   "aliases": [
+    "CAT Scale Company",
+    "CAT Scale Co.",
+    "CAT"
+   ],
+   "description": "North American network of truck scales",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://catscale.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Walcott",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q111631907 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q111631907"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q61803820",
+   "slug": "evgo",
+   "name": "EVgo",
+   "aliases": [],
+   "description": "United States based Electric Vehicle DC charging brand",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.evgo.com/",
+   "wikipedia": {
+    "title": "EVgo",
+    "url": "https://en.wikipedia.org/wiki/EVgo",
+    "extract": "EVgo Inc. is an American company that operates a public electric vehicle DC fast charging network in the United States. As of June 2026, EVgo reported more than 1,200 fast-charging locations across 47 states. Its charging stations support CCS, CHAdeMO, and NACS connectors, with connector availability varying by location.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "parent-organization",
+     "value": "NRG Energy; LS Power",
+     "sourceId": "wikidata",
+     "sourceRef": "Q61803820 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q61803820 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q61803820"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/EVgo_Logo.svg/1920px-EVgo_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:EVgo_Logo.svg",
+     "alt": "EVgo logo",
+     "credit": "EVgo",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q126652985",
+   "slug": "ev-connect",
+   "name": "EV Connect",
+   "aliases": [],
+   "description": "electric vehicle charging company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.evconnect.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q126652985 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "El Segundo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q126652985 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q126652985 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q126652985"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q3088656",
+   "slug": "mobil-q3088656",
+   "name": "Mobil",
+   "aliases": [
+    "Socony-Vacuum Oil Company",
+    "Standard Oil Company of New York",
+    "Socony",
+    "Mobil Oil",
+    "Mobil Oil Corporation"
+   ],
+   "description": "former American oil company",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "wikipedia": {
+    "title": "Mobil Oil Corporation",
+    "url": "https://en.wikipedia.org/wiki/Mobil_Oil_Corporation",
+    "extract": "Mobil Oil Corporation is a petroleum brand owned and operated by American oil and gas corporation ExxonMobil, formerly known as Exxon, which took its name after it and Mobil merged in 1999.\nA direct descendant of Standard Oil, Mobil was originally known as the Standard Oil Company of New York (shortened to Socony) after Standard Oil was split into 43 different entities in a 1911 Supreme Court decision. Socony merged with Vacuum Oil Company, from which the Mobil name first originated, in 1931 and subsequently renamed itself to \"Socony-Vacuum Oil Company\". Over time, Mobil became the company's primary identity, which prompted a renaming in 1955 to the \"Socony Mobil Oil Company\", and then in 1966 to the \"Mobil Oil Corporation\". Mobil credits itself as the first company to produce aviation fuel, the first company to introduce paying at the pump at its gas stations, as well as the first company to introduce a mobile payment device, called Speedpass.\nIn 1998, Mobil announced it was merging with Exxon to form ExxonMobil, reuniting the two largest descendants of Standard Oil. The technicalities of the merger, which was completed on November 30, 1999, showed that Exxon bought Mobil, and Mobil shareholders received a payment of stock in Exxon. Mobil continues as a brand name within the combined company, as well as still being a gas station sometimes paired with its own store or On the Run. Mobil's brand name is primarily used to market motor oils, such as Mobil 1. The former Mobil headquarters in Fairfax County, Virginia, was used as ExxonMobil's downstream headquarters until 2015 when ExxonMobil consolidated employees into a new corporate campus in Spring, Texas.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P576"
+    },
+    {
+     "key": "headquarters",
+     "value": "Fairfax",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Pratt",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3088656 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3088656"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mobil_logo.svg/1920px-Mobil_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Mobil_logo.svg",
+     "alt": "Mobil logo",
+     "credit": "The original uploader was Cheeselouise at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T19:39:17.036Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q64128179",
+   "slug": "pilot-travel-centers",
+   "name": "Pilot Travel Centers",
+   "aliases": [
+    "Pilot"
+   ],
+   "description": "American truck stop chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "hamilton-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pilotflyingj.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1981",
+     "sourceId": "wikidata",
+     "sourceRef": "Q64128179 P571"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Pilot Flying J",
+     "sourceId": "wikidata",
+     "sourceRef": "Q64128179 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q64128179 inside Hamilton County boundary",
+     "scopeAreaSlug": "hamilton-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q64128179"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pilot_Travel_Centers_logo.svg/1920px-Pilot_Travel_Centers_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_Travel_Centers_logo.svg",
+     "alt": "Pilot Travel Centers logo",
+     "credit": "Pilot Flying J",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "hamilton-county-fl",
+  "wikidataCandidates": 36,
+  "places": 13,
+  "brands": 16,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 26,
+  "withFreeImage": 21,
+  "withCoordinates": 13,
+  "osmBrandedLocations": 20,
+  "unmappedClasses": 2
+ }
+}

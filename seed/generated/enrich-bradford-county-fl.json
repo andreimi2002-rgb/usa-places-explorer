@@ -1,0 +1,3356 @@
+{
+ "generatedAt": "2026-11-27T17:28:33.256Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "bradford-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T17:28:33.256Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T17:28:33.256Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Bradford County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T17:28:33.256Z",
+   "checksumSha256": "d41f8f86aa4f69bbc17ccb514d087141c2ae5c11edf139141e5e939e9b632c38"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q7958005",
+   "slug": "wyfb",
+   "name": "WYFB",
+   "aliases": [],
+   "description": "radio station in Gainesville, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.869,
+    "lon": -82.201
+   },
+   "officialUrl": "https://www.bbnradio.org/wcm4/english/Stations/tabid/691/StationID/7/Default.aspx",
+   "wikipedia": {
+    "title": "WYFB",
+    "url": "https://en.wikipedia.org/wiki/Bible_Broadcasting_Network",
+    "extract": "The Bible Broadcasting Network (BBN) is a listener-supported global Conservative Christian radio network staffed and headquartered in Charlotte, North Carolina. It was founded in 1971 by Lowell Davey, who was the network's president until his death in 2017. It remains under family control, with Davey's daughter Barbara Redemann and her husband Carl Redemann leading BBN.\nBBN's mission statement is \"to get the Word of God into the hearts and minds of as many people as possible using the most efficient means\" and its motto is \"Giving the Winds the Bible Voice\". Doctrinally, the programming is conservative in approach.\nProgramming content consists of traditional Christian music, including vocalists, choirs, and instrumentalists; Bible teaching and sermons; prayer times; children's and teens' programs; and family guidance programs.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1971",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7958005 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Bible Broadcasting Network",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7958005 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7958005"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q4954691",
+   "slug": "bradford-high-school",
+   "name": "Bradford High School",
+   "aliases": [],
+   "description": "high school in Starke, Bradford County, Florida",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.94984,
+    "lon": -82.111238
+   },
+   "officialUrl": "https://mybradford.us/bhs/",
+   "wikipedia": {
+    "title": "Bradford High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Bradford_High_School_(Florida)",
+    "extract": "Bradford High School is in Starke, Florida, United States. It serves grades 9–12 students in the Bradford County School District. There are approximately 1,212 students currently enrolled in Bradford High School as of school year 2022–2024.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4954691"
+    },
+    {
+     "provider": "geonames",
+     "id": "4148720"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Bradford_High_School%2C_Starke.jpg/1920px-Bradford_High_School%2C_Starke.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bradford_High_School,_Starke.jpg",
+     "alt": "Photograph of Bradford High School",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6398465",
+   "slug": "keystone-heights-airport",
+   "name": "Keystone Heights Airport",
+   "aliases": [
+    "Keystone Airpark"
+   ],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.84475,
+    "lon": -82.047528
+   },
+   "officialUrl": "https://keystoneairport.com/",
+   "wikipedia": {
+    "title": "Keystone Heights Airport",
+    "url": "https://en.wikipedia.org/wiki/Keystone_Heights_Airport",
+    "extract": "Keystone Heights Airport (FAA LID: 42J), is a public use airport located 3 miles north of Keystone Heights, Florida in Clay and Bradford counties.\nOwned by the Keystone Heights Airport Authority, this airport is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a general aviation facility.\nThe airport is adjacent to Camp Blanding, the Florida National Guard Reservation and \"Fly through History\" Military Museum and Memorial Park. The museum at Camp Blanding is dedicated to the World War II units that trained there during the early 1940s.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6398465"
+    },
+    {
+     "provider": "geonames",
+     "id": "4160823"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Keystone_Airpark_FL_5_Feb_1999.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Keystone_Airpark_FL_5_Feb_1999.jpg",
+     "alt": "Photograph of Keystone Heights Airport",
+     "credit": "United States Geological Survey (USGS)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7589951",
+   "slug": "st-marks-episcopal-church",
+   "name": "St. Mark's Episcopal Church",
+   "aliases": [
+    "All Saints Episcopal Church"
+   ],
+   "description": "building in Florida, United States",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9443,
+    "lon": -82.1063
+   },
+   "wikipedia": {
+    "title": "St. Mark's Episcopal Church (Starke, Florida)",
+    "url": "https://en.wikipedia.org/wiki/St._Mark%27s_Episcopal_Church_(Starke,_Florida)",
+    "extract": "St. Mark's Episcopal Church, is an historic Episcopal church of Carpenter Gothic design located today at 212 North Church Street in Starke, Florida, United States. Designed by Fernandina architect Robert S. Schuyler, it was built as All Saints Episcopal Church in 1880 some 20 miles to the south in Fairbanks in Alachua County on land donated by Fernandina attorney, George Fairbanks, who founded Fairbanks. After disastrous freezes in the 1890s destroyed the Fairbanks citrus groves, membership in All Saints declined and the church was closed. In 1900 it was moved to its present location and renamed St. Marks. All that remains of All Saints in Fairbanks today  is its overgrown cemetery.\nIn 1989 St. Mark's was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.\nToday St. Mark's is an active parish in the Episcopal Diocese of Florida. Its rector is the Rev. Dennis O'Neill.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1880",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589951 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "212 N Church St, Starke, FL 32091",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589951 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7589951"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Starke_FL_St_Marks_Episc_Church01.jpg/1920px-Starke_FL_St_Marks_Episc_Church01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Starke_FL_St_Marks_Episc_Church01.jpg",
+     "alt": "Photograph of St. Mark's Episcopal Church",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7948691",
+   "slug": "weag-fm",
+   "name": "WEAG-FM",
+   "aliases": [],
+   "description": "radio station in Starke, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9306,
+    "lon": -82.1044
+   },
+   "officialUrl": "https://www.weagchuckkramer.com/",
+   "wikipedia": {
+    "title": "WEAG-FM",
+    "url": "https://en.wikipedia.org/wiki/WEAG-FM",
+    "extract": "WEAG-FM (106.3 FM) is a radio station licensed to Starke, Florida, United States, and airs a country music format using the moniker \"Eagle Country\".  As of April 10, 2026, the station is owned by Florida Broadcast Media Group Inc.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1978",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948691 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948691"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7948693",
+   "slug": "weag",
+   "name": "WEAG",
+   "aliases": [],
+   "description": "radio station in Starke, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9306,
+    "lon": -82.1044
+   },
+   "wikipedia": {
+    "title": "WEAG (AM)",
+    "url": "https://en.wikipedia.org/wiki/WEAG_(AM)",
+    "extract": "WEAG (1490 AM) was a radio station broadcasting a country music format. Formerly licensed to Starke, Florida, United States, the station was owned by Dickerson Broadcasting, Inc.\nThe owners surrendered the station's license to the Federal Communications Commission on December 10, 2012. The FCC cancelled the license and deleted the WEAG call sign from their database on December 17, 2012.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1957",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948693 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948693"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q8030637",
+   "slug": "womans-club-of-starke",
+   "name": "Woman's Club of Starke",
+   "aliases": [],
+   "description": "building in the United States of America",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.944722,
+    "lon": -82.109722
+   },
+   "wikipedia": {
+    "title": "Woman's Club of Starke",
+    "url": "https://en.wikipedia.org/wiki/Woman%27s_Club_of_Starke",
+    "extract": "The Woman's Club of Starke is a historic woman's club in Starke, Florida, located at 201 North Walnut Street. On April 18, 1997, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "201 N Walnut St, Starke, FL 32091",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8030637 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8030637 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "97000350",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8030637 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q8030637"
+    },
+    {
+     "provider": "nrhp",
+     "id": "97000350"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Starke_Woman%27s_Club01.jpg/1920px-Starke_Woman%27s_Club01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Starke_Woman%27s_Club01.jpg",
+     "alt": "Photograph of Woman's Club of Starke",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q14685837",
+   "slug": "call-street-historic-district",
+   "name": "Call Street Historic District",
+   "aliases": [],
+   "description": "historic district in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "starke-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9436,
+    "lon": -82.1083
+   },
+   "wikipedia": {
+    "title": "Call Street Historic District",
+    "url": "https://en.wikipedia.org/wiki/Call_Street_Historic_District",
+    "extract": "The Call Street Historic District is a U.S. historic district (designated as such on December 12, 1985) located in Starke, Florida. It encompasses approximately 120 acres (0.49 km2), and the boundaries are Jefferson, Cherry, Madison (FL 100), and Temple Streets (US 301). It contains 23 historic buildings and 1 structure.\nThe historic district also serves as the City of Starke's primary restaurant and entertainment district, with a theatre, antique shops, restaurants, a history museum, and cultural center. Located within the historic district is another location on the National Register of Historic Places, the Santa Fe College Andrews Center.\nCall Street, which is part of Florida State Road 230, was named in honor of former Florida territorial governor, Richard K. Call. It is officially named \"West Call Street\" west of Walnut Street and \"East Call Street\" east of Walnut. Similarly, Walnut Street is officially named \"South Walnut Street\" south of Call Street and \"North Walnut Street\" north of Call Street.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14685837 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "85003329",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14685837 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q14685837"
+    },
+    {
+     "provider": "nrhp",
+     "id": "85003329"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Starke_Hist_Dist_street01.jpg/1920px-Starke_Hist_Dist_street01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Starke_Hist_Dist_street01.jpg",
+     "alt": "Photograph of Call Street Historic District",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q3088656",
+   "slug": "mobil-q3088656",
+   "name": "Mobil",
+   "aliases": [
+    "Socony-Vacuum Oil Company",
+    "Standard Oil Company of New York",
+    "Socony",
+    "Mobil Oil",
+    "Mobil Oil Corporation"
+   ],
+   "description": "former American oil company",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "wikipedia": {
+    "title": "Mobil Oil Corporation",
+    "url": "https://en.wikipedia.org/wiki/Mobil_Oil_Corporation",
+    "extract": "Mobil Oil Corporation is a petroleum brand owned and operated by American oil and gas corporation ExxonMobil, formerly known as Exxon, which took its name after it and Mobil merged in 1999.\nA direct descendant of Standard Oil, Mobil was originally known as the Standard Oil Company of New York (shortened to Socony) after Standard Oil was split into 43 different entities in a 1911 Supreme Court decision. Socony merged with Vacuum Oil Company, from which the Mobil name first originated, in 1931 and subsequently renamed itself to \"Socony-Vacuum Oil Company\". Over time, Mobil became the company's primary identity, which prompted a renaming in 1955 to the \"Socony Mobil Oil Company\", and then in 1966 to the \"Mobil Oil Corporation\". Mobil credits itself as the first company to produce aviation fuel, the first company to introduce paying at the pump at its gas stations, as well as the first company to introduce a mobile payment device, called Speedpass.\nIn 1998, Mobil announced it was merging with Exxon to form ExxonMobil, reuniting the two largest descendants of Standard Oil. The technicalities of the merger, which was completed on November 30, 1999, showed that Exxon bought Mobil, and Mobil shareholders received a payment of stock in Exxon. Mobil continues as a brand name within the combined company, as well as still being a gas station sometimes paired with its own store or On the Run. Mobil's brand name is primarily used to market motor oils, such as Mobil 1. The former Mobil headquarters in Fairfax County, Virginia, was used as ExxonMobil's downstream headquarters until 2015 when ExxonMobil consolidated employees into a new corporate campus in Spring, Texas.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P576"
+    },
+    {
+     "key": "headquarters",
+     "value": "Fairfax",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Pratt",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3088656 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3088656"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mobil_logo.svg/1920px-Mobil_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Mobil_logo.svg",
+     "alt": "Mobil logo",
+     "credit": "The original uploader was Cheeselouise at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 5,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1283291",
+   "slug": "valero-energy",
+   "name": "Valero Energy",
+   "aliases": [
+    "Valero Energy Corporation"
+   ],
+   "description": "American petroleum company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 21,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.valero.com",
+   "wikipedia": {
+    "title": "Valero Energy",
+    "url": "https://en.wikipedia.org/wiki/Valero_Energy",
+    "extract": "Valero Energy Corporation is an American-based fuels producer mostly involved in manufacturing and marketing transportation fuels and other related products. It is headquartered in San Antonio, Texas, United States. Throughout the United States, Canada, and the United Kingdom, the company owns and operates 14 refineries with a combined throughput capacity of approximately 3.2 million barrels per day, two renewable diesel plants that produce approximately 1.2 billion gallons per year, and 12 ethanol plants with a combined production capacity of 1.6 billion gallons as its subsidiaries.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1980",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1283291 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "San Antonio",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1283291 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "William Greehey",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1283291 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1283291 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1283291"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Valero_Energy_logo.svg/1920px-Valero_Energy_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Valero_Energy_logo.svg",
+     "alt": "Valero Energy logo",
+     "credit": "Valero Energy Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q61747408",
+   "slug": "kangaroo-express",
+   "name": "Kangaroo Express",
+   "aliases": [
+    "Kangaroo"
+   ],
+   "description": "convenience store and gas station brand",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "convenience-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://kangarooexpress.com/",
+   "facts": [
+    {
+     "key": "owner",
+     "value": "The Pantry",
+     "sourceId": "wikidata",
+     "sourceRef": "Q61747408 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q61747408 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q61747408"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q2007336",
+   "slug": "state-farm-insurance",
+   "name": "State Farm Insurance",
+   "aliases": [
+    "State Farm Mutual Automobile Insurance Company",
+    "State Farm",
+    "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY (Bloomington, IL)"
+   ],
+   "description": "American insurance company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 21,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.statefarm.com/",
+   "wikipedia": {
+    "title": "State Farm",
+    "url": "https://en.wikipedia.org/wiki/State_Farm",
+    "extract": "State Farm Insurance is a group of mutual insurance companies throughout the United States with corporate headquarters in Bloomington, Illinois. Founded in 1922, it is the largest property, casualty and auto insurance provider in the United States.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1922",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2007336 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Bloomington",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2007336 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "George J. Mecherle",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2007336 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2007336 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2007336"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/State_Farm_logo.svg/1920px-State_Farm_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:State_Farm_logo.svg",
+     "alt": "State Farm Insurance logo",
+     "credit": "Chermayeff &amp; Geismar Studio for State Farm",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q41171672",
+   "slug": "aldi-sud",
+   "name": "Aldi Süd",
+   "aliases": [
+    "Aldi Sued",
+    "Aldi Sud"
+   ],
+   "description": "multinational discount grocery store chain operating in AU, CH, CN, DE, HU, IE, IT, UK, US, not to be confused with Aldi Nord",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.aldi-sued.de/",
+   "wikipedia": {
+    "title": "Aldi Süd",
+    "url": "https://en.wikipedia.org/wiki/Aldi_S%C3%BCd",
+    "extract": "Aldi Süd (German pronunciation: [ˈaldiː] , stylised in all caps) also referred to as Aldi is a Southern German multinational family-owned discount supermarket chain operating over 7,900 stores in 11 countries. The business was founded by brothers Karl and Theo Albrecht in 1946, when they took over their mother's store in Essen. \nThe enterprise was split into two separate groups in 1960 that later became Aldi Nord (initially operating in northern West Germany), headquartered in Essen, and Aldi Süd (initially operating in southern West Germany), headquartered in neighboring Mülheim. As the business expanded internationally, the two divisions maintained this separation, dividing global markets between them, with the exception of the United States, where both operate: Aldi Süd under the Aldi name, while Aldi Nord owns Trader Joe's.\nIn 1962, they introduced the name Aldi (a syllabic abbreviation for \"Albrecht Diskont\"). In Germany, Aldi Nord and Aldi Süd have been financially and legally separate since 1966, although they may appear to operate as a single enterprise with certain store brands or when negotiating with contractor companies.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mülheim an der Ruhr; Batavia",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q41171672 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q41171672"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aldi_S%C3%BCd_2017_logo.svg/1920px-Aldi_S%C3%BCd_2017_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldi_S%C3%BCd_2017_logo.svg",
+     "alt": "Aldi Süd logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q15109925",
+   "slug": "tractor-supply-company",
+   "name": "Tractor Supply Company",
+   "aliases": [
+    "TSCO"
+   ],
+   "description": "American retail chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tractorsupply.com/",
+   "wikipedia": {
+    "title": "Tractor Supply Company",
+    "url": "https://en.wikipedia.org/wiki/Tractor_Supply_Company",
+    "extract": "Tractor Supply Company (also known as TSCO or TSC), founded in 1938, is an American chain store that sells home improvement, agriculture, lawn and garden maintenance, livestock, equine and pet care equipment and supplies. It caters to farmers, ranchers, pet owners, and landowners. As of 2026, the company had 2,446 stores. It is based in Brentwood, Tennessee. It is publicly traded on the Nasdaq under the symbol TSCO and is a Fortune 500 company.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1938",
+     "sourceId": "wikidata",
+     "sourceRef": "Q15109925 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Brentwood",
+     "sourceId": "wikidata",
+     "sourceRef": "Q15109925 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q15109925 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q15109925"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/TractorSupplyCompanylogo.svg/1920px-TractorSupplyCompanylogo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:TractorSupplyCompanylogo.svg",
+     "alt": "Tractor Supply Company logo",
+     "credit": "Tractor Supply Company",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5289230",
+   "slug": "dollar-tree",
+   "name": "Dollar Tree",
+   "aliases": [],
+   "description": "chain of low cost retail stores in North America",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 18,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollartree.com/",
+   "wikipedia": {
+    "title": "Dollar Tree",
+    "url": "https://en.wikipedia.org/wiki/Dollar_Tree",
+    "extract": "Dollar Tree, Inc., formerly known as Dollar Tree Stores, Inc., is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia, it is a Fortune 500 (sometimes referred to as Fortune 200) company and as of August 1, 2026 operates 9,150 stores throughout the 48 contiguous U.S. states (and the District of Columbia) and Canada. Its stores are supported by a nationwide logistics network of 24 distribution centers.\nDollar Tree competes in the dollar store and low-end retail markets. Each Dollar Tree stocks a variety of products, including national, regional, and private-label brands. Departments found in a Dollar Tree store include health and beauty, food and snacks, party, seasonal décor, housewares, glassware, dinnerware, household cleaning supplies, candy, toys, gifts, gift bags, and wrap, stationery, craft supplies, teaching supplies, automotive, electronics, pet supplies, and books. Most Dollar Tree stores also sell frozen foods and dairy items such as milk, eggs, pizza, ice cream, frozen dinners, and pre-made baked goods. In August 2012, the company began accepting manufacturer coupons at all of its store locations.\nDollar Tree, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. Dollar Tree disputes this claim, stating that it creates food options in areas that would otherwise be deserts.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1986",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chesapeake",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Macon Foscue Brock, Jr.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5289230 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5289230"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dollar_Tree_logo.svg/1920px-Dollar_Tree_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_Tree_logo.svg",
+     "alt": "Dollar Tree logo",
+     "credit": "Dollar Tree Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q472195",
+   "slug": "krystal",
+   "name": "Krystal",
+   "aliases": [],
+   "description": "restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://krystal.com",
+   "wikipedia": {
+    "title": "Krystal (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Krystal_(restaurant)",
+    "extract": "Krystal is an American regional fast food restaurant chain headquartered in Dunwoody, Georgia, with restaurants primarily in the Southeastern United States. It is known for its small, square hamburgers, called sliders in places other than the Southeast, with steamed-in onions. Krystal moved its headquarters from Chattanooga, Tennessee, where it had been based since 1932, to the Atlanta suburb of Dunwoody in early 2013.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1932",
+     "sourceId": "wikidata",
+     "sourceRef": "Q472195 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q472195 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q472195 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q472195"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Krystal_logo.svg/1920px-Krystal_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Krystal_logo.svg",
+     "alt": "Krystal logo",
+     "credit": "Krystal",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5928324",
+   "slug": "huddle-house",
+   "name": "Huddle House",
+   "aliases": [],
+   "description": "US restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.huddlehouse.com/",
+   "wikipedia": {
+    "title": "Huddle House",
+    "url": "https://en.wikipedia.org/wiki/Huddle_House",
+    "extract": "Huddle House, Inc. is an American casual dining restaurant chain. As of April 2026, the company operates 260 locations in 20 states.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Sentinel Capital Partners",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Decatur",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5928324 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5928324"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Huddle_House_logo.svg/1920px-Huddle_House_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Huddle_House_logo.svg",
+     "alt": "Huddle House logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q109675651",
+   "slug": "exxon",
+   "name": "Exxon",
+   "aliases": [],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109675651 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109675651"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1264366",
+   "slug": "winn-dixie",
+   "name": "Winn-Dixie",
+   "aliases": [],
+   "description": "American supermarket chain headquartered in Jacksonville, Florida",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.winndixie.com/",
+   "wikipedia": {
+    "title": "Winn-Dixie",
+    "url": "https://en.wikipedia.org/wiki/Winn-Dixie",
+    "extract": "The Winn-Dixie Company, LLC, is an American supermarket chain headquartered in Jacksonville, Florida. Founded in 1925, Winn-Dixie grocery stores and liquor stores serve communities throughout southeastern states – Florida and Georgia. Winn-Dixie is a subsidiary of The Winn-Dixie Company.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5050 Edgewood Ct, Jacksonville, FL 32254",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P6375"
+    },
+    {
+     "key": "parent-organization",
+     "value": "BI-LO; Aldi Süd",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1264366 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1264366"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG/1920px-Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Winn-Dixie_Corporate_Offices,_Jacksonville.JPG",
+     "alt": "Photograph of Winn-Dixie",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1591889",
+   "slug": "walgreens",
+   "name": "Walgreens",
+   "aliases": [
+    "Walgreen Company",
+    "The Walgreen Company",
+    "Walgreen",
+    "WAG",
+    "Walgreen Co"
+   ],
+   "description": "American pharmacy and convenience store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.walgreens.com/",
+   "wikipedia": {
+    "title": "Walgreens",
+    "url": "https://en.wikipedia.org/wiki/Walgreens",
+    "extract": "Walgreens is an American pharmacy store chain headquartered in Deerfield, Illinois. It is the second largest pharmacy chain in the United States, behind CVS Pharmacy. As of 2026, Walgreens operated 8,000 stores in the United States, serving 9 million customers daily and employing 211,000 team members. In addition to pharmacy services, Walgreens also offers photo services.\nWalgreens was founded in Chicago by Charles Rudolph Walgreen in 1901. On December 31, 2014, Walgreens acquired Switzerland and UK-based Alliance Boots, and formed a new holding company, Walgreens Boots Alliance. That year Walgreens had generated $76.4 billion in annual revenue as an independent company. Walgreens became a subsidiary of the new company, which retained its Deerfield headquarters and traded on the Nasdaq under the symbol WBA. As of August 2025, Walgreens is owned by private equity firm Sycamore Partners. \nWalgreens has been the subject of a number of lawsuits over discrimination, drug fraud, federal billing fraud, distribution of opioids, discrepancies between shelf price and scanned price, overcharging, illegal disposal of hazardous waste, selling expired items, misleading investors, unlicensed pharmacists, and wage theft. In 2021, Walgreens was one of several pharmacy chains found by a federal jury to have substantially contributed to the opioid crisis.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1901",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Deerfield",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Rudolph Walgreen, Sr.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Walgreens Boots Alliance",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1591889 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1591889"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Walgreens_2020_primary_logo.svg/1920px-Walgreens_2020_primary_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Walgreens_2020_primary_logo.svg",
+     "alt": "Walgreens logo",
+     "credit": "Walgreens",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q752941",
+   "slug": "taco-bell",
+   "name": "Taco Bell",
+   "aliases": [],
+   "description": "American fast-food chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 49,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tacobell.com/",
+   "wikipedia": {
+    "title": "Taco Bell",
+    "url": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "extract": "Taco Bell Corporation, doing business as Taco Bell, is an American multinational chain of fast food restaurants founded in 1962 by Glen Bell (1923–2010) in Downey, California. Taco Bell is a subsidiary of Yum! Brands, Inc., who are also the owners of sister brand KFC. The restaurants serve a variety of Mexican-inspired foods, including tacos, burritos, quesadillas, nachos, novelty, and specialty items, and a variety of \"value menu\" items. As of 2023, Taco Bell serves over two billion customers each year, at 8,212 restaurants, more than 94 percent of which are owned and operated by independent franchisees and licensees.\nPepsiCo purchased Taco Bell in 1978. PepsiCo spun off its restaurants division in 1997 as Tricon Global Restaurants; in 2002 it changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962-03-21",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Irvine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Glen Bell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q752941 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q752941"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/1984TacoBellSign.svg/1920px-1984TacoBellSign.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1984TacoBellSign.svg",
+     "alt": "Taco Bell logo",
+     "credit": "NissanFanatic245",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5036616",
+   "slug": "captain-ds",
+   "name": "Captain D's",
+   "aliases": [
+    "Mr. D's Seafood and Hamburgers"
+   ],
+   "description": "U.S.-based seafood fast food chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://captainds.com/",
+   "wikipedia": {
+    "title": "Captain D's",
+    "url": "https://en.wikipedia.org/wiki/Captain_D%27s",
+    "extract": "Captain D's, LLC. is an American fast casual restaurant chain that specializes in seafood and is headquartered in Nashville, Tennessee. The chain was founded as Mr. D's Seafood and Hamburgers by Raymond L. Danner Sr. on August 15, 1969, in Donelson, Tennessee. The chain is currently owned by private-equity firm Centre Partners. Captain D's currently has more than 500 locations in the United States.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1969-08-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5036616 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Nashville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5036616 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5036616 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5036616"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16988635",
+   "slug": "kampgrounds-of-america",
+   "name": "Kampgrounds of America",
+   "aliases": [
+    "KOA",
+    "Kampgrounds of America, Inc.",
+    "KOA Kampground",
+    "KOA Journey",
+    "KOA Holiday"
+   ],
+   "description": "chain of campgrounds in the US and Canada",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://koa.com/",
+   "wikipedia": {
+    "title": "KOA",
+    "url": "https://en.wikipedia.org/wiki/KOA",
+    "extract": "KOA (short for Kampgrounds [sic] of America) is an American franchise of privately owned campgrounds. Having more than 500 locations across the United States and Canada, is the world's largest system of privately owned campgrounds. It was founded in 1962 and is based in Billings, Montana, United States. The current president and CEO of KOA is Toby O’Rourke.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Billings",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16988635 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16988635"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/KOA_campgrounds_logo.svg/1920px-KOA_campgrounds_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:KOA_campgrounds_logo.svg",
+     "alt": "Kampgrounds of America logo",
+     "credit": "Kampgrounds of America",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4826087",
+   "slug": "autozone",
+   "name": "AutoZone",
+   "aliases": [],
+   "description": "retailer of aftermarket automotive parts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.autozone.com/",
+   "wikipedia": {
+    "title": "AutoZone",
+    "url": "https://en.wikipedia.org/wiki/AutoZone",
+    "extract": "AutoZone, Inc., doing business as AutoZone (and formerly known as Auto Shack from 1979 to 1987), is an American retailer of aftermarket automotive parts and accessories – the largest in the United States. Founded in 1979, AutoZone has 7,140 stores across the United States, Mexico, Puerto Rico, Brazil, and the US Virgin Islands. The company is based in Memphis, Tennessee.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1979",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4826087 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Memphis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4826087 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Pitt Hyde",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4826087 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4826087 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4826087"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Logo_of_AutoZone.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_AutoZone.png",
+     "alt": "AutoZone logo",
+     "credit": "AutoZone, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q630866",
+   "slug": "arbys",
+   "name": "Arby's",
+   "aliases": [],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://arbys.com",
+   "wikipedia": {
+    "title": "Arby's",
+    "url": "https://en.wikipedia.org/wiki/Arby%27s",
+    "extract": "Arby's Restaurant Group, Inc., doing business as Arby's, is an American fast food sandwich restaurant chain with more than 3,200 restaurants. The flagship property of Inspire Brands, it ranked third in systemwide sales in the United States in the quick-service and fast-casual restaurant industries in 2012, behind Subway and Panera Bread. In October 2017, Food & Wine called Arby's \"America's second largest sandwich chain (after Subway)\".\nRoark Capital Group acquired 81.5% of Arby's Restaurant Group in July 2011 and is now a majority-owner of Inspire Brands. The Wendy's Company held a minority stake of 18.5% in Arby's after the acquisition by Roark Capital. That share was reduced to 12.3% upon the purchase of Buffalo Wild Wings. It was sold back to Inspire Brands on August 16, 2018 for $450 million, a 38% premium.\nArby's is best known for selling roast beef sandwiches. Other menu items the chain is known for include gyros, wraps, chicken sandwiches, and milkshakes. Its headquarters are in Sandy Springs, Georgia, a suburb of Atlanta that uses Atlanta mailing addresses.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Roark Capital Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Sandy Springs",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q630866 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q630866"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Arby%27s_logo.svg/1920px-Arby%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg",
+     "alt": "Arby's logo",
+     "credit": "Arby's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7561989",
+   "slug": "sonnys-bbq",
+   "name": "Sonny's BBQ",
+   "aliases": [],
+   "description": "American barbecue restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sonnysbbq.com/",
+   "wikipedia": {
+    "title": "Sonny's BBQ",
+    "url": "https://en.wikipedia.org/wiki/Sonny%27s_BBQ",
+    "extract": "Sonny's BBQ is a barbecue restaurant chain founded by Floyd \"Sonny\" Tillman in Gainesville, Florida, in 1968. Bob Yarmuth purchased the company in 1991 and continues as the company's owner and CEO today. As of 2026, Sonny's BBQ has 90 restaurants across eight Southeastern states and is headquartered in  Winter Park,FL. The restaurant specializes in Southern-style BBQ.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1968-04-17",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7561989 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Winter Park",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7561989 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7561989 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7561989"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sonny%27s_BBQ%2C_US90%2C_Lake_City.jpg/1920px-Sonny%27s_BBQ%2C_US90%2C_Lake_City.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sonny%27s_BBQ,_US90,_Lake_City.jpg",
+     "alt": "Photograph of Sonny's BBQ",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q110716465",
+   "slug": "shell-q110716465",
+   "name": "Shell",
+   "aliases": [],
+   "description": "multinational fuel station chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Showa Shell Sekiyu; Idemitsu Kosan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P137"
+    },
+    {
+     "key": "owner",
+     "value": "Shell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q110716465 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q110716465"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q847743",
+   "slug": "dunkin",
+   "name": "Dunkin'",
+   "aliases": [
+    "Dunkin Donuts",
+    "Dunkin Donuts Coffee",
+    "DD",
+    "Dunkin D",
+    "Dunkin' Donuts"
+   ],
+   "description": "American global donut company and coffeehouse",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 55,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dunkindonuts.com/",
+   "wikipedia": {
+    "title": "Dunkin' Donuts",
+    "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+    "extract": "Dunkin' LLC, formerly known as Dunkin' Donuts, is an American multinational fast-food restaurant chain specializing in coffee and doughnuts. It was founded by Bill Rosenberg in Quincy, Massachusetts, in 1950. \nWith approximately 14,200 locations in 39 countries and $14.5 billion in system sales, Dunkin' is one of the largest coffee shop and doughnut shop chains in the world. In addition to several varieties of coffee and doughnuts, products sold include bagels, breakfast sandwiches, muffins, and doughnut holes branded as Munchkins.\nThe chain was acquired by Baskin-Robbins' holding company Allied Lyons in 1990. Its acquisition of the Mister Donut chain and the conversion of that chain to Dunkin' Donuts facilitated the brand's growth in North America the same year.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1950",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Canton; Quincy",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "William Rosenberg",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q847743 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q847743"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Dunkin%27_2022.svg/1920px-Dunkin%27_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dunkin%27_2022.svg",
+     "alt": "Dunkin' logo",
+     "credit": "Dunkin' Donuts, LLC",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5343830",
+   "slug": "edward-jones",
+   "name": "Edward Jones",
+   "aliases": [
+    "Edward D. Jones & Co., L.P.",
+    "The Jones Financial Companies, L.L.L.P.",
+    "Edward Jones Investments"
+   ],
+   "description": "American financial services firm",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.edwardjones.com/",
+   "wikipedia": {
+    "title": "Edward Jones Investments",
+    "url": "https://en.wikipedia.org/wiki/Edward_Jones_Investments",
+    "extract": "Edward D. Jones & Co., L.P. (d.b.a Edward Jones Investments), commonly referred to as Edward Jones, is an American financial services firm headquartered in the St. Louis, Missouri, area. Founded in 1922 by Edward D. Jones Sr., the firm operates a large network of branch offices in the United States and Canada, primarily serving individual investors and small businesses.\nEdward Jones introduced the branch-office brokerage model in the United States and is a member of the Securities Investor Protection Corporation (SIPC). As of 2025, the firm employed about 55,000 people, reported revenue of $16.3 billion, and managed client assets of approximately $2.2 trillion. Edward Jones ranks #260 on the Fortune 500 list, which ranks the largest U.S. companies by revenue.\nThe company employs more than 20,000 financial advisors across North America. In addition to its advisory business, Edward Jones also operates a venture arm that invests in early-stage companies.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1922",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5343830 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Des Peres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5343830 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Edward D. Jones",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5343830 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5343830 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5343830"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Edward_Jones_Investments_logo.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Edward_Jones_Investments_logo.png",
+     "alt": "Edward Jones logo",
+     "credit": "Edward Jones",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q298594",
+   "slug": "at-and-t-mobility",
+   "name": "AT&T Mobility",
+   "aliases": [
+    "Cingular Wireless",
+    "AT&T Wireless",
+    "AT&T Mobility II LLC"
+   ],
+   "description": "former wireless service subsidiary of AT&T",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 18,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "electronics-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.att.com/wireless/",
+   "wikipedia": {
+    "title": "AT&T Mobility",
+    "url": "https://en.wikipedia.org/wiki/AT%26T_Mobility",
+    "extract": "AT&T Mobility, LLC, also known as AT&T Wireless and marketed as simply AT&T, is an American telecommunications company. Formed on October 5, 2000 as Cingular Wireless LLC, it is a wholly owned subsidiary of AT&T Inc. and provides wireless services in the United States. AT&T Mobility is the third largest wireless carrier in the United States, with 110.2 million subscribers as of September 30, 2026.\nThe company is headquartered in Brookhaven, Georgia. Originally known as Cingular Wireless (a joint venture between SBC Communications and BellSouth) from 2000 to 2007, the company acquired the old AT&T Wireless in 2004; SBC later acquired the original AT&T and adopted its name. Cingular became wholly owned by AT&T in December 2006 as a result of AT&T's acquisition of BellSouth.\nIn January 2007, Cingular confirmed it would rebrand itself under the AT&T name. Although the legal corporate name change occurred immediately, for both regulatory and brand-awareness reasons both brands were used in the company's signage and advertising during a transition period. The transition concluded in late June, just prior to the rollout of the Apple iPhone.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2001",
+     "sourceId": "wikidata",
+     "sourceRef": "Q298594 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q298594 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "AT&T",
+     "sourceId": "wikidata",
+     "sourceRef": "Q298594 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q298594 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q298594"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/AT%26T_logo_2016.svg/1920px-AT%26T_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:AT%26T_logo_2016.svg",
+     "alt": "AT&T Mobility logo",
+     "credit": "AT&amp;T",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q738853",
+   "slug": "coldwell-banker",
+   "name": "Coldwell Banker",
+   "aliases": [
+    "Coldwell Banker Real Estate LLC",
+    "Coldwell Banker Real Estate",
+    "Coldwell Banker New Homes"
+   ],
+   "description": "US international real estate agent franchise company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.coldwellbanker.com",
+   "wikipedia": {
+    "title": "Coldwell Banker",
+    "url": "https://en.wikipedia.org/wiki/Coldwell_Banker",
+    "extract": "Coldwell Banker LLC is an American real estate franchise owned by Compass, Inc., with headquarters in Madison, New Jersey. It was founded in 1906 in San Francisco, and has approximately 3000 offices in 49 countries and territories. It publishes an annual house price guide, Home Listing Report. The company is not a bank; its name refers instead to a former managing partner.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1906-08-27",
+     "sourceId": "wikidata",
+     "sourceRef": "Q738853 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison; Cairo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q738853 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q738853 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q738853"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Coldwell_Banker_logo_2026.svg/1920px-Coldwell_Banker_logo_2026.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Coldwell_Banker_logo_2026.svg",
+     "alt": "Coldwell Banker logo",
+     "credit": "Coldwell Banker",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7561808",
+   "slug": "sonic-drive-in",
+   "name": "Sonic Drive-In",
+   "aliases": [
+    "Sonic",
+    "Sonic Corporation"
+   ],
+   "description": "American drive-in fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 15,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sonicdrivein.com/",
+   "wikipedia": {
+    "title": "Sonic Drive-In",
+    "url": "https://en.wikipedia.org/wiki/Sonic_Drive-In",
+    "extract": "Sonic Corporation, founded as Sonic Drive-In and more commonly known as Sonic (stylized in all caps), is an American drive-in fast-food chain owned by Inspire Brands, the parent company of Arby's, Jimmy John's, Buffalo Wild Wings, Baskin-Robbins, and Dunkin'. Sonic, founded by Troy N. Smith Sr., opened its first location in 1953, under the name Top Hat Drive-In. Originally a walk-up root beer stand outside a log-cabin steakhouse selling soda, hamburgers, and hot dogs, Sonic expanded to over 3,400 locations in the United States. Sonic is known for its use of carhops on roller skates at some locations, and hosts an annual competition in most locations to determine the top skating carhop in the company. The company's core products include the \"Chili Cheese Coney\", \"Sonic Cheeseburger Combo\", \"Sonic Blasts\", \"Master Shakes\", and \"Wacky Pack Kids Meals\".",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963-06-18",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7561808 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oklahoma City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7561808 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Troy Smith",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7561808 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7561808 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7561808"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/SONIC_New_Logo_2020.svg/1920px-SONIC_New_Logo_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:SONIC_New_Logo_2020.svg",
+     "alt": "Sonic Drive-In logo",
+     "credit": "Sonic",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4686051",
+   "slug": "advance-auto-parts",
+   "name": "Advance Auto Parts",
+   "aliases": [],
+   "description": "retailer of aftermarket automotive parts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://shop.advanceautoparts.com/",
+   "wikipedia": {
+    "title": "Advance Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/Advance_Auto_Parts",
+    "extract": "Advance Auto Parts is an American automotive aftermarket parts provider. Headquartered in Raleigh, North Carolina, it serves professional installer and do it yourself (DIY) customers.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1932",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Roanoke",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Arthur Taubman",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4686051 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4686051"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AAP_Logo_STK_2C.svg/1920px-AAP_Logo_STK_2C.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:AAP_Logo_STK_2C.svg",
+     "alt": "Advance Auto Parts logo",
+     "credit": "Advance Auto Parts",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q524757",
+   "slug": "kfc",
+   "name": "KFC",
+   "aliases": [
+    "KFC Restaurant"
+   ],
+   "description": "American fast food restaurant chain specializing in fried chicken",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 98,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.kfc.com/",
+   "wikipedia": {
+    "title": "KFC",
+    "url": "https://en.wikipedia.org/wiki/KFC",
+    "extract": "KFC Corporation, trading as Kentucky Fried Chicken (KFC), is an American multinational fast food restaurant chain specializing in Southern fried chicken and chicken sandwiches. Headquartered in Plano, Texas, it is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with over 31,980 locations globally in 150 countries, as of September 2025. The chain is a subsidiary of Yum! Brands, a restaurant company that also owns the Taco Bell chain.\nKFC was founded by Colonel Harland Sanders (1890–1980), an entrepreneur who began selling fried chicken from his roadside restaurant in Corbin, Kentucky, during the Great Depression. Sanders identified the potential of the restaurant-franchising concept, and the first \"Kentucky Fried Chicken\" franchise opened in South Salt Lake, Utah, in 1952. KFC popularized chicken in the fast-food industry, diversifying the market by challenging the established dominance of the hamburger. By branding himself as \"Colonel Sanders\", Harland became a prominent figure of American cultural history, and his image remains widely used in KFC advertising to this day. However, the company's rapid expansion overwhelmed the aging Sanders, and he sold it to a group of investors led by John Y. Brown Jr. and Jack C. Massey in 1964.\nKFC was one of the first American fast-food chains to expand internationally, opening outlets in Canada, the United Kingdom, Mexico and Jamaica by the mid-1960s. Throughout the 1970s and 1980s, it experienced mixed fortunes domestically, as it went through a series of changes in corporate ownership with little or no experience in the restaurant business. In the early 1970s, KFC was sold to the spirits distributor Heublein, which was taken over by the R. J. Reynolds food and tobacco conglomerate; that company sold the chain to PepsiCo. The chain continued to expand overseas, however, and in 1987 it became the first Western restaurant chain to open in China. It has since expanded rapidly in that country, which is now the company's single largest market. PepsiCo spun off its restaurants division as Tricon Global Restaurants, which later changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1930",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Louisville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Harland Sanders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q524757 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q524757"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/KFC_2026_%28wordmark%29.svg/1920px-KFC_2026_%28wordmark%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:KFC_2026_(wordmark).svg",
+     "alt": "KFC logo",
+     "credit": "Yum! Brands",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q29570",
+   "slug": "chevrolet",
+   "name": "Chevrolet",
+   "aliases": [],
+   "description": "American automobile division of GM",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 86,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "dealerships",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bradford-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevrolet.com/",
+   "wikipedia": {
+    "title": "Chevrolet",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet",
+    "extract": "Chevrolet is an American automobile division of the manufacturer General Motors (GM). In North America, Chevrolet produces and sells a wide range of vehicles, from subcompact automobiles to medium-duty commercial trucks. Due to the prominence and name recognition of Chevrolet as one of General Motors' global marques, \"Chevrolet\" or its affectionate nickname Chevy is used at times as a synonym for General Motors or its products, one example being the GM LS1 engine, commonly known by the name or a variant thereof of its progenitor, the Chevrolet small-block engine.\nLouis Chevrolet (1878–1941), an American born in French-speaking Switzerland, Arthur Chevrolet (1884–1946), Louis's middle brother, and ousted General Motors founder William C. Durant (1861–1947) started the company on November 3, 1911 as the Chevrolet Motor Car Company. Durant used the Chevrolet Motor Car Company to acquire a controlling stake in General Motors with a reverse merger occurring on May 2, 1918, and propelled himself back to the GM presidency. After Durant's second ousting in 1919, Alfred Sloan, with his maxim \"a car for every purse and purpose\", picked the Chevrolet brand to become the volume leader in the General Motors family, selling mainstream vehicles to compete with Henry Ford's Model T in 1919 and overtaking Ford as the best-selling car in the United States by 1929 with the Chevrolet International.\nChevrolet-branded vehicles are sold in most automotive markets worldwide. In Oceania, Chevrolet was represented by Holden Special Vehicles (HSV), having returned to the region in 2018 after a 50-year absence with the launching of the Camaro and Silverado pickup truck (HSV was partially and formerly owned by GM subsidiary Holden, which GM retired in 2021). In 2021, General Motors Specialty Vehicles took over the distribution and sales of Chevrolet vehicles in Oceania, starting with the Silverado. In 2005, Chevrolet was relaunched in Europe, primarily selling vehicles built by GM Daewoo of South Korea with the tagline \"Daewoo has grown up enough to become Chevrolet\", a move rooted in General Motors' attempt to build a global brand around Chevrolet. With the reintroduction of Chevrolet to Europe, GM intended Chevrolet to be a mainstream value brand, while GM's traditional European standard-bearers, Opel of Germany and Vauxhall of the United Kingdom, were to be moved upmarket. However, GM reversed this move in late 2013, announcing that the brand would be withdrawn from Europe from 2016 onward, with the exception of the Camaro and Corvette. Chevrolet vehicles were to continue to be marketed in the CIS states, including Russia. After General Motors fully acquired GM Daewoo in 2011 to create GM Korea, the last usage of the Daewoo automotive brand was discontinued in its native South Korea and succeeded by Chevrolet.",
+    "retrievedAt": "2026-11-27T17:28:33.256Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1911-11-03",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P571"
+    },
+    {
+     "key": "owner",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Detroit",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Louis Chevrolet; William Crapo Durant; Arthur Chevrolet",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q29570 inside Bradford County boundary",
+     "scopeAreaSlug": "bradford-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q29570"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Chevrolet_simple_logo.svg/1920px-Chevrolet_simple_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevrolet_simple_logo.svg",
+     "alt": "Chevrolet logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "bradford-county-fl",
+  "wikidataCandidates": 52,
+  "places": 8,
+  "brands": 34,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 39,
+  "withFreeImage": 37,
+  "withCoordinates": 8,
+  "osmBrandedLocations": 45,
+  "unmappedClasses": 8
+ }
+}

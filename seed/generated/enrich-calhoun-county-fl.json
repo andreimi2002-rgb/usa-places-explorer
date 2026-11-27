@@ -1,0 +1,992 @@
+{
+ "generatedAt": "2026-11-27T18:55:48.737Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "calhoun-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T18:55:48.737Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T18:55:48.737Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Calhoun County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T18:55:48.737Z",
+   "checksumSha256": "0609ced6d9214ba87bf1dee59c48eac3615b12a65d2a1e9516d642819f98618c"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q4928497",
+   "slug": "blountstown-high-school",
+   "name": "Blountstown High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "blountstown-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4481,
+    "lon": -85.046
+   },
+   "officialUrl": "https://www.blountstownhigh.org",
+   "wikipedia": {
+    "title": "Blountstown High School",
+    "url": "https://en.wikipedia.org/wiki/Blountstown_High_School",
+    "extract": "Blountstown High School is a high school located in Blountstown, Florida, the county seat of Calhoun County, Florida. It is in the Calhoun School District. In 2026 about 70 percent of students were white, 17 percent black and 7 percent hispanic. Test scores were above state averages.\nDuring segregation, African American students attended Mayhaw High School. A history project fornthe community around it was initiated.\nThe Florida Archives have a photo of a graduating class at the school.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4928497"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5055442",
+   "slug": "cayson-mound-and-village-site",
+   "name": "Cayson Mound and Village Site",
+   "aliases": [],
+   "description": "archaeological site",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4308,
+    "lon": -85.0261
+   },
+   "wikipedia": {
+    "title": "Cayson Mound and Village Site",
+    "url": "https://en.wikipedia.org/wiki/Cayson_Mound_and_Village_Site",
+    "extract": "The Cayson Mound and Village Site (8CA3) is a prehistoric archaeological site located near Blountstown, Florida. It is located three miles southeast of Blountstown, on the Apalachicola River. The site was occupied by peoples of the Fort Walton Culture (a regional variation of the Mississippian culture). On March 15, 1976, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5055442 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "76000587",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5055442 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5055442"
+    },
+    {
+     "provider": "nrhp",
+     "id": "76000587"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q137760711",
+   "slug": "sandy-creek-state-forest",
+   "name": "Sandy Creek State Forest",
+   "aliases": [],
+   "description": "state forest in Florida, United States",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.326,
+    "lon": -85.382
+   },
+   "wikipedia": {
+    "title": "Sandy Creek State Forest",
+    "url": "https://en.wikipedia.org/wiki/Sandy_Creek_State_Forest",
+    "extract": "Sandy Creek State Forest is a state forest in Florida. It was acquired by the state in 2025, but is not yet open to the public.\nIt covers 12,243 acres (49.55 km2) in the St. Andrew Bay watershed in Bay County, Florida.\nThe area is home to gopher tortoise, Florida black bear, reticulated flatwoods salamander and dark-headed hatpins.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q137760711"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7833158",
+   "slug": "trammell-bridge",
+   "name": "Trammell Bridge",
+   "aliases": [],
+   "description": "bridge in United States of America",
+   "entityType": "bridge",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "bridges",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4372,
+    "lon": -85.0011
+   },
+   "wikipedia": {
+    "title": "Trammell Bridge",
+    "url": "https://en.wikipedia.org/wiki/Trammell_Bridge",
+    "extract": "The Trammell Bridge is 1.6 miles (2.6 km) long and carries State Road 20 over the Apalachicola River in the Florida Panhandle between Blountstown and Bristol. It is named for three members of the Trammell family: (1) U.S. Senator from Florida and former governor Park M. Trammell, who died in office in 1936; (2) his brother, John D. Trammell, member of the Florida legislature representing Calhoun County (Blountstown) who introduced the bill to construct the original bridge; and (3) Robert D. Trammell, John Trammell's grandson who represented the area in the Florida legislature and secured funding for the new bridge.\nThe westbound and eastbound lanes of SR 20 are on separate spans. The westbound span is the original, older bridge (opened in 1938) and the eastbound span is a modern, concrete high-rise bridge (opened in 1998).\nThe original bridge (westbound) was built of steel and concrete piers by the Wisconsin Iron and Bridge Company. In 1989, the original span was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "opened",
+     "value": "1938",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7833158 P1619"
+    },
+    {
+     "key": "inception",
+     "value": "1938",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7833158 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7833158"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Trammell_Bridge_FL_old_and_new_east07.JPG/1920px-Trammell_Bridge_FL_old_and_new_east07.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Trammell_Bridge_FL_old_and_new_east07.JPG",
+     "alt": "Photograph of Trammell Bridge",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7954297",
+   "slug": "wphk",
+   "name": "WPHK",
+   "aliases": [],
+   "description": "Radio station in Blountstown–Panama City, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "blountstown-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4542,
+    "lon": -85.0422
+   },
+   "officialUrl": "https://www.grnonline.com",
+   "wikipedia": {
+    "title": "WPHK",
+    "url": "https://en.wikipedia.org/wiki/WPHK",
+    "extract": "WPHK (102.7 FM) is an American radio station licensed to serve Blountstown, Florida, United States, airing a Catholic radio format.  The station began broadcast operations in December 1968 as \"WRTM\" on 102.3 MHz under the ownership of the Maupin Broadcasting Company. The station's broadcast license is currently held by La Promesa Foundation.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1968",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7954297 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7954297"
+    },
+    {
+     "provider": "geonames",
+     "id": "4177022"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7957967",
+   "slug": "wybt",
+   "name": "WYBT",
+   "aliases": [],
+   "description": "radio station in Blountstown, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "blountstown-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4542,
+    "lon": -85.0422
+   },
+   "officialUrl": "https://www.wybtradio.com/",
+   "wikipedia": {
+    "title": "WYBT",
+    "url": "https://en.wikipedia.org/wiki/WYBT",
+    "extract": "WYBT (1000 AM) is a radio station broadcasting an oldies format. It is licensed to Blountstown, Florida, United States, and serves the Panama City area. The station is owned by WYBT, LLC.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7957967"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q3813563",
+   "slug": "calhoun-county-airport",
+   "name": "Calhoun County Airport",
+   "aliases": [],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4869,
+    "lon": -85.114
+   },
+   "wikipedia": {
+    "title": "Calhoun County Airport (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Calhoun_County_Airport_(Florida)",
+    "extract": "Calhoun County Airport (FAA LID: X10) is a public airport 5 miles (8.0 km) northwest of Blountstown in Calhoun County, Florida. It is on State Road 71 between Blountstown, FL and Altha, FL and is publicly owned.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3813563"
+    },
+    {
+     "provider": "geonames",
+     "id": "8113606"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q65089902",
+   "slug": "altha-public-school",
+   "name": "Altha Public School",
+   "aliases": [],
+   "description": "school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "altha-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5732,
+    "lon": -85.125
+   },
+   "officialUrl": "https://althaschool.org/",
+   "wikipedia": {
+    "title": "Altha Public School",
+    "url": "https://en.wikipedia.org/wiki/Altha_Public_School",
+    "extract": "Altha Public School is a K–12 public school in Altha, Florida, operated by the Calhoun County School District. As of 2017 it had about 600 students.\nIt was established early after the turn of the twentieth century. The \"White Building\", as it was nicknamed, housed several classrooms until the completion of the new school in 2017. The White Building was completed in 1929, and was renovated several times to retain its period decor while being outfitted for the 21st century. Due to damages sustained during Hurricane Michael, the White Building was demolished in August of 2019.\nAltha School is a Kindergarten through 12th grade school (previously having a Pre-Kindergarten), one of fewer than 20 remaining such schools in the state of Florida. In 2006, the high school portion of the school was nearly closed and consolidated with Blountstown High. In 2014, the Florida Legislature awarded the Calhoun County School Board over 20 million dollars to build a new school in Altha; it ultimately had a cost of $24 million. The groundbreaking ceremony was scheduled for February 20, 2015, and the new building opened in January 2017.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "25820 Fuqua Cir, Altha, FL 32421",
+     "sourceId": "wikidata",
+     "sourceRef": "Q65089902 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q65089902"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Altha_Public_School_from_FL71.jpg/1920px-Altha_Public_School_from_FL71.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Altha_Public_School_from_FL71.jpg",
+     "alt": "Photograph of Altha Public School",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q65059337",
+   "slug": "calhoun-county-school-district",
+   "name": "Calhoun County School District",
+   "aliases": [],
+   "description": "School district in Florida, United States",
+   "entityType": "school_district",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "school-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "headquartered_in"
+    }
+   ],
+   "officialUrl": "https://www.calhounflschools.org",
+   "wikipedia": {
+    "title": "Calhoun County School District (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Calhoun_County_School_District_(Florida)",
+    "extract": "Calhoun County School District is a school district headquartered in Blountstown, Florida. It serves Calhoun County.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q65059337"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Calhoun_County_School_District_Office.jpg/1920px-Calhoun_County_School_District_Office.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Calhoun_County_School_District_Office.jpg",
+     "alt": "Photograph of Calhoun County School District",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q1423218",
+   "slug": "sunoco",
+   "name": "Sunoco",
+   "aliases": [
+    "Sunoco Inc.",
+    "Japan Sun Oil",
+    "Sun Oil Company"
+   ],
+   "description": "American petroleum and petrochemical manufacturer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sunoco.com/",
+   "wikipedia": {
+    "title": "Sunoco",
+    "url": "https://en.wikipedia.org/wiki/Sunoco",
+    "extract": "Sunoco LP  is an American vehicle gasoline master limited partnership company organized under Delaware state law and headquartered in Dallas, Texas. Dating back to 1886, the company has transformed from a vertically integrated energy company to a distributor of fuels and operator of energy infrastructure. It was previously engaged in oil, natural gas exploration and production, refining, chemical manufacturing, and retail fuel sales, but divested these businesses.\nThe partnership was known as Sun Oil Company from 1890 to 1976, and as Sun Company Inc. from 1976 to 1998. The Sunoco name is a contraction of SUN Oil COmpany.\nIts current operational focus dates back to 2018, when it divested the non–core convenience store operations to 7-Eleven for $3.2 billion, which allowed for Sunoco LP to improve its financial position. The transaction also provided a long-term take or pay fuel supply agreement with 7-Eleven to generate consistent earnings and cash flows. As of 2024, Sunoco still operates 76 retail locations, all of which are located in New Jersey and Hawaii, the latter branded as Aloha Petroleum, Ltd..",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dallas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Newton Pew",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1423218 inside Calhoun County boundary",
+     "scopeAreaSlug": "calhoun-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1423218"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg/1920px-Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunoco_station,_Saratoga_Springs,_NY.jpg",
+     "alt": "Photograph of Sunoco",
+     "credit": "NNECAPA Photo Library",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q319642",
+   "slug": "chevron-corporation",
+   "name": "Chevron Corporation",
+   "aliases": [
+    "Chevron México"
+   ],
+   "description": "American multinational energy corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 60,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevron.com",
+   "wikipedia": {
+    "title": "Chevron Corporation",
+    "url": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "extract": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. As the second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California (shortened to Socal or CalSo), it is active in more than 180 countries. \nThe company was founded originally in Southern California during the 1870s. After the breakup of Standard Oil, Socal grew quickly on its own by continuing to acquire companies and partnering with others both inside and outside of California, eventually becoming one of the Big Oil companies that dominated the global petroleum industry from the mid-1940s to the 1970s. In 1985, Socal merged with the Pittsburgh-based Gulf Oil and rebranded as Chevron; the newly merged company later merged with Texaco in 2001.  \nChevron is one of the largest companies in the world and the second-largest oil company based in the United States by revenue, only behind fellow Standard Oil descendant ExxonMobil. Within oil and gas, Chevron is vertically integrated and is involved in hydrocarbon exploration, production, refining, marketing and transport, chemicals manufacturing and sales, and power generation. Chevron manufactures and sells fuels, lubricants, additives, and petrochemicals, primarily in Western North America,  the US Gulf Coast, Southeast Asia, South Korea and Australia. In 2018, the company produced an average of 791,000 barrels (125,800 m3) of net oil-equivalent per day in United States.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "5001 Executive Parkway, Suite 200, San Ramon, CA 94583",
+     "sourceId": "wikidata",
+     "sourceRef": "Q319642 P6375"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q319642 inside Calhoun County boundary",
+     "scopeAreaSlug": "calhoun-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q319642"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/1920px-Chevron_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg",
+     "alt": "Chevron Corporation logo",
+     "credit": "Chevron Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Calhoun County boundary",
+     "scopeAreaSlug": "calhoun-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q775060",
+   "slug": "texaco",
+   "name": "Texaco",
+   "aliases": [
+    "Texas Company"
+   ],
+   "description": "oil subsidiary of Chevron Corporation",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 37,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.texaco.com",
+   "wikipedia": {
+    "title": "Texaco",
+    "url": "https://en.wikipedia.org/wiki/Texaco",
+    "extract": "Texaco, Inc. (a shortening of \"The Texas Company\") is an American oil brand owned and operated by Chevron Corporation. Its flagship product is its fuel \"Texaco with Techron\". It also owned the Havoline motor oil brand. Texaco was an independent company until its refining operations merged into Chevron in 2001, at which time most of its station franchises were divested to Shell plc through its American division. It was one of the first gas stations to exist.\nTexaco began as the \"Texas Fuel Company\", founded in 1902 in Beaumont, Texas, by Joseph S. Cullinan, Thomas J. Donoghue, and Arnold Schlaet upon the discovery of oil at Spindletop. The Texas Fuel Company was not set up to drill wells or to produce crude oil. To accomplish this, Cullinan organized the Producers Oil Company in 1902, as a group of investors affiliated with The Texas Fuel Company. Men such as John W. \"Bet A Million\" Gates invested in \"certificates of interest\" to an amount of almost ninety thousand dollars. Future restructuring would merge Producers Oil Company and The Texas Fuel Company as Texaco when the company needed additional funding, which J.W. Gates provided in the amount of approximately $590,000 in return for company stock.\nTexaco was one of the Seven Sisters which dominated the global petroleum industry from the mid-1940s to the 1970s. Its current logo features a white star in a red circle (a reference to the lone star of Texas), leading to the long-running advertising jingles \"You can trust your car to the man who wears the star\" and \"Star of the American Road.\" The company was headquartered in Harrison, New York, near White Plains, prior to the merger with Chevron.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1901",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P571"
+    },
+    {
+     "key": "closed",
+     "value": "2001",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P576"
+    },
+    {
+     "key": "owner",
+     "value": "Chevron Corporation",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "San Ramon",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Stephen Cullinan; Arnold Schlaet",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Chevron Corporation; Texas Corporation",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q775060 inside Calhoun County boundary",
+     "scopeAreaSlug": "calhoun-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q775060"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Texacologo.svg/1920px-Texacologo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Texacologo.svg",
+     "alt": "Texaco logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "calhoun-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T18:55:48.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Calhoun County boundary",
+     "scopeAreaSlug": "calhoun-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "calhoun-county-fl",
+  "wikidataCandidates": 46,
+  "places": 9,
+  "brands": 5,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 14,
+  "withFreeImage": 8,
+  "withCoordinates": 8,
+  "osmBrandedLocations": 7,
+  "unmappedClasses": 5
+ }
+}

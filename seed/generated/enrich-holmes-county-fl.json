@@ -1,0 +1,1312 @@
+{
+ "generatedAt": "2026-11-27T19:56:34.229Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "holmes-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:56:34.229Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:56:34.229Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Holmes County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:56:34.229Z",
+   "checksumSha256": "c445298f9e956e3016d8a905623995188e690b82514854b2df37a5381135e223"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q7948422",
+   "slug": "wdjr",
+   "name": "WDJR",
+   "aliases": [],
+   "description": "radio station in Hartford, Alabama",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.9219,
+    "lon": -85.7447
+   },
+   "officialUrl": "https://www.969thelegend.com",
+   "wikipedia": {
+    "title": "WDJR",
+    "url": "https://en.wikipedia.org/wiki/WDJR",
+    "extract": "WDJR (96.9 FM, \"The Legend\") is an American classic country formatted radio station based in Dothan, Alabama. The station is owned and operated by Digio Strategies. The station's signal, which originates from a transmitter in Holmes County Florida, reaches large portions of Alabama, Florida, and Georgia.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1979",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948422 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948422"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q19881960",
+   "slug": "wtvy-tv-tower",
+   "name": "WTVY-TV Tower",
+   "aliases": [],
+   "description": "telecommunications tower in the United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.919722,
+    "lon": -85.741667
+   },
+   "wikipedia": {
+    "title": "WTVY-TV Tower",
+    "url": "https://en.wikipedia.org/wiki/WTVY-TV_Tower",
+    "extract": "The WTVY-TV Tower is a 1,849 ft (563 m) tall structure located in Bethlehem, Florida (1983 ft / 604 m above sea level). Erected in 1978 by WTVY channel 4 (CBS) in Dothan, Alabama, it is the tallest structure and the highest point in the state of Florida. WTVY previously utilized a 1,209 ft (368.5 m) tower located 5 miles east of Dothan in the Webb community.  The old tower is still home to WTVY-FM. The new tower enables WTVY-TV to broadcast an omnidirectional signal for 80 miles which covers most of the Florida panhandle, south Alabama, and southwest Georgia.\nIn 1988, WDJR-FM located their antenna at the 1,500 ft (457 m) mark but had to relocate due to weight issues caused by the transition to digital TV and an extra antenna being needed by WTVY.  In 2013, WRGX, the new NBC affiliate and sister station to WTVY began broadcasting from the tower at the 1,500 ft (457 m) mark.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q19881960"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q3364083",
+   "slug": "ponce-de-leon-springs-state-park",
+   "name": "Ponce de Leon Springs State Park",
+   "aliases": [],
+   "description": "Florida State Park in Holmes County",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "ponce-de-leon-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.7081,
+    "lon": -85.9269
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/ponce-de-leon-springs-state-park",
+   "wikipedia": {
+    "title": "Ponce de Leon Springs State Park",
+    "url": "https://en.wikipedia.org/wiki/Ponce_de_Leon_Springs_State_Park",
+    "extract": "Ponce de Leon Springs State Recreation Area is a Florida State Park in Holmes County, Florida, United States, located in the town of Ponce de Leon. The initial acquisition of the park on September 4, 1970, used funds from the Land Acquisition Trust Fund for the stated purpose of developing, operating, and maintaining the property. The plan was to develop the park for outdoor recreation, historic conservation, and to offer abundant opportunities for nature appreciation and wildlife viewing. Today, it grants park-goers the opportunities to swim in the spring and hike along the park's nature trails.\nThe park's significance lies in the Ponce de Leon Spring, its most distinctive feature, which is fed by the Floridan Aquifer. The spring was named in honor of Juan Ponce de León, an explorer who, in 1513, led the first Spanish expedition to Florida. It is rumored that the objective of Ponce de Leon's expedition was to search for a spring that, according to a Taino Indian legend, would restore youth to those who bathed in their waters. The legend contributes to the Ponce de Leon Springs’ unofficial title, “The Fountain of Youth”.\nAlthough named after the Spanish explorer, the springs were previously inhabited by a group of Native Americans with a rich history of activity within the area.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3364083"
+    },
+    {
+     "provider": "geonames",
+     "id": "4169050"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ponce_De_Leon_SP02.jpg/1920px-Ponce_De_Leon_SP02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ponce_De_Leon_SP02.jpg",
+     "alt": "Photograph of Ponce de Leon Springs State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7941924",
+   "slug": "vortex-spring",
+   "name": "Vortex Spring",
+   "aliases": [],
+   "description": "freshwater spring and cave diving site in Florida",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.7715,
+    "lon": -85.9481
+   },
+   "wikipedia": {
+    "title": "Vortex Spring",
+    "url": "https://en.wikipedia.org/wiki/Vortex_Spring",
+    "extract": "Vortex Spring is a commercially operated recreation, camping and dive park located near Ponce de Leon, Florida. It is the largest diving facility in the state of Florida.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7941924"
+    },
+    {
+     "provider": "geonames",
+     "id": "4176571"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Vortex_Spring.jpg/1920px-Vortex_Spring.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Vortex_Spring.jpg",
+     "alt": "Photograph of Vortex Spring",
+     "credit": "Paul Clark. Edited slightly by Daniel Case prior to upload",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7951146",
+   "slug": "wage",
+   "name": "WAGE",
+   "aliases": [],
+   "description": "radio station in Dogwood Lakes Estate, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.8594,
+    "lon": -85.7958
+   },
+   "officialUrl": "https://www.bethanybc.edu/radio/",
+   "wikipedia": {
+    "title": "WAGE (FM)",
+    "url": "https://en.wikipedia.org/wiki/WAGE_(FM)",
+    "extract": "WAGE (91.1 FM) was a non-profit American radio station broadcasting a Christian radio format. The station was licensed by the Federal Communications Commission (FCC) to serve the community of Dogwood Lakes Estate, Florida.\nThe station was licensed to Florida Panhandle Technical College in Chipley, and operated by the Bethany Divinity College & Seminary of Dothan, Alabama. The programming focus of the station was southern gospel music, as a satellite of Bethany Divinity's WVOB in Dothan.\nWAGE's license was cancelled by the FCC on March 31, 2015, due to having been silent for more than twelve months (since sometime in 2012).",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1992",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7951146 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7951146"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7960645",
+   "slug": "waits-mansion",
+   "name": "Waits Mansion",
+   "aliases": [],
+   "description": "building in Florida, United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bonifay-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.7962,
+    "lon": -85.6808
+   },
+   "wikipedia": {
+    "title": "Waits Mansion",
+    "url": "https://en.wikipedia.org/wiki/Waits_Mansion",
+    "extract": "The Waits Mansion is an historic two-story Mediterranean Revival style house in Bonifay, Florida. The mansion was built by lumber company owner George Orkney Waits in the 1920s for his own use.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7960645"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bonifay_FL_209_Kansas_house01.jpg/1920px-Bonifay_FL_209_Kansas_house01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bonifay_FL_209_Kansas_house01.jpg",
+     "alt": "Photograph of Waits Mansion",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q14685906",
+   "slug": "holmes-county-high-school",
+   "name": "Holmes County High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bonifay-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.7947,
+    "lon": -85.6833
+   },
+   "officialUrl": "https://hchs.hdsb.org/",
+   "wikipedia": {
+    "title": "Holmes County High School",
+    "url": "https://en.wikipedia.org/wiki/Holmes_County_High_School",
+    "extract": "Holmes County High School is a public school on State Road 90 in Bonifay, Florida, in Holmes County. As of November 23, 2010, there were 515 students enrolled there, with 9th grade having the largest number of students (165). It is a part of Holmes District Schools. In 1985, the school was one of six in Florida that were all-white. In 2025 the student body was about 86 percent white and a little\nmore than half listed as economically disadvantaged.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q14685906"
+    },
+    {
+     "provider": "geonames",
+     "id": "4158963"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6384160",
+   "slug": "keith-cabin",
+   "name": "Keith Cabin",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.936944,
+    "lon": -85.823889
+   },
+   "wikipedia": {
+    "title": "Keith Cabin",
+    "url": "https://en.wikipedia.org/wiki/Keith_Cabin",
+    "extract": "The Keith Cabin is a historic house located at 1320 CR 179, northwest of Bonifay and west of Bethlehem in Holmes County, Florida. It was built in 1886.  It was deemed significant \"as an excellent and rare example of a 19th century log cabin built with a 'Louisiana' roof. It retains a high level of its architectural integrity, and displays excellent workmanship.\"\nIt is a one-story, one-room structure upon a split log pier foundation.  It has verandas around three sides.\nIt was added to the U.S. National Register of Historic Places on November 2, 2000.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6384160 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "00001281",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6384160 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6384160"
+    },
+    {
+     "provider": "nrhp",
+     "id": "00001281"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Pittman_FL_Keith_Cabin01.jpg/1920px-Pittman_FL_Keith_Cabin01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pittman_FL_Keith_Cabin01.jpg",
+     "alt": "Photograph of Keith Cabin",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6588347",
+   "slug": "tri-county-airport-florida",
+   "name": "Tri-County Airport (Florida)",
+   "aliases": [],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.8458,
+    "lon": -85.6014
+   },
+   "officialUrl": "https://www.kbcr.gov/",
+   "wikipedia": {
+    "title": "Tri-County Airport (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Tri-County_Airport_(Florida)",
+    "extract": "Tri-County Airport (FAA LID: KBCR) is a public-use airport located in unincorporated Holmes County, Florida, United States, 5.1 nautical miles (9.4 km) northeast of the central business district of the city of Bonifay and 5.3 miles (8.5 km) northwest of the central business district of Chipley, in Washington County. These communities are in the western Florida panhandle. Created by an act of the Florida legislature in 1969, the airport is publicly owned (as an independent public entity) and serves the Florida communities of Bonifay, Chipley and Graceville, as well as serving as a feeder/general aviation airport for Panama City, Florida and Dothan, Alabama.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "1983 Tri-County Airport Road, Bonifay, FL 32425",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6588347 P6375"
+    },
+    {
+     "key": "operator",
+     "value": "Jonathan Harris",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6588347 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6588347"
+    },
+    {
+     "provider": "geonames",
+     "id": "4175643"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q1701206",
+   "slug": "waffle-house",
+   "name": "Waffle House",
+   "aliases": [],
+   "description": "restaurant chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wafflehouse.com/",
+   "wikipedia": {
+    "title": "Waffle House",
+    "url": "https://en.wikipedia.org/wiki/Waffle_House",
+    "extract": "Waffle House, Inc. is an American restaurant chain with over 2,000 locations in 25 states in the United States. The bulk of the locations are in the Midwest and the South, where the chain is a regional cultural icon. The menu consists mainly of Southern breakfast food. Waffle House is headquartered in Norcross, Georgia, in the Atlanta metropolitan area.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1701206 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Gwinnett County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1701206 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1701206 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1701206"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Waffle_House_Logo.svg/1920px-Waffle_House_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Waffle_House_Logo.svg",
+     "alt": "Waffle House logo",
+     "credit": "Waffle House",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q191615",
+   "slug": "pizza-hut",
+   "name": "Pizza Hut",
+   "aliases": [
+    "Pizza Hut, Inc.",
+    "Pizza Hut Express",
+    "Pizza Hut mobile app"
+   ],
+   "description": "American restaurant chain and international franchise",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 96,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pizzahut.com/",
+   "wikipedia": {
+    "title": "Pizza Hut",
+    "url": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "extract": "Pizza Hut, LLC is an American multinational pizza restaurant chain and international franchise founded in 1958 in Wichita, Kansas, by brothers Dan and Frank Carney. The chain, headquartered in Plano, Texas, operates 19,974 restaurants worldwide as of 2025.\nWhile studying at Wichita State University, the Carneys opened their first location, which quickly expanded to six outlets within a year. The brand began franchising in 1959, and its distinctive building style was designed by Chicagoan architect George Lindstrom in 1963. Pizza Hut experienced significant growth, including the acquisition by PepsiCo in 1977, followed by a spin-off into Tricon Global Restaurants, Inc., later renamed Yum! Brands in 2002, who are the former owners, and later, the acquisition by LongRange Capital and Yum China in 2026.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2002-06-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dan and Frank Carney",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q191615 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q191615"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pizza_Hut_%282019%29.svg/1920px-Pizza_Hut_%282019%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_(2019).svg",
+     "alt": "Pizza Hut logo",
+     "credit": "This logo was devised when the chain was still functioning independently, and then carried over into its subsequent acqu",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3388303",
+   "slug": "piggly-wiggly",
+   "name": "Piggly Wiggly",
+   "aliases": [],
+   "description": "American supermarket chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pigglywiggly.com/",
+   "wikipedia": {
+    "title": "Piggly Wiggly",
+    "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+    "extract": "Piggly Wiggly, LLC is an American supermarket chain operating in the American Southern and Midwestern regions. Its first outlet opened in 1916 in Memphis, Tennessee, and was the first true self-service grocery store, and the originator of various familiar supermarket features, such as checkout stands and individual item price marking.\nThe company is currently headquartered in Keene, New Hampshire, although no Piggly Wiggly-branded stores operate in that state. As of 2024, 503 independently owned Piggly Wiggly stores operated in 18 states, primarily in smaller cities and towns.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Keene",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Clarence Saunders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3388303 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3388303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Piggly_wiggly.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Piggly_wiggly.png",
+     "alt": "Piggly Wiggly logo",
+     "credit": "C&amp;S Wholesale Grocers and Piggly Wiggly",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q61803820",
+   "slug": "evgo",
+   "name": "EVgo",
+   "aliases": [],
+   "description": "United States based Electric Vehicle DC charging brand",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.evgo.com/",
+   "wikipedia": {
+    "title": "EVgo",
+    "url": "https://en.wikipedia.org/wiki/EVgo",
+    "extract": "EVgo Inc. is an American company that operates a public electric vehicle DC fast charging network in the United States. As of June 2026, EVgo reported more than 1,200 fast-charging locations across 47 states. Its charging stations support CCS, CHAdeMO, and NACS connectors, with connector availability varying by location.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "parent-organization",
+     "value": "NRG Energy; LS Power",
+     "sourceId": "wikidata",
+     "sourceRef": "Q61803820 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q61803820 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q61803820"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/EVgo_Logo.svg/1920px-EVgo_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:EVgo_Logo.svg",
+     "alt": "EVgo logo",
+     "credit": "EVgo",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1143685",
+   "slug": "cumberland-farms",
+   "name": "Cumberland Farms",
+   "aliases": [
+    "Cumbies"
+   ],
+   "description": "regional gas station and convenience store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cumberlandfarms.com",
+   "wikipedia": {
+    "title": "Cumberland Farms",
+    "url": "https://en.wikipedia.org/wiki/Cumberland_Farms",
+    "extract": "Cumberland Farms (colloquially known as Cumby's) is a convenience store chain,  founded in 1939 by Greek immigrants in Cumberland, Rhode Island.\nThe chain operates primarily in the New England states, though it also has stores in New York, Florida, South Carolina and Georgia in the US, and has expanded internationally to Germany. \nIt has been owned by EG Group since 2019, following its sale by the founding Haseotes family. It remains based in Westborough, Massachusetts.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1143685 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Framingham",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1143685 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1143685 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1143685"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cumberland_Farms_logo.svg/1920px-Cumberland_Farms_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Cumberland_Farms_logo.svg",
+     "alt": "Cumberland Farms logo",
+     "credit": "Cumberland Farms",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5880423",
+   "slug": "holiday-inn-express",
+   "name": "Holiday Inn Express",
+   "aliases": [],
+   "description": "American midscale hotel chain run by IHG",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "holmes-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hiexpress.com/",
+   "wikipedia": {
+    "title": "Holiday Inn Express",
+    "url": "https://en.wikipedia.org/wiki/Holiday_Inn_Express",
+    "extract": "Holiday Inn Express by IHG is an American-based mid-priced hotel chain within the IHG Hotels & Resorts family of brands. Originally founded as an \"express\" hotel, their focus is on offering limited services at a reasonable price. Standard amenities lean toward the convenient and practical which cater to business travelers and short-term stays. As of September 2019, there are 2,826 Holiday Inn Express hotels featuring over 292,000 rooms worldwide. The chain's concept was intended to target the \"upper economy\" market segment.\nIn Europe, the hotels were known as Express by Holiday Inn, but this variation was phased out during a rebranding which was announced in 2006.",
+    "retrievedAt": "2026-11-27T19:56:34.229Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1991",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5880423 P571"
+    },
+    {
+     "key": "parent-organization",
+     "value": "IHG Hotels & Resorts",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5880423 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5880423 inside Holmes County boundary",
+     "scopeAreaSlug": "holmes-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5880423"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Holiday_Inn_Express_by_IHG_logo.svg/1920px-Holiday_Inn_Express_by_IHG_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Holiday_Inn_Express_by_IHG_logo.svg",
+     "alt": "Holiday Inn Express logo",
+     "credit": "IHG Hotels &amp; Resorts",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "holmes-county-fl",
+  "wikidataCandidates": 42,
+  "places": 9,
+  "brands": 9,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 18,
+  "withFreeImage": 13,
+  "withCoordinates": 9,
+  "osmBrandedLocations": 10,
+  "unmappedClasses": 3
+ }
+}

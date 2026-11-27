@@ -1,0 +1,5205 @@
+{
+ "generatedAt": "2026-11-27T20:00:13.758Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "jefferson-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T20:00:13.758Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T20:00:13.758Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Jefferson County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T20:00:13.758Z",
+   "checksumSha256": "7417842acda047491d67a82dfc77b9eea486366983128bce58306e007478000a"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q847617",
+   "slug": "lake-miccosukee",
+   "name": "Lake Miccosukee",
+   "aliases": [],
+   "description": "lake in Florida, United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5707,
+    "lon": -83.9791
+   },
+   "wikipedia": {
+    "title": "Lake Miccosukee",
+    "url": "https://en.wikipedia.org/wiki/Lake_Miccosukee",
+    "extract": "Lake Miccosukee is a large swampy prairie lake in northern Jefferson County, Florida, located east of the settlement of Miccosukee. A small portion of the lake, its northwest corner, is located in Leon County. The small town of Miccosukee, Florida is located on the north eastern shore of the lake in Leon County.\nThe lake is named after the Miccosukee people.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q847617"
+    },
+    {
+     "provider": "geonames",
+     "id": "4161317"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lake_Miccosukee.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Miccosukee.png",
+     "alt": "Photograph of Lake Miccosukee",
+     "credit": "Original uploader was Noles1984 at en.wikipedia",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4803142",
+   "slug": "asa-may-house",
+   "name": "Asa May House",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.414444,
+    "lon": -83.911111
+   },
+   "wikipedia": {
+    "title": "Asa May House (Rosewood Plantation)",
+    "url": "https://en.wikipedia.org/wiki/Asa_May_House_(Rosewood_Plantation)",
+    "extract": "The Asa May House (also known as the Rosewood Plantation) is a historic house located along U.S. 19, between U.S. 27 and I-10 (the house is closer to US 27 than I-10) in Capps, Florida. It was added to the National Register of Historic Places on December 15, 1972.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1840",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4803142 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4803142 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000329",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4803142 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4803142"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000329"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asa_May_House_Capps01.jpg/1920px-Asa_May_House_Capps01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Asa_May_House_Capps01.jpg",
+     "alt": "Photograph of Asa May House",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q3485462",
+   "slug": "page-ladson-prehistory-site",
+   "name": "Page-Ladson prehistory site",
+   "aliases": [],
+   "description": "archaeological and paleontological site",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.1702,
+    "lon": -83.9577
+   },
+   "wikipedia": {
+    "title": "Page–Ladson site",
+    "url": "https://en.wikipedia.org/wiki/Page%E2%80%93Ladson_site",
+    "extract": "The Page–Ladson archaeological and paleontological site (8JE591) is a deep sinkhole in the bed of the karstic Aucilla River (between Jefferson and Taylor counties in the Big Bend region of Florida) that contains stratified deposits of late Pleistocene and early Holocene animal bones and human artifacts. The site was the first pre-Clovis site discovered in southeastern North America; radiocarbon evidence suggests that the site dates from 14,200 to 14,550 BP (12,250 to 12,600 BCE). These dates are roughly 1,000 to 1,500 years before the advent of the Clovis culture. Early dates for Page–Ladson challenge theories that humans quickly decimated large game populations in the area once they arrived.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3485462"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5258112",
+   "slug": "dennis-coxetter-house",
+   "name": "Dennis-Coxetter House",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lloyd-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.478056,
+    "lon": -84.023056
+   },
+   "wikipedia": {
+    "title": "Dennis-Coxetter House",
+    "url": "https://en.wikipedia.org/wiki/Dennis-Coxetter_House",
+    "extract": "The Dennis-Coxetter House is a historic house located at the junction of Bond Street and State Road 59 in Lloyd, Florida.  It was added to the National Register of Historic Places on October 20, 1988.\nThe house is one of the earliest buildings of the agricultural village of Lloyd, founded in 1859.  It was a summer residence of a leading plantation family of Leon County and Jefferson County.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1859",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5258112 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5258112 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "88002025",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5258112 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5258112"
+    },
+    {
+     "provider": "nrhp",
+     "id": "88002025"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dennis-Coxetter_House01.jpg/1920px-Dennis-Coxetter_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dennis-Coxetter_House01.jpg",
+     "alt": "Photograph of Dennis-Coxetter House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6556727",
+   "slug": "lipona-plantation",
+   "name": "Lipona Plantation",
+   "aliases": [],
+   "description": "human settlement in United States of America",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4026,
+    "lon": -84.0228
+   },
+   "wikipedia": {
+    "title": "Lipona Plantation",
+    "url": "https://en.wikipedia.org/wiki/Lipona_Plantation",
+    "extract": "Lipona Plantation was a forced-labor farm of 900 acres (3.6 km2) in Jefferson County, Florida, United States established by Prince Achille Murat. The name is an anagram of Napoli, which Murat was the former prince of.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6556727"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6662471",
+   "slug": "lloyd-historic-district",
+   "name": "Lloyd Historic District",
+   "aliases": [],
+   "description": "historic district in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lloyd-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.478611,
+    "lon": -84.023611
+   },
+   "wikipedia": {
+    "title": "Lloyd Historic District",
+    "url": "https://en.wikipedia.org/wiki/Lloyd_Historic_District",
+    "extract": "The Lloyd Historic District is a U.S. historic district (designated as such on September 5, 1991) located in Lloyd, Florida. The district runs roughly along Main Street north of Bond Street and Bond east of Main. It contains 18 buildings.\nOn June 27, 2002, a decrease in the district's boundary was implemented.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6662471 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "91001374",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6662471 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6662471"
+    },
+    {
+     "provider": "nrhp",
+     "id": "91001374"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Lloyd_Hist_Dist01.jpg/1920px-Lloyd_Hist_Dist01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Lloyd_Hist_Dist01.jpg",
+     "alt": "Photograph of Lloyd Historic District",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6662701",
+   "slug": "lloyd-railroad-depot",
+   "name": "Lloyd Railroad Depot",
+   "aliases": [],
+   "description": "railway station in Lloyd, the United States of America",
+   "entityType": "transit_station",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "public-transit",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lloyd-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.477778,
+    "lon": -84.021944
+   },
+   "wikipedia": {
+    "title": "Lloyd Railroad Depot",
+    "url": "https://en.wikipedia.org/wiki/Lloyd_Railroad_Depot",
+    "extract": "The Lloyd Railroad Depot (also known as Bailey's Mill Station or Number Two Station) is a historic depot building in Lloyd, Florida in the United States. Built in 1858 by the Pensacola and Georgia Railroad, it is the oldest brick railroad station in Florida and one of only three surviving railroad depots in the state built prior to the start of the American Civil War. The Seaboard Air Line Railroad operated a local New Orleans - Jacksonville train on the line, making flag stops at the station, while the better known Gulf Wind passed through without stopping.\nThe building closed in 1966 after its owner at the time, the Seaboard Air Line Railroad, discontinued that local service and donated it to the Jefferson County Historical Society. A few years later, ownership was transferred to the Gulf Wind Chapter of the National Railway Historical Society, who own it to this day. On December 2, 1974, it was added to the U.S. National Register of Historic Places. The structure is located near the junction of SR 59 and Lester Lawrence Road. It is currently used as a post office.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6662701 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "74000645",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6662701 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6662701"
+    },
+    {
+     "provider": "nrhp",
+     "id": "74000645"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Lloyd_Railroad_Depot01.jpg/1920px-Lloyd_Railroad_Depot01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Lloyd_Railroad_Depot01.jpg",
+     "alt": "Photograph of Lloyd Railroad Depot",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q14686153",
+   "slug": "lloyd-bond-house",
+   "name": "Lloyd-Bond House",
+   "aliases": [],
+   "description": "place in Florida listed on National Register of Historic Places",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lloyd-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4781,
+    "lon": -84.0233
+   },
+   "wikipedia": {
+    "title": "Lloyd–Bond House",
+    "url": "https://en.wikipedia.org/wiki/Lloyd%E2%80%93Bond_House",
+    "extract": "The Lloyd–Bond House (also known as the Miller House) is a historic home in Lloyd, Florida. It is located on Bond Street. On November 1, 1984, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14686153 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "84000198",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14686153 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q14686153"
+    },
+    {
+     "provider": "nrhp",
+     "id": "84000198"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Lloyd-Bond_House01.jpg/1920px-Lloyd-Bond_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Lloyd-Bond_House01.jpg",
+     "alt": "Photograph of Lloyd-Bond House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q28450259",
+   "slug": "aucilla-wildlife-management-area",
+   "name": "Aucilla Wildlife Management Area",
+   "aliases": [],
+   "description": "Wildlife Management Area in Jefferson County, Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.275278,
+    "lon": -83.995
+   },
+   "officialUrl": "https://myfwc.com/recreation/lead/aucilla/",
+   "wikipedia": {
+    "title": "Aucilla Wildlife Management Area",
+    "url": "https://en.wikipedia.org/wiki/Aucilla_Wildlife_Management_Area",
+    "extract": "Aucilla Wildlife Management Area conserves 50,549 acres of hydric hammock, mesic flatwoods, upland forest, and spring-run river twelve miles southeast of Tallahassee in Jefferson and Taylor Counties in Florida.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 50549,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q28450259 P2046"
+    },
+    {
+     "key": "operator",
+     "value": "Florida Fish and Wildlife Conservation Commission",
+     "sourceId": "wikidata",
+     "sourceRef": "Q28450259 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q28450259"
+    },
+    {
+     "provider": "geonames",
+     "id": "4146402"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Aucilla_WMA_-_Boundary_Road_-_entrance_sign.jpg/1920px-Aucilla_WMA_-_Boundary_Road_-_entrance_sign.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Aucilla_WMA_-_Boundary_Road_-_entrance_sign.jpg",
+     "alt": "Photograph of Aucilla Wildlife Management Area",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q113510581",
+   "slug": "old-howard-academy",
+   "name": "Old Howard Academy",
+   "aliases": [],
+   "description": "School in Monticello, Florida, U.S. (1936–1960)",
+   "entityType": "school",
+   "status": "historical",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.551667,
+    "lon": -83.864722
+   },
+   "wikipedia": {
+    "title": "Old Howard Academy",
+    "url": "https://en.wikipedia.org/wiki/Old_Howard_Academy",
+    "extract": "Old Howard Academy is a former school for Black students in Monticello, Florida at 665 East Chestnut Street, now 835 Mamie Scott Drive. It was operated by the Jeanes Fund from 1936 until 1960. It has been listed on the National Register of Historic Places since July 19, 2021; and a historical marker commemorates the schools' history.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1936",
+     "sourceId": "wikidata",
+     "sourceRef": "Q113510581 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1960",
+     "sourceId": "wikidata",
+     "sourceRef": "Q113510581 P576"
+    },
+    {
+     "key": "street-address",
+     "value": "835 Mamie Scott Drive, Monticello, Florida",
+     "sourceId": "wikidata",
+     "sourceRef": "Q113510581 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q113510581 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "100006751",
+     "sourceId": "wikidata",
+     "sourceRef": "Q113510581 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q113510581"
+    },
+    {
+     "provider": "nrhp",
+     "id": "100006751"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Howard_Academy%2C_Montecello%2C_FL%2C_US.jpg/1920px-Howard_Academy%2C_Montecello%2C_FL%2C_US.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Howard_Academy,_Montecello,_FL,_US.jpg",
+     "alt": "Photograph of Old Howard Academy",
+     "credit": "Jud McCranie",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q117489296",
+   "slug": "roseland-cemetery",
+   "name": "Roseland Cemetery",
+   "aliases": [],
+   "description": "cemetery in Jefferson County, Florida, United States",
+   "entityType": "cemetery",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "cemeteries",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5497,
+    "lon": -83.8675
+   },
+   "wikipedia": {
+    "title": "Roseland Cemetery",
+    "url": "https://en.wikipedia.org/wiki/Roseland_Cemetery",
+    "extract": "Roseland Cemetery is in Monticello, Florida. It was established in 1845 and is one of three city owned cemeteries. Old City Cemetery was established in 1827 and Oakfield Cemetery in 1986. African Americans were buried at Old Union Cemetery.\nThe Florida archives include a photo of the Groom family's stone marker.\nIn 2022 a moonlight cemetery walk was held.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q117489296"
+    },
+    {
+     "provider": "geonames",
+     "id": "4170521"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q136734446",
+   "slug": "county-road-142",
+   "name": "County Road 142",
+   "aliases": [
+    "Jefferson County Road 142",
+    "Lake Road"
+   ],
+   "description": "county road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.612421,
+    "lon": -83.909178
+   },
+   "wikipedia": {
+    "title": "County Road 142 (Jefferson County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/List_of_county_roads_in_Jefferson_County,_Florida",
+    "extract": "The following is a list of county roads in Jefferson County, Florida.  All county roads are maintained by the county in which they reside.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q136734446 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q136734446"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Jefferson_CR142_at_county_line.jpg/1920px-Jefferson_CR142_at_county_line.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_CR142_at_county_line.jpg",
+     "alt": "Photograph of County Road 142",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q139549228",
+   "slug": "jefferson-county-k-12-school",
+   "name": "Jefferson County K-12 School",
+   "aliases": [
+    "Jefferson County Middle/High School"
+   ],
+   "description": "school in Jefferson County, Florida, United States",
+   "entityType": "school_district",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "school-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.490882,
+    "lon": -83.880106
+   },
+   "officialUrl": "https://www.jeffersonschools.net/jeffersonk12school",
+   "wikipedia": {
+    "title": "Jefferson County Middle / High School",
+    "url": "https://en.wikipedia.org/wiki/Jefferson_County_Middle_/_High_School",
+    "extract": "Jefferson County Middle / High School (JCMHS) is a public school in unincorporated Jefferson County, Florida, with a Monticello postal address. A part of Jefferson County Schools, it serves grades 6 – 12. The school's mascot is a tiger and the school colors are orange and blue. It is at 50 David Road, 4 miles (6.4 km) south of the center of Monticello. The school was formerly housed in the historic Jefferson Academy building, opened in 1852 in the first brick school building in Florida. Minority enrollment at Jefferson County Middle / High School is about 340 and 84 percent minority. It was operated by Somerset Academy Inc. for five years. The student body is majority-minority, about 60 percent African American. The current facility opened in 2004. It had a cost of $17,200,000.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2004",
+     "sourceId": "wikidata",
+     "sourceRef": "Q139549228 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "50 David Rd, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q139549228 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q139549228"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jefferson_County_K-12_School.jpg/1920px-Jefferson_County_K-12_School.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_K-12_School.jpg",
+     "alt": "Photograph of Jefferson County K-12 School",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q139553351",
+   "slug": "county-road-57a",
+   "name": "County Road 57A",
+   "aliases": [
+    "Jefferson County Road 57A",
+    "David Road",
+    "Old Drifton Road"
+   ],
+   "description": "road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.49205,
+    "lon": -83.880857
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q139553351 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q139553351"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/NB_CR57A_from_US19%2C_Drifton.jpg/1920px-NB_CR57A_from_US19%2C_Drifton.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:NB_CR57A_from_US19,_Drifton.jpg",
+     "alt": "Photograph of County Road 57A",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6708663",
+   "slug": "lyndhurst-plantation",
+   "name": "Lyndhurst Plantation",
+   "aliases": [],
+   "description": "human settlement in Florida, United States of America",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5875,
+    "lon": -83.653056
+   },
+   "wikipedia": {
+    "title": "Lyndhurst Plantation",
+    "url": "https://en.wikipedia.org/wiki/Lyndhurst_Plantation",
+    "extract": "The Lyndhurst Plantation is a historic slave plantation in unincorporated Jefferson County, Florida. It is located 15 miles (24 km) northeast of Monticello, off Ashville Road. On April 2, 1973, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6708663 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "73000582",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6708663 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6708663"
+    },
+    {
+     "provider": "nrhp",
+     "id": "73000582"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Monticello_FL_Lyndhurst_Plantation_bldg01.jpg/1920px-Monticello_FL_Lyndhurst_Plantation_bldg01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_FL_Lyndhurst_Plantation_bldg01.jpg",
+     "alt": "Photograph of Lyndhurst Plantation",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q134366563",
+   "slug": "county-road-146",
+   "name": "County Road 146",
+   "aliases": [
+    "Jefferson County Road 146",
+    "Ashville Highway"
+   ],
+   "description": "county road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.59622,
+    "lon": -83.731672
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134366563 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134366563"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6533192",
+   "slug": "letchworth-love-mounds-archaeological-state-park",
+   "name": "Letchworth-Love Mounds Archaeological State Park",
+   "aliases": [
+    "Letchworth",
+    "Letchworth Mounds",
+    "Letchworth State Park"
+   ],
+   "description": "State Park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5177,
+    "lon": -83.9916
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/letchworth-love-mounds-archaeological-state-park",
+   "wikipedia": {
+    "title": "Letchworth-Love Mounds Archaeological State Park",
+    "url": "https://en.wikipedia.org/wiki/Letchworth-Love_Mounds_Archaeological_State_Park",
+    "extract": "Letchworth-Love Mounds Archaeological State Park is a 190.11-acre (76.93 ha) Florida state park in Jefferson County, Florida, United States, about six miles (9.7 km) west of Monticello.  It preserves the Letchworth-Love Mounds, a Woodland period mound complex on a low sandy rise near the southwestern shore of Lake Miccosukee. The site is recorded in the Florida Master Site File, the state's inventory of historical and archaeological resources, under the Smithsonian trinomial 8JE337. Its principal earthwork, Mound 1, stands about 49 feet (15 m) tall and is the tallest prehistoric Native American earthwork in Florida. The site was added to the National Register of Historic Places in 2010.\nThe complex was built and occupied chiefly by the Swift Creek and Weeden Island cultures between roughly AD 200 and 900, with most mound construction falling in the early Weeden Island period. At least seven mounds survive within the park, set around a central plaza with an adjoining habitation area; historical accounts describe as many as 28 mounds across the wider site. Excavations in the habitation area have uncovered a Woodland-period house whose radiocarbon dates place it in the fifth or sixth century AD. Lying near the geographic center of the Weeden Island culture area, Letchworth is distinctive among the culture's major ceremonial centers, most of which stand at its margins.\nThe mound was described in print as early as 1931 and noted in 1939 by the historian Mark F. Boyd, who called it the \"Miccosukee mound\"; even so, the land remained in private, largely agricultural ownership and was not recorded as an archaeological site until 1975. The state assembled the park through purchases in 1992 and 2005, and it is managed by the Florida Department of Environmental Protection (FDEP) Division of Recreation and Parks.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6533192"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Letchworth_Mound_1_Main.jpg/1920px-Letchworth_Mound_1_Main.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Letchworth_Mound_1_Main.jpg",
+     "alt": "Photograph of Letchworth-Love Mounds Archaeological State Park",
+     "credit": "Operator 16",
+     "license": "CC0",
+     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ]
+  },
+  {
+   "qid": "Q7855833",
+   "slug": "turnbull-ritter-house",
+   "name": "Turnbull-Ritter House",
+   "aliases": [],
+   "description": "also known as the Sunrise Plantation, a historic home near Lamont, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.474444,
+    "lon": -83.905
+   },
+   "wikipedia": {
+    "title": "Turnbull-Ritter House",
+    "url": "https://en.wikipedia.org/wiki/Turnbull-Ritter_House",
+    "extract": "The Turnbull-Ritter House (also known as the Sunrise Plantation) is a historic house located northwest of Lamont, Florida, off U.S. 19.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7855833 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "79000673",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7855833 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7855833"
+    },
+    {
+     "provider": "nrhp",
+     "id": "79000673"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jefferson_County_FL_Turnbull-Ritter_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_FL_Turnbull-Ritter_House01.jpg",
+     "alt": "Photograph of Turnbull-Ritter House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7949476",
+   "slug": "wfrf-fm",
+   "name": "WFRF-FM",
+   "aliases": [],
+   "description": "radio station (105.7 FM) licensed to Monticello, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.3856,
+    "lon": -83.8347
+   },
+   "officialUrl": "https://www.faithradio.us/",
+   "wikipedia": {
+    "title": "WFRF-FM",
+    "url": "https://en.wikipedia.org/wiki/WFRF-FM",
+    "extract": "WFRF-FM (105.7 FM, \"Faith Radio\") is an American non-commercial educational radio station in Florida, United States.  The station, established in 1989 as WJPH, is owned and operated by Faith Radio Network, Inc. Its studios are located in unincorporated Leon County, Florida, near Tallahassee, close to Lake Jackson and its transmitter is based in Jefferson County, Florida.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1989",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949476 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7949476"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7949801",
+   "slug": "wglf",
+   "name": "WGLF",
+   "aliases": [],
+   "description": "radio station in Tallahassee, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.451,
+    "lon": -84.012
+   },
+   "officialUrl": "https://www.gulf104.com/",
+   "wikipedia": {
+    "title": "WGLF",
+    "url": "https://en.wikipedia.org/wiki/WGLF",
+    "extract": "WGLF (104.1 FM) is a classic hits radio station in the Tallahassee, Florida, market owned by Cumulus Media.  Its studios are located in the westside of Tallahassee and its transmitter is based east of the city near Lloyd, Florida.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1970",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949801 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Cumulus Media",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949801 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7949801"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7958794",
+   "slug": "wacissa-river",
+   "name": "Wacissa River",
+   "aliases": [],
+   "description": "river in Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lamont-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.3747,
+    "lon": -83.8122
+   },
+   "wikipedia": {
+    "title": "Wacissa River",
+    "url": "https://en.wikipedia.org/wiki/Wacissa_River",
+    "extract": "The Wacissa River is a large, spring-fed stream located in south-central Jefferson County, Florida. Its headwaters are located about 1-mile (1.6 km) south of the town of Wacissa, where the river emerges crystal clear from a group of large limestone springs. From its headsprings, the river flows approximately 12 miles (19 km) south through a broad cypress swamp before breaking into numerous braided channels which join the Aucilla River a few miles further south. The river is managed by the Florida Fish & Wildlife Conservation Commission as part of the Aucilla Wildlife Management Area, and has been declared an Outstanding Florida Waterway by the Florida Department of Environmental Protection.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7958794"
+    },
+    {
+     "provider": "geonames",
+     "id": "4177290"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Wacissa_River%2C_Jefferson_County_%28Florida%2C%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wacissa_River,_Jefferson_County_(Florida,).jpg",
+     "alt": "Photograph of Wacissa River",
+     "credit": "anoldent from Asheville, NC, USA",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7980504",
+   "slug": "welaunee-plantation",
+   "name": "Welaunee Plantation",
+   "aliases": [
+    "Robert Howard Gamble"
+   ],
+   "description": "human settlement in the United States of America",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.3694,
+    "lon": -83.9404
+   },
+   "wikipedia": {
+    "title": "Welaunee Plantation (Jefferson County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Welaunee_Plantation_(Jefferson_County,_Florida)",
+    "extract": "Welaunee Plantation was a forced-labor farm growing cotton near Wacissa in Jefferson County, Florida, established by Col. Robert Howard Gamble.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Robert Howard Gamble",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7980504 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7980504"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q133894071",
+   "slug": "county-road-158b",
+   "name": "County Road 158B",
+   "aliases": [
+    "Jefferson County Road 158B",
+    "Rabon Road",
+    "Nash Road"
+   ],
+   "description": "county road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.500038,
+    "lon": -83.922974
+   },
+   "wikipedia": {
+    "title": "County Road 158B (Jefferson County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/List_of_county_roads_in_Jefferson_County,_Florida",
+    "extract": "The following is a list of county roads in Jefferson County, Florida.  All county roads are maintained by the county in which they reside.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q133894071 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q133894071"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q133894076",
+   "slug": "county-road-158a",
+   "name": "County Road 158A",
+   "aliases": [
+    "Jefferson County Road 158A",
+    "Old Lloyd Road"
+   ],
+   "description": "county road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.514697,
+    "lon": -83.937885
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q133894076 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q133894076"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q133894126",
+   "slug": "county-road-257",
+   "name": "County Road 257",
+   "aliases": [
+    "Jefferson County Road 257",
+    "Salt Road"
+   ],
+   "description": "county road in Jefferson County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.423254,
+    "lon": -83.781118
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Jefferson County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q133894126 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q133894126"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jefferson_CR257_at_CR158_in_Aucilla.jpg/1920px-Jefferson_CR257_at_CR158_in_Aucilla.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_CR257_at_CR158_in_Aucilla.jpg",
+     "alt": "Photograph of County Road 257",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q136469090",
+   "slug": "casa-bianca-plantation",
+   "name": "Casa Bianca Plantation",
+   "aliases": [],
+   "entityType": "historic_site",
+   "status": "historical",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.52,
+    "lon": -83.8925
+   },
+   "wikipedia": {
+    "title": "Casa Bianca Plantation",
+    "url": "https://en.wikipedia.org/wiki/Casa_Bianca_Plantation",
+    "extract": "Casa Bianca was an antebellum cotton plantation established in 1828 in Jefferson County, Florida, US. It was created by Joseph Mills White (1781–1839) and his business partner Richard H. Wilde (1789–1847), both delegates of the United States House of Representatives, and was located off of what is today Jefferson County Road 259 southwest of Monticello, Florida. Casa Bianca was originally intended to serve as a sugar cane plantation, but transitioned to cotton production with the rise of cotton as the primary agricultural commodity in Florida in the 1830s. The plantation sourced slaves from New Orleans, brought there aboard a ship naned Antelope, a purchase with the former United States President James Monroe, and from Joseph M. White's brother, Everett White. There were a total of 163 slaves at the Casa Bianca Plantation and at its largest, it spanned 3,000 acres (1,200 hectares).",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1828",
+     "sourceId": "wikidata",
+     "sourceRef": "Q136469090 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1860",
+     "sourceId": "wikidata",
+     "sourceRef": "Q136469090 P576"
+    },
+    {
+     "key": "area",
+     "value": 3000,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q136469090 P2046"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q136469090"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/N037042.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:N037042.jpg",
+     "alt": "Photograph of Casa Bianca Plantation",
+     "credit": "State Archives of Florida",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4897927",
+   "slug": "bethel-school",
+   "name": "Bethel School",
+   "aliases": [],
+   "description": "school building in Florida, United States of America",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.613611,
+    "lon": -83.837778
+   },
+   "wikipedia": {
+    "title": "Bethel School (Monticello, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Bethel_School_(Monticello,_Florida)",
+    "extract": "The Bethel School is a historic school building in Jefferson County, Florida, with a Monticello postal address. It is located on County Road 149. It was added to the U.S. National Register of Historic Places on October 12, 2001.\nIn 1903, Thomas S. and Mary H. Johnson donated one acre of their property across from the Methodist Church to the school board for educational uses. The building is a rectangular, frame vernacular building that was built in 1903, sitting on a brick pier foundation. The building operated as a school until 1946.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4897927 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "01001084",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4897927 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4897927"
+    },
+    {
+     "provider": "nrhp",
+     "id": "01001084"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Monticello_FL_Bethel_School01.jpg/1920px-Monticello_FL_Bethel_School01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_FL_Bethel_School01.jpg",
+     "alt": "Photograph of Bethel School",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5108869",
+   "slug": "christ-episcopal-church",
+   "name": "Christ Episcopal Church",
+   "aliases": [],
+   "description": "church building in Monticello, United States of America",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.547461,
+    "lon": -83.869872
+   },
+   "wikipedia": {
+    "title": "Christ Episcopal Church (Monticello, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Christ_Episcopal_Church_(Monticello,_Florida)",
+    "extract": "Christ Episcopal Church is an historic Carpenter Gothic Episcopal church located at 425 North Cherry Street in Monticello, Florida in the United States. Designed by G.M. Torgerson, a Swede, in the Carpenter Gothic style of architecture with some stick-style detailing, it was built in 1885 to replace a previous church building which burned in 1883. Its steep roof, lancet windows and side belfry and entrance are typical of Carpenter Gothic churches. The church had been organized in 1840 by local Episcopalians who had previously held lay services in their homes.  It is still an active parish in the Episcopal Diocese of Florida.\nThe building is a contributing property in the Monticello Historic District, which was added to the National Register of Historic Places on August 19, 1977.\nIn 1989, Christ Episcopal Church was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5108869"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Monticello_Hist_Dist_Church02a.jpg/1920px-Monticello_Hist_Dist_Church02a.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_Hist_Dist_Church02a.jpg",
+     "alt": "Photograph of Christ Episcopal Church",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q5256967",
+   "slug": "denham-lacy-house",
+   "name": "Denham-Lacy House",
+   "aliases": [
+    "Virginia C. Turnbull House"
+   ],
+   "description": "historic house in Monticello, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.543333,
+    "lon": -83.873611
+   },
+   "wikipedia": {
+    "title": "Denham-Lacy House",
+    "url": "https://en.wikipedia.org/wiki/Denham-Lacy_House",
+    "extract": "The Denham-Lacy House is a historic Inn located in Monticello, Florida.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1872",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5256967 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "555 W Palmer Mill Rd, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5256967 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5256967 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "82002376",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5256967 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5256967"
+    },
+    {
+     "provider": "nrhp",
+     "id": "82002376"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Denham-Lacy_House01.jpg/1920px-Denham-Lacy_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Denham-Lacy_House01.jpg",
+     "alt": "Photograph of Denham-Lacy House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6905956",
+   "slug": "monticello-high-school",
+   "name": "Monticello High School",
+   "aliases": [],
+   "description": "high school in Jefferson County, Florida",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.544674,
+    "lon": -83.873126
+   },
+   "wikipedia": {
+    "title": "Monticello High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Monticello_High_School_(Florida)",
+    "extract": "The Monticello High School (also known as the Jefferson Academy and Jefferson County High School) is a historic U.S. school in Monticello, Florida. It is located at 425 West Washington Street. On March 25, 1999, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1852",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6905956 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "425 W Washington St, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6905956 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6905956 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "99000373",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6905956 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6905956"
+    },
+    {
+     "provider": "nrhp",
+     "id": "99000373"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jefferson_Cty_High_School_Monticello01.jpg/1920px-Jefferson_Cty_High_School_Monticello01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_Cty_High_School_Monticello01.jpg",
+     "alt": "Photograph of Monticello High School",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7128205",
+   "slug": "palmer-perkins-house",
+   "name": "Palmer-Perkins House",
+   "aliases": [],
+   "description": "Monticello, Florida, listed on the NRHP in Jefferson County, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.543889,
+    "lon": -83.875
+   },
+   "wikipedia": {
+    "title": "Palmer-Perkins House",
+    "url": "https://en.wikipedia.org/wiki/Palmer-Perkins_House",
+    "extract": "The Palmer-Perkins House is a historic home in Monticello, Florida. It is located at 625 West Palmer Mill Road. On July 10, 1979, it was added to the U.S. National Register of Historic Places.\nOn March 18, 1986, there was a boundary increase to this site, also referred to as the Palmer-Perkins House and Palmer Family Graveyard. It extended the listing to 185 West Washington Street.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "625 W Palmer Mill Rd, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128205 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128205 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "79000674",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128205 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7128205"
+    },
+    {
+     "provider": "nrhp",
+     "id": "79000674"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Palmer-Perkins_House01.jpg/1920px-Palmer-Perkins_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Palmer-Perkins_House01.jpg",
+     "alt": "Photograph of Palmer-Perkins House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7128241",
+   "slug": "palmer-house",
+   "name": "Palmer House",
+   "aliases": [],
+   "description": "house in Monticello, Florida, USA",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.543889,
+    "lon": -83.870556
+   },
+   "wikipedia": {
+    "title": "Palmer House (Monticello, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Palmer_House_(Monticello,_Florida)",
+    "extract": "The Palmer House is a historic home in Monticello, Florida, United States. It is located at Palmer Mill Road and South Jefferson Street. On November 21, 1978, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "100 W Palmer Mill Rd, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128241 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128241 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "78000947",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7128241 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7128241"
+    },
+    {
+     "provider": "nrhp",
+     "id": "78000947"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Palmer_House_Monticello01.jpg/1920px-Palmer_House_Monticello01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Palmer_House_Monticello01.jpg",
+     "alt": "Photograph of Palmer House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7169050",
+   "slug": "perkins-opera-house",
+   "name": "Perkins Opera House",
+   "aliases": [
+    "Monticello Opera House"
+   ],
+   "description": "Historic theatre in Monticello, Florida, US",
+   "entityType": "venue",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "performing-arts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.544722,
+    "lon": -83.870833
+   },
+   "officialUrl": "https://www.monticellofloridaoperahouse.com/home.cfm",
+   "wikipedia": {
+    "title": "Perkins Opera House",
+    "url": "https://en.wikipedia.org/wiki/Perkins_Opera_House",
+    "extract": "The Perkins Opera House (also known as the Monticello Opera House) is a historic theater in Monticello, Florida, United States. It is located at the corner of Washington Street and Jefferson Street.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "185 W Washington St, Monticello, FL 32344",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7169050 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7169050 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000330",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7169050 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7169050"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000330"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Monticello_opera_house01.jpg/1920px-Monticello_opera_house01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_opera_house01.jpg",
+     "alt": "Photograph of Perkins Opera House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q8026950",
+   "slug": "wirick-simmons-house",
+   "name": "Wirick-Simmons House",
+   "aliases": [],
+   "description": "Monticello, FL, listed on the NRHP in Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.546111,
+    "lon": -83.87
+   },
+   "wikipedia": {
+    "title": "Wirick-Simmons House",
+    "url": "https://en.wikipedia.org/wiki/Wirick-Simmons_House",
+    "extract": "The Wirick-Simmons House is a historic home in Monticello, Florida. It is located at Jefferson and Pearl Streets. The two-and-a-half story Greek Revival house was built in 1831 by Reverend Adam Wirick, a Methodist \"Circuit Rider\", and since 1871 has been occupied by Thomas Simmons and his descendants. On June 30, 1972, it was added to the U.S. National Register of Historic Places.\nThe house owned by the Jefferson County Historical Association, and serves as the organization's headquarters.  Tours are offered during special events.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8026950 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000331",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8026950 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q8026950"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000331"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wirick-Simmons06.jpg/1920px-Wirick-Simmons06.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wirick-Simmons06.jpg",
+     "alt": "Photograph of Wirick-Simmons House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q14686232",
+   "slug": "monticello-historic-district",
+   "name": "Monticello Historic District",
+   "aliases": [],
+   "description": "historic district in Monticello, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5453,
+    "lon": -83.8681
+   },
+   "wikipedia": {
+    "title": "Monticello Historic District (Monticello, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Monticello_Historic_District_(Monticello,_Florida)",
+    "extract": "The Monticello Historic District is a U.S. Historic District (designated as such on August 19, 1977) located in Monticello, Florida. The district includes an irregular area along Madison, Jefferson, Dogwood, and Washington Streets and contains 41 historic buildings.\nContributing properties in the district include:\nChrist Episcopal Church (Monticello, Florida)",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14686232 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "77000405",
+     "sourceId": "wikidata",
+     "sourceRef": "Q14686232 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q14686232"
+    },
+    {
+     "provider": "nrhp",
+     "id": "77000405"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jefferson_Cty_Crths_Monticello01.jpg/1920px-Jefferson_Cty_Crths_Monticello01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_Cty_Crths_Monticello01.jpg",
+     "alt": "Photograph of Monticello Historic District",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q18150798",
+   "slug": "girardeau-house",
+   "name": "Girardeau House",
+   "aliases": [],
+   "description": "house in Monticello, Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "monticello-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5456,
+    "lon": -83.8617
+   },
+   "wikipedia": {
+    "title": "Girardeau House",
+    "url": "https://en.wikipedia.org/wiki/Girardeau_House",
+    "extract": "Girardeau House is a national historic site located at 950 East Washington Street, Monticello, Florida in Jefferson County.\nIt was added to the National Register of Historic Places on June 30, 2011.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1890",
+     "sourceId": "wikidata",
+     "sourceRef": "Q18150798 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "950 East Washington Street",
+     "sourceId": "wikidata",
+     "sourceRef": "Q18150798 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q18150798 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "11000382",
+     "sourceId": "wikidata",
+     "sourceRef": "Q18150798 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q18150798"
+    },
+    {
+     "provider": "nrhp",
+     "id": "11000382"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Monticello_FL_Girardeau_House01.jpg/1920px-Monticello_FL_Girardeau_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Monticello_FL_Girardeau_House01.jpg",
+     "alt": "Photograph of Girardeau House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q112030243",
+   "slug": "jefferson-county-schools",
+   "name": "Jefferson County Schools",
+   "aliases": [
+    "Jefferson County School Board",
+    "Jefferson County School District"
+   ],
+   "description": "School district in Florida",
+   "entityType": "school_district",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "school-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "headquartered_in"
+    }
+   ],
+   "officialUrl": "https://www.jeffersonschools.net/",
+   "wikipedia": {
+    "title": "Jefferson County Schools (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Jefferson_County_Schools_(Florida)",
+    "extract": "Jefferson County Schools, also known as the Jefferson County School Board or the Jefferson School District, is a public school district headquartered in Monticello, Florida. It serves all of Jefferson County.\nAucilla Christian School is the private school in Jefferson County.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "headquarters",
+     "value": "Monticello",
+     "sourceId": "wikidata",
+     "sourceRef": "Q112030243 P159"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q112030243"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q105101780",
+   "slug": "pinhook-river",
+   "name": "Pinhook River",
+   "aliases": [],
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "headquartered_in"
+    }
+   ],
+   "wikipedia": {
+    "title": "Pinhook River",
+    "url": "https://en.wikipedia.org/wiki/Pinhook_River",
+    "extract": "The Pinhook River is a river located in the St. Marks National Wildlife Refuge in Jefferson County, Florida. It drains into Apalachee Bay.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q105101780"
+    },
+    {
+     "provider": "geonames",
+     "id": "4168699"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5627799",
+   "slug": "h-and-r-block",
+   "name": "H&R Block",
+   "aliases": [
+    "H&R Block, Inc.",
+    "H & R Block"
+   ],
+   "description": "American tax preparation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hrblock.com/",
+   "wikipedia": {
+    "title": "H&R Block",
+    "url": "https://en.wikipedia.org/wiki/H%26R_Block",
+    "extract": "H&R Block, Inc., or H&R Block, is an American tax preparation company operating in Canada, the United States, South Korea and Australia. The company was founded in 1955 in Kansas City, Missouri, by brothers Henry W. Bloch and Richard Bloch.\nAs of 2018, H&R Block operates approximately 12,000 retail tax offices staffed by tax professionals worldwide. The company offers payroll, and business consulting services, consumer tax software, and online tax preparation/electronic filing from their website.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955-01-25",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5627799 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Kansas City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5627799 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Henry W. Bloch; Richard Bloch",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5627799 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5627799 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5627799"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/H%26R_Block_2013_logo.svg/1920px-H%26R_Block_2013_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:H%26R_Block_2013_logo.svg",
+     "alt": "H&R Block logo",
+     "credit": "H&amp;R Block",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1264366",
+   "slug": "winn-dixie",
+   "name": "Winn-Dixie",
+   "aliases": [],
+   "description": "American supermarket chain headquartered in Jacksonville, Florida",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.winndixie.com/",
+   "wikipedia": {
+    "title": "Winn-Dixie",
+    "url": "https://en.wikipedia.org/wiki/Winn-Dixie",
+    "extract": "The Winn-Dixie Company, LLC, is an American supermarket chain headquartered in Jacksonville, Florida. Founded in 1925, Winn-Dixie grocery stores and liquor stores serve communities throughout southeastern states – Florida and Georgia. Winn-Dixie is a subsidiary of The Winn-Dixie Company.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5050 Edgewood Ct, Jacksonville, FL 32254",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P6375"
+    },
+    {
+     "key": "parent-organization",
+     "value": "BI-LO; Aldi Süd",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1264366 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1264366"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG/1920px-Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Winn-Dixie_Corporate_Offices,_Jacksonville.JPG",
+     "alt": "Photograph of Winn-Dixie",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7071951",
+   "slug": "oreilly-auto-parts",
+   "name": "O'Reilly Auto Parts",
+   "aliases": [
+    "O’Reilly Automotive Inc."
+   ],
+   "description": "American automotive parts company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.oreillyauto.com/",
+   "wikipedia": {
+    "title": "O'Reilly Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/O%27Reilly_Auto_Parts",
+    "extract": "O'Reilly Automotive, Inc., doing business as O'Reilly Auto Parts, is an American automotive part retailer that provides automotive parts, tools, supplies, equipment, and accessories to professional service providers and do-it-yourself customers. Founded in 1957 by the O'Reilly family, O'Reilly Auto Parts operates more than 6,400 stores in 48 states, Puerto Rico, Mexico, and Canada.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1957",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7071951 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Springfield",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7071951 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7071951 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7071951"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/O%27Reilly_Auto_Parts_Logo.svg/1920px-O%27Reilly_Auto_Parts_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:O%27Reilly_Auto_Parts_Logo.svg",
+     "alt": "O'Reilly Auto Parts logo",
+     "credit": "Original: O'Reilly Auto Parts Vector: Grmike",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q191615",
+   "slug": "pizza-hut",
+   "name": "Pizza Hut",
+   "aliases": [
+    "Pizza Hut, Inc.",
+    "Pizza Hut Express",
+    "Pizza Hut mobile app"
+   ],
+   "description": "American restaurant chain and international franchise",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 96,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pizzahut.com/",
+   "wikipedia": {
+    "title": "Pizza Hut",
+    "url": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "extract": "Pizza Hut, LLC is an American multinational pizza restaurant chain and international franchise founded in 1958 in Wichita, Kansas, by brothers Dan and Frank Carney. The chain, headquartered in Plano, Texas, operates 19,974 restaurants worldwide as of 2025.\nWhile studying at Wichita State University, the Carneys opened their first location, which quickly expanded to six outlets within a year. The brand began franchising in 1959, and its distinctive building style was designed by Chicagoan architect George Lindstrom in 1963. Pizza Hut experienced significant growth, including the acquisition by PepsiCo in 1977, followed by a spin-off into Tricon Global Restaurants, Inc., later renamed Yum! Brands in 2002, who are the former owners, and later, the acquisition by LongRange Capital and Yum China in 2026.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2002-06-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dan and Frank Carney",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q191615 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q191615"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pizza_Hut_%282019%29.svg/1920px-Pizza_Hut_%282019%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_(2019).svg",
+     "alt": "Pizza Hut logo",
+     "credit": "This logo was devised when the chain was still functioning independently, and then carried over into its subsequent acqu",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q47719",
+   "slug": "pepsi",
+   "name": "Pepsi",
+   "aliases": [
+    "Brad's Drink",
+    "Pepsi-Cola",
+    "Pepsi Cola"
+   ],
+   "description": "soft drink owned and manufactured by PepsiCo",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 104,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pepsi.com/",
+   "wikipedia": {
+    "title": "Pepsi",
+    "url": "https://en.wikipedia.org/wiki/Pepsi",
+    "extract": "Pepsi is a carbonated soft drink with a cola flavor, the flagship product of PepsiCo. In 2023, Pepsi was the second most valuable soft drink brand worldwide behind Coca-Cola; the two share a long-standing rivalry in what has been called the \"cola wars\".\nPepsi, originally created in 1893 by Caleb Bradham and named \"Brad's Drink,\" was first sold in his drugstore in New Bern, North Carolina. Renamed \"Pepsi-Cola\" in 1898 due to its supposed digestive benefits, its name was shortened in marketing to \"Pepsi\" as early as 1951. Early on, Pepsi struggled with financial stability, going bankrupt in 1923 but was subsequently purchased and revived by Charles Guth, who reformulated the syrup. Pepsi gained popularity with the introduction of a 12-ounce bottle during the Great Depression and marketing strategies like the \"Nickel, Nickel\" jingle, doubling sales by emphasizing its value.\nThe mid-20th century saw Pepsi targeting the African American market, a then-untapped demographic, with positive portrayals and endorsements from prominent figures, boosting its market share. Pepsi's rivalry with Coca-Cola, highlighted by the \"cola wars\", led to significant cultural and market competition, including the \"Pepsi Challenge\" taste tests and the introduction of New Coke in response. Pepsi's expansion into international markets has seen varied success, with notable ventures into the Soviet Union via a landmark barter deal and enduring popularity in certain regions over Coca-Cola.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1893",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mushin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "PepsiCo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q47719 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q47719"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/1920px-Pepsi_2023.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pepsi_2023.svg",
+     "alt": "Pepsi logo",
+     "credit": "™/®PepsiCo, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3295867",
+   "slug": "the-coca-cola-company",
+   "name": "The Coca-Cola Company",
+   "aliases": [],
+   "description": "American multinational beverage corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 73,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.coca-colacompany.com/",
+   "wikipedia": {
+    "title": "The Coca-Cola Company",
+    "url": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company",
+    "extract": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices. \nCoca-Cola was developed in May 1886 by pharmacist John Stith Pemberton. At the time it was introduced, the product contained the stimulants cocaine from coca leaves and caffeine from kola nuts, which together acted synergistically. The coca and the kola are the source of the product name and led to Coca-Cola's promotion as a \"healthy tonic\". In 1889, the formula and brand were sold for $2,300 (equivalent to $75,000 in 2025) to Asa Griggs Candler, who incorporated the Coca-Cola Company in Atlanta in 1892. The company has operated a franchised distribution system since 1889.  The global corporation has grown to market and sell over 500 drinks and brands across 200 countries by 2020.\nThe company largely produces syrup concentrate, which is then sold to various bottlers throughout the world who hold exclusive territories. The company is well known for its marketing and sponsorship programs, being a major sponsor in Global sporting events like the FIFA World Cup. The large scale of the country, and wide distribution, has also drawn criticism, including for failing to address sustainability and the health impacts of their products. Each year Coca-Cola brands produce 3 million tonnes of plastic packaging, including 110 billion plastic bottles. A 2024 study found that over 11% of branded plastic materials found as plastic pollution came from Coca Cola.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886-05-08",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3295867 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Berkshire Hathaway; The Vanguard Group; BlackRock",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3295867 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3295867 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "John Pemberton; Asa Griggs Candler",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3295867 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3295867 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3295867"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Coca-Cola_Company_%282020%29.svg/1920px-The_Coca-Cola_Company_%282020%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Coca-Cola_Company_(2020).svg",
+     "alt": "The Coca-Cola Company logo",
+     "credit": "The Coca-Cola Company",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4840663",
+   "slug": "badcock-home-furniture",
+   "name": "Badcock Home Furniture",
+   "aliases": [
+    "W. S. Badcock Corporation"
+   ],
+   "description": "American retail chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "home-furnishings",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.badcock.com/",
+   "wikipedia": {
+    "title": "Badcock Home Furniture &more",
+    "url": "https://en.wikipedia.org/wiki/Badcock_Home_Furniture_%26more",
+    "extract": "W.S. Badcock LLC (stylized as Badcock Home Furniture & More) was an American chain of over 370 company and dealer-owned furniture stores in eight states across the southeastern United States. Robert B. Burnette was president of Badcock Home Furniture and previously served as chief operating officer for this company.\nAs of 2026, Badcock & More still exists in South Florida, with 10 stores remaining as part of a license agreement.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1904",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mulberry",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Franchise Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4840663 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4840663"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Badcock_Logo_online.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Badcock_Logo_online.jpg",
+     "alt": "Badcock Home Furniture logo",
+     "credit": "Badcock Home Furniture",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3388303",
+   "slug": "piggly-wiggly",
+   "name": "Piggly Wiggly",
+   "aliases": [],
+   "description": "American supermarket chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pigglywiggly.com/",
+   "wikipedia": {
+    "title": "Piggly Wiggly",
+    "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+    "extract": "Piggly Wiggly, LLC is an American supermarket chain operating in the American Southern and Midwestern regions. Its first outlet opened in 1916 in Memphis, Tennessee, and was the first true self-service grocery store, and the originator of various familiar supermarket features, such as checkout stands and individual item price marking.\nThe company is currently headquartered in Keene, New Hampshire, although no Piggly Wiggly-branded stores operate in that state. As of 2024, 503 independently owned Piggly Wiggly stores operated in 18 states, primarily in smaller cities and towns.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Keene",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Clarence Saunders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3388303 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3388303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Piggly_wiggly.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Piggly_wiggly.png",
+     "alt": "Piggly Wiggly logo",
+     "credit": "C&amp;S Wholesale Grocers and Piggly Wiggly",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5289230",
+   "slug": "dollar-tree",
+   "name": "Dollar Tree",
+   "aliases": [],
+   "description": "chain of low cost retail stores in North America",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 18,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollartree.com/",
+   "wikipedia": {
+    "title": "Dollar Tree",
+    "url": "https://en.wikipedia.org/wiki/Dollar_Tree",
+    "extract": "Dollar Tree, Inc., formerly known as Dollar Tree Stores, Inc., is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia, it is a Fortune 500 (sometimes referred to as Fortune 200) company and as of August 1, 2026 operates 9,150 stores throughout the 48 contiguous U.S. states (and the District of Columbia) and Canada. Its stores are supported by a nationwide logistics network of 24 distribution centers.\nDollar Tree competes in the dollar store and low-end retail markets. Each Dollar Tree stocks a variety of products, including national, regional, and private-label brands. Departments found in a Dollar Tree store include health and beauty, food and snacks, party, seasonal décor, housewares, glassware, dinnerware, household cleaning supplies, candy, toys, gifts, gift bags, and wrap, stationery, craft supplies, teaching supplies, automotive, electronics, pet supplies, and books. Most Dollar Tree stores also sell frozen foods and dairy items such as milk, eggs, pizza, ice cream, frozen dinners, and pre-made baked goods. In August 2012, the company began accepting manufacturer coupons at all of its store locations.\nDollar Tree, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. Dollar Tree disputes this claim, stating that it creates food options in areas that would otherwise be deserts.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1986",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chesapeake",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Macon Foscue Brock, Jr.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5289230 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5289230 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5289230"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dollar_Tree_logo.svg/1920px-Dollar_Tree_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_Tree_logo.svg",
+     "alt": "Dollar Tree logo",
+     "credit": "Dollar Tree Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7847545",
+   "slug": "true-value",
+   "name": "True Value",
+   "aliases": [
+    "True Value Company",
+    "TrueValue"
+   ],
+   "description": "American hardware store",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.truevalue.com/",
+   "wikipedia": {
+    "title": "True Value",
+    "url": "https://en.wikipedia.org/wiki/True_Value",
+    "extract": "The True Value Company is an American wholesaler and hardware store brand. The corporate headquarters are located in Chicago.\nHistorically, True Value was a cooperative owned by retailers until 2018, when it was purchased by ACON Investments. In October 2024, True Value filed for bankruptcy and competitor Do It Best agreed to purchase the company.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1948",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7847545 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7847545 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7847545 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7847545"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/True_Value_logo.svg/1920px-True_Value_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:True_Value_logo.svg",
+     "alt": "True Value logo",
+     "credit": "True Value",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q468865",
+   "slug": "american-legion",
+   "name": "American Legion",
+   "aliases": [
+    "Am. Legion",
+    "The American Legion",
+    "the Legion"
+   ],
+   "description": "organization of U.S. war veterans",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 15,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://legion.org",
+   "wikipedia": {
+    "title": "American Legion",
+    "url": "https://en.wikipedia.org/wiki/American_Legion",
+    "extract": "The American Legion, commonly known as the Legion, is an organization of U.S. veterans headquartered in Indianapolis, Indiana. It comprises state, U.S. territory, and overseas departments, in turn made up of local posts. It was established in March 1919 in Paris, France, by officers and men of the American Expeditionary Forces (AEF). It was subsequently chartered by the 66th U.S. Congress on September 16, 1919.\nThe Legion played the leading role in drafting and passing the Servicemen's Readjustment Act of 1944, commonly known as the \"G.I. Bill\". In addition to organizing commemorative events, members assist at Department of Veterans Affairs (VA) hospitals and clinics. It is active in issue-oriented U.S. politics. Its primary political activity is lobbying on behalf of veterans and service members, including for benefits such as pensions and the Veterans Health Administration.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1919-03-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q468865 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "700 North Pennsylvania Street, Indianapolis, IN 46204-1129",
+     "sourceId": "wikidata",
+     "sourceRef": "Q468865 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Indianapolis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q468865 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Theodore Roosevelt Jr.; Henry Dickinson Lindsley; Franklin D'Olier",
+     "sourceId": "wikidata",
+     "sourceRef": "Q468865 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q468865 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q468865"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/American_Legion_Seal_SVG.svg/1920px-American_Legion_Seal_SVG.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:American_Legion_Seal_SVG.svg",
+     "alt": "American Legion logo",
+     "credit": "American Legion",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16988635",
+   "slug": "kampgrounds-of-america",
+   "name": "Kampgrounds of America",
+   "aliases": [
+    "KOA",
+    "Kampgrounds of America, Inc.",
+    "KOA Kampground",
+    "KOA Journey",
+    "KOA Holiday"
+   ],
+   "description": "chain of campgrounds in the US and Canada",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://koa.com/",
+   "wikipedia": {
+    "title": "KOA",
+    "url": "https://en.wikipedia.org/wiki/KOA",
+    "extract": "KOA (short for Kampgrounds [sic] of America) is an American franchise of privately owned campgrounds. Having more than 500 locations across the United States and Canada, is the world's largest system of privately owned campgrounds. It was founded in 1962 and is based in Billings, Montana, United States. The current president and CEO of KOA is Toby O’Rourke.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Billings",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16988635 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16988635"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/KOA_campgrounds_logo.svg/1920px-KOA_campgrounds_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:KOA_campgrounds_logo.svg",
+     "alt": "Kampgrounds of America logo",
+     "credit": "Kampgrounds of America",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q319642",
+   "slug": "chevron-corporation",
+   "name": "Chevron Corporation",
+   "aliases": [
+    "Chevron México"
+   ],
+   "description": "American multinational energy corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 60,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevron.com",
+   "wikipedia": {
+    "title": "Chevron Corporation",
+    "url": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "extract": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. As the second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California (shortened to Socal or CalSo), it is active in more than 180 countries. \nThe company was founded originally in Southern California during the 1870s. After the breakup of Standard Oil, Socal grew quickly on its own by continuing to acquire companies and partnering with others both inside and outside of California, eventually becoming one of the Big Oil companies that dominated the global petroleum industry from the mid-1940s to the 1970s. In 1985, Socal merged with the Pittsburgh-based Gulf Oil and rebranded as Chevron; the newly merged company later merged with Texaco in 2001.  \nChevron is one of the largest companies in the world and the second-largest oil company based in the United States by revenue, only behind fellow Standard Oil descendant ExxonMobil. Within oil and gas, Chevron is vertically integrated and is involved in hydrocarbon exploration, production, refining, marketing and transport, chemicals manufacturing and sales, and power generation. Chevron manufactures and sells fuels, lubricants, additives, and petrochemicals, primarily in Western North America,  the US Gulf Coast, Southeast Asia, South Korea and Australia. In 2018, the company produced an average of 791,000 barrels (125,800 m3) of net oil-equivalent per day in United States.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "5001 Executive Parkway, Suite 200, San Ramon, CA 94583",
+     "sourceId": "wikidata",
+     "sourceRef": "Q319642 P6375"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q319642 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q319642"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/1920px-Chevron_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg",
+     "alt": "Chevron Corporation logo",
+     "credit": "Chevron Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q630866",
+   "slug": "arbys",
+   "name": "Arby's",
+   "aliases": [],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://arbys.com",
+   "wikipedia": {
+    "title": "Arby's",
+    "url": "https://en.wikipedia.org/wiki/Arby%27s",
+    "extract": "Arby's Restaurant Group, Inc., doing business as Arby's, is an American fast food sandwich restaurant chain with more than 3,200 restaurants. The flagship property of Inspire Brands, it ranked third in systemwide sales in the United States in the quick-service and fast-casual restaurant industries in 2012, behind Subway and Panera Bread. In October 2017, Food & Wine called Arby's \"America's second largest sandwich chain (after Subway)\".\nRoark Capital Group acquired 81.5% of Arby's Restaurant Group in July 2011 and is now a majority-owner of Inspire Brands. The Wendy's Company held a minority stake of 18.5% in Arby's after the acquisition by Roark Capital. That share was reduced to 12.3% upon the purchase of Buffalo Wild Wings. It was sold back to Inspire Brands on August 16, 2018 for $450 million, a 38% premium.\nArby's is best known for selling roast beef sandwiches. Other menu items the chain is known for include gyros, wraps, chicken sandwiches, and milkshakes. Its headquarters are in Sandy Springs, Georgia, a suburb of Atlanta that uses Atlanta mailing addresses.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Roark Capital Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Sandy Springs",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q630866 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q630866"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Arby%27s_logo.svg/1920px-Arby%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg",
+     "alt": "Arby's logo",
+     "credit": "Arby's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3088656",
+   "slug": "mobil-q3088656",
+   "name": "Mobil",
+   "aliases": [
+    "Socony-Vacuum Oil Company",
+    "Standard Oil Company of New York",
+    "Socony",
+    "Mobil Oil",
+    "Mobil Oil Corporation"
+   ],
+   "description": "former American oil company",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "wikipedia": {
+    "title": "Mobil Oil Corporation",
+    "url": "https://en.wikipedia.org/wiki/Mobil_Oil_Corporation",
+    "extract": "Mobil Oil Corporation is a petroleum brand owned and operated by American oil and gas corporation ExxonMobil, formerly known as Exxon, which took its name after it and Mobil merged in 1999.\nA direct descendant of Standard Oil, Mobil was originally known as the Standard Oil Company of New York (shortened to Socony) after Standard Oil was split into 43 different entities in a 1911 Supreme Court decision. Socony merged with Vacuum Oil Company, from which the Mobil name first originated, in 1931 and subsequently renamed itself to \"Socony-Vacuum Oil Company\". Over time, Mobil became the company's primary identity, which prompted a renaming in 1955 to the \"Socony Mobil Oil Company\", and then in 1966 to the \"Mobil Oil Corporation\". Mobil credits itself as the first company to produce aviation fuel, the first company to introduce paying at the pump at its gas stations, as well as the first company to introduce a mobile payment device, called Speedpass.\nIn 1998, Mobil announced it was merging with Exxon to form ExxonMobil, reuniting the two largest descendants of Standard Oil. The technicalities of the merger, which was completed on November 30, 1999, showed that Exxon bought Mobil, and Mobil shareholders received a payment of stock in Exxon. Mobil continues as a brand name within the combined company, as well as still being a gas station sometimes paired with its own store or On the Run. Mobil's brand name is primarily used to market motor oils, such as Mobil 1. The former Mobil headquarters in Fairfax County, Virginia, was used as ExxonMobil's downstream headquarters until 2015 when ExxonMobil consolidated employees into a new corporate campus in Spring, Texas.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P576"
+    },
+    {
+     "key": "headquarters",
+     "value": "Fairfax",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Pratt",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3088656 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3088656 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3088656"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mobil_logo.svg/1920px-Mobil_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Mobil_logo.svg",
+     "alt": "Mobil logo",
+     "credit": "The original uploader was Cheeselouise at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1047239",
+   "slug": "days-inn",
+   "name": "Days Inn",
+   "aliases": [],
+   "description": "economy hotel chain run by Wyndham Hotels & Resorts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wyndhamhotels.com/days-inn",
+   "wikipedia": {
+    "title": "Days Inn",
+    "url": "https://en.wikipedia.org/wiki/Days_Inn",
+    "extract": "Days Inn is a hotel chain headquartered in the United States. It was founded in 1970 by Cecil B. Day, who opened the first location in Tybee Island, Georgia. The brand is now a part of the Wyndham Hotels and Resorts, headquartered in Parsippany, New Jersey, which used to be a part of Cendant. As of December 31, 2023, Days Inn includes 1,501 locations worldwide with 114,216 rooms.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1970",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Parsippany-Troy Hills",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Cecil B. Day",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Travel + Leisure Co.; Cendant",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1047239 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1047239"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Days-inn-1.svg/1920px-Days-inn-1.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Days-inn-1.svg",
+     "alt": "Days Inn logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1423218",
+   "slug": "sunoco",
+   "name": "Sunoco",
+   "aliases": [
+    "Sunoco Inc.",
+    "Japan Sun Oil",
+    "Sun Oil Company"
+   ],
+   "description": "American petroleum and petrochemical manufacturer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "convenience-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sunoco.com/",
+   "wikipedia": {
+    "title": "Sunoco",
+    "url": "https://en.wikipedia.org/wiki/Sunoco",
+    "extract": "Sunoco LP  is an American vehicle gasoline master limited partnership company organized under Delaware state law and headquartered in Dallas, Texas. Dating back to 1886, the company has transformed from a vertically integrated energy company to a distributor of fuels and operator of energy infrastructure. It was previously engaged in oil, natural gas exploration and production, refining, chemical manufacturing, and retail fuel sales, but divested these businesses.\nThe partnership was known as Sun Oil Company from 1890 to 1976, and as Sun Company Inc. from 1976 to 1998. The Sunoco name is a contraction of SUN Oil COmpany.\nIts current operational focus dates back to 2018, when it divested the non–core convenience store operations to 7-Eleven for $3.2 billion, which allowed for Sunoco LP to improve its financial position. The transaction also provided a long-term take or pay fuel supply agreement with 7-Eleven to generate consistent earnings and cash flows. As of 2024, Sunoco still operates 76 retail locations, all of which are located in New Jersey and Hawaii, the latter branded as Aloha Petroleum, Ltd..",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dallas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Newton Pew",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1423218 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1423218"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg/1920px-Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunoco_station,_Saratoga_Springs,_NY.jpg",
+     "alt": "Photograph of Sunoco",
+     "credit": "NNECAPA Photo Library",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5364003",
+   "slug": "super-8",
+   "name": "Super 8",
+   "aliases": [
+    "Super 8 Worldwide",
+    "Super 8 by Wyndham",
+    "Super 8 Worldwide, Inc."
+   ],
+   "description": "American economy motel chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wyndhamhotels.com/super-8",
+   "wikipedia": {
+    "title": "Super 8 (hotel)",
+    "url": "https://en.wikipedia.org/wiki/Super_8_(hotel)",
+    "extract": "Super 8 by Wyndham, commonly known as Super 8, is an American hotel brand. It is the world's largest budget hotel chain, with over 2,600 locations worldwide. The chain is a subsidiary of Wyndham Hotels and Resorts. The original room cost was $8.88 per night. As of December 2022, the brand website listed 2,691 hotels worldwide.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1974",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Travel + Leisure Co.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Parsippany-Troy Hills",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ron Rivett",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Travel + Leisure Co.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5364003 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5364003"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Super_8.svg/1920px-Super_8.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Super_8.svg",
+     "alt": "Super 8 logo",
+     "credit": "Wyndham Hotels and Resorts",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q152057",
+   "slug": "bp",
+   "name": "BP",
+   "aliases": [
+    "BP P.L.C.",
+    "BP Connect",
+    "BP plc",
+    "BP 2go"
+   ],
+   "description": "British multinational oil and gas company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 66,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://bp.com",
+   "wikipedia": {
+    "title": "BP",
+    "url": "https://en.wikipedia.org/wiki/BP",
+    "extract": "BP p.l.c. is a British multinational oil and gas company headquartered in London, England. It is one of the oil and gas \"supermajors\" and one of the world's largest companies measured by revenues and profits. It is a vertically integrated company operating in all areas of the oil and gas industry, including exploration and extraction, refining, distribution and marketing, power generation, and trading.\nBP's origins date back to the founding of the Anglo-Persian Oil Company in 1909, established as a subsidiary of the Burmah Oil Company to exploit oil discoveries in Iran. In 1935, it became the Anglo-Iranian Oil Company and in 1954, adopted the name British Petroleum. The company acquired majority control of Standard Oil of Ohio in 1978. Formerly majority state-owned, the British government privatised the company in stages between 1979 and 1987. British Petroleum merged with Amoco in 1998, becoming BP Amoco p.l.c., and acquired ARCO, Burmah Castrol and Aral AG shortly thereafter. The company's name was shortened to BP p.l.c. in 2001.\nAs of 2024, BP had operations in 61 countries, produced around 2.4 million barrels per day (380,000 m3/d) of oil equivalent, and had total proven reserves of 6.25 billion barrels (994,000,000 m3) of oil equivalent. The company has around 21,200 service stations worldwide, which it operates under the BP brand (worldwide) and under the Amoco brand (in the U.S.) and the Aral brand (in Germany). Its largest division is BP America in the United States.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1909-04-14",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "London",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "William Knox D'Arcy; Charles Greenway, 1st Baron Greenway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q152057 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q152057"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bp_textlogo.svg/1920px-Bp_textlogo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bp_textlogo.svg",
+     "alt": "BP logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q110716465",
+   "slug": "shell-q110716465",
+   "name": "Shell",
+   "aliases": [],
+   "description": "multinational fuel station chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Showa Shell Sekiyu; Idemitsu Kosan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P137"
+    },
+    {
+     "key": "owner",
+     "value": "Shell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q110716465 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q110716465"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5333330",
+   "slug": "econo-lodge",
+   "name": "Econo Lodge",
+   "aliases": [
+    "EconoLodge"
+   ],
+   "description": "economy hotel chain run by Choice Hotels",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.choicehotels.com/econo-lodge",
+   "wikipedia": {
+    "title": "Econo Lodge",
+    "url": "https://en.wikipedia.org/wiki/Econo_Lodge",
+    "extract": "Econo Lodge is an American economy hotel brand and one of the longest running limited service lodging chains in the United States. Founded in Norfolk, Virginia, in 1969 as Econo Travel, the brand pioneered a simplified budget hotel model that emphasized clean, standardized rooms without the full service amenities—such as restaurants, pools, and large lobbies—common in mid century motels. Econo Lodge is now a subsidiary of Choice Hotels and operates more than 690 locations across the United States and Canada.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2026",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5333330 P571"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Choice Hotels",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5333330 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5333330 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5333330"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q465952",
+   "slug": "amoco",
+   "name": "Amoco",
+   "aliases": [
+    "Amoco Corporation",
+    "BP Amoco",
+    "Standard Oil Company of Indiana"
+   ],
+   "description": "former American oil company, current brand of BP",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 18,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.amoco.com/",
+   "wikipedia": {
+    "title": "Amoco",
+    "url": "https://en.wikipedia.org/wiki/Amoco",
+    "extract": "Amoco ( AM-ə-koh) is a brand of fuel stations operating in the United States and owned by multinational conglomerate BP since 1998.  The Amoco Corporation was an American chemical and oil company, founded by Standard Oil Company in 1889 around a refinery in Whiting, Indiana, and was officially the Standard Oil Company of Indiana until 1985. In 1911, it became an independent corporation as part of the break-up of the Standard Oil trust. Incorporated in Indiana, it was headquartered in Chicago.\nIn 1925, Standard Oil of Indiana absorbed the American Oil Company, founded in Baltimore in 1910, and incorporated in 1922, by Louis Blaustein and his son Jacob. The combined corporation operated or licensed gas stations under both the Standard name and the American or Amoco name (the latter from American Oil Company) and its logo using these names became a red, white and blue oval with a torch in the center. By the mid-twentieth century it was ranked the largest oil company in the United States. In 1985, it changed its corporate name to Amoco.\nThe firm's innovations included two essential parts of the modern industry, the gasoline tanker truck and the drive-through filling station. Its \"Amoco Super-Premium\" lead-free gasoline was marketed decades before environmental concerns led to the eventual phasing out of leaded gasoline throughout the United States. Amoco's headquarters were located in the Amoco Building (initially called the Standard Oil Building, and nicknamed \"Big Stan\", now the Aon Center) overlooking Grant Park in Chicago.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1889",
+     "sourceId": "wikidata",
+     "sourceRef": "Q465952 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1998",
+     "sourceId": "wikidata",
+     "sourceRef": "Q465952 P576"
+    },
+    {
+     "key": "owner",
+     "value": "BP",
+     "sourceId": "wikidata",
+     "sourceRef": "Q465952 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q465952 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "John D. Rockefeller",
+     "sourceId": "wikidata",
+     "sourceRef": "Q465952 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q465952 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q465952"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Skinker_Amaco_%2852786283882%29.jpg/1920px-Skinker_Amaco_%2852786283882%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Skinker_Amaco_(52786283882).jpg",
+     "alt": "Photograph of Amoco",
+     "credit": "Eden, Janine and Jim from New York City",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 4,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7248721",
+   "slug": "progressive-corporation",
+   "name": "Progressive Corporation",
+   "aliases": [
+    "Progressive"
+   ],
+   "description": "insurance company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.progressive.com/",
+   "wikipedia": {
+    "title": "Progressive Corporation",
+    "url": "https://en.wikipedia.org/wiki/Progressive_Corporation",
+    "extract": "The Progressive Corporation is an American insurance company headquartered in Mayfield, Ohio. It was co-founded in 1937 by Jack Green and Joseph M. Lewis. The company insures passenger vehicles, motorcycles, recreational vehicles (RVs), trailers, boats, personal water craft (PWC), and commercial vehicles. Progressive also provides home, life, pet, and other types of insurance through select companies.\nAs of 2026, Progressive is the top private automotive insurer in the US, measured by the premiums written over a 12-month basis. The company was ranked #62 on the 2024 Fortune 500 list of the largest American corporations by total revenue.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1937-03-10",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7248721 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mayfield",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7248721 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7248721 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7248721"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Logo_of_the_Progressive_Corporation.svg/1920px-Logo_of_the_Progressive_Corporation.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Progressive_Corporation.svg",
+     "alt": "Progressive Corporation logo",
+     "credit": "Progressive Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q15109925",
+   "slug": "tractor-supply-company",
+   "name": "Tractor Supply Company",
+   "aliases": [
+    "TSCO"
+   ],
+   "description": "American retail chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tractorsupply.com/",
+   "wikipedia": {
+    "title": "Tractor Supply Company",
+    "url": "https://en.wikipedia.org/wiki/Tractor_Supply_Company",
+    "extract": "Tractor Supply Company (also known as TSCO or TSC), founded in 1938, is an American chain store that sells home improvement, agriculture, lawn and garden maintenance, livestock, equine and pet care equipment and supplies. It caters to farmers, ranchers, pet owners, and landowners. As of 2026, the company had 2,446 stores. It is based in Brentwood, Tennessee. It is publicly traded on the Nasdaq under the symbol TSCO and is a Fortune 500 company.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1938",
+     "sourceId": "wikidata",
+     "sourceRef": "Q15109925 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Brentwood",
+     "sourceId": "wikidata",
+     "sourceRef": "Q15109925 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q15109925 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q15109925"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/TractorSupplyCompanylogo.svg/1920px-TractorSupplyCompanylogo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:TractorSupplyCompanylogo.svg",
+     "alt": "Tractor Supply Company logo",
+     "credit": "Tractor Supply Company",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7271953",
+   "slug": "quiktrip",
+   "name": "QuikTrip",
+   "aliases": [
+    "QuikTrip Corporation",
+    "QT"
+   ],
+   "description": "American convenience store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "convenience-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "jefferson-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.quiktrip.com/",
+   "wikipedia": {
+    "title": "QuikTrip",
+    "url": "https://en.wikipedia.org/wiki/QuikTrip",
+    "extract": "The QuikTrip Corporation, more commonly known as QuikTrip (QT), is an American chain of convenience stores based in Tulsa, Oklahoma, that operates in the Midwestern, Southern, and Western United States.\nThe first QuikTrip was opened in 1958 in Tulsa by Burt Holmes and Chester Cadieux. The company expanded outside of Oklahoma in 1968, and started selling gasoline in 1971. Chester's son, Chester \"Chet\" Cadieux Jr., is the current CEO.\nIn 2005, QuikTrip and Chevron were the first two retailers to earn a \"Top Tier\" rating from General Motors, BMW, Honda, Volkswagen, Audi, and Toyota. The \"Top Tier\" rating exceeds the United States Environmental Protection Agency's standards for gasoline additives.",
+    "retrievedAt": "2026-11-27T20:00:13.758Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1958-09-25",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7271953 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Tulsa",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7271953 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7271953 inside Jefferson County boundary",
+     "scopeAreaSlug": "jefferson-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7271953"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/QuikTrip_new_logo.svg/1920px-QuikTrip_new_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:QuikTrip_new_logo.svg",
+     "alt": "QuikTrip logo",
+     "credit": "QuikTrip",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "jefferson-county-fl",
+  "wikidataCandidates": 89,
+  "places": 38,
+  "brands": 33,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 66,
+  "withFreeImage": 59,
+  "withCoordinates": 36,
+  "osmBrandedLocations": 42,
+  "unmappedClasses": 6
+ }
+}

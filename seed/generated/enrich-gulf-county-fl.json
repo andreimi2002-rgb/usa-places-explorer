@@ -1,0 +1,2857 @@
+{
+ "generatedAt": "2026-11-27T19:37:45.737Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "gulf-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:37:45.737Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:37:45.737Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Gulf County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:37:45.737Z",
+   "checksumSha256": "263d19cfd437bafdd31e2acd84d5abc62ba180021c4b3ec70c6244d659938973"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q5101630",
+   "slug": "chipola-river",
+   "name": "Chipola River",
+   "aliases": [],
+   "description": "river in Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.011869,
+    "lon": -85.091303
+   },
+   "wikipedia": {
+    "title": "Chipola River",
+    "url": "https://en.wikipedia.org/wiki/Chipola_River",
+    "extract": "The Chipola River of northwestern Florida is a major tributary of the Apalachicola River. The upper part of the river flows over a karst terrain where it receives inflow from more than 60 springs. The lower part of the river flows over alluvial deposits of the Apalachicola Delta. Dead Lake, a natural impoundment, is part of the river.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5101630"
+    },
+    {
+     "provider": "geonames",
+     "id": "10245590"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Chipola_River%2C_US90_bridge.jpg/1920px-Chipola_River%2C_US90_bridge.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chipola_River,_US90_bridge.jpg",
+     "alt": "Photograph of Chipola River",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5245243",
+   "slug": "dead-lakes-park",
+   "name": "Dead Lakes Park",
+   "aliases": [
+    "Dead Lakes State Recreation Area"
+   ],
+   "description": "park in Gulf County, Florida, united States",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.139444,
+    "lon": -85.200556
+   },
+   "officialUrl": "https://www.visitgulf.com/listing/dead-lakes-park/115/",
+   "wikipedia": {
+    "title": "Dead Lakes Park",
+    "url": "https://en.wikipedia.org/wiki/Dead_Lakes_Park",
+    "extract": "Dead Lakes Park is a Gulf County park located 1 mile (1.6 km) north of Wewahitchka off Florida State Road 71.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1974",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5245243 P571"
+    },
+    {
+     "key": "area",
+     "value": 83,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5245243 P2046"
+    },
+    {
+     "key": "street-address",
+     "value": "416 Gary Rowell Rd, Wewahitchka, FL 32465",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5245243 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5245243"
+    },
+    {
+     "provider": "geonames",
+     "id": "4152944"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Boat_ramp_at_Dead_Lakes_Park.jpg/1920px-Boat_ramp_at_Dead_Lakes_Park.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Boat_ramp_at_Dead_Lakes_Park.jpg",
+     "alt": "Photograph of Dead Lakes Park",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6478503",
+   "slug": "lake-wimico",
+   "name": "Lake Wimico",
+   "aliases": [],
+   "description": "lake of the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.801335,
+    "lon": -85.14758
+   },
+   "wikipedia": {
+    "title": "Lake Wimico",
+    "url": "https://en.wikipedia.org/wiki/Lake_Wimico",
+    "extract": "Lake Wimico is a lake located near Port St. Joe in Gulf County, Florida, and connects through White City, Gulf County, Florida.  The elevation is 0 feet (0 m).\nThe lake gave its name to the Lake Wimico and St. Joseph Canal and Railroad Company, the first steam railway in Florida which opened in 1836.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6478503"
+    },
+    {
+     "provider": "geonames",
+     "id": "4047922"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7948728",
+   "slug": "webz",
+   "name": "WEBZ",
+   "aliases": [],
+   "description": "radio station in Mexico Beach, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.006,
+    "lon": -85.343
+   },
+   "officialUrl": "https://www.993thebeat.com",
+   "wikipedia": {
+    "title": "WEBZ",
+    "url": "https://en.wikipedia.org/wiki/WEBZ",
+    "extract": "WEBZ (99.3 FM) is a commercial urban contemporary radio station located in Mexico Beach, Florida and serving Panama City, Florida. The station is owned by iHeartMedia.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1990",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948728 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948728"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7949357",
+   "slug": "wflf-fm",
+   "name": "WFLF-FM",
+   "aliases": [],
+   "description": "mainstream rock radio station in Parker, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.819,
+    "lon": -85.259
+   },
+   "officialUrl": "https://www.945wfla.com/",
+   "wikipedia": {
+    "title": "WFLF-FM",
+    "url": "https://en.wikipedia.org/wiki/WFLF-FM",
+    "extract": "WFLF-FM (94.5 MHz) is a commercial radio station licensed to Parker, Florida, and serving the Panama City area of the Florida Panhandle.  It airs an active rock radio format and is owned and operated by iHeartMedia, Inc.  In morning drive time, it carries the syndicated Lex and Terry show, based in Dallas.  Afternoon's are voice tracked from Big Rig, based at WXTB in Tampa.\nWFLF-FM is a Class C0 FM station.   It has an effective radiated power (ERP) of 100,000 watts, the maximum for most stations.  The transmitter and tower are on Old Niles Transroad in Port St. Joe.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949357 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7949357"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7956236",
+   "slug": "wtkp",
+   "name": "WTKP",
+   "aliases": [],
+   "description": "radio station in Port St. Joe, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.819,
+    "lon": -85.259
+   },
+   "officialUrl": "https://www.wearesportsradio.com",
+   "wikipedia": {
+    "title": "WTKP",
+    "url": "https://en.wikipedia.org/wiki/WTKP",
+    "extract": "WTKP (93.5 FM) was a commercial radio station located in Port St. Joe, Florida, broadcasting in the Panama City area on 93.5 FM.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1990",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7956236 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7956236"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5035030",
+   "slug": "cape-san-blas-light",
+   "name": "Cape San Blas Light",
+   "aliases": [
+    "Cape San Blas Lighthouse"
+   ],
+   "description": "lighthouse in Florida, United States",
+   "entityType": "lighthouse",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "landmarks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.813217,
+    "lon": -85.306517
+   },
+   "wikipedia": {
+    "title": "Cape San Blas Light",
+    "url": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light",
+    "extract": "The Cape San Blas Light is a lighthouse in the state of Florida in the United States. Four different structures were built between 1849 and 1885 to house the light. It was located at Cape San Blas in the northwestern part of the state. Due to beach erosion and weather damage over the decades, the final structure was moved multiple times, including to Port St. Joe in 2014.  The lighthouse was listed on the National Register of Historic Places in 2015.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1848",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035030 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035030 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "15000208",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035030 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5035030"
+    },
+    {
+     "provider": "nrhp",
+     "id": "15000208"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cape_San_Blas_Light.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Cape_San_Blas_Light.jpg",
+     "alt": "Photograph of Cape San Blas Light",
+     "credit": "Fl295",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5059125",
+   "slug": "centennial-building",
+   "name": "Centennial Building",
+   "aliases": [],
+   "description": "building in Port St. Joe, Florida, United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.793333,
+    "lon": -85.295278
+   },
+   "wikipedia": {
+    "title": "Centennial Building",
+    "url": "https://en.wikipedia.org/wiki/Centennial_Building",
+    "extract": "The Centennial Building (also known as the Civic Center) is a historic site in Port St. Joe, Florida. It is located at 300 Allen Memorial Way, across from the Constitution Convention Museum State Park. On March 12, 1996, it was added to the U.S. National Register of Historic Places.\nIn 2024, the Centennial Building was remodeled to include roof repair, joist repair and flooring repair due to termites and water damage over the years. It typically hosts events like prom, First Baptist Church's Fifth Sunday, and Port Saint Joe Junior Service League events among others.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "300 Allen Memorial Way, Port St Joe, FL 32456",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5059125 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5059125 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "96000230",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5059125 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5059125"
+    },
+    {
+     "provider": "nrhp",
+     "id": "96000230"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Centbldgportstjoe1a.jpg/1920px-Centbldgportstjoe1a.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Centbldgportstjoe1a.jpg",
+     "alt": "Photograph of Centennial Building",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5164092",
+   "slug": "constitution-convention-museum-state-park",
+   "name": "Constitution Convention Museum State Park",
+   "aliases": [],
+   "description": "State Park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7931,
+    "lon": -85.2981
+   },
+   "officialUrl": "https://www.floridastateparks.org/park/Constitution-Convention",
+   "wikipedia": {
+    "title": "Constitution Convention Museum State Park",
+    "url": "https://en.wikipedia.org/wiki/Constitution_Convention_Museum_State_Park",
+    "extract": "Constitution Convention Museum State Park is a Florida State Park located just outside Port St. Joe, off US 98, in northwestern Florida. The 14-acre (57,000 m2) park contains a museum with examples of 19th-century life in the former town of St. Joseph, and features life-sized figures with audio presentations about the state's first Constitutional Convention. The address is 200 Allen Memorial Way.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "200 Allen Memorial Way, Port St Joe, FL 32456",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5164092 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5164092"
+    },
+    {
+     "provider": "geonames",
+     "id": "4151737"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Constconvmuseumportstjoe1a.jpg/1920px-Constconvmuseumportstjoe1a.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Constconvmuseumportstjoe1a.jpg",
+     "alt": "Photograph of Constitution Convention Museum State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7230981",
+   "slug": "port-theatre",
+   "name": "Port Theatre",
+   "aliases": [],
+   "description": "former movie theater in Port St. Joe, Florida, United States",
+   "entityType": "venue",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "performing-arts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.813333,
+    "lon": -85.303611
+   },
+   "wikipedia": {
+    "title": "Port Theatre Art and Culture Center",
+    "url": "https://en.wikipedia.org/wiki/Port_Theatre_Art_and_Culture_Center",
+    "extract": "The Port Theatre Art and Culture Center  is a historic site in Port St. Joe, Florida, located at 314 Reid Avenue. On June 5, 2003, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "314 Reid Avenue, Port St. Joe, FL 32456",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7230981 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7230981 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "03000508",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7230981 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7230981"
+    },
+    {
+     "provider": "nrhp",
+     "id": "03000508"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/PSJ_Port_Theatre07.jpg/1920px-PSJ_Port_Theatre07.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:PSJ_Port_Theatre07.jpg",
+     "alt": "Photograph of Port Theatre",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7589276",
+   "slug": "st-joseph-catholic-mission-church",
+   "name": "St. Joseph Catholic Mission Church",
+   "aliases": [],
+   "description": "church building in Florida, United States of America",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.808724,
+    "lon": -85.300596
+   },
+   "wikipedia": {
+    "title": "St. Joseph Catholic Mission Church",
+    "url": "https://en.wikipedia.org/wiki/St._Joseph_Catholic_Mission_Church",
+    "extract": "The St. Joseph Catholic Mission Church (also known as the Port St. Joe Garden Club) is a historic site in Port St. Joe, Florida, located at 216 8th Street. On July 31, 1998, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "216 Eighth St, Port St Joe, FL 32456",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589276 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589276 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "98000924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589276 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7589276"
+    },
+    {
+     "provider": "nrhp",
+     "id": "98000924"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/PSJ_St_Joseph_Church01.jpg/1920px-PSJ_St_Joseph_Church01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:PSJ_St_Joseph_Church01.jpg",
+     "alt": "Photograph of St. Joseph Catholic Mission Church",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7589355",
+   "slug": "st-joseph-point-light",
+   "name": "St. Joseph Point Light",
+   "aliases": [
+    "St. Joseph Point Lighthouse"
+   ],
+   "description": "lighthouse in Florida, United States",
+   "entityType": "lighthouse",
+   "status": "historical",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "landmarks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9182,
+    "lon": -85.3805
+   },
+   "wikipedia": {
+    "title": "St. Joseph Point Light",
+    "url": "https://en.wikipedia.org/wiki/St._Joseph_Point_Light",
+    "extract": "The St. Joseph Point Light was a lighthouse on the mainland north of present-day Port St. Joe, Florida, across the entrance to St. Joseph Bay from St. Joseph Point. St. Joseph Bay is enclosed by St. Joseph Peninsula, which runs west some three miles (5 km) from the mainland to Cape San Blas, and then northerly 15 miles (24 km) to St. Joseph Point. An earlier light in the area was the St. Joseph Bay Light.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7589355"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stjosephpointrear.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Stjosephpointrear.JPG",
+     "alt": "Photograph of St. Joseph Point Light",
+     "credit": "Wikimedia Commons contributor",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7589353",
+   "slug": "st-joseph-peninsula-state-park",
+   "name": "St. Joseph Peninsula State Park",
+   "aliases": [],
+   "description": "State park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7552,
+    "lon": -85.3954
+   },
+   "officialUrl": "https://www.floridastateparks.org/park/St-Joseph",
+   "wikipedia": {
+    "title": "T.H. Stone Memorial St. Joseph Peninsula State Park",
+    "url": "https://en.wikipedia.org/wiki/T.H._Stone_Memorial_St._Joseph_Peninsula_State_Park",
+    "extract": "T.H. Stone Memorial St. Joseph Peninsula State Park is a Florida State Park on the St. Joseph Peninsula near Port St. Joe. It is located off U.S. 98.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1967",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7589353 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7589353"
+    },
+    {
+     "provider": "geonames",
+     "id": "4174684"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/St_Joseph_Peninsula_FL_SP_beach_north01.jpg/1920px-St_Joseph_Peninsula_FL_SP_beach_north01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Joseph_Peninsula_FL_SP_beach_north01.jpg",
+     "alt": "Photograph of St. Joseph Peninsula State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7948298",
+   "slug": "wdbw-lp",
+   "name": "WDBW-LP",
+   "aliases": [],
+   "description": "Bible Broadcasting Network radio affiliate in Port St. Joe, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.81,
+    "lon": -85.295
+   },
+   "officialUrl": "https://www.bbnradio.org",
+   "wikipedia": {
+    "title": "WDBW-LP",
+    "url": "https://en.wikipedia.org/wiki/Bible_Broadcasting_Network",
+    "extract": "The Bible Broadcasting Network (BBN) is a listener-supported global Conservative Christian radio network staffed and headquartered in Charlotte, North Carolina. It was founded in 1971 by Lowell Davey, who was the network's president until his death in 2017. It remains under family control, with Davey's daughter Barbara Redemann and her husband Carl Redemann leading BBN.\nBBN's mission statement is \"to get the Word of God into the hearts and minds of as many people as possible using the most efficient means\" and its motto is \"Giving the Winds the Bible Voice\". Doctrinally, the programming is conservative in approach.\nProgramming content consists of traditional Christian music, including vocalists, choirs, and instrumentalists; Bible teaching and sermons; prayer times; children's and teens' programs; and family guidance programs.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2002",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948298 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Bible Broadcasting Network",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948298 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948298"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16898748",
+   "slug": "port-st-joe-high-school",
+   "name": "Port St. Joe High School",
+   "aliases": [],
+   "description": "public school in the United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "port-st-joe-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7883,
+    "lon": -85.2903
+   },
+   "wikipedia": {
+    "title": "Port St. Joe High School",
+    "url": "https://en.wikipedia.org/wiki/Port_St._Joe_High_School",
+    "extract": "Port St. Joe High School (PSJHS) is located in Port St. Joe, Florida. The school's athletic teams are known as the Sharks. It is a part of Gulf County Schools.\nA previous building opened in the 1950s, and it later became the elementary school. The current facility opened in 1968. The school building was damaged by Hurricane Michael in 2018. Prior to Hurricane Michael, it had about 700 students. In 2019, the student count was 485, with some of the students being children of construction workers who moved to the area after the hurricane.\nAs of 2018 the Gulf County schools Mexico Beach students are assigned to are in Port St. Joe.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16898748"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q105101890",
+   "slug": "jackson-river",
+   "name": "Jackson River",
+   "aliases": [],
+   "description": "river in Gulf and Franklin counties, Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.777432,
+    "lon": -85.109358
+   },
+   "wikipedia": {
+    "title": "Jackson River (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Jackson_River_(Florida)",
+    "extract": "Jackson River is a river located in Gulf County, Florida. It is a tributary of the Apalachicola River.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q105101890"
+    },
+    {
+     "provider": "geonames",
+     "id": "4160007"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q134308023",
+   "slug": "county-road-30b",
+   "name": "County Road 30B",
+   "aliases": [
+    "Gulf County Road 30B",
+    "Indian Pass Road"
+   ],
+   "description": "county road in Gulf County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.680543,
+    "lon": -85.237098
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Gulf County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134308023 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134308023"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Indian_Lagoon_bridge_on_CR30B.jpg/1920px-Indian_Lagoon_bridge_on_CR30B.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Indian_Lagoon_bridge_on_CR30B.jpg",
+     "alt": "Photograph of County Road 30B",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q139740818",
+   "slug": "county-road-30e",
+   "name": "County Road 30E",
+   "aliases": [
+    "Gulf County Road 30E"
+   ],
+   "description": "county road in Gulf County, Florida, United States",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.763679,
+    "lon": -85.398061
+   },
+   "wikipedia": {
+    "title": "County Road 30E (Gulf County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Florida_State_Road_30",
+    "extract": "State Road 30 (SR 30) is the mostly hidden Florida Department of Transportation designation for most of US 98 from the Florida-Alabama state line to east of Perry, Florida.\nIn a 14-mile-long stretch west of Panama City, US 98 and SR 30 are separated by less than one mile (1.6 km), with SR 30 on Front Beach Road along the shore of the Gulf of Mexico in Hollywood Beach, Laguna Beach, and Panama City Beach, and US 98 inland (as unsigned State Road 30A) along Panama City Beach Parkway bypassing the beach communities. In 2009, the Florida DOT began signing Front Beach Road as SR 30, and removed US 98 Alt signs.\nIn Panama City, and Callaway, US 98 and SR 30 take different courses as they pass through the two cities, in which SR 30 becomes Business US 98 and US 98 becomes unsigned SR 30A (for more details on the routing through Panama City and Callaway, click here).  Both at the western and eastern end of the split, US 98 and SR 30 merge upon approach of a bridge (on Panama City Parkway crossing Saint Andrew Bay to the west; and, to the east, New Dupont Bridge crossing East Bay for access to – and through – Tyndall Air Force Base).",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Gulf County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q139740818 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q139740818"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Road_through_St._Joseph_Peninsula_State_Park.jpg/1920px-Road_through_St._Joseph_Peninsula_State_Park.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Road_through_St._Joseph_Peninsula_State_Park.jpg",
+     "alt": "Photograph of County Road 30E",
+     "credit": "Katy Warner",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q16903196",
+   "slug": "wewahitchka-high-school",
+   "name": "Wewahitchka High School",
+   "aliases": [],
+   "description": "public school in the United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "wewahitchka-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.1038,
+    "lon": -85.1906
+   },
+   "wikipedia": {
+    "title": "Wewahitchka Junior/Senior High School",
+    "url": "https://en.wikipedia.org/wiki/Wewahitchka,_Florida",
+    "extract": "Wewahitchka is a city in Gulf County, Florida, United States. The population was 2,074 as of the 2020 census. From the creation of Gulf County in 1925 until 1965, it served as the county seat before the county seat was moved to Port St. Joe.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16903196"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q4781944",
+   "slug": "exxon-q4781944",
+   "name": "Exxon",
+   "aliases": [
+    "Exxon Corporation",
+    "Exxon Corp.",
+    "Exxon Company",
+    "Exxon Company USA",
+    "Exxon Company, U.S.A"
+   ],
+   "description": "former American oil company",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 14,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "wikipedia": {
+    "title": "Exxon",
+    "url": "https://en.wikipedia.org/wiki/ExxonMobil",
+    "extract": "ExxonMobil Holdings Corporation ( EK-son MOH-bəl) is an American multinational oil and gas corporation headquartered in Spring, Texas, a suburb of Houston. Founded as the largest direct successor of John D. Rockefeller's Standard Oil, the company was formed in 1999, with the merger of Exxon and Mobil. It is vertically integrated across the entire oil and gas industry, as well as within its chemicals division, which produces plastic, synthetic rubber, and other chemical products. As the largest U.S.-based oil and gas company, ExxonMobil is the eighth-largest company by revenue in the U.S. and 13th-largest in the world. It is also the largest investor-owned oil company in the world.\nThe company has been widely criticized and sued, mostly for environmental incidents and its history of climate change denial against the scientific consensus that fossil fuels significantly contribute to global warming. The company is responsible for many oil spills, the largest and most notable of which was the 1989 Exxon Valdez oil spill in Alaska, considered to be one of the world's worst oil spills in terms of environmental damage. The company has also been accused of human rights violations and exerting excessive influence on American foreign policy and developing countries.\nIn 2024, ExxonMobil was responsible for 610 Mt of CO2 emissions, which was 1.58% of global CO2 emissions.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P576"
+    },
+    {
+     "key": "headquarters",
+     "value": "Las Colinas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4781944 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4781944"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4840663",
+   "slug": "badcock-home-furniture",
+   "name": "Badcock Home Furniture",
+   "aliases": [
+    "W. S. Badcock Corporation"
+   ],
+   "description": "American retail chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "home-furnishings",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.badcock.com/",
+   "wikipedia": {
+    "title": "Badcock Home Furniture &more",
+    "url": "https://en.wikipedia.org/wiki/Badcock_Home_Furniture_%26more",
+    "extract": "W.S. Badcock LLC (stylized as Badcock Home Furniture & More) was an American chain of over 370 company and dealer-owned furniture stores in eight states across the southeastern United States. Robert B. Burnette was president of Badcock Home Furniture and previously served as chief operating officer for this company.\nAs of 2026, Badcock & More still exists in South Florida, with 10 stores remaining as part of a license agreement.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1904",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mulberry",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Franchise Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4840663 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4840663 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4840663"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Badcock_Logo_online.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Badcock_Logo_online.jpg",
+     "alt": "Badcock Home Furniture logo",
+     "credit": "Badcock Home Furniture",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q6970842",
+   "slug": "napa",
+   "name": "NAPA",
+   "aliases": [
+    "NAPA Auto Parts",
+    "National Automotive Parts Association"
+   ],
+   "description": "American automotive retailers' cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.napaonline.com/",
+   "wikipedia": {
+    "title": "NAPA Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/NAPA_Auto_Parts",
+    "extract": "The National Automotive Parts Association (NAPA, also known as NAPA Auto Parts), is an American retailers' cooperative distributing automotive replacement parts, accessories, and service items throughout North America. Established in 1925, NAPA is a division of Atlanta-based Genuine Parts Company.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q6970842 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6970842"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/NAPA_Auto_Parts_logo.svg/1920px-NAPA_Auto_Parts_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:NAPA_Auto_Parts_logo.svg",
+     "alt": "NAPA logo",
+     "credit": "National Automotive Parts Association",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5433101",
+   "slug": "family-dollar",
+   "name": "Family Dollar",
+   "aliases": [
+    "Family Dollar Stores, Inc.",
+    "FDO",
+    "Family Dollar Stores"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.familydollar.com/",
+   "wikipedia": {
+    "title": "Family Dollar",
+    "url": "https://en.wikipedia.org/wiki/Family_Dollar",
+    "extract": "Family Dollar Stores, Inc. is an American variety store chain founded in 1959 by Leon Levine in Charlotte, North Carolina. With over 8,000 locations in all states except Alaska and Hawaii, it was once the second largest retailer of its type in the United States until it was acquired by Dollar Tree in 2015. Its headquarters operations were then moved from Matthews, North Carolina, to Chesapeake, Virginia.\nIn June 2014, activist investor and major shareholder Carl Icahn demanded that Family Dollar be immediately put up for sale. On July 28, Dollar Tree announced that it would buy Family Dollar for $8.5 billion. The sale delivered a windfall to Icahn, who had acquired his 9.4 percent stake in June. In January 2015, Family Dollar shareholders approved the Dollar Tree bid.\nFamily Dollar, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. In 2022, Family Dollar was sued by the Arkansas Attorney General following an investigation by the FDA into a rat infestation at its West Memphis, Arkansas, distribution center. The lawsuit ended in a $41 million fine to the company and the temporary closure of 400 stores.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1959",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Leon Levine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5433101 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5433101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Family-Dollar-Logo-2.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Family-Dollar-Logo-2.png",
+     "alt": "Family Dollar logo",
+     "credit": "Tellermate 2021",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7271456",
+   "slug": "quest-diagnostics",
+   "name": "Quest Diagnostics",
+   "aliases": [],
+   "description": "medical research company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.questdiagnostics.com/",
+   "wikipedia": {
+    "title": "Quest Diagnostics",
+    "url": "https://en.wikipedia.org/wiki/Quest_Diagnostics",
+    "extract": "Quest Diagnostics Incorporated is an American clinical laboratory. A Fortune 500 company, Quest operates in the United States, Puerto Rico, Mexico, and Brazil. Quest also maintains collaborative agreements with various hospitals and clinics across the globe.\nAs of 2020, the company had approximately 48,000 employees, and it generated more than $7.7 billion in revenue in 2019. The company offers access to diagnostic testing services for cancer, cardiovascular disease, infectious disease, neurological disorders, COVID-19, and employment and court-ordered drug testing.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1967",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7271456 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison; Secaucus",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7271456 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Paul A. Brown",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7271456 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q7271456 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7271456"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5583655",
+   "slug": "goodwill-industries",
+   "name": "Goodwill Industries",
+   "aliases": [
+    "Goodwill",
+    "goodwill",
+    "Goodwill Industries International, Inc.",
+    "Goodwill Industries International"
+   ],
+   "description": "American job services nonprofit & thrift store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "thrift-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.goodwill.org/",
+   "wikipedia": {
+    "title": "Goodwill Industries",
+    "url": "https://en.wikipedia.org/wiki/Goodwill_Industries",
+    "extract": "Goodwill Industries International Inc., or simply Goodwill, is an American 501(c)(3) non-profit organization that provides job training, employment placement services, and other community-based programs for people who face barriers to employment.\nGoodwill Industries also hires veterans and individuals who lack job experience, an education, or face employment challenges. The business is funded by a network of 3,200+ retail thrift stores, operating as independent stores. Goodwill Industries operates as a network of independent, community-based organizations in Brazil, Canada, Costa Rica, Finland, Italy, South Korea, Mexico, the Philippines, Taiwan, Thailand, Trinidad and Tobago, the United States, Uruguay and Venezuela, with 165 local Goodwill retail stores in the United States and Canada. It slowly expanded from its founding in 1902 and was first called Goodwill in 1915. In 2024, the group served more than 2.1 million people, with more than 142,000 people placed into employment. In their 2024 fiscal year, Goodwill organizations recorded $8.6 billion in revenue and $8.1 billion in expenses, of which $6.2 billion was spent on charitable services and $1.9 billion was spent on salaries and other operating expenses. Services constituted 77 percent of expenses. Goodwill Industries logo is a stylized letter g, resembling a smiling face, designed by Joseph Selame in 1968.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1902",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5583655 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Rockville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5583655 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5583655 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5583655"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Goodwill_Industries_Logo.svg/1920px-Goodwill_Industries_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Goodwill_Industries_Logo.svg",
+     "alt": "Goodwill Industries logo",
+     "credit": "Wikimedia Commons contributor",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3388303",
+   "slug": "piggly-wiggly",
+   "name": "Piggly Wiggly",
+   "aliases": [],
+   "description": "American supermarket chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pigglywiggly.com/",
+   "wikipedia": {
+    "title": "Piggly Wiggly",
+    "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+    "extract": "Piggly Wiggly, LLC is an American supermarket chain operating in the American Southern and Midwestern regions. Its first outlet opened in 1916 in Memphis, Tennessee, and was the first true self-service grocery store, and the originator of various familiar supermarket features, such as checkout stands and individual item price marking.\nThe company is currently headquartered in Keene, New Hampshire, although no Piggly Wiggly-branded stores operate in that state. As of 2024, 503 independently owned Piggly Wiggly stores operated in 18 states, primarily in smaller cities and towns.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Keene",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Clarence Saunders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3388303 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3388303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Piggly_wiggly.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Piggly_wiggly.png",
+     "alt": "Piggly Wiggly logo",
+     "credit": "C&amp;S Wholesale Grocers and Piggly Wiggly",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3146662",
+   "slug": "iga",
+   "name": "IGA",
+   "aliases": [
+    "Independent Grocers Alliance",
+    "Independent Grocers Alliance of America"
+   ],
+   "description": "U.S. brand of franchise grocery stores, operating in more than 30 countries",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.iga.com",
+   "wikipedia": {
+    "title": "IGA, Inc.",
+    "url": "https://en.wikipedia.org/wiki/IGA,_Inc.",
+    "extract": "IGA, INC. is an international affiliation of franchised grocery stores that are independently owned and operated.  As of 2026, the network included nearly 7,500 supermarkets in more than 30 countries, representing $80 billion in annual sales — with many IGA stores operating in small-town markets and owned by their managing families. \nHeadquartered in Chicago, Illinois, IGA was founded in 1926 the United States as the Independent Grocers Alliance.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1926-05",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3146662 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3146662"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/IGA_logo.svg/1920px-IGA_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:IGA_logo.svg",
+     "alt": "IGA logo",
+     "credit": "IGA",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5887960",
+   "slug": "homeservices-of-america",
+   "name": "HomeServices of America",
+   "aliases": [
+    "#REDIRECT [[Q5887960]]"
+   ],
+   "description": "residential real estate services company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.homeservices.com/",
+   "wikipedia": {
+    "title": "HomeServices of America",
+    "url": "https://en.wikipedia.org/wiki/HomeServices_of_America",
+    "extract": "HomeServices of America is a residential real estate services company operating in the United States. The company provides real estate brokerage services, mortgage loan origination, franchising, title insurance, escrow and closing services, home warranties, property insurance, casualty insurance and relocation services. It is the second-largest real estate brokerage in the country, behind Compass, Inc.\nThe company operates under many brand names including HomeServices of America, Huff Realty, Edina Realty, and Long & Foster.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1998",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5887960 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Minneapolis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5887960 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5887960 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5887960 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5887960"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q752941",
+   "slug": "taco-bell",
+   "name": "Taco Bell",
+   "aliases": [],
+   "description": "American fast-food chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 49,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tacobell.com/",
+   "wikipedia": {
+    "title": "Taco Bell",
+    "url": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "extract": "Taco Bell Corporation, doing business as Taco Bell, is an American multinational chain of fast food restaurants founded in 1962 by Glen Bell (1923–2010) in Downey, California. Taco Bell is a subsidiary of Yum! Brands, Inc., who are also the owners of sister brand KFC. The restaurants serve a variety of Mexican-inspired foods, including tacos, burritos, quesadillas, nachos, novelty, and specialty items, and a variety of \"value menu\" items. As of 2023, Taco Bell serves over two billion customers each year, at 8,212 restaurants, more than 94 percent of which are owned and operated by independent franchisees and licensees.\nPepsiCo purchased Taco Bell in 1978. PepsiCo spun off its restaurants division in 1997 as Tricon Global Restaurants; in 2002 it changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962-03-21",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Irvine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Glen Bell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q752941 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q752941"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/1984TacoBellSign.svg/1920px-1984TacoBellSign.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1984TacoBellSign.svg",
+     "alt": "Taco Bell logo",
+     "credit": "NissanFanatic245",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q109675651",
+   "slug": "exxon",
+   "name": "Exxon",
+   "aliases": [],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109675651 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109675651"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q319642",
+   "slug": "chevron-corporation",
+   "name": "Chevron Corporation",
+   "aliases": [
+    "Chevron México"
+   ],
+   "description": "American multinational energy corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 60,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevron.com",
+   "wikipedia": {
+    "title": "Chevron Corporation",
+    "url": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "extract": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. As the second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California (shortened to Socal or CalSo), it is active in more than 180 countries. \nThe company was founded originally in Southern California during the 1870s. After the breakup of Standard Oil, Socal grew quickly on its own by continuing to acquire companies and partnering with others both inside and outside of California, eventually becoming one of the Big Oil companies that dominated the global petroleum industry from the mid-1940s to the 1970s. In 1985, Socal merged with the Pittsburgh-based Gulf Oil and rebranded as Chevron; the newly merged company later merged with Texaco in 2001.  \nChevron is one of the largest companies in the world and the second-largest oil company based in the United States by revenue, only behind fellow Standard Oil descendant ExxonMobil. Within oil and gas, Chevron is vertically integrated and is involved in hydrocarbon exploration, production, refining, marketing and transport, chemicals manufacturing and sales, and power generation. Chevron manufactures and sells fuels, lubricants, additives, and petrochemicals, primarily in Western North America,  the US Gulf Coast, Southeast Asia, South Korea and Australia. In 2018, the company produced an average of 791,000 barrels (125,800 m3) of net oil-equivalent per day in United States.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "5001 Executive Parkway, Suite 200, San Ramon, CA 94583",
+     "sourceId": "wikidata",
+     "sourceRef": "Q319642 P6375"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q319642 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q319642"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/1920px-Chevron_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg",
+     "alt": "Chevron Corporation logo",
+     "credit": "Chevron Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q92384230",
+   "slug": "centennial-bank",
+   "name": "Centennial Bank",
+   "aliases": [],
+   "description": "American banking chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "bank-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.my100bank.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2008",
+     "sourceId": "wikidata",
+     "sourceRef": "Q92384230 P571"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q92384230 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q92384230"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q4686051",
+   "slug": "advance-auto-parts",
+   "name": "Advance Auto Parts",
+   "aliases": [],
+   "description": "retailer of aftermarket automotive parts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://shop.advanceautoparts.com/",
+   "wikipedia": {
+    "title": "Advance Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/Advance_Auto_Parts",
+    "extract": "Advance Auto Parts is an American automotive aftermarket parts provider. Headquartered in Raleigh, North Carolina, it serves professional installer and do it yourself (DIY) customers.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1932",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Roanoke",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Arthur Taubman",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4686051 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4686051"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AAP_Logo_STK_2C.svg/1920px-AAP_Logo_STK_2C.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:AAP_Logo_STK_2C.svg",
+     "alt": "Advance Auto Parts logo",
+     "credit": "Advance Auto Parts",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16985303",
+   "slug": "hungry-howies-pizza",
+   "name": "Hungry Howie's Pizza",
+   "aliases": [
+    "Hungry Howie's"
+   ],
+   "description": "American pizza chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gulf-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hungryhowies.com",
+   "wikipedia": {
+    "title": "Hungry Howie's Pizza",
+    "url": "https://en.wikipedia.org/wiki/Hungry_Howie%27s_Pizza",
+    "extract": "Hungry Howie's Pizza & Subs, Inc., also known as Hungry Howie's Pizza, is a franchise and the 11th largest pizza chain in the United States, with nearly 500 locations.  Hungry Howie's products include pizza, calzone-style subs, chicken wings and tenders, bread, salads, cookies, and brookies. Its headquarters are located in Madison Heights, Michigan in Metro Detroit.",
+    "retrievedAt": "2026-11-27T19:37:45.737Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison Heights",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16985303 inside Gulf County boundary",
+     "scopeAreaSlug": "gulf-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16985303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hungry_Howies_Athens_OH_USA.JPG/1920px-Hungry_Howies_Athens_OH_USA.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hungry_Howies_Athens_OH_USA.JPG",
+     "alt": "Photograph of Hungry Howie's Pizza",
+     "credit": "Ed!(talk)(Hall of Fame) (Transferred by Cloudbound/Originally uploaded by Ed!)",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "gulf-county-fl",
+  "wikidataCandidates": 40,
+  "places": 19,
+  "brands": 21,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 37,
+  "withFreeImage": 29,
+  "withCoordinates": 19,
+  "osmBrandedLocations": 25,
+  "unmappedClasses": 2
+ }
+}

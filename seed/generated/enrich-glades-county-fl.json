@@ -1,0 +1,959 @@
+{
+ "generatedAt": "2026-11-27T19:36:27.986Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "glades-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:36:27.986Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:36:27.986Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Glades County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:36:27.986Z",
+   "checksumSha256": "7bc409faaa7c150322079a875fd9ab384be431f0fb4dbfe185414d745d2db291"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q1420635",
+   "slug": "fisheating-creek",
+   "name": "Fisheating Creek",
+   "aliases": [],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.970833,
+    "lon": -81.100556
+   },
+   "wikipedia": {
+    "title": "Fisheating Creek",
+    "url": "https://en.wikipedia.org/wiki/Fisheating_Creek",
+    "extract": "Fisheating Creek is a stream that flows into Lake Okeechobee in Florida. It is the only remaining free-flowing water course feeding into the lake, and the second-largest natural source for the lake. Most of the land surrounding the stream is either publicly owned or under conservation easements restricting development. The lower part of the stream remains in a largely natural state, and efforts are underway to restore the upper part of the stream to a more natural state.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1420635"
+    },
+    {
+     "provider": "geonames",
+     "id": "4155460"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fisheating_Creek_from_above_1.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Fisheating_Creek_from_above_1.jpg",
+     "alt": "Photograph of Fisheating Creek",
+     "credit": "Unspecified",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5470901",
+   "slug": "fort-center",
+   "name": "Fort Center",
+   "aliases": [],
+   "description": "archaeological site in Florida, US",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.9507,
+    "lon": -81.1364
+   },
+   "wikipedia": {
+    "title": "Fort Center",
+    "url": "https://en.wikipedia.org/wiki/Fort_Center",
+    "extract": "Fort Center is an archaeological site in Glades County, Florida, United States, a few miles northwest of Lake Okeechobee. It was occupied for more than 2,000 years, from 450 BCE until about 1700 CE. The inhabitants of Fort Center may have been cultivating maize centuries before it appeared anywhere else in Florida.\nThe area around Fisheating Creek was occupied by people of the Belle Glade culture from as early as 1000 BCE.\nFort Center is a complex of earthwork mounds, linear embankments, middens, circular ditches, and an artificial pond occupying an area approximately 1 mile (1.6 km) long and 0.5 miles (0.80 km) wide extending east–west along Fisheating Creek, a stream that empties unto Lake Okeechobee.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5470901"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6707848",
+   "slug": "lykes-palmdale-airport",
+   "name": "Lykes Palmdale Airport",
+   "aliases": [],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.947778,
+    "lon": -81.318611
+   },
+   "wikipedia": {
+    "title": "Lykes Palmdale Airport",
+    "url": "https://en.wikipedia.org/wiki/Lykes_Palmdale_Airport",
+    "extract": "Lykes Palmdale Airport (FAA LID: FL73) is a small, private airport located in Palmdale, Glades County, Florida, United States, near Lake Okeechobee.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6707848"
+    },
+    {
+     "provider": "geonames",
+     "id": "4163041"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6908166",
+   "slug": "moore-haven-residential-historic-district",
+   "name": "Moore Haven Residential Historic District",
+   "aliases": [],
+   "description": "historic district in Moore Haven, Florida, USA",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "moore-haven-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.830833,
+    "lon": -81.094722
+   },
+   "wikipedia": {
+    "title": "Moore Haven Residential Historic District",
+    "url": "https://en.wikipedia.org/wiki/Moore_Haven_Residential_Historic_District",
+    "extract": "The Moore Haven Residential Historic District is a U.S. historic district (designated as such on June 26, 1998) located in Moore Haven, Florida. The district is bounded by Avenue J to Avenue M and 1st to 5th Streets. It contains 40 historic buildings.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6908166 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "98000714",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6908166 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6908166"
+    },
+    {
+     "provider": "nrhp",
+     "id": "98000714"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Moore_Haven_FL_Residential_HD01.jpg/1920px-Moore_Haven_FL_Residential_HD01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Moore_Haven_FL_Residential_HD01.jpg",
+     "alt": "Photograph of Moore Haven Residential Historic District",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q6908168",
+   "slug": "moore-haven-downtown-historic-district",
+   "name": "Moore Haven Downtown Historic District",
+   "aliases": [],
+   "description": "historic district in Moore Haven, Florida, USA",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "moore-haven-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.8325,
+    "lon": -81.090556
+   },
+   "wikipedia": {
+    "title": "Moore Haven Downtown Historic District",
+    "url": "https://en.wikipedia.org/wiki/Moore_Haven_Downtown_Historic_District",
+    "extract": "The Moore Haven Downtown Historic District is a U.S. historic district (designated as such on October 12, 1995) located in Moore Haven, Florida. The district runs from 3 through 99 Avenue J., 100 1st Street and Lone Cypress Park, a park which houses the only cypress tree in the district. It contains 7 historic buildings covering 22 acres.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6908168 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "95001166",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6908168 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6908168"
+    },
+    {
+     "provider": "nrhp",
+     "id": "95001166"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Moore_Haven_FL_Downtown_HD01.jpg/1920px-Moore_Haven_FL_Downtown_HD01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Moore_Haven_FL_Downtown_HD01.jpg",
+     "alt": "Photograph of Moore Haven Downtown Historic District",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7081903",
+   "slug": "okeechobee-waterway",
+   "name": "Okeechobee Waterway",
+   "aliases": [
+    "Okeechobee Canal"
+   ],
+   "description": "canal in Florida, United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.8061,
+    "lon": -81.1128
+   },
+   "wikipedia": {
+    "title": "Okeechobee Waterway",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_Waterway",
+    "extract": "The Okeechobee Waterway or Okeechobee Canal is a relatively shallow artificial waterway in the United States, stretching across Florida from Fort Myers on the west coast to Stuart on Florida's east coast. The waterway can support tows such as barges or private vessels up to 50 feet (15 metres) wide x 250 feet (76 metres) long which draw less than 10 feet (3.0 metres), as parts of the system, especially the locks may have low water depths of just ten feet. The system of channels runs through Lake Okeechobee and consists of the Caloosahatchee River to the west of the lake and the St. Lucie Canal east of the lake.\nGeologically and geographically, the canal splits the southern part of the Florida Peninsula from the mainland.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7081903"
+    },
+    {
+     "provider": "geonames",
+     "id": "4166832"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16895392",
+   "slug": "moore-haven-junior-senior-high-school",
+   "name": "Moore Haven Junior Senior High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "moore-haven-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.8317,
+    "lon": -81.0997
+   },
+   "officialUrl": "https://www.edline.net/pages/Moore_Haven_JSHS",
+   "wikipedia": {
+    "title": "Moore Haven Junior Senior High School",
+    "url": "https://en.wikipedia.org/wiki/Moore_Haven_Junior_Senior_High_School",
+    "extract": "Moore Haven Junior Senior High School is a public school in the Glades County of Moore Haven, Florida. It was established in 1968 when it was split off from a shared campus with the elementary school. The school is in a rural town on the southwestern shore of Lake Okeechobee and serves students from Muse; Ortona; Palmdale; Crescent Acres; Horseshoe Acres; Hendry Isles; North LaBelle; Lakeport; Buckhead Ridge; and the Brighton Seminole Indian Reservation. The campus includes an auditorium, a gymnasium, and a football field with six-lane track. Baseball and softball fields are located nearby. It was rated a C-school in 2011–2012.\nTerriers are the school mascot.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1968",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16895392 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16895392"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q139499210",
+   "slug": "mamie-langdale-memorial-bridge",
+   "name": "Mamie Langdale Memorial Bridge",
+   "aliases": [],
+   "description": "bridge in Moore Haven, Florida",
+   "entityType": "bridge",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "bridges",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 26.833056,
+    "lon": -81.088611
+   },
+   "wikipedia": {
+    "title": "Mamie Langdale Memorial Bridge",
+    "url": "https://en.wikipedia.org/wiki/Mamie_Langdale_Memorial_Bridge",
+    "extract": "The Mamie Langdale Memorial Bridge is a bridge carrying U.S. Highway 27 (US 27) over the Caloosahatchee Canal in Moore Haven, Florida. The bridge was built in 1999 and it is 55 feet (17 m) tall. The bridge's primary span over the canal is a 320-foot (98 m) spliced concrete girder span. It was the longest spliced concrete girder span in the country at the time. The bridge is named for Mamie Langdale, one of the former bridge tenders of the previous drawbridge at the site who passed away in 1973.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q139499210"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5433101",
+   "slug": "family-dollar",
+   "name": "Family Dollar",
+   "aliases": [
+    "Family Dollar Stores, Inc.",
+    "FDO",
+    "Family Dollar Stores"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.familydollar.com/",
+   "wikipedia": {
+    "title": "Family Dollar",
+    "url": "https://en.wikipedia.org/wiki/Family_Dollar",
+    "extract": "Family Dollar Stores, Inc. is an American variety store chain founded in 1959 by Leon Levine in Charlotte, North Carolina. With over 8,000 locations in all states except Alaska and Hawaii, it was once the second largest retailer of its type in the United States until it was acquired by Dollar Tree in 2015. Its headquarters operations were then moved from Matthews, North Carolina, to Chesapeake, Virginia.\nIn June 2014, activist investor and major shareholder Carl Icahn demanded that Family Dollar be immediately put up for sale. On July 28, Dollar Tree announced that it would buy Family Dollar for $8.5 billion. The sale delivered a windfall to Icahn, who had acquired his 9.4 percent stake in June. In January 2015, Family Dollar shareholders approved the Dollar Tree bid.\nFamily Dollar, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. In 2022, Family Dollar was sued by the Arkansas Attorney General following an investigation by the FDA into a rat infestation at its West Memphis, Arkansas, distribution center. The lawsuit ended in a $41 million fine to the company and the temporary closure of 400 stores.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1959",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Leon Levine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5433101 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5433101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Family-Dollar-Logo-2.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Family-Dollar-Logo-2.png",
+     "alt": "Family Dollar logo",
+     "credit": "Tellermate 2021",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q630866",
+   "slug": "arbys",
+   "name": "Arby's",
+   "aliases": [],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://arbys.com",
+   "wikipedia": {
+    "title": "Arby's",
+    "url": "https://en.wikipedia.org/wiki/Arby%27s",
+    "extract": "Arby's Restaurant Group, Inc., doing business as Arby's, is an American fast food sandwich restaurant chain with more than 3,200 restaurants. The flagship property of Inspire Brands, it ranked third in systemwide sales in the United States in the quick-service and fast-casual restaurant industries in 2012, behind Subway and Panera Bread. In October 2017, Food & Wine called Arby's \"America's second largest sandwich chain (after Subway)\".\nRoark Capital Group acquired 81.5% of Arby's Restaurant Group in July 2011 and is now a majority-owner of Inspire Brands. The Wendy's Company held a minority stake of 18.5% in Arby's after the acquisition by Roark Capital. That share was reduced to 12.3% upon the purchase of Buffalo Wild Wings. It was sold back to Inspire Brands on August 16, 2018 for $450 million, a 38% premium.\nArby's is best known for selling roast beef sandwiches. Other menu items the chain is known for include gyros, wraps, chicken sandwiches, and milkshakes. Its headquarters are in Sandy Springs, Georgia, a suburb of Atlanta that uses Atlanta mailing addresses.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Roark Capital Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Sandy Springs",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q630866 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q630866"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Arby%27s_logo.svg/1920px-Arby%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg",
+     "alt": "Arby's logo",
+     "credit": "Arby's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q111631907",
+   "slug": "cat-scale",
+   "name": "CAT Scale",
+   "aliases": [
+    "CAT Scale Company",
+    "CAT Scale Co.",
+    "CAT"
+   ],
+   "description": "North American network of truck scales",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://catscale.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Walcott",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q111631907 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q111631907"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q110716465",
+   "slug": "shell-q110716465",
+   "name": "Shell",
+   "aliases": [],
+   "description": "multinational fuel station chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Showa Shell Sekiyu; Idemitsu Kosan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P137"
+    },
+    {
+     "key": "owner",
+     "value": "Shell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q110716465 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q110716465"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1872496",
+   "slug": "loves-travel-stops-and-country-stores",
+   "name": "Love's Travel Stops & Country Stores",
+   "aliases": [
+    "Love's Travel Stops",
+    "Love's"
+   ],
+   "description": "truck stop chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "glades-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.loves.com/",
+   "wikipedia": {
+    "title": "Love's",
+    "url": "https://en.wikipedia.org/wiki/Love%27s",
+    "extract": "Love's Travel Stops, doing business as Love's (or stylized as Loves), is an American family owned-and-operated chain of more than 670 travel stops in 42 states in the United States. The company is privately owned and headquartered in Oklahoma City. Love's ranked No. 15 on the 2025 Forbes list of America's largest private companies. Love's has two primary kinds of stores: country stores and travel stops. Country stores are fueling stations with a convenience store attached. The larger travel stops are located along highways and offer additional amenities such as food from restaurant chains such as Arby's, Bojangles, Burger King, Chester's, Dunkin' Donuts, McDonald's, Taco John's, Subway, Wendy's, Hardee's/Carl's Jr., truck parking spaces, showers and laundry. The company started adding RV hookups and RV Stops in 2022. Love's had more than 40,000 employees in 2023.",
+    "retrievedAt": "2026-11-27T19:36:27.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oklahoma City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Tom Love; Judy Love",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1872496 inside Glades County boundary",
+     "scopeAreaSlug": "glades-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1872496"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Love%27s_logo.svg/1920px-Love%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Love%27s_logo.svg",
+     "alt": "Love's Travel Stops & Country Stores logo",
+     "credit": "Love's Travel Stops &amp; Country Stores",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "glades-county-fl",
+  "wikidataCandidates": 30,
+  "places": 8,
+  "brands": 6,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 12,
+  "withFreeImage": 8,
+  "withCoordinates": 8,
+  "osmBrandedLocations": 6,
+  "unmappedClasses": 9
+ }
+}

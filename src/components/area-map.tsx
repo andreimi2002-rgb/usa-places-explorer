@@ -18,6 +18,7 @@ export function AreaMap({
   highlight = [],
   activeSlugs,
   points = [],
+  overlay = [],
   width = 640,
   height = 520,
   title,
@@ -29,6 +30,8 @@ export function AreaMap({
   highlight?: string[];
   activeSlugs?: string[];
   points?: MapPoint[];
+  /** Place boundaries drawn above the base layer (highlighted ones in gold). */
+  overlay?: Feature<Geometry, Props>[];
   width?: number;
   height?: number;
   title: string;
@@ -65,6 +68,18 @@ export function AreaMap({
                 strokeWidth={isHl ? 1.6 : 0.6}
                 vectorEffect="non-scaling-stroke"
               >
+                <title>{f.properties.name}</title>
+              </path>
+            </a>
+          );
+        })}
+        {overlay.map((f) => {
+          const d = path(f);
+          if (!d) return null;
+          const isHl = hl.has(f.properties.slug);
+          return (
+            <a key={`o-${f.properties.slug}`} href={`/places/${f.properties.slug}`} aria-label={f.properties.name}>
+              <path d={d} className={isHl ? "fill-gold/45 stroke-gold" : "fill-mint/15 stroke-mint/70 hover:fill-mint/30"} strokeWidth={isHl ? 1.6 : 0.7} vectorEffect="non-scaling-stroke">
                 <title>{f.properties.name}</title>
               </path>
             </a>

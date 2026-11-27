@@ -59,6 +59,7 @@ export const areaTypeSchema = z.enum([
   "county",
   "municipality",
   "cdp",
+  "community",
   "neighborhood",
   "region",
   "metro_area",
@@ -105,7 +106,7 @@ export const areaSchema = z.object({
 });
 export type Area = z.infer<typeof areaSchema>;
 
-export const areaRelationTypeSchema = z.enum(["intersects", "contains_internal_point_of", "adjacent_to", "consolidated_with"]);
+export const areaRelationTypeSchema = z.enum(["intersects", "contains_internal_point_of", "adjacent_to", "consolidated_with", "county_seat"]);
 
 export const areaRelationSchema = z.object({
   areaSlug: slugSchema,
@@ -113,6 +114,8 @@ export const areaRelationSchema = z.object({
   relationType: areaRelationTypeSchema,
   sourceId: slugSchema,
   method: z.string().optional(),
+  /** Share of areaSlug's area inside relatedSlug (0..1), for geometric intersections. */
+  share: z.number().min(0).max(1).optional(),
   reviewStatus: reviewStatusSchema,
 });
 export type AreaRelation = z.infer<typeof areaRelationSchema>;
@@ -333,6 +336,9 @@ export const coverageUniverseSchema = z.object({
   denominator: z.number().int().positive(),
   asOf: isoDateSchema,
   sourceId: slugSchema,
+  /** area_count: areas of areaType under areaSlug; relation_count: those areas having relationType. */
+  metric: z.enum(["area_count", "relation_count"]).default("area_count"),
+  relationType: areaRelationTypeSchema.optional(),
 });
 export type CoverageUniverse = z.infer<typeof coverageUniverseSchema>;
 
@@ -346,3 +352,21 @@ export const censusBundleSchema = z.object({
   coverageUniverses: z.array(coverageUniverseSchema),
 });
 export type CensusBundle = z.infer<typeof censusBundleSchema>;
+
+/**
+ * Phase 2 geography bundle (scripts/ingest/florida-geography.ts): exact
+ * place/county intersections from boundary polygons, county seats and
+ * websites, and GNIS named populated places. Applied on top of the Census bundle.
+ */
+export const geographyBundleSchema = censusBundleSchema.extend({
+  /** Primary-parent changes for existing areas (e.g. CDP -> county with the largest area share). */
+  parentOverrides: z.array(z.object({ slug: slugSchema, parentSlug: slugSchema, reason: z.string() })),
+  /** Existing areas that receive a GNIS id / point (e.g. curated neighborhoods). */
+  areaEnrichments: z.array(
+    z.object({ slug: slugSchema, ansi: z.string(), internalPoint: pointSchema, sourceId: slugSchema }),
+  ),
+  /** Census places whose relations are now geometric (drop the bundle-1 approximations). */
+  placesWithGeometry: z.array(slugSchema),
+  stats: z.record(z.string(), z.number()),
+});
+export type GeographyBundle = z.infer<typeof geographyBundleSchema>;

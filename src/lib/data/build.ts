@@ -14,6 +14,18 @@ import type {
 import type { SeedInputs } from "./inputs";
 
 export const siteSourceId = (entitySlug: string) => `site-${entitySlug}`;
+/** Source id for a county's official website (checked by ingest:links). */
+export const countyWebsiteSourceId = (countySlug: string) => `site-${countySlug}`;
+/** County short name used as link-check evidence: "st-johns-county-fl" -> "St. Johns", "miami-dade-county-fl" -> "Miami-Dade". */
+export function countyShortName(countySlug: string): string {
+  return countySlug
+    .replace(/-county-fl$/, "")
+    .split("-")
+    .map((w) => (w === "st" ? "St." : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(" ")
+    .replace(/^Desoto$/, "DeSoto")
+    .replace(/^Miami Dade$/, "Miami-Dade");
+}
 
 export function primarySourceId(e: EntityInput): string | null {
   return e.officialUrl ? siteSourceId(e.slug) : (e.sourceIds[0] ?? null);
@@ -125,8 +137,22 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       checksumSha256: c.bodySha256,
     }));
 
-  // ---- areas
-  const allAreas = [...census.areas, ...curated.neighborhoods];
+  // ---- areas (Census registry + curated neighborhoods + Phase 2 geography)
+  const geo = inputs.geography;
+  for (const s of geo?.sources ?? []) addSource(s, null);
+  const overrides = new Map((geo?.parentOverrides ?? []).map((o) => [o.slug, o.parentSlug]));
+  const enrich = new Map<string, NonNullable<typeof geo>["areaEnrichments"][number]>();
+  for (const e of geo?.areaEnrichments ?? []) if (!enrich.has(e.slug)) enrich.set(e.slug, e);
+  const allAreas = [...census.areas, ...curated.neighborhoods, ...(geo?.areas ?? [])].map((a) => {
+    const parentSlug = overrides.get(a.slug) ?? a.parentSlug;
+    const en = enrich.get(a.slug);
+    if (!en) return { ...a, parentSlug };
+    return {
+      ...a, parentSlug, internalPoint: a.internalPoint ?? en.internalPoint,
+      codes: { ...a.codes, ansi: a.codes.ansi ?? en.ansi },
+      sourceIds: a.sourceIds.includes(en.sourceId) ? a.sourceIds : [...a.sourceIds, en.sourceId],
+    };
+  });
   const areaIdBySlug = new Map<string, string>();
   for (const a of allAreas) {
     if (areaIdBySlug.has(a.slug)) throw new DatasetError(`duplicate area slug ${a.slug}`);
@@ -164,15 +190,26 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       aliases: a.aliases,
     };
   });
-  const areaRelations = census.areaRelations.map((r) => ({
+  // Geometric intersections (Phase 2) replace the bundle-1 approximations for the same places.
+  const geometric = new Set(geo?.placesWithGeometry ?? []);
+  const censusRelations = census.areaRelations.filter(
+    (r) => !(geometric.has(r.areaSlug) && (r.relationType === "intersects" || r.relationType === "contains_internal_point_of")),
+  );
+  const areaRelations = [...censusRelations, ...(geo?.areaRelations ?? [])].map((r) => ({
     id: stableId("relation", `area:${r.areaSlug}:${r.relationType}:${r.relatedSlug}`),
     areaId: areaId(r.areaSlug, "areaRelation"),
     relatedAreaId: areaId(r.relatedSlug, "areaRelation"),
     relationType: r.relationType,
     sourceId: r.sourceId,
     method: r.method ?? null,
+    share: r.share ?? null,
     reviewStatus: r.reviewStatus,
   }));
+  const relKeys = new Set<string>();
+  for (const r of areaRelations) {
+    if (relKeys.has(r.id)) throw new DatasetError(`duplicate area relation ${r.id}`);
+    relKeys.add(r.id);
+  }
 
   // ---- categories
   const categories = flattenCategories(taxonomy.domains);
@@ -189,7 +226,7 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     entityIdBySlug.set(e.slug, stableId("entity", e.slug));
   }
 
-  const facts: FactRow[] = census.facts.map((f) => ({
+  const facts: FactRow[] = [...census.facts, ...(geo?.facts ?? [])].map((f) => ({
     id: stableId("fact", `${f.subjectKind}:${f.subjectSlug}:${f.key}:${f.sourceId}:${f.asOf ?? f.asOfLabel ?? ""}`),
     areaId: f.subjectKind === "area" ? areaId(f.subjectSlug, `fact ${f.key}`) : null,
     entityId: f.subjectKind === "entity" ? (entityIdBySlug.get(f.subjectSlug) ?? null) : null,
@@ -307,11 +344,36 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     year: m.year ?? null, aiGenerated: m.aiGenerated,
   }));
 
-  const coverageUniverses = census.coverageUniverses.map((u) => ({
+  const coverageUniverses = [...census.coverageUniverses, ...(geo?.coverageUniverses ?? [])].map((u) => ({
     id: u.id, areaId: areaId(u.areaSlug, `universe ${u.id}`), label: u.label, definition: u.definition,
     areaType: u.areaType ?? null, categoryId: u.categorySlug ? (categoryIdBySlug.get(u.categorySlug) ?? null) : null,
-    denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId,
+    denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId, metric: u.metric, relationType: u.relationType ?? null,
   }));
+
+  // County websites (Wikidata): register each as an official_website source and apply its link check.
+  for (const f of facts) {
+    if (f.key !== "official-website" || !f.areaId || !f.valueText) continue;
+    const county = areas.find((a) => a.id === f.areaId)!;
+    const sid = countyWebsiteSourceId(county.slug);
+    if (!sourceIds.has(sid)) {
+      addSource({
+        id: sid, kind: "official_website", title: `${county.name} — official website`, publisher: county.name, url: f.valueText,
+        license: "Cited as a reference link; page content is not redisplayed", redisplayPermitted: false, expectedFields: [],
+        retrievalMethod: "Automated link check (single GET, robots.txt respected)", refreshInterval: "Quarterly link check",
+      }, null);
+    }
+    const check = checks.get(sid);
+    const v = judge(check, countyShortName(county.slug), f.reviewStatus);
+    f.reviewStatus = v.status;
+    f.verifiedAt = v.verifiedAt;
+    if (check && check.url === f.valueText && !sourceRecords.some((r) => r.sourceId === sid)) {
+      sourceRecords.push({
+        id: stableId("fact", `linkcheck:${sid}:${check.checkedAt}`), sourceId: sid, importRunId: null, externalRef: check.url, retrievedAt: check.checkedAt,
+        httpStatus: check.httpStatus, outcome: check.outcome, pageTitle: check.pageTitle, finalUrl: check.finalUrl, checksumSha256: check.bodySha256,
+      });
+    }
+    if (v.issue) reviewIssues.push({ id: stableId("fact", `issue:${v.issue}:${county.slug}:website`), kind: v.issue === "claim_unverified" ? "claim_unverified" : v.issue, entityId: null, areaId: county.id, sourceId: sid, detail: `official website ${f.valueText}: ${v.detail}`, status: "open", createdAt });
+  }
 
   for (const f of facts) if (!sourceIds.has(f.sourceId)) throw new DatasetError(`fact ${f.key}: unknown source ${f.sourceId}`);
 

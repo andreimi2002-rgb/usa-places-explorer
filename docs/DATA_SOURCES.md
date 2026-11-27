@@ -17,6 +17,15 @@ Retrieval is an HTTPS bulk download (`npm run ingest:census`), done sequentially
 
 Note: `ESTIMATESBASE2020` (Jacksonville: 949,607) is the April 1, 2020 estimates base. It is **not** the published 2020 Census count (949,611 in the v0.1 prototype). The site labels it accordingly.
 
+## Phase 2 geography sources (`npm run ingest:geography`)
+
+| id | Source | License | Use |
+|---|---|---|---|
+| `census-cb-2025-places-counties` | Census 2025 cartographic boundaries, FL places + U.S. counties (1:500k) | Public domain | Exact place/county area shares (PostGIS), place polygons for maps |
+| `usgs-gnis-domestic-names-fl` | USGS GNIS Domestic Names, Florida | Public domain | 6,279 named populated places (communities, named places within cities). Lakes, streams and islands in the same file are reserved for the nature domain |
+| `wikidata-fl-county-seats` | Wikidata SPARQL (P36 county seat, P590 GNIS id, P856 website) | CC0 | County seats (66/67 linked) and county websites (62). A secondary source, used because FL DOS returns 403 |
+| `site-<county>-county-fl` | Each county's official website | Cited only | Link-checked. Many Florida government servers do not answer non-U.S. traffic, so re-check from a U.S. network |
+
 ## Directories and references (cited, not redisplayed)
 
 | id | Publisher | Use | Status on 2026-11-27 |

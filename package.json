@@ -23,7 +23,8 @@
     "db:seed": "tsx scripts/db/seed.ts",
     "db:reset": "tsx scripts/db/reset.ts",
     "ingest:census": "tsx scripts/ingest/census-florida.ts",
-    "ingest:links": "tsx scripts/ingest/verify-links.ts"
+    "ingest:links": "tsx scripts/ingest/verify-links.ts",
+    "ingest:geography": "tsx scripts/ingest/florida-geography.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.2",

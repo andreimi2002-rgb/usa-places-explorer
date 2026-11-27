@@ -11,9 +11,9 @@
  * Usage: npm run ingest:links [-- --only=<sourceId>]
  */
 import path from "node:path";
-import { readFileSync } from "node:fs";
-import { collectEvidenceRequests } from "../../src/lib/data/build";
-import { entitySeedFileSchema, linkCheckFileSchema, sourceSchema, type LinkCheck } from "../../src/lib/domain/schemas";
+import { existsSync, readFileSync } from "node:fs";
+import { collectEvidenceRequests, countyShortName, countyWebsiteSourceId } from "../../src/lib/data/build";
+import { entitySeedFileSchema, geographyBundleSchema, linkCheckFileSchema, sourceSchema, type LinkCheck } from "../../src/lib/domain/schemas";
 import { SEED_DIR, sha256, USER_AGENT, writeJson } from "./lib";
 import { z } from "zod";
 
@@ -92,6 +92,14 @@ async function main() {
   const curated = entitySeedFileSchema.parse(JSON.parse(readFileSync(path.join(SEED_DIR, "curated", "jacksonville.json"), "utf8")));
   const curatedSources = z.object({ sources: z.array(sourceSchema) }).parse(JSON.parse(readFileSync(path.join(SEED_DIR, "curated", "sources.json"), "utf8"))).sources;
   const requests = collectEvidenceRequests({ curated, curatedSources });
+  // County official websites from the Phase 2 geography bundle: evidence = the county's short name.
+  const geoPath = path.join(SEED_DIR, "generated", "florida-geography.json");
+  if (existsSync(geoPath)) {
+    const geo = geographyBundleSchema.parse(JSON.parse(readFileSync(geoPath, "utf8")));
+    for (const f of geo.facts.filter((x) => x.key === "official-website" && typeof x.value === "string")) {
+      requests.set(countyWebsiteSourceId(f.subjectSlug), { url: f.value as string, evidence: new Set([countyShortName(f.subjectSlug)]) });
+    }
+  }
   const outFile = path.join(SEED_DIR, "generated", "link-checks.json");
 
   let previous: LinkCheck[] = [];

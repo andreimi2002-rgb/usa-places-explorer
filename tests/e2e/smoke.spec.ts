@@ -95,6 +95,24 @@ test.describe("America 360 smoke", () => {
     await expect(page.getByTestId("sources-dataset")).toContainText("Gazetteer");
   });
 
+  test("county pages show seat, website, CDPs and place boundaries; GNIS places are listed", async ({ page }, info) => {
+    await page.goto("/places/duval-county-fl");
+    await expect(page.getByTestId("county-seat").getByRole("link", { name: "Jacksonville" })).toBeVisible();
+    await expect(page.getByTestId("county-website")).toContainText("coj.net");
+    await expect(page.getByTestId("area-map").locator("a[href='/places/atlantic-beach-fl'] path")).toHaveCount(1);
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-duval.png`, fullPage: true });
+
+    await page.goto("/places/jacksonville-fl");
+    await expect(page.getByTestId("related-geography")).toContainText("County seat of");
+    await expect(page.getByTestId("named-places")).toContainText("inside the city limits");
+
+    await page.goto("/places/jacksonville-fl/localities?type=community");
+    await expect(page.getByTestId("locality-table").locator("tbody tr").first()).toBeVisible();
+
+    await page.goto("/places/leon-county-fl");
+    await expect(page.getByTestId("county-seat")).toContainText("Tallahassee");
+  });
+
   test("unknown pages return 404", async ({ page }) => {
     const r1 = await page.goto("/entities/does-not-exist");
     expect(r1?.status()).toBe(404);

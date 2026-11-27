@@ -1,15 +1,11 @@
-# American Sports Encyclopedia: static Astro build + Pagefind index.
-# The X-Robots-Tag header comes from dist/_headers, written at build time
-# from siteConfig.indexable (src/site.config.ts).
+# Netlify build for America 360 (Next.js 16 via Netlify's OpenNext adapter, auto-installed).
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "22"
-
-# Long cache for hashed build assets.
-[[headers]]
-  for = "/_astro/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+  # The public deploy serves the attributed seed snapshot (no hosted database yet).
+  DATA_MODE = "fixture"
+  NEXT_PUBLIC_LOCALE = "en"
+  NEXT_TELEMETRY_DISABLED = "1"

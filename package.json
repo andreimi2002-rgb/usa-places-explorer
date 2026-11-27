@@ -1,24 +1,53 @@
 {
-  "name": "american-sports-encyclopedia",
+  "name": "america-360",
   "version": "0.1.0",
   "private": true,
+  "description": "America 360 — systematic digital encyclopedia of the United States (Florida pilot).",
   "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
-    "dev": "astro dev",
-    "check": "astro check",
-    "build": "astro check && astro build && pagefind --site dist",
-    "preview": "astro preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --project unit",
+    "test:integration": "vitest run --project integration",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "db:up": "docker compose up -d --wait",
+    "db:down": "docker compose down",
+    "db:migrate": "tsx scripts/db/migrate.ts",
+    "db:seed": "tsx scripts/db/seed.ts",
+    "db:reset": "tsx scripts/db/reset.ts",
+    "ingest:census": "tsx scripts/ingest/census-florida.ts",
+    "ingest:links": "tsx scripts/ingest/verify-links.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.12",
-    "@astrojs/mdx": "^8.1.2",
-    "astro": "^7.4.5",
-    "cytoscape": "^3.34.4",
-    "typescript": "^5.9.3"
+    "d3-geo": "^3.1.2",
+    "next": "^16.4.6",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@types/cytoscape": "^3.21.9",
-    "@types/node": "^22.20.5",
-    "pagefind": "^1.6.0"
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^22.20.7",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.6",
+    "fflate": "^0.8.3",
+    "shapefile": "^0.6.6",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.2"
   }
 }

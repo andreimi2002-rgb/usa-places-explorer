@@ -1,0 +1,323 @@
+import { stableId } from "@/lib/ids";
+import type { CategoryInput, EntityInput, LinkCheck, ReviewStatus, Source } from "@/lib/domain/schemas";
+import type {
+  AreaRow,
+  CategoryRow,
+  Dataset,
+  EntityAreaRow,
+  EntityRelationRow,
+  FactRow,
+  ReviewIssueRow,
+  SourceRecordRow,
+  SourceRow,
+} from "./dataset";
+import type { SeedInputs } from "./inputs";
+
+export const siteSourceId = (entitySlug: string) => `site-${entitySlug}`;
+
+export function primarySourceId(e: EntityInput): string | null {
+  return e.officialUrl ? siteSourceId(e.slug) : (e.sourceIds[0] ?? null);
+}
+
+export function websiteSource(e: EntityInput): Source | null {
+  if (!e.officialUrl) return null;
+  return {
+    id: siteSourceId(e.slug),
+    kind: "official_website",
+    title: `${e.name} — official website`,
+    publisher: e.name,
+    url: e.officialUrl,
+    license: "Cited as a reference link; page content is not redisplayed",
+    redisplayPermitted: false,
+    expectedFields: [],
+    retrievalMethod: "Automated link check (single GET, robots.txt respected)",
+    refreshInterval: "Quarterly link check",
+  };
+}
+
+/** Every (source, evidence text) pair the link checker must look for. */
+export function collectEvidenceRequests(inputs: Pick<SeedInputs, "curated" | "curatedSources">): Map<string, { url: string; evidence: Set<string> }> {
+  const out = new Map<string, { url: string; evidence: Set<string> }>();
+  const ensure = (id: string, url: string) => {
+    if (!out.has(id)) out.set(id, { url, evidence: new Set() });
+    return out.get(id)!;
+  };
+  for (const s of inputs.curatedSources) ensure(s.id, s.url);
+  const urlOf = new Map<string, string>(inputs.curatedSources.map((s) => [s.id, s.url]));
+  for (const e of inputs.curated.entities) {
+    const site = websiteSource(e);
+    if (site) urlOf.set(site.id, site.url);
+  }
+  for (const e of inputs.curated.entities) {
+    const primary = primarySourceId(e);
+    if (primary && urlOf.has(primary)) {
+      const req = ensure(primary, urlOf.get(primary)!);
+      for (const a of e.areas) if (a.evidence) req.evidence.add(a.evidence);
+      for (const c of e.claims) if (!c.sourceId) req.evidence.add(c.evidence);
+    }
+    for (const c of e.claims) if (c.sourceId && urlOf.has(c.sourceId)) ensure(c.sourceId, urlOf.get(c.sourceId)!).evidence.add(c.evidence);
+    for (const r of e.relations) {
+      const sid = r.sourceId ?? primary;
+      if (sid && r.claimEvidence && urlOf.has(sid)) ensure(sid, urlOf.get(sid)!).evidence.add(r.claimEvidence);
+    }
+  }
+  return out;
+}
+
+type Verdict = { status: ReviewStatus; verifiedAt: string | null; issue: ReviewIssueRow["kind"] | null; detail: string };
+
+function judge(check: LinkCheck | undefined, evidence: string | undefined, fallback: ReviewStatus): Verdict {
+  if (!evidence) return { status: fallback, verifiedAt: null, issue: null, detail: "" };
+  if (!check) return { status: "unreviewed", verifiedAt: null, issue: "claim_unverified", detail: "Source not yet checked (run npm run ingest:links)." };
+  if (check.outcome === "blocked") return { status: "unreviewed", verifiedAt: null, issue: "source_blocked", detail: `Source refused automated check (HTTP ${check.httpStatus ?? "n/a"}); needs manual review.` };
+  if (check.outcome === "not_found") return { status: "stale", verifiedAt: null, issue: "source_unreachable", detail: `Source page not found (HTTP ${check.httpStatus}); link is outdated.` };
+  if (check.outcome !== "ok") return { status: "unreviewed", verifiedAt: null, issue: "source_unreachable", detail: `Source check outcome: ${check.outcome} (HTTP ${check.httpStatus ?? "n/a"}); needs another check or manual review.` };
+  const hit = check.evidence.find((x) => x.text === evidence);
+  if (hit?.found) return { status: "verified", verifiedAt: check.checkedAt, issue: null, detail: "" };
+  return { status: "unreviewed", verifiedAt: null, issue: "claim_unverified", detail: `Evidence text "${evidence}" not found in source page on ${check.checkedAt.slice(0, 10)}.` };
+}
+
+function flattenCategories(domains: CategoryInput[]): CategoryRow[] {
+  const rows: CategoryRow[] = [];
+  const walk = (node: CategoryInput, parentId: string | null, domainNumber: number, depth: number, sortOrder: number) => {
+    const id = stableId("category", node.slug);
+    rows.push({ id, slug: node.slug, name: node.name, nameRo: node.nameRo ?? null, description: node.description ?? null, parentId, domainNumber, depth, sortOrder });
+    (node.children ?? []).forEach((c, i) => walk(c, id, domainNumber, depth + 1, i));
+  };
+  domains.forEach((d, i) => walk(d, null, i + 1, 0, i));
+  return rows;
+}
+
+export class DatasetError extends Error {}
+
+export function buildDataset(inputs: SeedInputs): Dataset {
+  const { census, taxonomy, curated, curatedSources, media, linkChecks } = inputs;
+  const createdAt = `${curated.curatedAt}T00:00:00.000Z`;
+  const checks = new Map((linkChecks?.checks ?? []).map((c) => [c.sourceId, c]));
+
+  // ---- sources
+  const sources: SourceRow[] = [];
+  const sourceIds = new Set<string>();
+  const addSource = (s: Source, entityId: string | null) => {
+    if (sourceIds.has(s.id)) throw new DatasetError(`duplicate source id ${s.id}`);
+    sourceIds.add(s.id);
+    sources.push({ ...s, entityId });
+  };
+  census.sources.forEach((s) => addSource(s, null));
+  curatedSources.forEach((s) => addSource(s, null));
+  for (const e of curated.entities) {
+    const site = websiteSource(e);
+    if (site) addSource(site, stableId("entity", e.slug));
+  }
+
+  const sourceRecords: SourceRecordRow[] = [...checks.values()]
+    .filter((c) => sourceIds.has(c.sourceId))
+    .map((c) => ({
+      id: stableId("fact", `linkcheck:${c.sourceId}:${c.checkedAt}`),
+      sourceId: c.sourceId,
+      importRunId: null,
+      externalRef: c.url,
+      retrievedAt: c.checkedAt,
+      httpStatus: c.httpStatus,
+      outcome: c.outcome,
+      pageTitle: c.pageTitle,
+      finalUrl: c.finalUrl,
+      checksumSha256: c.bodySha256,
+    }));
+
+  // ---- areas
+  const allAreas = [...census.areas, ...curated.neighborhoods];
+  const areaIdBySlug = new Map<string, string>();
+  for (const a of allAreas) {
+    if (areaIdBySlug.has(a.slug)) throw new DatasetError(`duplicate area slug ${a.slug}`);
+    areaIdBySlug.set(a.slug, stableId("area", a.slug));
+  }
+  const areaId = (slug: string, ctx: string) => {
+    const id = areaIdBySlug.get(slug);
+    if (!id) throw new DatasetError(`${ctx}: unknown area ${slug}`);
+    return id;
+  };
+  const areas: AreaRow[] = allAreas.map((a) => {
+    for (const s of a.sourceIds) if (!sourceIds.has(s)) throw new DatasetError(`area ${a.slug}: unknown source ${s}`);
+    return {
+      id: areaIdBySlug.get(a.slug)!,
+      slug: a.slug,
+      name: a.name,
+      officialName: a.officialName ?? null,
+      areaType: a.areaType,
+      typeLabel: a.typeLabel ?? null,
+      parentId: a.parentSlug ? areaId(a.parentSlug, `area ${a.slug}`) : null,
+      geoid: a.codes.geoid ?? null,
+      fips: a.codes.fips ?? null,
+      ansi: a.codes.ansi ?? null,
+      usps: a.codes.usps ?? null,
+      funcstat: a.codes.funcstat ?? null,
+      landAreaSqMi: a.landAreaSqMi ?? null,
+      waterAreaSqMi: a.waterAreaSqMi ?? null,
+      lat: a.internalPoint?.lat ?? null,
+      lon: a.internalPoint?.lon ?? null,
+      summary: a.summary ?? null,
+      boundaryNote: a.boundaryNote ?? null,
+      programStatus: a.programStatus,
+      reviewStatus: a.reviewStatus,
+      sourceIds: a.sourceIds,
+      aliases: a.aliases,
+    };
+  });
+  const areaRelations = census.areaRelations.map((r) => ({
+    id: stableId("relation", `area:${r.areaSlug}:${r.relationType}:${r.relatedSlug}`),
+    areaId: areaId(r.areaSlug, "areaRelation"),
+    relatedAreaId: areaId(r.relatedSlug, "areaRelation"),
+    relationType: r.relationType,
+    sourceId: r.sourceId,
+    method: r.method ?? null,
+    reviewStatus: r.reviewStatus,
+  }));
+
+  // ---- categories
+  const categories = flattenCategories(taxonomy.domains);
+  const categoryIdBySlug = new Map<string, string>();
+  for (const c of categories) {
+    if (categoryIdBySlug.has(c.slug)) throw new DatasetError(`duplicate category slug ${c.slug}`);
+    categoryIdBySlug.set(c.slug, c.id);
+  }
+
+  // ---- entities
+  const entityIdBySlug = new Map<string, string>();
+  for (const e of curated.entities) {
+    if (entityIdBySlug.has(e.slug) || areaIdBySlug.has(e.slug)) throw new DatasetError(`duplicate entity slug ${e.slug}`);
+    entityIdBySlug.set(e.slug, stableId("entity", e.slug));
+  }
+
+  const facts: FactRow[] = census.facts.map((f) => ({
+    id: stableId("fact", `${f.subjectKind}:${f.subjectSlug}:${f.key}:${f.sourceId}:${f.asOf ?? f.asOfLabel ?? ""}`),
+    areaId: f.subjectKind === "area" ? areaId(f.subjectSlug, `fact ${f.key}`) : null,
+    entityId: f.subjectKind === "entity" ? (entityIdBySlug.get(f.subjectSlug) ?? null) : null,
+    key: f.key,
+    valueText: typeof f.value === "string" ? f.value : null,
+    valueNum: typeof f.value === "number" ? f.value : null,
+    unit: f.unit ?? null,
+    asOf: f.asOf ?? null,
+    asOfLabel: f.asOfLabel ?? null,
+    sourceId: f.sourceId,
+    sourceRef: f.sourceRef ?? null,
+    reviewStatus: f.reviewStatus,
+    verifiedAt: null,
+    note: f.note ?? null,
+  }));
+
+  const entityAreas: EntityAreaRow[] = [];
+  const entityRelations: EntityRelationRow[] = [];
+  const reviewIssues: ReviewIssueRow[] = [];
+  const issue = (kind: ReviewIssueRow["kind"], entityId: string, sourceId: string | null, detail: string) =>
+    reviewIssues.push({ id: stableId("fact", `issue:${kind}:${entityId}:${sourceId}:${detail}`), kind, entityId, areaId: null, sourceId, detail, status: "open", createdAt });
+
+  const entities = curated.entities.map((e) => {
+    const id = entityIdBySlug.get(e.slug)!;
+    const primary = primarySourceId(e);
+    for (const s of e.sourceIds) if (!sourceIds.has(s)) throw new DatasetError(`entity ${e.slug}: unknown source ${s}`);
+    const primaryCheck = primary ? checks.get(primary) : undefined;
+    let anyVerified = false;
+    let latestVerified: string | null = null;
+    const markVerified = (v: Verdict) => {
+      if (v.status === "verified") {
+        anyVerified = true;
+        latestVerified = v.verifiedAt;
+      }
+    };
+
+    const seenAreas = new Set<string>();
+    for (const a of e.areas) {
+      const key = `${a.slug}:${a.relation}`;
+      if (seenAreas.has(key)) throw new DatasetError(`entity ${e.slug}: duplicate area link ${key}`);
+      seenAreas.add(key);
+      const v = judge(primaryCheck, a.evidence, a.reviewStatus);
+      markVerified(v);
+      if (v.issue) issue(v.issue === "claim_unverified" ? "location_unverified" : v.issue, id, primary, `${a.relation} ${a.slug}: ${v.detail}`);
+      entityAreas.push({ entityId: id, areaId: areaId(a.slug, `entity ${e.slug}`), relationType: a.relation, reviewStatus: v.status, evidence: a.evidence ?? null, verifiedAt: v.verifiedAt, note: a.note ?? null });
+    }
+
+    for (const c of e.claims) {
+      const sid = c.sourceId ?? primary;
+      if (!sid) throw new DatasetError(`entity ${e.slug}: claim ${c.key} has no source`);
+      const v = judge(checks.get(sid), c.evidence, "unreviewed");
+      markVerified(v);
+      if (v.status === "verified") {
+        facts.push({
+          id: stableId("fact", `entity:${e.slug}:${c.key}:${sid}`),
+          areaId: null, entityId: id, key: c.key,
+          valueText: typeof c.value === "string" ? c.value : null,
+          valueNum: typeof c.value === "number" ? c.value : null,
+          unit: c.unit ?? null, asOf: null, asOfLabel: null, sourceId: sid,
+          sourceRef: `evidence: "${c.evidence}"`, reviewStatus: "verified", verifiedAt: v.verifiedAt, note: null,
+        });
+      } else {
+        issue(v.issue ?? "claim_unverified", id, sid, `claim ${c.key} = ${c.value}: ${v.detail}`);
+      }
+    }
+
+    for (const r of e.relations) {
+      const to = entityIdBySlug.get(r.to);
+      if (!to) throw new DatasetError(`entity ${e.slug}: unknown relation target ${r.to}`);
+      const sid = r.sourceId ?? primary;
+      if (sid && !sourceIds.has(sid)) throw new DatasetError(`entity ${e.slug}: unknown relation source ${sid}`);
+      const v = judge(sid ? checks.get(sid) : undefined, r.claimEvidence, "unreviewed");
+      markVerified(v);
+      if (v.issue) issue(v.issue === "claim_unverified" ? "relation_unverified" : v.issue, id, sid, `${r.type} ${r.to}: ${v.detail}`);
+      entityRelations.push({ id: stableId("relation", `entity:${e.slug}:${r.type}:${r.to}`), fromEntityId: id, toEntityId: to, relationType: r.type, sourceId: sid, evidence: r.claimEvidence ?? null, reviewStatus: v.status, verifiedAt: v.verifiedAt });
+    }
+
+    let reviewStatus: ReviewStatus = "unreviewed";
+    if (primaryCheck?.outcome === "not_found") reviewStatus = "stale";
+    else if (anyVerified) reviewStatus = "verified";
+    else if (primaryCheck?.outcome === "ok") reviewStatus = "imported";
+
+    return {
+      id, slug: e.slug, name: e.name, entityType: e.entityType, status: e.status,
+      shortDescription: e.shortDescription ?? null, officialUrl: e.officialUrl ?? null,
+      sensitiveLocation: e.sensitiveLocation, visibility: e.visibility, reviewStatus,
+      verifiedAt: latestVerified, createdAt, updatedAt: primaryCheck?.checkedAt ?? createdAt,
+      aliases: e.aliases, primarySourceId: primary,
+    };
+  });
+
+  const entityCategories = curated.entities.flatMap((e) => {
+    const primaries = e.categories.filter((c) => c.primary).length;
+    if (primaries !== 1) throw new DatasetError(`entity ${e.slug}: needs exactly one primary category`);
+    return e.categories.map((c) => {
+      const categoryId = categoryIdBySlug.get(c.slug);
+      if (!categoryId) throw new DatasetError(`entity ${e.slug}: unknown category ${c.slug}`);
+      return { entityId: entityIdBySlug.get(e.slug)!, categoryId, isPrimary: c.primary };
+    });
+  });
+
+  const externalIds = curated.entities.flatMap((e) => e.externalIds.map((x) => ({ entityId: entityIdBySlug.get(e.slug)!, provider: x.provider, externalId: x.id })));
+  const extKeys = new Set<string>();
+  for (const x of externalIds) {
+    const k = `${x.provider}:${x.externalId}`;
+    if (extKeys.has(k)) throw new DatasetError(`duplicate external id ${k}`);
+    extKeys.add(k);
+  }
+
+  const mediaRows = media.map((m) => ({
+    id: stableId("media", m.id),
+    areaId: m.subjectKind === "area" ? areaId(m.subjectSlug, `media ${m.id}`) : null,
+    entityId: m.subjectKind === "entity" ? (entityIdBySlug.get(m.subjectSlug) ?? null) : null,
+    kind: m.kind, url: m.url, pageUrl: m.pageUrl, alt: m.alt, credit: m.credit, license: m.license, licenseUrl: m.licenseUrl,
+    year: m.year ?? null, aiGenerated: m.aiGenerated,
+  }));
+
+  const coverageUniverses = census.coverageUniverses.map((u) => ({
+    id: u.id, areaId: areaId(u.areaSlug, `universe ${u.id}`), label: u.label, definition: u.definition,
+    areaType: u.areaType ?? null, categoryId: u.categorySlug ? (categoryIdBySlug.get(u.categorySlug) ?? null) : null,
+    denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId,
+  }));
+
+  for (const f of facts) if (!sourceIds.has(f.sourceId)) throw new DatasetError(`fact ${f.key}: unknown source ${f.sourceId}`);
+
+  return {
+    builtAt: linkChecks?.generatedAt ?? census.generatedAt,
+    areas, areaRelations, categories, entities, entityCategories, entityAreas, entityRelations, externalIds,
+    sources, sourceRecords, facts, media: mediaRows, reviewIssues, coverageUniverses,
+  };
+}

@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "id": "visit-jacksonville-neighborhoods",
+      "kind": "directory",
+      "title": "Visit Jacksonville — Neighborhoods",
+      "publisher": "Visit Jacksonville (destination marketing organization)",
+      "url": "https://www.visitjacksonville.com/neighborhoods/",
+      "license": "All rights reserved; cited as a reference link only, content not redisplayed",
+      "redisplayPermitted": false,
+      "coverage": "Named visitor-facing neighborhoods and districts of Jacksonville",
+      "expectedFields": ["neighborhood name"],
+      "retrievalMethod": "Manual citation; automated link check",
+      "refreshInterval": "Yearly review",
+      "limitations": "Tourism-oriented naming, no official boundaries. Not a planning-district registry."
+    },
+    {
+      "id": "visit-jacksonville-downtown",
+      "kind": "directory",
+      "title": "Visit Jacksonville — Downtown",
+      "publisher": "Visit Jacksonville (destination marketing organization)",
+      "url": "https://www.visitjacksonville.com/neighborhoods/downtown/",
+      "license": "All rights reserved; cited as a reference link only, content not redisplayed",
+      "redisplayPermitted": false,
+      "coverage": "Downtown Jacksonville visitor information",
+      "expectedFields": ["place names"],
+      "retrievalMethod": "Manual citation; automated link check",
+      "refreshInterval": "Yearly review",
+      "limitations": "Visitor guide, not an authoritative registry."
+    },
+    {
+      "id": "coj-parks-directory",
+      "kind": "directory",
+      "title": "City of Jacksonville — All Parks",
+      "publisher": "City of Jacksonville Parks, Recreation & Community Services",
+      "url": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/all-parks",
+      "license": "Public government website; cited as a reference link",
+      "redisplayPermitted": false,
+      "coverage": "Parks operated by the City of Jacksonville",
+      "expectedFields": ["park name", "address"],
+      "retrievalMethod": "Manual citation; automated link check",
+      "refreshInterval": "Quarterly",
+      "limitations": "Candidate source for a full city-park import (Phase 3); terms and machine-readable export still to be confirmed."
+    },
+    {
+      "id": "fwc-wildlife-profiles",
+      "kind": "reference",
+      "title": "FWC — Wildlife & Habitats species profiles",
+      "publisher": "Florida Fish and Wildlife Conservation Commission",
+      "url": "https://myfwc.com/wildlifehabitats/profiles/",
+      "license": "Public government website; cited as a reference link",
+      "redisplayPermitted": false,
+      "coverage": "Species occurring in Florida",
+      "expectedFields": ["common name", "scientific name", "habitat"],
+      "retrievalMethod": "Manual citation; automated link check",
+      "refreshInterval": "Yearly review",
+      "limitations": "Statewide profiles; no precise locations are imported or published."
+    },
+    {
+      "id": "fdot-home",
+      "kind": "reference",
+      "title": "Florida Department of Transportation",
+      "publisher": "Florida Department of Transportation",
+      "url": "https://www.fdot.gov/",
+      "license": "Public government website; cited as a reference link",
+      "redisplayPermitted": false,
+      "coverage": "State highway system",
+      "expectedFields": [],
+      "retrievalMethod": "Manual citation; automated link check",
+      "refreshInterval": "Yearly review",
+      "limitations": "Home page only. Route geometry should come from FDOT open data (Phase 2+)."
+    },
+    {
+      "id": "wikimedia-commons",
+      "kind": "reference",
+      "title": "Wikimedia Commons",
+      "publisher": "Wikimedia Foundation (individual file authors hold copyright)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "Per-file license; each media record stores its own license and credit",
+      "redisplayPermitted": true,
+      "coverage": "Freely licensed photographs",
+      "expectedFields": ["author", "license"],
+      "retrievalMethod": "Manual selection with license recorded per file",
+      "refreshInterval": "On change",
+      "limitations": "Hotlinked; requires internet. Attribution required by CC BY-SA."
+    }
+  ]
+}

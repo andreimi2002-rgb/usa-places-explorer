@@ -1,0 +1,887 @@
+{
+ "generatedAt": "2026-11-27T13:12:19.042Z",
+ "userAgent": "America360-ingest/0.1 (personal, non-commercial research; low request rate)",
+ "checks": [
+  {
+   "sourceId": "visit-jacksonville-neighborhoods",
+   "url": "https://www.visitjacksonville.com/neighborhoods/",
+   "checkedAt": "2026-11-27T13:08:54.025Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.visitjacksonville.com/neighborhoods/",
+   "pageTitle": "Jacksonville Neighborhoods with Area Map | Visit Jacksonville",
+   "outcome": "ok",
+   "bodySha256": "0f4f5cf39cd9b01eb2b5393f7da572ab085ced92e80a9a0d9ddf95cac153e1a3",
+   "evidence": []
+  },
+  {
+   "sourceId": "visit-jacksonville-downtown",
+   "url": "https://www.visitjacksonville.com/neighborhoods/downtown/",
+   "checkedAt": "2026-11-27T13:08:57.837Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.visitjacksonville.com/neighborhoods/downtown/",
+   "pageTitle": "The Downtown Jacksonville Neighborhood | Visit Jacksonville",
+   "outcome": "ok",
+   "bodySha256": "eb67594bc9bf963c04b3744e3b878499f319238cf1ba17e5caeaf628c1f9a396",
+   "evidence": [
+    {
+     "text": "St. Johns River",
+     "found": true
+    },
+    {
+     "text": "Main Street Bridge",
+     "found": false
+    },
+    {
+     "text": "Riverwalk",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "coj-parks-directory",
+   "url": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/all-parks",
+   "checkedAt": "2026-11-27T13:08:59.489Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/all-parks",
+   "pageTitle": "Jacksonville.gov - All Parks",
+   "outcome": "ok",
+   "bodySha256": "15a37bd10d7f923873ea2c0d50960446b4af6364c2752492749cba9c2fd274f3",
+   "evidence": []
+  },
+  {
+   "sourceId": "fwc-wildlife-profiles",
+   "url": "https://myfwc.com/wildlifehabitats/profiles/",
+   "checkedAt": "2026-11-27T13:09:03.180Z",
+   "httpStatus": 403,
+   "finalUrl": "https://myfwc.com/wildlifehabitats/profiles/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "314b1fee2cd6c2e295eb36153bcbe5e97df699823a0e6b9bdf65d3b2ad1b6b59",
+   "evidence": []
+  },
+  {
+   "sourceId": "fdot-home",
+   "url": "https://www.fdot.gov/",
+   "checkedAt": "2026-11-27T13:09:04.252Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.fdot.gov/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "167ac15469adf31b1e4669a50b3c91ca72c4b69205739b6bbbdb30db3bac2358",
+   "evidence": []
+  },
+  {
+   "sourceId": "wikimedia-commons",
+   "url": "https://commons.wikimedia.org/",
+   "checkedAt": "2026-11-27T13:09:05.461Z",
+   "httpStatus": 200,
+   "finalUrl": "https://commons.wikimedia.org/wiki/Main_Page",
+   "pageTitle": "Wikimedia Commons",
+   "outcome": "ok",
+   "bodySha256": "8a4e9a14c31e6037037e26896a98128ad500efff1dd3f5d2cdbbfe6c6a65e6e9",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-city-of-jacksonville",
+   "url": "https://www.jacksonville.gov/",
+   "checkedAt": "2026-11-27T13:09:06.843Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jacksonville.gov/",
+   "pageTitle": "Jacksonville.gov - Welcome",
+   "outcome": "ok",
+   "bodySha256": "2c80ec936111fd12c3e0531bec74c32c19a3b654680470c20d675ce75acdedf3",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "Duval",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-sheriffs-office",
+   "url": "https://www.jaxsheriff.org/",
+   "checkedAt": "2026-11-27T13:09:08.466Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaxsheriff.org/",
+   "pageTitle": "www.jaxsheriff.org - Jacksonville Sheriff&#39;s Office (JSO) Homepage",
+   "outcome": "ok",
+   "bodySha256": "0c0f4f2e4a8ff2bab949dc0901a9293e2f3334180ae30ea8534f9997b95f58f5",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-fire-and-rescue-department",
+   "url": "https://www.jacksonville.gov/Departments/Fire-and-Rescue",
+   "checkedAt": "2026-11-27T13:12:11.868Z",
+   "httpStatus": 404,
+   "finalUrl": "https://www.jacksonville.gov/Departments/Fire-and-Rescue",
+   "pageTitle": "Jacksonville.gov - Page Not Found",
+   "outcome": "not_found",
+   "bodySha256": "b135fb746a4812466088178efe5d0a2ef3b79186d798f4600f219fc5677c05c9",
+   "evidence": [
+    {
+     "text": "Fire",
+     "found": false
+    },
+    {
+     "text": "Jacksonville",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-public-library",
+   "url": "https://jaxpubliclibrary.org/",
+   "checkedAt": "2026-11-27T13:09:17.957Z",
+   "httpStatus": 403,
+   "finalUrl": "https://jaxpubliclibrary.org/",
+   "pageTitle": "Just a moment...",
+   "outcome": "blocked",
+   "bodySha256": "b2b772d2bb2c32e434a5d7818c77efdce071b623029cba0c70796cdd671d88d9",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-duval-county-public-schools",
+   "url": "https://dcps.duvalschools.org/",
+   "checkedAt": "2026-11-27T13:09:19.349Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Duval",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-simon-property-group",
+   "url": "https://www.simon.com/",
+   "checkedAt": "2026-11-27T13:12:13.356Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": []
+  },
+  {
+   "sourceId": "site-st-johns-town-center",
+   "url": "https://www.simon.com/mall/st-johns-town-center",
+   "checkedAt": "2026-11-27T13:12:15.034Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    },
+    {
+     "text": "Simon",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-the-avenues-mall",
+   "url": "https://www.simon.com/mall/the-avenues",
+   "checkedAt": "2026-11-27T13:12:16.183Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    },
+    {
+     "text": "Simon",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-ikea",
+   "url": "https://www.ikea.com/us/en/",
+   "checkedAt": "2026-11-27T13:09:35.414Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.ikea.com/us/en/",
+   "pageTitle": "Shop Affordable Home Furnishings &amp; Home Goods - IKEA",
+   "outcome": "ok",
+   "bodySha256": "fe3e087cce208412f6671c745bdd6a8add37b08442874643ba6d97cffc19c96f",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-ikea-jacksonville",
+   "url": "https://www.ikea.com/us/en/stores/jacksonville/",
+   "checkedAt": "2026-11-27T13:09:37.932Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.ikea.com/us/en/stores/jacksonville/",
+   "pageTitle": "Furniture Store &amp; Home Goods Jacksonville, FL - IKEA",
+   "outcome": "ok",
+   "bodySha256": "3fa0d970a88059bb17364c1a9536c12bfb6d9b55752372aa55914aff83456d97",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "7801 Gate",
+     "found": true
+    },
+    {
+     "text": "IKEA",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-rei",
+   "url": "https://www.rei.com/",
+   "checkedAt": "2026-11-27T13:09:39.829Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.rei.com/",
+   "pageTitle": "REI: A Life Outdoors is a Life Well Lived | REI Co-op",
+   "outcome": "ok",
+   "bodySha256": "b07845e5129391ba7381199db6e92fc1b8a5ca9df508dfa11a517900c1ff9eb6",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-rei-jacksonville",
+   "url": "https://www.rei.com/stores/jacksonville",
+   "checkedAt": "2026-11-27T13:09:42.065Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.rei.com/stores/jacksonville",
+   "pageTitle": "REI Jacksonville Store - Jacksonville, FL - Sporting Goods, Camping Gear",
+   "outcome": "ok",
+   "bodySha256": "20ad1725ccd1be09c9fdd7c264030d62910cba4861d173386e53f77d55c31e4f",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "REI",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-academy-sports-outdoors",
+   "url": "https://www.academy.com/",
+   "checkedAt": "2026-11-27T13:09:43.960Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.academy.com/",
+   "pageTitle": "Access Denied",
+   "outcome": "blocked",
+   "bodySha256": "7d13f8e30842e0b54233acba26b7756c9ac012dd10bdff275054bf62d967b40f",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-academy-sports-outdoors-jacksonville-store-0194",
+   "url": "https://www.academy.com/storelocator/florida/jacksonville/store-0194",
+   "checkedAt": "2026-11-27T13:09:45.147Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.academy.com/storelocator/florida/jacksonville/store-0194",
+   "pageTitle": "Access Denied",
+   "outcome": "blocked",
+   "bodySha256": "dd78c0e17c2d13588a821c014f8dcb24ae473d8a7fc9f6ca0669e0827203ed86",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    },
+    {
+     "text": "Academy",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-walmart",
+   "url": "https://www.walmart.com/store/finder",
+   "checkedAt": "2026-11-27T13:09:46.167Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.walmart.com/store-finder",
+   "pageTitle": "Walmart Stores Near Me - Locations, Hours &amp; Services",
+   "outcome": "ok",
+   "bodySha256": "38057fb27e27d3c2799a6d4429091e8dade80a7e64c44ab43d12afa0039c64d5",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-publix",
+   "url": "https://www.publix.com/locations",
+   "checkedAt": "2026-11-27T13:09:48.757Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.publix.com/locations",
+   "pageTitle": "International | Publix Super Markets",
+   "outcome": "ok",
+   "bodySha256": "48d1271a41642ba366da07f2264ff0f1cb5cbdb2bd2a61391ca3effc45e986b4",
+   "evidence": []
+  },
+  {
+   "sourceId": "site-gate-petroleum",
+   "url": "https://www.gatepetro.com/",
+   "checkedAt": "2026-11-27T13:09:49.991Z",
+   "httpStatus": 200,
+   "finalUrl": "https://gatepetro.com/",
+   "pageTitle": "Gate Petro",
+   "outcome": "ok",
+   "bodySha256": "34c2b84143f0199f64ecc4137cea1ae4a30d772d61bb888311707f094285582b",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-kathryn-abbey-hanna-park",
+   "url": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/oceanfront-parks/kathryn-abbey-hanna-park",
+   "checkedAt": "2026-11-27T13:09:52.702Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/oceanfront-parks/kathryn-abbey-hanna-park",
+   "pageTitle": "Jacksonville.gov - Kathryn Abbey Hanna Park",
+   "outcome": "ok",
+   "bodySha256": "0a92010131b061f1c6f92efa4c4defb49d05acf83c586ea2992fe8d4d7f53e83",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "500 Wonderwood",
+     "found": true
+    },
+    {
+     "text": "Parks",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-timucuan-ecological-and-historic-preserve",
+   "url": "https://www.nps.gov/timu/index.htm",
+   "checkedAt": "2026-11-27T13:09:54.383Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.nps.gov/timu/index.htm",
+   "pageTitle": "Timucuan Ecological & Historic Preserve (U.S. National Park Service)",
+   "outcome": "ok",
+   "bodySha256": "afcab9ba3b5476b34d913f3feef0a37c72587992a6cb73426a9974e68e6da80a",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-arboretum-and-botanical-gardens",
+   "url": "https://www.jacksonvillearboretum.org/",
+   "checkedAt": "2026-11-27T13:09:55.523Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "blocked",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-big-talbot-island-state-park",
+   "url": "https://www.floridastateparks.org/parks-and-trails/big-talbot-island-state-park",
+   "checkedAt": "2026-11-27T13:09:57.770Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.floridastateparks.org/parks-and-trails/big-talbot-island-state-park",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "9de5d460f115b85d7cfb2a06b89b5b310460985e1f3960f5e6349024a0857617",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    },
+    {
+     "text": "Florida State Parks",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-american-alligator",
+   "url": "https://myfwc.com/wildlifehabitats/wildlife/alligator/",
+   "checkedAt": "2026-11-27T13:09:58.858Z",
+   "httpStatus": 403,
+   "finalUrl": "https://myfwc.com/wildlifehabitats/wildlife/alligator/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "9f4a7deb68d26f048af3c61f09f5d259719725850cf525a9a534225e8dbf63f5",
+   "evidence": [
+    {
+     "text": "Florida",
+     "found": false
+    },
+    {
+     "text": "Alligator mississippiensis",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-west-indian-manatee",
+   "url": "https://myfwc.com/wildlifehabitats/wildlife/manatee/",
+   "checkedAt": "2026-11-27T13:09:59.933Z",
+   "httpStatus": 403,
+   "finalUrl": "https://myfwc.com/wildlifehabitats/wildlife/manatee/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "70d12c62db22233740e82c2598f6f37e62888066fa0cc61a732487eab4e9b9c6",
+   "evidence": [
+    {
+     "text": "Florida",
+     "found": false
+    },
+    {
+     "text": "Trichechus manatus",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-dreamette-jacksonville",
+   "url": "https://dreametteicecream.com/",
+   "checkedAt": "2026-11-27T13:10:00.959Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.dreametteicecream.com/",
+   "pageTitle": "Dreamette Menu - Ice Cream from Springfield's Dreamette",
+   "outcome": "ok",
+   "bodySha256": "2c50679f48609cea853efc8702cbe69d2bc0214348ccd55453783f683887b5f3",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-jaguars",
+   "url": "https://www.jaguars.com/",
+   "checkedAt": "2026-11-27T13:10:02.814Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaguars.com/",
+   "pageTitle": "Jaguars Home | Jacksonville Jaguars - jaguars.com",
+   "outcome": "ok",
+   "bodySha256": "4de78f8bf83ec374daa31bc5e2fb95362044f8e03de7988f46f7ffefd0f8becb",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "NFL",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-everbank-stadium",
+   "url": "https://www.jaguars.com/stadium/",
+   "checkedAt": "2026-11-27T13:10:05.004Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaguars.com/stadium/",
+   "pageTitle": "Jacksonville Jaguars: Official Website of the AFC South NFL Team",
+   "outcome": "ok",
+   "bodySha256": "9efd0c8b8e8bc2538173a7c5126a8ffae4af2339cfb92ed3193d54951737eaac",
+   "evidence": [
+    {
+     "text": "EverBank Stadium",
+     "found": true
+    },
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-jumbo-shrimp",
+   "url": "https://www.mlb.com/milb/jacksonville",
+   "checkedAt": "2026-11-27T13:12:17.330Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.mlb.com/milb/jacksonville",
+   "pageTitle": "Official Jacksonville Jumbo Shrimp Website",
+   "outcome": "ok",
+   "bodySha256": "417b602f2f863aec15c5704881f5f3f7fe332df60d6c933dff5c89dddb4f5f63",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-icemen",
+   "url": "https://jacksonvilleicemen.com/",
+   "checkedAt": "2026-11-27T13:10:08.268Z",
+   "httpStatus": 200,
+   "finalUrl": "https://jacksonvilleicemen.com/",
+   "pageTitle": "Jacksonville Icemen | Jacksonville, FL Professional Hockey | Schedule",
+   "outcome": "ok",
+   "bodySha256": "ad4443d93a636ccf8d254f25fa091407afeb25ac5858cf44f21b25048ca021cd",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "ECHL",
+     "found": true
+    },
+    {
+     "text": "VyStar",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-sharks",
+   "url": "https://www.jaxsharks.com/",
+   "checkedAt": "2026-11-27T13:10:09.621Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaxsharks.com/landing/index",
+   "pageTitle": "Jacksonville Sharks",
+   "outcome": "ok",
+   "bodySha256": "994adf9482fabd0d27d7701a80b73a015d07fa696524c2767a2636fa37aa0b15",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "VyStar",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-vystar-veterans-memorial-arena",
+   "url": "https://www.jacksonvillearena.com/",
+   "checkedAt": "2026-11-27T13:10:14.466Z",
+   "httpStatus": null,
+   "finalUrl": null,
+   "pageTitle": null,
+   "outcome": "error",
+   "bodySha256": null,
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-international-airport",
+   "url": "https://www.flyjacksonville.com/",
+   "checkedAt": "2026-11-27T13:10:27.306Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.flyjacksonville.com/",
+   "pageTitle": "Jacksonville International Airport",
+   "outcome": "ok",
+   "bodySha256": "6872b5c8b9b9aacf2b61a6b6c9ae5dff235a1dfbee97f818fdcf16a8bb2cdba1",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jaxport",
+   "url": "https://www.jaxport.com/",
+   "checkedAt": "2026-11-27T13:10:29.209Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaxport.com/",
+   "pageTitle": null,
+   "outcome": "ok",
+   "bodySha256": "3c7e7457f2388e88a585c22a3f3bf05e2aa37e7c67d09d108297d538649e7f13",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "St. Johns River",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-transportation-authority",
+   "url": "https://www.jtafla.com/",
+   "checkedAt": "2026-11-27T13:10:31.875Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jtafla.com/",
+   "pageTitle": "JTAFLA - Home",
+   "outcome": "ok",
+   "bodySha256": "73509f5c8e32e2883f46d69bf1a39302579322d28723c82c35196781c99d01b4",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-cummer-museum-of-art-and-gardens",
+   "url": "https://www.cummermuseum.org/",
+   "checkedAt": "2026-11-27T13:10:34.458Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.cummermuseum.org/",
+   "pageTitle": "Home | The Cummer Museum",
+   "outcome": "ok",
+   "bodySha256": "211b40931aba4f9d0c561b0ccb5d589ab19db07a0f6ed4b48a5c1b7fbb1d5f04",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-moca-jacksonville",
+   "url": "https://mocajacksonville.unf.edu/",
+   "checkedAt": "2026-11-27T13:10:35.806Z",
+   "httpStatus": 200,
+   "finalUrl": "https://mocajacksonville.unf.edu/",
+   "pageTitle": "Welcome to the Museum of Contemporary Art Jacksonville",
+   "outcome": "ok",
+   "bodySha256": "634d2532918ad1a125660448db931f20c218294701f15c0139ed21f009baeccb",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    },
+    {
+     "text": "University of North Florida",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-kingsley-plantation",
+   "url": "https://www.nps.gov/timu/learn/historyculture/kp.htm",
+   "checkedAt": "2026-11-27T13:10:39.611Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.nps.gov/timu/learn/historyculture/kp.htm",
+   "pageTitle": "Kingsley Plantation - Timucuan Ecological & Historic Preserve (U.S. National Park Service)",
+   "outcome": "ok",
+   "bodySha256": "83b69fb83fcc661c6d2a7b3eef86953c35edffd0fa8d1bf682de3fa06eae3ae3",
+   "evidence": [
+    {
+     "text": "Timucuan",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-university-of-north-florida",
+   "url": "https://www.unf.edu/",
+   "checkedAt": "2026-11-27T13:10:40.674Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.unf.edu/",
+   "pageTitle": "University of North Florida",
+   "outcome": "ok",
+   "bodySha256": "2b51fd7506516615a4ab1132932c6a86543fc05b87959dce1c32b89d4744db78",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-university",
+   "url": "https://www.ju.edu/",
+   "checkedAt": "2026-11-27T13:10:42.476Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.ju.edu/",
+   "pageTitle": "Home | Jacksonville University in Jacksonville, Fla.",
+   "outcome": "ok",
+   "bodySha256": "3f244a7faa1ddd7814409ae9d910b68635368346d5bd603c1694cf43ddac1137",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-florida-state-college-at-jacksonville",
+   "url": "https://www.fscj.edu/",
+   "checkedAt": "2026-11-27T13:10:45.548Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.fscj.edu/",
+   "pageTitle": "Home",
+   "outcome": "ok",
+   "bodySha256": "3d0d1544f6a4ea7cd28a8a0fe385ad6f5e426535b731561cb05cb37213f76737",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-mayo-clinic-florida",
+   "url": "https://www.mayoclinic.org/patient-visitor-guide/florida",
+   "checkedAt": "2026-11-27T13:10:47.630Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.mayoclinic.org/patient-visitor-guide/florida",
+   "pageTitle": "Mayo Clinic in Florida - Mayo Clinic",
+   "outcome": "ok",
+   "bodySha256": "c2966f82e780e0081f15b8cf405902d87329ce95fbb6dd8d03b8119c2c611a7a",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-csx",
+   "url": "https://www.csx.com/",
+   "checkedAt": "2026-11-27T13:10:49.291Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.csx.com/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "50029b76595a2ad12b24085b4018f61226f11dc16be763b5247327e031fbe290",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-fis",
+   "url": "https://www.fisglobal.com/",
+   "checkedAt": "2026-11-27T13:10:50.625Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.fisglobal.com/",
+   "pageTitle": "Fidelity Information Services - FIS - Fintech Company",
+   "outcome": "ok",
+   "bodySha256": "2ca4c6c8c8577271a105c5e855690c9769396ad7caea1c2153b619e588dae551",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jaxusa-partnership",
+   "url": "https://jaxusa.org/",
+   "checkedAt": "2026-11-27T13:10:52.470Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jaxusa.org/",
+   "pageTitle": "JAX Marks the Spot | JAXUSA",
+   "outcome": "ok",
+   "bodySha256": "e8c7153a049188d3f668dbdbc9e5c1aa1d3e68d76e88bd262d4563b120de9188",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-jacksonville-zoo-and-gardens",
+   "url": "https://www.jacksonvillezoo.org/",
+   "checkedAt": "2026-11-27T13:10:54.428Z",
+   "httpStatus": 200,
+   "finalUrl": "https://www.jacksonvillezoo.org/",
+   "pageTitle": "Jacksonville Zoo and Gardens | Jacksonville, Florida Attractions",
+   "outcome": "ok",
+   "bodySha256": "104a5386afb1ea92158e586d9c4138679fe8bf4716f6445ef58459d799bcc0e2",
+   "evidence": [
+    {
+     "text": "Jacksonville",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-florida-fish-and-wildlife-conservation-commission",
+   "url": "https://myfwc.com/",
+   "checkedAt": "2026-11-27T13:10:56.377Z",
+   "httpStatus": 403,
+   "finalUrl": "https://myfwc.com/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "dc809fc550b04760234cb50e3f4eef0555ce1ed0c0770b9660025a55c0fa6e5d",
+   "evidence": [
+    {
+     "text": "Florida",
+     "found": false
+    }
+   ]
+  },
+  {
+   "sourceId": "site-florida-department-of-environmental-protection",
+   "url": "https://floridadep.gov/",
+   "checkedAt": "2026-11-27T13:10:57.418Z",
+   "httpStatus": 200,
+   "finalUrl": "https://floridadep.gov/",
+   "pageTitle": "Welcome to Florida Department of Environmental Protection",
+   "outcome": "ok",
+   "bodySha256": "8ab741e0a6816882f93117f3f462bac4bb438309869eef69ffccc840bde2729a",
+   "evidence": [
+    {
+     "text": "Florida",
+     "found": true
+    }
+   ]
+  },
+  {
+   "sourceId": "site-florida-department-of-transportation",
+   "url": "https://www.fdot.gov/",
+   "checkedAt": "2026-11-27T13:10:59.222Z",
+   "httpStatus": 403,
+   "finalUrl": "https://www.fdot.gov/",
+   "pageTitle": "Attention Required! | Cloudflare",
+   "outcome": "blocked",
+   "bodySha256": "bffa54bb23d5815d928f6a8723b599e620fe82d54c8cf065a315b399e7389d18",
+   "evidence": [
+    {
+     "text": "Florida",
+     "found": false
+    }
+   ]
+  }
+ ]
+}

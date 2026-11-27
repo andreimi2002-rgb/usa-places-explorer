@@ -127,5 +127,43 @@ Branch `phase-2b-enrichment`, built on `phase-2-geography` (PR #14), with a depl
 ### Next milestone
 Run `ingest:enrich` for every Florida county (big places only), then move to hosted Postgres (fixture JSON grows with each area).
 
+## Session 4 — 2026-11-27/28: All of Florida ("big places") + prominence
+
+Branch `phase-2c-florida-enrichment` (PR includes #14 and #15).
+
+### Done
+- **`npm run ingest:enrich-florida`** runs Jacksonville plus all 67 counties (68 bundles). It is resumable: finished counties are skipped, and every HTTP response is cached with atomic writes, so a crash mid-write cannot corrupt the cache. It retries on network resets, and malformed Wikidata URLs are dropped instead of failing the county.
+- **Florida totals:** ~6,800 notable place records with an English Wikipedia article, **1,662 distinct brands** with per-county OSM location counts, and ~15,000 licensed image records. The database holds ~8,200 entities and ~27,000 facts.
+- **County runs** use the 1:500k county polygon (the 1:20m outline clips coasts and islands). Slugs are unique statewide (a Q-id keeps its slug across bundles), and curated Jacksonville records are matched only inside Jacksonville/Duval.
+- **Prominence:** Wikipedia language editions per item (Wikidata sitelinks), stored in `entities.prominence` (migration 0008). It drives:
+  - **Highlights** (best-known places, brands excluded) at the top of city, county and state pages;
+  - **Best-known brands** with logos (state totals sum the county counts);
+  - the featured order in the directory and topics.
+- **Performance at state scale:**
+  - Dataset build went from 11 s to 0.3 s and fixture provider init from 6.5 s to 0.05 s, by replacing find/some inside loops with Map/Set indexes. A fixture cold start is now ~0.85 s for 43 MB of data with a ~134 MB heap.
+  - Migration 0009 adds indexes (`media.entity_id` and others). `entity_summaries` had been scanning all media once per entity (~5 s per query); database queries now take 20–800 ms.
+- **Failures during the run, each fixed:**
+  - Lake: a malformed URL in Wikidata.
+  - Orange and Leon: network resets.
+  - Broward: a cache file truncated by a session crash.
+
+  All four were re-run successfully from cache.
+
+### Test results (actually run)
+| Check | Result |
+|---|---|
+| lint, typecheck, build | pass |
+| unit | 58/58 |
+| integration, real PostGIS (separate test DB) | 50/50 |
+| E2E fixture mode | 20/20 |
+| E2E database mode | 20/20 |
+
+### Notes
+- Docker Desktop started from inside the Claude session stops when the session crashes. Start it yourself from Windows instead.
+- Fixture JSON for all of Florida is 43 MB (54 MB of seed in total). That is still fine for Netlify functions. Hosted Postgres becomes necessary when other states are added.
+
+### Next milestone
+Merge to production when ready, then repeat `ingest:enrich` for the next state (its geography registry first), or start the "small places" (OSM branches) phase for Jacksonville.
+
 ### Next milestone (from session 1)
 Phase 2, step 1: TIGER/Line polygons in PostGIS → real CDP/municipality intersections, plus a manually curated county seat/website table with citations. Then the review-queue editor with authentication.

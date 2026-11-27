@@ -9,3 +9,8 @@
   DATA_MODE = "fixture"
   NEXT_PUBLIC_LOCALE = "en"
   NEXT_TELEMETRY_DISABLED = "1"
+
+# Declared explicitly: this Netlify project was originally created for a static site,
+# so the Next.js runtime (SSR functions, image CDN) is not auto-enabled.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

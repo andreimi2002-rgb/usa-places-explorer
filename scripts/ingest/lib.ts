@@ -6,7 +6,7 @@ export const ROOT = path.resolve(import.meta.dirname, "..", "..");
 export const RAW_DIR = path.join(ROOT, "data", "raw");
 export const SEED_DIR = path.join(ROOT, "seed");
 
-export const USER_AGENT = "America360-ingest/0.1 (personal, non-commercial research; low request rate)";
+export const USER_AGENT = "America360-ingest/0.2 (+https://github.com/andreimi2002-rgb/usa-places-explorer; personal non-commercial research; low request rate)";
 
 export type Downloaded = { file: string; bytes: Buffer; sha256: string; retrievedAt: string; fromCache: boolean };
 

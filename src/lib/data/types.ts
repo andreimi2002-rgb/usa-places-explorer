@@ -37,7 +37,7 @@ export type AreaDetail = AreaSummary & {
   media: MediaRow[];
   childCounts: Partial<Record<AreaType, number>>;
   /** Overlapping/related areas (e.g. counties a city intersects). */
-  related: { area: AreaSummary; relationType: string; method: string | null; direction: "out" | "in" }[];
+  related: { area: AreaSummary; relationType: string; method: string | null; share: number | null; direction: "out" | "in" }[];
   entityCount: number;
 };
 
@@ -52,6 +52,8 @@ export type EntitySummary = {
   primaryCategory: CategoryRef;
   domain: CategoryRef;
   placeLabel: string | null;
+  /** Best rights-cleared image (photo before logo), for cards. */
+  image: { url: string; alt: string } | null;
 };
 
 export type LinkedArea = Crumb & { relationType: string; reviewStatus: ReviewStatus; verifiedAt: string | null; evidence: string | null; note: string | null };
@@ -85,7 +87,18 @@ export type EntityDetail = EntitySummary & {
   sources: (SourceRow & { lastCheck: SourceCheck | null })[];
   externalIds: { provider: string; externalId: string }[];
   openIssues: number;
+  lat: number | null;
+  lon: number | null;
+  wikidataId: string | null;
+  wikipedia: { title: string; url: string; extract: string; retrievedAt: string } | null;
+  media: MediaRow[];
+  /** Mapped locations per area (brands; OpenStreetMap). */
+  presence: { areaSlug: string; areaName: string; count: number; asOf: string | null }[];
 };
+
+export type NearbyEntity = EntitySummary & { distanceKm: number };
+
+export type BrandPresence = { entity: EntitySummary; count: number; asOf: string | null };
 
 export type CategoryNode = CategoryRef & {
   id: string;
@@ -107,6 +120,8 @@ export type EntityQuery = {
   categorySlug?: string;
   entityType?: EntityType;
   reviewStatus?: ReviewStatus;
+  /** "featured": entries with a photo first, then by type importance (FEATURED_TYPES), then name. Default: relevance/name. */
+  sort?: "default" | "featured";
   page?: number;
   pageSize?: number;
 };
@@ -162,7 +177,17 @@ export interface DataProvider {
   getCoverage(areaSlug: string): Promise<CoverageReport | null>;
   listSources(): Promise<(SourceRow & { lastCheck: SourceCheck | null; usage: number })[]>;
   resolveRedirect(kind: "entity" | "area" | "category", slug: string): Promise<string | null>;
+  /** Entities with sourced coordinates within radiusKm of this entity, nearest first. */
+  nearbyEntities(slug: string, opts?: { limit?: number; radiusKm?: number }): Promise<NearbyEntity[]>;
+  /** Brands with mapped locations in an area (OpenStreetMap counts), largest first. */
+  listBrandPresence(areaSlug: string, opts?: { categorySlug?: string; limit?: number }): Promise<BrandPresence[]>;
 }
 
 export const REVIEW_STATUSES: ReviewStatus[] = ["imported", "unreviewed", "reviewed", "verified", "stale", "rejected"];
 export const emptyStatusCounts = (): Record<ReviewStatus, number> => ({ imported: 0, unreviewed: 0, reviewed: 0, verified: 0, stale: 0, rejected: 0 });
+
+/** Entity types shown first in "featured" listings (same order in fixture and SQL). */
+export const FEATURED_TYPES = [
+  "museum", "landmark", "venue", "sports_team", "historic_site", "park", "state_park", "protected_area", "zoo", "botanical_garden",
+  "university", "shopping_center", "airport", "seaport", "bridge", "lighthouse", "library", "hospital", "college", "waterway", "island", "beach",
+];

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { AreaMap, type MapPoint } from "@/components/area-map";
 import { EmptyState, EntityGrid, FactTable, SectionHeading, SourceList, factLabel, formatFactValue } from "@/components/ui";
 import { getProvider } from "@/lib/data";
-import { loadGeometry } from "@/lib/data/inputs";
+import { loadGeometry, loadPlaceGeometry } from "@/lib/data/inputs";
 import type { AreaDetail, AreaSummary } from "@/lib/data/types";
 import { catName, getLocale, t } from "@/lib/i18n";
 import { formatNumber } from "@/lib/text";
@@ -20,7 +20,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: area.name, description: `${area.name} — ${area.typeLabel ?? area.areaType} in the America 360 atlas.`, alternates: { canonical: `/places/${area.slug}` } };
 }
 
-const CENSUS_ATTRIBUTION = "Boundaries: U.S. Census Bureau, 2024 cartographic boundary files (1:20m, generalized). Points: Census 2026 Gazetteer internal points.";
+const CENSUS_ATTRIBUTION = "County and state outlines: U.S. Census Bureau 2024 cartographic boundaries (1:20m). Place boundaries: Census 2025 (1:500k, simplified). Points: Census 2026 Gazetteer and USGS GNIS. Generalized; not for legal use.";
+
+/** Six featured entries, at most one per category, so the showcase reflects the variety of the place. */
+function showcase<T extends { primaryCategory: { slug: string } }>(items: T[]): T[] {
+  const seen = new Set<string>();
+  const out: T[] = [];
+  for (const e of items) {
+    if (out.length === 6) break;
+    if (seen.has(e.primaryCategory.slug)) continue;
+    seen.add(e.primaryCategory.slug);
+    out.push(e);
+  }
+  for (const e of items) if (out.length < 6 && !out.includes(e)) out.push(e);
+  return out;
+}
+
+const displayUrl = (u: string) => u.replace(/^https?:\/\//, "").replace(/\/$/, "");
 
 function point(a: AreaSummary, emphasis = false): MapPoint | null {
   return a.lat !== null && a.lon !== null ? { lat: a.lat, lon: a.lon, label: a.name, href: `/places/${a.slug}`, emphasis } : null;
@@ -73,9 +89,9 @@ export default async function PlacePage({ params }: Props) {
     area.areaType === "county" ? area.slug : [...area.breadcrumbs].reverse().find((c) => c.areaType === "county")?.slug ??
       area.related.find((r) => r.area.areaType === "county")?.area.slug;
 
-  const [tree, entities, counties, municipalities, neighborhoods] = await Promise.all([
+  const [tree, entities, counties, municipalities, neighborhoods, cdps, communities] = await Promise.all([
     db.getCategoryTree(area.slug),
-    db.listEntities({ areaSlug: area.slug, pageSize: 6 }),
+    db.listEntities({ areaSlug: area.slug, pageSize: 60, sort: "featured" }),
     area.areaType === "country"
       ? db.listChildAreas(area.slug, { pageSize: 100 })
       : area.areaType === "state"
@@ -83,10 +99,31 @@ export default async function PlacePage({ params }: Props) {
         : null,
     area.areaType === "county" ? db.listChildAreas(area.slug, { areaType: "municipality", pageSize: 500 }) : null,
     area.areaType === "municipality" ? db.listChildAreas(area.slug, { areaType: "neighborhood", pageSize: 100 }) : null,
+    area.areaType === "county" ? db.listChildAreas(area.slug, { areaType: "cdp", pageSize: 500 }) : null,
+    area.areaType === "county" || area.areaType === "municipality" || area.areaType === "state"
+      ? db.listChildAreas(area.slug, { areaType: "community", deep: true, pageSize: 1 })
+      : null,
   ]);
+  const brands = area.areaType === "municipality" || area.areaType === "county" ? await db.listBrandPresence(area.slug, { limit: 300 }) : [];
+  const brandGroups = new Map<string, { name: string; nameRo: string | null; items: typeof brands }>();
+  for (const b of brands) {
+    const key = b.entity.primaryCategory.slug;
+    if (!brandGroups.has(key)) brandGroups.set(key, { name: b.entity.primaryCategory.name, nameRo: b.entity.primaryCategory.nameRo, items: [] });
+    brandGroups.get(key)!.items.push(b);
+  }
   const flMunis = area.slug === "florida" ? await db.listChildAreas("florida", { areaType: "municipality", deep: true, pageSize: 1 }) : null;
-  const cdpsInCounty = area.areaType === "county" ? area.related.filter((r) => r.direction === "in" && r.area.areaType === "cdp").map((r) => r.area) : [];
-  const countyLinks = area.related.filter((r) => r.direction === "out" && r.area.areaType === "county");
+  const cdpsInCounty = cdps?.items ?? [];
+  const countyLinks = area.related.filter((r) => r.direction === "out" && r.relationType === "intersects" && r.area.areaType === "county");
+  const seatRel = area.related.find((r) => r.relationType === "county_seat" && r.direction === "out");
+  const seatOf = area.related.filter((r) => r.relationType === "county_seat" && r.direction === "in");
+  const seatFact = area.facts.find((f) => f.key === "county-seat");
+  const websiteFact = area.facts.find((f) => f.key === "official-website");
+  const sourceTitle = (id: string | undefined) => area.sources.find((x) => x.id === id)?.title ?? id;
+  const placeGeo = loadPlaceGeometry();
+  const shape = (a: { slug: string; name: string }) => {
+    const g = placeGeo.get(a.slug);
+    return g ? { ...g, properties: { slug: a.slug, name: a.name } } : null;
+  };
   const domainsWithEntries = tree.filter((d) => d.entityCount > 0);
 
   // ---- map
@@ -100,11 +137,13 @@ export default async function PlacePage({ params }: Props) {
     map = <AreaMap collection={geo.floridaCounties} title="Map of Florida's 67 counties" attribution={CENSUS_ATTRIBUTION} highlight={["duval-county-fl"]} />;
   } else if (primaryCounty && isFlorida) {
     const pts: MapPoint[] = [];
-    if (area.areaType === "county") for (const m of municipalities?.items ?? []) { const p = point(m); if (p) pts.push(p); }
+    const overlayAreas = area.areaType === "county" ? [...(municipalities?.items ?? []), ...cdpsInCounty] : area.areaType === "municipality" || area.areaType === "cdp" ? [area] : [];
+    const overlay = overlayAreas.map(shape).filter((x) => x !== null);
+    if (area.areaType === "county") for (const m of municipalities?.items ?? []) { const p = point(m); if (p && !placeGeo.has(m.slug)) pts.push(p); }
     const self = area.areaType !== "county" ? point(area, true) : null;
     if (self) pts.push(self);
     map = (
-      <AreaMap collection={geo.floridaCounties} fitSlug={primaryCounty} highlight={[primaryCounty]} points={pts} width={640} height={460}
+      <AreaMap collection={geo.floridaCounties} fitSlug={primaryCounty} highlight={area.areaType === "county" ? [primaryCounty] : [area.slug]} overlay={overlay} points={pts} width={640} height={460}
         title={`Map of ${area.name} within ${primaryCounty.replace(/-fl$/, "").replace(/-/g, " ")}`} attribution={CENSUS_ATTRIBUTION} />
     );
   }
@@ -139,7 +178,10 @@ export default async function PlacePage({ params }: Props) {
               {map}
             </section>
           )}
-          {area.areaType === "neighborhood" && <EmptyState title={t("area.map")} hint="No official boundary or coordinates are documented for this informal area, so no map is drawn." />}
+          {area.areaType === "neighborhood" && area.lat === null && <EmptyState title={t("area.map")} hint="No official boundary or coordinates are documented for this informal area, so no map is drawn." />}
+          {(area.areaType === "neighborhood" || area.areaType === "community") && area.lat !== null && (
+            <p className="prose-note -mt-6">The dot is the officially named point from USGS GNIS. No legal boundary exists, so none is drawn.</p>
+          )}
 
           {counties && counties.items.length > 0 && (
             <section aria-labelledby="children">
@@ -160,21 +202,37 @@ export default async function PlacePage({ params }: Props) {
             <section aria-labelledby="county-profile">
               <SectionHeading eyebrow="County profile" title={t("area.municipalities")} />
               <dl className="mb-4 grid gap-3 sm:grid-cols-2">
-                <div className="card p-4">
+                <div className="card p-4" data-testid="county-seat">
                   <dt className="text-xs text-muted">{t("area.countySeat")}</dt>
-                  <dd className="mt-1 text-sm text-ink-soft">{t("area.notYet")}</dd>
+                  <dd className="mt-1 text-sm">
+                    {seatRel ? (
+                      <Link href={`/places/${seatRel.area.slug}`}>{seatRel.area.name}</Link>
+                    ) : seatFact ? (
+                      <span className="text-ink-soft">{seatFact.valueText} <span className="text-[11px] text-warn">(not matched to a Census place, unreviewed)</span></span>
+                    ) : (
+                      <span className="text-ink-soft">{t("area.notYet")}</span>
+                    )}
+                  </dd>
+                  {(seatRel || seatFact) && <dd className="mt-1 text-[11px] text-muted">Source: {sourceTitle(seatRel ? "wikidata-fl-county-seats" : seatFact?.sourceId)}</dd>}
                 </div>
-                <div className="card p-4">
+                <div className="card p-4" data-testid="county-website">
                   <dt className="text-xs text-muted">{t("area.officialWebsite")}</dt>
-                  <dd className="mt-1 text-sm text-ink-soft">{t("area.notYet")}</dd>
+                  <dd className="mt-1 text-sm break-all">
+                    {websiteFact?.valueText ? (
+                      <a href={websiteFact.valueText} target="_blank" rel="noopener noreferrer">{displayUrl(websiteFact.valueText)} ↗</a>
+                    ) : (
+                      <span className="text-ink-soft">{t("area.notYet")}</span>
+                    )}
+                  </dd>
+                  {websiteFact && <dd className="mt-1 text-[11px] text-muted">Source: {sourceTitle(websiteFact.sourceId)}</dd>}
                 </div>
               </dl>
-              <p className="prose-note mb-4">{t("area.countySeatBlocker")}</p>
+              <p className="prose-note mb-4">County seats and websites come from Wikidata (CC0) because the Florida Department of State directory refuses automated access. Treat them as a secondary source until reviewed.</p>
               {municipalities && municipalities.items.length ? <AreaList items={municipalities.items} testId="county-municipalities" /> : <EmptyState title={t("area.notYet")} />}
               {cdpsInCounty.length > 0 && (
                 <>
                   <h3 className="mt-6 mb-2 text-lg">{t("area.cdps")}</h3>
-                  <p className="prose-note mb-3">Assigned by the location of each CDP&apos;s Census internal point; a CDP may extend into neighboring counties.</p>
+                  <p className="prose-note mb-3">CDPs whose largest area share lies in this county (2025 Census boundaries). A CDP can extend into neighboring counties.</p>
                   <AreaList items={cdpsInCounty} />
                 </>
               )}
@@ -186,6 +244,18 @@ export default async function PlacePage({ params }: Props) {
               <SectionHeading eyebrow="Areas" title={t("area.neighborhoods")} />
               <p className="prose-note mb-3">Informal, visitor-facing names (Visit Jacksonville). No official boundaries are imported yet.</p>
               <AreaList items={neighborhoods.items} testId="neighborhoods" />
+            </section>
+          )}
+
+          {communities && communities.total > 0 && (
+            <section aria-labelledby="named-places" data-testid="named-places">
+              <SectionHeading eyebrow="USGS GNIS" title={area.areaType === "municipality" ? "Named places within the city" : "Communities & named places"}>
+                <Link href={`/places/${area.slug}/localities?type=community`} className="text-sm">{t("area.viewAll")} →</Link>
+              </SectionHeading>
+              <p className="prose-note">
+                {communities.total.toLocaleString("en-US")} officially named populated places (communities, neighborhoods, subdivisions, historical settlements)
+                {area.areaType === "municipality" ? " lie inside the city limits." : " are recorded here."} They are points without legal boundaries.
+              </p>
             </section>
           )}
 
@@ -214,12 +284,44 @@ export default async function PlacePage({ params }: Props) {
             )}
           </section>
 
+          {brands.length > 0 && (
+            <section aria-labelledby="brands" data-testid="brands-present">
+              <SectionHeading eyebrow="OpenStreetMap" title="Brands & chains present" />
+              <p className="prose-note -mt-2 mb-4">
+                {brands.length} brands with locations mapped inside {area.name} (© OpenStreetMap contributors, ODbL, as of {brands[0]!.asOf}). Counts are mapped locations, not official store totals.
+              </p>
+              <div className="flex flex-col gap-5">
+                {[...brandGroups.entries()].map(([key, g]) => (
+                  <div key={key}>
+                    <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold-soft uppercase">{catName(g)}</h3>
+                    <ul className="flex flex-wrap gap-2">
+                      {g.items.slice(0, 12).map((b) => (
+                        <li key={b.entity.slug}>
+                          <Link href={`/entities/${b.entity.slug}`} className="chip no-underline hover:border-gold-soft hover:no-underline">
+                            {b.entity.name} <span className="text-gold tabular-nums">{b.count}</span>
+                          </Link>
+                        </li>
+                      ))}
+                      {g.items.length > 12 && (
+                        <li>
+                          <Link href={`/places/${area.slug}/directory?topic=${key}`} className="chip border-gold-soft/60 text-gold no-underline hover:no-underline">
+                            +{g.items.length - 12} more →
+                          </Link>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {entities.total > 0 && (
             <section aria-labelledby="entries">
               <SectionHeading eyebrow={`${entities.total}`} title={t("area.inThisArea")}>
                 <Link href={`/places/${area.slug}/directory`} className="text-sm">{t("area.viewAll")} →</Link>
               </SectionHeading>
-              <EntityGrid items={entities.items} />
+              <EntityGrid items={showcase(entities.items)} />
             </section>
           )}
         </div>
@@ -242,13 +344,20 @@ export default async function PlacePage({ params }: Props) {
               )}
             </dl>
           </section>
-          {countyLinks.length > 0 && (
+          {(countyLinks.length > 0 || seatOf.length > 0) && (
             <section className="card p-4" data-testid="related-geography">
               <h2 className="panel-title">{t("area.related")}</h2>
-              <ul className="flex flex-col gap-2 text-sm">
+              <ul className="flex flex-col gap-3 text-sm">
+                {seatOf.map((r) => (
+                  <li key={`seat-${r.area.slug}`}>
+                    <span className="text-muted">County seat of </span>
+                    <Link href={`/places/${r.area.slug}`}>{r.area.name}</Link>
+                  </li>
+                ))}
                 {countyLinks.map((r) => (
                   <li key={r.area.slug}>
                     <Link href={`/places/${r.area.slug}`}>{r.area.name}</Link>
+                    {r.share !== null && <span className="ml-2 text-xs text-gold tabular-nums">{(r.share * 100).toFixed(1)}%</span>}
                     <span className="block text-[11px] text-muted">{r.relationType === "intersects" ? "Intersects" : "Internal point within"} · {r.method}</span>
                   </li>
                 ))}

@@ -13,7 +13,13 @@ Open Phase 1 acceptance gaps:
 - [ ] Human-reviewed status (`reviewed`) workflow. Only machine verification exists.
 - [ ] Rights-cleared photographs beyond the single Jacksonville skyline image.
 
-## Phase 2 — Database and geographic import (next)
+## Phase 2, step 1 — Complete Florida geography ✅ (2026-11-27)
+Exact intersections, CDPs under their real counties, 66/67 county seats, 62 county websites, 6,279 GNIS named places and place boundary maps. See PROGRESS, session 2.
+
+## Phase 2b — Enrichment pilot ✅ (2026-11-27)
+Jacksonville: 424 notable places + 550 brands with Wikipedia summaries, licensed photos, infobox, nearby and OSM brand presence. Generic `ingest:enrich -- --area=<slug>`. Next: all Florida counties (big places), then other states.
+
+## Phase 2 — Database and geographic import (remaining)
 - Import TIGER/Line place and county polygons into PostGIS. Compute real CDP and municipality intersections with `ST_Intersects` and area thresholds, replacing the internal-point derivation.
 - Add the GNIS/Geographic Names adapter for unincorporated communities. Document a definition for each locality type.
 - Use import_runs for every adapter. Add a staging table, quarantine for invalid records, and dry-run diffs.

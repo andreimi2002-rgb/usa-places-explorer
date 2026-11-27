@@ -59,6 +59,7 @@ export const areaTypeSchema = z.enum([
   "county",
   "municipality",
   "cdp",
+  "community",
   "neighborhood",
   "region",
   "metro_area",
@@ -105,7 +106,7 @@ export const areaSchema = z.object({
 });
 export type Area = z.infer<typeof areaSchema>;
 
-export const areaRelationTypeSchema = z.enum(["intersects", "contains_internal_point_of", "adjacent_to", "consolidated_with"]);
+export const areaRelationTypeSchema = z.enum(["intersects", "contains_internal_point_of", "adjacent_to", "consolidated_with", "county_seat"]);
 
 export const areaRelationSchema = z.object({
   areaSlug: slugSchema,
@@ -113,6 +114,8 @@ export const areaRelationSchema = z.object({
   relationType: areaRelationTypeSchema,
   sourceId: slugSchema,
   method: z.string().optional(),
+  /** Share of areaSlug's area inside relatedSlug (0..1), for geometric intersections. */
+  share: z.number().min(0).max(1).optional(),
   reviewStatus: reviewStatusSchema,
 });
 export type AreaRelation = z.infer<typeof areaRelationSchema>;
@@ -200,6 +203,20 @@ export const entityTypeSchema = z.enum([
   "museum",
   "historic_site",
   "landmark",
+  // enrichment (Wikidata) types
+  "school",
+  "library",
+  "military_installation",
+  "transit_station",
+  "lighthouse",
+  "cemetery",
+  "place_of_worship",
+  "media_outlet",
+  "hotel",
+  "building",
+  "island",
+  "beach",
+  "organization",
 ]);
 export type EntityType = z.infer<typeof entityTypeSchema>;
 
@@ -333,6 +350,9 @@ export const coverageUniverseSchema = z.object({
   denominator: z.number().int().positive(),
   asOf: isoDateSchema,
   sourceId: slugSchema,
+  /** area_count: areas of areaType under areaSlug; relation_count: those areas having relationType. */
+  metric: z.enum(["area_count", "relation_count"]).default("area_count"),
+  relationType: areaRelationTypeSchema.optional(),
 });
 export type CoverageUniverse = z.infer<typeof coverageUniverseSchema>;
 
@@ -346,3 +366,75 @@ export const censusBundleSchema = z.object({
   coverageUniverses: z.array(coverageUniverseSchema),
 });
 export type CensusBundle = z.infer<typeof censusBundleSchema>;
+
+/**
+ * Phase 2 geography bundle (scripts/ingest/florida-geography.ts): exact
+ * place/county intersections from boundary polygons, county seats and
+ * websites, and GNIS named populated places. Applied on top of the Census bundle.
+ */
+export const geographyBundleSchema = censusBundleSchema.extend({
+  /** Primary-parent changes for existing areas (e.g. CDP -> county with the largest area share). */
+  parentOverrides: z.array(z.object({ slug: slugSchema, parentSlug: slugSchema, reason: z.string() })),
+  /** Existing areas that receive a GNIS id / point (e.g. curated neighborhoods). */
+  areaEnrichments: z.array(
+    z.object({ slug: slugSchema, ansi: z.string(), internalPoint: pointSchema, sourceId: slugSchema }),
+  ),
+  /** Census places whose relations are now geometric (drop the bundle-1 approximations). */
+  placesWithGeometry: z.array(slugSchema),
+  stats: z.record(z.string(), z.number()),
+});
+export type GeographyBundle = z.infer<typeof geographyBundleSchema>;
+
+// ---------------------------------------------------------------- enrichment (Wikidata / Wikipedia / Commons / OSM)
+export const enrichedEntitySchema = z.object({
+  qid: z.string().regex(/^Q\d+$/),
+  slug: slugSchema,
+  /** When set, this record enriches an existing curated entity instead of creating one. */
+  curatedSlug: slugSchema.optional(),
+  name: z.string().min(1),
+  aliases: z.array(z.string()).default([]),
+  description: z.string().optional(),
+  entityType: z.string().min(1),
+  status: z.enum(["active", "closed", "historical", "unknown"]),
+  origin: z.enum(["wikidata-place", "osm-brand"]),
+  categories: z.array(z.object({ slug: slugSchema, primary: z.boolean() })).min(1),
+  areas: z.array(z.object({ slug: slugSchema, relation: z.enum(["located_in", "headquartered_in", "operates_in"]) })).min(1),
+  coords: pointSchema.optional(),
+  officialUrl: z.string().url().optional(),
+  wikipedia: z.object({ title: z.string(), url: z.string().url(), extract: z.string(), retrievedAt: isoDateTimeSchema }).optional(),
+  facts: z.array(
+    z.object({
+      key: slugSchema,
+      value: z.union([z.string(), z.number()]),
+      unit: z.string().optional(),
+      asOf: isoDateSchema.optional(),
+      sourceId: slugSchema,
+      sourceRef: z.string(),
+      scopeAreaSlug: slugSchema.optional(),
+    }),
+  ),
+  relations: z.array(z.object({ type: z.enum(["operated_by", "home_venue", "part_of", "brand_of", "managed_by", "affiliated_with"]), targetQid: z.string() })),
+  externalIds: z.array(z.object({ provider: z.string(), id: z.string() })),
+  media: z.array(
+    z.object({
+      kind: z.enum(["photo", "illustration"]),
+      url: z.string().url(),
+      pageUrl: z.string().url(),
+      alt: z.string().min(5),
+      credit: z.string().min(1),
+      license: z.string().min(1),
+      licenseUrl: z.string().url(),
+    }),
+  ),
+});
+export type EnrichedEntity = z.infer<typeof enrichedEntitySchema>;
+
+export const enrichmentBundleSchema = z.object({
+  generatedAt: isoDateTimeSchema,
+  generator: z.string(),
+  areaSlug: slugSchema,
+  sources: z.array(sourceSchema),
+  entities: z.array(enrichedEntitySchema),
+  stats: z.record(z.string(), z.union([z.number(), z.string()])),
+});
+export type EnrichmentBundle = z.infer<typeof enrichmentBundleSchema>;

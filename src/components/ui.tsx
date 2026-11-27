@@ -5,6 +5,7 @@ import type { FactRow, SourceRow } from "@/lib/data/dataset";
 import { catName, formatDate, humanize, t } from "@/lib/i18n";
 import { formatNumber } from "@/lib/text";
 import { getLocale } from "@/lib/i18n";
+import { commonsThumb } from "@/lib/media";
 
 export function Breadcrumbs({ items, current }: { items: Crumb[]; current?: string }) {
   return (
@@ -100,9 +101,13 @@ export function Pagination({ page, pageSize, total, hrefFor }: { page: number; p
   );
 }
 
-export function EntityCard({ e }: { e: EntitySummary }) {
+export function EntityCard({ e, extra }: { e: EntitySummary; extra?: React.ReactNode }) {
   return (
-    <Link href={`/entities/${e.slug}`} className="card-link flex h-full flex-col gap-2" data-testid="entity-card">
+    <Link href={`/entities/${e.slug}`} className="card-link flex h-full flex-col gap-2 overflow-hidden" data-testid="entity-card">
+      {e.image && (
+        // eslint-disable-next-line @next/next/no-img-element -- Wikimedia serves sized thumbnails; no optimizer needed
+        <img src={commonsThumb(e.image.url, 500)} alt={e.image.alt} loading="lazy" decoding="async" className="-mx-4 -mt-4 mb-1 aspect-[16/9] w-[calc(100%+2rem)] max-w-none bg-navy-900 object-cover" />
+      )}
       <div className="flex items-start justify-between gap-2">
         <span className="text-[11px] font-semibold tracking-wider text-gold-soft uppercase">{catName(e.primaryCategory)}</span>
         <StatusBadge status={e.reviewStatus} />
@@ -110,6 +115,7 @@ export function EntityCard({ e }: { e: EntitySummary }) {
       <h3 className="font-serif text-lg leading-snug text-ink">{e.name}</h3>
       {e.placeLabel && <p className="text-xs text-muted">{e.placeLabel}</p>}
       {e.shortDescription && <p className="line-clamp-3 text-sm text-ink-soft">{e.shortDescription}</p>}
+      {extra}
     </Link>
   );
 }
@@ -134,13 +140,42 @@ const FACT_LABELS: Record<string, string> = {
   "street-address": "Street address",
   "scientific-name": "Scientific name",
   league: "League",
+  opened: "Opened",
+  inception: "Established",
+  closed: "Closed / dissolved",
+  capacity: "Capacity",
+  area: "Area",
+  height: "Height",
+  floors: "Floors",
+  operator: "Operator",
+  owner: "Owner",
+  headquarters: "Headquarters",
+  "founded-by": "Founded by",
+  "parent-organization": "Parent organization",
+  "heritage-designation": "Heritage designation",
+  "nrhp-reference": "NRHP reference number",
+  students: "Students",
+  employees: "Employees",
+  "osm-location-count": "Mapped locations",
+  "official-website": "Official website",
+  "county-seat": "County seat",
 };
+
+const DATE_KEYS = new Set(["opened", "inception", "closed"]);
+
+/** "2005-03-18" -> "Mar 18, 2005"; "2005-03" -> "March 2005"; "2005" stays. */
+export function formatPartialDate(v: string): string {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(v)) return formatDate(v);
+  if (/^\d{4}-\d{2}$/.test(v)) return new Intl.DateTimeFormat(getLocale() === "ro" ? "ro-RO" : "en-US", { year: "numeric", month: "long", timeZone: "UTC" }).format(new Date(`${v}-01T00:00:00Z`));
+  return v;
+}
 
 export function factLabel(key: string) {
   return FACT_LABELS[key] ?? humanize(key);
 }
 
 export function formatFactValue(f: FactRow): string {
+  if (f.valueText !== null && DATE_KEYS.has(f.key)) return formatPartialDate(f.valueText);
   if (f.valueNum !== null) {
     const v = formatNumber(f.valueNum, getLocale());
     return f.unit && f.unit !== "people" ? `${v} ${f.unit}` : v;

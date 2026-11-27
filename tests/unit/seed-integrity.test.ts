@@ -62,10 +62,13 @@ describe("seed integrity", () => {
     }
   });
 
-  it("publishes entity facts only when the evidence was verified", () => {
+  it("publishes entity facts only when verified on the official site or imported from a registered open dataset", () => {
     for (const f of ds.facts.filter((x) => x.entityId)) {
-      expect(f.reviewStatus).toBe("verified");
-      expect(f.verifiedAt).not.toBeNull();
+      if (f.reviewStatus === "verified") expect(f.verifiedAt).not.toBeNull();
+      else {
+        expect(f.reviewStatus).toBe("imported");
+        expect(["wikidata", "openstreetmap-overpass"]).toContain(f.sourceId);
+      }
     }
   });
 

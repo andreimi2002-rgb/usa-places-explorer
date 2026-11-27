@@ -19,7 +19,7 @@ import { ownerUrl, withClient } from "./common";
 type Col = [name: string, sqlType: string];
 type Row = Record<string, unknown>;
 
-export const SCHEMA_VERSION = "0006";
+export const SCHEMA_VERSION = "0007";
 
 async function upsert(c: pg.Client, table: string, cols: Col[], key: string[], rows: Row[]): Promise<number> {
   if (!rows.length) return 0;
@@ -122,13 +122,22 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
         ["id", "uuid"], ["slug", "text"], ["name", "text"], ["entity_type", "text"], ["status", "entity_status"], ["short_description", "text"],
         ["official_url", "text"], ["sensitive_location", "boolean"], ["visibility", "visibility"], ["review_status", "review_status"],
         ["primary_source_id", "text"], ["created_at", "timestamptz"], ["updated_at", "timestamptz"], ["verified_at", "timestamptz"],
-        ["name_norm", "text"], ["search_text", "text"],
+        ["name_norm", "text"], ["search_text", "text"], ["wikidata_id", "text"], ["wikipedia_title", "text"], ["wikipedia_url", "text"],
+        ["wikipedia_extract", "text"], ["wikipedia_retrieved_at", "timestamptz"],
       ], ["id"], ds.entities.map((e) => ({
         id: e.id, slug: e.slug, name: e.name, entity_type: e.entityType, status: e.status, short_description: e.shortDescription, official_url: e.officialUrl,
         sensitive_location: e.sensitiveLocation, visibility: e.visibility, review_status: e.reviewStatus, primary_source_id: e.primarySourceId,
         created_at: e.createdAt, updated_at: e.updatedAt, verified_at: e.verifiedAt,
         name_norm: normalize([e.name, ...e.aliases].join(" ")), search_text: normalize(entitySearchText(idx, e)),
+        wikidata_id: e.wikidataId, wikipedia_title: e.wikipedia?.title ?? null, wikipedia_url: e.wikipedia?.url ?? null,
+        wikipedia_extract: e.wikipedia?.extract ?? null, wikipedia_retrieved_at: e.wikipedia?.retrievedAt ?? null,
       })));
+      counts.entityPoints = (await c.query(
+        `update entities e set location = case when x.lat is null then null else st_setsrid(st_makepoint(x.lon, x.lat), 4326)::geography end
+         from jsonb_to_recordset($1::jsonb) as x(id uuid, lat float8, lon float8)
+         where e.id = x.id and (e.location is distinct from case when x.lat is null then null else st_setsrid(st_makepoint(x.lon, x.lat), 4326)::geography end)`,
+        [JSON.stringify(ds.entities.map((e) => ({ id: e.id, lat: e.sensitiveLocation ? null : e.lat, lon: e.sensitiveLocation ? null : e.lon })))],
+      )).rowCount ?? 0;
       const entityIds = ds.entities.map((e) => e.id);
       for (const t of ["entity_aliases", "entity_categories", "entity_areas", "entity_external_ids"]) await c.query(`delete from ${t} where entity_id = any($1::uuid[])`, [entityIds]);
       await upsert(c, "entity_aliases", [["entity_id", "uuid"], ["alias", "text"]], ["entity_id", "alias"], ds.entities.flatMap((e) => e.aliases.map((alias) => ({ entity_id: e.id, alias }))));
@@ -149,8 +158,8 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
 
       counts.facts = await upsert(c, "facts", [
         ["id", "uuid"], ["area_id", "uuid"], ["entity_id", "uuid"], ["key", "text"], ["value_text", "text"], ["value_num", "numeric"], ["unit", "text"], ["as_of", "date"],
-        ["as_of_label", "text"], ["source_id", "text"], ["source_ref", "text"], ["review_status", "review_status"], ["verified_at", "timestamptz"], ["note", "text"],
-      ], ["id"], ds.facts.map((f) => ({ id: f.id, area_id: f.areaId, entity_id: f.entityId, key: f.key, value_text: f.valueText, value_num: f.valueNum, unit: f.unit, as_of: f.asOf, as_of_label: f.asOfLabel, source_id: f.sourceId, source_ref: f.sourceRef, review_status: f.reviewStatus, verified_at: f.verifiedAt, note: f.note })));
+        ["as_of_label", "text"], ["source_id", "text"], ["source_ref", "text"], ["review_status", "review_status"], ["verified_at", "timestamptz"], ["note", "text"], ["scope_area_id", "uuid"],
+      ], ["id"], ds.facts.map((f) => ({ id: f.id, area_id: f.areaId, entity_id: f.entityId, key: f.key, value_text: f.valueText, value_num: f.valueNum, unit: f.unit, as_of: f.asOf, as_of_label: f.asOfLabel, source_id: f.sourceId, source_ref: f.sourceRef, review_status: f.reviewStatus, verified_at: f.verifiedAt, note: f.note, scope_area_id: f.scopeAreaId ?? null })));
 
       counts.media = await upsert(c, "media", [
         ["id", "uuid"], ["area_id", "uuid"], ["entity_id", "uuid"], ["kind", "text"], ["url", "text"], ["page_url", "text"], ["alt", "text"], ["credit", "text"], ["license", "text"], ["license_url", "text"], ["year", "int"], ["ai_generated", "boolean"],

@@ -70,6 +70,12 @@ export type EntityRow = {
   updatedAt: string;
   aliases: string[];
   primarySourceId: string | null;
+  /** Sourced coordinates only (e.g. Wikidata P625); never estimated. */
+  lat: number | null;
+  lon: number | null;
+  wikidataId: string | null;
+  /** Wikipedia lead, shown verbatim with attribution (CC BY-SA); not a fact. */
+  wikipedia: { title: string; url: string; extract: string; retrievedAt: string } | null;
 };
 
 export type EntityCategoryRow = { entityId: string; categoryId: string; isPrimary: boolean };
@@ -127,6 +133,8 @@ export type FactRow = {
   reviewStatus: ReviewStatus;
   verifiedAt: string | null;
   note: string | null;
+  /** Optional area the value applies to (e.g. brand location count within a city). */
+  scopeAreaId?: string | null;
 };
 
 export type MediaRow = {

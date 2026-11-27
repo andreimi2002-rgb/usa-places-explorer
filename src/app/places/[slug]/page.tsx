@@ -77,7 +77,7 @@ export default async function PlacePage({ params }: Props) {
 
   const [tree, entities, counties, municipalities, neighborhoods, cdps, communities] = await Promise.all([
     db.getCategoryTree(area.slug),
-    db.listEntities({ areaSlug: area.slug, pageSize: 6 }),
+    db.listEntities({ areaSlug: area.slug, pageSize: 60 }),
     area.areaType === "country"
       ? db.listChildAreas(area.slug, { pageSize: 100 })
       : area.areaType === "state"
@@ -90,6 +90,13 @@ export default async function PlacePage({ params }: Props) {
       ? db.listChildAreas(area.slug, { areaType: "community", deep: true, pageSize: 1 })
       : null,
   ]);
+  const brands = area.areaType === "municipality" || area.areaType === "county" ? await db.listBrandPresence(area.slug, { limit: 300 }) : [];
+  const brandGroups = new Map<string, { name: string; nameRo: string | null; items: typeof brands }>();
+  for (const b of brands) {
+    const key = b.entity.primaryCategory.slug;
+    if (!brandGroups.has(key)) brandGroups.set(key, { name: b.entity.primaryCategory.name, nameRo: b.entity.primaryCategory.nameRo, items: [] });
+    brandGroups.get(key)!.items.push(b);
+  }
   const flMunis = area.slug === "florida" ? await db.listChildAreas("florida", { areaType: "municipality", deep: true, pageSize: 1 }) : null;
   const cdpsInCounty = cdps?.items ?? [];
   const countyLinks = area.related.filter((r) => r.direction === "out" && r.relationType === "intersects" && r.area.areaType === "county");
@@ -263,12 +270,37 @@ export default async function PlacePage({ params }: Props) {
             )}
           </section>
 
+          {brands.length > 0 && (
+            <section aria-labelledby="brands" data-testid="brands-present">
+              <SectionHeading eyebrow="OpenStreetMap" title="Brands & chains present" />
+              <p className="prose-note -mt-2 mb-4">
+                {brands.length} brands with locations mapped inside {area.name} (© OpenStreetMap contributors, ODbL, as of {brands[0]!.asOf}). Counts are mapped locations, not official store totals.
+              </p>
+              <div className="flex flex-col gap-5">
+                {[...brandGroups.entries()].map(([key, g]) => (
+                  <div key={key}>
+                    <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold-soft uppercase">{catName(g)}</h3>
+                    <ul className="flex flex-wrap gap-2">
+                      {g.items.map((b) => (
+                        <li key={b.entity.slug}>
+                          <Link href={`/entities/${b.entity.slug}`} className="chip no-underline hover:border-gold-soft hover:no-underline">
+                            {b.entity.name} <span className="text-gold tabular-nums">{b.count}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {entities.total > 0 && (
             <section aria-labelledby="entries">
               <SectionHeading eyebrow={`${entities.total}`} title={t("area.inThisArea")}>
                 <Link href={`/places/${area.slug}/directory`} className="text-sm">{t("area.viewAll")} →</Link>
               </SectionHeading>
-              <EntityGrid items={entities.items} />
+              <EntityGrid items={[...entities.items].sort((a, b) => Number(!!b.image) - Number(!!a.image)).slice(0, 6)} />
             </section>
           )}
         </div>

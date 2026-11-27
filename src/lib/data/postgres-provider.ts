@@ -14,6 +14,8 @@ import {
   type EntityDetail,
   type EntityQuery,
   type EntitySummary,
+  type BrandPresence,
+  type NearbyEntity,
   type Page,
   type SearchHit,
   type SiteStats,
@@ -51,6 +53,15 @@ function entitySummary(r: R): EntitySummary {
     slug: String(r.slug), name: String(r.name), entityType: r.entity_type as EntityType, shortDescription: (r.short_description as string) ?? null,
     reviewStatus: r.review_status as ReviewStatus, primaryCategory: catRef(r.cat_slug, r.cat_name, r.cat_name_ro, r.domain_number),
     domain: catRef(r.dom_slug, r.dom_name, r.dom_name_ro, r.domain_number), placeLabel: (r.place_label as string) ?? null,
+    image: r.image_url ? { url: String(r.image_url), alt: String(r.image_alt ?? "") } : null,
+  };
+}
+
+function mediaRow(m: R): MediaRow {
+  return {
+    id: String(m.id), areaId: (m.area_id as string) ?? null, entityId: (m.entity_id as string) ?? null, kind: m.kind as MediaRow["kind"],
+    url: String(m.url), pageUrl: String(m.page_url), alt: String(m.alt), credit: String(m.credit), license: String(m.license),
+    licenseUrl: String(m.license_url), year: num(m.year), aiGenerated: Boolean(m.ai_generated),
   };
 }
 
@@ -60,6 +71,7 @@ function factRow(r: R): FactRow {
     valueText: (r.value_text as string) ?? null, valueNum: num(r.value_num), unit: (r.unit as string) ?? null, asOf: isoDate(r.as_of),
     asOfLabel: (r.as_of_label as string) ?? null, sourceId: String(r.source_id), sourceRef: (r.source_ref as string) ?? null,
     reviewStatus: r.review_status as ReviewStatus, verifiedAt: iso(r.verified_at), note: (r.note as string) ?? null,
+    scopeAreaId: (r.scope_area_id as string) ?? null,
   };
 }
 
@@ -148,7 +160,7 @@ export class PostgresProvider implements DataProvider {
       boundaryNote: (a.boundary_note as string) ?? null, reviewStatus: a.review_status as ReviewStatus, aliases: a.aliases as string[],
       breadcrumbs: crumbs.map((c) => ({ slug: String(c.slug), name: String(c.name), areaType: c.area_type as AreaType })),
       facts: factRows, sources,
-      media: media.map((m): MediaRow => ({ id: String(m.id), areaId: (m.area_id as string) ?? null, entityId: (m.entity_id as string) ?? null, kind: m.kind as MediaRow["kind"], url: String(m.url), pageUrl: String(m.page_url), alt: String(m.alt), credit: String(m.credit), license: String(m.license), licenseUrl: String(m.license_url), year: num(m.year), aiGenerated: Boolean(m.ai_generated) })),
+      media: media.map(mediaRow),
       childCounts: Object.fromEntries(kids.map((k) => [k.area_type, k.n])),
       related: rel.map((r) => ({ area: areaSummary(r), relationType: String(r.relation_type), method: (r.method as string) ?? null, share: num(r.share), direction: r.direction as "in" | "out" })),
       entityCount: Number(ent[0]?.n ?? 0),
@@ -169,11 +181,14 @@ export class PostgresProvider implements DataProvider {
 
   async getEntity(slug: string): Promise<EntityDetail | null> {
     const [e] = await this.q(`select s.*, e.status, e.official_url, e.sensitive_location, e.created_at, e.updated_at, e.verified_at, e.primary_source_id,
+        e.wikidata_id, e.wikipedia_title, e.wikipedia_url, e.wikipedia_extract, e.wikipedia_retrieved_at,
+        case when e.sensitive_location then null else st_y(e.location::geometry) end as lat,
+        case when e.sensitive_location then null else st_x(e.location::geometry) end as lon,
         coalesce((select array_agg(alias order by alias) from entity_aliases where entity_id = e.id), '{}') as aliases
       from entity_summaries s join entities e on e.id = s.id where s.slug = $1`, [slug]);
     if (!e) return null;
     const id = String(e.id);
-    const [cats, areas, rels, facts, ext, issues] = await Promise.all([
+    const [cats, areas, rels, facts, ext, media, presence, issues] = await Promise.all([
       this.q(`select c.slug, c.name, c.name_ro, c.domain_number, ec.is_primary,
                 (select json_agg(json_build_object('slug', pc.slug, 'name', pc.name, 'nameRo', pc.name_ro, 'domainNumber', pc.domain_number) order by ord)
                  from category_paths cp, unnest(cp.path) with ordinality as u(cid, ord) join categories pc on pc.id = u.cid where cp.id = c.id) as path
@@ -186,6 +201,8 @@ export class PostgresProvider implements DataProvider {
               where (r.from_entity_id = $1 or r.to_entity_id = $1) and r.review_status <> 'rejected'`, [id]),
       this.q("select * from facts where entity_id = $1 order by key", [id]),
       this.q("select provider, external_id from entity_external_ids where entity_id = $1 order by provider", [id]),
+      this.q("select * from media where entity_id = $1 order by (kind = 'photo') desc, id", [id]),
+      this.q("select a.slug, a.name, f.value_num, f.as_of from facts f join areas a on a.id = f.scope_area_id where f.entity_id = $1 and f.key = 'osm-location-count' order by f.value_num desc, a.slug collate \"C\"", [id]),
       this.q("select coalesce(sum(n), 0)::int as n from entity_open_issue_counts where entity_id = $1", [id]),
     ]);
     const factRows = facts.map(factRow);
@@ -211,6 +228,10 @@ export class PostgresProvider implements DataProvider {
       sources: sources.map((s) => ({ ...sourceRow(s), lastCheck: lastCheck(s) })),
       externalIds: ext.map((x) => ({ provider: String(x.provider), externalId: String(x.external_id) })),
       openIssues: Number(issues[0]?.n ?? 0),
+      lat: num(e.lat), lon: num(e.lon), wikidataId: (e.wikidata_id as string) ?? null,
+      presence: presence.map((p) => ({ areaSlug: String(p.slug), areaName: String(p.name), count: Number(p.value_num), asOf: isoDate(p.as_of) })),
+      wikipedia: e.wikipedia_extract ? { title: String(e.wikipedia_title), url: String(e.wikipedia_url), extract: String(e.wikipedia_extract), retrievedAt: iso(e.wikipedia_retrieved_at)! } : null,
+      media: media.map(mediaRow),
     };
   }
 
@@ -356,6 +377,30 @@ export class PostgresProvider implements DataProvider {
       ) u group by source_id`);
     const used = new Map(usage.map((u) => [String(u.source_id), Number(u.n)]));
     return rows.map((s) => ({ ...sourceRow(s), lastCheck: lastCheck(s), usage: used.get(String(s.id)) ?? 0 }));
+  }
+
+  async nearbyEntities(slug: string, opts: { limit?: number; radiusKm?: number } = {}): Promise<NearbyEntity[]> {
+    const limit = Math.min(Math.max(opts.limit ?? 8, 1), 30);
+    const radius = Math.min(opts.radiusKm ?? 3, 25);
+    // Spherical distance (use_spheroid = false) to match the fixture haversine.
+    const rows = await this.q(`select s.*, st_distance(o.location, e.location, false) / 1000 as km
+      from entities e join entities o on o.id <> e.id and o.location is not null and not o.sensitive_location
+      join entity_summaries s on s.id = o.id
+      where e.slug = $1 and e.location is not null and not e.sensitive_location and st_dwithin(o.location, e.location, $2 * 1000, false)
+      order by km, s.slug collate "C" limit $3`, [slug, radius, limit]);
+    return rows.map((r) => ({ ...entitySummary(r), distanceKm: Math.round(Number(r.km) * 100) / 100 }));
+  }
+
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number } = {}): Promise<BrandPresence[]> {
+    const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
+    const rows = await this.q(`select s.*, f.value_num as cnt, f.as_of
+      from facts f join areas a on a.id = f.scope_area_id and a.slug = $1
+      join entity_summaries s on s.id = f.entity_id
+      where f.key = 'osm-location-count' and f.review_status <> 'rejected'
+        and ($2::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $2
+             where ec.entity_id = s.id and ec.category_id in (select category_descendants(root.id))))
+      order by cnt desc, s.name limit $3`, [areaSlug, opts.categorySlug ?? null, limit]);
+    return rows.map((r) => ({ entity: entitySummary(r), count: Number(r.cnt), asOf: isoDate(r.as_of) }));
   }
 
   async resolveRedirect(kind: "entity" | "area" | "category", slug: string): Promise<string | null> {

@@ -1,8 +1,9 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import {
   censusBundleSchema,
+  enrichmentBundleSchema,
   geographyBundleSchema,
   entitySeedFileSchema,
   linkCheckFileSchema,
@@ -16,6 +17,8 @@ export type SeedInputs = {
   census: z.infer<typeof censusBundleSchema>;
   /** Phase 2 geography bundle; optional so a checkout without it still builds. */
   geography: z.infer<typeof geographyBundleSchema> | null;
+  /** Enrichment bundles (seed/generated/enrich-<area>.json), one per enriched area. */
+  enrichments: z.infer<typeof enrichmentBundleSchema>[];
   taxonomy: z.infer<typeof taxonomySchema>;
   curated: z.infer<typeof entitySeedFileSchema>;
   curatedSources: z.infer<typeof sourceSchema>[];
@@ -37,6 +40,10 @@ export function loadSeedInputs(): SeedInputs {
   return {
     census: censusBundleSchema.parse(readJson("generated/census-florida.json")),
     geography: existsSync(geoPath) ? geographyBundleSchema.parse(JSON.parse(readFileSync(geoPath, "utf8"))) : null,
+    enrichments: readdirSync(path.join(seedDir(), "generated"))
+      .filter((f) => /^enrich-[a-z0-9-]+\.json$/.test(f))
+      .sort()
+      .map((f) => enrichmentBundleSchema.parse(readJson(`generated/${f}`))),
     taxonomy: taxonomySchema.parse(readJson("taxonomy.json")),
     curated: entitySeedFileSchema.parse(readJson("curated/jacksonville.json")),
     curatedSources: z.object({ sources: z.array(sourceSchema) }).parse(readJson("curated/sources.json")).sources,

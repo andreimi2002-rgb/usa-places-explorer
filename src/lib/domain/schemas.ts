@@ -203,6 +203,20 @@ export const entityTypeSchema = z.enum([
   "museum",
   "historic_site",
   "landmark",
+  // enrichment (Wikidata) types
+  "school",
+  "library",
+  "military_installation",
+  "transit_station",
+  "lighthouse",
+  "cemetery",
+  "place_of_worship",
+  "media_outlet",
+  "hotel",
+  "building",
+  "island",
+  "beach",
+  "organization",
 ]);
 export type EntityType = z.infer<typeof entityTypeSchema>;
 
@@ -370,3 +384,57 @@ export const geographyBundleSchema = censusBundleSchema.extend({
   stats: z.record(z.string(), z.number()),
 });
 export type GeographyBundle = z.infer<typeof geographyBundleSchema>;
+
+// ---------------------------------------------------------------- enrichment (Wikidata / Wikipedia / Commons / OSM)
+export const enrichedEntitySchema = z.object({
+  qid: z.string().regex(/^Q\d+$/),
+  slug: slugSchema,
+  /** When set, this record enriches an existing curated entity instead of creating one. */
+  curatedSlug: slugSchema.optional(),
+  name: z.string().min(1),
+  aliases: z.array(z.string()).default([]),
+  description: z.string().optional(),
+  entityType: z.string().min(1),
+  status: z.enum(["active", "closed", "historical", "unknown"]),
+  origin: z.enum(["wikidata-place", "osm-brand"]),
+  categories: z.array(z.object({ slug: slugSchema, primary: z.boolean() })).min(1),
+  areas: z.array(z.object({ slug: slugSchema, relation: z.enum(["located_in", "headquartered_in", "operates_in"]) })).min(1),
+  coords: pointSchema.optional(),
+  officialUrl: z.string().url().optional(),
+  wikipedia: z.object({ title: z.string(), url: z.string().url(), extract: z.string(), retrievedAt: isoDateTimeSchema }).optional(),
+  facts: z.array(
+    z.object({
+      key: slugSchema,
+      value: z.union([z.string(), z.number()]),
+      unit: z.string().optional(),
+      asOf: isoDateSchema.optional(),
+      sourceId: slugSchema,
+      sourceRef: z.string(),
+      scopeAreaSlug: slugSchema.optional(),
+    }),
+  ),
+  relations: z.array(z.object({ type: z.enum(["operated_by", "home_venue", "part_of", "brand_of", "managed_by", "affiliated_with"]), targetQid: z.string() })),
+  externalIds: z.array(z.object({ provider: z.string(), id: z.string() })),
+  media: z.array(
+    z.object({
+      kind: z.enum(["photo", "illustration"]),
+      url: z.string().url(),
+      pageUrl: z.string().url(),
+      alt: z.string().min(5),
+      credit: z.string().min(1),
+      license: z.string().min(1),
+      licenseUrl: z.string().url(),
+    }),
+  ),
+});
+export type EnrichedEntity = z.infer<typeof enrichedEntitySchema>;
+
+export const enrichmentBundleSchema = z.object({
+  generatedAt: isoDateTimeSchema,
+  generator: z.string(),
+  areaSlug: slugSchema,
+  sources: z.array(sourceSchema),
+  entities: z.array(enrichedEntitySchema),
+  stats: z.record(z.string(), z.union([z.number(), z.string()])),
+});
+export type EnrichmentBundle = z.infer<typeof enrichmentBundleSchema>;

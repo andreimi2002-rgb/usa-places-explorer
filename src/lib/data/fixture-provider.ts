@@ -1,6 +1,6 @@
 import { normalize, tokens } from "@/lib/text";
 import type { AreaType, ReviewStatus } from "@/lib/domain/schemas";
-import type { AreaRow, Dataset, EntityRow } from "./dataset";
+import type { AreaRow, Dataset, EntityRow, MediaRow } from "./dataset";
 import { areaSearchText, categoryRef, DatasetIndex, entitySearchText } from "./derive";
 import {
   emptyStatusCounts,
@@ -13,6 +13,8 @@ import {
   type EntityDetail,
   type EntityQuery,
   type EntitySummary,
+  type BrandPresence,
+  type NearbyEntity,
   type Page,
   type SearchHit,
   type SiteStats,
@@ -38,6 +40,13 @@ export function clampPage(page?: number, pageSize?: number, max = 100) {
  */
 export function areaBoost(areaType: AreaType, programStatus: "active" | "registry_only"): number {
   return (programStatus === "active" ? 8 : 0) + (areaType === "community" ? -40 : 0);
+}
+
+/** Great-circle distance in km (matches PostGIS geography ST_Distance closely enough for ranking). */
+export function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const r = Math.PI / 180;
+  const a = Math.sin(((lat2 - lat1) * r) / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(((lon2 - lon1) * r) / 2) ** 2;
+  return 2 * 6371.0088 * Math.asin(Math.sqrt(a));
 }
 
 /** Shared scoring so fixture and database search rank comparably. */
@@ -99,10 +108,60 @@ export class FixtureProvider implements DataProvider {
     const primary = this.ds.entityCategories.find((ec) => ec.entityId === e.id && ec.isPrimary)!;
     const cat = this.idx.categoryById.get(primary.categoryId)!;
     const place = this.placeOf(e);
+    const img = this.imageOf(e.id);
     return {
       slug: e.slug, name: e.name, entityType: e.entityType, shortDescription: e.shortDescription, reviewStatus: e.reviewStatus,
       primaryCategory: categoryRef(cat), domain: categoryRef(this.idx.domainOf(cat)), placeLabel: place?.name ?? null,
+      image: img ? { url: img.url, alt: img.alt } : null,
     };
+  }
+
+  private imageCache: Map<string, MediaRow> | null = null;
+  /** Same rule as the SQL view: photos before logos, then lowest id. */
+  private imageOf(entityId: string): MediaRow | undefined {
+    if (!this.imageCache) {
+      this.imageCache = new Map();
+      const sorted = this.ds.media
+        .filter((m) => m.entityId && !m.aiGenerated)
+        .sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+      for (const m of sorted) if (!this.imageCache.has(m.entityId!)) this.imageCache.set(m.entityId!, m);
+    }
+    return this.imageCache.get(entityId);
+  }
+
+  async nearbyEntities(slug: string, opts: { limit?: number; radiusKm?: number } = {}): Promise<NearbyEntity[]> {
+    const e = this.idx.entityBySlug.get(slug);
+    if (!e || e.lat === null || e.lon === null || e.sensitiveLocation) return [];
+    const limit = Math.min(Math.max(opts.limit ?? 8, 1), 30);
+    const radius = Math.min(opts.radiusKm ?? 3, 25);
+    const out: { o: EntityRow; d: number }[] = [];
+    for (const o of this.ds.entities) {
+      if (o.id === e.id || o.lat === null || o.lon === null || o.sensitiveLocation || !this.visible(o)) continue;
+      const d = haversineKm(e.lat, e.lon, o.lat, o.lon);
+      if (d <= radius) out.push({ o, d });
+    }
+    return out
+      .sort((a, b) => a.d - b.d || (a.o.slug < b.o.slug ? -1 : 1))
+      .slice(0, limit)
+      .map(({ o, d }) => ({ ...this.entitySummary(o), distanceKm: Math.round(d * 100) / 100 }));
+  }
+
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number } = {}): Promise<BrandPresence[]> {
+    const area = this.idx.areaBySlug.get(areaSlug);
+    if (!area) return [];
+    const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
+    const allowed = opts.categorySlug && this.idx.categoryBySlug.get(opts.categorySlug)
+      ? this.idx.descendantCategoryIds(this.idx.categoryBySlug.get(opts.categorySlug)!.id)
+      : null;
+    const rows: BrandPresence[] = [];
+    for (const f of this.ds.facts) {
+      if (f.key !== "osm-location-count" || f.scopeAreaId !== area.id || !f.entityId || f.valueNum === null) continue;
+      const e = this.idx.entityById.get(f.entityId)!;
+      if (!this.visible(e)) continue;
+      if (allowed && !this.ds.entityCategories.some((ec) => ec.entityId === e.id && allowed.has(ec.categoryId))) continue;
+      rows.push({ entity: this.entitySummary(e), count: f.valueNum, asOf: f.asOf });
+    }
+    return rows.sort((a, b) => b.count - a.count || a.entity.name.localeCompare(b.entity.name, "en")).slice(0, limit);
   }
 
   private lastCheck(sourceId: string): SourceCheck | null {
@@ -207,6 +266,12 @@ export class FixtureProvider implements DataProvider {
       sources: this.ds.sources.filter((s) => sourceIds.has(s.id)).map((s) => ({ ...s, lastCheck: this.lastCheck(s.id) })),
       externalIds: this.ds.externalIds.filter((x) => x.entityId === e.id).map((x) => ({ provider: x.provider, externalId: x.externalId })),
       openIssues: this.ds.reviewIssues.filter((i) => i.entityId === e.id && i.status === "open").length,
+      lat: e.sensitiveLocation ? null : e.lat, lon: e.sensitiveLocation ? null : e.lon, wikidataId: e.wikidataId, wikipedia: e.wikipedia,
+      presence: this.ds.facts
+        .filter((f) => f.entityId === e.id && f.key === "osm-location-count" && f.scopeAreaId && f.valueNum !== null)
+        .map((f) => ({ areaSlug: this.idx.areaById.get(f.scopeAreaId!)!.slug, areaName: this.idx.areaById.get(f.scopeAreaId!)!.name, count: f.valueNum!, asOf: f.asOf }))
+        .sort((x, y) => y.count - x.count || (x.areaSlug < y.areaSlug ? -1 : 1)),
+      media: this.ds.media.filter((m) => m.entityId === e.id).sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : 1)),
     };
   }
 

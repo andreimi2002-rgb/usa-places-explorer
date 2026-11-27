@@ -5,6 +5,7 @@ import type {
   CategoryRow,
   Dataset,
   EntityAreaRow,
+  EntityRow,
   EntityRelationRow,
   FactRow,
   ReviewIssueRow,
@@ -315,6 +316,8 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       sensitiveLocation: e.sensitiveLocation, visibility: e.visibility, reviewStatus,
       verifiedAt: latestVerified, createdAt, updatedAt: primaryCheck?.checkedAt ?? createdAt,
       aliases: e.aliases, primarySourceId: primary,
+      lat: null as number | null, lon: null as number | null, wikidataId: null as string | null,
+      wikipedia: null as { title: string; url: string; extract: string; retrievedAt: string } | null,
     };
   });
 
@@ -343,6 +346,81 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     kind: m.kind, url: m.url, pageUrl: m.pageUrl, alt: m.alt, credit: m.credit, license: m.license, licenseUrl: m.licenseUrl,
     year: m.year ?? null, aiGenerated: m.aiGenerated,
   }));
+
+  // ---- enrichment bundles (Wikidata places, OSM brands): enrich curated entities or add new ones
+  const entityIdByQid = new Map<string, string>();
+  const pendingRelations: { from: string; type: string; toQid: string }[] = [];
+  const relKeys2 = new Set(entityRelations.map((r) => `${r.fromEntityId}|${r.relationType}|${r.toEntityId}`));
+  for (const bundle of inputs.enrichments) {
+    for (const s of bundle.sources) if (!sourceIds.has(s.id)) addSource(s, null);
+    const bundleTime = bundle.generatedAt;
+    for (const r of bundle.entities) {
+      if (entityIdByQid.has(r.qid)) {
+        // Already added by an earlier bundle (another area): only add the area links.
+        const id = entityIdByQid.get(r.qid)!;
+        for (const a of r.areas) if (!entityAreas.some((x) => x.entityId === id && x.areaId === areaIdBySlug.get(a.slug) && x.relationType === a.relation))
+          entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+        continue;
+      }
+      let row = r.curatedSlug ? entities.find((e) => e.slug === r.curatedSlug) : undefined;
+      if (!row) {
+        if (entityIdBySlug.has(r.slug) || areaIdBySlug.has(r.slug)) throw new DatasetError(`enrichment slug collision ${r.slug}`);
+        const id = stableId("entity", r.slug);
+        entityIdBySlug.set(r.slug, id);
+        const desc = r.description ? r.description.charAt(0).toUpperCase() + r.description.slice(1) : null;
+        row = {
+          id, slug: r.slug, name: r.name, entityType: r.entityType as EntityRow["entityType"], status: r.status,
+          shortDescription: desc && desc.length <= 280 ? desc : null, officialUrl: r.officialUrl ?? null,
+          sensitiveLocation: false, visibility: "public", reviewStatus: "imported", verifiedAt: null,
+          createdAt: bundleTime, updatedAt: bundleTime, aliases: r.aliases, primarySourceId: "wikidata",
+          lat: null, lon: null, wikidataId: null, wikipedia: null,
+        };
+        entities.push(row);
+        r.categories.forEach((c) => {
+          const categoryId = categoryIdBySlug.get(c.slug);
+          if (!categoryId) throw new DatasetError(`enrichment ${r.slug}: unknown category ${c.slug}`);
+          entityCategories.push({ entityId: id, categoryId, isPrimary: c.primary });
+        });
+        for (const a of r.areas)
+          entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+      } else {
+        row.officialUrl ??= r.officialUrl ?? null;
+      }
+      const id = row.id;
+      entityIdByQid.set(r.qid, id);
+      if (r.coords && !row.sensitiveLocation) {
+        row.lat = r.coords.lat;
+        row.lon = r.coords.lon;
+      }
+      row.wikidataId = r.qid;
+      if (r.wikipedia?.extract) row.wikipedia = r.wikipedia;
+      for (const f of r.facts) {
+        facts.push({
+          id: stableId("fact", `entity:${row.slug}:${f.key}:${f.sourceId}:${f.scopeAreaSlug ?? ""}`), areaId: null, entityId: id, key: f.key,
+          valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
+          unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
+          reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: f.scopeAreaSlug ? areaId(f.scopeAreaSlug, `fact ${f.key}`) : null,
+        });
+      }
+      for (const x of r.externalIds) {
+        const k = `${x.provider}:${x.id}`;
+        if (extKeys.has(k)) continue;
+        extKeys.add(k);
+        externalIds.push({ entityId: id, provider: x.provider, externalId: x.id });
+      }
+      r.media.forEach((m, i) => mediaRows.push({
+        id: stableId("media", `${r.qid}:${i}`), areaId: null, entityId: id, kind: m.kind, url: m.url, pageUrl: m.pageUrl, alt: m.alt,
+        credit: m.credit, license: m.license, licenseUrl: m.licenseUrl, year: null, aiGenerated: false,
+      }));
+      for (const rel of r.relations) pendingRelations.push({ from: id, type: rel.type, toQid: rel.targetQid });
+    }
+  }
+  for (const p of pendingRelations) {
+    const to = entityIdByQid.get(p.toQid);
+    if (!to || to === p.from || relKeys2.has(`${p.from}|${p.type}|${to}`)) continue;
+    relKeys2.add(`${p.from}|${p.type}|${to}`);
+    entityRelations.push({ id: stableId("relation", `entity-id:${p.from}:${p.type}:${to}`), fromEntityId: p.from, toEntityId: to, relationType: p.type, sourceId: "wikidata", evidence: null, reviewStatus: "imported", verifiedAt: null });
+  }
 
   const coverageUniverses = [...census.coverageUniverses, ...(geo?.coverageUniverses ?? [])].map((u) => ({
     id: u.id, areaId: areaId(u.areaSlug, `universe ${u.id}`), label: u.label, definition: u.definition,

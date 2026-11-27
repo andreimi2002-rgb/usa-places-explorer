@@ -15,6 +15,7 @@ export function AreaMap({
   collection,
   projection = "mercator",
   fitSlug,
+  fitFeature,
   highlight = [],
   activeSlugs,
   points = [],
@@ -27,6 +28,8 @@ export function AreaMap({
   collection: FeatureCollection<Geometry, Props>;
   projection?: "mercator" | "albers-usa";
   fitSlug?: string;
+  /** Fit the view to an arbitrary feature (e.g. a city boundary) instead of a collection member. */
+  fitFeature?: Feature<Geometry, Props>;
   highlight?: string[];
   activeSlugs?: string[];
   points?: MapPoint[];
@@ -39,7 +42,7 @@ export function AreaMap({
 }) {
   const pad = 12;
   const fitTarget: FeatureCollection | Feature =
-    (fitSlug && collection.features.find((f) => f.properties.slug === fitSlug)) || collection;
+    fitFeature ?? ((fitSlug && collection.features.find((f) => f.properties.slug === fitSlug)) || collection);
   const proj: GeoProjection = (projection === "albers-usa" ? geoAlbersUsa() : geoMercator()).fitExtent(
     [
       [pad, pad],

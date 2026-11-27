@@ -191,6 +191,29 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       expect(b.items.length).toBe(a.items.length);
     });
 
+    it.each(["st-johns-town-center", "cummer-museum-of-art-and-gardens", "everbank-stadium"])("same enrichment detail: %s", async (slug) => {
+      const [a, b] = [await fx.getEntity(slug), await reader.getEntity(slug)];
+      expect(b!.wikidataId).toBe(a!.wikidataId);
+      expect(b!.wikipedia?.extract).toBe(a!.wikipedia?.extract);
+      expect(b!.lat).toBeCloseTo(a!.lat ?? 0, 5);
+      expect(b!.image).toEqual(a!.image);
+      expect(b!.media.map((m) => m.url)).toEqual(a!.media.map((m) => m.url));
+    });
+
+    it.each(["st-johns-town-center", "everbank-stadium", "cummer-museum-of-art-and-gardens"])("same nearby entities: %s", async (slug) => {
+      const [a, b] = [await fx.nearbyEntities(slug, { limit: 8 }), await reader.nearbyEntities(slug, { limit: 8 })];
+      expect(b.map((n) => n.slug)).toEqual(a.map((n) => n.slug));
+      b.forEach((n, i) => expect(n.distanceKm).toBeCloseTo(a[i]!.distanceKm, 1));
+    });
+
+    it("same brand presence (OSM counts) for Jacksonville", async () => {
+      const [a, b] = [await fx.listBrandPresence("jacksonville-fl"), await reader.listBrandPresence("jacksonville-fl")];
+      expect(b.length).toBe(a.length);
+      expect(new Map(b.map((x) => [x.entity.slug, x.count]))).toEqual(new Map(a.map((x) => [x.entity.slug, x.count])));
+      const [af, bf] = [await fx.listBrandPresence("jacksonville-fl", { categorySlug: "fast-food" }), await reader.listBrandPresence("jacksonville-fl", { categorySlug: "fast-food" })];
+      expect(new Set(bf.map((x) => x.entity.slug))).toEqual(new Set(af.map((x) => x.entity.slug)));
+    });
+
     it("same source registry usage counts", async () => {
       const [a, b] = [await fx.listSources(), await reader.listSources()];
       expect(new Map(b.map((s) => [s.id, s.usage]))).toEqual(new Map(a.map((s) => [s.id, s.usage])));

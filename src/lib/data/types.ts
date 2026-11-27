@@ -52,6 +52,8 @@ export type EntitySummary = {
   primaryCategory: CategoryRef;
   domain: CategoryRef;
   placeLabel: string | null;
+  /** Best rights-cleared image (photo before logo), for cards. */
+  image: { url: string; alt: string } | null;
 };
 
 export type LinkedArea = Crumb & { relationType: string; reviewStatus: ReviewStatus; verifiedAt: string | null; evidence: string | null; note: string | null };
@@ -85,7 +87,18 @@ export type EntityDetail = EntitySummary & {
   sources: (SourceRow & { lastCheck: SourceCheck | null })[];
   externalIds: { provider: string; externalId: string }[];
   openIssues: number;
+  lat: number | null;
+  lon: number | null;
+  wikidataId: string | null;
+  wikipedia: { title: string; url: string; extract: string; retrievedAt: string } | null;
+  media: MediaRow[];
+  /** Mapped locations per area (brands; OpenStreetMap). */
+  presence: { areaSlug: string; areaName: string; count: number; asOf: string | null }[];
 };
+
+export type NearbyEntity = EntitySummary & { distanceKm: number };
+
+export type BrandPresence = { entity: EntitySummary; count: number; asOf: string | null };
 
 export type CategoryNode = CategoryRef & {
   id: string;
@@ -162,6 +175,10 @@ export interface DataProvider {
   getCoverage(areaSlug: string): Promise<CoverageReport | null>;
   listSources(): Promise<(SourceRow & { lastCheck: SourceCheck | null; usage: number })[]>;
   resolveRedirect(kind: "entity" | "area" | "category", slug: string): Promise<string | null>;
+  /** Entities with sourced coordinates within radiusKm of this entity, nearest first. */
+  nearbyEntities(slug: string, opts?: { limit?: number; radiusKm?: number }): Promise<NearbyEntity[]>;
+  /** Brands with mapped locations in an area (OpenStreetMap counts), largest first. */
+  listBrandPresence(areaSlug: string, opts?: { categorySlug?: string; limit?: number }): Promise<BrandPresence[]>;
 }
 
 export const REVIEW_STATUSES: ReviewStatus[] = ["imported", "unreviewed", "reviewed", "verified", "stale", "rejected"];

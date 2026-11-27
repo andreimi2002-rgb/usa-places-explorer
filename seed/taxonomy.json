@@ -1,166 +1,798 @@
 {
-  "version": "2026-11-27.1",
-  "domains": [
-    { "slug": "geography", "name": "Geography & territory", "nameRo": "Geografie și teritoriu", "description": "Landforms, waterways, coastlines, islands and regions.", "children": [
-      { "slug": "waterways", "name": "Rivers & waterways", "nameRo": "Râuri și căi navigabile" },
-      { "slug": "coastlines-beaches", "name": "Coastlines & beaches", "nameRo": "Coastă și plaje" },
-      { "slug": "islands", "name": "Islands", "nameRo": "Insule" },
-      { "slug": "regions", "name": "Regions", "nameRo": "Regiuni" }
-    ] },
-    { "slug": "communities", "name": "Cities & communities", "nameRo": "Orașe și comunități", "description": "Municipalities, census designated places, neighborhoods and districts.", "children": [
-      { "slug": "municipalities", "name": "Municipalities", "nameRo": "Municipalități" },
-      { "slug": "census-designated-places", "name": "Census designated places", "nameRo": "Locuri desemnate de Census (CDP)" },
-      { "slug": "neighborhoods", "name": "Neighborhoods & areas", "nameRo": "Cartiere și zone" }
-    ] },
-    { "slug": "government", "name": "Government & administration", "nameRo": "Guvernare și administrație", "description": "Local, state and federal bodies and public services.", "children": [
-      { "slug": "local-government", "name": "Local government", "nameRo": "Administrație locală" },
-      { "slug": "state-agencies", "name": "State agencies", "nameRo": "Agenții statale" },
-      { "slug": "federal-agencies", "name": "Federal agencies", "nameRo": "Agenții federale" },
-      { "slug": "public-libraries", "name": "Public libraries", "nameRo": "Biblioteci publice" },
-      { "slug": "courts", "name": "Courts", "nameRo": "Instanțe" }
-    ] },
-    { "slug": "emergency-services", "name": "Police, fire & emergency services", "nameRo": "Poliție, pompieri și urgențe", "children": [
-      { "slug": "law-enforcement", "name": "Law enforcement", "nameRo": "Poliție și ordine publică" },
-      { "slug": "fire-rescue", "name": "Fire & rescue", "nameRo": "Pompieri și salvare" },
-      { "slug": "emergency-management", "name": "Emergency management", "nameRo": "Managementul urgențelor" }
-    ] },
-    { "slug": "retail", "name": "Retail & shopping", "nameRo": "Retail și cumpărături", "description": "Every kind of store, from malls to neighborhood specialty shops.", "children": [
-      { "slug": "shopping-centers", "name": "Shopping centers & malls", "nameRo": "Centre comerciale și malluri", "children": [
-        { "slug": "enclosed-malls", "name": "Enclosed malls", "nameRo": "Malluri închise" },
-        { "slug": "open-air-centers", "name": "Open-air & lifestyle centers", "nameRo": "Centre în aer liber" },
-        { "slug": "power-centers", "name": "Power centers & retail parks", "nameRo": "Retail parks" },
-        { "slug": "outlet-centers", "name": "Outlet centers", "nameRo": "Outleturi" }
-      ] },
-      { "slug": "supermarkets", "name": "Supermarkets & grocery", "nameRo": "Supermarketuri" },
-      { "slug": "supercenters", "name": "Supercenters & discount stores", "nameRo": "Supercentre" },
-      { "slug": "convenience-stores", "name": "Convenience stores", "nameRo": "Magazine de proximitate" },
-      { "slug": "home-furnishings", "name": "Furniture & home", "nameRo": "Mobilier și casă" },
-      { "slug": "hardware-stores", "name": "Hardware & home improvement", "nameRo": "Bricolaj" },
-      { "slug": "outdoor-sporting-goods", "name": "Outdoor & sporting goods", "nameRo": "Outdoor și articole sportive", "children": [
-        { "slug": "fishing-hunting-stores", "name": "Fishing & hunting", "nameRo": "Pescuit și vânătoare" },
-        { "slug": "camping-hiking-stores", "name": "Camping & hiking", "nameRo": "Camping și drumeții" }
-      ] },
-      { "slug": "pet-stores", "name": "Pet & exotic animal stores", "nameRo": "Pet shop și animale exotice" },
-      { "slug": "electronics-stores", "name": "Electronics", "nameRo": "Electronice" },
-      { "slug": "collectibles-stores", "name": "Collectibles & hobby shops", "nameRo": "Colecții și hobby" },
-      { "slug": "sneaker-stores", "name": "Sneakers & streetwear", "nameRo": "Sneakers" },
-      { "slug": "thrift-stores", "name": "Thrift & secondhand", "nameRo": "Second-hand" },
-      { "slug": "shopping-districts", "name": "Neighborhood shopping districts", "nameRo": "Străzi comerciale de cartier" },
-      { "slug": "specialty-stores", "name": "Specialty stores", "nameRo": "Magazine de specialitate" }
-    ] },
-    { "slug": "brands", "name": "Brands & chains", "nameRo": "Branduri și lanțuri", "description": "Brands and operators, kept separate from their individual branches.", "children": [
-      { "slug": "retail-chains", "name": "Retail chains", "nameRo": "Lanțuri de retail" },
-      { "slug": "restaurant-chains", "name": "Restaurant chains", "nameRo": "Lanțuri de restaurante" },
-      { "slug": "fuel-brands", "name": "Fuel & convenience brands", "nameRo": "Branduri de carburanți" },
-      { "slug": "property-operators", "name": "Property owners & operators", "nameRo": "Operatori imobiliari" }
-    ] },
-    { "slug": "food-dining", "name": "Food & dining", "nameRo": "Mâncare și restaurante", "children": [
-      { "slug": "restaurants", "name": "Restaurants", "nameRo": "Restaurante" },
-      { "slug": "diners", "name": "Diners", "nameRo": "Diners" },
-      { "slug": "cafes", "name": "Cafés & coffee", "nameRo": "Cafenele" },
-      { "slug": "ice-cream-desserts", "name": "Ice cream & desserts", "nameRo": "Înghețată și deserturi" },
-      { "slug": "food-halls", "name": "Food halls", "nameRo": "Food halls" },
-      { "slug": "dining-districts", "name": "Dining districts", "nameRo": "Zone gastronomice" },
-      { "slug": "food-trucks", "name": "Food trucks", "nameRo": "Food trucks" }
-    ] },
-    { "slug": "economy", "name": "Economy & industry", "nameRo": "Economie și industrie", "children": [
-      { "slug": "corporate-headquarters", "name": "Corporate headquarters", "nameRo": "Sedii corporative" },
-      { "slug": "financial-technology", "name": "Finance & technology", "nameRo": "Finanțe și tehnologie" },
-      { "slug": "economic-development", "name": "Economic development", "nameRo": "Dezvoltare economică" },
-      { "slug": "agriculture", "name": "Agriculture", "nameRo": "Agricultură" }
-    ] },
-    { "slug": "nature", "name": "Nature & ecosystems", "nameRo": "Natură și ecosisteme", "children": [
-      { "slug": "municipal-parks", "name": "City & county parks", "nameRo": "Parcuri municipale" },
-      { "slug": "state-parks", "name": "State parks", "nameRo": "Parcuri statale" },
-      { "slug": "protected-areas", "name": "Preserves & protected areas", "nameRo": "Arii protejate" },
-      { "slug": "botanical-gardens", "name": "Arboretums & botanical gardens", "nameRo": "Grădini botanice" },
-      { "slug": "wetlands-ecosystems", "name": "Wetlands & ecosystems", "nameRo": "Zone umede și ecosisteme" }
-    ] },
-    { "slug": "wildlife", "name": "Fauna & flora", "nameRo": "Faună și floră", "description": "Species profiles with taxonomy and habitat. Sensitive locations are never published.", "children": [
-      { "slug": "reptiles", "name": "Reptiles", "nameRo": "Reptile" },
-      { "slug": "mammals", "name": "Mammals", "nameRo": "Mamifere" },
-      { "slug": "birds", "name": "Birds", "nameRo": "Păsări" },
-      { "slug": "fish", "name": "Fish", "nameRo": "Pești" },
-      { "slug": "plants", "name": "Plants", "nameRo": "Plante" }
-    ] },
-    { "slug": "outdoor-recreation", "name": "Outdoor & recreation", "nameRo": "Outdoor și recreere", "children": [
-      { "slug": "trails", "name": "Trails", "nameRo": "Trasee" },
-      { "slug": "riverwalks", "name": "Riverwalks & promenades", "nameRo": "Promenade" },
-      { "slug": "campgrounds", "name": "Campgrounds", "nameRo": "Campinguri" },
-      { "slug": "boating-fishing-access", "name": "Boat ramps & fishing access", "nameRo": "Acces pentru bărci și pescuit" }
-    ] },
-    { "slug": "sports", "name": "Sports", "nameRo": "Sport", "children": [
-      { "slug": "professional-teams", "name": "Professional teams", "nameRo": "Echipe profesioniste" },
-      { "slug": "minor-league-teams", "name": "Minor league & indoor teams", "nameRo": "Ligi minore și indoor" },
-      { "slug": "stadiums-arenas", "name": "Stadiums & arenas", "nameRo": "Stadioane și arene" },
-      { "slug": "college-sports", "name": "College sports", "nameRo": "Sport universitar" },
-      { "slug": "local-sports", "name": "Local & recreational sports", "nameRo": "Sport local" }
-    ] },
-    { "slug": "automotive", "name": "Automotive", "nameRo": "Auto", "children": [
-      { "slug": "dealerships", "name": "Dealerships", "nameRo": "Dealeri auto" },
-      { "slug": "auto-parts", "name": "Auto parts", "nameRo": "Piese auto" },
-      { "slug": "auto-repair", "name": "Repair & service", "nameRo": "Service auto" },
-      { "slug": "car-washes", "name": "Car washes", "nameRo": "Spălătorii auto" }
-    ] },
-    { "slug": "fuel-stations", "name": "Gas stations & truck stops", "nameRo": "Benzinării și truck stops", "children": [
-      { "slug": "gas-stations", "name": "Gas stations", "nameRo": "Benzinării" },
-      { "slug": "truck-stops", "name": "Truck stops & travel centers", "nameRo": "Truck stops" },
-      { "slug": "ev-charging", "name": "EV charging", "nameRo": "Încărcare EV" }
-    ] },
-    { "slug": "roads-infrastructure", "name": "Roads & infrastructure", "nameRo": "Drumuri și infrastructură", "children": [
-      { "slug": "interstates", "name": "Interstate highways", "nameRo": "Autostrăzi interstatale" },
-      { "slug": "highways", "name": "U.S. & state highways", "nameRo": "Drumuri naționale și statale" },
-      { "slug": "bridges", "name": "Bridges", "nameRo": "Poduri" },
-      { "slug": "utilities", "name": "Utilities", "nameRo": "Utilități" }
-    ] },
-    { "slug": "transport-logistics", "name": "Transport & logistics", "nameRo": "Transport și logistică", "children": [
-      { "slug": "airports", "name": "Airports", "nameRo": "Aeroporturi" },
-      { "slug": "seaports", "name": "Seaports", "nameRo": "Porturi" },
-      { "slug": "public-transit", "name": "Public transit", "nameRo": "Transport public" },
-      { "slug": "freight-rail", "name": "Freight & rail", "nameRo": "Marfă și cale ferată" }
-    ] },
-    { "slug": "housing-lifestyle", "name": "Housing & lifestyle", "nameRo": "Locuire și stil de viață", "children": [
-      { "slug": "housing-types", "name": "Housing types", "nameRo": "Tipuri de locuințe" },
-      { "slug": "residential-developments", "name": "Residential developments", "nameRo": "Dezvoltări rezidențiale" },
-      { "slug": "cost-of-living", "name": "Cost of living (dated)", "nameRo": "Costul vieții (datat)" }
-    ] },
-    { "slug": "education", "name": "Education", "nameRo": "Educație", "children": [
-      { "slug": "school-districts", "name": "School districts", "nameRo": "Districte școlare" },
-      { "slug": "universities", "name": "Universities", "nameRo": "Universități" },
-      { "slug": "colleges", "name": "Colleges", "nameRo": "Colegii" },
-      { "slug": "k12-schools", "name": "K-12 schools", "nameRo": "Școli K-12" }
-    ] },
-    { "slug": "healthcare", "name": "Healthcare", "nameRo": "Sănătate", "children": [
-      { "slug": "hospitals", "name": "Hospitals & medical centers", "nameRo": "Spitale" },
-      { "slug": "clinics", "name": "Clinics", "nameRo": "Clinici" },
-      { "slug": "public-health", "name": "Public health", "nameRo": "Sănătate publică" }
-    ] },
-    { "slug": "history-heritage", "name": "History & heritage", "nameRo": "Istorie și patrimoniu", "children": [
-      { "slug": "historic-sites", "name": "Historic sites", "nameRo": "Situri istorice" },
-      { "slug": "monuments", "name": "Monuments & memorials", "nameRo": "Monumente" },
-      { "slug": "historic-districts", "name": "Historic districts", "nameRo": "Districte istorice" }
-    ] },
-    { "slug": "culture-entertainment", "name": "Culture & entertainment", "nameRo": "Cultură și divertisment", "children": [
-      { "slug": "museums", "name": "Museums", "nameRo": "Muzee" },
-      { "slug": "landmarks", "name": "Landmarks", "nameRo": "Repere" },
-      { "slug": "zoos-aquariums", "name": "Zoos & aquariums", "nameRo": "Grădini zoologice și acvarii" },
-      { "slug": "performing-arts", "name": "Performing arts & music venues", "nameRo": "Arte spectacolului" },
-      { "slug": "theme-parks", "name": "Theme parks", "nameRo": "Parcuri tematice" }
-    ] },
-    { "slug": "hobbies", "name": "Hobbies", "nameRo": "Hobby-uri", "children": [
-      { "slug": "fishing", "name": "Fishing", "nameRo": "Pescuit" },
-      { "slug": "cycling", "name": "Cycling", "nameRo": "Ciclism" },
-      { "slug": "collecting", "name": "Collecting", "nameRo": "Colecționare" },
-      { "slug": "gaming", "name": "Gaming", "nameRo": "Gaming" }
-    ] },
-    { "slug": "society", "name": "Demographics & society", "nameRo": "Demografie și societate", "children": [
-      { "slug": "population", "name": "Population", "nameRo": "Populație" },
-      { "slug": "community-organizations", "name": "Community organizations", "nameRo": "Organizații comunitare" }
-    ] },
-    { "slug": "climate-environment", "name": "Climate & environment", "nameRo": "Climă și mediu", "children": [
-      { "slug": "environmental-agencies", "name": "Environmental agencies & programs", "nameRo": "Agenții de mediu" },
-      { "slug": "climate", "name": "Climate", "nameRo": "Climă" },
-      { "slug": "hurricanes-storms", "name": "Hurricanes & storms", "nameRo": "Uragane și furtuni" }
-    ] }
-  ]
+ "version": "2026-11-27.2",
+ "domains": [
+  {
+   "slug": "geography",
+   "name": "Geography & territory",
+   "nameRo": "Geografie și teritoriu",
+   "description": "Landforms, waterways, coastlines, islands and regions.",
+   "children": [
+    {
+     "slug": "waterways",
+     "name": "Rivers & waterways",
+     "nameRo": "Râuri și căi navigabile"
+    },
+    {
+     "slug": "coastlines-beaches",
+     "name": "Coastlines & beaches",
+     "nameRo": "Coastă și plaje"
+    },
+    {
+     "slug": "islands",
+     "name": "Islands",
+     "nameRo": "Insule"
+    },
+    {
+     "slug": "regions",
+     "name": "Regions",
+     "nameRo": "Regiuni"
+    }
+   ]
+  },
+  {
+   "slug": "communities",
+   "name": "Cities & communities",
+   "nameRo": "Orașe și comunități",
+   "description": "Municipalities, census designated places, neighborhoods and districts.",
+   "children": [
+    {
+     "slug": "municipalities",
+     "name": "Municipalities",
+     "nameRo": "Municipalități"
+    },
+    {
+     "slug": "census-designated-places",
+     "name": "Census designated places",
+     "nameRo": "Locuri desemnate de Census (CDP)"
+    },
+    {
+     "slug": "neighborhoods",
+     "name": "Neighborhoods & areas",
+     "nameRo": "Cartiere și zone"
+    }
+   ]
+  },
+  {
+   "slug": "government",
+   "name": "Government & administration",
+   "nameRo": "Guvernare și administrație",
+   "description": "Local, state and federal bodies and public services.",
+   "children": [
+    {
+     "slug": "local-government",
+     "name": "Local government",
+     "nameRo": "Administrație locală"
+    },
+    {
+     "slug": "state-agencies",
+     "name": "State agencies",
+     "nameRo": "Agenții statale"
+    },
+    {
+     "slug": "federal-agencies",
+     "name": "Federal agencies",
+     "nameRo": "Agenții federale"
+    },
+    {
+     "slug": "public-libraries",
+     "name": "Public libraries",
+     "nameRo": "Biblioteci publice"
+    },
+    {
+     "slug": "courts",
+     "name": "Courts",
+     "nameRo": "Instanțe"
+    },
+    {
+     "slug": "military-installations",
+     "name": "Military installations",
+     "nameRo": "Baze militare"
+    }
+   ]
+  },
+  {
+   "slug": "emergency-services",
+   "name": "Police, fire & emergency services",
+   "nameRo": "Poliție, pompieri și urgențe",
+   "children": [
+    {
+     "slug": "law-enforcement",
+     "name": "Law enforcement",
+     "nameRo": "Poliție și ordine publică"
+    },
+    {
+     "slug": "fire-rescue",
+     "name": "Fire & rescue",
+     "nameRo": "Pompieri și salvare"
+    },
+    {
+     "slug": "emergency-management",
+     "name": "Emergency management",
+     "nameRo": "Managementul urgențelor"
+    }
+   ]
+  },
+  {
+   "slug": "retail",
+   "name": "Retail & shopping",
+   "nameRo": "Retail și cumpărături",
+   "description": "Every kind of store, from malls to neighborhood specialty shops.",
+   "children": [
+    {
+     "slug": "shopping-centers",
+     "name": "Shopping centers & malls",
+     "nameRo": "Centre comerciale și malluri",
+     "children": [
+      {
+       "slug": "enclosed-malls",
+       "name": "Enclosed malls",
+       "nameRo": "Malluri închise"
+      },
+      {
+       "slug": "open-air-centers",
+       "name": "Open-air & lifestyle centers",
+       "nameRo": "Centre în aer liber"
+      },
+      {
+       "slug": "power-centers",
+       "name": "Power centers & retail parks",
+       "nameRo": "Retail parks"
+      },
+      {
+       "slug": "outlet-centers",
+       "name": "Outlet centers",
+       "nameRo": "Outleturi"
+      }
+     ]
+    },
+    {
+     "slug": "supermarkets",
+     "name": "Supermarkets & grocery",
+     "nameRo": "Supermarketuri"
+    },
+    {
+     "slug": "supercenters",
+     "name": "Supercenters & discount stores",
+     "nameRo": "Supercentre"
+    },
+    {
+     "slug": "convenience-stores",
+     "name": "Convenience stores",
+     "nameRo": "Magazine de proximitate"
+    },
+    {
+     "slug": "home-furnishings",
+     "name": "Furniture & home",
+     "nameRo": "Mobilier și casă"
+    },
+    {
+     "slug": "hardware-stores",
+     "name": "Hardware & home improvement",
+     "nameRo": "Bricolaj"
+    },
+    {
+     "slug": "outdoor-sporting-goods",
+     "name": "Outdoor & sporting goods",
+     "nameRo": "Outdoor și articole sportive",
+     "children": [
+      {
+       "slug": "fishing-hunting-stores",
+       "name": "Fishing & hunting",
+       "nameRo": "Pescuit și vânătoare"
+      },
+      {
+       "slug": "camping-hiking-stores",
+       "name": "Camping & hiking",
+       "nameRo": "Camping și drumeții"
+      }
+     ]
+    },
+    {
+     "slug": "pet-stores",
+     "name": "Pet & exotic animal stores",
+     "nameRo": "Pet shop și animale exotice"
+    },
+    {
+     "slug": "electronics-stores",
+     "name": "Electronics",
+     "nameRo": "Electronice"
+    },
+    {
+     "slug": "collectibles-stores",
+     "name": "Collectibles & hobby shops",
+     "nameRo": "Colecții și hobby"
+    },
+    {
+     "slug": "sneaker-stores",
+     "name": "Sneakers & streetwear",
+     "nameRo": "Sneakers"
+    },
+    {
+     "slug": "thrift-stores",
+     "name": "Thrift & secondhand",
+     "nameRo": "Second-hand"
+    },
+    {
+     "slug": "shopping-districts",
+     "name": "Neighborhood shopping districts",
+     "nameRo": "Străzi comerciale de cartier"
+    },
+    {
+     "slug": "specialty-stores",
+     "name": "Specialty stores",
+     "nameRo": "Magazine de specialitate"
+    }
+   ]
+  },
+  {
+   "slug": "brands",
+   "name": "Brands & chains",
+   "nameRo": "Branduri și lanțuri",
+   "description": "Brands and operators, kept separate from their individual branches.",
+   "children": [
+    {
+     "slug": "retail-chains",
+     "name": "Retail chains",
+     "nameRo": "Lanțuri de retail"
+    },
+    {
+     "slug": "restaurant-chains",
+     "name": "Restaurant chains",
+     "nameRo": "Lanțuri de restaurante"
+    },
+    {
+     "slug": "fuel-brands",
+     "name": "Fuel & convenience brands",
+     "nameRo": "Branduri de carburanți"
+    },
+    {
+     "slug": "property-operators",
+     "name": "Property owners & operators",
+     "nameRo": "Operatori imobiliari"
+    },
+    {
+     "slug": "bank-brands",
+     "name": "Banks & financial services",
+     "nameRo": "Bănci și servicii financiare"
+    },
+    {
+     "slug": "other-brands",
+     "name": "Other chains & services",
+     "nameRo": "Alte lanțuri și servicii"
+    }
+   ]
+  },
+  {
+   "slug": "food-dining",
+   "name": "Food & dining",
+   "nameRo": "Mâncare și restaurante",
+   "children": [
+    {
+     "slug": "restaurants",
+     "name": "Restaurants",
+     "nameRo": "Restaurante"
+    },
+    {
+     "slug": "diners",
+     "name": "Diners",
+     "nameRo": "Diners"
+    },
+    {
+     "slug": "cafes",
+     "name": "Cafés & coffee",
+     "nameRo": "Cafenele"
+    },
+    {
+     "slug": "ice-cream-desserts",
+     "name": "Ice cream & desserts",
+     "nameRo": "Înghețată și deserturi"
+    },
+    {
+     "slug": "food-halls",
+     "name": "Food halls",
+     "nameRo": "Food halls"
+    },
+    {
+     "slug": "dining-districts",
+     "name": "Dining districts",
+     "nameRo": "Zone gastronomice"
+    },
+    {
+     "slug": "food-trucks",
+     "name": "Food trucks",
+     "nameRo": "Food trucks"
+    },
+    {
+     "slug": "fast-food",
+     "name": "Fast food",
+     "nameRo": "Fast food"
+    }
+   ]
+  },
+  {
+   "slug": "economy",
+   "name": "Economy & industry",
+   "nameRo": "Economie și industrie",
+   "children": [
+    {
+     "slug": "corporate-headquarters",
+     "name": "Corporate headquarters",
+     "nameRo": "Sedii corporative"
+    },
+    {
+     "slug": "financial-technology",
+     "name": "Finance & technology",
+     "nameRo": "Finanțe și tehnologie"
+    },
+    {
+     "slug": "economic-development",
+     "name": "Economic development",
+     "nameRo": "Dezvoltare economică"
+    },
+    {
+     "slug": "agriculture",
+     "name": "Agriculture",
+     "nameRo": "Agricultură"
+    },
+    {
+     "slug": "hotels-lodging",
+     "name": "Hotels & lodging",
+     "nameRo": "Hoteluri și cazare"
+    },
+    {
+     "slug": "media-outlets",
+     "name": "Media: TV, radio & newspapers",
+     "nameRo": "Media: TV, radio și presă"
+    }
+   ]
+  },
+  {
+   "slug": "nature",
+   "name": "Nature & ecosystems",
+   "nameRo": "Natură și ecosisteme",
+   "children": [
+    {
+     "slug": "municipal-parks",
+     "name": "City & county parks",
+     "nameRo": "Parcuri municipale"
+    },
+    {
+     "slug": "state-parks",
+     "name": "State parks",
+     "nameRo": "Parcuri statale"
+    },
+    {
+     "slug": "protected-areas",
+     "name": "Preserves & protected areas",
+     "nameRo": "Arii protejate"
+    },
+    {
+     "slug": "botanical-gardens",
+     "name": "Arboretums & botanical gardens",
+     "nameRo": "Grădini botanice"
+    },
+    {
+     "slug": "wetlands-ecosystems",
+     "name": "Wetlands & ecosystems",
+     "nameRo": "Zone umede și ecosisteme"
+    }
+   ]
+  },
+  {
+   "slug": "wildlife",
+   "name": "Fauna & flora",
+   "nameRo": "Faună și floră",
+   "description": "Species profiles with taxonomy and habitat. Sensitive locations are never published.",
+   "children": [
+    {
+     "slug": "reptiles",
+     "name": "Reptiles",
+     "nameRo": "Reptile"
+    },
+    {
+     "slug": "mammals",
+     "name": "Mammals",
+     "nameRo": "Mamifere"
+    },
+    {
+     "slug": "birds",
+     "name": "Birds",
+     "nameRo": "Păsări"
+    },
+    {
+     "slug": "fish",
+     "name": "Fish",
+     "nameRo": "Pești"
+    },
+    {
+     "slug": "plants",
+     "name": "Plants",
+     "nameRo": "Plante"
+    }
+   ]
+  },
+  {
+   "slug": "outdoor-recreation",
+   "name": "Outdoor & recreation",
+   "nameRo": "Outdoor și recreere",
+   "children": [
+    {
+     "slug": "trails",
+     "name": "Trails",
+     "nameRo": "Trasee"
+    },
+    {
+     "slug": "riverwalks",
+     "name": "Riverwalks & promenades",
+     "nameRo": "Promenade"
+    },
+    {
+     "slug": "campgrounds",
+     "name": "Campgrounds",
+     "nameRo": "Campinguri"
+    },
+    {
+     "slug": "boating-fishing-access",
+     "name": "Boat ramps & fishing access",
+     "nameRo": "Acces pentru bărci și pescuit"
+    }
+   ]
+  },
+  {
+   "slug": "sports",
+   "name": "Sports",
+   "nameRo": "Sport",
+   "children": [
+    {
+     "slug": "professional-teams",
+     "name": "Professional teams",
+     "nameRo": "Echipe profesioniste"
+    },
+    {
+     "slug": "minor-league-teams",
+     "name": "Minor league & indoor teams",
+     "nameRo": "Ligi minore și indoor"
+    },
+    {
+     "slug": "stadiums-arenas",
+     "name": "Stadiums & arenas",
+     "nameRo": "Stadioane și arene"
+    },
+    {
+     "slug": "college-sports",
+     "name": "College sports",
+     "nameRo": "Sport universitar"
+    },
+    {
+     "slug": "local-sports",
+     "name": "Local & recreational sports",
+     "nameRo": "Sport local"
+    },
+    {
+     "slug": "golf",
+     "name": "Golf courses & clubs",
+     "nameRo": "Golf"
+    }
+   ]
+  },
+  {
+   "slug": "automotive",
+   "name": "Automotive",
+   "nameRo": "Auto",
+   "children": [
+    {
+     "slug": "dealerships",
+     "name": "Dealerships",
+     "nameRo": "Dealeri auto"
+    },
+    {
+     "slug": "auto-parts",
+     "name": "Auto parts",
+     "nameRo": "Piese auto"
+    },
+    {
+     "slug": "auto-repair",
+     "name": "Repair & service",
+     "nameRo": "Service auto"
+    },
+    {
+     "slug": "car-washes",
+     "name": "Car washes",
+     "nameRo": "Spălătorii auto"
+    }
+   ]
+  },
+  {
+   "slug": "fuel-stations",
+   "name": "Gas stations & truck stops",
+   "nameRo": "Benzinării și truck stops",
+   "children": [
+    {
+     "slug": "gas-stations",
+     "name": "Gas stations",
+     "nameRo": "Benzinării"
+    },
+    {
+     "slug": "truck-stops",
+     "name": "Truck stops & travel centers",
+     "nameRo": "Truck stops"
+    },
+    {
+     "slug": "ev-charging",
+     "name": "EV charging",
+     "nameRo": "Încărcare EV"
+    }
+   ]
+  },
+  {
+   "slug": "roads-infrastructure",
+   "name": "Roads & infrastructure",
+   "nameRo": "Drumuri și infrastructură",
+   "children": [
+    {
+     "slug": "interstates",
+     "name": "Interstate highways",
+     "nameRo": "Autostrăzi interstatale"
+    },
+    {
+     "slug": "highways",
+     "name": "U.S. & state highways",
+     "nameRo": "Drumuri naționale și statale"
+    },
+    {
+     "slug": "bridges",
+     "name": "Bridges",
+     "nameRo": "Poduri"
+    },
+    {
+     "slug": "utilities",
+     "name": "Utilities",
+     "nameRo": "Utilități"
+    }
+   ]
+  },
+  {
+   "slug": "transport-logistics",
+   "name": "Transport & logistics",
+   "nameRo": "Transport și logistică",
+   "children": [
+    {
+     "slug": "airports",
+     "name": "Airports",
+     "nameRo": "Aeroporturi"
+    },
+    {
+     "slug": "seaports",
+     "name": "Seaports",
+     "nameRo": "Porturi"
+    },
+    {
+     "slug": "public-transit",
+     "name": "Public transit",
+     "nameRo": "Transport public"
+    },
+    {
+     "slug": "freight-rail",
+     "name": "Freight & rail",
+     "nameRo": "Marfă și cale ferată"
+    }
+   ]
+  },
+  {
+   "slug": "housing-lifestyle",
+   "name": "Housing & lifestyle",
+   "nameRo": "Locuire și stil de viață",
+   "children": [
+    {
+     "slug": "housing-types",
+     "name": "Housing types",
+     "nameRo": "Tipuri de locuințe"
+    },
+    {
+     "slug": "residential-developments",
+     "name": "Residential developments",
+     "nameRo": "Dezvoltări rezidențiale"
+    },
+    {
+     "slug": "cost-of-living",
+     "name": "Cost of living (dated)",
+     "nameRo": "Costul vieții (datat)"
+    }
+   ]
+  },
+  {
+   "slug": "education",
+   "name": "Education",
+   "nameRo": "Educație",
+   "children": [
+    {
+     "slug": "school-districts",
+     "name": "School districts",
+     "nameRo": "Districte școlare"
+    },
+    {
+     "slug": "universities",
+     "name": "Universities",
+     "nameRo": "Universități"
+    },
+    {
+     "slug": "colleges",
+     "name": "Colleges",
+     "nameRo": "Colegii"
+    },
+    {
+     "slug": "k12-schools",
+     "name": "K-12 schools",
+     "nameRo": "Școli K-12"
+    }
+   ]
+  },
+  {
+   "slug": "healthcare",
+   "name": "Healthcare",
+   "nameRo": "Sănătate",
+   "children": [
+    {
+     "slug": "hospitals",
+     "name": "Hospitals & medical centers",
+     "nameRo": "Spitale"
+    },
+    {
+     "slug": "clinics",
+     "name": "Clinics",
+     "nameRo": "Clinici"
+    },
+    {
+     "slug": "public-health",
+     "name": "Public health",
+     "nameRo": "Sănătate publică"
+    }
+   ]
+  },
+  {
+   "slug": "history-heritage",
+   "name": "History & heritage",
+   "nameRo": "Istorie și patrimoniu",
+   "children": [
+    {
+     "slug": "historic-sites",
+     "name": "Historic sites",
+     "nameRo": "Situri istorice"
+    },
+    {
+     "slug": "monuments",
+     "name": "Monuments & memorials",
+     "nameRo": "Monumente"
+    },
+    {
+     "slug": "historic-districts",
+     "name": "Historic districts",
+     "nameRo": "Districte istorice"
+    },
+    {
+     "slug": "historic-buildings",
+     "name": "Historic houses & buildings",
+     "nameRo": "Case și clădiri istorice"
+    },
+    {
+     "slug": "cemeteries",
+     "name": "Cemeteries",
+     "nameRo": "Cimitire"
+    }
+   ]
+  },
+  {
+   "slug": "culture-entertainment",
+   "name": "Culture & entertainment",
+   "nameRo": "Cultură și divertisment",
+   "children": [
+    {
+     "slug": "museums",
+     "name": "Museums",
+     "nameRo": "Muzee"
+    },
+    {
+     "slug": "landmarks",
+     "name": "Landmarks",
+     "nameRo": "Repere"
+    },
+    {
+     "slug": "zoos-aquariums",
+     "name": "Zoos & aquariums",
+     "nameRo": "Grădini zoologice și acvarii"
+    },
+    {
+     "slug": "performing-arts",
+     "name": "Performing arts & music venues",
+     "nameRo": "Arte spectacolului"
+    },
+    {
+     "slug": "theme-parks",
+     "name": "Theme parks",
+     "nameRo": "Parcuri tematice"
+    },
+    {
+     "slug": "notable-buildings",
+     "name": "Notable buildings & skyscrapers",
+     "nameRo": "Clădiri notabile și zgârie-nori"
+    },
+    {
+     "slug": "cinemas",
+     "name": "Cinemas",
+     "nameRo": "Cinematografe"
+    }
+   ]
+  },
+  {
+   "slug": "hobbies",
+   "name": "Hobbies",
+   "nameRo": "Hobby-uri",
+   "children": [
+    {
+     "slug": "fishing",
+     "name": "Fishing",
+     "nameRo": "Pescuit"
+    },
+    {
+     "slug": "cycling",
+     "name": "Cycling",
+     "nameRo": "Ciclism"
+    },
+    {
+     "slug": "collecting",
+     "name": "Collecting",
+     "nameRo": "Colecționare"
+    },
+    {
+     "slug": "gaming",
+     "name": "Gaming",
+     "nameRo": "Gaming"
+    }
+   ]
+  },
+  {
+   "slug": "society",
+   "name": "Demographics & society",
+   "nameRo": "Demografie și societate",
+   "children": [
+    {
+     "slug": "population",
+     "name": "Population",
+     "nameRo": "Populație"
+    },
+    {
+     "slug": "community-organizations",
+     "name": "Community organizations",
+     "nameRo": "Organizații comunitare"
+    },
+    {
+     "slug": "places-of-worship",
+     "name": "Places of worship",
+     "nameRo": "Lăcașuri de cult"
+    }
+   ]
+  },
+  {
+   "slug": "climate-environment",
+   "name": "Climate & environment",
+   "nameRo": "Climă și mediu",
+   "children": [
+    {
+     "slug": "environmental-agencies",
+     "name": "Environmental agencies & programs",
+     "nameRo": "Agenții de mediu"
+    },
+    {
+     "slug": "climate",
+     "name": "Climate",
+     "nameRo": "Climă"
+    },
+    {
+     "slug": "hurricanes-storms",
+     "name": "Hurricanes & storms",
+     "nameRo": "Uragane și furtuni"
+    }
+   ]
+  }
+ ]
 }

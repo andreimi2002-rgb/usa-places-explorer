@@ -24,7 +24,7 @@ export const RULES: TypeRule[] = [
   { test: /trail\b/i, category: "trails", entityType: "trail" },
   { test: /university|universit/i, category: "universities", entityType: "university" },
   { test: /school district/i, category: "school-districts", entityType: "school_district" },
-  { test: /college|seminary|institute of technology/i, category: "colleges", entityType: "college" },
+  { test: /college|seminary|institute of technology|business school|law school|medical school|school of |graduate school|faculty|academic institution/i, category: "colleges", entityType: "college" },
   { test: /school/i, category: "k12-schools", entityType: "school" },
   { test: /librar/i, category: "public-libraries", entityType: "library" },
   { test: /hospital|medical cent|clinic|health system|trauma cent/i, category: "hospitals", entityType: "hospital" },

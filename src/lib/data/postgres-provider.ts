@@ -5,6 +5,7 @@ import type { FactRow, MediaRow, SourceRow } from "./dataset";
 import { clampPage, scoreText } from "./fixture-provider";
 import {
   emptyStatusCounts,
+  FEATURED_TYPES,
   type AreaDetail,
   type AreaSummary,
   type CategoryNode,
@@ -95,11 +96,19 @@ const SOURCE_WITH_CHECK = `s.*, lc.retrieved_at as lc_retrieved_at, lc.http_stat
 
 /** Ranking identical to fixture mode's scoreText(); $1 = normalized query, $2 = tokens. */
 const SCORE = (nameCol: string, docCol: string) => `case
-  when ${nameCol} = $1 then 100
-  when ${nameCol} like $1 || '%' then 70
-  when (select bool_and(${nameCol} ~ ('(^| )' || t)) from unnest($2::text[]) t) then 50
+  when $1 = any(string_to_array(${nameCol}, '/')) then 100
+  when exists (select 1 from unnest(string_to_array(${nameCol}, '/')) as nn(x) where nn.x like $1 || '%') then 70
+  when (select bool_and(${nameCol} ~ ('(^| |/)' || t)) from unnest($2::text[]) t) then 50
   when (select bool_and(${docCol} like '%' || t || '%') from unnest($2::text[]) t) then 25
   else 0 end`;
+/**
+ * Entities linked to an area or any of its descendants, computed ONCE per query
+ * (a correlated area_descendants() per row is O(entities × areas) and times out at state scale).
+ */
+const SCOPE_CTE = (param: number) => `with scope_ids as materialized (
+  select distinct ea.entity_id from entity_areas ea
+  where ea.review_status <> 'rejected' and $${param}::text is not null
+    and ea.area_id in (select area_descendants((select id from areas where slug = $${param}))))`;
 const MATCH = (docCol: string) => `(select bool_and(${docCol} like '%' || t || '%') from unnest($2::text[]) t)`;
 
 export class PostgresProvider implements DataProvider {
@@ -107,8 +116,8 @@ export class PostgresProvider implements DataProvider {
   private readonly pool: pg.Pool;
 
   constructor(connectionString: string) {
-    this.pool = new pg.Pool({ connectionString, max: 5, idleTimeoutMillis: 30_000, statement_timeout: 8_000, application_name: "america360-web" });
-    this.pool.on("connect", (c) => void c.query("set search_path = a360, public"));
+    // search_path is set as a connection option, not with a query racing the first statement.
+    this.pool = new pg.Pool({ connectionString, max: 5, idleTimeoutMillis: 30_000, statement_timeout: 8_000, application_name: "america360-web", options: "-c search_path=a360,public" });
   }
 
   private async q<T extends R = R>(sql: string, params: unknown[] = []): Promise<T[]> {
@@ -239,27 +248,25 @@ export class PostgresProvider implements DataProvider {
     const { page, pageSize, offset } = clampPage(query.page, query.pageSize);
     const qn = query.q ? normalize(query.q) : null;
     const qt = query.q ? tokens(query.q) : [];
-    const rows = await this.q(`select s.*, ${qn ? SCORE("s.name_norm", "s.search_text") : "1"} as score, count(*) over() as total
+    const rows = await this.q(`${SCOPE_CTE(3)} select s.*, ${qn ? SCORE("s.name_norm", "s.search_text") : "1"} as score, count(*) over() as total
       from entity_summaries s
-      where ($3::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $3
-                where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      where ($3::text is null or s.id in (select entity_id from scope_ids))
         and ($4::text is null or exists (select 1 from entity_categories ec join categories root on root.slug = $4
                 where ec.entity_id = s.id and ec.category_id in (select category_descendants(root.id))))
         and ($5::text is null or s.entity_type = $5)
         and ($6::review_status is null or s.review_status = $6)
         and ($1::text is null or ${MATCH("s.search_text")})
-      order by score desc, s.name limit $7 offset $8`,
-      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset]);
+      order by score desc, ${query.sort === "featured" ? `(s.image_url is not null) desc, coalesce(array_position($9::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
+      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset, ...(query.sort === "featured" ? [FEATURED_TYPES] : [])]);
     return { items: rows.map(entitySummary), total: Number(rows[0]?.total ?? 0), page, pageSize };
   }
 
   private async tree(scopeAreaSlug?: string): Promise<CategoryNode[]> {
     const cats = await this.q("select id, slug, name, name_ro, description, parent_id, domain_number, depth, sort_order from categories order by domain_number, depth, sort_order");
-    const counts = await this.q(`select u.cid as id, count(distinct ec.entity_id)::int as n
+    const counts = await this.q(`${SCOPE_CTE(1)} select u.cid as id, count(distinct ec.entity_id)::int as n
       from entity_categories ec join entity_summaries s on s.id = ec.entity_id
       join category_paths cp on cp.id = ec.category_id, unnest(cp.path) as u(cid)
-      where ($1::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $1
-               where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      where ($1::text is null or s.id in (select entity_id from scope_ids))
       group by u.cid`, [scopeAreaSlug ?? null]);
     const n = new Map(counts.map((c) => [String(c.id), Number(c.n)]));
     const byId = new Map(cats.map((c) => [String(c.id), c]));
@@ -299,9 +306,8 @@ export class PostgresProvider implements DataProvider {
     const qn = normalize(q);
     const scope = opts.areaSlug ?? null;
     const [ents, areas, cats] = await Promise.all([
-      this.q(`select s.*, ${SCORE("s.name_norm", "s.search_text")} + 5 as score from entity_summaries s
-        where ${MATCH("s.search_text")} and ($3::text is null or exists (select 1 from entity_areas ea join areas root on root.slug = $3
-          where ea.entity_id = s.id and ea.review_status <> 'rejected' and ea.area_id in (select area_descendants(root.id))))
+      this.q(`${SCOPE_CTE(3)} select s.*, ${SCORE("s.name_norm", "s.search_text")} + 5 as score from entity_summaries s
+        where ${MATCH("s.search_text")} and ($3::text is null or s.id in (select entity_id from scope_ids))
         order by score desc, s.name limit $4`, [qn, qt, scope, limit]),
       this.q(`select a.slug, a.name, a.type_label, p.name as parent_name,
           ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end + case when a.area_type = 'community' then -40 else 0 end as score

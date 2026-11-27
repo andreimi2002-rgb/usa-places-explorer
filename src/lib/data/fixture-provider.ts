@@ -1,9 +1,10 @@
-import { normalize, tokens } from "@/lib/text";
+import { nameKey, normalize, tokens } from "@/lib/text";
 import type { AreaType, ReviewStatus } from "@/lib/domain/schemas";
 import type { AreaRow, Dataset, EntityRow, MediaRow } from "./dataset";
 import { areaSearchText, categoryRef, DatasetIndex, entitySearchText } from "./derive";
 import {
   emptyStatusCounts,
+  FEATURED_TYPES,
   type AreaDetail,
   type AreaSummary,
   type CategoryNode,
@@ -50,15 +51,15 @@ export function haversineKm(lat1: number, lon1: number, lat2: number, lon2: numb
 }
 
 /** Shared scoring so fixture and database search rank comparably. */
-export function scoreText(query: string, name: string, doc: string): number {
+export function scoreText(query: string, names: string | string[], doc: string): number {
   const q = normalize(query);
   const qt = tokens(query);
   if (!qt.length) return 0;
-  const n = normalize(name);
+  const ns = (Array.isArray(names) ? names : [names]).map(normalize).filter(Boolean);
   const d = normalize(doc);
-  if (n === q) return 100;
-  if (n.startsWith(q)) return 70;
-  const nameTokens = n.split(" ");
+  if (ns.some((n) => n === q)) return 100;
+  if (ns.some((n) => n.startsWith(q))) return 70;
+  const nameTokens = ns.flatMap((n) => n.split(" "));
   if (qt.every((t) => nameTokens.some((w) => w.startsWith(t)))) return 50;
   if (qt.every((t) => d.includes(t))) return 25;
   return 0;
@@ -221,7 +222,7 @@ export class FixtureProvider implements DataProvider {
     if (opts.areaType) kids = kids.filter((k) => k.areaType === opts.areaType);
     if (opts.q) {
       const q = normalize(opts.q);
-      kids = kids.filter((k) => normalize([k.name, ...k.aliases].join(" ")).includes(q));
+      kids = kids.filter((k) => nameKey(k.name, k.aliases).includes(q));
     }
     kids = [...kids].sort((x, y) => x.name.localeCompare(y.name, "en"));
     return { items: kids.slice(offset, offset + pageSize).map((k) => this.areaSummary(k)), total: kids.length, page, pageSize };
@@ -287,9 +288,12 @@ export class FixtureProvider implements DataProvider {
     }
     if (query.entityType) rows = rows.filter((e) => e.entityType === query.entityType);
     if (query.reviewStatus) rows = rows.filter((e) => e.reviewStatus === query.reviewStatus);
-    let scored = rows.map((e) => ({ e, s: query.q ? scoreText(query.q, e.name + " " + e.aliases.join(" "), this.entitySearch.get(e.id)!) : 1 }));
+    let scored = rows.map((e) => ({ e, s: query.q ? scoreText(query.q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!) : 1 }));
     if (query.q) scored = scored.filter((x) => x.s > 0);
-    scored.sort((a, b) => b.s - a.s || a.e.name.localeCompare(b.e.name, "en"));
+    if (query.sort === "featured") {
+      const rank = (t: string) => (FEATURED_TYPES.indexOf(t) === -1 ? 999 : FEATURED_TYPES.indexOf(t));
+      scored.sort((a, b) => b.s - a.s || Number(!!this.imageOf(b.e.id)) - Number(!!this.imageOf(a.e.id)) || rank(a.e.entityType) - rank(b.e.entityType) || a.e.name.localeCompare(b.e.name, "en"));
+    } else scored.sort((a, b) => b.s - a.s || a.e.name.localeCompare(b.e.name, "en"));
     return { items: scored.slice(offset, offset + pageSize).map((x) => this.entitySummary(x.e)), total: scored.length, page, pageSize };
   }
 
@@ -336,7 +340,7 @@ export class FixtureProvider implements DataProvider {
     if (!tokens(q).length) return [];
     const hits: SearchHit[] = [];
     for (const e of this.scopedEntities(opts.areaSlug)) {
-      const s = scoreText(q, e.name + " " + e.aliases.join(" "), this.entitySearch.get(e.id)!);
+      const s = scoreText(q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!);
       if (s > 0) {
         const sum = this.entitySummary(e);
         hits.push({ kind: "entity", slug: e.slug, name: e.name, subtitle: [sum.primaryCategory.name, sum.placeLabel].filter(Boolean).join(" · "), score: s + 5 });
@@ -345,7 +349,7 @@ export class FixtureProvider implements DataProvider {
     const scopeIds = opts.areaSlug && this.idx.areaBySlug.get(opts.areaSlug) ? this.idx.descendantAreaIds(this.idx.areaBySlug.get(opts.areaSlug)!.id) : null;
     for (const a of this.ds.areas) {
       if (scopeIds && !scopeIds.has(a.id)) continue;
-      const s = scoreText(q, a.name + " " + a.aliases.join(" "), this.areaSearch.get(a.id)!);
+      const s = scoreText(q, [a.name, ...a.aliases], this.areaSearch.get(a.id)!);
       if (s > 0) {
         const parent = a.parentId ? this.idx.areaById.get(a.parentId)?.name : null;
         hits.push({ kind: "area", slug: a.slug, name: a.name, subtitle: [a.typeLabel, parent].filter(Boolean).join(" · "), score: s + areaBoost(a.areaType, a.programStatus) });

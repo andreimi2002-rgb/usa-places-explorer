@@ -12,7 +12,7 @@ import pg from "pg";
 import { buildDataset } from "../../src/lib/data/build";
 import { DatasetIndex, areaSearchText, entitySearchText } from "../../src/lib/data/derive";
 import { loadGeometry, loadPlaceGeometry, loadSeedInputs } from "../../src/lib/data/inputs";
-import { normalize } from "../../src/lib/text";
+import { nameKey, normalize } from "../../src/lib/text";
 import { sha256 } from "../ingest/lib";
 import { ownerUrl, withClient } from "./common";
 
@@ -84,7 +84,7 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
         id: a.id, slug: a.slug, name: a.name, official_name: a.officialName, area_type: a.areaType, type_label: a.typeLabel, parent_id: a.parentId,
         geoid: a.geoid, fips: a.fips, ansi: a.ansi, usps: a.usps, funcstat: a.funcstat, land_area_sqmi: a.landAreaSqMi, water_area_sqmi: a.waterAreaSqMi,
         summary: a.summary, boundary_note: a.boundaryNote, program_status: a.programStatus, review_status: a.reviewStatus, source_ids: a.sourceIds,
-        name_norm: normalize([a.name, ...a.aliases].join(" ")), search_text: normalize(areaSearchText(idx, a)),
+        name_norm: nameKey(a.name, a.aliases), search_text: normalize(areaSearchText(idx, a)),
       })));
       counts.areaPoints = (await c.query(
         `update areas a set internal_point = st_setsrid(st_makepoint(x.lon, x.lat), 4326)::geography
@@ -128,7 +128,7 @@ export async function seed(url = ownerUrl(), opts: { dryRun?: boolean; log?: (..
         id: e.id, slug: e.slug, name: e.name, entity_type: e.entityType, status: e.status, short_description: e.shortDescription, official_url: e.officialUrl,
         sensitive_location: e.sensitiveLocation, visibility: e.visibility, review_status: e.reviewStatus, primary_source_id: e.primarySourceId,
         created_at: e.createdAt, updated_at: e.updatedAt, verified_at: e.verifiedAt,
-        name_norm: normalize([e.name, ...e.aliases].join(" ")), search_text: normalize(entitySearchText(idx, e)),
+        name_norm: nameKey(e.name, e.aliases), search_text: normalize(entitySearchText(idx, e)),
         wikidata_id: e.wikidataId, wikipedia_title: e.wikipedia?.title ?? null, wikipedia_url: e.wikipedia?.url ?? null,
         wikipedia_extract: e.wikipedia?.extract ?? null, wikipedia_retrieved_at: e.wikipedia?.retrievedAt ?? null,
       })));

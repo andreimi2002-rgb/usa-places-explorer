@@ -60,6 +60,7 @@ describe("fixture provider — entities, filters, search", () => {
 
   it("ranks exact names first and finds aliases", async () => {
     expect((await db.search("Jacksonville Jaguars"))[0]?.slug).toBe("jacksonville-jaguars");
+    expect((await db.search("jaguars"))[0]?.slug).toBe("jacksonville-jaguars"); // exact alias beats a name that merely starts with it
     expect((await db.search("JSO")).some((h) => h.slug === "jacksonville-sheriffs-office")).toBe(true);
     expect((await db.search("duval"))[0]?.slug).toBe("duval-county-fl");
     expect(await db.search("   ")).toEqual([]);

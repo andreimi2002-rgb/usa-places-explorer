@@ -22,6 +22,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const CENSUS_ATTRIBUTION = "County and state outlines: U.S. Census Bureau 2024 cartographic boundaries (1:20m). Place boundaries: Census 2025 (1:500k, simplified). Points: Census 2026 Gazetteer and USGS GNIS. Generalized; not for legal use.";
 
+/** Six featured entries, at most one per category, so the showcase reflects the variety of the place. */
+function showcase<T extends { primaryCategory: { slug: string } }>(items: T[]): T[] {
+  const seen = new Set<string>();
+  const out: T[] = [];
+  for (const e of items) {
+    if (out.length === 6) break;
+    if (seen.has(e.primaryCategory.slug)) continue;
+    seen.add(e.primaryCategory.slug);
+    out.push(e);
+  }
+  for (const e of items) if (out.length < 6 && !out.includes(e)) out.push(e);
+  return out;
+}
+
 const displayUrl = (u: string) => u.replace(/^https?:\/\//, "").replace(/\/$/, "");
 
 function point(a: AreaSummary, emphasis = false): MapPoint | null {
@@ -77,7 +91,7 @@ export default async function PlacePage({ params }: Props) {
 
   const [tree, entities, counties, municipalities, neighborhoods, cdps, communities] = await Promise.all([
     db.getCategoryTree(area.slug),
-    db.listEntities({ areaSlug: area.slug, pageSize: 60 }),
+    db.listEntities({ areaSlug: area.slug, pageSize: 60, sort: "featured" }),
     area.areaType === "country"
       ? db.listChildAreas(area.slug, { pageSize: 100 })
       : area.areaType === "state"
@@ -281,13 +295,20 @@ export default async function PlacePage({ params }: Props) {
                   <div key={key}>
                     <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold-soft uppercase">{catName(g)}</h3>
                     <ul className="flex flex-wrap gap-2">
-                      {g.items.map((b) => (
+                      {g.items.slice(0, 12).map((b) => (
                         <li key={b.entity.slug}>
                           <Link href={`/entities/${b.entity.slug}`} className="chip no-underline hover:border-gold-soft hover:no-underline">
                             {b.entity.name} <span className="text-gold tabular-nums">{b.count}</span>
                           </Link>
                         </li>
                       ))}
+                      {g.items.length > 12 && (
+                        <li>
+                          <Link href={`/places/${area.slug}/directory?topic=${key}`} className="chip border-gold-soft/60 text-gold no-underline hover:no-underline">
+                            +{g.items.length - 12} more →
+                          </Link>
+                        </li>
+                      )}
                     </ul>
                   </div>
                 ))}
@@ -300,7 +321,7 @@ export default async function PlacePage({ params }: Props) {
               <SectionHeading eyebrow={`${entities.total}`} title={t("area.inThisArea")}>
                 <Link href={`/places/${area.slug}/directory`} className="text-sm">{t("area.viewAll")} →</Link>
               </SectionHeading>
-              <EntityGrid items={[...entities.items].sort((a, b) => Number(!!b.image) - Number(!!a.image)).slice(0, 6)} />
+              <EntityGrid items={showcase(entities.items)} />
             </section>
           )}
         </div>

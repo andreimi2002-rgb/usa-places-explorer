@@ -38,13 +38,13 @@ test.describe("America 360 smoke", () => {
   });
 
   test("directory filters produce shareable URLs and honest empty states", async ({ page }) => {
-    await page.goto("/places/jacksonville-fl/directory?topic=sports");
+    await page.goto("/places/jacksonville-fl/directory?topic=sports&q=jaguars");
     await expect(page.getByTestId("result-count")).toContainText(/of \d+/);
     const cards = page.getByTestId("entity-card");
     await expect(cards.getByRole("heading", { name: "Jacksonville Jaguars", exact: true })).toHaveCount(1);
     await expect(cards.getByRole("heading", { name: /IKEA/ })).toHaveCount(0);
 
-    await page.goto("/places/jacksonville-fl/directory?topic=automotive");
+    await page.goto("/places/jacksonville-fl/directory?topic=housing-lifestyle");
     await expect(page.getByText("No documented entries match these filters.")).toBeVisible();
     await expect(page.getByText(/not yet documented, not that none exist/)).toBeVisible();
 
@@ -64,7 +64,7 @@ test.describe("America 360 smoke", () => {
     if (!isMobile) {
       await page.goto("/");
       const box = page.getByRole("combobox");
-      await box.fill("everbank");
+      await box.fill("everbank stadium");
       await expect(page.getByRole("option").first()).toContainText("EverBank Stadium");
       await box.press("ArrowDown");
       await box.press("Enter");
@@ -75,7 +75,7 @@ test.describe("America 360 smoke", () => {
   test("entity page separates verified facts from pending items and cites sources", async ({ page }, info) => {
     await page.goto("/entities/ikea-jacksonville");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("IKEA Jacksonville");
-    await expect(page.getByTestId("fact-table")).toContainText("7801 Gate Parkway");
+    await expect(page.getByTestId("infobox")).toContainText("7801 Gate Parkway");
     await expect(page.getByTestId("entity-relations")).toContainText("IKEA");
     await expect(page.getByTestId("pending-review")).toContainText("Southside");
     await expect(page.getByTestId("source-list")).toContainText("official website");
@@ -111,6 +111,23 @@ test.describe("America 360 smoke", () => {
 
     await page.goto("/places/leon-county-fl");
     await expect(page.getByTestId("county-seat")).toContainText("Tallahassee");
+  });
+
+  test("rich entity pages: Wikipedia summary, photo, infobox, map, nearby; brands on the city page", async ({ page }, info) => {
+    await page.goto("/entities/st-johns-town-center");
+    await expect(page.getByTestId("wikipedia-summary")).toContainText("open-air mall");
+    await expect(page.getByText(/CC BY-SA 4\.0/).first()).toBeVisible();
+    await expect(page.getByTestId("infobox")).toContainText("2005");
+    await expect(page.getByTestId("area-map")).toBeVisible();
+    await expect(page.getByTestId("nearby").getByTestId("entity-card").first()).toBeVisible();
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-rich-entity.png`, fullPage: true });
+
+    await page.goto("/entities/mcdonalds");
+    await expect(page.getByTestId("brand-presence")).toContainText("Jacksonville");
+
+    await page.goto("/places/jacksonville-fl");
+    await expect(page.getByTestId("brands-present").getByRole("link", { name: /McDonald's/ })).toBeVisible();
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-jacksonville-rich.png`, fullPage: true });
   });
 
   test("unknown pages return 404", async ({ page }) => {

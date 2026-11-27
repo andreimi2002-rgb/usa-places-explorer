@@ -206,6 +206,14 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       b.forEach((n, i) => expect(n.distanceKm).toBeCloseTo(a[i]!.distanceKm, 1));
     });
 
+    it.each([{ areaSlug: "jacksonville-fl" }, { areaSlug: "jacksonville-fl", categorySlug: "sports" }, { categorySlug: "museums" }])("same featured ordering: %o", async (q) => {
+      const [a, b] = [await fx.listEntities({ ...q, sort: "featured", pageSize: 24 }), await reader.listEntities({ ...q, sort: "featured", pageSize: 24 })];
+      // photo + type rank must agree exactly; names may tie-break differently between JS and SQL collations
+      const key = (e: { image: unknown; entityType: string }) => `${e.image ? 1 : 0}:${e.entityType}`;
+      expect(b.items.map(key)).toEqual(a.items.map(key));
+      expect(b.total).toBe(a.total);
+    });
+
     it("same brand presence (OSM counts) for Jacksonville", async () => {
       const [a, b] = [await fx.listBrandPresence("jacksonville-fl"), await reader.listBrandPresence("jacksonville-fl")];
       expect(b.length).toBe(a.length);

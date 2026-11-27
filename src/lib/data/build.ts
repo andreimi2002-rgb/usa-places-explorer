@@ -385,6 +385,17 @@ export function buildDataset(inputs: SeedInputs): Dataset {
           entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
       } else {
         row.officialUrl ??= r.officialUrl ?? null;
+        // Add the Wikidata-backed area links (coordinates / statements) the curated record lacks or has only unverified.
+        const curatedId = row.id;
+        for (const a of r.areas) {
+          const aId = areaId(a.slug, `enrich ${r.slug}`);
+          const existing = entityAreas.find((x) => x.entityId === curatedId && x.areaId === aId && x.relationType === a.relation);
+          if (!existing) entityAreas.push({ entityId: curatedId, areaId: aId, relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: "Wikidata coordinates / statements" });
+          else if (existing.reviewStatus === "unreviewed") {
+            existing.reviewStatus = "imported";
+            existing.note = "Confirmed by Wikidata coordinates / statements";
+          }
+        }
       }
       const id = row.id;
       entityIdByQid.set(r.qid, id);

@@ -120,6 +120,8 @@ export type EntityQuery = {
   categorySlug?: string;
   entityType?: EntityType;
   reviewStatus?: ReviewStatus;
+  /** "featured": entries with a photo first, then by type importance (FEATURED_TYPES), then name. Default: relevance/name. */
+  sort?: "default" | "featured";
   page?: number;
   pageSize?: number;
 };
@@ -183,3 +185,9 @@ export interface DataProvider {
 
 export const REVIEW_STATUSES: ReviewStatus[] = ["imported", "unreviewed", "reviewed", "verified", "stale", "rejected"];
 export const emptyStatusCounts = (): Record<ReviewStatus, number> => ({ imported: 0, unreviewed: 0, reviewed: 0, verified: 0, stale: 0, rejected: 0 });
+
+/** Entity types shown first in "featured" listings (same order in fixture and SQL). */
+export const FEATURED_TYPES = [
+  "museum", "landmark", "venue", "sports_team", "historic_site", "park", "state_park", "protected_area", "zoo", "botanical_garden",
+  "university", "shopping_center", "airport", "seaport", "bridge", "lighthouse", "library", "hospital", "college", "waterway", "island", "beach",
+];

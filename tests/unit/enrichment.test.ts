@@ -10,7 +10,7 @@ const T = "2026-11-27T12:00:00.000Z";
 
 function rec(over: Partial<EnrichedEntity> & Pick<EnrichedEntity, "qid" | "slug" | "name">): EnrichedEntity {
   return {
-    aliases: [], entityType: "museum", status: "active", origin: "wikidata-place",
+    aliases: [], entityType: "museum", status: "active", origin: "wikidata-place", prominence: 0,
     categories: [{ slug: "museums", primary: true }], areas: [{ slug: "jacksonville-fl", relation: "located_in" }],
     facts: [], relations: [], externalIds: [{ provider: "wikidata", id: over.qid }], media: [], ...over,
   };

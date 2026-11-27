@@ -14,7 +14,9 @@
  * small delays. Raw responses are not stored; only the derived, attributed fields.
  */
 import path from "node:path";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { unzipSync } from "fflate";
+import * as shapefile from "shapefile";
 import { geoArea, geoBounds, geoContains } from "d3-geo";
 import type { Feature, Geometry, MultiPolygon, Polygon } from "geojson";
 import { RAW_DIR, SEED_DIR, USER_AGENT, hasFlag, sha256, writeJson } from "./lib";
@@ -35,7 +37,7 @@ const FREE_LICENSE = /^(cc0|cc[- ]zero|public domain|pd\b|pd-|cc[- ]by(-sa)?[- ]
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const headers = { "user-agent": USER_AGENT, accept: "application/json" };
 const CACHE_DIR = path.join(RAW_DIR, "enrich-cache");
-const PACE_MS = Number(process.env.ENRICH_PACE_MS ?? 2500); // gap between live requests (Wikimedia rate limits)
+const PACE_MS = Number(process.env.ENRICH_PACE_MS ?? 1200); // gap between live requests (Wikimedia rate limits)
 let lastLive = 0;
 let liveRequests = 0;
 let cacheHits = 0;
@@ -82,6 +84,19 @@ function d3Ready(f: Feature<Geometry>): Poly {
     feat.geometry = g.type === "Polygon" ? { type: "Polygon", coordinates: rev(g.coordinates) } : { type: "MultiPolygon", coordinates: g.coordinates.map(rev) };
   }
   return feat;
+}
+
+let countyShapes: Feature<Geometry, Record<string, unknown>>[] | null = null;
+async function county500k(geoid: string): Promise<Feature<Geometry> | undefined> {
+  if (!countyShapes) {
+    const zip = path.join(RAW_DIR, "geography", "cb_2025_us_county_500k.zip");
+    if (!existsSync(zip)) return undefined; // run ingest:geography first; falls back to the 1:20m outline
+    const files = unzipSync(new Uint8Array(readFileSync(zip)));
+    const shp = Object.keys(files).find((k) => k.endsWith(".shp"))!;
+    const dbf = Object.keys(files).find((k) => k.endsWith(".dbf"))!;
+    countyShapes = (await shapefile.read(files[shp]!, files[dbf]!, { encoding: "utf-8" })).features as Feature<Geometry, Record<string, unknown>>[];
+  }
+  return countyShapes.find((f) => f.properties.GEOID === geoid);
 }
 
 // ---------------------------------------------------------------- Wikidata helpers
@@ -181,7 +196,8 @@ async function main() {
   const allAreas = [...inputs.census.areas, ...(inputs.geography?.areas ?? []), ...inputs.curated.neighborhoods];
   const area = allAreas.find((a) => a.slug === areaSlug);
   if (!area) throw new Error(`unknown area ${areaSlug}`);
-  const shape = loadPlaceGeometry().get(areaSlug) ?? loadGeometry().floridaCounties.features.find((f) => f.properties.slug === areaSlug);
+  // Counties use the detailed 1:500k polygon (the 1:20m display outline clips coasts and barrier islands).
+  const shape = loadPlaceGeometry().get(areaSlug) ?? (area.areaType === "county" ? await county500k(area.codes.geoid!) : undefined) ?? loadGeometry().floridaCounties.features.find((f) => f.properties.slug === areaSlug);
   if (!shape) throw new Error(`no boundary polygon for ${areaSlug}`);
   const poly = d3Ready(shape as Feature<Geometry>);
   const [[west, south], [east, north]] = geoBounds(poly);
@@ -265,14 +281,20 @@ async function main() {
   // 3. classify + build records
   const curated = inputs.curated.entities;
   const curatedByName = new Map<string, string>();
-  for (const c of curated) for (const n of [c.name, ...c.aliases]) curatedByName.set(normalize(n), c.slug);
+  // Curated entries describe Jacksonville/Duval (and a few brands): only match them there, or for brands.
+  const curatedScope = ["jacksonville-fl", "duval-county-fl"].includes(areaSlug);
+  for (const c of curated) if (curatedScope || c.entityType === "brand") for (const n of [c.name, ...c.aliases]) curatedByName.set(normalize(n), c.slug);
   const records: EnrichedEntity[] = [];
   // Each curated entity is enriched by at most one Wikidata item (first match wins).
   const claimedCurated = new Set<string>();
   const claimCurated = (slug: string | undefined) => (slug && !claimedCurated.has(slug) ? (claimedCurated.add(slug), slug) : undefined);
   const unmapped = new Map<string, number>();
   const excluded = new Map<string, number>();
-  const usedSlugs = new Set<string>([...curated.map((c) => c.slug), ...allAreas.map((a) => a.slug)]);
+  // Slugs must be unique statewide: reuse the slug a Q-id already has in another bundle, avoid all others.
+  const otherBundles = readdirSync(path.join(SEED_DIR, "generated")).filter((f) => /^enrich-[a-z0-9-]+\.json$/.test(f) && f !== `enrich-${areaSlug}.json`);
+  const slugByQid = new Map<string, string>();
+  for (const f of otherBundles) for (const e of (JSON.parse(readFileSync(path.join(SEED_DIR, "generated", f), "utf8")) as { entities: { qid: string; slug: string }[] }).entities) slugByQid.set(e.qid, e.slug);
+  const usedSlugs = new Set<string>([...curated.map((c) => c.slug), ...allAreas.map((a) => a.slug), ...slugByQid.values()]);
   const pendingSlugs = new Map<string, number>();
   type Draft = Omit<EnrichedEntity, "slug"> & { baseSlug: string };
   const drafts: Draft[] = [];
@@ -363,13 +385,26 @@ async function main() {
     drafts.push({
       qid, name, baseSlug: slugify(name), aliases: (e.aliases?.en ?? []).map((a) => a.value).slice(0, 5),
       description: e.descriptions?.en?.value, entityType, status: dissolved || isHistorical ? "historical" : "active",
-      origin: isBrand ? "osm-brand" : "wikidata-place", categories, areas, coords: isBrand ? undefined : c,
+      origin: isBrand ? "osm-brand" : "wikidata-place", prominence: 0, categories, areas, coords: isBrand ? undefined : c,
       officialUrl: str(e, "P856")[0]?.replace(/^http:\/\//, "https://"),
       facts, relations, externalIds, media: [],
       curatedSlug: claimCurated(curatedByName.get(normalize(name))),
       wikipedia: wpTitle ? { title: wpTitle, url: e.sitelinks?.enwiki?.url ?? `https://en.wikipedia.org/wiki/${encodeURIComponent(wpTitle)}`, extract: "", retrievedAt } : undefined,
     });
   }
+
+  // 3b. Prominence: number of Wikipedia language editions (sitelinks) — an objective "how well known" signal.
+  const sitelinks = new Map<string, number>();
+  const keptIds = drafts.map((d) => d.qid);
+  for (let i = 0; i < keptIds.length; i += 250) {
+    const values = keptIds.slice(i, i + 250).map((q) => `wd:${q}`).join(" ");
+    const r = await getJson<{ results: { bindings: { item: { value: string }; links: { value: string } }[] } }>(
+      `${WD_SPARQL}?query=${encodeURIComponent(`SELECT ?item ?links WHERE { VALUES ?item { ${values} } ?item wikibase:sitelinks ?links . }`)}`,
+      { headers: { accept: "application/sparql-results+json" } },
+    );
+    for (const b of r.results.bindings) sitelinks.set(b.item.value.split("/").pop()!, Number(b.links.value));
+  }
+  for (const d of drafts) d.prominence = sitelinks.get(d.qid) ?? 0;
 
   // 4. Wikipedia summaries + Commons media for kept drafts
   const summaries = await wikipediaSummaries(drafts.filter((d) => d.wikipedia).map((d) => d.wikipedia!.title));
@@ -404,8 +439,8 @@ async function main() {
   // 5. stable slugs (duplicates within the bundle get a Q-id suffix on every copy)
   for (const d of drafts) pendingSlugs.set(d.baseSlug, (pendingSlugs.get(d.baseSlug) ?? 0) + 1);
   for (const { baseSlug, ...d } of drafts) {
-    let slug = d.curatedSlug ?? baseSlug;
-    if (!d.curatedSlug && ((pendingSlugs.get(baseSlug) ?? 0) > 1 || usedSlugs.has(slug) || !slug)) slug = `${baseSlug || "item"}-${d.qid.toLowerCase()}`;
+    let slug = d.curatedSlug ?? slugByQid.get(d.qid) ?? baseSlug;
+    if (!d.curatedSlug && !slugByQid.has(d.qid) && ((pendingSlugs.get(baseSlug) ?? 0) > 1 || usedSlugs.has(slug) || !slug)) slug = `${baseSlug || "item"}-${d.qid.toLowerCase()}`;
     usedSlugs.add(slug);
     records.push({ ...d, slug });
   }

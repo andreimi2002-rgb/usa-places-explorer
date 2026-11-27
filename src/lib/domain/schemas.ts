@@ -397,6 +397,8 @@ export const enrichedEntitySchema = z.object({
   entityType: z.string().min(1),
   status: z.enum(["active", "closed", "historical", "unknown"]),
   origin: z.enum(["wikidata-place", "osm-brand"]),
+  /** Number of Wikipedia language editions with an article (Wikidata sitelinks): how well known it is. */
+  prominence: z.number().int().nonnegative().default(0),
   categories: z.array(z.object({ slug: slugSchema, primary: z.boolean() })).min(1),
   areas: z.array(z.object({ slug: slugSchema, relation: z.enum(["located_in", "headquartered_in", "operates_in"]) })).min(1),
   coords: pointSchema.optional(),

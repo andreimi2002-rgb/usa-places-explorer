@@ -126,8 +126,18 @@ test.describe("America 360 smoke", () => {
     await expect(page.getByTestId("brand-presence")).toContainText("Jacksonville");
 
     await page.goto("/places/jacksonville-fl");
-    await expect(page.getByTestId("brands-present").getByRole("link", { name: /McDonald's/ })).toBeVisible();
+    await expect(page.getByTestId("best-known-brands").getByRole("link", { name: /McDonald's/ })).toBeVisible();
     await page.screenshot({ path: `test-results/screens/${info.project.name}-jacksonville-rich.png`, fullPage: true });
+  });
+
+  test("best-known places and brands are highlighted on city and state pages", async ({ page }, info) => {
+    await page.goto("/places/jacksonville-fl");
+    await expect(page.getByTestId("highlights").getByTestId("entity-card")).toHaveCount(6);
+    await expect(page.getByTestId("best-known-brands").getByRole("link").first()).toBeVisible();
+    await page.goto("/places/florida");
+    await expect(page.getByTestId("highlights").getByTestId("entity-card").first()).toBeVisible();
+    await expect(page.getByTestId("best-known-brands").getByRole("link")).toHaveCount(10);
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-florida-highlights.png`, fullPage: false });
   });
 
   test("unknown pages return 404", async ({ page }) => {

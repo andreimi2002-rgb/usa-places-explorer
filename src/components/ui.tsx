@@ -106,7 +106,7 @@ export function EntityCard({ e, extra }: { e: EntitySummary; extra?: React.React
     <Link href={`/entities/${e.slug}`} className="card-link flex h-full flex-col gap-2 overflow-hidden" data-testid="entity-card">
       {e.image && (
         // eslint-disable-next-line @next/next/no-img-element -- Wikimedia serves sized thumbnails; no optimizer needed
-        <img src={commonsThumb(e.image.url, 500)} alt={e.image.alt} loading="lazy" decoding="async" className="-mx-4 -mt-4 mb-1 aspect-[16/9] w-[calc(100%+2rem)] max-w-none bg-navy-900 object-cover" />
+        <img src={commonsThumb(e.image.url, 500)} alt={e.image.alt} loading="lazy" decoding="async" className={`-mx-4 -mt-4 mb-1 aspect-[16/9] w-[calc(100%+2rem)] max-w-none ${e.entityType === "brand" ? "bg-white object-contain p-4" : "bg-navy-900 object-cover"}`} />
       )}
       <div className="flex items-start justify-between gap-2">
         <span className="text-[11px] font-semibold tracking-wider text-gold-soft uppercase">{catName(e.primaryCategory)}</span>

@@ -302,6 +302,7 @@ export class FixtureProvider implements DataProvider {
       rows = rows.filter((e) => ents.has(e.id));
     }
     if (query.entityType) rows = rows.filter((e) => e.entityType === query.entityType);
+    if (query.excludeEntityType) rows = rows.filter((e) => e.entityType !== query.excludeEntityType);
     if (query.reviewStatus) rows = rows.filter((e) => e.reviewStatus === query.reviewStatus);
     let scored = rows.map((e) => ({ e, s: query.q ? scoreText(query.q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!) : 1 }));
     if (query.q) scored = scored.filter((x) => x.s > 0);

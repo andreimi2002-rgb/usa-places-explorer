@@ -92,7 +92,7 @@ export default async function PlacePage({ params }: Props) {
 
   const [tree, entities, counties, municipalities, neighborhoods, cdps, communities] = await Promise.all([
     db.getCategoryTree(area.slug),
-    db.listEntities({ areaSlug: area.slug, pageSize: 60, sort: "featured" }),
+    db.listEntities({ areaSlug: area.slug, pageSize: 60, sort: "featured", excludeEntityType: "brand" }),
     area.areaType === "country"
       ? db.listChildAreas(area.slug, { pageSize: 100 })
       : area.areaType === "state"

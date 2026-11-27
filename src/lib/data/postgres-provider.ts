@@ -257,8 +257,9 @@ export class PostgresProvider implements DataProvider {
         and ($5::text is null or s.entity_type = $5)
         and ($6::review_status is null or s.review_status = $6)
         and ($1::text is null or ${MATCH("s.search_text")})
-      order by score desc, ${query.sort === "featured" ? `s.prominence desc, (s.image_url is not null) desc, coalesce(array_position($9::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
-      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset, ...(query.sort === "featured" ? [FEATURED_TYPES] : [])]);
+        and ($9::text is null or s.entity_type <> $9)
+      order by score desc, ${query.sort === "featured" ? `s.prominence desc, (s.image_url is not null) desc, coalesce(array_position($10::text[], s.entity_type), 999), ` : ""}s.name limit $7 offset $8`,
+      [qn, qt, query.areaSlug ?? null, query.categorySlug ?? null, query.entityType ?? null, query.reviewStatus ?? null, pageSize, offset, query.excludeEntityType ?? null, ...(query.sort === "featured" ? [FEATURED_TYPES] : [])]);
     return { items: rows.map(entitySummary), total: Number(rows[0]?.total ?? 0), page, pageSize };
   }
 

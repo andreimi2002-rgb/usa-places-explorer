@@ -124,6 +124,8 @@ export type EntityQuery = {
   reviewStatus?: ReviewStatus;
   /** "featured": entries with a photo first, then by type importance (FEATURED_TYPES), then name. Default: relevance/name. */
   sort?: "default" | "featured";
+  /** Leave out one entity type (e.g. "brand" for place highlights). */
+  excludeEntityType?: EntityType;
   page?: number;
   pageSize?: number;
 };

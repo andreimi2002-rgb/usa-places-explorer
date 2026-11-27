@@ -1,0 +1,832 @@
+{
+ "generatedAt": "2026-11-27T20:27:46.561Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "liberty-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T20:27:46.561Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T20:27:46.561Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Liberty County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T20:27:46.561Z",
+   "checksumSha256": "52bf9fb3cb3ddecb6260414c29c2f82b29a16fed930f22d51ccf45e497c04bb8"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q139955217",
+   "slug": "county-road-67a",
+   "name": "County Road 67A",
+   "aliases": [
+    "Liberty County Road 67A"
+   ],
+   "description": "road in Liberty County, Florida, United States",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.358897,
+    "lon": -84.797622
+   },
+   "wikipedia": {
+    "title": "County Road 67A (Liberty County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/List_of_former_state_roads_in_Florida_(1%E2%80%9399)",
+    "extract": "The current county roads that are extensions or former alignments of state roads with the same number are not listed here.\nState Road 1: renumbered SR A1A\nState Road 3: second segment became realigned SR A1A around St. Augustine Beach, with CR A1A replacing the old SR A1A",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Liberty County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q139955217 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q139955217"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/AN_Railway_crossing_on_CR-67A.jpg/1920px-AN_Railway_crossing_on_CR-67A.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:AN_Railway_crossing_on_CR-67A.jpg",
+     "alt": "Photograph of County Road 67A",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q34962597",
+   "slug": "telogia-creek",
+   "name": "Telogia Creek",
+   "aliases": [
+    "Tologic River"
+   ],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.268333,
+    "lon": -84.736667
+   },
+   "wikipedia": {
+    "title": "Telogia Creek",
+    "url": "https://en.wikipedia.org/wiki/Telogia_Creek",
+    "extract": "Telogia Creek is a waterway in Florida. It is a major tributary of the Ochlockonee River. It is used for canoeing. The United States Geological Survey (USGS) monitors its discharge near Bristol. The stream's water quality is monitored at a site near Greensboro. Road crossings include the Telogia Creek Bridge.\nBotanist Roland McMillan Harper identified several species in the area of the creek during his travels in Florida 1909–1910.\nThe surrounding area includes horse properties.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q34962597"
+    },
+    {
+     "provider": "geonames",
+     "id": "4174934"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q3364100",
+   "slug": "torreya-state-park",
+   "name": "Torreya State Park",
+   "aliases": [],
+   "description": "US reserve",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.5689,
+    "lon": -84.9481
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/torreya-state-park",
+   "wikipedia": {
+    "title": "Torreya State Park",
+    "url": "https://en.wikipedia.org/wiki/Torreya_State_Park",
+    "extract": "Torreya State Park is a 13,735 acres (55.58 km2) Florida State Park, United States National Natural Landmark and historic site thirteen miles (21 km) north of Bristol. It is located north of S.R 12 on the Apalachicola River, in northwestern Florida (Florida Panhandle), at 2576 N.W. Torreya Park Road.\nIt was named for the Florida Nutmeg (Torreya taxifolia) trees, a rare species of Torreya tree endemic to the local east bank of the Apalachicola River's limestone bluffs.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1935",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3364100 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place; National Natural Landmark",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3364100 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000338",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3364100 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3364100"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000338"
+    },
+    {
+     "provider": "geonames",
+     "id": "4175524"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Torreya_Park_Gregory_House_front02.jpg/1920px-Torreya_Park_Gregory_House_front02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Torreya_Park_Gregory_House_front02.jpg",
+     "alt": "Photograph of Torreya State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6541692",
+   "slug": "liberty-county-high-school",
+   "name": "Liberty County High School",
+   "aliases": [],
+   "description": "high school in Bristol, Liberty County, Florida",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bristol-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.43096,
+    "lon": -84.9758
+   },
+   "wikipedia": {
+    "title": "Liberty County High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Liberty_County_High_School_(Florida)",
+    "extract": "Liberty County High School is a public high school teaching grades 9–12. The school is located in Bristol, Florida, which is the county seat of Liberty County in the Florida Panhandle near Tallahassee. The school is operated by the Liberty County School District. It is the only high school in Liberty County, with around 325 students from Hosford Junior High in Hosford and W.R. Tolar School in Bristol. The school is partnered with Chipola College for its dual enrollment program.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6541692"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7108792",
+   "slug": "otis-hare-archeological-site",
+   "name": "Otis Hare Archeological Site",
+   "aliases": [],
+   "description": "archaeological site in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.41,
+    "lon": -85.01
+   },
+   "wikipedia": {
+    "title": "Otis Hare Archeological Site",
+    "url": "https://en.wikipedia.org/wiki/Otis_Hare_Archeological_Site",
+    "extract": "The Otis Hare Archeological Site (also known as the Owen House Site) is a historic site near Bristol, Florida, at mile 73 on the east bank of the Apalachicola River. On July 26, 1989, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7108792 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "89000862",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7108792 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7108792"
+    },
+    {
+     "provider": "nrhp",
+     "id": "89000862"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q8054875",
+   "slug": "yon-mound-and-village-site",
+   "name": "Yon Mound and Village Site",
+   "aliases": [],
+   "description": "prehistoric archaeological site in Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4322,
+    "lon": -85.0164
+   },
+   "wikipedia": {
+    "title": "Yon Mound and Village Site",
+    "url": "https://en.wikipedia.org/wiki/Yon_Mound_and_Village_Site",
+    "extract": "The Yon Mound and Village Site (8LI2) is a prehistoric archaeological site located two miles west of Bristol, Florida on the east bank of the Apalachicola River. The site was occupied by peoples of the Fort Walton Culture (a regional variation of the Mississippian culture). On December 15, 1978, it was added to the U.S. National Register of Historic Places as reference number 78000952.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8054875 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "78000952",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8054875 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q8054875"
+    },
+    {
+     "provider": "nrhp",
+     "id": "78000952"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q109675651",
+   "slug": "exxon",
+   "name": "Exxon",
+   "aliases": [],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109675651 inside Liberty County boundary",
+     "scopeAreaSlug": "liberty-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109675651"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com/",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Liberty County boundary",
+     "scopeAreaSlug": "liberty-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3388303",
+   "slug": "piggly-wiggly",
+   "name": "Piggly Wiggly",
+   "aliases": [],
+   "description": "American supermarket chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pigglywiggly.com/",
+   "wikipedia": {
+    "title": "Piggly Wiggly",
+    "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+    "extract": "Piggly Wiggly, LLC is an American supermarket chain operating in the American Southern and Midwestern regions. Its first outlet opened in 1916 in Memphis, Tennessee, and was the first true self-service grocery store, and the originator of various familiar supermarket features, such as checkout stands and individual item price marking.\nThe company is currently headquartered in Keene, New Hampshire, although no Piggly Wiggly-branded stores operate in that state. As of 2024, 503 independently owned Piggly Wiggly stores operated in 18 states, primarily in smaller cities and towns.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Keene",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Clarence Saunders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3388303 inside Liberty County boundary",
+     "scopeAreaSlug": "liberty-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3388303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Piggly_wiggly.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Piggly_wiggly.png",
+     "alt": "Piggly Wiggly logo",
+     "credit": "C&amp;S Wholesale Grocers and Piggly Wiggly",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Liberty County boundary",
+     "scopeAreaSlug": "liberty-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "liberty-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T20:27:46.561Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Liberty County boundary",
+     "scopeAreaSlug": "liberty-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "liberty-county-fl",
+  "wikidataCandidates": 85,
+  "places": 6,
+  "brands": 5,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 10,
+  "withFreeImage": 7,
+  "withCoordinates": 6,
+  "osmBrandedLocations": 5,
+  "unmappedClasses": 8
+ }
+}

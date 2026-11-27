@@ -1,0 +1,3602 @@
+{
+ "generatedAt": "2026-11-27T21:29:54.361Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "okeechobee-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T21:29:54.361Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T21:29:54.361Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Okeechobee County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T21:29:54.361Z",
+   "checksumSha256": "80f218b5ce7e778abd455e37f738c31ee621b781fbea2cc88afaf6e972e53152"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q2748200",
+   "slug": "kissimmee-river",
+   "name": "Kissimmee River",
+   "aliases": [],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.1428,
+    "lon": -80.8544
+   },
+   "wikipedia": {
+    "title": "Kissimmee River",
+    "url": "https://en.wikipedia.org/wiki/Kissimmee_River",
+    "extract": "The Kissimmee River is a river in south-central Florida, United States, that forms the north part of the Kissimmee-Okeechobee-Everglades watershed. The river begins at East Lake Tohopekaliga south of Orlando, flowing south through Lake Kissimmee into the large, shallow Lake Okeechobee. Hurricane-related floods in 1947 prompted channelization of the meandering lower stretch, completed by 1970. The straightened course reduced wetland habitat and worsened pollution. In response, efforts since the 1990s have partially restored the river's original state and revitalized the ecosystem, as part of the broader restoration of the Everglades.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2748200"
+    },
+    {
+     "provider": "geonames",
+     "id": "4160982"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kissimmeerivermap.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Kissimmeerivermap.png",
+     "alt": "Photograph of Kissimmee River",
+     "credit": "No machine-readable author provided. Kmusser assumed (based on copyright claims).",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q2902486",
+   "slug": "okeechobee-county-airport",
+   "name": "Okeechobee County Airport",
+   "aliases": [
+    "OBE",
+    "KOBE"
+   ],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.265972,
+    "lon": -80.851111
+   },
+   "wikipedia": {
+    "title": "Okeechobee County Airport",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_County_Airport",
+    "extract": "Okeechobee County Airport (IATA: OBE, ICAO: KOBE, FAA LID: OBE) is a general aviation airport located 3 mi (4.82 km) northwest of Okeechobee, in unincorporated Okeechobee County, Florida.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2902486"
+    },
+    {
+     "provider": "iata",
+     "id": "OBE"
+    },
+    {
+     "provider": "icao",
+     "id": "KOBE"
+    },
+    {
+     "provider": "geonames",
+     "id": "4166839"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Okeechobee_County_Airport_-_Florida.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_County_Airport_-_Florida.jpg",
+     "alt": "Photograph of Okeechobee County Airport",
+     "credit": "US Geological Survey",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5453307",
+   "slug": "first-methodist-episcopal-church-q5453307",
+   "name": "First Methodist Episcopal Church",
+   "aliases": [],
+   "description": "church in Okeechobee, Florida",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2453,
+    "lon": -80.8317
+   },
+   "officialUrl": "https://www.fumcokee.com/",
+   "wikipedia": {
+    "title": "First Methodist Episcopal Church (Okeechobee, Florida)",
+    "url": "https://en.wikipedia.org/wiki/First_Methodist_Episcopal_Church_(Okeechobee,_Florida)",
+    "extract": "The  First Methodist Episcopal Church, built in 1924, is a historic red brick Gothic Revival church located at 200 NW 2nd Street in Okeechobee, Florida. In 1989, it was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.  In August 2015, it was listed on the U.S. National Register of Historic Places, as the First Methodist Episcopal Church, South.\nToday it is known as First United Methodist Church.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5453307 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "15000509",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5453307 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5453307"
+    },
+    {
+     "provider": "nrhp",
+     "id": "15000509"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Okeechobee_FL_Episc_Church06.jpg/1920px-Okeechobee_FL_Episc_Church06.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_FL_Episc_Church06.jpg",
+     "alt": "Photograph of First Methodist Episcopal Church",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5500407",
+   "slug": "freedman-raulerson-house",
+   "name": "Freedman-Raulerson House",
+   "aliases": [
+    "Old Raulerson House"
+   ],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2375,
+    "lon": -80.830556
+   },
+   "wikipedia": {
+    "title": "Freedman-Raulerson House",
+    "url": "https://en.wikipedia.org/wiki/Freedman-Raulerson_House",
+    "extract": "The Freedman-Raulerson House (also known as the Old Raulerson House or Shadow Lawn) is a historic house located at 600 South Parrott Avenue in Okeechobee, Florida.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5500407 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "85000764",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5500407 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5500407"
+    },
+    {
+     "provider": "nrhp",
+     "id": "85000764"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Okeechobee_FL_Freedman-Raulerson01.jpg/1920px-Okeechobee_FL_Freedman-Raulerson01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_FL_Freedman-Raulerson01.jpg",
+     "alt": "Photograph of Freedman-Raulerson House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7081895",
+   "slug": "okeechobee-station",
+   "name": "Okeechobee station",
+   "aliases": [],
+   "description": "railway station in Florida, USA",
+   "entityType": "transit_station",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "public-transit",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.25178,
+    "lon": -80.82991
+   },
+   "wikipedia": {
+    "title": "Okeechobee station (Amtrak)",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_station_(Amtrak)",
+    "extract": "Okeechobee station is a train station in Okeechobee, Florida, served by Amtrak.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "opened",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7081895 P1619"
+    },
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7081895 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7081895"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Okeechobee_FL_Amtrak01.jpg/1920px-Okeechobee_FL_Amtrak01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_FL_Amtrak01.jpg",
+     "alt": "Photograph of Okeechobee station",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7081897",
+   "slug": "okeechobee-battlefield",
+   "name": "Okeechobee Battlefield",
+   "aliases": [],
+   "description": "battlefield site in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.201111,
+    "lon": -80.769167
+   },
+   "wikipedia": {
+    "title": "Okeechobee Battlefield Historic State Park",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_Battlefield_Historic_State_Park",
+    "extract": "The Okeechobee Battlefield is a Florida State Park and U.S. National Historic Landmark (designated as such on July 4, 1961). It is located four miles (6.4 km) southeast of Okeechobee, on US 98/US 441, near Taylor Creek. The Battle of Lake Okeechobee, one of the major conflicts of the Second Seminole War, was fought at the site.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Historic Landmark; National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7081897 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "66000269",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7081897 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7081897"
+    },
+    {
+     "provider": "nrhp",
+     "id": "66000269"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Okeechobee_FL_Battlefield01.jpg/1920px-Okeechobee_FL_Battlefield01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_FL_Battlefield01.jpg",
+     "alt": "Photograph of Okeechobee Battlefield",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q550300",
+   "slug": "wyfr",
+   "name": "WYFR",
+   "aliases": [],
+   "description": "radio station",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.4583,
+    "lon": -80.9333
+   },
+   "officialUrl": "https://www.familyradio.com/",
+   "wikipedia": {
+    "title": "WYFR",
+    "url": "https://en.wikipedia.org/wiki/WYFR",
+    "extract": "WYFR was a shortwave radio station located in Okeechobee, Florida, United States. The station was owned by Family Stations, Inc., as part of the Family Radio network, and used to broadcast traditional Christian radio programming to international audiences. WYFR ceased all shortwave transmissions July 1, 2013. In December 2013, another shortwave broadcaster, WRMI of Miami, purchased the WYFR transmission complex.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550300 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Family Radio",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550300 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q550300"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/02issoudun_feeders%2Brideaux.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:02issoudun_feeders%2Brideaux.JPG",
+     "alt": "Photograph of WYFR",
+     "credit": "David Gestalder",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q3564785",
+   "slug": "wrmi",
+   "name": "WRMI",
+   "aliases": [
+    "Radio Miami International"
+   ],
+   "description": "US shortwave radio station",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.4606,
+    "lon": -80.9322
+   },
+   "officialUrl": "https://www.wrmi.net/",
+   "wikipedia": {
+    "title": "WRMI",
+    "url": "https://en.wikipedia.org/wiki/WRMI",
+    "extract": "WRMI (Radio Miami International) is a shortwave radio station broadcasting from Okeechobee, Florida, United States. WRMI is a commercial radio station that sells airtime to businesses and organizations.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3564785"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6417219",
+   "slug": "kissimmee-prairie-preserve-state-park",
+   "name": "Kissimmee Prairie Preserve State Park",
+   "aliases": [],
+   "description": "Florida state park",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.6169,
+    "lon": -81.0831
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/kissimmee-prairie-preserve-state-park",
+   "wikipedia": {
+    "title": "Kissimmee Prairie Preserve State Park",
+    "url": "https://en.wikipedia.org/wiki/Kissimmee_Prairie_Preserve_State_Park",
+    "extract": "Kissimmee Prairie Preserve State Park is a Florida state park, located approximately 40 km (25 mi) north of Okeechobee, off US 441. The preserve protects the largest remaining tract of Florida dry prairie, an ecosystem shaped by cycles of flooding and fire. The preserve lies adjacent to the Kissimmee River, an important headwater of the Everglades, the watershed of which the park lies within.\nMany rare, threatened, and endangered species inhabit the area, and the wide-open prairie landscape provides opportunities for birdwatchers and photographers. Three species found within the park of particular interest to birders include the Florida grasshopper sparrow, Audubon's caracara, and Florida burrowing owl.\nThanks to its location in one of the darkest portions of the state, the night sky above the park measures in at a Bortle 3, allowing for viewing of the Milky Way and several Messier objects. The park is a certified International Dark Sky Site by DarkSky International, the first place within the state of Florida to",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "International Dark Sky Park",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6417219 P1435"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6417219"
+    },
+    {
+     "provider": "geonames",
+     "id": "4160981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kissimmee_Prairie_PSP01.jpg/1920px-Kissimmee_Prairie_PSP01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Kissimmee_Prairie_PSP01.jpg",
+     "alt": "Photograph of Kissimmee Prairie Preserve State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q27986429",
+   "slug": "everglades-headwaters-national-wildlife-refuge-and-conservation-area",
+   "name": "Everglades Headwaters National Wildlife Refuge and Conservation Area",
+   "aliases": [],
+   "description": "National Wildlife Refuge in Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.6334,
+    "lon": -80.96337
+   },
+   "officialUrl": "https://www.fws.gov/southeast/evergladesheadwaters",
+   "wikipedia": {
+    "title": "Everglades Headwaters National Wildlife Refuge and Conservation Area",
+    "url": "https://en.wikipedia.org/wiki/Everglades_Headwaters_National_Wildlife_Refuge_and_Conservation_Area",
+    "extract": "The Everglades Headwaters National Wildlife Refuge and Conservation Area, created in 2012, is the newest addition and 556th unit of the United States National Wildlife Refuge (NWR) System.  It began with 10 acres (4.0 ha) donated to the conservation effort as part of the Obama administration's America's Great Outdoors Initiative.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 900,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q27986429 P2046"
+    },
+    {
+     "key": "operator",
+     "value": "United States Fish and Wildlife Service",
+     "sourceId": "wikidata",
+     "sourceRef": "Q27986429 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q27986429"
+    },
+    {
+     "provider": "geonames",
+     "id": "11383014"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Everglades_Headwaters_National_Wildlife_Refuge_and_Conservation_Area.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Everglades_Headwaters_National_Wildlife_Refuge_and_Conservation_Area.jpg",
+     "alt": "Photograph of Everglades Headwaters National Wildlife Refuge and Conservation Area",
+     "credit": "Keenan Adams/USFWS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7081899",
+   "slug": "okeechobee-high-school",
+   "name": "Okeechobee High School",
+   "aliases": [],
+   "description": "Florida high school",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2678,
+    "lon": -80.8281
+   },
+   "officialUrl": "https://www.edline.net/pages/okeechobeehs",
+   "wikipedia": {
+    "title": "Okeechobee High School",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_High_School",
+    "extract": "Okeechobee High School is a public high school for grades 9–12 in Okeechobee County, Florida, United States.\nThe school belongs to the Okeechobee County School District.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7081899"
+    },
+    {
+     "provider": "geonames",
+     "id": "4166827"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7081900",
+   "slug": "okeechobee-freshman-campus",
+   "name": "Okeechobee Freshman Campus",
+   "aliases": [
+    "Okeechobee High School"
+   ],
+   "description": "1925 school building",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.23724,
+    "lon": -80.83157
+   },
+   "wikipedia": {
+    "title": "Okeechobee High School (1925)",
+    "url": "https://en.wikipedia.org/wiki/Okeechobee_High_School_(1925)",
+    "extract": "The Okeechobee High School (1925) is an historic redbrick school building located at 610 SW 2nd Avenue in Okeechobee, Florida. Designed by architects William Hatcher and Lawrence Funke, it was built in 1925 by Rogers and Duncanson. In 1989, it was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.\nThe new Okeechobee High School is now located at 2800 Highway 441 North and the 1925 building is the Okeechobee Freshman Campus.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7081900 P571"
+    }
+   ],
+   "relations": [
+    {
+     "type": "part_of",
+     "targetQid": "Q7081899"
+    }
+   ],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7081900"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Okeechobee_FL_High_School01.jpg/1920px-Okeechobee_FL_High_School01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Okeechobee_FL_High_School01.jpg",
+     "alt": "Photograph of Okeechobee Freshman Campus",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7953853",
+   "slug": "wokc",
+   "name": "WOKC",
+   "aliases": [],
+   "description": "classic country radio station in Okeechobee, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2164,
+    "lon": -80.8314
+   },
+   "officialUrl": "https://www.wokc.com/",
+   "wikipedia": {
+    "title": "WOKC",
+    "url": "https://en.wikipedia.org/wiki/WOKC",
+    "extract": "WOKC (True Country) is a commercial radio station in Okeechobee, Florida, broadcasting to the Okeechobee area on 1570 AM and 100.9 FM. WOKC's format is classic country.  It also broadcasts local and world news.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7953853 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7953853"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7954975",
+   "slug": "wreh",
+   "name": "WREH",
+   "aliases": [],
+   "description": "former radio station in Cypress Quarters, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.348,
+    "lon": -80.951
+   },
+   "wikipedia": {
+    "title": "WREH",
+    "url": "https://en.wikipedia.org/wiki/WREH",
+    "extract": "WREH (Reach FM) was a 100,000-watt FM station, broadcasting on 90.5 MHz. Its city of license was Cypress Quarters in Okeechobee County, Florida. The station went on the air in 2004. Reach Communications, ReachFM's parent company, was formed in association with Calvary Chapel of Fort Lauderdale, Florida. When it was active, ReachFM's programming was geared towards a diverse active Christian audience. According to its website, WREH's last day of programming was March 30, 2016. On February 15, 2017, Reach Communications informed the Federal Communications Commission (FCC) that WREH had ceased broadcasting on February 10; on April 18, 2017, it surrendered the station's license, and the license was cancelled by the FCC on April 19, 2017.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2004",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7954975 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7954975"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q14686497",
+   "slug": "wjnx-fm",
+   "name": "WJNX-FM",
+   "aliases": [],
+   "description": "regional Mexican radio station in Okeechobee, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2217,
+    "lon": -80.8681
+   },
+   "officialUrl": "https://www.wafcfm.com/",
+   "wikipedia": {
+    "title": "WJNX-FM",
+    "url": "https://en.wikipedia.org/wiki/WJNX-FM",
+    "extract": "WJNX-FM (106.1 MHz) is a radio station licensed to Okeechobee, Florida, WJNX-FM is owned by BMZ Broadcasting and operated by Glades Media Group. WJNX-FM is a Regional Mexican programmed radio station serving the Treasure Coast and Okeechobee County.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q14686497"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q15051637",
+   "slug": "raulerson-hospital",
+   "name": "Raulerson Hospital",
+   "aliases": [],
+   "description": "hospital in Florida, United States",
+   "entityType": "hospital",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "hospitals",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.2599,
+    "lon": -80.8287
+   },
+   "officialUrl": "https://raulersonhospital.com/",
+   "wikipedia": {
+    "title": "HCA Florida Raulerson Hospital",
+    "url": "https://en.wikipedia.org/wiki/HCA_Florida_Raulerson_Hospital",
+    "extract": "HCA Florida Raulerson Hospital is a hospital in Okeechobee, Florida, United States owned by HCA Healthcare. The hospital system includes the hospital proper and a building more than a block north, at 1930 Highway 441N, that houses a workers' compensation clinic.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1930",
+     "sourceId": "wikidata",
+     "sourceRef": "Q15051637 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q15051637"
+    },
+    {
+     "provider": "geonames",
+     "id": "4157797"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q141724285",
+   "slug": "kissimmee-bend-state-forest",
+   "name": "Kissimmee Bend State Forest",
+   "aliases": [
+    "Kissimmee Bend Unit, Everglades Headwaters WMA"
+   ],
+   "description": "A state forest in Okeechobee County, Florida, United States",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 27.525,
+    "lon": -81.0938
+   },
+   "officialUrl": "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Kissimmee-Bend-State-Forest",
+   "wikipedia": {
+    "title": "Kissimmee Bend State Forest",
+    "url": "https://en.wikipedia.org/wiki/Kissimmee_Bend_State_Forest",
+    "extract": "Kissimmee Bend State Forest is a Florida state forest of 1,992 acres (806 ha) in Okeechobee County, within the headwaters of the Everglades and the basin of the Kissimmee River. It is named for a pronounced western bend in the river just west of the property. The forest adjoins Kissimmee Prairie Preserve State Park on the north and units of the Everglades Headwaters National Wildlife Refuge and Conservation Area on the east and southeast.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2020",
+     "sourceId": "wikidata",
+     "sourceRef": "Q141724285 P571"
+    },
+    {
+     "key": "area",
+     "value": 1992.12,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q141724285 P2046"
+    },
+    {
+     "key": "operator",
+     "value": "Florida Forest Service",
+     "sourceId": "wikidata",
+     "sourceRef": "Q141724285 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q141724285"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 12,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q41171672",
+   "slug": "aldi-sud",
+   "name": "Aldi Süd",
+   "aliases": [
+    "Aldi Sued",
+    "Aldi Sud"
+   ],
+   "description": "multinational discount grocery store chain operating in AU, CH, CN, DE, HU, IE, IT, UK, US, not to be confused with Aldi Nord",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.aldi-sued.de/",
+   "wikipedia": {
+    "title": "Aldi Süd",
+    "url": "https://en.wikipedia.org/wiki/Aldi_S%C3%BCd",
+    "extract": "Aldi Süd (German pronunciation: [ˈaldiː] , stylised in all caps) also referred to as Aldi is a Southern German multinational family-owned discount supermarket chain operating over 7,900 stores in 11 countries. The business was founded by brothers Karl and Theo Albrecht in 1946, when they took over their mother's store in Essen. \nThe enterprise was split into two separate groups in 1960 that later became Aldi Nord (initially operating in northern West Germany), headquartered in Essen, and Aldi Süd (initially operating in southern West Germany), headquartered in neighboring Mülheim. As the business expanded internationally, the two divisions maintained this separation, dividing global markets between them, with the exception of the United States, where both operate: Aldi Süd under the Aldi name, while Aldi Nord owns Trader Joe's.\nIn 1962, they introduced the name Aldi (a syllabic abbreviation for \"Albrecht Diskont\"). In Germany, Aldi Nord and Aldi Süd have been financially and legally separate since 1966, although they may appear to operate as a single enterprise with certain store brands or when negotiating with contractor companies.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mülheim an der Ruhr; Batavia",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q41171672 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q41171672"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aldi_S%C3%BCd_2017_logo.svg/1920px-Aldi_S%C3%BCd_2017_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldi_S%C3%BCd_2017_logo.svg",
+     "alt": "Aldi Süd logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1591889",
+   "slug": "walgreens",
+   "name": "Walgreens",
+   "aliases": [
+    "Walgreen Company",
+    "The Walgreen Company",
+    "Walgreen",
+    "WAG",
+    "Walgreen Co"
+   ],
+   "description": "American pharmacy and convenience store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.walgreens.com/",
+   "wikipedia": {
+    "title": "Walgreens",
+    "url": "https://en.wikipedia.org/wiki/Walgreens",
+    "extract": "Walgreens is an American pharmacy store chain headquartered in Deerfield, Illinois. It is the second largest pharmacy chain in the United States, behind CVS Pharmacy. As of 2026, Walgreens operated 8,000 stores in the United States, serving 9 million customers daily and employing 211,000 team members. In addition to pharmacy services, Walgreens also offers photo services.\nWalgreens was founded in Chicago by Charles Rudolph Walgreen in 1901. On December 31, 2014, Walgreens acquired Switzerland and UK-based Alliance Boots, and formed a new holding company, Walgreens Boots Alliance. That year Walgreens had generated $76.4 billion in annual revenue as an independent company. Walgreens became a subsidiary of the new company, which retained its Deerfield headquarters and traded on the Nasdaq under the symbol WBA. As of August 2025, Walgreens is owned by private equity firm Sycamore Partners. \nWalgreens has been the subject of a number of lawsuits over discrimination, drug fraud, federal billing fraud, distribution of opioids, discrepancies between shelf price and scanned price, overcharging, illegal disposal of hazardous waste, selling expired items, misleading investors, unlicensed pharmacists, and wage theft. In 2021, Walgreens was one of several pharmacy chains found by a federal jury to have substantially contributed to the opioid crisis.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1901",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Deerfield",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Rudolph Walgreen, Sr.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Walgreens Boots Alliance",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1591889 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1591889"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Walgreens_2020_primary_logo.svg/1920px-Walgreens_2020_primary_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Walgreens_2020_primary_logo.svg",
+     "alt": "Walgreens logo",
+     "credit": "Walgreens",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q550258",
+   "slug": "wendys",
+   "name": "Wendy's",
+   "aliases": [
+    "Wendys"
+   ],
+   "description": "American international fast food chain restaurant",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wendys.com/",
+   "wikipedia": {
+    "title": "Wendy's",
+    "url": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "extract": "Wendy's International, LLC, is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. Its headquarters moved to Dublin, Ohio, on January 29, 2006. On September 29, 2008, the company merged with Triarc, the publicly traded parent company of Arby's. As of December 31, 2018, Wendy's was the world's third-largest hamburger fast-food chain, following McDonald's and Burger King.\nAs of November 2, 2023, there were 7,166 Wendy's outlets, of which 415 are company-owned and 6,751 franchised, 83% of which are in the United States. The company specifies stores' standards; owners control opening hours, decor, and staff uniforms and pay.\nThe chain serves square hamburger patties on circular buns, sea salt fries, and the Frosty, soft ice cream mixed with starches. The food menu consists primarily of hamburgers, chicken sandwiches, and French fries. The company discontinued its Big Classic signature sandwich.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1969-11-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dublin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dave Thomas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q550258 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q550258"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wendy%27s_logo_black.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_black.jpg",
+     "alt": "Wendy's logo",
+     "credit": "Wendy's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q8067525",
+   "slug": "zaxbys",
+   "name": "Zaxby's",
+   "aliases": [
+    "Zaxby's Chicken Fingers & Buffalo Wings"
+   ],
+   "description": "American restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.zaxbys.com/",
+   "wikipedia": {
+    "title": "Zaxby's",
+    "url": "https://en.wikipedia.org/wiki/Zaxby%27s",
+    "extract": "Zaxby's SPE Franchisor LLC, doing business as Zaxbys (formerly known as Zax and Zaxby's), is an American chain of fast casual restaurants offering chicken fingers, sandwiches, chicken wings, appetizers, and salads. The chain operates primarily in the Southern United States and has more than 900 locations. Most Zaxbys restaurants are owned and operated through franchising.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1990-08",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8067525 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Athens",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8067525 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q8067525 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q8067525"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q1319505",
+   "slug": "nathans-famous",
+   "name": "Nathan's Famous",
+   "aliases": [
+    "Nathan's Famous, Inc."
+   ],
+   "description": "fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 14,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.nathansfamous.com/",
+   "wikipedia": {
+    "title": "Nathan's Famous",
+    "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous",
+    "extract": "Nathan's Famous, Inc., is an American company that operates a chain of fast-food restaurants specializing in hot dogs. The original Nathan's restaurant stands at the corner of Surf and Stillwell Avenues in the Coney Island neighborhood of Brooklyn, New York City. Its restaurants are primarily in the Northeastern United States. The company's headquarters are at One Jericho Plaza in Jericho, part of Oyster Bay, New York.\nIn January 2026, it was announced that Nathan's Famous had agreed to be bought by Smithfield Foods in a $450 million, all-cash transaction.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1319505 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Jericho",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1319505 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Nathan Handwerker",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1319505 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1319505 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1319505"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nathan%27s_Famous.svg/1920px-Nathan%27s_Famous.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Nathan%27s_Famous.svg",
+     "alt": "Nathan's Famous logo",
+     "credit": "Nathan's Famous",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1689380",
+   "slug": "jimmy-johns",
+   "name": "Jimmy John's",
+   "aliases": [
+    "Jimmy Johns",
+    "Jimmy John's Gourmet Sandwiches",
+    "Jimmy John's Franchise, LLC",
+    "Jimmy John's Franchise",
+    "Jimmy John's Sandwiches"
+   ],
+   "description": "franchised sandwich restaurant chain, specializing in delivery",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.jimmyjohns.com/",
+   "wikipedia": {
+    "title": "Jimmy John's",
+    "url": "https://en.wikipedia.org/wiki/Jimmy_John%27s",
+    "extract": "Jimmy John's Franchise, LLC, commonly referred to as Jimmy John's, is an American multinational sandwich chain, headquartered in Champaign, Illinois. The business was founded by Jimmy John Liautaud in 1983. After Liautaud graduated from high school, his father gave him a choice to either join the military or start a business. Liautaud decided to start a hot dog business, which changed to sandwiches due to costs.\nThe Jimmy John's chain has over 2,800 locations, with 98% of them being franchises. In 2016, Roark Capital Group purchased a majority stake in the company. Later, in 2019, Inspire Brands purchased the company from Roark Capital Group for an unspecified amount.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1983",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1689380 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1689380 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Champaign",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1689380 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Jimmy John Liautaud; James P. Liautaud",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1689380 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1689380 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1689380"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Jimmy_Johns_logo.svg/1920px-Jimmy_Johns_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Johns_logo.svg",
+     "alt": "Jimmy John's logo",
+     "credit": "Jimmy John's Franchise, LLC",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q847743",
+   "slug": "dunkin",
+   "name": "Dunkin'",
+   "aliases": [
+    "Dunkin Donuts",
+    "Dunkin Donuts Coffee",
+    "DD",
+    "Dunkin D",
+    "Dunkin' Donuts"
+   ],
+   "description": "American global donut company and coffeehouse",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 55,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dunkindonuts.com/",
+   "wikipedia": {
+    "title": "Dunkin' Donuts",
+    "url": "https://en.wikipedia.org/wiki/Dunkin%27_Donuts",
+    "extract": "Dunkin' LLC, formerly known as Dunkin' Donuts, is an American multinational fast-food restaurant chain specializing in coffee and doughnuts. It was founded by Bill Rosenberg in Quincy, Massachusetts, in 1950. \nWith approximately 14,200 locations in 39 countries and $14.5 billion in system sales, Dunkin' is one of the largest coffee shop and doughnut shop chains in the world. In addition to several varieties of coffee and doughnuts, products sold include bagels, breakfast sandwiches, muffins, and doughnut holes branded as Munchkins.\nThe chain was acquired by Baskin-Robbins' holding company Allied Lyons in 1990. Its acquisition of the Mister Donut chain and the conversion of that chain to Dunkin' Donuts facilitated the brand's growth in North America the same year.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1950",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Canton; Quincy",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "William Rosenberg",
+     "sourceId": "wikidata",
+     "sourceRef": "Q847743 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q847743 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q847743"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Dunkin%27_2022.svg/1920px-Dunkin%27_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dunkin%27_2022.svg",
+     "alt": "Dunkin' logo",
+     "credit": "Dunkin' Donuts, LLC",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2759586",
+   "slug": "papa-johns",
+   "name": "Papa John's",
+   "aliases": [
+    "Papa Johns Pizza",
+    "Papa John's Pizza"
+   ],
+   "description": "pizza restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 29,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.papajohns.com/",
+   "wikipedia": {
+    "title": "Papa John's",
+    "url": "https://en.wikipedia.org/wiki/Papa_John%27s",
+    "extract": "Papa John's International, Inc., trading as Papa Johns, is an American pizza restaurant chain founded by John Schnatter in Jeffersonville, Indiana, in 1984. The company went public in 1993 and had expanded to 1,500 restaurants by 1997. As of 2023, it is the fourth largest pizza delivery restaurant chain in the United States, with headquarters in the Louisville, Kentucky, and Atlanta, Georgia, metropolitan areas.\nAs of March 2022, Papa John's global presence reached over 5,500 locations in 49 countries and territories. Schnatter stepped down as CEO in 2018 and later resigned as chairman. Robert M. Lynch became CEO in 2019 and Todd Penegor succeeded him in 2024.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1984-10-02",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2759586 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Louisville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2759586 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "John Schnatter",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2759586 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2759586 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2759586"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Papa_Johns_logo.svg/1920px-Papa_Johns_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Papa_Johns_logo.svg",
+     "alt": "Papa John's logo",
+     "credit": "Papa Johns",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com/",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q672170",
+   "slug": "publix",
+   "curatedSlug": "publix",
+   "name": "Publix",
+   "aliases": [
+    "Publix Super Markets Inc."
+   ],
+   "description": "American supermarket chain headquartered in Lakeland, Florida",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 20,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://corporate.publix.com/",
+   "wikipedia": {
+    "title": "Publix",
+    "url": "https://en.wikipedia.org/wiki/Publix",
+    "extract": "Publix Super Markets, Inc., doing business as Publix, is an employee-owned American supermarket chain headquartered in Lakeland, Florida. Founded in 1930 by George W. Jenkins, Publix is a private corporation that is wholly owned by present and past employees and members of the Jenkins family. Publix operates throughout the Southeastern United States, with locations in Florida (899), Georgia (221), Alabama (97), South Carolina (75), Tennessee (62), North Carolina (66), Virginia (24), and Kentucky (11). Kentucky is the most recent addition to the Publix footprint, with the company's first store in that state having opened on January 10, 2024, in Louisville.\nPublix operates 1,455 store locations across the Southeast. As of May 2026, Publix employs about 260,000 people at its retail locations, cooking schools, corporate offices, nine grocery distribution centers, and eleven manufacturing facilities. The manufacturing facilities produce its dairy, deli, bakery, and other food products. \nThe National Center for Employee Ownership states that Publix has the largest employee stock ownership plan of almost 6,500 organizations in the U.S.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1921-12-27",
+     "sourceId": "wikidata",
+     "sourceRef": "Q672170 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Lakeland",
+     "sourceId": "wikidata",
+     "sourceRef": "Q672170 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "George W. Jenkins",
+     "sourceId": "wikidata",
+     "sourceRef": "Q672170 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q672170 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q672170"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Publix_Retail_Logo.png/1920px-Publix_Retail_Logo.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Publix_Retail_Logo.png",
+     "alt": "Publix logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1264366",
+   "slug": "winn-dixie",
+   "name": "Winn-Dixie",
+   "aliases": [],
+   "description": "American supermarket chain headquartered in Jacksonville, Florida",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.winndixie.com/",
+   "wikipedia": {
+    "title": "Winn-Dixie",
+    "url": "https://en.wikipedia.org/wiki/Winn-Dixie",
+    "extract": "The Winn-Dixie Company, LLC, is an American supermarket chain headquartered in Jacksonville, Florida. Founded in 1925, Winn-Dixie grocery stores and liquor stores serve communities throughout southeastern states – Florida and Georgia. Winn-Dixie is a subsidiary of The Winn-Dixie Company.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5050 Edgewood Ct, Jacksonville, FL 32254",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P6375"
+    },
+    {
+     "key": "parent-organization",
+     "value": "BI-LO; Aldi Süd",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1264366 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1264366 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1264366"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG/1920px-Winn-Dixie_Corporate_Offices%2C_Jacksonville.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Winn-Dixie_Corporate_Offices,_Jacksonville.JPG",
+     "alt": "Photograph of Winn-Dixie",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q111631907",
+   "slug": "cat-scale",
+   "name": "CAT Scale",
+   "aliases": [
+    "CAT Scale Company",
+    "CAT Scale Co.",
+    "CAT"
+   ],
+   "description": "North American network of truck scales",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://catscale.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Walcott",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q111631907 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q111631907"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q138574160",
+   "slug": "fpl-evolution",
+   "name": "FPL EVolution",
+   "aliases": [
+    "EVolution",
+    "FPL EV"
+   ],
+   "description": "electric vehicle charging brand in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.fpl.com/electric-vehicles/for-drivers/public-charging.html",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2020-09-14",
+     "sourceId": "wikidata",
+     "sourceRef": "Q138574160 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Florida Power & Light",
+     "sourceId": "wikidata",
+     "sourceRef": "Q138574160 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 8,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q138574160 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q138574160"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/FPL_EVolution_Logo.png/1920px-FPL_EVolution_Logo.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:FPL_EVolution_Logo.png",
+     "alt": "FPL EVolution logo",
+     "credit": "Florida Power &amp; Light",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q47719",
+   "slug": "pepsi",
+   "name": "Pepsi",
+   "aliases": [
+    "Brad's Drink",
+    "Pepsi-Cola",
+    "Pepsi Cola"
+   ],
+   "description": "soft drink owned and manufactured by PepsiCo",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 104,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pepsi.com/",
+   "wikipedia": {
+    "title": "Pepsi",
+    "url": "https://en.wikipedia.org/wiki/Pepsi",
+    "extract": "Pepsi is a carbonated soft drink with a cola flavor, the flagship product of PepsiCo. In 2023, Pepsi was the second most valuable soft drink brand worldwide behind Coca-Cola; the two share a long-standing rivalry in what has been called the \"cola wars\".\nPepsi, originally created in 1893 by Caleb Bradham and named \"Brad's Drink,\" was first sold in his drugstore in New Bern, North Carolina. Renamed \"Pepsi-Cola\" in 1898 due to its supposed digestive benefits, its name was shortened in marketing to \"Pepsi\" as early as 1951. Early on, Pepsi struggled with financial stability, going bankrupt in 1923 but was subsequently purchased and revived by Charles Guth, who reformulated the syrup. Pepsi gained popularity with the introduction of a 12-ounce bottle during the Great Depression and marketing strategies like the \"Nickel, Nickel\" jingle, doubling sales by emphasizing its value.\nThe mid-20th century saw Pepsi targeting the African American market, a then-untapped demographic, with positive portrayals and endorsements from prominent figures, boosting its market share. Pepsi's rivalry with Coca-Cola, highlighted by the \"cola wars\", led to significant cultural and market competition, including the \"Pepsi Challenge\" taste tests and the introduction of New Coke in response. Pepsi's expansion into international markets has seen varied success, with notable ventures into the Soviet Union via a landmark barter deal and enduring popularity in certain regions over Coca-Cola.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1893",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mushin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "PepsiCo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q47719 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q47719"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/1920px-Pepsi_2023.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pepsi_2023.svg",
+     "alt": "Pepsi logo",
+     "credit": "™/®PepsiCo, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q127685418",
+   "slug": "parcel-pending",
+   "name": "Parcel Pending",
+   "aliases": [],
+   "description": "parcel locker brand / service by Quadient",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.parcelpending.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Quadient",
+     "sourceId": "wikidata",
+     "sourceRef": "Q127685418 P137"
+    },
+    {
+     "key": "headquarters",
+     "value": "Irvine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q127685418 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q127685418 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q127685418"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q108485435",
+   "slug": "flock-safety",
+   "name": "Flock Safety",
+   "aliases": [
+    "Flock Camera"
+   ],
+   "description": "American video surveillance company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://flocksafety.com/",
+   "wikipedia": {
+    "title": "Flock Safety",
+    "url": "https://en.wikipedia.org/wiki/Flock_Safety",
+    "extract": "Flock Group Inc., doing business as Flock Safety, is a privately held American manufacturer and operator of surveillance hardware and software, particularly automated license plate recognition (ALPR), mass video surveillance, gunfire locator systems, and software to integrate data gathered by these technologies. Founded in 2017, Flock operates such systems under contract with law enforcement agencies, neighborhood associations, and private property owners. As of July 2026, Flock says it operates in over 6,000 communities and performs over 20 billion vehicle scans in the US every month; the company has ALPRs in all 50 US states. Flock Safety's network consists of cameras, image recognition, and machine learning, which share data with police departments.\nFlock markets their services to law enforcement, homeowner associations and similar community organizations as tools for crime prevention and investigations. Flock has been described by critics as an example of mass surveillance, and their efficacy and effects on privacy and other civil liberties are the subject of public scrutiny, debate, and litigation.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q108485435 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q108485435 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q108485435"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Flock_Logo_Green.svg/1920px-Flock_Logo_Green.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Flock_Logo_Green.svg",
+     "alt": "Flock Safety logo",
+     "credit": "Flock Safety",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q131416886",
+   "slug": "red-e",
+   "name": "Red E",
+   "aliases": [
+    "Red E Charge"
+   ],
+   "description": "American operator of EV charging stations",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.redecharge.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2019",
+     "sourceId": "wikidata",
+     "sourceRef": "Q131416886 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Detroit",
+     "sourceId": "wikidata",
+     "sourceRef": "Q131416886 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q131416886 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q131416886"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Red_E_Logo.svg/1920px-Red_E_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_E_Logo.svg",
+     "alt": "Red E logo",
+     "credit": "Red E",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q110716465",
+   "slug": "shell-q110716465",
+   "name": "Shell",
+   "aliases": [],
+   "description": "multinational fuel station chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Showa Shell Sekiyu; Idemitsu Kosan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P137"
+    },
+    {
+     "key": "owner",
+     "value": "Shell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q110716465 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q110716465"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q864407",
+   "slug": "the-home-depot",
+   "name": "The Home Depot",
+   "aliases": [
+    "Home Depot",
+    "The Home Depot, Inc."
+   ],
+   "description": "American multinational home improvement supplies retailing company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 34,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.homedepot.com/",
+   "wikipedia": {
+    "title": "Home Depot",
+    "url": "https://en.wikipedia.org/wiki/Home_Depot",
+    "extract": "The Home Depot, Inc. is an American multinational home improvement retail corporation which sells tools, construction products, building materials, appliances, and services including fuel and transportation rentals. Home Depot is the largest home improvement specialty retailer in the United States. In fiscal 2024, the company reported $159.5 billion in revenue and approximately 470,100 associates. The company is headquartered in Cobb County, Georgia, with an Atlanta mailing address.\nHome Depot operates many big-box format stores across the United States (including the District of Columbia, Guam, Puerto Rico and the U.S. Virgin Islands); all 10 provinces of Canada; and all 31 Mexican states and Mexico City. Interline Brands (The Home Depot Pro), a maintenance, repair, and operations company is also owned by The Home Depot, with 70 distribution centers across the United States. It is the seventh largest United States–based employer globally.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1978-02-06",
+     "sourceId": "wikidata",
+     "sourceRef": "Q864407 P571"
+    },
+    {
+     "key": "owner",
+     "value": "The Vanguard Group; BlackRock",
+     "sourceId": "wikidata",
+     "sourceRef": "Q864407 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Cobb County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q864407 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Arthur Blank; Bernard Marcus; Pat Farrah",
+     "sourceId": "wikidata",
+     "sourceRef": "Q864407 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q864407 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q864407"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/The_Home_Depot_logo.svg/1920px-The_Home_Depot_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Home_Depot_logo.svg",
+     "alt": "The Home Depot logo",
+     "credit": "Don Watt [1] The original uploader was Alex43223 at English Wikipedia.18 June 2007 (original upload date); Transferred f",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5646230",
+   "slug": "hampton-by-hilton",
+   "name": "Hampton by Hilton",
+   "aliases": [
+    "Hampton Hotels",
+    "Hampton Inn & Suites",
+    "Hampton Inn",
+    "Hampton Suites"
+   ],
+   "description": "hotel brand by Hilton Worldwide",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hilton.com/en/brands/hampton-by-hilton/",
+   "wikipedia": {
+    "title": "Hampton Inn",
+    "url": "https://en.wikipedia.org/wiki/Hampton_Inn",
+    "extract": "Hampton Inn, now officially branded as Hampton by Hilton, is an American chain of hotels trademarked by Hilton Worldwide. The Hampton hotel brand is a chain of moderately priced, budget to midscale limited service hotels with limited food and beverage facilities. Most Hampton hotels are independently owned and operated by franchisees, though a few are managed by Hilton. As of March 2024, the Hampton franchise includes 3,000 hotels in 40 countries and territories.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1984",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "McLean",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Hampton Inn and Suites Salem",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Hilton Worldwide",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5646230 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5646230"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hampton_by_Hilton_logo.svg/1920px-Hampton_by_Hilton_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hampton_by_Hilton_logo.svg",
+     "alt": "Hampton by Hilton logo",
+     "credit": "Hilton",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5880423",
+   "slug": "holiday-inn-express",
+   "name": "Holiday Inn Express",
+   "aliases": [],
+   "description": "American midscale hotel chain run by IHG",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hiexpress.com/",
+   "wikipedia": {
+    "title": "Holiday Inn Express",
+    "url": "https://en.wikipedia.org/wiki/Holiday_Inn_Express",
+    "extract": "Holiday Inn Express by IHG is an American-based mid-priced hotel chain within the IHG Hotels & Resorts family of brands. Originally founded as an \"express\" hotel, their focus is on offering limited services at a reasonable price. Standard amenities lean toward the convenient and practical which cater to business travelers and short-term stays. As of September 2019, there are 2,826 Holiday Inn Express hotels featuring over 292,000 rooms worldwide. The chain's concept was intended to target the \"upper economy\" market segment.\nIn Europe, the hotels were known as Express by Holiday Inn, but this variation was phased out during a rebranding which was announced in 2006.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1991",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5880423 P571"
+    },
+    {
+     "key": "parent-organization",
+     "value": "IHG Hotels & Resorts",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5880423 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5880423 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5880423"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Holiday_Inn_Express_by_IHG_logo.svg/1920px-Holiday_Inn_Express_by_IHG_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Holiday_Inn_Express_by_IHG_logo.svg",
+     "alt": "Holiday Inn Express logo",
+     "credit": "IHG Hotels &amp; Resorts",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q917131",
+   "slug": "regions-financial-corporation",
+   "name": "Regions Financial Corporation",
+   "aliases": [
+    "Regions Bank"
+   ],
+   "description": "American bank holding company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "bank-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.regions.com/",
+   "wikipedia": {
+    "title": "Regions Financial Corporation",
+    "url": "https://en.wikipedia.org/wiki/Regions_Financial_Corporation",
+    "extract": "Regions Financial Corporation is an American bank holding company headquartered in the Regions Center in Birmingham, Alabama. The company provides retail and commercial banking, trust, stock brokerage, and mortgage services. Its banking subsidiary, Regions Bank, operates about 2,000 automated teller machines and 1,300 branches in 15 states in the Southern and Midwestern United States.\nRegions is ranked 428th on the Fortune 500 and is component headquartered in Alabama. Regions is also on the list of largest banks in the United States. Regions is the largest deposit holder in Alabama and Tennessee. It is also one of the largest deposit holders in Arkansas, Louisiana, Mississippi, and Florida.\nThe company sponsors Regions Field, a Minor League Baseball stadium in Birmingham, Alabama, and the Tradition golf tournament. It sponsored the Regions Charity Classic, a golf tournament held in 2009 and 2010. The company has a partnership with Operation HOPE, Inc. to provide free financial education to underserved communities. In 2019, the company expanded its Workday, Inc. system in partnership with EnterpriseAlumni to engage and enable ex-employees to extend their corporate social responsibility initiatives.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1971-07-13",
+     "sourceId": "wikidata",
+     "sourceRef": "Q917131 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Birmingham",
+     "sourceId": "wikidata",
+     "sourceRef": "Q917131 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q917131 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q917131"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Regions_Financial_Corp_logo.svg/1920px-Regions_Financial_Corp_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Regions_Financial_Corp_logo.svg",
+     "alt": "Regions Financial Corporation logo",
+     "credit": "Regions Financial Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com/",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q752941",
+   "slug": "taco-bell",
+   "name": "Taco Bell",
+   "aliases": [],
+   "description": "American fast-food chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 49,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tacobell.com/",
+   "wikipedia": {
+    "title": "Taco Bell",
+    "url": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "extract": "Taco Bell Corporation, doing business as Taco Bell, is an American multinational chain of fast food restaurants founded in 1962 by Glen Bell (1923–2010) in Downey, California. Taco Bell is a subsidiary of Yum! Brands, Inc., who are also the owners of sister brand KFC. The restaurants serve a variety of Mexican-inspired foods, including tacos, burritos, quesadillas, nachos, novelty, and specialty items, and a variety of \"value menu\" items. As of 2023, Taco Bell serves over two billion customers each year, at 8,212 restaurants, more than 94 percent of which are owned and operated by independent franchisees and licensees.\nPepsiCo purchased Taco Bell in 1978. PepsiCo spun off its restaurants division in 1997 as Tricon Global Restaurants; in 2002 it changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962-03-21",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Irvine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Glen Bell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q752941 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q752941"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/1984TacoBellSign.svg/1920px-1984TacoBellSign.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1984TacoBellSign.svg",
+     "alt": "Taco Bell logo",
+     "credit": "NissanFanatic245",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q29570",
+   "slug": "chevrolet",
+   "name": "Chevrolet",
+   "aliases": [],
+   "description": "American automobile division of GM",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 86,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "dealerships",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevrolet.com/",
+   "wikipedia": {
+    "title": "Chevrolet",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet",
+    "extract": "Chevrolet is an American automobile division of the manufacturer General Motors (GM). In North America, Chevrolet produces and sells a wide range of vehicles, from subcompact automobiles to medium-duty commercial trucks. Due to the prominence and name recognition of Chevrolet as one of General Motors' global marques, \"Chevrolet\" or its affectionate nickname Chevy is used at times as a synonym for General Motors or its products, one example being the GM LS1 engine, commonly known by the name or a variant thereof of its progenitor, the Chevrolet small-block engine.\nLouis Chevrolet (1878–1941), an American born in French-speaking Switzerland, Arthur Chevrolet (1884–1946), Louis's middle brother, and ousted General Motors founder William C. Durant (1861–1947) started the company on November 3, 1911 as the Chevrolet Motor Car Company. Durant used the Chevrolet Motor Car Company to acquire a controlling stake in General Motors with a reverse merger occurring on May 2, 1918, and propelled himself back to the GM presidency. After Durant's second ousting in 1919, Alfred Sloan, with his maxim \"a car for every purse and purpose\", picked the Chevrolet brand to become the volume leader in the General Motors family, selling mainstream vehicles to compete with Henry Ford's Model T in 1919 and overtaking Ford as the best-selling car in the United States by 1929 with the Chevrolet International.\nChevrolet-branded vehicles are sold in most automotive markets worldwide. In Oceania, Chevrolet was represented by Holden Special Vehicles (HSV), having returned to the region in 2018 after a 50-year absence with the launching of the Camaro and Silverado pickup truck (HSV was partially and formerly owned by GM subsidiary Holden, which GM retired in 2021). In 2021, General Motors Specialty Vehicles took over the distribution and sales of Chevrolet vehicles in Oceania, starting with the Silverado. In 2005, Chevrolet was relaunched in Europe, primarily selling vehicles built by GM Daewoo of South Korea with the tagline \"Daewoo has grown up enough to become Chevrolet\", a move rooted in General Motors' attempt to build a global brand around Chevrolet. With the reintroduction of Chevrolet to Europe, GM intended Chevrolet to be a mainstream value brand, while GM's traditional European standard-bearers, Opel of Germany and Vauxhall of the United Kingdom, were to be moved upmarket. However, GM reversed this move in late 2013, announcing that the brand would be withdrawn from Europe from 2016 onward, with the exception of the Camaro and Corvette. Chevrolet vehicles were to continue to be marketed in the CIS states, including Russia. After General Motors fully acquired GM Daewoo in 2011 to create GM Korea, the last usage of the Daewoo automotive brand was discontinued in its native South Korea and succeeded by Chevrolet.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1911-11-03",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P571"
+    },
+    {
+     "key": "owner",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Detroit",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Louis Chevrolet; William Crapo Durant; Arthur Chevrolet",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q29570 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q29570"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Chevrolet_simple_logo.svg/1920px-Chevrolet_simple_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevrolet_simple_logo.svg",
+     "alt": "Chevrolet logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q795486",
+   "slug": "truist-financial",
+   "name": "Truist Financial",
+   "aliases": [
+    "BB&T Corporation",
+    "BBT",
+    "Branch Banking and Trust Company"
+   ],
+   "description": "American bank holding company, formerly known as BB&T Corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 15,
+   "categories": [
+    {
+     "slug": "bank-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.truist.com/",
+   "wikipedia": {
+    "title": "Truist",
+    "url": "https://en.wikipedia.org/wiki/Truist",
+    "extract": "Truist Financial Corporation () is an American bank holding company headquartered in Charlotte, North Carolina. The company was formed in December 2019 as the result of the merger of BB&T (Branch Banking and Trust Company) and SunTrust. Its bank operates 1,928 branches in 15 states and Washington, D.C., offering consumer, commercial, and investment banking, securities brokerage, asset management, mortgage, and insurance products and services. It is the tenth-largest bank in the United States, with $523 billion in assets.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1872",
+     "sourceId": "wikidata",
+     "sourceRef": "Q795486 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Charlotte",
+     "sourceId": "wikidata",
+     "sourceRef": "Q795486 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q795486 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q795486"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Truist_Financial_logo.svg/1920px-Truist_Financial_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Truist_Financial_logo.svg",
+     "alt": "Truist Financial logo",
+     "credit": "Truist",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1047239",
+   "slug": "days-inn",
+   "name": "Days Inn",
+   "aliases": [],
+   "description": "economy hotel chain run by Wyndham Hotels & Resorts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "okeechobee-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wyndhamhotels.com/days-inn",
+   "wikipedia": {
+    "title": "Days Inn",
+    "url": "https://en.wikipedia.org/wiki/Days_Inn",
+    "extract": "Days Inn is a hotel chain headquartered in the United States. It was founded in 1970 by Cecil B. Day, who opened the first location in Tybee Island, Georgia. The brand is now a part of the Wyndham Hotels and Resorts, headquartered in Parsippany, New Jersey, which used to be a part of Cendant. As of December 31, 2023, Days Inn includes 1,501 locations worldwide with 114,216 rooms.",
+    "retrievedAt": "2026-11-27T21:29:54.361Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1970",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Parsippany-Troy Hills",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Cecil B. Day",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Travel + Leisure Co.; Cendant",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1047239 inside Okeechobee County boundary",
+     "scopeAreaSlug": "okeechobee-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1047239"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Days-inn-1.svg/1920px-Days-inn-1.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Days-inn-1.svg",
+     "alt": "Days Inn logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "okeechobee-county-fl",
+  "wikidataCandidates": 41,
+  "places": 17,
+  "brands": 31,
+  "enrichCurated": 1,
+  "withWikipediaSummary": 43,
+  "withFreeImage": 38,
+  "withCoordinates": 17,
+  "osmBrandedLocations": 56,
+  "unmappedClasses": 6
+ }
+}

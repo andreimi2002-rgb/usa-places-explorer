@@ -1,0 +1,781 @@
+{
+ "generatedAt": "2026-11-27T22:19:58.986Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "union-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T22:19:58.986Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T22:19:58.986Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Union County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T22:19:58.986Z",
+   "checksumSha256": "f64c8253df2ea722453caaad77eabc36115d19ddd7af6c465b6276ca42c91e46"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q6217764",
+   "slug": "john-a-king-house",
+   "name": "John A. King House",
+   "aliases": [],
+   "description": "historic house in Lake Butler, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lake-butler-city-union-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.022222,
+    "lon": -82.337222
+   },
+   "wikipedia": {
+    "title": "John A. King House",
+    "url": "https://en.wikipedia.org/wiki/John_A._King_House",
+    "extract": "The John A. King House (also known as the Coleman House) is a historic house in Lake Butler, Florida, United States, located at 105 Southeast 1st Avenue. On April 6, 2004, it was added to the National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1896",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6217764 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "105 SE 1st Ave, Lake Butler, FL 32054",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6217764 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6217764 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "04000264",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6217764 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6217764"
+    },
+    {
+     "provider": "nrhp",
+     "id": "04000264"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/King_House_Lake_Butler01.jpg/1920px-King_House_Lake_Butler01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:King_House_Lake_Butler01.jpg",
+     "alt": "Photograph of John A. King House",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7830164",
+   "slug": "townsend-green-building",
+   "name": "Townsend Green Building",
+   "aliases": [
+    "Townsend Building"
+   ],
+   "description": "building in Florida, United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lake-butler-city-union-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.0225,
+    "lon": -82.3425
+   },
+   "wikipedia": {
+    "title": "Townsend Building (Lake Butler, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Townsend_Building_(Lake_Butler,_Florida)",
+    "extract": "The Townsend Building (also known as the Old Drugstore) is a historic building located at 410 West Main Street in Lake Butler, Florida. Although damaged by fire, it retains significant architectural features which reflect the two-part block commercial design which was popular at the time, and Italian Renaissance Style.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1900",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7830164 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "410 W Main St, Lake Butler, FL 32054",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7830164 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7830164 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "92001359",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7830164 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7830164"
+    },
+    {
+     "provider": "nrhp",
+     "id": "92001359"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Townsend_Bldg_Lake_Butler01.jpg/1920px-Townsend_Bldg_Lake_Butler01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Townsend_Bldg_Lake_Butler01.jpg",
+     "alt": "Photograph of Townsend Green Building",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7956560",
+   "slug": "wucr-lp",
+   "name": "WUCR-LP",
+   "aliases": [],
+   "description": "radio station in Lake Butler, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lake-butler-city-union-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.0186,
+    "lon": -82.3418
+   },
+   "officialUrl": "https://www.unioncountyradio.com/",
+   "wikipedia": {
+    "title": "WUCR-LP",
+    "url": "https://en.wikipedia.org/wiki/WUCR-LP",
+    "extract": "WUCR-LP (107.9 FM) is a radio station licensed to Lake Butler, Florida, United States.  The station is currently owned by Synewave Communications, Inc.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7956560"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q12071804",
+   "slug": "union-county-high-school",
+   "name": "Union County High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "lake-butler-city-union-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.0149,
+    "lon": -82.3394
+   },
+   "officialUrl": "https://union.uchs.schooldesk.net/",
+   "wikipedia": {
+    "title": "Union County High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Union_County_High_School_(Florida)",
+    "extract": "Union County High School is an American high school located in Lake Butler, Florida, whose history dates to the 1920s after the secession from Bradford County, when it was originally located as the Lake Butler Middle School. Before segregation ended, it was an all-white school and the now elementary school served the county's African-American population. It now serves secondary students within the Union County school district in grades 9-12. The school offers special curricula which include Honors courses, Advanced Placement, and Vo-Tech courses.\nThe school has been accredited by the Southern Association of Colleges and Schools since December 31, 1960.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1908",
+     "sourceId": "wikidata",
+     "sourceRef": "Q12071804 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1000 S Lake Ave, Lake Butler, FL 32054",
+     "sourceId": "wikidata",
+     "sourceRef": "Q12071804 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q12071804"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/UCHSFlorida.JPG/1920px-UCHSFlorida.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:UCHSFlorida.JPG",
+     "alt": "Photograph of Union County High School",
+     "credit": "Excel23",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q3146662",
+   "slug": "iga",
+   "name": "IGA",
+   "aliases": [
+    "Independent Grocers Alliance",
+    "Independent Grocers Alliance of America"
+   ],
+   "description": "U.S. brand of franchise grocery stores, operating in more than 30 countries",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "union-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.iga.com/",
+   "wikipedia": {
+    "title": "IGA, Inc.",
+    "url": "https://en.wikipedia.org/wiki/IGA,_Inc.",
+    "extract": "IGA, INC. is an international affiliation of franchised grocery stores that are independently owned and operated.  As of 2026, the network included nearly 7,500 supermarkets in more than 30 countries, representing $80 billion in annual sales — with many IGA stores operating in small-town markets and owned by their managing families. \nHeadquartered in Chicago, Illinois, IGA was founded in 1926 the United States as the Independent Grocers Alliance.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1926-05",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3146662 inside Union County boundary",
+     "scopeAreaSlug": "union-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3146662"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/IGA_logo.svg/1920px-IGA_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:IGA_logo.svg",
+     "alt": "IGA logo",
+     "credit": "IGA",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "union-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Union County boundary",
+     "scopeAreaSlug": "union-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "union-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Union County boundary",
+     "scopeAreaSlug": "union-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q109675651",
+   "slug": "exxon",
+   "name": "Exxon",
+   "aliases": [],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "union-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109675651 inside Union County boundary",
+     "scopeAreaSlug": "union-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109675651"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "union-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com/",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T22:19:58.986Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Union County boundary",
+     "scopeAreaSlug": "union-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "union-county-fl",
+  "wikidataCandidates": 19,
+  "places": 4,
+  "brands": 5,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 8,
+  "withFreeImage": 8,
+  "withCoordinates": 4,
+  "osmBrandedLocations": 5,
+  "unmappedClasses": 4
+ }
+}

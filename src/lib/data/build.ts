@@ -349,6 +349,18 @@ export function buildDataset(inputs: SeedInputs): Dataset {
 
   // ---- enrichment bundles (Wikidata places, OSM brands): enrich curated entities or add new ones
   const entityIdByQid = new Map<string, string>();
+  // Indexes so merging tens of thousands of records stays linear (no find/some inside loops).
+  const entityRowById = new Map(entities.map((x) => [x.id, x]));
+  const entityRowBySlug = new Map(entities.map((x) => [x.slug, x]));
+  const factIds = new Set(facts.map((x) => x.id));
+  const eaKey = (e: string, a: string, r: string) => `${e}|${a}|${r}`;
+  const entityAreaByKey = new Map(entityAreas.map((x) => [eaKey(x.entityId, x.areaId, x.relationType), x]));
+  const pushEntityArea = (row: (typeof entityAreas)[number]) => {
+    const k = eaKey(row.entityId, row.areaId, row.relationType);
+    if (entityAreaByKey.has(k)) return;
+    entityAreaByKey.set(k, row);
+    entityAreas.push(row);
+  };
   const pendingRelations: { from: string; type: string; toQid: string }[] = [];
   const relKeys2 = new Set(entityRelations.map((r) => `${r.fromEntityId}|${r.relationType}|${r.toEntityId}`));
   for (const bundle of inputs.enrichments) {
@@ -358,24 +370,25 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       if (entityIdByQid.has(r.qid)) {
         // Already added by an earlier bundle (another area): add its area links and per-area (scoped) facts only.
         const id = entityIdByQid.get(r.qid)!;
-        const slugOf = entities.find((x) => x.id === id)!.slug;
+        const slugOf = entityRowById.get(id)!.slug;
         for (const f of r.facts) {
           if (!f.scopeAreaSlug) continue;
           const fid = stableId("fact", `entity:${slugOf}:${f.key}:${f.sourceId}:${f.scopeAreaSlug}`);
-          if (facts.some((x) => x.id === fid)) continue;
+          if (factIds.has(fid)) continue;
+          factIds.add(fid);
           facts.push({
             id: fid, areaId: null, entityId: id, key: f.key, valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
             unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
             reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: areaId(f.scopeAreaSlug, `fact ${f.key}`),
           });
         }
-        const row0 = entities.find((x) => x.id === id)!;
+        const row0 = entityRowById.get(id)!;
         row0.prominence = Math.max(row0.prominence, r.prominence ?? 0);
-        for (const a of r.areas) if (!entityAreas.some((x) => x.entityId === id && x.areaId === areaIdBySlug.get(a.slug) && x.relationType === a.relation))
-          entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+        for (const a of r.areas)
+          pushEntityArea({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
         continue;
       }
-      let row = r.curatedSlug ? entities.find((e) => e.slug === r.curatedSlug) : undefined;
+      let row = r.curatedSlug ? entityRowBySlug.get(r.curatedSlug) : undefined;
       if (!row) {
         if (entityIdBySlug.has(r.slug) || areaIdBySlug.has(r.slug)) throw new DatasetError(`enrichment slug collision ${r.slug}`);
         const id = stableId("entity", r.slug);
@@ -389,21 +402,23 @@ export function buildDataset(inputs: SeedInputs): Dataset {
           lat: null, lon: null, wikidataId: null, wikipedia: null, prominence: 0,
         };
         entities.push(row);
+        entityRowById.set(row.id, row);
+        entityRowBySlug.set(row.slug, row);
         r.categories.forEach((c) => {
           const categoryId = categoryIdBySlug.get(c.slug);
           if (!categoryId) throw new DatasetError(`enrichment ${r.slug}: unknown category ${c.slug}`);
           entityCategories.push({ entityId: id, categoryId, isPrimary: c.primary });
         });
         for (const a of r.areas)
-          entityAreas.push({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+          pushEntityArea({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
       } else {
         row.officialUrl ??= r.officialUrl ?? null;
         // Add the Wikidata-backed area links (coordinates / statements) the curated record lacks or has only unverified.
         const curatedId = row.id;
         for (const a of r.areas) {
           const aId = areaId(a.slug, `enrich ${r.slug}`);
-          const existing = entityAreas.find((x) => x.entityId === curatedId && x.areaId === aId && x.relationType === a.relation);
-          if (!existing) entityAreas.push({ entityId: curatedId, areaId: aId, relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: "Wikidata coordinates / statements" });
+          const existing = entityAreaByKey.get(eaKey(curatedId, aId, a.relation));
+          if (!existing) pushEntityArea({ entityId: curatedId, areaId: aId, relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: "Wikidata coordinates / statements" });
           else if (existing.reviewStatus === "unreviewed") {
             existing.reviewStatus = "imported";
             existing.note = "Confirmed by Wikidata coordinates / statements";
@@ -420,8 +435,11 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       row.prominence = Math.max(row.prominence, r.prominence ?? 0);
       if (r.wikipedia?.extract) row.wikipedia = r.wikipedia;
       for (const f of r.facts) {
+        const fid = stableId("fact", `entity:${row.slug}:${f.key}:${f.sourceId}:${f.scopeAreaSlug ?? ""}`);
+        if (factIds.has(fid)) continue;
+        factIds.add(fid);
         facts.push({
-          id: stableId("fact", `entity:${row.slug}:${f.key}:${f.sourceId}:${f.scopeAreaSlug ?? ""}`), areaId: null, entityId: id, key: f.key,
+          id: fid, areaId: null, entityId: id, key: f.key,
           valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
           unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
           reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: f.scopeAreaSlug ? areaId(f.scopeAreaSlug, `fact ${f.key}`) : null,

@@ -94,7 +94,7 @@ export class FixtureProvider implements DataProvider {
 
   /** Most specific trustworthy area for display ("Jacksonville", "Southside"). */
   private placeOf(e: EntityRow): AreaRow | null {
-    const links = this.ds.entityAreas.filter((ea) => ea.entityId === e.id).map((ea) => ({ ea, area: this.idx.areaById.get(ea.areaId)! }));
+    const links = (this.idx.areasByEntity.get(e.id) ?? []).map((ea) => ({ ea, area: this.idx.areaById.get(ea.areaId)! }));
     if (!links.length) return null;
     links.sort((x, y) => {
       const tx = TRUSTED.includes(x.ea.reviewStatus) ? 1 : 0;
@@ -106,7 +106,7 @@ export class FixtureProvider implements DataProvider {
   }
 
   private entitySummary(e: EntityRow): EntitySummary {
-    const primary = this.ds.entityCategories.find((ec) => ec.entityId === e.id && ec.isPrimary)!;
+    const primary = (this.idx.categoriesByEntity.get(e.id) ?? []).find((ec) => ec.isPrimary)!;
     const cat = this.idx.categoryById.get(primary.categoryId)!;
     const place = this.placeOf(e);
     const img = this.imageOf(e.id);
@@ -171,7 +171,7 @@ export class FixtureProvider implements DataProvider {
     for (const [id, v] of byEntity) {
       const e = this.idx.entityById.get(id)!;
       if (!this.visible(e)) continue;
-      if (allowed && !this.ds.entityCategories.some((ec) => ec.entityId === e.id && allowed.has(ec.categoryId))) continue;
+      if (allowed && !(this.idx.categoriesByEntity.get(e.id) ?? []).some((ec) => allowed.has(ec.categoryId))) continue;
       rows.push({ entity: this.entitySummary(e), count: v.n, asOf: v.asOf });
     }
     const byName = (a: BrandPresence, b: BrandPresence) => a.entity.name.localeCompare(b.entity.name, "en");
@@ -247,14 +247,14 @@ export class FixtureProvider implements DataProvider {
     const e = this.idx.entityBySlug.get(slug);
     if (!e || !this.visible(e)) return null;
     const summary = this.entitySummary(e);
-    const cats = this.ds.entityCategories
+    const cats = (this.idx.categoriesByEntity.get(e.id) ?? [])
       .filter((ec) => ec.entityId === e.id)
       .map((ec) => {
         const c = this.idx.categoryById.get(ec.categoryId)!;
         return { ...categoryRef(c), isPrimary: ec.isPrimary, path: this.idx.categoryPath(c).map(categoryRef) };
       })
       .sort((x, y) => Number(y.isPrimary) - Number(x.isPrimary));
-    const areas = this.ds.entityAreas
+    const areas = (this.idx.areasByEntity.get(e.id) ?? [])
       .filter((ea) => ea.entityId === e.id)
       .map((ea) => {
         const a = this.idx.areaById.get(ea.areaId)!;
@@ -262,7 +262,7 @@ export class FixtureProvider implements DataProvider {
       })
       .sort((x, y) => AREA_DEPTH_RANK[x.areaType] - AREA_DEPTH_RANK[y.areaType]);
     const relations: EntityDetail["relations"] = [];
-    for (const r of this.ds.entityRelations) {
+    for (const r of this.idx.relationsByEntity.get(e.id) ?? []) {
       if (r.reviewStatus === "rejected") continue;
       const other = r.fromEntityId === e.id ? r.toEntityId : r.toEntityId === e.id ? r.fromEntityId : null;
       if (!other) continue;
@@ -270,7 +270,7 @@ export class FixtureProvider implements DataProvider {
       if (!this.visible(o)) continue;
       relations.push({ entity: this.entitySummary(o), relationType: r.relationType, direction: r.fromEntityId === e.id ? "out" : "in", reviewStatus: r.reviewStatus, verifiedAt: r.verifiedAt, evidence: r.evidence, sourceId: r.sourceId });
     }
-    const facts = this.ds.facts.filter((f) => f.entityId === e.id && f.reviewStatus !== "rejected");
+    const facts = (this.idx.factsByEntity.get(e.id) ?? []).filter((f) => f.reviewStatus !== "rejected");
     const sourceIds = new Set<string>([...(e.primarySourceId ? [e.primarySourceId] : []), ...facts.map((f) => f.sourceId)]);
     for (const s of this.ds.sources) if (s.entityId === e.id) sourceIds.add(s.id);
     for (const r of this.ds.entityRelations) if (r.fromEntityId === e.id && r.sourceId) sourceIds.add(r.sourceId);
@@ -283,11 +283,11 @@ export class FixtureProvider implements DataProvider {
       externalIds: this.ds.externalIds.filter((x) => x.entityId === e.id).map((x) => ({ provider: x.provider, externalId: x.externalId })),
       openIssues: this.ds.reviewIssues.filter((i) => i.entityId === e.id && i.status === "open").length,
       lat: e.sensitiveLocation ? null : e.lat, lon: e.sensitiveLocation ? null : e.lon, wikidataId: e.wikidataId, wikipedia: e.wikipedia,
-      presence: this.ds.facts
+      presence: (this.idx.factsByEntity.get(e.id) ?? [])
         .filter((f) => f.entityId === e.id && f.key === "osm-location-count" && f.scopeAreaId && f.valueNum !== null)
         .map((f) => ({ areaSlug: this.idx.areaById.get(f.scopeAreaId!)!.slug, areaName: this.idx.areaById.get(f.scopeAreaId!)!.name, count: f.valueNum!, asOf: f.asOf }))
         .sort((x, y) => y.count - x.count || (x.areaSlug < y.areaSlug ? -1 : 1)),
-      media: this.ds.media.filter((m) => m.entityId === e.id).sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : 1)),
+      media: [...(this.idx.mediaByEntity.get(e.id) ?? [])].sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : 1)),
     };
   }
 

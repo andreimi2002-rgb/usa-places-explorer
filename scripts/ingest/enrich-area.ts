@@ -14,7 +14,7 @@
  * small delays. Raw responses are not stored; only the derived, attributed fields.
  */
 import path from "node:path";
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { unzipSync } from "fflate";
 import * as shapefile from "shapefile";
 import { geoArea, geoBounds, geoContains } from "d3-geo";
@@ -35,6 +35,16 @@ const OVERPASS_ENDPOINTS = ["https://overpass-api.de/api/interpreter", "https://
 const FREE_LICENSE = /^(cc0|cc[- ]zero|public domain|pd\b|pd-|cc[- ]by(-sa)?[- ]\d(\.\d)?|cc[- ]by(-sa)?$)/i;
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+/** Keep only well-formed http(s) URLs (Wikidata occasionally holds malformed website values). */
+const validUrl = (u: string | undefined) => {
+  if (!u) return undefined;
+  try {
+    const p = new URL(u);
+    return p.protocol === "https:" || p.protocol === "http:" ? p.toString() : undefined;
+  } catch {
+    return undefined;
+  }
+};
 const headers = { "user-agent": USER_AGENT, accept: "application/json" };
 const CACHE_DIR = path.join(RAW_DIR, "enrich-cache");
 const PACE_MS = Number(process.env.ENRICH_PACE_MS ?? 1200); // gap between live requests (Wikimedia rate limits)
@@ -50,19 +60,38 @@ async function getJson<T>(url: string, init: RequestInit = {}, tries = 6): Promi
   const key = sha256(`${init.method ?? "GET"} ${url} ${typeof init.body === "string" ? init.body : init.body ? String(init.body) : ""}`);
   const file = path.join(CACHE_DIR, `${key}.json`);
   if (existsSync(file)) {
-    cacheHits++;
-    return JSON.parse(readFileSync(file, "utf8")) as T;
+    try {
+      const cached = JSON.parse(readFileSync(file, "utf8")) as T;
+      cacheHits++;
+      return cached;
+    } catch {
+      // A truncated cache entry (e.g. the process died mid-write): drop it and fetch again.
+      rmSync(file, { force: true });
+    }
   }
   for (let i = 1; ; i++) {
     const gap = Date.now() - lastLive;
     if (gap < PACE_MS) await sleep(PACE_MS - gap);
     lastLive = Date.now();
     liveRequests++;
-    const res = await fetch(url, { ...init, headers: { ...headers, ...(init.headers ?? {}) } });
-    if (res.ok) {
-      const text = await res.text();
+    let res: Response;
+    let text: string | null = null;
+    try {
+      res = await fetch(url, { ...init, headers: { ...headers, ...(init.headers ?? {}) } });
+      if (res.ok) text = await res.text();
+    } catch (err) {
+      // Network-level failure (connection reset, timeout): back off and retry like a 5xx.
+      if (i >= tries) throw err;
+      const wait = Math.min(5000 * 2 ** (i - 1), 60_000);
+      console.log(`  network error on ${new URL(url).hostname} (${(err as Error).message}), waiting ${Math.round(wait / 1000)}s (retry ${i}/${tries - 1})`);
+      await sleep(wait);
+      continue;
+    }
+    if (text !== null) {
       mkdirSync(CACHE_DIR, { recursive: true });
-      writeFileSync(file, text);
+      // Atomic write: a crash can never leave a half-written cache entry.
+      writeFileSync(`${file}.tmp`, text);
+      renameSync(`${file}.tmp`, file);
       return JSON.parse(text) as T;
     }
     if (i >= tries || (res.status !== 429 && res.status < 500)) throw new Error(`${res.status} ${url.slice(0, 120)}`);
@@ -386,7 +415,7 @@ async function main() {
       qid, name, baseSlug: slugify(name), aliases: (e.aliases?.en ?? []).map((a) => a.value).slice(0, 5),
       description: e.descriptions?.en?.value, entityType, status: dissolved || isHistorical ? "historical" : "active",
       origin: isBrand ? "osm-brand" : "wikidata-place", prominence: 0, categories, areas, coords: isBrand ? undefined : c,
-      officialUrl: str(e, "P856")[0]?.replace(/^http:\/\//, "https://"),
+      officialUrl: validUrl(str(e, "P856")[0]?.replace(/^http:\/\//, "https://")),
       facts, relations, externalIds, media: [],
       curatedSlug: claimCurated(curatedByName.get(normalize(name))),
       wikipedia: wpTitle ? { title: wpTitle, url: e.sitelinks?.enwiki?.url ?? `https://en.wikipedia.org/wiki/${encodeURIComponent(wpTitle)}`, extract: "", retrievedAt } : undefined,

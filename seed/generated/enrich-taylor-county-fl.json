@@ -1,0 +1,3293 @@
+{
+ "generatedAt": "2026-11-27T22:18:42.186Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "taylor-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T22:18:42.186Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T22:18:42.186Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Taylor County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T22:18:42.186Z",
+   "checksumSha256": "90df3d604ade3f8a84baede073433f52c9cf3984c8db0f6ce1994bc8480f496e"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q134467492",
+   "slug": "county-road-30",
+   "name": "County Road 30",
+   "aliases": [
+    "Taylor County Road 30",
+    "Foley Road",
+    "Old Dixie Highway"
+   ],
+   "description": "county road in Taylor County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.069417,
+    "lon": -83.555643
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134467492 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134467492"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Georgia_and_Florida_Railway_crossing_Foley_Road%2C_Foley.jpg/1920px-Georgia_and_Florida_Railway_crossing_Foley_Road%2C_Foley.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Georgia_and_Florida_Railway_crossing_Foley_Road,_Foley.jpg",
+     "alt": "Photograph of County Road 30",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q134467918",
+   "slug": "county-road-356a",
+   "name": "County Road 356A",
+   "aliases": [
+    "Taylor County Road 356A",
+    "Red Padgett Road"
+   ],
+   "description": "county road in Taylor County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.062523,
+    "lon": -83.541793
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134467918 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134467918"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5333328",
+   "slug": "econfina-river-state-park",
+   "name": "Econfina River State Park",
+   "aliases": [],
+   "description": "Florida state park",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.06,
+    "lon": -83.9061
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/econfina-river-state-park",
+   "wikipedia": {
+    "title": "Econfina River State Park",
+    "url": "https://en.wikipedia.org/wiki/Econfina_River_State_Park",
+    "extract": "Econfina River State Park is a Florida State Park, covering 3,377 acres (14 km2) located on the Gulf of Mexico at the mouth of the Econfina River. The address is 4384 Econfina River Road, Lamont, Florida, United States.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 4528,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5333328 P2046"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5333328"
+    },
+    {
+     "provider": "geonames",
+     "id": "4154178"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Econfina_River_State_Park_-_boat_launch.jpg/1920px-Econfina_River_State_Park_-_boat_launch.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Econfina_River_State_Park_-_boat_launch.jpg",
+     "alt": "Photograph of Econfina River State Park",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q29095275",
+   "slug": "fenholloway-river",
+   "name": "Fenholloway River",
+   "aliases": [],
+   "description": "river in Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9773,
+    "lon": -83.7854
+   },
+   "wikipedia": {
+    "title": "Fenholloway River",
+    "url": "https://en.wikipedia.org/wiki/Fenholloway_River",
+    "extract": "The Fenholloway River is a stream in Taylor County, Florida.\nLocated along the river and near the town of Perry, Florida is the Foley Cellulose mill, formerly known as the Buckeye Mill, which was purchased by Georgia-Pacific in 2013. Georgia-Pacific invested over $300 million in mill improvements to complete the Fenholloway Water Quality Project in September 2020.\nThe headwaters of the river are in San Pedro Bay, an area of wetlands.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q29095275"
+    },
+    {
+     "provider": "geonames",
+     "id": "4154980"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5468807",
+   "slug": "forest-capital-museum-state-park",
+   "name": "Forest Capital Museum State Park",
+   "aliases": [],
+   "description": "State park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.0861,
+    "lon": -83.5461
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/forest-capital-museum-state-park",
+   "wikipedia": {
+    "title": "Forest Capital Museum State Park",
+    "url": "https://en.wikipedia.org/wiki/Forest_Capital_Museum_State_Park",
+    "extract": "Forest Capital State Museum is a 13-acre (5.3 ha) Florida State Park located 1-mile (1.6 km) south of Perry on US 19/US 98. The museum contains displays that recount the history of the forest industry as well as the wildlife of the forest. Adjacent to the museum is the Cracker Homestead built in 1864 that depicts life on a Florida homestead with a house, barn, well, arbor, and garden. The park also hosts the annual Florida Forest Festival event in October, which is a 50+ year tradition.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5468807"
+    },
+    {
+     "provider": "geonames",
+     "id": "4155823"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Forest_Capital_Museum_SP_cracker01d.jpg/1920px-Forest_Capital_Museum_SP_cracker01d.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Forest_Capital_Museum_SP_cracker01d.jpg",
+     "alt": "Photograph of Forest Capital Museum State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7953356",
+   "slug": "wpry-fm",
+   "name": "WPRY-FM",
+   "aliases": [],
+   "description": "radio station in Perry, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.0881,
+    "lon": -83.4961
+   },
+   "wikipedia": {
+    "title": "WPRY-FM",
+    "url": "https://en.wikipedia.org/wiki/WPRY-FM",
+    "extract": "WPRY-FM (92.1 FM) was a radio station broadcasting a classic rock format. Licensed to Perry, Florida, United States, the station served the Tallahassee area. The station was owned by Fred Dockins, through licensee Dockins Communications, Inc.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1991",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7953356 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7953356"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q134366777",
+   "slug": "county-road-14-q134366777",
+   "name": "County Road 14",
+   "aliases": [
+    "Taylor County Road 14"
+   ],
+   "description": "county road in Taylor County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.293056,
+    "lon": -83.679498
+   },
+   "wikipedia": {
+    "title": "County Road 14 (Taylor County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Florida_State_Road_14",
+    "extract": "State Road 14 (SR 14) is a northeast-southwest route in Madison County, Florida.  The western terminus is near an interchange with Interstate 10 (unsigned SR 8) and County Road 14 (CR 14) near Madison; the eastern terminus is an intersection with Duval Street (SR 53) in the city of Madison itself.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134366777 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134366777"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q134404303",
+   "slug": "county-road-356",
+   "name": "County Road 356",
+   "aliases": [
+    "Taylor County Road 356",
+    "East Green Street",
+    "San Pedro Bay Road",
+    "Hampton Springs Road",
+    "Woods Creek Road"
+   ],
+   "description": "county road in Taylor County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.117415,
+    "lon": -83.551226
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134404303 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134404303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/San_Pedro_Bay_Road_bridge_over_Spring_Creek.jpg/1920px-San_Pedro_Bay_Road_bridge_over_Spring_Creek.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Pedro_Bay_Road_bridge_over_Spring_Creek.jpg",
+     "alt": "Photograph of County Road 356",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q134467913",
+   "slug": "county-road-356c",
+   "name": "County Road 356C",
+   "aliases": [
+    "Taylor County Road 356C",
+    "Foley Cut Off Road",
+    "Buckeye Credit Union Road"
+   ],
+   "description": "county road in Taylor County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.068922,
+    "lon": -83.53354
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134467913 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134467913"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Taylor_CR356C_bridge_over_Fenholloway_River.jpg/1920px-Taylor_CR356C_bridge_over_Fenholloway_River.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Taylor_CR356C_bridge_over_Fenholloway_River.jpg",
+     "alt": "Photograph of County Road 356C",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q138698162",
+   "slug": "county-road-358",
+   "name": "County Road 358",
+   "aliases": [
+    "Taylor County Road 358",
+    "10th Street East"
+   ],
+   "description": "county road in Taylor County, Florida, United States",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "steinhatchee-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.670401,
+    "lon": -83.378294
+   },
+   "wikipedia": {
+    "title": "County Road 358 (Taylor County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/List_of_county_roads_in_Taylor_County,_Florida",
+    "extract": "The following is a list of county roads in Taylor County, Florida, United States.  All county roads are maintained by the county in which they reside.\nThis list includes only those county roads that are numbered in the statewide grid, not those with locally-assigned numbers.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Taylor County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q138698162 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q138698162"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Taylor_CR358_at_1st_Avenue_SE%2C_Steinhatchee%2C_Florida.jpg/1920px-Taylor_CR358_at_1st_Avenue_SE%2C_Steinhatchee%2C_Florida.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Taylor_CR358_at_1st_Avenue_SE,_Steinhatchee,_Florida.jpg",
+     "alt": "Photograph of County Road 358",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7169711",
+   "slug": "perry-foley-airport",
+   "name": "Perry-Foley Airport",
+   "aliases": [
+    "FPY"
+   ],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.072222,
+    "lon": -83.578333
+   },
+   "officialUrl": "https://www.tcda-fl.org/perry_foley.html",
+   "wikipedia": {
+    "title": "Perry–Foley Airport",
+    "url": "https://en.wikipedia.org/wiki/Perry%E2%80%93Foley_Airport",
+    "extract": "Perry–Foley Airport (IATA: FPY, ICAO: KFPY, FAA LID: FPY) is a public-use airport located 3 miles (4.8 km) south of the central business district of the city of Perry in Taylor County, Florida, United States. The airport is publicly owned.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7169711"
+    },
+    {
+     "provider": "iata",
+     "id": "FPY"
+    },
+    {
+     "provider": "icao",
+     "id": "KFPY"
+    },
+    {
+     "provider": "geonames",
+     "id": "6297536"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Perry-Foley_Airport_-_Florida.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Perry-Foley_Airport_-_Florida.jpg",
+     "alt": "Photograph of Perry-Foley Airport",
+     "credit": "US Geological Survey",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7954458",
+   "slug": "wpry",
+   "name": "WPRY",
+   "aliases": [],
+   "description": "radio station in Perry, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "perry-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.1075,
+    "lon": -83.5667
+   },
+   "wikipedia": {
+    "title": "WPRY (AM)",
+    "url": "https://en.wikipedia.org/wiki/WPRY_(AM)",
+    "extract": "WPRY (1400 kHz) was an AM radio station that broadcast a classic hits format. Licensed to Perry, Florida, United States, the station was owned by Dockins Communications, Inc. WPRY was heard on an FM translator on 95.3 MHz.\nDockins Communications surrendered WPRY's license to the Federal Communications Commission on January 31, 2024; it was cancelled the same day. The license was reinstated on February 16, 2024, then cancelled again on December 12, 2024.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7954458 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7954458"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q16996162",
+   "slug": "wfdz",
+   "name": "WFDZ",
+   "aliases": [],
+   "description": "radio station in Perry, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "perry-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.1075,
+    "lon": -83.5667
+   },
+   "officialUrl": "https://froggy93online.com/",
+   "wikipedia": {
+    "title": "WFDZ",
+    "url": "https://en.wikipedia.org/wiki/WFDZ",
+    "extract": "WFDZ (93.5 FM) is a radio station licensed to Perry, Florida.  The station broadcasts a country music format and is owned by Dockins Communications, Inc.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16996162"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q19987565",
+   "slug": "pimple-creek",
+   "name": "Pimple Creek",
+   "aliases": [],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "perry-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.115278,
+    "lon": -83.594444
+   },
+   "wikipedia": {
+    "title": "Pimple Creek",
+    "url": "https://en.wikipedia.org/wiki/Pimple_Creek",
+    "extract": "Pimple Creek is a stream in Taylor County, Florida, in the United States.\nPimple Creek formed a boundary of Perry, Florida when Perry was incorporated in 1905. and it is still around. And has flooded the Roadway on one occasion [1]",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q19987565"
+    },
+    {
+     "provider": "geonames",
+     "id": "4168406"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q744149",
+   "slug": "wells-fargo",
+   "name": "Wells Fargo",
+   "aliases": [
+    "Wells Fargo Bank",
+    "International company"
+   ],
+   "description": "American multinational banking and financial services company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 49,
+   "categories": [
+    {
+     "slug": "bank-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wellsfargo.com/",
+   "wikipedia": {
+    "title": "Wells Fargo",
+    "url": "https://en.wikipedia.org/wiki/Wells_Fargo",
+    "extract": "Wells Fargo & Company is an American multinational financial services company. The company operates in 35 countries and serves more than 70 million customers worldwide. It is a systemically important financial institution according to the Financial Stability Board, and is considered one of the Big Four banks in the United States, alongside JPMorgan Chase, Bank of America, and Citigroup.\nThe company's primary subsidiary is Wells Fargo Bank, N.A., a national bank that designates its Sioux Falls, South Dakota, site as its main office (and therefore is treated by most U.S. federal courts as a citizen of South Dakota). It is the fourth-largest bank in the United States by total assets and is also one of the largest as ranked by bank deposits and market capitalization. It has 8,050 branches and 13,000 automated teller machines and 2,000 stand-alone mortgage branches. It is the second-largest retail mortgage originator in the United States, originating one out of every four home loans, and services $1.8 trillion in home mortgages, one of the largest servicing portfolios in the U.S. It is one of the most valuable bank brands. Wells Fargo is ranked 47th on the Fortune 500 list of the largest companies in the U.S.\nIn addition to banking, the company provides equipment financing via subsidiaries including Wells Fargo Rail and provides investment management and stockbrokerage services. A key part of Wells Fargo's business strategy is cross-selling, the practice of encouraging existing customers to buy additional banking services. This led to the Wells Fargo cross-selling scandal.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1852-03-18",
+     "sourceId": "wikidata",
+     "sourceRef": "Q744149 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Berkshire Hathaway; BlackRock; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q744149 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "San Francisco",
+     "sourceId": "wikidata",
+     "sourceRef": "Q744149 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Henry Wells; William Fargo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q744149 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q744149 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q744149"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1920px-Wells_Fargo_Logo_%282020%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Logo_(2020).svg",
+     "alt": "Wells Fargo logo",
+     "credit": "Wells Fargo",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q839466",
+   "slug": "dominos-pizza",
+   "name": "Domino's Pizza",
+   "aliases": [
+    "Domino's Pizza, Inc."
+   ],
+   "description": "American pizza restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 57,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dominos.com/",
+   "wikipedia": {
+    "title": "Domino's",
+    "url": "https://en.wikipedia.org/wiki/Domino%27s",
+    "extract": "Domino's Pizza, Inc., trading as Domino's, is an American multinational pizza restaurant chain founded in 1960. The corporation is Delaware-domiciled and headquartered at the Domino's Farms office park in Ann Arbor Township near Ann Arbor, Michigan. As of 2018, Domino's had approximately 15,000 stores, with 5,649 in the United States, 1,500 in India, and 1,249 in the United Kingdom. Domino's has stores in more than 83 countries and 5,701 cities worldwide.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-06-10",
+     "sourceId": "wikidata",
+     "sourceRef": "Q839466 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Ann Arbor Charter Township; Domino's Farms; Ann Arbor Charter Township",
+     "sourceId": "wikidata",
+     "sourceRef": "Q839466 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Tom Monaghan; James Monaghan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q839466 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Bain Capital",
+     "sourceId": "wikidata",
+     "sourceRef": "Q839466 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q839466 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q839466"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Domino%27s_2025.svg/1920px-Domino%27s_2025.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Domino%27s_2025.svg",
+     "alt": "Domino's Pizza logo",
+     "credit": "Domino's Pizza Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q191615",
+   "slug": "pizza-hut",
+   "name": "Pizza Hut",
+   "aliases": [
+    "Pizza Hut, Inc.",
+    "Pizza Hut Express",
+    "Pizza Hut mobile app"
+   ],
+   "description": "American restaurant chain and international franchise",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 96,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pizzahut.com/",
+   "wikipedia": {
+    "title": "Pizza Hut",
+    "url": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "extract": "Pizza Hut, LLC is an American multinational pizza restaurant chain and international franchise founded in 1958 in Wichita, Kansas, by brothers Dan and Frank Carney. The chain, headquartered in Plano, Texas, operates 19,974 restaurants worldwide as of 2025.\nWhile studying at Wichita State University, the Carneys opened their first location, which quickly expanded to six outlets within a year. The brand began franchising in 1959, and its distinctive building style was designed by Chicagoan architect George Lindstrom in 1963. Pizza Hut experienced significant growth, including the acquisition by PepsiCo in 1977, followed by a spin-off into Tricon Global Restaurants, Inc., later renamed Yum! Brands in 2002, who are the former owners, and later, the acquisition by LongRange Capital and Yum China in 2026.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2002-06-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dan and Frank Carney",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q191615 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q191615 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q191615"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pizza_Hut_%282019%29.svg/1920px-Pizza_Hut_%282019%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_(2019).svg",
+     "alt": "Pizza Hut logo",
+     "credit": "This logo was devised when the chain was still functioning independently, and then carried over into its subsequent acqu",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1423218",
+   "slug": "sunoco",
+   "name": "Sunoco",
+   "aliases": [
+    "Sunoco Inc.",
+    "Japan Sun Oil",
+    "Sun Oil Company"
+   ],
+   "description": "American petroleum and petrochemical manufacturer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "convenience-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sunoco.com/",
+   "wikipedia": {
+    "title": "Sunoco",
+    "url": "https://en.wikipedia.org/wiki/Sunoco",
+    "extract": "Sunoco LP  is an American vehicle gasoline master limited partnership company organized under Delaware state law and headquartered in Dallas, Texas. Dating back to 1886, the company has transformed from a vertically integrated energy company to a distributor of fuels and operator of energy infrastructure. It was previously engaged in oil, natural gas exploration and production, refining, chemical manufacturing, and retail fuel sales, but divested these businesses.\nThe partnership was known as Sun Oil Company from 1890 to 1976, and as Sun Company Inc. from 1976 to 1998. The Sunoco name is a contraction of SUN Oil COmpany.\nIts current operational focus dates back to 2018, when it divested the non–core convenience store operations to 7-Eleven for $3.2 billion, which allowed for Sunoco LP to improve its financial position. The transaction also provided a long-term take or pay fuel supply agreement with 7-Eleven to generate consistent earnings and cash flows. As of 2024, Sunoco still operates 76 retail locations, all of which are located in New Jersey and Hawaii, the latter branded as Aloha Petroleum, Ltd..",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dallas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Newton Pew",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1423218 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1423218"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg/1920px-Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunoco_station,_Saratoga_Springs,_NY.jpg",
+     "alt": "Photograph of Sunoco",
+     "credit": "NNECAPA Photo Library",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q48881",
+   "slug": "sherwin-williams",
+   "name": "Sherwin-Williams",
+   "aliases": [
+    "Sherwin-Williams Company",
+    "Sherwin Williams"
+   ],
+   "description": "American paint and coatings manufacturing company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sherwin-williams.com/",
+   "wikipedia": {
+    "title": "Sherwin-Williams",
+    "url": "https://en.wikipedia.org/wiki/Sherwin-Williams",
+    "extract": "Sherwin-Williams is an American paints and coatings company based in Cleveland, Ohio. It is primarily engaged in the manufacture, distribution, and sale of paints, coatings, floor coverings, and related products with operations in over 120 countries. It is the largest coatings company in the world by revenue.\nThe company is ranked 191st on the Fortune 500 and 453rd on the Forbes Global 2000. Sherwin-Williams has created more than 35,000 color names for paint over its history, and as of 2023, it has nearly 200 distinct shades of white classified as either warm or cool.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1866",
+     "sourceId": "wikidata",
+     "sourceRef": "Q48881 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Cleveland",
+     "sourceId": "wikidata",
+     "sourceRef": "Q48881 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Henry Sherwin; Edward Williams",
+     "sourceId": "wikidata",
+     "sourceRef": "Q48881 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q48881 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q48881"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sherwin-Williams_wordmark.svg/1920px-Sherwin-Williams_wordmark.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sherwin-Williams_wordmark.svg",
+     "alt": "Sherwin-Williams logo",
+     "credit": "™/®The Sherwin-Williams Company",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5928324",
+   "slug": "huddle-house",
+   "name": "Huddle House",
+   "aliases": [],
+   "description": "US restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.huddlehouse.com/",
+   "wikipedia": {
+    "title": "Huddle House",
+    "url": "https://en.wikipedia.org/wiki/Huddle_House",
+    "extract": "Huddle House, Inc. is an American casual dining restaurant chain. As of April 2026, the company operates 260 locations in 20 states.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Sentinel Capital Partners",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Decatur",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5928324 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5928324 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5928324"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Huddle_House_logo.svg/1920px-Huddle_House_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Huddle_House_logo.svg",
+     "alt": "Huddle House logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16988635",
+   "slug": "kampgrounds-of-america",
+   "name": "Kampgrounds of America",
+   "aliases": [
+    "KOA",
+    "Kampgrounds of America, Inc.",
+    "KOA Kampground",
+    "KOA Journey",
+    "KOA Holiday"
+   ],
+   "description": "chain of campgrounds in the US and Canada",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://koa.com/",
+   "wikipedia": {
+    "title": "KOA",
+    "url": "https://en.wikipedia.org/wiki/KOA",
+    "extract": "KOA (short for Kampgrounds [sic] of America) is an American franchise of privately owned campgrounds. Having more than 500 locations across the United States and Canada, is the world's largest system of privately owned campgrounds. It was founded in 1962 and is based in Billings, Montana, United States. The current president and CEO of KOA is Toby O’Rourke.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Billings",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16988635 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16988635 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16988635"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/KOA_campgrounds_logo.svg/1920px-KOA_campgrounds_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:KOA_campgrounds_logo.svg",
+     "alt": "Kampgrounds of America logo",
+     "credit": "Kampgrounds of America",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5646230",
+   "slug": "hampton-by-hilton",
+   "name": "Hampton by Hilton",
+   "aliases": [
+    "Hampton Hotels",
+    "Hampton Inn & Suites",
+    "Hampton Inn",
+    "Hampton Suites"
+   ],
+   "description": "hotel brand by Hilton Worldwide",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 11,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hilton.com/en/brands/hampton-by-hilton/",
+   "wikipedia": {
+    "title": "Hampton Inn",
+    "url": "https://en.wikipedia.org/wiki/Hampton_Inn",
+    "extract": "Hampton Inn, now officially branded as Hampton by Hilton, is an American chain of hotels trademarked by Hilton Worldwide. The Hampton hotel brand is a chain of moderately priced, budget to midscale limited service hotels with limited food and beverage facilities. Most Hampton hotels are independently owned and operated by franchisees, though a few are managed by Hilton. As of March 2024, the Hampton franchise includes 3,000 hotels in 40 countries and territories.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1984",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "McLean",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Hampton Inn and Suites Salem",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Hilton Worldwide",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5646230 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5646230 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5646230"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hampton_by_Hilton_logo.svg/1920px-Hampton_by_Hilton_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hampton_by_Hilton_logo.svg",
+     "alt": "Hampton by Hilton logo",
+     "credit": "Hilton",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q41171672",
+   "slug": "aldi-sud",
+   "name": "Aldi Süd",
+   "aliases": [
+    "Aldi Sued",
+    "Aldi Sud"
+   ],
+   "description": "multinational discount grocery store chain operating in AU, CH, CN, DE, HU, IE, IT, UK, US, not to be confused with Aldi Nord",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.aldi-sued.de/",
+   "wikipedia": {
+    "title": "Aldi Süd",
+    "url": "https://en.wikipedia.org/wiki/Aldi_S%C3%BCd",
+    "extract": "Aldi Süd (German pronunciation: [ˈaldiː] , stylised in all caps) also referred to as Aldi is a Southern German multinational family-owned discount supermarket chain operating over 7,900 stores in 11 countries. The business was founded by brothers Karl and Theo Albrecht in 1946, when they took over their mother's store in Essen. \nThe enterprise was split into two separate groups in 1960 that later became Aldi Nord (initially operating in northern West Germany), headquartered in Essen, and Aldi Süd (initially operating in southern West Germany), headquartered in neighboring Mülheim. As the business expanded internationally, the two divisions maintained this separation, dividing global markets between them, with the exception of the United States, where both operate: Aldi Süd under the Aldi name, while Aldi Nord owns Trader Joe's.\nIn 1962, they introduced the name Aldi (a syllabic abbreviation for \"Albrecht Diskont\"). In Germany, Aldi Nord and Aldi Süd have been financially and legally separate since 1966, although they may appear to operate as a single enterprise with certain store brands or when negotiating with contractor companies.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mülheim an der Ruhr; Batavia",
+     "sourceId": "wikidata",
+     "sourceRef": "Q41171672 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q41171672 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q41171672"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aldi_S%C3%BCd_2017_logo.svg/1920px-Aldi_S%C3%BCd_2017_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldi_S%C3%BCd_2017_logo.svg",
+     "alt": "Aldi Süd logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5943909",
+   "slug": "hunt-brothers-pizza",
+   "name": "Hunt Brothers Pizza",
+   "aliases": [],
+   "description": "pizzeria chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://huntbrotherspizza.com/",
+   "wikipedia": {
+    "title": "Hunt Brothers Pizza",
+    "url": "https://en.wikipedia.org/wiki/Hunt_Brothers_Pizza",
+    "extract": "Hunt Brothers Pizza is an American pizza restaurant chain. It was founded in 1991 in Nashville, Tennessee. The store's locations are primarily within convenience stores.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1990",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5943909 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Nashville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5943909 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5943909 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5943909"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hunt_Brothers_Pizza_logo.svg/1920px-Hunt_Brothers_Pizza_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hunt_Brothers_Pizza_logo.svg",
+     "alt": "Hunt Brothers Pizza logo",
+     "credit": "Hunt Brothers Pizza",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q304769",
+   "slug": "arco",
+   "name": "ARCO",
+   "aliases": [
+    "Atlantic Richfield Company",
+    "Arco",
+    "Atlantic Research Corporation"
+   ],
+   "description": "American oil company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.arco.com/",
+   "wikipedia": {
+    "title": "ARCO",
+    "url": "https://en.wikipedia.org/wiki/ARCO",
+    "extract": "ARCO ( AR-koh) is a brand of gasoline stations owned by Marathon Petroleum which formerly owned the brand, uses it in California, Oregon and Washington, while Marathon has rights for the rest of the United States and Mexico.\nARCO was established in 1966 as the Atlantic Richfield Company, an independent oil and gas company formed from the merger of Atlantic Petroleum and the Richfield Oil Corporation. BP acquired ARCO in 2000, later integrating the production operations and selling the frontline retail operations with the ARCO name.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1966",
+     "sourceId": "wikidata",
+     "sourceRef": "Q304769 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Marathon Petroleum",
+     "sourceId": "wikidata",
+     "sourceRef": "Q304769 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Los Angeles",
+     "sourceId": "wikidata",
+     "sourceRef": "Q304769 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Robert Orville Anderson",
+     "sourceId": "wikidata",
+     "sourceRef": "Q304769 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Marathon Petroleum; BP",
+     "sourceId": "wikidata",
+     "sourceRef": "Q304769 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q304769 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q304769"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/ARCO.svg/1920px-ARCO.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:ARCO.svg",
+     "alt": "ARCO logo",
+     "credit": "Atlantic Richfield Company",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q524757",
+   "slug": "kfc",
+   "name": "KFC",
+   "aliases": [
+    "KFC Restaurant"
+   ],
+   "description": "American fast food restaurant chain specializing in fried chicken",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 98,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.kfc.com/",
+   "wikipedia": {
+    "title": "KFC",
+    "url": "https://en.wikipedia.org/wiki/KFC",
+    "extract": "KFC Corporation, trading as Kentucky Fried Chicken (KFC), is an American multinational fast food restaurant chain specializing in Southern fried chicken and chicken sandwiches. Headquartered in Plano, Texas, it is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with over 31,980 locations globally in 150 countries, as of September 2025. The chain is a subsidiary of Yum! Brands, a restaurant company that also owns the Taco Bell chain.\nKFC was founded by Colonel Harland Sanders (1890–1980), an entrepreneur who began selling fried chicken from his roadside restaurant in Corbin, Kentucky, during the Great Depression. Sanders identified the potential of the restaurant-franchising concept, and the first \"Kentucky Fried Chicken\" franchise opened in South Salt Lake, Utah, in 1952. KFC popularized chicken in the fast-food industry, diversifying the market by challenging the established dominance of the hamburger. By branding himself as \"Colonel Sanders\", Harland became a prominent figure of American cultural history, and his image remains widely used in KFC advertising to this day. However, the company's rapid expansion overwhelmed the aging Sanders, and he sold it to a group of investors led by John Y. Brown Jr. and Jack C. Massey in 1964.\nKFC was one of the first American fast-food chains to expand internationally, opening outlets in Canada, the United Kingdom, Mexico and Jamaica by the mid-1960s. Throughout the 1970s and 1980s, it experienced mixed fortunes domestically, as it went through a series of changes in corporate ownership with little or no experience in the restaurant business. In the early 1970s, KFC was sold to the spirits distributor Heublein, which was taken over by the R. J. Reynolds food and tobacco conglomerate; that company sold the chain to PepsiCo. The chain continued to expand overseas, however, and in 1987 it became the first Western restaurant chain to open in China. It has since expanded rapidly in that country, which is now the company's single largest market. PepsiCo spun off its restaurants division as Tricon Global Restaurants, which later changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1930",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Louisville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Harland Sanders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q524757 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q524757 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q524757"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/KFC_2026_%28wordmark%29.svg/1920px-KFC_2026_%28wordmark%29.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:KFC_2026_(wordmark).svg",
+     "alt": "KFC logo",
+     "credit": "Yum! Brands",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q29570",
+   "slug": "chevrolet",
+   "name": "Chevrolet",
+   "aliases": [],
+   "description": "American automobile division of GM",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 86,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "dealerships",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevrolet.com/",
+   "wikipedia": {
+    "title": "Chevrolet",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet",
+    "extract": "Chevrolet is an American automobile division of the manufacturer General Motors (GM). In North America, Chevrolet produces and sells a wide range of vehicles, from subcompact automobiles to medium-duty commercial trucks. Due to the prominence and name recognition of Chevrolet as one of General Motors' global marques, \"Chevrolet\" or its affectionate nickname Chevy is used at times as a synonym for General Motors or its products, one example being the GM LS1 engine, commonly known by the name or a variant thereof of its progenitor, the Chevrolet small-block engine.\nLouis Chevrolet (1878–1941), an American born in French-speaking Switzerland, Arthur Chevrolet (1884–1946), Louis's middle brother, and ousted General Motors founder William C. Durant (1861–1947) started the company on November 3, 1911 as the Chevrolet Motor Car Company. Durant used the Chevrolet Motor Car Company to acquire a controlling stake in General Motors with a reverse merger occurring on May 2, 1918, and propelled himself back to the GM presidency. After Durant's second ousting in 1919, Alfred Sloan, with his maxim \"a car for every purse and purpose\", picked the Chevrolet brand to become the volume leader in the General Motors family, selling mainstream vehicles to compete with Henry Ford's Model T in 1919 and overtaking Ford as the best-selling car in the United States by 1929 with the Chevrolet International.\nChevrolet-branded vehicles are sold in most automotive markets worldwide. In Oceania, Chevrolet was represented by Holden Special Vehicles (HSV), having returned to the region in 2018 after a 50-year absence with the launching of the Camaro and Silverado pickup truck (HSV was partially and formerly owned by GM subsidiary Holden, which GM retired in 2021). In 2021, General Motors Specialty Vehicles took over the distribution and sales of Chevrolet vehicles in Oceania, starting with the Silverado. In 2005, Chevrolet was relaunched in Europe, primarily selling vehicles built by GM Daewoo of South Korea with the tagline \"Daewoo has grown up enough to become Chevrolet\", a move rooted in General Motors' attempt to build a global brand around Chevrolet. With the reintroduction of Chevrolet to Europe, GM intended Chevrolet to be a mainstream value brand, while GM's traditional European standard-bearers, Opel of Germany and Vauxhall of the United Kingdom, were to be moved upmarket. However, GM reversed this move in late 2013, announcing that the brand would be withdrawn from Europe from 2016 onward, with the exception of the Camaro and Corvette. Chevrolet vehicles were to continue to be marketed in the CIS states, including Russia. After General Motors fully acquired GM Daewoo in 2011 to create GM Korea, the last usage of the Daewoo automotive brand was discontinued in its native South Korea and succeeded by Chevrolet.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1911-11-03",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P571"
+    },
+    {
+     "key": "owner",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Detroit",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Louis Chevrolet; William Crapo Durant; Arthur Chevrolet",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "General Motors",
+     "sourceId": "wikidata",
+     "sourceRef": "Q29570 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q29570 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q29570"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Chevrolet_simple_logo.svg/1920px-Chevrolet_simple_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevrolet_simple_logo.svg",
+     "alt": "Chevrolet logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com/",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q177054",
+   "slug": "burger-king",
+   "name": "Burger King",
+   "aliases": [
+    "Insta-Burger King",
+    "Burger King Corporation"
+   ],
+   "description": "global chain of hamburger fast food restaurants headquartered in Florida, United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 111,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bk.com/",
+   "wikipedia": {
+    "title": "Burger King",
+    "url": "https://en.wikipedia.org/wiki/Burger_King",
+    "extract": "Burger King Corporation (also known as BK) is an American fast food chain of hamburger fast food restaurants, headquartered in Miami-Dade County, Florida. The company was founded on July 23, 1953, as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties, its two Miami-based franchisees David Edgerton (1927–2018) and James McLamore (1926–1996) purchased the company in 1959. Over the next half-century, the company changed hands four times and its third set of owners, a partnership between TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, took it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with its partner Berkshire Hathaway, eventually merged the company with the Canadian-based coffeehouse chain Tim Hortons under the auspices of a new Canadian-based parent company named Restaurant Brands International.\nBurger King's menu has expanded from a basic offering of burgers, french fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the \"Whopper\" became the first major addition to the menu, and it has since become Burger King's signature product. Conversely, Burger King has introduced many products that have failed to catch hold in the market. Some of these failures in the United States have seen success in foreign markets, where Burger King has also tailored its menu for regional tastes. From 2002 to 2010, Burger King targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations, and packaging, as part of its current owner 3G Capital's restructuring plans of the company.\nAs of December 31, 2018, Burger King reported having 17,796 outlets in 100 countries. Of these, nearly half are located in the United States, and 99.7% are privately owned and operated, with its new owners moving to an almost entirely franchised model in 2013. Burger King has historically used several variations of franchising to expand its operations. The manner in which the company licenses its franchisees varies depending on the region, with some regional franchises, known as master franchises, responsible for selling franchise sub-licenses on the company's behalf. Burger King's relationship with its franchises has not always been harmonious. Occasional spats between the two have caused numerous issues; in several instances, the relations between the company and its licensees have degenerated into precedent-setting court cases. Burger King's Australian franchise Hungry Jack's is the only franchise to operate under a different name due to a trademark dispute with a similarly named restaurant chain based in Adelaide, South Australia, and a series of legal cases between the two.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1954",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "5707 Blue Lagoon Drive, Miami, FL 33126",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "James McLamore; David Edgerton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International; QSRP; Groupe Bertrand",
+     "sourceId": "wikidata",
+     "sourceRef": "Q177054 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q177054 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q177054"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burger_King_1969_logo.svg/1920px-Burger_King_1969_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_1969_logo.svg",
+     "alt": "Burger King logo",
+     "credit": "Burger King Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com/",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4686051",
+   "slug": "advance-auto-parts",
+   "name": "Advance Auto Parts",
+   "aliases": [],
+   "description": "retailer of aftermarket automotive parts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://shop.advanceautoparts.com/",
+   "wikipedia": {
+    "title": "Advance Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/Advance_Auto_Parts",
+    "extract": "Advance Auto Parts is an American automotive aftermarket parts provider. Headquartered in Raleigh, North Carolina, it serves professional installer and do it yourself (DIY) customers.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1932",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Roanoke",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Arthur Taubman",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4686051 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4686051 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4686051"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AAP_Logo_STK_2C.svg/1920px-AAP_Logo_STK_2C.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:AAP_Logo_STK_2C.svg",
+     "alt": "Advance Auto Parts logo",
+     "credit": "Advance Auto Parts",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1330910",
+   "slug": "popeyes",
+   "name": "Popeyes",
+   "aliases": [
+    "Popeyes Chicken & Biscuits",
+    "Popeyes Louisiana Kitchen, Inc.",
+    "Popeyes Chicken and Biscuits",
+    "Popeyes Famous Fried Chicken and Biscuits",
+    "Popeyes Famous Fried Chicken & Biscuits"
+   ],
+   "description": "American multinational chain of fried chicken fast food restaurants",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 38,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.popeyes.com/",
+   "wikipedia": {
+    "title": "Popeyes",
+    "url": "https://en.wikipedia.org/wiki/Popeyes",
+    "extract": "Popeyes Louisiana Kitchen, Inc. is an American multinational chain of Southern fried chicken restaurants founded in 1972 in New Orleans, and headquartered in Miami-Dade County, Florida. It is currently a subsidiary of Toronto-based Restaurant Brands International. As of 2026, Popeyes operates a global network of 5,413 restaurants across 51 countries and territories, including 48 US states, the District of Columbia and Puerto Rico. About 50 locations are company-owned while the other approximately 98% are franchised.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1972-06-13",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1330910 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Miami-Dade County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1330910 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Al Copeland",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1330910 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Restaurant Brands International",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1330910 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1330910 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1330910"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Popeyes_Louisiana_Kitchen_%2851195358373%29.jpg/1920px-Popeyes_Louisiana_Kitchen_%2851195358373%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Popeyes_Louisiana_Kitchen_(51195358373).jpg",
+     "alt": "Photograph of Popeyes",
+     "credit": "Phillip Pessar",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q752941",
+   "slug": "taco-bell",
+   "name": "Taco Bell",
+   "aliases": [],
+   "description": "American fast-food chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 49,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tacobell.com/",
+   "wikipedia": {
+    "title": "Taco Bell",
+    "url": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "extract": "Taco Bell Corporation, doing business as Taco Bell, is an American multinational chain of fast food restaurants founded in 1962 by Glen Bell (1923–2010) in Downey, California. Taco Bell is a subsidiary of Yum! Brands, Inc., who are also the owners of sister brand KFC. The restaurants serve a variety of Mexican-inspired foods, including tacos, burritos, quesadillas, nachos, novelty, and specialty items, and a variety of \"value menu\" items. As of 2023, Taco Bell serves over two billion customers each year, at 8,212 restaurants, more than 94 percent of which are owned and operated by independent franchisees and licensees.\nPepsiCo purchased Taco Bell in 1978. PepsiCo spun off its restaurants division in 1997 as Tricon Global Restaurants; in 2002 it changed its name to Yum! Brands.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1962-03-21",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Irvine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Glen Bell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Yum! Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q752941 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q752941 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q752941"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/1984TacoBellSign.svg/1920px-1984TacoBellSign.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1984TacoBellSign.svg",
+     "alt": "Taco Bell logo",
+     "credit": "NissanFanatic245",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1591889",
+   "slug": "walgreens",
+   "name": "Walgreens",
+   "aliases": [
+    "Walgreen Company",
+    "The Walgreen Company",
+    "Walgreen",
+    "WAG",
+    "Walgreen Co"
+   ],
+   "description": "American pharmacy and convenience store chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.walgreens.com/",
+   "wikipedia": {
+    "title": "Walgreens",
+    "url": "https://en.wikipedia.org/wiki/Walgreens",
+    "extract": "Walgreens is an American pharmacy store chain headquartered in Deerfield, Illinois. It is the second largest pharmacy chain in the United States, behind CVS Pharmacy. As of 2026, Walgreens operated 8,000 stores in the United States, serving 9 million customers daily and employing 211,000 team members. In addition to pharmacy services, Walgreens also offers photo services.\nWalgreens was founded in Chicago by Charles Rudolph Walgreen in 1901. On December 31, 2014, Walgreens acquired Switzerland and UK-based Alliance Boots, and formed a new holding company, Walgreens Boots Alliance. That year Walgreens had generated $76.4 billion in annual revenue as an independent company. Walgreens became a subsidiary of the new company, which retained its Deerfield headquarters and traded on the Nasdaq under the symbol WBA. As of August 2025, Walgreens is owned by private equity firm Sycamore Partners. \nWalgreens has been the subject of a number of lawsuits over discrimination, drug fraud, federal billing fraud, distribution of opioids, discrepancies between shelf price and scanned price, overcharging, illegal disposal of hazardous waste, selling expired items, misleading investors, unlicensed pharmacists, and wage theft. In 2021, Walgreens was one of several pharmacy chains found by a federal jury to have substantially contributed to the opioid crisis.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1901",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Deerfield",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Charles Rudolph Walgreen, Sr.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Walgreens Boots Alliance",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1591889 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1591889 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1591889"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Walgreens_2020_primary_logo.svg/1920px-Walgreens_2020_primary_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Walgreens_2020_primary_logo.svg",
+     "alt": "Walgreens logo",
+     "credit": "Walgreens",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5333330",
+   "slug": "econo-lodge",
+   "name": "Econo Lodge",
+   "aliases": [
+    "EconoLodge"
+   ],
+   "description": "economy hotel chain run by Choice Hotels",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.choicehotels.com/econo-lodge",
+   "wikipedia": {
+    "title": "Econo Lodge",
+    "url": "https://en.wikipedia.org/wiki/Econo_Lodge",
+    "extract": "Econo Lodge is an American economy hotel brand and one of the longest running limited service lodging chains in the United States. Founded in Norfolk, Virginia, in 1969 as Econo Travel, the brand pioneered a simplified budget hotel model that emphasized clean, standardized rooms without the full service amenities—such as restaurants, pools, and large lobbies—common in mid century motels. Econo Lodge is now a subsidiary of Choice Hotels and operates more than 690 locations across the United States and Canada.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2026",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5333330 P571"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Choice Hotels",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5333330 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5333330 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5333330"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q319642",
+   "slug": "chevron-corporation",
+   "name": "Chevron Corporation",
+   "aliases": [
+    "Chevron México"
+   ],
+   "description": "American multinational energy corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 60,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.chevron.com/",
+   "wikipedia": {
+    "title": "Chevron Corporation",
+    "url": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "extract": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. As the second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California (shortened to Socal or CalSo), it is active in more than 180 countries. \nThe company was founded originally in Southern California during the 1870s. After the breakup of Standard Oil, Socal grew quickly on its own by continuing to acquire companies and partnering with others both inside and outside of California, eventually becoming one of the Big Oil companies that dominated the global petroleum industry from the mid-1940s to the 1970s. In 1985, Socal merged with the Pittsburgh-based Gulf Oil and rebranded as Chevron; the newly merged company later merged with Texaco in 2001.  \nChevron is one of the largest companies in the world and the second-largest oil company based in the United States by revenue, only behind fellow Standard Oil descendant ExxonMobil. Within oil and gas, Chevron is vertically integrated and is involved in hydrocarbon exploration, production, refining, marketing and transport, chemicals manufacturing and sales, and power generation. Chevron manufactures and sells fuels, lubricants, additives, and petrochemicals, primarily in Western North America,  the US Gulf Coast, Southeast Asia, South Korea and Australia. In 2018, the company produced an average of 791,000 barrels (125,800 m3) of net oil-equivalent per day in United States.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "5001 Executive Parkway, Suite 200, San Ramon, CA 94583",
+     "sourceId": "wikidata",
+     "sourceRef": "Q319642 P6375"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q319642 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q319642"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/1920px-Chevron_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg",
+     "alt": "Chevron Corporation logo",
+     "credit": "Chevron Corporation",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4876153",
+   "slug": "bealls",
+   "name": "Bealls",
+   "aliases": [
+    "Bealls (Florida)",
+    "Bealls Inc."
+   ],
+   "description": "United States retail corporation",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.beallsinc.com/",
+   "wikipedia": {
+    "title": "Bealls (Florida-based department store)",
+    "url": "https://en.wikipedia.org/wiki/Bealls_(Florida-based_department_store)",
+    "extract": "Bealls, Inc. () is a Florida-based retail corporation with headquarters located in Bradenton, Florida since 1915.\nBealls Florida was not affiliated with the Texas-based Bealls chain (formerly owned by Stage Stores), although the two brands overlapped in some markets with Bealls Outlet using the name Burkes Outlet where they overlapped. In 2020, Bealls bought Stage Stores intellectual property and acquired the rights to the Bealls name nationwide. They also acquired the rights to all of Stage's different chains, private labels, customer lists and a distribution center in Jacksonville, Texas. In 2022 they sold the rights to the Stage Stores chains (excluding Bealls) to BrandX.\nAs of 2026, Bealls Inc. operates more than 650 stores under the names of Bealls, Bealls Florida, and Home Centric.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1915",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4876153 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Bradenton",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4876153 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4876153 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4876153"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bealls_inc_logob.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bealls_inc_logob.jpg",
+     "alt": "Bealls logo",
+     "credit": "Walrian",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q1585088",
+   "slug": "hardees",
+   "name": "Hardee's",
+   "aliases": [],
+   "description": "American-based fast-food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "taylor-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hardees.com/",
+   "wikipedia": {
+    "title": "Hardee's",
+    "url": "https://en.wikipedia.org/wiki/Hardee%27s",
+    "extract": "Hardee's Restaurants LLC is an American fast-food restaurant chain operated by CKE Restaurants Holdings, Inc. (\"CKE\") with locations primarily in the Southern and Midwestern United States. The company has evolved through several corporate ownerships since its establishment in 1960 in North Carolina.\nIn April 1997, CKE Restaurants Holdings, Inc., the parent company of Carl's Jr., paid $327 million to Montreal-based Imasco Limited for Hardee's. The merger created a chain of 3,828 restaurants – 3,152 Hardee's outlets in 40 states and 10 foreign countries and 676 Carl's Jr. outlets, primarily in California. In June 2018, former CKE CEO Jason Marker announced that Carl's Jr. and Hardee's would become separate brands, claiming that CKE's racy advertising and marketing campaigns were incompatible with a family-oriented chain like Hardee's. In April 2019, Ned Lyerly, a 30-year veteran of the company and formerly president of CKE's International division, was named CEO, replacing Jason Marker.\nKnown originally as Hardee’s Restaurant Company and later as Hardee's Food Systems, the company constructed its headquarters in 1960 at 1405–1625 N Church Street in Rocky Mount, including six buildings with 216,906 square feet, including a six story office building and five single story office and warehouse. The complex was vacated after its acquisition by CKE, with the last executives leaving in 2015.",
+    "retrievedAt": "2026-11-27T22:18:42.186Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1960-09-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P571"
+    },
+    {
+     "key": "owner",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "St. Louis",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Wilbur Hardee",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CKE Restaurants",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1585088 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1585088 inside Taylor County boundary",
+     "scopeAreaSlug": "taylor-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1585088"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hardee_brand_logo.svg/1920px-Hardee_brand_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardee_brand_logo.svg",
+     "alt": "Hardee's logo",
+     "credit": "Original: Hardee's Vector: TBMNY",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "taylor-county-fl",
+  "wikidataCandidates": 40,
+  "places": 14,
+  "brands": 29,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 39,
+  "withFreeImage": 35,
+  "withCoordinates": 14,
+  "osmBrandedLocations": 32,
+  "unmappedClasses": 6
+ }
+}

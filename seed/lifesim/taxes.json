@@ -1,0 +1,46 @@
+{
+ "taxYear": 2026,
+ "federalIncomeTax": {
+  "source": {
+   "id": "irs-ty2026-inflation-adjustments",
+   "title": "IRS releases tax inflation adjustments for tax year 2026, including amendments from the One, Big, Beautiful Bill",
+   "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+   "retrievedAt": "2026-11-28",
+   "license": "Public domain (U.S. federal government work)"
+  },
+  "standardDeduction": { "single": 16100, "marriedJoint": 32200, "headOfHousehold": 24150 },
+  "brackets": {
+   "single": [
+    { "rate": 0.10, "over": 0 },
+    { "rate": 0.12, "over": 12400 },
+    { "rate": 0.22, "over": 50400 },
+    { "rate": 0.24, "over": 105700 },
+    { "rate": 0.32, "over": 201775 },
+    { "rate": 0.35, "over": 256225 },
+    { "rate": 0.37, "over": 640600 }
+   ],
+   "marriedJoint": [
+    { "rate": 0.10, "over": 0 },
+    { "rate": 0.12, "over": 24800 },
+    { "rate": 0.22, "over": 100800 },
+    { "rate": 0.24, "over": 211400 },
+    { "rate": 0.32, "over": 403550 },
+    { "rate": 0.35, "over": 512450 },
+    { "rate": 0.37, "over": 768700 }
+   ]
+  }
+ },
+ "fica": {
+  "socialSecurityRate": 0.062,
+  "socialSecurityWageBase": 184500,
+  "medicareRate": 0.0145,
+  "additionalMedicareRate": 0.009,
+  "additionalMedicareThreshold": { "single": 200000, "marriedJoint": 250000 },
+  "note": "Rates and the additional-Medicare thresholds are statutory. The 2026 Social Security wage base ($184,500) still needs confirming against the SSA fact sheet, which refused automated access."
+ },
+ "florida": {
+  "stateIncomeTax": 0,
+  "stateSalesTaxRate": 0.06,
+  "note": "Florida has no personal income tax (Fla. Const. art. VII §5). County discretionary sales surtaxes are not loaded yet: the Florida Department of Revenue site did not respond to automated access."
+ }
+}

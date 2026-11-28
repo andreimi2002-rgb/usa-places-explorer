@@ -140,6 +140,16 @@ test.describe("America 360 smoke", () => {
     await page.screenshot({ path: `test-results/screens/${info.project.name}-florida-highlights.png`, fullPage: false });
   });
 
+  test("life sim preview: six cities with real wages, take-home pay and hurricane odds", async ({ page }, info) => {
+    await page.goto("/play/cities?job=29-1141");
+    await expect(page.getByRole("heading", { level: 2 })).toHaveText("Registered Nurses");
+    await expect(page.getByTestId("city-card")).toHaveCount(6);
+    await expect(page.getByTestId("city-card").first()).toContainText("Take-home");
+    await page.getByRole("link", { name: "Software Developers" }).click();
+    await expect(page).toHaveURL(/job=15-1252/);
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-play-cities.png`, fullPage: true });
+  });
+
   test("unknown pages return 404", async ({ page }) => {
     const r1 = await page.goto("/entities/does-not-exist");
     expect(r1?.status()).toBe(404);

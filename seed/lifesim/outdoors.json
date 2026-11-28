@@ -1,0 +1,640 @@
+{
+ "source": {
+  "note": "Species verified by scientific name on Wikidata (CC0); spots located via Wikidata coordinates. Habitats, regions and catch odds are game assumptions. License prices are game estimates until checked against FWC (FWC blocks automated access)."
+ },
+ "licenses": {
+  "fishingFreshwater": {
+   "annualCost": 17,
+   "note": "game estimate, verify with FWC"
+  },
+  "fishingSaltwater": {
+   "annualCost": 17,
+   "note": "game estimate, verify with FWC"
+  },
+  "hunting": {
+   "annualCost": 17,
+   "note": "game estimate, verify with FWC"
+  },
+  "hunterSafety": {
+   "requiredIfBornAfter": 1975,
+   "note": "Florida requires hunter safety certification for hunters born on or after June 1, 1975 (verify with FWC)"
+  }
+ },
+ "species": [
+  {
+   "sci": "Micropterus salmoides",
+   "common": "Largemouth bass",
+   "mode": "fish",
+   "habitats": [
+    "freshwater"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.45,
+   "wikidata": "Q755105",
+   "wikipedia": "https://en.wikipedia.org/wiki/Largemouth_bass"
+  },
+  {
+   "sci": "Lepomis macrochirus",
+   "common": "Bluegill",
+   "mode": "fish",
+   "habitats": [
+    "freshwater"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.7,
+   "wikidata": "Q1148148",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bluegill"
+  },
+  {
+   "sci": "Pomoxis nigromaculatus",
+   "common": "Black crappie",
+   "mode": "fish",
+   "habitats": [
+    "freshwater"
+   ],
+   "regions": [
+    "north",
+    "all"
+   ],
+   "rarity": 0.4,
+   "wikidata": "Q3006347",
+   "wikipedia": "https://en.wikipedia.org/wiki/Black_crappie"
+  },
+  {
+   "sci": "Ictalurus punctatus",
+   "common": "Channel catfish",
+   "mode": "fish",
+   "habitats": [
+    "freshwater"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.45,
+   "wikidata": "Q836957",
+   "wikipedia": "https://en.wikipedia.org/wiki/Channel_catfish"
+  },
+  {
+   "sci": "Cichla ocellaris",
+   "common": "Butterfly peacock bass",
+   "mode": "fish",
+   "habitats": [
+    "freshwater"
+   ],
+   "regions": [
+    "south"
+   ],
+   "rarity": 0.35,
+   "note": "Introduced to South Florida canals",
+   "wikidata": "Q4889552",
+   "wikipedia": "https://en.wikipedia.org/wiki/Cichla_ocellaris"
+  },
+  {
+   "sci": "Centropomus undecimalis",
+   "common": "Common snook",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "south",
+    "gulf",
+    "atlantic"
+   ],
+   "rarity": 0.25,
+   "wikidata": "Q1914539",
+   "wikipedia": "https://en.wikipedia.org/wiki/Common_snook"
+  },
+  {
+   "sci": "Sciaenops ocellatus",
+   "common": "Red drum (redfish)",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.35,
+   "wikidata": "Q2168496",
+   "wikipedia": "https://en.wikipedia.org/wiki/Red_drum"
+  },
+  {
+   "sci": "Cynoscion nebulosus",
+   "common": "Spotted seatrout",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.45,
+   "wikidata": "Q3751557",
+   "wikipedia": "https://en.wikipedia.org/wiki/Cynoscion_nebulosus"
+  },
+  {
+   "sci": "Megalops atlanticus",
+   "common": "Atlantic tarpon",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "south",
+    "keys",
+    "gulf"
+   ],
+   "rarity": 0.1,
+   "wikidata": "Q756975",
+   "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_tarpon"
+  },
+  {
+   "sci": "Archosargus probatocephalus",
+   "common": "Sheepshead",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.4,
+   "wikidata": "Q744187",
+   "wikipedia": "https://en.wikipedia.org/wiki/Archosargus_probatocephalus"
+  },
+  {
+   "sci": "Albula vulpes",
+   "common": "Bonefish",
+   "mode": "fish",
+   "habitats": [
+    "inshore"
+   ],
+   "regions": [
+    "keys"
+   ],
+   "rarity": 0.12,
+   "wikidata": "Q2014405",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bonefish"
+  },
+  {
+   "sci": "Lutjanus campechanus",
+   "common": "Red snapper",
+   "mode": "fish",
+   "habitats": [
+    "offshore"
+   ],
+   "regions": [
+    "gulf",
+    "panhandle"
+   ],
+   "rarity": 0.4,
+   "wikidata": "Q1889210",
+   "wikipedia": "https://en.wikipedia.org/wiki/Northern_red_snapper"
+  },
+  {
+   "sci": "Mycteroperca microlepis",
+   "common": "Gag grouper",
+   "mode": "fish",
+   "habitats": [
+    "offshore"
+   ],
+   "regions": [
+    "gulf",
+    "atlantic",
+    "panhandle"
+   ],
+   "rarity": 0.25,
+   "wikidata": "Q2780946",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mycteroperca_microlepis"
+  },
+  {
+   "sci": "Coryphaena hippurus",
+   "common": "Mahi-mahi",
+   "mode": "fish",
+   "habitats": [
+    "offshore"
+   ],
+   "regions": [
+    "atlantic",
+    "keys",
+    "gulf",
+    "panhandle"
+   ],
+   "rarity": 0.3,
+   "wikidata": "Q14443",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahi-mahi"
+  },
+  {
+   "sci": "Istiophorus platypterus",
+   "common": "Sailfish",
+   "mode": "fish",
+   "habitats": [
+    "offshore"
+   ],
+   "regions": [
+    "atlantic",
+    "keys"
+   ],
+   "rarity": 0.08,
+   "wikidata": "Q694527",
+   "wikipedia": "https://en.wikipedia.org/wiki/Indo-Pacific_sailfish"
+  },
+  {
+   "sci": "Scomberomorus cavalla",
+   "common": "King mackerel",
+   "mode": "fish",
+   "habitats": [
+    "offshore"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.3,
+   "wikidata": "Q311058",
+   "wikipedia": "https://en.wikipedia.org/wiki/King_mackerel"
+  },
+  {
+   "sci": "Rachycentron canadum",
+   "common": "Cobia",
+   "mode": "fish",
+   "habitats": [
+    "offshore",
+    "inshore"
+   ],
+   "regions": [
+    "gulf",
+    "atlantic",
+    "panhandle"
+   ],
+   "rarity": 0.12,
+   "wikidata": "Q833940",
+   "wikipedia": "https://en.wikipedia.org/wiki/Cobia"
+  },
+  {
+   "sci": "Odocoileus virginianus",
+   "common": "White-tailed deer",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.3,
+   "wikidata": "Q215887",
+   "wikipedia": "https://en.wikipedia.org/wiki/White-tailed_deer"
+  },
+  {
+   "sci": "Meleagris gallopavo osceola",
+   "common": "Osceola wild turkey",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.15,
+   "note": "Subspecies found only on the Florida peninsula",
+   "wikidata": "Q27601716",
+   "wikipedia": null
+  },
+  {
+   "sci": "Sus scrofa",
+   "common": "Feral hog",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.3,
+   "wikidata": "Q58697",
+   "wikipedia": "https://en.wikipedia.org/wiki/Wild_boar"
+  },
+  {
+   "sci": "Aix sponsa",
+   "common": "Wood duck",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "north",
+    "all"
+   ],
+   "rarity": 0.25,
+   "wikidata": "Q322159",
+   "wikipedia": "https://en.wikipedia.org/wiki/Wood_duck"
+  },
+  {
+   "sci": "Anas fulvigula",
+   "common": "Mottled duck",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "south",
+    "all"
+   ],
+   "rarity": 0.2,
+   "wikidata": "Q1002123",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mottled_duck"
+  },
+  {
+   "sci": "Colinus virginianus",
+   "common": "Northern bobwhite",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "north",
+    "panhandle"
+   ],
+   "rarity": 0.25,
+   "wikidata": "Q142651",
+   "wikipedia": "https://en.wikipedia.org/wiki/Northern_bobwhite"
+  },
+  {
+   "sci": "Alligator mississippiensis",
+   "common": "American alligator",
+   "mode": "hunt",
+   "habitats": [
+    "hunting"
+   ],
+   "regions": [
+    "all"
+   ],
+   "rarity": 0.1,
+   "note": "Hunted only with a limited-entry alligator harvest permit",
+   "wikidata": "Q193327",
+   "wikipedia": "https://en.wikipedia.org/wiki/American_alligator"
+  }
+ ],
+ "spots": [
+  {
+   "metro": "jacksonville",
+   "name": "St. Johns River",
+   "search": "St. Johns River",
+   "habitats": [
+    "freshwater",
+    "inshore"
+   ],
+   "region": "atlantic",
+   "wikidata": "Q1677915",
+   "lat": 30.4014,
+   "lon": -81.4008,
+   "distanceKm": 26
+  },
+  {
+   "metro": "jacksonville",
+   "name": "Nassau Sound / Amelia Island",
+   "search": "Amelia Island",
+   "habitats": [
+    "inshore",
+    "offshore"
+   ],
+   "region": "atlantic",
+   "wikidata": "Q461578",
+   "lat": 30.607777777778,
+   "lon": -81.46,
+   "distanceKm": 36
+  },
+  {
+   "metro": "jacksonville",
+   "name": "Jennings State Forest",
+   "search": "Jennings State Forest",
+   "habitats": [
+    "hunting"
+   ],
+   "region": "north",
+   "wikidata": "Q6179064",
+   "lat": 30.15663,
+   "lon": -81.86927,
+   "distanceKm": 28
+  },
+  {
+   "metro": "orlando",
+   "name": "Lake Tohopekaliga",
+   "search": "Lake Tohopekaliga",
+   "habitats": [
+    "freshwater"
+   ],
+   "region": "all",
+   "wikidata": "Q6478059",
+   "lat": 28.1689,
+   "lon": -81.39,
+   "distanceKm": 34
+  },
+  {
+   "metro": "orlando",
+   "name": "Lake Kissimmee",
+   "search": "Lake Kissimmee",
+   "habitats": [
+    "freshwater"
+   ],
+   "region": "all",
+   "wikidata": "Q3214981",
+   "lat": 27.902777777778,
+   "lon": -81.272222222222,
+   "distanceKm": 64
+  },
+  {
+   "metro": "orlando",
+   "name": "Mosquito Lagoon",
+   "search": "Mosquito Lagoon",
+   "habitats": [
+    "inshore"
+   ],
+   "region": "atlantic",
+   "wikidata": "Q6916482",
+   "lat": 28.7508,
+   "lon": -80.7503,
+   "distanceKm": 64
+  },
+  {
+   "metro": "orlando",
+   "name": "Ocala National Forest",
+   "search": "Ocala National Forest",
+   "habitats": [
+    "hunting",
+    "freshwater"
+   ],
+   "region": "north",
+   "wikidata": "Q2013302",
+   "lat": 29.1736,
+   "lon": -81.8217,
+   "distanceKm": 92
+  },
+  {
+   "metro": "miami",
+   "name": "Biscayne Bay",
+   "search": "Biscayne Bay",
+   "habitats": [
+    "inshore",
+    "offshore"
+   ],
+   "region": "atlantic",
+   "wikidata": "Q954659",
+   "lat": 25.565833333333,
+   "lon": -80.216388888889,
+   "distanceKm": 23
+  },
+  {
+   "metro": "miami",
+   "name": "Islamorada (Florida Keys)",
+   "search": "Islamorada, Florida",
+   "habitats": [
+    "inshore",
+    "offshore"
+   ],
+   "region": "keys",
+   "wikidata": "Q938815",
+   "lat": 24.935833333333,
+   "lon": -80.613611111111,
+   "distanceKm": 102
+  },
+  {
+   "metro": "miami",
+   "name": "Everglades canals",
+   "search": "Everglades",
+   "habitats": [
+    "freshwater",
+    "hunting"
+   ],
+   "region": "south",
+   "wikidata": "Q597281",
+   "lat": 26,
+   "lon": -80.7,
+   "distanceKm": 55
+  },
+  {
+   "metro": "tampa",
+   "name": "Tampa Bay",
+   "search": "Tampa Bay",
+   "habitats": [
+    "inshore",
+    "offshore"
+   ],
+   "region": "gulf",
+   "wikidata": "Q1059534",
+   "lat": 27.7625,
+   "lon": -82.545833333333,
+   "distanceKm": 24
+  },
+  {
+   "metro": "tampa",
+   "name": "Lake Tarpon",
+   "search": "Lake Tarpon",
+   "habitats": [
+    "freshwater"
+   ],
+   "region": "all",
+   "wikidata": "Q6477978",
+   "lat": 28.12,
+   "lon": -82.73,
+   "distanceKm": 30
+  },
+  {
+   "metro": "tampa",
+   "name": "Withlacoochee State Forest",
+   "search": "Withlacoochee State Forest",
+   "habitats": [
+    "hunting"
+   ],
+   "region": "all",
+   "wikidata": "Q8028208",
+   "lat": 28.47083,
+   "lon": -82.05786,
+   "distanceKm": 69
+  },
+  {
+   "metro": "destin",
+   "name": "Choctawhatchee Bay",
+   "search": "Choctawhatchee Bay",
+   "habitats": [
+    "inshore"
+   ],
+   "region": "panhandle",
+   "wikidata": "Q5103736",
+   "lat": 30.43944444,
+   "lon": -86.31111111,
+   "distanceKm": 16
+  },
+  {
+   "metro": "destin",
+   "name": "Destin offshore (Gulf)",
+   "search": "Destin, Florida",
+   "habitats": [
+    "offshore"
+   ],
+   "region": "panhandle",
+   "wikidata": "Q2156427",
+   "lat": 30.393333333333,
+   "lon": -86.475277777778,
+   "distanceKm": 1
+  },
+  {
+   "metro": "destin",
+   "name": "Eglin Air Force Base range (hunting by permit)",
+   "search": "Eglin Air Force Base",
+   "habitats": [
+    "hunting"
+   ],
+   "region": "north",
+   "wikidata": "Q1298115",
+   "lat": 30.489444444444,
+   "lon": -86.542222222222,
+   "distanceKm": 12
+  },
+  {
+   "metro": "tallahassee",
+   "name": "Lake Talquin",
+   "search": "Lake Talquin",
+   "habitats": [
+    "freshwater"
+   ],
+   "region": "north",
+   "wikidata": "Q7333985",
+   "lat": 30.388611111111,
+   "lon": -84.646666666667,
+   "distanceKm": 38
+  },
+  {
+   "metro": "tallahassee",
+   "name": "Apalachicola National Forest",
+   "search": "Apalachicola National Forest",
+   "habitats": [
+    "hunting",
+    "freshwater"
+   ],
+   "region": "north",
+   "wikidata": "Q617396",
+   "lat": 30.2361,
+   "lon": -84.6656,
+   "distanceKm": 46
+  },
+  {
+   "metro": "tallahassee",
+   "name": "St. Marks (Apalachee Bay)",
+   "search": "St. Marks National Wildlife Refuge",
+   "habitats": [
+    "inshore",
+    "hunting"
+   ],
+   "region": "panhandle",
+   "wikidata": "Q7589996",
+   "lat": 30.150833333333335,
+   "lon": -84.14722222222223,
+   "distanceKm": 35
+  }
+ ]
+}

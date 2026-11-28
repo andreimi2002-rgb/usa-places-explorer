@@ -23,3 +23,11 @@ export function tokens(input: string): string[] {
 export function formatNumber(value: number, locale: string): string {
   return new Intl.NumberFormat(locale === "ro" ? "ro-RO" : "en-US").format(value);
 }
+
+/**
+ * Normalized name + aliases joined by "/" (a character normalize() never emits), so
+ * search can test each name separately. Stored as name_norm in the database.
+ */
+export function nameKey(name: string, aliases: string[] = []): string {
+  return [name, ...aliases].map(normalize).filter(Boolean).join("/");
+}

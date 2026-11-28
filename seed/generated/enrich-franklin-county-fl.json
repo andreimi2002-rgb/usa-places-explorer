@@ -1,0 +1,3781 @@
+{
+ "generatedAt": "2026-11-27T19:31:18.006Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "franklin-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:31:18.006Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:31:18.006Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Franklin County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:31:18.006Z",
+   "checksumSha256": "ed6ba364dbf9a9747fa3443a1892e7156b1cd4f47e7012e82f736d2a270913c3"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q748515",
+   "slug": "apalachicola-regional-airport",
+   "name": "Apalachicola Regional Airport",
+   "aliases": [
+    "AAF",
+    "KAAF"
+   ],
+   "description": "airport",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7275,
+    "lon": -85.0275
+   },
+   "wikipedia": {
+    "title": "Apalachicola Regional Airport",
+    "url": "https://en.wikipedia.org/wiki/Apalachicola_Regional_Airport",
+    "extract": "Apalachicola Regional Airport (IATA: AAF, ICAO: KAAF, FAA LID: AAF) is a county-owned, public-use airport located in unincorporated Franklin County, Florida, United States, two nautical miles (4 km) west of the central business district of Apalachicola. It is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a general aviation facility. It was previously known as Apalachicola Municipal Airport. The airport supports general aviation activity in the area and provides service via a tenant fixed-base operator (FBO).",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Federal Aviation Administration",
+     "sourceId": "wikidata",
+     "sourceRef": "Q748515 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q748515"
+    },
+    {
+     "provider": "iata",
+     "id": "AAF"
+    },
+    {
+     "provider": "icao",
+     "id": "KAAF"
+    },
+    {
+     "provider": "geonames",
+     "id": "4146153"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Apalachicola_Municipal_Airport_FL_-_10_Jul_1999.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Apalachicola_Municipal_Airport_FL_-_10_Jul_1999.jpg",
+     "alt": "Photograph of Apalachicola Regional Airport",
+     "credit": "United States Geological Survey (USGS)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1961419",
+   "slug": "carrabelle-thompson-airport",
+   "name": "Carrabelle-Thompson Airport",
+   "aliases": [
+    "Carrabelle Flight Strip",
+    "Carrabelle Airport",
+    "Thompson Field"
+   ],
+   "description": "airport in Florida, United States of America",
+   "entityType": "airport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "airports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "carrabelle-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.841944,
+    "lon": -84.701111
+   },
+   "officialUrl": "https://www.mycarrabelle.com/departments/carrabelle-airport/",
+   "wikipedia": {
+    "title": "Carrabelle–Thompson Airport",
+    "url": "https://en.wikipedia.org/wiki/Carrabelle%E2%80%93Thompson_Airport",
+    "extract": "Carrabelle–Thompson Airport (FAA LID: X13) is a public use airport located three nautical miles (6 km) west of the central business district of Carrabelle, a city in Franklin County, Florida, United States. It is owned by the Carrabelle Port and Airport Authority.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1943",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1961419 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "317 Airport Road, Carrabelle, FL 32322",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1961419 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1961419"
+    },
+    {
+     "provider": "geonames",
+     "id": "4150110"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Carrabelle-Thompson_Airport_-_Florida.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Carrabelle-Thompson_Airport_-_Florida.jpg",
+     "alt": "Photograph of Carrabelle-Thompson Airport",
+     "credit": "US Geological Survey",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5046001",
+   "slug": "carrabelle-river",
+   "name": "Carrabelle River",
+   "aliases": [],
+   "description": "river in the United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "carrabelle-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.838889,
+    "lon": -84.661944
+   },
+   "wikipedia": {
+    "title": "Carrabelle River",
+    "url": "https://en.wikipedia.org/wiki/Carrabelle_River",
+    "extract": "Carrabelle River is located in Carrabelle, Florida, and flows into St. George Sound in Apalachicola Bay and the Gulf of Mexico. The area has been a base for commercial fishermen. It is home to a river festival. It is crossed by the Carrabelle River Bridge on U.S. Route 98. Upstream, the Carrabelle forks into the New River and Crooked River.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5046001"
+    },
+    {
+     "provider": "geonames",
+     "id": "4150102"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Carrabelle_FL_river01.jpg/1920px-Carrabelle_FL_river01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Carrabelle_FL_river01.jpg",
+     "alt": "Photograph of Carrabelle River",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5187839",
+   "slug": "crooked-river",
+   "name": "Crooked River",
+   "aliases": [],
+   "description": "waterway in Franklin County, Florida",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.868,
+    "lon": -84.6826
+   },
+   "wikipedia": {
+    "title": "Crooked River (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Crooked_River_(Florida)",
+    "extract": "Crooked River is a waterway in Franklin County, Florida, that connects the tidal estuary of the Ochlockonee River to a junction with the tidal Carrabelle River and the New River above the town of Carrabelle, Florida. The Crooked River channel is 41 kilometres (25 mi) long, while its ends are 24 kilometres (15 mi) apart.\nThe Crooked River is sometimes described as a principal tributary of the Ochlockonee River, while G.H. Dury described the Crooked River as a tidal channel connecting the Carrabelle River with the Ochlockonee River, separating St. James Island from the mainland.\nSegment Five (Crooked River/St. Marks Refuge) of the Florida Circumnavigational Paddling Trail runs through the length of Crooked River.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5187839"
+    },
+    {
+     "provider": "geonames",
+     "id": "4152363"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q49546355",
+   "slug": "prospect-bluff-historic-sites",
+   "name": "Prospect Bluff Historic Sites",
+   "aliases": [],
+   "description": "place in Florida listed on National Register of Historic Places",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.933333,
+    "lon": -85.016667
+   },
+   "wikipedia": {
+    "title": "Prospect Bluff Historic Sites",
+    "url": "https://en.wikipedia.org/wiki/Prospect_Bluff_Historic_Sites",
+    "extract": "Prospect Bluff Historic Sites (until 2016 known as Fort Gadsden Historic Site, and sometimes written as Fort Gadsden Historic Memorial) is located in Franklin County, Florida, on the Apalachicola River, 6 miles (9.7 km) SW of Sumatra, Florida. The site contains the ruins of two forts.\nThe earlier and larger one was built by the British in 1814, during the War of 1812. They allowed the members of the disbanded Corps of Colonial Marines, made up largely of fugitive slaves, and Creek refugees of the Creek War, to occupy it after the British evacuated Florida in 1815, deliberately leaving their munitions behind. At that point, since the British had not named it, Americans started referring to it as Negro Fort. It was destroyed in a river attack from U.S. forces in 1816.\nFort Gadsden was built in 1818 within the former walls of the former Negro Fort.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "nrhp-reference",
+     "value": "72000318",
+     "sourceId": "wikidata",
+     "sourceRef": "Q49546355 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q49546355"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000318"
+    },
+    {
+     "provider": "geonames",
+     "id": "11395340"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q3348721",
+   "slug": "ochlockonee-river",
+   "name": "Ochlockonee River",
+   "aliases": [],
+   "description": "332km (206mi) river in Florida and Georgia, USA",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.976667,
+    "lon": -84.4375
+   },
+   "wikipedia": {
+    "title": "Ochlockonee River",
+    "url": "https://en.wikipedia.org/wiki/Ochlockonee_River",
+    "extract": "The Ochlockonee River (  o-KLOK-nee) is a fast-running river, except where it has been dammed to form Lake Talquin in Florida, originating in Georgia and flowing for 206 miles (332 km) before terminating in Florida.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3348721"
+    },
+    {
+     "provider": "geonames",
+     "id": "4166760"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/06-09_OchlockAtOldBnbrdgRd.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:06-09_OchlockAtOldBnbrdgRd.jpg",
+     "alt": "Photograph of Ochlockonee River",
+     "credit": "Tim Ross",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4850349",
+   "slug": "bald-point-state-park",
+   "name": "Bald Point State Park",
+   "aliases": [],
+   "description": "State park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9475,
+    "lon": -84.341389
+   },
+   "officialUrl": "https://www.floridastateparks.org/park/Bald-Point",
+   "wikipedia": {
+    "title": "Bald Point State Park",
+    "url": "https://en.wikipedia.org/wiki/Bald_Point_State_Park",
+    "extract": "Bald Point State Park is a Florida State Park located south of Ochlockonee Bay, approximately seven miles southeast of Panacea, on St. James Island in Alligator Point, Tallahassee's closest beach, off U.S. 98, in Franklin County northwestern Florida. The address is 146 Box Cut. Park was named after Bald Point cape on eastern tip of St. James Island in Ochlockonee Bay.\nThe first land in Bald Point State Park, 1,349 acres (5.46 km2) primarily along the shore of Apalachee Bay, was purchased by the state in 1999. A major expansion of the park occurred in 2002 when Florida purchased 2,851 acres (11.54 km2) of land from St. Joe Company for $10.3 million. The purchased land was on Ochlockonee Bay, east of the Crooked River (Florida) in Franklin County, Florida. As of 2006, the park included approximately 4,860 acres (19.7 km2).",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4850349 P571"
+    },
+    {
+     "key": "area",
+     "value": 4860,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4850349 P2046"
+    },
+    {
+     "key": "street-address",
+     "value": "146 Box Cut Rd, Alligator Point, FL 32346",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4850349 P6375"
+    },
+    {
+     "key": "operator",
+     "value": "Florida Department of Environmental Protection",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4850349 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4850349"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Bald_Point_SP_sign01.jpg/1920px-Bald_Point_SP_sign01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bald_Point_SP_sign01.jpg",
+     "alt": "Photograph of Bald Point State Park",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q8052388",
+   "slug": "yent-mound",
+   "name": "Yent Mound",
+   "aliases": [],
+   "description": "archaeological site in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9,
+    "lon": -84.365
+   },
+   "wikipedia": {
+    "title": "Yent Mound",
+    "url": "https://en.wikipedia.org/wiki/Yent_Mound",
+    "extract": "The Yent Mound (8FR5) is a Santa Rosa-Swift Creek culture archaeological site located on Alligator Harbor west of St. Teresa, Florida. It is on the east side of County Road 370, approximately 2.5 miles from the junction of U.S. Route 98. On May 24, 1973, it was added to the U.S. National Register of Historic Places.\nThe Yent Mound was constructed by people of the Deptford culture around the beginning of the Current Era. William Sears defined the archaeological Yent complex based on artifacts found in the Yent Mound, Pierce Mound and Crystal River Mounds. The Yent complex was related to the Hopewell tradition, and some of the artifacts were trade items from the Hopewell area.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8052388 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "73000577",
+     "sourceId": "wikidata",
+     "sourceRef": "Q8052388 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q8052388"
+    },
+    {
+     "provider": "nrhp",
+     "id": "73000577"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q726539",
+   "slug": "st-george-island-state-park",
+   "name": "St. George Island State Park",
+   "aliases": [],
+   "description": "state park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.725213,
+    "lon": -84.737404
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/dr-julian-g-bruce-st-george-island-state-park",
+   "wikipedia": {
+    "title": "St. George Island State Park",
+    "url": "https://en.wikipedia.org/wiki/St._George_Island_State_Park",
+    "extract": "St. George Island State Park (also known as the Dr. Julian G. Bruce St. George Island State Park) is a Florida State Park located on the east end of St. George Island, approximately 10 miles southeast of Eastpoint, in northwestern Florida.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q726539 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q726539"
+    },
+    {
+     "provider": "geonames",
+     "id": "4153585"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/07-11-24_StGeoPk2.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:07-11-24_StGeoPk2.jpg",
+     "alt": "Photograph of St. George Island State Park",
+     "credit": "Tim Ross",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7949223",
+   "slug": "wfct",
+   "name": "WFCT",
+   "aliases": [],
+   "description": "adult standards radio station in Apalachicola, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "eastpoint-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7514,
+    "lon": -84.8719
+   },
+   "wikipedia": {
+    "title": "WFCT",
+    "url": "https://en.wikipedia.org/wiki/WFCT",
+    "extract": "WFCT (105.5 FM) is a radio station broadcasting an adult contemporary format, playing songs from the 1960s - early 2000s. Licensed to Apalachicola, Florida, United States, the station serves the Panama City area.  The station is currently owned by Williams Communications, Inc. In October 2018, after being knocked off the air during Hurricane Michael, WFCT began offering news updates twice an hour. WFCT is voiced by actress Susan Mazel.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1996",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7949223 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7949223"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7958287",
+   "slug": "wzfr",
+   "name": "WZFR",
+   "aliases": [],
+   "description": "radio station in Eastpoint, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "eastpoint-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.732778,
+    "lon": -84.89
+   },
+   "officialUrl": "https://www.faithradio.us/",
+   "wikipedia": {
+    "title": "WZFR",
+    "url": "https://en.wikipedia.org/wiki/WFRF-FM",
+    "extract": "WFRF-FM (105.7 FM, \"Faith Radio\") is an American non-commercial educational radio station in Florida, United States.  The station, established in 1989 as WJPH, is owned and operated by Faith Radio Network, Inc. Its studios are located in unincorporated Leon County, Florida, near Tallahassee, close to Lake Jackson and its transmitter is based in Jefferson County, Florida.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7958287"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q28449219",
+   "slug": "apalachicola-river-wildlife-and-environmental-area",
+   "name": "Apalachicola River Wildlife and Environmental Area",
+   "aliases": [],
+   "description": "protected area in Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.808889,
+    "lon": -84.960833
+   },
+   "officialUrl": "https://myfwc.com/recreation/lead/apalachicola-river/",
+   "wikipedia": {
+    "title": "Apalachicola River Wildlife and Environmental Area",
+    "url": "https://en.wikipedia.org/wiki/Apalachicola_River_Wildlife_and_Environmental_Area",
+    "extract": "Apalachicola River Wildlife and Environmental Area (ARWEA) contains 63,257 acres of pine upland, floodplain swamp, savanna, and estuary habitat north of Eastpoint and Apalachicola in Franklin County and Gulf County, Florida.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 108865,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q28449219 P2046"
+    },
+    {
+     "key": "street-address",
+     "value": "2172 Lakegrove Rd, Wewahitchka, FL 32465",
+     "sourceId": "wikidata",
+     "sourceRef": "Q28449219 P6375"
+    },
+    {
+     "key": "operator",
+     "value": "Florida Fish and Wildlife Conservation Commission",
+     "sourceId": "wikidata",
+     "sourceRef": "Q28449219 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q28449219"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/ApalachicolaRiverWildlifeAndEnvironmentalArea_PinesAndEstuary_PeterKleinhenz_FWC.jpg/1920px-ApalachicolaRiverWildlifeAndEnvironmentalArea_PinesAndEstuary_PeterKleinhenz_FWC.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:ApalachicolaRiverWildlifeAndEnvironmentalArea_PinesAndEstuary_PeterKleinhenz_FWC.jpg",
+     "alt": "Photograph of Apalachicola River Wildlife and Environmental Area",
+     "credit": "Pkleinhenz",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q4779007",
+   "slug": "apalachicola-historic-district",
+   "name": "Apalachicola Historic District",
+   "aliases": [],
+   "description": "historic district in Apalachicola, Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.728333,
+    "lon": -84.991944
+   },
+   "wikipedia": {
+    "title": "Apalachicola Historic District",
+    "url": "https://en.wikipedia.org/wiki/Apalachicola_Historic_District",
+    "extract": "The Apalachicola Historic District is a U.S. historic district in Apalachicola, Florida. It is bounded by the Apalachicola River, Apalachicola Bay, 17th and Jefferson Streets, encompasses approximately 4600 acres (19 km2), and contains 652 historic buildings. On November 21, 1980, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 460,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4779007 P2046"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4779007 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "80000951",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4779007 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4779007"
+    },
+    {
+     "provider": "nrhp",
+     "id": "80000951"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Apalachicola_HD_street01.jpg/1920px-Apalachicola_HD_street01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Apalachicola_HD_street01.jpg",
+     "alt": "Photograph of Apalachicola Historic District",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5035066",
+   "slug": "cape-st-george-light",
+   "name": "Cape St. George Light",
+   "aliases": [
+    "Cape St. George Lighthouse"
+   ],
+   "description": "lighthouse in Florida, United States",
+   "entityType": "lighthouse",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "landmarks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "st-george-island-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.663032,
+    "lon": -84.862725
+   },
+   "officialUrl": "https://www.stgeorgelight.org/",
+   "wikipedia": {
+    "title": "Cape St. George Light",
+    "url": "https://en.wikipedia.org/wiki/Cape_St._George_Light",
+    "extract": "The Cape St. George Light is a 77-foot (23 m) high brick lighthouse which had originally stood for 153 years on St. George Island, Florida, until toppling into the Gulf of Mexico October 22, 2005.  The pieces of the lighthouse were retrieved, and in April 2008, the light's restoration was completed.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1833",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035066 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035066 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "74000625",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5035066 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5035066"
+    },
+    {
+     "provider": "nrhp",
+     "id": "74000625"
+    },
+    {
+     "provider": "geonames",
+     "id": "4149986"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/FL_St_George_lths05.jpg/1920px-FL_St_George_lths05.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:FL_St_George_lths05.jpg",
+     "alt": "Photograph of Cape St. George Light",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5035065",
+   "slug": "cape-st-george-island",
+   "name": "Cape St. George Island",
+   "aliases": [
+    "Little Saint George Island"
+   ],
+   "description": "barrier island in Franklin County, Florida, United States",
+   "entityType": "island",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "islands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.5935,
+    "lon": -85.0421
+   },
+   "wikipedia": {
+    "title": "Cape St. George Island",
+    "url": "https://en.wikipedia.org/wiki/Cape_St._George_Island",
+    "extract": "Cape St. George Island (also known as Little St. George Island)  is an uninhabited barrier island situated on Florida's North Gulf Coast, south-southeast of St. Vincent Island, west of St. George Island and 8–10 miles south-southwest of the town of Apalachicola in Franklin County, Florida.  It was formerly part of St. George Island, but was separated from the main island in 1954, when the U.S. Army Corps of Engineers constructed the ship channel known as Bob Sikes Cut.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5035065"
+    },
+    {
+     "provider": "geonames",
+     "id": "4162390"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5233947",
+   "slug": "david-g-raney-house",
+   "name": "David G. Raney House",
+   "aliases": [],
+   "description": "Apalachicola, Florida, listed on the National Register of Historic Places in Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.728333,
+    "lon": -84.985556
+   },
+   "wikipedia": {
+    "title": "David G. Raney House",
+    "url": "https://en.wikipedia.org/wiki/David_G._Raney_House",
+    "extract": "The David G. Raney House  is a historic site in Apalachicola, Florida, United States, located at the southwest corner of Market Street and Avenue F. On September 22, 1972, it was added to the U.S. National Register of Historic Places.\nThe Apalachicola Area Historical Society operates the house as the Raney House Museum, featuring 19th century furnishings, decorations, artifacts and documents. Admission is free.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1838",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5233947 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5233947 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000316",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5233947 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5233947"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000316"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/David_G_Raney_House_Street_Front_2.jpg/1920px-David_G_Raney_House_Street_Front_2.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:David_G_Raney_House_Street_Front_2.jpg",
+     "alt": "Photograph of David G. Raney House",
+     "credit": "Balon Greyjoy",
+     "license": "CC0",
+     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ]
+  },
+  {
+   "qid": "Q6235823",
+   "slug": "john-gorrie-state-museum",
+   "name": "John Gorrie State Museum",
+   "aliases": [],
+   "description": "State park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.724631,
+    "lon": -84.985181
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/john-gorrie-museum-state-park",
+   "wikipedia": {
+    "title": "John Gorrie Museum State Park",
+    "url": "https://en.wikipedia.org/wiki/John_Gorrie_Museum_State_Park",
+    "extract": "The John Gorrie State Museum is a Florida State Park located in Apalachicola, a block off U.S. 98. It commemorates the man who was a pioneer in developing air conditioning, receiving the first U.S. Patent for mechanical refrigeration in 1851. The address is 46 Sixth Street.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1958",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6235823 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6235823"
+    },
+    {
+     "provider": "geonames",
+     "id": "4160324"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Gorriemuseumapalachicola2.jpg/1920px-Gorriemuseumapalachicola2.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Gorriemuseumapalachicola2.jpg",
+     "alt": "Photograph of John Gorrie State Museum",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7103359",
+   "slug": "orman-house",
+   "name": "Orman House",
+   "aliases": [],
+   "description": "Florida State Park and historic site located in Apalachicola, in northwestern Florida",
+   "entityType": "botanical_garden",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "botanical-gardens",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7292,
+    "lon": -84.99
+   },
+   "officialUrl": "https://www.floridastateparks.org/ormanhouse/",
+   "wikipedia": {
+    "title": "Orman House Historic State Park",
+    "url": "https://en.wikipedia.org/wiki/Orman_House_Historic_State_Park",
+    "extract": "The Orman House (built in 1838) is a Florida State Park and historic site located in Apalachicola, in northwestern Florida. The Orman house's address is 177 5th Street. \nThe house combines Federal and Greek Revival architectural details. Its doors, windows, trim, and finished woodwork were made in Syracuse, New York, shipped by sea to Apalachicola, and assembled on site in 1838.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7103359"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Apalachicola_Orman_House01.jpg/1920px-Apalachicola_Orman_House01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Apalachicola_Orman_House01.jpg",
+     "alt": "Photograph of Orman House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q7191826",
+   "slug": "pierce-site",
+   "name": "Pierce Site",
+   "aliases": [],
+   "description": "archaeological site in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-sites",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.73,
+    "lon": -85.01
+   },
+   "wikipedia": {
+    "title": "Pierce Site",
+    "url": "https://en.wikipedia.org/wiki/Pierce_Site",
+    "extract": "The Pierce Site (also known as Pierce Mounds and Middens and 8FR14, and other numbers)  is a Pre-Columbian archaeological site in Apalachicola, Florida. It is located approximately 1 mile northwest of Apalachicola on 12th Street. On January 11, 1974, it was added to the U.S. National Register of Historic Places. It was occupied during the Middle Woodland Period, which includes ceramics of early Weeden Island and Swift Creek types. It also was occupied during the late prehistoric Fort Walton Period.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7191826 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "74000624",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7191826 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7191826"
+    },
+    {
+     "provider": "nrhp",
+     "id": "74000624"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7231078",
+   "slug": "port-of-apalachicola",
+   "name": "Port of Apalachicola",
+   "aliases": [],
+   "description": "former seaport in Florida",
+   "entityType": "seaport",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "seaports",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "st-george-island-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6589,
+    "lon": -84.8778
+   },
+   "wikipedia": {
+    "title": "Port of Apalachicola",
+    "url": "https://en.wikipedia.org/wiki/Port_of_Apalachicola",
+    "extract": "The Port of Apalachicola is a historic Gulf Coast port located on St. George Island in  Franklin County, Florida. The Port of Apalachicola lies at the mouth of the Apalachicola River off Apalachicola Bay on the Intracoastal Waterway.\nThe Port of Apalachicola was of primary strategic importance during the United States Civil War. Union forces established a blockade of the port on 11 June 1861, with the USS Montgomery. At times, the blockade employed a squadron of three or more vessels in the area. On 3 April 1862, a landing at Apalachicola was achieved without resistance from the Confederacy.\nThe port continued to change hands repeatedly throughout the war, usually without serious conflict.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7231078"
+    },
+    {
+     "provider": "geonames",
+     "id": "10279581"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7592098",
+   "slug": "st-vincent-island-florida",
+   "name": "St. Vincent Island, Florida",
+   "aliases": [
+    "Saint Vincent Island"
+   ],
+   "description": "island in Franklin County, Florida, United States",
+   "entityType": "island",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "islands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.661047,
+    "lon": -85.155192
+   },
+   "wikipedia": {
+    "title": "St. Vincent Island (Florida)",
+    "url": "https://en.wikipedia.org/wiki/St._Vincent_Island_(Florida)",
+    "extract": "St. Vincent Island is the westernmost of four barrier islands in the northwestern Florida Gulf coast which include Cape St. George Island, St. George Island and Dog Island. The island is located just offshore in Franklin County, Florida south southeast of Cape San Blas and north of Cape St. George Island close to the mouth of the Apalachicola River and the town of Apalachicola on the Florida Panhandle.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7592098"
+    },
+    {
+     "provider": "geonames",
+     "id": "4171648"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7592100",
+   "slug": "st-vincent-national-wildlife-refuge",
+   "name": "St. Vincent National Wildlife Refuge",
+   "aliases": [],
+   "description": "United States National Wildlife Refuge in Florida",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6444,
+    "lon": -85.1298
+   },
+   "officialUrl": "https://www.fws.gov/refuge/St_Vincent/",
+   "wikipedia": {
+    "title": "St. Vincent National Wildlife Refuge",
+    "url": "https://en.wikipedia.org/wiki/St._Vincent_National_Wildlife_Refuge",
+    "extract": "The St. Vincent National Wildlife Refuge is part of the United States National Wildlife Refuge System, located in the Gulf of Mexico off the coast of Apalachicola, on the barrier island of St. Vincent. The refuge includes Pig Island (46 acres, undeveloped), located in the southwest corner of St. Joseph Bay, nearly 9 miles west of St. Vincent and 86 acres of mainland Florida along Franklin County Road 30A. The 12,490-acre (51 km2) refuge was established in 1968.\nThe purpose of the refuge is to provide habitat for migratory birds including some endangered species. About 277 bird species use the islands as a migratory stopping point annually. St. Vincent Island and Pig Island are open for recreational activities and are accessible only by boat. The islands contain undeveloped trails and beaches, with no visitor center, drinking water or restrooms. Saint Vincent is the westernmost of four barrier islands in the Northwestern Florida Gulf.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1968",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7592100 P571"
+    },
+    {
+     "key": "area",
+     "value": 12490,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7592100 P2046"
+    },
+    {
+     "key": "operator",
+     "value": "United States Fish and Wildlife Service",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7592100 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7592100"
+    },
+    {
+     "provider": "geonames",
+     "id": "4171649"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Endangered_Red_Wolf_By_Carole_Robertson.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Endangered_Red_Wolf_By_Carole_Robertson.jpg",
+     "alt": "Photograph of St. Vincent National Wildlife Refuge",
+     "credit": "Mandcrobertson",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7842732",
+   "slug": "trinity-episcopal-church",
+   "name": "Trinity Episcopal Church",
+   "aliases": [],
+   "description": "church building in Apalachicola, United States of America",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.72566,
+    "lon": -84.98612
+   },
+   "wikipedia": {
+    "title": "Trinity Episcopal Church (Apalachicola, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Trinity_Episcopal_Church_(Apalachicola,_Florida)",
+    "extract": "Trinity Episcopal Church, originally known as Christ Church,  is a historic house of worship in Apalachicola, Florida, United States, located at the corner of Avenue D and 6th Street (Gorrie Square). On June 30, 1972, it was added to the U.S. National Register of Historic Places.\nBegun in 1837 and completed in 1838, the present church was built as a cut to order building in White Plains, New York. It was brought down and around the tip of Florida and assembled like a puzzle on its present site. Trinity was organized in 1836 in the then-territory of Florida, an inhospitable wilderness of swamps and forests where indigenous and enslaved people found haven, and outlaws roamed. It rose from that rough beginning to its status on the National Register of Historic Places and holds the distinction of being the sixth oldest church in Florida and the second oldest continuously serving church. Trinity is proud to be Apalachicola's “Historic First Church”.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7842732 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000317",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7842732 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7842732"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000317"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Trinityapalachicola.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Trinityapalachicola.jpg",
+     "alt": "Photograph of Trinity Episcopal Church",
+     "credit": "The original uploader was JW1805 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16160548",
+   "slug": "apalachicola-maritime-museum",
+   "name": "Apalachicola Maritime Museum",
+   "aliases": [],
+   "description": "Maritime museum in Apalachicola, Florida",
+   "entityType": "museum",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "museums",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "apalachicola-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7258,
+    "lon": -84.9812
+   },
+   "wikipedia": {
+    "title": "Apalachicola Maritime Museum",
+    "url": "https://en.wikipedia.org/wiki/Apalachicola_Maritime_Museum",
+    "extract": "The Apalachicola Maritime Museum is located in Apalachicola in Franklin County, Florida. The museum offers historical and recreational boat tours, eco-tours, kayaking, sunset cruises, sailing, and visits to the area's barrier islands. The museum also covers the area's ecology. The Quark, a ketch designed by L. Francis Herreshoff, is a centerpiece of the museum's exhibitions. The museum also has a restored Apalachicola Boat Works, which operates as a boat-building and restoration facility. The museum is located at 103 Water Street.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16160548"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5187851",
+   "slug": "crooked-river-light",
+   "name": "Crooked River Light",
+   "aliases": [
+    "Carrabelle Light",
+    "Crooked River Lighthouse"
+   ],
+   "description": "lighthouse in Florida, United States",
+   "entityType": "lighthouse",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "landmarks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.826944,
+    "lon": -84.700556
+   },
+   "wikipedia": {
+    "title": "Crooked River Light",
+    "url": "https://en.wikipedia.org/wiki/Crooked_River_Light",
+    "extract": "The Crooked River Light, also known as the Carrabelle Light, was built in 1895 to replace the Dog Island Light on Dog Island, which had been destroyed in 1875 by a hurricane. The location on the mainland allowed the light to serve as the rear range light for the channel to the west of Dog Island, used by ships in the lumber trade.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1895",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5187851 P571"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5187851 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "78000941",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5187851 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5187851"
+    },
+    {
+     "provider": "nrhp",
+     "id": "78000941"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Carrabelle_lths04.JPG/1920px-Carrabelle_lths04.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Carrabelle_lths04.JPG",
+     "alt": "Photograph of Crooked River Light",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5288197",
+   "slug": "dog-island",
+   "name": "Dog Island",
+   "aliases": [],
+   "description": "island in Franklin County, Florida, United States",
+   "entityType": "island",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "islands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.805767,
+    "lon": -84.594346
+   },
+   "wikipedia": {
+    "title": "Dog Island (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Dog_Island_(Florida)",
+    "extract": "Dog Island is located in the northwestern Florida Gulf coast, just 3.5 mi (5.6 km) off-shore from Carrabelle, in Franklin County, Florida. There is, by reservation, ferry transportation to Dog Island on weekends.\nThere are no stores, restaurants, or public restrooms on Dog Island. A hotel, the Pelican Inn, closed in 2016. The island is less than one mile wide at its widest, and just under seven miles long.  The bulk of the island is owned by The Nature Conservancy and is a wilderness preserve. Bird nesting sites on several areas of the east end and west end of the island are strictly off-limits for people and pets. There is a volunteer fire department. Electricity and trash pickup are available.\nMuch of the island is within the Dog Island Conservation District, an independent special district and political subdivision of the State of Florida, created to guide development and help preserve the island.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5288197"
+    },
+    {
+     "provider": "geonames",
+     "id": "4153417"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Dog_Island_Florida.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dog_Island_Florida.png",
+     "alt": "Photograph of Dog Island",
+     "credit": "Wikimedia Commons contributor",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q6802012",
+   "slug": "mckissack-ponds",
+   "name": "McKissack Ponds",
+   "aliases": [],
+   "description": "body of water",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "carrabelle-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.8427,
+    "lon": -84.6852
+   },
+   "wikipedia": {
+    "title": "McKissack Ponds",
+    "url": "https://en.wikipedia.org/wiki/McKissack_Ponds",
+    "extract": "The McKissack Ponds (sometimes misspelled as McKissick) are five small ponds in the city limits of Carrabelle, Franklin County, Florida, just west – 0.3 miles (0.48 km) to 0.8 miles (1.3 km) – of the Carrabelle–Thompson Airport, on the north and south sides of Airport Road. The McKissack Ponds are owned by Franklin County.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6802012"
+    },
+    {
+     "provider": "geonames",
+     "id": "4163889"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7011218",
+   "slug": "new-river-q7011218",
+   "name": "New River",
+   "aliases": [],
+   "description": "river in the Florida Panhandle",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.865,
+    "lon": -84.6817
+   },
+   "wikipedia": {
+    "title": "New River (Carrabelle River tributary)",
+    "url": "https://en.wikipedia.org/wiki/New_River_(Carrabelle_River_tributary)",
+    "extract": "New River is in the Florida Panhandle. It originates in the far north of the Apalachicola National Forest and joins with the Crooked River (Florida) above Carrabelle, Florida to become the Carrabelle River, which opens onto St. George Sound and the Gulf of Mexico. The New River watershed drains a large part of Liberty County, Florida with the Apalachicola River to the west and the Wakulla River to the east.\nNew River is used by paddlers south of Carr Bridge along a corridor of the Mud Swamp/New River Wilderness and, year-round, further south where it is wider with fewer obstructions. It leaves the national forest and enters Franklin County, Florida, passing through Tate's Hell State Forest.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7011218"
+    },
+    {
+     "provider": "geonames",
+     "id": "4165882"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7588510",
+   "slug": "st-james-island",
+   "name": "St. James Island",
+   "aliases": [
+    "Saint James Island"
+   ],
+   "description": "island in Franklin County, Florida, United States",
+   "entityType": "island",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "islands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.909444,
+    "lon": -84.568889
+   },
+   "wikipedia": {
+    "title": "St. James Island",
+    "url": "https://en.wikipedia.org/wiki/St._James_Island",
+    "extract": "St. James Island is an inhabited area along the Florida Panhandle surrounded by the Carrabelle River, Crooked River, Ochlockonee River, and St. George Sound in Franklin County, Florida. It is more than 20 miles (32 km) long and averages 4 miles (6.4 km) wide. It is separated from the mainland by the tidal Crooked River. The highest elevation on St. James Island is 70 feet (21 m) above sea level, the highest on the Gulf coast of Florida between Pensacola and Tampa.\nThe city of Carabelle and communities of Lanark Village, St. Teresa, Alligator Point, and Bald Point are on the island. Bald Point State Park is on the eastern end of the island and another part of the island is in Tate's Hell State Forest. The area has been used commercially for timber and commercial fishing with tourism and retirement increasing more recently. Locally it is not usually spoken of as an island.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7588510"
+    },
+    {
+     "provider": "geonames",
+     "id": "4171067"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7687928",
+   "slug": "tates-hell-state-forest",
+   "name": "Tate's Hell State Forest",
+   "aliases": [],
+   "description": "Florida protected area",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.9204,
+    "lon": -84.8248
+   },
+   "officialUrl": "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Tate-s-Hell-State-Forest",
+   "wikipedia": {
+    "title": "Tate's Hell State Forest",
+    "url": "https://en.wikipedia.org/wiki/Tate%27s_Hell_State_Forest",
+    "extract": "Tate's Hell State Forest is 212,645 acres (860 km2) of land in Franklin and Liberty counties in Florida. The forest is located near Carrabelle off US 98 along the Gulf coast and on St. James Island. At one time, Tate's Hell supported at least 12 major habitats including: wet flatwoods, wet prairie, seepage slope, baygall, floodplain forest, floodplain swamp, basin swamp, upland hardwood forest, sandhill, pine ridges, dense titi swamp thickets and scrub. Tate's Hell State Forest is an important hydrologic area and includes a section of the New River (Florida Panhandle). The forest's watershed provides fresh water into the Apalachicola Bay, the Carrabelle River and the Ochlockonee River.\nDuring a 40-year period of private ownership prior to the state's acquisition in 1994, over 800 miles (1,300 km) of forest roads and ditches were constructed on the property to accommodate intensive commercial forest management operations. Most of the area was planted with pine monoculture and the drainage canals dried what had been previously wetlands.  There was extensive loss of habitat and wildlife. Apalachicola Bay suffered from the loss of the previously continuous fresh water flow into the bay provided by the wetlands, adding to the effect of loss of water flow into the bay from the Apalachicola River. Causes include surface water use upstream of the Apalachicola River basin, such as supplying drinking water to the city of Atlanta, and agriculture use in Georgia. Debate over the use of water in this basin is the subject of a long-standing feud among the three southern states over which use or which user takes precedence over the others. A recent court ruling sets forth the history of water use in the upper reaches of the basin.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1994",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7687928 P571"
+    },
+    {
+     "key": "area",
+     "value": 212269,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7687928 P2046"
+    },
+    {
+     "key": "street-address",
+     "value": "290 Airport Rd, Carrabelle, FL 32322",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7687928 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7687928"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Tate%27s_Hell_State_Forest_St._James_Island_Unit_entrance_on_US98.jpg/1920px-Tate%27s_Hell_State_Forest_St._James_Island_Unit_entrance_on_US98.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tate%27s_Hell_State_Forest_St._James_Island_Unit_entrance_on_US98.jpg",
+     "alt": "Photograph of Tate's Hell State Forest",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q16208317",
+   "slug": "camp-gordon-johnston-museum",
+   "name": "Camp Gordon Johnston Museum",
+   "aliases": [],
+   "description": "museum in Franklin County, Florida, US",
+   "entityType": "museum",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "museums",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.829579,
+    "lon": -84.693391
+   },
+   "officialUrl": "https://www.campgordonjohnston.com",
+   "wikipedia": {
+    "title": "Camp Gordon Johnston Museum",
+    "url": "https://en.wikipedia.org/wiki/Camp_Gordon_Johnston_Museum",
+    "extract": "The Camp Gordon Johnston Museum is a historical museum of World War II history and artifacts. It is located at 1873 Highway 98 West in unincorporated Franklin County, Florida, outside the city limits of Carrabelle, across the highway from Carrabelle Beach, one of the several beaches on which troops practiced amphibious landings. The museum highlights the history of Camp Gordon Johnston, focusing especially on the quarter of a million soldiers who received training in amphibious operation in Carrabelle. The museum's exhibits include vehicles, photographs and thousands of artifacts including uniforms, mess kits and soldiers' war souvenirs. It is open from 11:00 A.M. to 5:00 P.M. on Tuesday through Saturday and it is closed on Sunday and Monday.\nThe museum is owned by the Camp Gordon Johnston Association, a 501(c)(3) nonprofit organization. Randy Usher serves a president of the Camp Gordon Johnston Association.\nIts previous location was the Carrabelle Municipal Complex, which functioned as city hall, and which was formerly the Carrabelle School.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "1873 Highway 98 West, Carrabelle, FL 32322",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16208317 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16208317"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Outside_of_Camp_Gordon_Johnston_Museum.jpg/1920px-Outside_of_Camp_Gordon_Johnston_Museum.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Outside_of_Camp_Gordon_Johnston_Museum.jpg",
+     "alt": "Photograph of Camp Gordon Johnston Museum",
+     "credit": "PRpeep",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q16256244",
+   "slug": "camp-gordon-johnston",
+   "name": "Camp Gordon Johnston",
+   "aliases": [],
+   "description": "World War II training center",
+   "entityType": "military_installation",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "military-installations",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.912,
+    "lon": -84.5418
+   },
+   "wikipedia": {
+    "title": "Camp Gordon Johnston",
+    "url": "https://en.wikipedia.org/wiki/Camp_Gordon_Johnston",
+    "extract": "Camp Gordon Johnston was a World War II United States Army training center located in Carrabelle, Florida, United States. The site's history is featured at the Camp Gordon Johnston Museum.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1941-09",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16256244 P571"
+    },
+    {
+     "key": "operator",
+     "value": "United States Army",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16256244 P137"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16256244"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chow_line_at_Camp_Gordon_Johnston%2C_Florida%2C_during_World_War_II.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chow_line_at_Camp_Gordon_Johnston,_Florida,_during_World_War_II.jpg",
+     "alt": "Photograph of Camp Gordon Johnston",
+     "credit": "Photographer (presumably US military) not credited",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16993782",
+   "slug": "franklin-county-school",
+   "name": "Franklin County School",
+   "aliases": [],
+   "description": "PK-12 school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.765833,
+    "lon": -84.816667
+   },
+   "officialUrl": "https://fcs.franklincountyschools.org/",
+   "wikipedia": {
+    "title": "Franklin County School",
+    "url": "https://en.wikipedia.org/wiki/Franklin_County_School",
+    "extract": "Franklin County School serves pre-kindergarten through 12th grade at 1250 Highway 98 in unincorporated Franklin County, Florida, United States. It is 2 miles (3.2 km) away from the center of Eastpoint. The school has an Eastpoint postal address, though it is not in the Eastpoint census-designated place.\nIt is a part of the Franklin County School District.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "1250 Highway 98, Eastpoint, FL 32328",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16993782 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16993782"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q134283090",
+   "slug": "county-road-30a",
+   "name": "County Road 30A",
+   "aliases": [
+    "Franklin County Road 30A",
+    "County Road 30"
+   ],
+   "description": "county road in Franklin County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "carrabelle-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.846872,
+    "lon": -84.653181
+   },
+   "wikipedia": {
+    "title": "County Road 30A (Franklin County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/List_of_county_roads_in_Franklin_County,_Florida",
+    "extract": "The following is a list of county roads in Franklin County, Florida.  All county roads are maintained by the county in which they reside, although not all routes are marked with standard county road shields.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Franklin County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134283090 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134283090"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Franklin_County_FL_CR_30A_east01.jpg/1920px-Franklin_County_FL_CR_30A_east01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Franklin_County_FL_CR_30A_east01.jpg",
+     "alt": "Photograph of County Road 30A",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q111915623",
+   "slug": "franklin-county-school-district",
+   "name": "Franklin County School District",
+   "aliases": [],
+   "description": "school district in Florida, United States",
+   "entityType": "school_district",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "school-districts",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "headquartered_in"
+    }
+   ],
+   "officialUrl": "https://www.franklincountyschools.org/",
+   "wikipedia": {
+    "title": "Franklin County School District (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Franklin_County_School_District_(Florida)",
+    "extract": "Franklin County School District is a public school district in Franklin County, Florida, United States.\nIt is the sole school district of the county.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "85 School Road, Eastpoint, Florida 32328",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111915623 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Eastpoint",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111915623 P159"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q111915623"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Franklin_County_School_District_headquarters_direct_view.jpg/1920px-Franklin_County_School_District_headquarters_direct_view.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Franklin_County_School_District_headquarters_direct_view.jpg",
+     "alt": "Photograph of Franklin County School District",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q775060",
+   "slug": "texaco",
+   "name": "Texaco",
+   "aliases": [
+    "Texas Company"
+   ],
+   "description": "oil subsidiary of Chevron Corporation",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 37,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.texaco.com",
+   "wikipedia": {
+    "title": "Texaco",
+    "url": "https://en.wikipedia.org/wiki/Texaco",
+    "extract": "Texaco, Inc. (a shortening of \"The Texas Company\") is an American oil brand owned and operated by Chevron Corporation. Its flagship product is its fuel \"Texaco with Techron\". It also owned the Havoline motor oil brand. Texaco was an independent company until its refining operations merged into Chevron in 2001, at which time most of its station franchises were divested to Shell plc through its American division. It was one of the first gas stations to exist.\nTexaco began as the \"Texas Fuel Company\", founded in 1902 in Beaumont, Texas, by Joseph S. Cullinan, Thomas J. Donoghue, and Arnold Schlaet upon the discovery of oil at Spindletop. The Texas Fuel Company was not set up to drill wells or to produce crude oil. To accomplish this, Cullinan organized the Producers Oil Company in 1902, as a group of investors affiliated with The Texas Fuel Company. Men such as John W. \"Bet A Million\" Gates invested in \"certificates of interest\" to an amount of almost ninety thousand dollars. Future restructuring would merge Producers Oil Company and The Texas Fuel Company as Texaco when the company needed additional funding, which J.W. Gates provided in the amount of approximately $590,000 in return for company stock.\nTexaco was one of the Seven Sisters which dominated the global petroleum industry from the mid-1940s to the 1970s. Its current logo features a white star in a red circle (a reference to the lone star of Texas), leading to the long-running advertising jingles \"You can trust your car to the man who wears the star\" and \"Star of the American Road.\" The company was headquartered in Harrison, New York, near White Plains, prior to the merger with Chevron.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1901",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P571"
+    },
+    {
+     "key": "closed",
+     "value": "2001",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P576"
+    },
+    {
+     "key": "owner",
+     "value": "Chevron Corporation",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "San Ramon",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Stephen Cullinan; Arnold Schlaet",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Chevron Corporation; Texas Corporation",
+     "sourceId": "wikidata",
+     "sourceRef": "Q775060 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q775060 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q775060"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Texacologo.svg/1920px-Texacologo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Texacologo.svg",
+     "alt": "Texaco logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q668687",
+   "slug": "united-states-postal-service",
+   "name": "United States Postal Service",
+   "aliases": [
+    "U. S. Postal Service",
+    "US Mail",
+    "U.S. Mail",
+    "U. S. Mail",
+    "United States Postal Service, USPS"
+   ],
+   "description": "independent agency of the U.S. federal government responsible for providing postal service",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 42,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.usps.com/",
+   "wikipedia": {
+    "title": "United States Postal Service",
+    "url": "https://en.wikipedia.org/wiki/United_States_Postal_Service",
+    "extract": "The United States Postal Service (USPS; also known as the Post Office, U.S. Mail, or simply the Postal Service) is an independent agency of the executive branch of the United States federal government responsible for providing postal service in the United States, its insular areas and associated states. It is one of a few government agencies explicitly authorized by the Constitution of the United States. The USPS began operations in 1971, replacing the United States Post Office Department, a Cabinet department. As of March 29, 2024, the USPS has 525,377 career employees and 114,623 pre-career employees.\nThe USPS has a monopoly on traditional letter delivery within the United States and operates under a universal service obligation (USO), both of which are defined across a broad set of legal mandates, which obligate it to provide uniform price and quality across the entirety of its service area. The Post Office has exclusive access to letter boxes marked \"U.S. Mail\" and personal letterboxes in the U.S., but has to compete against private package delivery services, such as United Parcel Service, FedEx, and DHL.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1971-07-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q668687 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "L'Enfant Plaza",
+     "sourceId": "wikidata",
+     "sourceRef": "Q668687 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "United States Congress",
+     "sourceId": "wikidata",
+     "sourceRef": "Q668687 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q668687 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q668687"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/USPS_-_Color_Logo.svg/1920px-USPS_-_Color_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:USPS_-_Color_Logo.svg",
+     "alt": "United States Postal Service logo",
+     "credit": "United States Postal Service",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q6650101",
+   "slug": "little-free-library",
+   "name": "Little Free Library",
+   "aliases": [],
+   "description": "organization for outdoor book exchange boxes",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://littlefreelibrary.org/",
+   "wikipedia": {
+    "title": "Little Free Library",
+    "url": "https://en.wikipedia.org/wiki/Little_Free_Library",
+    "extract": "Little Free Library is a 501(c)(3) nonprofit organization that promotes neighborhood book exchanges, usually in the form of a public bookcase. More than 150,000 public book exchanges are registered with the organization and branded as Little Free Libraries. Through Little Free Libraries, present in 115 countries, millions of books are exchanged each year, with the aim of increasing access to books for readers of all ages and backgrounds. The Little Free Library nonprofit organization is based in St. Paul, Minnesota, United States.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6650101 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Hudson",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6650101 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Todd Bol",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6650101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q6650101 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6650101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/BerglundLittleFreeLibraryForestGroveOR.jpg/1920px-BerglundLittleFreeLibraryForestGroveOR.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:BerglundLittleFreeLibraryForestGroveOR.jpg",
+     "alt": "Photograph of Little Free Library",
+     "credit": "Haeko",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q47719",
+   "slug": "pepsi",
+   "name": "Pepsi",
+   "aliases": [
+    "Brad's Drink",
+    "Pepsi-Cola",
+    "Pepsi Cola"
+   ],
+   "description": "soft drink owned and manufactured by PepsiCo",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 104,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pepsi.com/",
+   "wikipedia": {
+    "title": "Pepsi",
+    "url": "https://en.wikipedia.org/wiki/Pepsi",
+    "extract": "Pepsi is a carbonated soft drink with a cola flavor, the flagship product of PepsiCo. In 2023, Pepsi was the second most valuable soft drink brand worldwide behind Coca-Cola; the two share a long-standing rivalry in what has been called the \"cola wars\".\nPepsi, originally created in 1893 by Caleb Bradham and named \"Brad's Drink,\" was first sold in his drugstore in New Bern, North Carolina. Renamed \"Pepsi-Cola\" in 1898 due to its supposed digestive benefits, its name was shortened in marketing to \"Pepsi\" as early as 1951. Early on, Pepsi struggled with financial stability, going bankrupt in 1923 but was subsequently purchased and revived by Charles Guth, who reformulated the syrup. Pepsi gained popularity with the introduction of a 12-ounce bottle during the Great Depression and marketing strategies like the \"Nickel, Nickel\" jingle, doubling sales by emphasizing its value.\nThe mid-20th century saw Pepsi targeting the African American market, a then-untapped demographic, with positive portrayals and endorsements from prominent figures, boosting its market share. Pepsi's rivalry with Coca-Cola, highlighted by the \"cola wars\", led to significant cultural and market competition, including the \"Pepsi Challenge\" taste tests and the introduction of New Coke in response. Pepsi's expansion into international markets has seen varied success, with notable ventures into the Soviet Union via a landmark barter deal and enduring popularity in certain regions over Coca-Cola.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1893",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Mushin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "PepsiCo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q47719 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q47719 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q47719"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/1920px-Pepsi_2023.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Pepsi_2023.svg",
+     "alt": "Pepsi logo",
+     "credit": "™/®PepsiCo, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q126652985",
+   "slug": "ev-connect",
+   "name": "EV Connect",
+   "aliases": [],
+   "description": "electric vehicle charging company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.evconnect.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q126652985 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "El Segundo",
+     "sourceId": "wikidata",
+     "sourceRef": "Q126652985 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q126652985 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q126652985"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q92384230",
+   "slug": "centennial-bank",
+   "name": "Centennial Bank",
+   "aliases": [],
+   "description": "American banking chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "bank-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.my100bank.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2008",
+     "sourceId": "wikidata",
+     "sourceRef": "Q92384230 P571"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 5,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q92384230 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q92384230"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q109675651",
+   "slug": "exxon",
+   "name": "Exxon",
+   "aliases": [],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109675651 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109675651 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109675651"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5433101",
+   "slug": "family-dollar",
+   "name": "Family Dollar",
+   "aliases": [
+    "Family Dollar Stores, Inc.",
+    "FDO",
+    "Family Dollar Stores"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.familydollar.com/",
+   "wikipedia": {
+    "title": "Family Dollar",
+    "url": "https://en.wikipedia.org/wiki/Family_Dollar",
+    "extract": "Family Dollar Stores, Inc. is an American variety store chain founded in 1959 by Leon Levine in Charlotte, North Carolina. With over 8,000 locations in all states except Alaska and Hawaii, it was once the second largest retailer of its type in the United States until it was acquired by Dollar Tree in 2015. Its headquarters operations were then moved from Matthews, North Carolina, to Chesapeake, Virginia.\nIn June 2014, activist investor and major shareholder Carl Icahn demanded that Family Dollar be immediately put up for sale. On July 28, Dollar Tree announced that it would buy Family Dollar for $8.5 billion. The sale delivered a windfall to Icahn, who had acquired his 9.4 percent stake in June. In January 2015, Family Dollar shareholders approved the Dollar Tree bid.\nFamily Dollar, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. In 2022, Family Dollar was sued by the Arkansas Attorney General following an investigation by the FDA into a rat infestation at its West Memphis, Arkansas, distribution center. The lawsuit ended in a $41 million fine to the company and the temporary closure of 400 stores.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1959",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Leon Levine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5433101 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5433101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Family-Dollar-Logo-2.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Family-Dollar-Logo-2.png",
+     "alt": "Family Dollar logo",
+     "credit": "Tellermate 2021",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q3146662",
+   "slug": "iga",
+   "name": "IGA",
+   "aliases": [
+    "Independent Grocers Alliance",
+    "Independent Grocers Alliance of America"
+   ],
+   "description": "U.S. brand of franchise grocery stores, operating in more than 30 countries",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 5,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.iga.com",
+   "wikipedia": {
+    "title": "IGA, Inc.",
+    "url": "https://en.wikipedia.org/wiki/IGA,_Inc.",
+    "extract": "IGA, INC. is an international affiliation of franchised grocery stores that are independently owned and operated.  As of 2026, the network included nearly 7,500 supermarkets in more than 30 countries, representing $80 billion in annual sales — with many IGA stores operating in small-town markets and owned by their managing families. \nHeadquartered in Chicago, Illinois, IGA was founded in 1926 the United States as the Independent Grocers Alliance.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1926-05",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3146662 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3146662 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3146662"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/IGA_logo.svg/1920px-IGA_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:IGA_logo.svg",
+     "alt": "IGA logo",
+     "credit": "IGA",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2078880",
+   "slug": "cvs-pharmacy",
+   "name": "CVS Pharmacy",
+   "aliases": [
+    "CVS/pharmacy",
+    "CVS"
+   ],
+   "description": "U.S. pharmacy chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 12,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "specialty-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.cvs.com/",
+   "wikipedia": {
+    "title": "CVS Pharmacy",
+    "url": "https://en.wikipedia.org/wiki/CVS_Pharmacy",
+    "extract": "CVS Pharmacy Inc. is an American retail corporation. A subsidiary of CVS Health, it is headquartered in Woonsocket, Rhode Island. Originally named the Consumer Value Stores, it was founded in Lowell, Massachusetts, in 1963.\nThe chain was owned by its original holding company Melville Corporation from its inception until its current parent company, CVS Health, was spun off into its own company in 1996. CVS Pharmacy is currently the largest pharmacy chain in the United States by number of locations, of which it had over 9,600 as of 2016, and total prescription revenue. Its parent company ranks as the fifth largest American corporation by FY2020 revenues in the Fortune 500. The parent company of CVS Pharmacy's leading competitor, Walgreens, ranked 19th over the same time period. CVS sells prescription drugs and a wide assortment of general merchandise, including over-the-counter drugs, beauty products and cosmetics, film and photo finishing services, seasonal merchandise, greeting cards, and convenience foods through their CVS Pharmacy and Longs Drugs retail stores and online through CVS.com. It also provides healthcare services through its more than 1,100 MinuteClinic medical clinics, as well as their Diabetes Care Centers. Most of these clinics are located within or outside CVS stores.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1963",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Melville Corporation; CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Woonsocket",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "CVS Health",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2078880 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2078880 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2078880"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CVS_Logo_2016.svg/1920px-CVS_Logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:CVS_Logo_2016.svg",
+     "alt": "CVS Pharmacy logo",
+     "credit": "CVS",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q3388303",
+   "slug": "piggly-wiggly",
+   "name": "Piggly Wiggly",
+   "aliases": [],
+   "description": "American supermarket chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supermarkets",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.pigglywiggly.com/",
+   "wikipedia": {
+    "title": "Piggly Wiggly",
+    "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+    "extract": "Piggly Wiggly, LLC is an American supermarket chain operating in the American Southern and Midwestern regions. Its first outlet opened in 1916 in Memphis, Tennessee, and was the first true self-service grocery store, and the originator of various familiar supermarket features, such as checkout stands and individual item price marking.\nThe company is currently headquartered in Keene, New Hampshire, although no Piggly Wiggly-branded stores operate in that state. As of 2024, 503 independently owned Piggly Wiggly stores operated in 18 states, primarily in smaller cities and towns.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1916",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Keene",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Clarence Saunders",
+     "sourceId": "wikidata",
+     "sourceRef": "Q3388303 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q3388303 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3388303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Piggly_wiggly.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Piggly_wiggly.png",
+     "alt": "Piggly Wiggly logo",
+     "credit": "C&amp;S Wholesale Grocers and Piggly Wiggly",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q64051305",
+   "slug": "petro-stopping-centers",
+   "name": "Petro Stopping Centers",
+   "aliases": [
+    "Petro Stopping Center",
+    "Petro"
+   ],
+   "description": "full-service travel center chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.ta-petro.com/",
+   "facts": [
+    {
+     "key": "parent-organization",
+     "value": "TravelCenters of America",
+     "sourceId": "wikidata",
+     "sourceRef": "Q64051305 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q64051305 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q64051305"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Petro_Stopping_Centers_logo.svg/1920px-Petro_Stopping_Centers_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Petro_Stopping_Centers_logo.svg",
+     "alt": "Petro Stopping Centers logo",
+     "credit": "TravelCenters of America",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1054480",
+   "slug": "century-21-real-estate",
+   "name": "Century 21 Real Estate",
+   "aliases": [
+    "Century 21 Real Estate LLC",
+    "Century21 Real Estate Of Japan Ltd.",
+    "Century 21",
+    "Century21"
+   ],
+   "description": "US international real estate agent franchise company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 10,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.century21global.com/",
+   "wikipedia": {
+    "title": "Century 21 Real Estate",
+    "url": "https://en.wikipedia.org/wiki/Century_21_Real_Estate",
+    "extract": "Century 21 Real Estate LLC is an American real estate agent franchise company founded in 1971. The system consists of approximately 14,000 independently owned and operated franchised broker offices in 86 countries and territories worldwide with over 147,000 sales professionals.  Century 21 Real Estate is headquartered in Madison, New Jersey and is a division of Compass, Inc.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1971",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1054480 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1054480 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Arthur E. Bartlett",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1054480 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Anywhere Real Estate",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1054480 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1054480 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1054480"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Century-21-logo.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Century-21-logo.png",
+     "alt": "Century 21 Real Estate logo",
+     "credit": "Century 21",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q4781944",
+   "slug": "exxon-q4781944",
+   "name": "Exxon",
+   "aliases": [
+    "Exxon Corporation",
+    "Exxon Corp.",
+    "Exxon Company",
+    "Exxon Company USA",
+    "Exxon Company, U.S.A"
+   ],
+   "description": "former American oil company",
+   "entityType": "brand",
+   "status": "historical",
+   "origin": "osm-brand",
+   "prominence": 14,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.exxon.com/",
+   "wikipedia": {
+    "title": "Exxon",
+    "url": "https://en.wikipedia.org/wiki/ExxonMobil",
+    "extract": "ExxonMobil Holdings Corporation ( EK-son MOH-bəl) is an American multinational oil and gas corporation headquartered in Spring, Texas, a suburb of Houston. Founded as the largest direct successor of John D. Rockefeller's Standard Oil, the company was formed in 1999, with the merger of Exxon and Mobil. It is vertically integrated across the entire oil and gas industry, as well as within its chemicals division, which produces plastic, synthetic rubber, and other chemical products. As the largest U.S.-based oil and gas company, ExxonMobil is the eighth-largest company by revenue in the U.S. and 13th-largest in the world. It is also the largest investor-owned oil company in the world.\nThe company has been widely criticized and sued, mostly for environmental incidents and its history of climate change denial against the scientific consensus that fossil fuels significantly contribute to global warming. The company is responsible for many oil spills, the largest and most notable of which was the 1989 Exxon Valdez oil spill in Alaska, considered to be one of the world's worst oil spills in terms of environmental damage. The company has also been accused of human rights violations and exerting excessive influence on American foreign policy and developing countries.\nIn 2024, ExxonMobil was responsible for 610 Mt of CO2 emissions, which was 1.58% of global CO2 emissions.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973-01-01",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P571"
+    },
+    {
+     "key": "closed",
+     "value": "1999",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P576"
+    },
+    {
+     "key": "headquarters",
+     "value": "Las Colinas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4781944 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4781944 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4781944"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Exxon_logo_2016.svg/1920px-Exxon_logo_2016.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Exxon_logo_2016.svg",
+     "alt": "Exxon logo",
+     "credit": "ExxonMobil",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q830334",
+   "slug": "best-western",
+   "name": "Best Western",
+   "aliases": [
+    "Best Western International, Inc.",
+    "Best Western Hotels and Resorts",
+    "Best Western Hotels & Resorts",
+    "Best Western International"
+   ],
+   "description": "international hotel chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bestwestern.com/",
+   "wikipedia": {
+    "title": "Best Western",
+    "url": "https://en.wikipedia.org/wiki/Best_Western",
+    "extract": "Best Western International, Inc. owns the Best Western Hotels & Resorts brand, which it licenses to over 4,500 hotels worldwide. The franchise, with its corporate headquarters in Phoenix, Arizona, includes more than 2,000 hotels in North America. The brand was founded by M. K. Guertin in 1946. As of December 2021, Larry Cuculic is the president and CEO of Best Western. As of 2018, it was a nonprofit owned by its franchisee members.\nIn 1964, Canadian hotel owners joined the system. Best Western then expanded to Mexico, Australia, and New Zealand in 1976.\nIn 2002, Best Western International launched Best Western Premier in Europe and Asia. (The other hotels in the chain were known as Best Western.) In 2011, the chain's branding system-wide changed to a three-tiered system: Best Western, Best Western Plus, and Best Western Premier.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1946",
+     "sourceId": "wikidata",
+     "sourceRef": "Q830334 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Phoenix",
+     "sourceId": "wikidata",
+     "sourceRef": "Q830334 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "BWH Hotels",
+     "sourceId": "wikidata",
+     "sourceRef": "Q830334 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q830334 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q830334"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Best_Western_Hotels_%26_Resorts_logo.svg/1920px-Best_Western_Hotels_%26_Resorts_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Best_Western_Hotels_%26_Resorts_logo.svg",
+     "alt": "Best Western logo",
+     "credit": "Best Western International, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q152057",
+   "slug": "bp",
+   "name": "BP",
+   "aliases": [
+    "BP P.L.C.",
+    "BP Connect",
+    "BP plc",
+    "BP 2go"
+   ],
+   "description": "British multinational oil and gas company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 66,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "franklin-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://bp.com",
+   "wikipedia": {
+    "title": "BP",
+    "url": "https://en.wikipedia.org/wiki/BP",
+    "extract": "BP p.l.c. is a British multinational oil and gas company headquartered in London, England. It is one of the oil and gas \"supermajors\" and one of the world's largest companies measured by revenues and profits. It is a vertically integrated company operating in all areas of the oil and gas industry, including exploration and extraction, refining, distribution and marketing, power generation, and trading.\nBP's origins date back to the founding of the Anglo-Persian Oil Company in 1909, established as a subsidiary of the Burmah Oil Company to exploit oil discoveries in Iran. In 1935, it became the Anglo-Iranian Oil Company and in 1954, adopted the name British Petroleum. The company acquired majority control of Standard Oil of Ohio in 1978. Formerly majority state-owned, the British government privatised the company in stages between 1979 and 1987. British Petroleum merged with Amoco in 1998, becoming BP Amoco p.l.c., and acquired ARCO, Burmah Castrol and Aral AG shortly thereafter. The company's name was shortened to BP p.l.c. in 2001.\nAs of 2024, BP had operations in 61 countries, produced around 2.4 million barrels per day (380,000 m3/d) of oil equivalent, and had total proven reserves of 6.25 billion barrels (994,000,000 m3) of oil equivalent. The company has around 21,200 service stations worldwide, which it operates under the BP brand (worldwide) and under the Amoco brand (in the U.S.) and the Aral brand (in Germany). Its largest division is BP America in the United States.",
+    "retrievedAt": "2026-11-27T19:31:18.006Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1909-04-14",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "London",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "William Knox D'Arcy; Charles Greenway, 1st Baron Greenway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q152057 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q152057 inside Franklin County boundary",
+     "scopeAreaSlug": "franklin-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q152057"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bp_textlogo.svg/1920px-Bp_textlogo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bp_textlogo.svg",
+     "alt": "BP logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "franklin-county-fl",
+  "wikidataCandidates": 73,
+  "places": 35,
+  "brands": 20,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 51,
+  "withFreeImage": 39,
+  "withCoordinates": 34,
+  "osmBrandedLocations": 33,
+  "unmappedClasses": 7
+ }
+}

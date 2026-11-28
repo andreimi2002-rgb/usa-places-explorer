@@ -25,7 +25,7 @@ type Tab = "overview" | "directory" | "localities";
 
 export function PlaceHeader({ area, tab }: { area: AreaDetail; tab: Tab }) {
   const photo = area.media.find((m) => m.kind === "photo" && !m.aiGenerated);
-  const showLocalities = ["country", "state", "county"].includes(area.areaType);
+  const showLocalities = ["country", "state", "county", "municipality"].includes(area.areaType);
   const showDirectory = area.entityCount > 0 || area.programStatus === "active";
   const tabs: { id: Tab; href: string; label: string }[] = [
     { id: "overview", href: `/places/${area.slug}`, label: t("area.overview") },

@@ -1,0 +1,473 @@
+{
+ "source": {
+  "id": "noaa-hurdat2",
+  "title": "NOAA NHC HURDAT2 Atlantic best-track data (1851–2025)",
+  "url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-02272026.txt",
+  "license": "Public domain (U.S. federal government work); credit NOAA National Hurricane Center",
+  "retrievedAt": "2026-11-28T10:55:14.572Z",
+  "checksumSha256": "1b9b0c7beed5b4505838658b1d30e159fc84330c60891a58cfcf43ae55c37202",
+  "method": "Storms at hurricane status within 140 km of the metro anchor point, 1950–2025. Category = strongest 6-hourly intensity inside the radius."
+ },
+ "metros": {
+  "jacksonville": {
+   "anchor": {
+    "slug": "jacksonville-fl",
+    "lat": 30.335914,
+    "lon": -81.661762
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 8,
+   "annualProbability": 0.105,
+   "stormsByCategory": {
+    "cat1": 5,
+    "cat2": 2,
+    "cat3": 1,
+    "cat4": 0,
+    "cat5": 0
+   },
+   "storms": [
+    {
+     "storm": "KING (AL111950)",
+     "year": 1950,
+     "category": 1
+    },
+    {
+     "storm": "DONNA (AL051960)",
+     "year": 1960,
+     "category": 1
+    },
+    {
+     "storm": "DORA (AL061964)",
+     "year": 1964,
+     "category": 2
+    },
+    {
+     "storm": "GLADYS (AL141968)",
+     "year": 1968,
+     "category": 1
+    },
+    {
+     "storm": "DAVID (AL091979)",
+     "year": 1979,
+     "category": 2
+    },
+    {
+     "storm": "BOB (AL021985)",
+     "year": 1985,
+     "category": 1
+    },
+    {
+     "storm": "CHARLEY (AL032004)",
+     "year": 2004,
+     "category": 1
+    },
+    {
+     "storm": "MATTHEW (AL142016)",
+     "year": 2016,
+     "category": 3
+    }
+   ]
+  },
+  "orlando": {
+   "anchor": {
+    "slug": "orlando-fl",
+    "lat": 28.472265,
+    "lon": -81.322452
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 11,
+   "annualProbability": 0.145,
+   "stormsByCategory": {
+    "cat1": 12,
+    "cat2": 3,
+    "cat3": 1,
+    "cat4": 0,
+    "cat5": 0
+   },
+   "storms": [
+    {
+     "storm": "EASY (AL051950)",
+     "year": 1950,
+     "category": 2
+    },
+    {
+     "storm": "KING (AL111950)",
+     "year": 1950,
+     "category": 1
+    },
+    {
+     "storm": "DONNA (AL051960)",
+     "year": 1960,
+     "category": 1
+    },
+    {
+     "storm": "ABBY (AL011968)",
+     "year": 1968,
+     "category": 1
+    },
+    {
+     "storm": "GLADYS (AL141968)",
+     "year": 1968,
+     "category": 2
+    },
+    {
+     "storm": "DAVID (AL091979)",
+     "year": 1979,
+     "category": 2
+    },
+    {
+     "storm": "ERIN (AL051995)",
+     "year": 1995,
+     "category": 1
+    },
+    {
+     "storm": "IRENE (AL131999)",
+     "year": 1999,
+     "category": 1
+    },
+    {
+     "storm": "CHARLEY (AL032004)",
+     "year": 2004,
+     "category": 1
+    },
+    {
+     "storm": "FRANCES (AL062004)",
+     "year": 2004,
+     "category": 1
+    },
+    {
+     "storm": "JEANNE (AL112004)",
+     "year": 2004,
+     "category": 1
+    },
+    {
+     "storm": "MATTHEW (AL142016)",
+     "year": 2016,
+     "category": 3
+    },
+    {
+     "storm": "IRMA (AL112017)",
+     "year": 2017,
+     "category": 1
+    },
+    {
+     "storm": "IAN (AL092022)",
+     "year": 2022,
+     "category": 1
+    },
+    {
+     "storm": "NICOLE (AL172022)",
+     "year": 2022,
+     "category": 1
+    },
+    {
+     "storm": "MILTON (AL142024)",
+     "year": 2024,
+     "category": 1
+    }
+   ]
+  },
+  "miami": {
+   "anchor": {
+    "slug": "miami-fl",
+    "lat": 25.775163,
+    "lon": -80.208615
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 10,
+   "annualProbability": 0.132,
+   "stormsByCategory": {
+    "cat1": 3,
+    "cat2": 5,
+    "cat3": 1,
+    "cat4": 2,
+    "cat5": 1
+   },
+   "storms": [
+    {
+     "storm": "KING (AL111950)",
+     "year": 1950,
+     "category": 4
+    },
+    {
+     "storm": "DONNA (AL051960)",
+     "year": 1960,
+     "category": 4
+    },
+    {
+     "storm": "CLEO (AL051964)",
+     "year": 1964,
+     "category": 2
+    },
+    {
+     "storm": "ISBELL (AL111964)",
+     "year": 1964,
+     "category": 2
+    },
+    {
+     "storm": "BETSY (AL031965)",
+     "year": 1965,
+     "category": 3
+    },
+    {
+     "storm": "INEZ (AL091966)",
+     "year": 1966,
+     "category": 2
+    },
+    {
+     "storm": "DAVID (AL091979)",
+     "year": 1979,
+     "category": 2
+    },
+    {
+     "storm": "FLOYD (AL131987)",
+     "year": 1987,
+     "category": 1
+    },
+    {
+     "storm": "ANDREW (AL041992)",
+     "year": 1992,
+     "category": 5
+    },
+    {
+     "storm": "IRENE (AL131999)",
+     "year": 1999,
+     "category": 1
+    },
+    {
+     "storm": "KATRINA (AL122005)",
+     "year": 2005,
+     "category": 1
+    },
+    {
+     "storm": "WILMA (AL252005)",
+     "year": 2005,
+     "category": 2
+    }
+   ]
+  },
+  "tampa": {
+   "anchor": {
+    "slug": "tampa-fl",
+    "lat": 27.967876,
+    "lon": -82.474586
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 9,
+   "annualProbability": 0.118,
+   "stormsByCategory": {
+    "cat1": 4,
+    "cat2": 3,
+    "cat3": 2,
+    "cat4": 2,
+    "cat5": 0
+   },
+   "storms": [
+    {
+     "storm": "EASY (AL051950)",
+     "year": 1950,
+     "category": 3
+    },
+    {
+     "storm": "KING (AL111950)",
+     "year": 1950,
+     "category": 1
+    },
+    {
+     "storm": "DONNA (AL051960)",
+     "year": 1960,
+     "category": 2
+    },
+    {
+     "storm": "ALMA (AL011966)",
+     "year": 1966,
+     "category": 2
+    },
+    {
+     "storm": "GLADYS (AL141968)",
+     "year": 1968,
+     "category": 2
+    },
+    {
+     "storm": "GORDON (AL112000)",
+     "year": 2000,
+     "category": 1
+    },
+    {
+     "storm": "CHARLEY (AL032004)",
+     "year": 2004,
+     "category": 4
+    },
+    {
+     "storm": "JEANNE (AL112004)",
+     "year": 2004,
+     "category": 1
+    },
+    {
+     "storm": "IRMA (AL112017)",
+     "year": 2017,
+     "category": 1
+    },
+    {
+     "storm": "IAN (AL092022)",
+     "year": 2022,
+     "category": 4
+    },
+    {
+     "storm": "MILTON (AL142024)",
+     "year": 2024,
+     "category": 3
+    }
+   ]
+  },
+  "destin": {
+   "anchor": {
+    "slug": "destin-fl",
+    "lat": 30.402212,
+    "lon": -86.467294
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 12,
+   "annualProbability": 0.158,
+   "stormsByCategory": {
+    "cat1": 5,
+    "cat2": 3,
+    "cat3": 5,
+    "cat4": 0,
+    "cat5": 1
+   },
+   "storms": [
+    {
+     "storm": "FLORENCE (AL091953)",
+     "year": 1953,
+     "category": 1
+    },
+    {
+     "storm": "FLOSSY (AL071956)",
+     "year": 1956,
+     "category": 1
+    },
+    {
+     "storm": "AGNES (AL021972)",
+     "year": 1972,
+     "category": 1
+    },
+    {
+     "storm": "ELOISE (AL131975)",
+     "year": 1975,
+     "category": 3
+    },
+    {
+     "storm": "ELENA (AL051985)",
+     "year": 1985,
+     "category": 3
+    },
+    {
+     "storm": "KATE (AL131985)",
+     "year": 1985,
+     "category": 2
+    },
+    {
+     "storm": "ERIN (AL051995)",
+     "year": 1995,
+     "category": 2
+    },
+    {
+     "storm": "OPAL (AL171995)",
+     "year": 1995,
+     "category": 3
+    },
+    {
+     "storm": "DANNY (AL051997)",
+     "year": 1997,
+     "category": 1
+    },
+    {
+     "storm": "EARL (AL051998)",
+     "year": 1998,
+     "category": 1
+    },
+    {
+     "storm": "IVAN (AL092004)",
+     "year": 2004,
+     "category": 3
+    },
+    {
+     "storm": "DENNIS (AL042005)",
+     "year": 2005,
+     "category": 3
+    },
+    {
+     "storm": "MICHAEL (AL142018)",
+     "year": 2018,
+     "category": 5
+    },
+    {
+     "storm": "SALLY (AL192020)",
+     "year": 2020,
+     "category": 2
+    }
+   ]
+  },
+  "tallahassee": {
+   "anchor": {
+    "slug": "tallahassee-fl",
+    "lat": 30.453529,
+    "lon": -84.252272
+   },
+   "window": "1950-2025",
+   "radiusKm": 140,
+   "yearsWithHurricane": 6,
+   "annualProbability": 0.079,
+   "stormsByCategory": {
+    "cat1": 3,
+    "cat2": 1,
+    "cat3": 1,
+    "cat4": 1,
+    "cat5": 1
+   },
+   "storms": [
+    {
+     "storm": "ALMA (AL011966)",
+     "year": 1966,
+     "category": 1
+    },
+    {
+     "storm": "KATE (AL131985)",
+     "year": 1985,
+     "category": 2
+    },
+    {
+     "storm": "HERMINE (AL092016)",
+     "year": 2016,
+     "category": 1
+    },
+    {
+     "storm": "MICHAEL (AL142018)",
+     "year": 2018,
+     "category": 5
+    },
+    {
+     "storm": "IDALIA (AL102023)",
+     "year": 2023,
+     "category": 3
+    },
+    {
+     "storm": "DEBBY (AL042024)",
+     "year": 2024,
+     "category": 1
+    },
+    {
+     "storm": "HELENE (AL092024)",
+     "year": 2024,
+     "category": 4
+    }
+   ]
+  }
+ }
+}

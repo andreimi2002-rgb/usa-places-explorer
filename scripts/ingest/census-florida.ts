@@ -16,13 +16,15 @@ import * as shapefile from "shapefile";
 import { geoContains } from "d3-geo";
 import type { Feature, FeatureCollection, Geometry, Position } from "geojson";
 import path from "node:path";
+import type { z } from "zod";
 import { acquire, hasFlag, parseDelimited, SEED_DIR, writeJson, type Downloaded } from "./lib";
 import { slugify } from "../../src/lib/text";
 import {
   censusBundleSchema,
+  coverageUniverseSchema,
   type Area,
   type AreaRelation,
-  type CoverageUniverse,
+
   type Fact,
   type Source,
 } from "../../src/lib/domain/schemas";
@@ -143,7 +145,7 @@ async function main() {
   const areas: Area[] = [];
   const facts: Fact[] = [];
   const relations: AreaRelation[] = [];
-  const universes: CoverageUniverse[] = [];
+  const universes: z.input<typeof coverageUniverseSchema>[] = [];
 
   const popFact = (slug: string, base: string | undefined, est: string | undefined, sourceId: string, ref: string) => {
     if (base) facts.push({ subjectKind: "area", subjectSlug: slug, key: "population-estimates-base-2020", value: Number(base), unit: "people", asOf: "2020-04-01", asOfLabel: "April 1, 2020 estimates base", sourceId, sourceRef: `${ref} ESTIMATESBASE2020`, reviewStatus: "imported" });

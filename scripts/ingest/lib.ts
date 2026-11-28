@@ -6,9 +6,26 @@ export const ROOT = path.resolve(import.meta.dirname, "..", "..");
 export const RAW_DIR = path.join(ROOT, "data", "raw");
 export const SEED_DIR = path.join(ROOT, "seed");
 
-export const USER_AGENT = "America360-ingest/0.1 (personal, non-commercial research; low request rate)";
+export const USER_AGENT = "America360-ingest/0.2 (+https://github.com/andreimi2002-rgb/usa-places-explorer; personal non-commercial research; low request rate)";
 
-export type Downloaded = { file: string; bytes: Buffer; sha256: string; retrievedAt: string; fromCache: boolean };
+/**
+ * Some agencies (BLS, SSA, HUD) require a contact email in the User-Agent. The owner sets it in
+ * .env.local as A360_CONTACT_EMAIL (git-ignored); it is never hard-coded or committed.
+ */
+export function contactUserAgent(): string {
+  for (const f of [".env.local", ".env"]) {
+    try {
+      process.loadEnvFile(f);
+    } catch {
+      /* optional */
+    }
+  }
+  const email = process.env.A360_CONTACT_EMAIL;
+  if (!email) throw new Error("Set A360_CONTACT_EMAIL in .env.local (required by BLS/SSA/HUD access policies).");
+  return `America360-ingest/0.2 (personal non-commercial research; contact: ${email})`;
+}
+
+export type Downloaded ={ file: string; bytes: Buffer; sha256: string; retrievedAt: string; fromCache: boolean };
 
 type Manifest = Record<string, { url: string; sha256: string; retrievedAt: string; bytes: number }>;
 

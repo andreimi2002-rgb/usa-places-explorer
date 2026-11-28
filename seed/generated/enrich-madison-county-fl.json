@@ -1,0 +1,2752 @@
+{
+ "generatedAt": "2026-11-27T20:28:39.607Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "madison-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T20:28:39.607Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T20:28:39.607Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Madison County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T20:28:39.607Z",
+   "checksumSha256": "c5adb952ab082b9e6bd283c69be1abb368e86d42fde57ba32b247c8b45f449a2"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q642848",
+   "slug": "four-freedoms-monument",
+   "name": "Four Freedoms Monument",
+   "aliases": [],
+   "description": "artwork by Rupert Condict",
+   "entityType": "landmark",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 8,
+   "categories": [
+    {
+     "slug": "monuments",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.469583,
+    "lon": -83.412778
+   },
+   "wikipedia": {
+    "title": "Four Freedoms Monument",
+    "url": "https://en.wikipedia.org/wiki/Four_Freedoms_Monument",
+    "extract": "The Four Freedoms Monument was commissioned by President Franklin D. Roosevelt following his articulation of the \"Four Freedoms\" in his 1941 State of the Union Address. This was yet before the Attack on Pearl Harbor and the participation of the United States in World War II. Roosevelt felt that, through the medium of the arts, a far greater number of people could be inspired to appreciate the concept of the Four Freedoms.\nAccording to Roosevelt, the four fundamental freedoms are:\nFreedom of speech and expression",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1976",
+     "sourceId": "wikidata",
+     "sourceRef": "Q642848 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q642848"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Madison_FL_4_Freedoms_mnmt08.jpg/1920px-Madison_FL_4_Freedoms_mnmt08.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Madison_FL_4_Freedoms_mnmt08.jpg",
+     "alt": "Photograph of Four Freedoms Monument",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q3569502",
+   "slug": "withlacoochee-river",
+   "name": "Withlacoochee River",
+   "aliases": [],
+   "description": "tributary of the Suwannee River in Georgia and Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.385278,
+    "lon": -83.171389
+   },
+   "wikipedia": {
+    "title": "Withlacoochee River (Suwannee River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Withlacoochee_River_(Suwannee_River_tributary)",
+    "extract": "The Withlacoochee River originates in Georgia, northwest of Nashville, Georgia. It flows south through Berrien County where it joins the New River and forms part of the boundary between Berrien and Cook counties. It then flows south into Lowndes County, Georgia. At Troupville, Georgia the Little River joins the Withlacoochee River flows continues to flow south and forms part of the boundary between Lowndes and Brooks counties in Georgia. The river then flows into Florida for 1.34 miles before returning into Georgia for an additional 2.44 miles. It then returns to Florida, forming the northeast boundary of Madison County, Florida and the western boundary of Hamilton County, Florida and eventually merges with the Suwannee at Suwannee River State Park west of Live Oak. The river is 115 miles (185 km) long.\nA river in central Florida is also named the Withlacoochee.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q3569502"
+    },
+    {
+     "provider": "geonames",
+     "id": "4178605"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Withlacoocheenorthrivermap.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Withlacoocheenorthrivermap.png",
+     "alt": "Photograph of Withlacoochee River",
+     "credit": "No machine-readable author provided. Kmusser assumed (based on copyright claims).",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6727883",
+   "slug": "madison-blue-springs-state-park",
+   "name": "Madison Blue Springs State Park",
+   "aliases": [],
+   "description": "State park in Florida, United States",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4817,
+    "lon": -83.2446
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/madison-blue-spring-state-park",
+   "wikipedia": {
+    "title": "Madison Blue Spring State Park",
+    "url": "https://en.wikipedia.org/wiki/Madison_Blue_Spring_State_Park",
+    "extract": "Madison Blue Spring State Park is a Florida State Park, located approximately ten miles east of Madison on the west bank of the Withlacoochee River. It contains one of the state's 33 first magnitude springs. This title entails that the spring is discharging at least 2,800 liters of water per second.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6727883"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Blue_Spring.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Spring.jpg",
+     "alt": "Photograph of Madison Blue Springs State Park",
+     "credit": "S416585",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7858285",
+   "slug": "twin-rivers-state-forest",
+   "name": "Twin Rivers State Forest",
+   "aliases": [],
+   "description": "State forest in Florida, United States",
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.3686,
+    "lon": -83.2024
+   },
+   "wikipedia": {
+    "title": "Twin Rivers State Forest",
+    "url": "https://en.wikipedia.org/wiki/Twin_Rivers_State_Forest",
+    "extract": "The Twin Rivers State Forest is in the US state of Florida. The 14,882-acre (60 km2) forest is located in North Central Florida, along the banks of the Withlacoochee and Suwannee rivers.\nAccording to the Florida Department of Agriculture's official website, Twin Rivers State Forest is composed of 15 noncontiguous tracts. In geographical order from south to north, the tracts consist of the Mill Creek South Tract then the North Tract along the west bank of the Suwannee. The Anderson Springs Tract is the first one along the east side of the river, which is across from the Black Tract and Damascus Tract, both of which are on the south side of I-10. The Ellaville Tract runs along the southern edge of I-10, but access to the forest is available primarily along US 90, as well as the southern terminus of Madison CR 141. This segment is the only one shared by both the Suwannee and Withlacoochee Rivers and is located across the rivers from Suwannee River State Park. Focusing more on the Withlacoochee River now, the Nekoosa Tract can be seen along the east bank of the river. The Withlacoochee Tract and the Blue Springs Longleaf Tract can be found along Florida State Road 6. The former is across the river from Madison Blue Spring State Park, and the latter is also along SR 6's overlap with Hamilton CR 143.\nNorth of these are the Chitty Bend West and East Tracts. The Hardee Springs Tract and Westwood East Tract are located on the opposite side of the Withlacoochee West Conservation Area, and the Westwood West Tract is located north of this conservation area on the opposite side of the river. The Sullivan Tract is along Madison and Hamilton County Road 150, and Deese Tract, a narrow strip on the east bank of the Withlacoochee.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7858285"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Magnolia_grandiflora_Anderson_Springs.jpg/1920px-Magnolia_grandiflora_Anderson_Springs.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Magnolia_grandiflora_Anderson_Springs.jpg",
+     "alt": "Photograph of Twin Rivers State Forest",
+     "credit": "Riverbanks Outdoor Store from New Port Richey, FL, United States",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7955936",
+   "slug": "wsti-fm",
+   "name": "WSTI-FM",
+   "aliases": [],
+   "description": "radio station in Quitman, Georgia",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.6397,
+    "lon": -83.4478
+   },
+   "wikipedia": {
+    "title": "WSTI-FM",
+    "url": "https://en.wikipedia.org/wiki/WSTI-FM",
+    "extract": "WSTI-FM (105.3 MHz) better known as \"Star 105.3\" is a radio station broadcasting an urban adult contemporary format. Licensed to Quitman, Georgia, United States, the station is currently owned by Black Crow Media and features programming from Compass Media Networks and Premiere Networks. Notable programming includes syndicated Steve Harvey Morning Show and \"The Sweat Hotel\"",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7955936"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7957640",
+   "slug": "wxht",
+   "name": "WXHT",
+   "aliases": [],
+   "description": "CHR radio station in Madison, FL",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.6397,
+    "lon": -83.4478
+   },
+   "officialUrl": "https://www.myhot1027.com/",
+   "wikipedia": {
+    "title": "WXHT",
+    "url": "https://en.wikipedia.org/wiki/WXHT",
+    "extract": "WXHT (102.7 FM), better known as \"Hot 102.7\", is a radio station broadcasting a contemporary hit radio format. Licensed to Madison, Florida, United States, the station is currently owned by Black Crow Media and features programming from Premiere Networks and Westwood One.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1989",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7957640 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7957640"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q134366866",
+   "slug": "county-road-14",
+   "name": "County Road 14",
+   "aliases": [
+    "Madison County Road 14"
+   ],
+   "description": "county road in Madison County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.351766,
+    "lon": -83.500201
+   },
+   "wikipedia": {
+    "title": "County Road 14 (Madison County, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Florida_State_Road_14",
+    "extract": "State Road 14 (SR 14) is a northeast-southwest route in Madison County, Florida.  The western terminus is near an interchange with Interstate 10 (unsigned SR 8) and County Road 14 (CR 14) near Madison; the eastern terminus is an intersection with Duval Street (SR 53) in the city of Madison itself.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Madison County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134366866 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134366866"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q4917461",
+   "slug": "bishop-andrews-hotel",
+   "name": "Bishop-Andrews Hotel",
+   "aliases": [
+    "Grace Manor Inn"
+   ],
+   "description": "historic hotel in Greenville, Florida, United States",
+   "entityType": "hotel",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "hotels-lodging",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "greenville-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.469167,
+    "lon": -83.63
+   },
+   "officialUrl": "https://www.gracemanorinn.com/",
+   "wikipedia": {
+    "title": "Bishop-Andrews Hotel",
+    "url": "https://en.wikipedia.org/wiki/Bishop-Andrews_Hotel",
+    "extract": "The Bishop-Andrews Hotel  is a U.S. historic building in Greenville, Florida. It is located at 117 Redding Street, on U.S. 90. On June 28, 1990, it was added to the U.S. National Register of Historic Places. The building has been converted into the Grace Manor Inn, a bed and breakfast house.\nIt was built in 1902 as a Queen Anne-style hotel, one block from Greenville's railway station.  It is a square three-story building. Its Queen Anne features include its wraparound porch with one segment having a conical roof.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1902",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4917461 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "117 US-221, Greenville, FL 32331",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4917461 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4917461 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "90001002",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4917461 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4917461"
+    },
+    {
+     "provider": "nrhp",
+     "id": "90001002"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Bishop-Andrews_Hotel01.jpg/1920px-Bishop-Andrews_Hotel01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bishop-Andrews_Hotel01.jpg",
+     "alt": "Photograph of Bishop-Andrews Hotel",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q5270423",
+   "slug": "dial-goza-house",
+   "name": "Dial-Goza House",
+   "aliases": [],
+   "description": "Madison, Florida, listed on the NRHP in Florida",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.470278,
+    "lon": -83.412778
+   },
+   "wikipedia": {
+    "title": "Dial-Goza House",
+    "url": "https://en.wikipedia.org/wiki/Dial-Goza_House",
+    "extract": "The Dial-Goza House (also known as the William H. Dial House) is a historic U.S. house in Madison, Florida. It is located at 105 Northeast Marion Street. On July 24, 1973, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5270423 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "73000585",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5270423 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5270423"
+    },
+    {
+     "provider": "nrhp",
+     "id": "73000585"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dial-Goza_House_Madison01.jpg/1920px-Dial-Goza_House_Madison01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dial-Goza_House_Madison01.jpg",
+     "alt": "Photograph of Dial-Goza House",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q5304013",
+   "slug": "dr-chandler-holmes-smith-house",
+   "name": "Dr. Chandler Holmes Smith House",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.470278,
+    "lon": -83.413333
+   },
+   "wikipedia": {
+    "title": "Dr. Chandler Holmes Smith House",
+    "url": "https://en.wikipedia.org/wiki/Dr._Chandler_Holmes_Smith_House",
+    "extract": "The Dr. Chandler Holmes Smith House  is a historic house in Madison, Florida, United States. It is located at 302 North Range Street. On March 26, 1998, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5304013 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "98000263",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5304013 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5304013"
+    },
+    {
+     "provider": "nrhp",
+     "id": "98000263"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chandler_Holmes_Smith_House_Madison01.jpg/1920px-Chandler_Holmes_Smith_House_Madison01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Chandler_Holmes_Smith_House_Madison01.jpg",
+     "alt": "Photograph of Dr. Chandler Holmes Smith House",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5452407",
+   "slug": "first-baptist-church-q5452407",
+   "name": "First Baptist Church",
+   "aliases": [],
+   "description": "historic church in Madison, Florida, United States",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.468333,
+    "lon": -83.418056
+   },
+   "wikipedia": {
+    "title": "First Baptist Church (Madison, Florida)",
+    "url": "https://en.wikipedia.org/wiki/First_Baptist_Church_(Madison,_Florida)",
+    "extract": "The First Baptist Church  is a historic U.S. Southern Baptist church in Madison, Florida. It is located at the corner of Pickney and Orange Streets. On November 14, 1978, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5452407 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "78000953",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5452407 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5452407"
+    },
+    {
+     "provider": "nrhp",
+     "id": "78000953"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/1st_Baptist_Church_Madison03.jpg/1920px-1st_Baptist_Church_Madison03.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1st_Baptist_Church_Madison03.jpg",
+     "alt": "Photograph of First Baptist Church",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6276325",
+   "slug": "jordan-beggs-house",
+   "name": "Jordan-Beggs House",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.470556,
+    "lon": -83.415556
+   },
+   "wikipedia": {
+    "title": "Jordan-Beggs House",
+    "url": "https://en.wikipedia.org/wiki/Jordan-Beggs_House",
+    "extract": "The Jordan-Beggs House (also known as the Beggs/Davis House) is a historic site in Madison, Florida, United States. It is located at 195 North Washington Street. On June 13, 1997, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6276325 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "97000557",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6276325 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6276325"
+    },
+    {
+     "provider": "nrhp",
+     "id": "97000557"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Jordan-Beggs_House_Madison01.jpg/1920px-Jordan-Beggs_House_Madison01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Jordan-Beggs_House_Madison01.jpg",
+     "alt": "Photograph of Jordan-Beggs House",
+     "credit": "(Ebyabe)",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q6477474",
+   "slug": "rachel-lake",
+   "name": "Rachel Lake",
+   "aliases": [
+    "Lake Rachael"
+   ],
+   "description": "lake of Madison County, Florida, United States of America",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.458333,
+    "lon": -83.466111
+   },
+   "wikipedia": {
+    "title": "Lake Rachael",
+    "url": "https://en.wikipedia.org/wiki/Lake_Rachael",
+    "extract": "Lake Rachael is a 9 acres (3.6 ha) freshwater lake in Highlands County, Florida. This is a manmade lake, having been dredged out of an area of muck that in the past was a lake. Lake Rachael is circular and surrounded on all sides but a small section of its west side by houses.  Lake Drive traverses around these houses on all but its west side. Western Boulevard runs north to south and borders the west side of the lake. Schumacher Road is two blocks to the north. Residential neighborhoods are located in the vicinity of the lake.\nWhile Lake Rachael has seven private boat docks, there is no public access to the water's edge. Therefore no public boating, fishing or swimming are allowed.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6477474"
+    },
+    {
+     "provider": "geonames",
+     "id": "4169562"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q6727850",
+   "slug": "madison",
+   "name": "Madison",
+   "aliases": [],
+   "description": "Amtrak train station in Madison, Florida, United States",
+   "entityType": "transit_station",
+   "status": "historical",
+   "origin": "wikidata-place",
+   "prominence": 4,
+   "categories": [
+    {
+     "slug": "public-transit",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.459273,
+    "lon": -83.413546
+   },
+   "wikipedia": {
+    "title": "Madison station (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Madison_station_(Florida)",
+    "extract": "Madison station is a former train station in Madison, Florida. It was served by Amtrak's Sunset Limited, the national railroad passenger system. Service has been suspended since Hurricane Katrina struck the Gulf Coast in 2005. Madison station is unique in that its waiting area consists of gazebos.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "opened",
+     "value": "1993",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6727850 P1619"
+    },
+    {
+     "key": "inception",
+     "value": "1993",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6727850 P571"
+    },
+    {
+     "key": "closed",
+     "value": "2005",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6727850 P576"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6727850"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Madison_FL_Amtrak02.jpg/1920px-Madison_FL_Amtrak02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Madison_FL_Amtrak02.jpg",
+     "alt": "Photograph of Madison",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7055358",
+   "slug": "north-florida-college",
+   "name": "North Florida College",
+   "aliases": [
+    "North Florida Community College",
+    "North Florida Junior College"
+   ],
+   "description": "community college in Florida, United States",
+   "entityType": "college",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "colleges",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4738,
+    "lon": -83.4237
+   },
+   "officialUrl": "https://www.nfcc.edu/",
+   "wikipedia": {
+    "title": "North Florida College",
+    "url": "https://en.wikipedia.org/wiki/North_Florida_College",
+    "extract": "North Florida College is a public community college in Madison, Florida, United States. It is part of the Florida College System. It enrolls around 1,200 students and serves six rural counties in North Florida: Madison, Hamilton, Lafayette, Jefferson, Suwannee, and Taylor.\nThe school was founded as North Florida Junior College in 1957, with classes beginning the following year. It merged with the historically black Suwannee River Junior College in 1966. In July 1995, the District Board of Trustees changed the institution's name to North Florida Community College. Its current name was adopted in 2019.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1958",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7055358 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "325 NW Turner Davis Dr, Madison, FL, 32340",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7055358 P6375"
+    },
+    {
+     "key": "students",
+     "value": 1181,
+     "sourceId": "wikidata",
+     "sourceRef": "Q7055358 P2196"
+    },
+    {
+     "key": "employees",
+     "value": 142,
+     "sourceId": "wikidata",
+     "sourceRef": "Q7055358 P1128"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7055358"
+    },
+    {
+     "provider": "geonames",
+     "id": "4166166"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7590285",
+   "slug": "st-marys-episcopal-church-q7590285",
+   "name": "St. Mary's Episcopal Church",
+   "aliases": [
+    "Saint Mary's Episcopal Church"
+   ],
+   "description": "church in Madison, Florida",
+   "entityType": "place_of_worship",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "places-of-worship",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.469722,
+    "lon": -83.413889
+   },
+   "wikipedia": {
+    "title": "St. Mary's Episcopal Church (Madison, Florida)",
+    "url": "https://en.wikipedia.org/wiki/St._Mary%27s_Episcopal_Church_(Madison,_Florida)",
+    "extract": "The St. Mary's Episcopal Church is an historic Carpenter Gothic Episcopal church located at 140 Northeast Horry Street in Madison, Florida in the United States.\nAlthough the congregation was established in 1859, it went dormant during the American Civil War, and efforts to build a permanent church did not begin in earnest until 1879. The cornerstone was laid on August 1 of that year, and the completed church was consecrated on May 1, 1883, by John F. Young, second Bishop of Florida.\nOn April 28, 1997, it was added to the U.S. National Register of Historic Places.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7590285 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "97000351",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7590285 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7590285"
+    },
+    {
+     "provider": "nrhp",
+     "id": "97000351"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/St_Marys_Episcopal_Madison02.jpg/1920px-St_Marys_Episcopal_Madison02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Marys_Episcopal_Madison02.jpg",
+     "alt": "Photograph of St. Mary's Episcopal Church",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q7946649",
+   "slug": "wapb",
+   "name": "WAPB",
+   "aliases": [],
+   "description": "radio station in Madison, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4536,
+    "lon": -83.4047
+   },
+   "wikipedia": {
+    "title": "WAPB",
+    "url": "https://en.wikipedia.org/wiki/WAPB",
+    "extract": "WAPB (91.7 FM) is a radio station licensed to Madison, Florida, USA. The station is currently owned by Public Radio, Inc.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7946649"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7952622",
+   "slug": "wmaf",
+   "name": "WMAF",
+   "aliases": [],
+   "description": "classic country radio station in Madison, Florida, United States",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4731,
+    "lon": -83.4358
+   },
+   "officialUrl": "https://www.1230wmaf.com/",
+   "wikipedia": {
+    "title": "WMAF (Florida)",
+    "url": "https://en.wikipedia.org/wiki/WMAF_(Florida)",
+    "extract": "WMAF (1230 AM) was a radio station licensed to Madison, Florida, United States. The station was owned by Fred Dockins, through licensee Dockins Communications, Inc., and featured programming from USA Radio Network and Westwood One.\nThe Federal Communications Commission cancelled the station's license on August 6, 2026.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7952622"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7969165",
+   "slug": "wardlaw-smith-house",
+   "name": "Wardlaw-Smith House",
+   "aliases": [
+    "Smith Mansion"
+   ],
+   "description": "historic houses in Madison, Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.469722,
+    "lon": -83.415278
+   },
+   "wikipedia": {
+    "title": "Wardlaw–Smith House",
+    "url": "https://en.wikipedia.org/wiki/Wardlaw%E2%80%93Smith_House",
+    "extract": "The Wardlaw–Smith House (also known as the Smith Mansion) is a U.S. historic building in Madison, Florida. It is located at 103 North Washington Street. On June 30, 1972, it was added to the U.S. National Register of Historic Places. Donated in 1988 to North Florida Community College in 1988; the college uses it as a conference center.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7969165 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "72000339",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7969165 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7969165"
+    },
+    {
+     "provider": "nrhp",
+     "id": "72000339"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Wardlaw-Smith_House_Madison01.jpg/1920px-Wardlaw-Smith_House_Madison01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wardlaw-Smith_House_Madison01.jpg",
+     "alt": "Photograph of Wardlaw-Smith House",
+     "credit": "Ebyabe",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q16965598",
+   "slug": "w-t-davis-building",
+   "name": "W. T. Davis Building",
+   "aliases": [
+    "Treasures of Madison County",
+    "W.T. Davis Building",
+    "WT Davis Building"
+   ],
+   "description": "historic building in Madison, Florida, United States",
+   "entityType": "museum",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "museums",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.467984,
+    "lon": -83.412979
+   },
+   "wikipedia": {
+    "title": "W. T. Davis Building",
+    "url": "https://en.wikipedia.org/wiki/W._T._Davis_Building",
+    "extract": "The W. T. Davis Building is a historic building located at 200 Southwest Range Avenue in Madison, Madison County, Florida, currently containing the Treasures of Madison County museum. The building has a metal front, one of just three remaining in the state of Florida according to the Treasures of Madison County website.\nThe building was added to the National Register of Historic Places on March 17, 2015.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1892",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16965598 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "200 SW Range Avenue, Madison, FL 32340",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16965598 P6375"
+    },
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16965598 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "15000074",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16965598 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16965598"
+    },
+    {
+     "provider": "nrhp",
+     "id": "15000074"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Madison_FL_W_T_Davis_bldg02.jpg/1920px-Madison_FL_W_T_Davis_bldg02.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Madison_FL_W_T_Davis_bldg02.jpg",
+     "alt": "Photograph of W. T. Davis Building",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q30597493",
+   "slug": "madison-county-high-school",
+   "name": "Madison County High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.4807,
+    "lon": -83.4541
+   },
+   "wikipedia": {
+    "title": "Madison County High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Madison_County_High_School_(Florida)",
+    "extract": "Madison County High School (MCHS) is a public high school in unincorporated Madison County, Florida, west of Madison. It is a part of the Madison County Schools district. \nIn 2022 it had 492 students and more than 50 percent of the student body was African American. \nCowboys are the school mascot. In 2021 it won its fourth 1A state football championship in five years.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q30597493"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Madison_County_High_School%2C_Madison.jpg/1920px-Madison_County_High_School%2C_Madison.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Madison_County_High_School,_Madison.jpg",
+     "alt": "Photograph of Madison County High School",
+     "credit": "Michael Rivera",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q134383789",
+   "slug": "county-road-150",
+   "name": "County Road 150",
+   "aliases": [
+    "Madison County Road 150",
+    "Overstreet Avenue",
+    "Lovett Road",
+    "Little Cat Road",
+    "Bellville Road"
+   ],
+   "description": "county road in Madison County, Florida",
+   "entityType": "highway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "highways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 30.486808,
+    "lon": -83.592607
+   },
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Madison County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q134383789 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q134383789"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/EB_Madison_CR150_under_I10.jpg/1920px-EB_Madison_CR150_under_I10.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:EB_Madison_CR150_under_I10.jpg",
+     "alt": "Photograph of County Road 150",
+     "credit": "The Bushranger",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q630866",
+   "slug": "arbys",
+   "name": "Arby's",
+   "aliases": [],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 28,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://arbys.com/",
+   "wikipedia": {
+    "title": "Arby's",
+    "url": "https://en.wikipedia.org/wiki/Arby%27s",
+    "extract": "Arby's Restaurant Group, Inc., doing business as Arby's, is an American fast food sandwich restaurant chain with more than 3,200 restaurants. The flagship property of Inspire Brands, it ranked third in systemwide sales in the United States in the quick-service and fast-casual restaurant industries in 2012, behind Subway and Panera Bread. In October 2017, Food & Wine called Arby's \"America's second largest sandwich chain (after Subway)\".\nRoark Capital Group acquired 81.5% of Arby's Restaurant Group in July 2011 and is now a majority-owner of Inspire Brands. The Wendy's Company held a minority stake of 18.5% in Arby's after the acquisition by Roark Capital. That share was reduced to 12.3% upon the purchase of Buffalo Wild Wings. It was sold back to Inspire Brands on August 16, 2018 for $450 million, a 38% premium.\nArby's is best known for selling roast beef sandwiches. Other menu items the chain is known for include gyros, wraps, chicken sandwiches, and milkshakes. Its headquarters are in Sandy Springs, Georgia, a suburb of Atlanta that uses Atlanta mailing addresses.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Roark Capital Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Sandy Springs",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Inspire Brands",
+     "sourceId": "wikidata",
+     "sourceRef": "Q630866 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q630866 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q630866"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Arby%27s_logo.svg/1920px-Arby%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg",
+     "alt": "Arby's logo",
+     "credit": "Arby's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com/",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1141226",
+   "slug": "dairy-queen",
+   "name": "Dairy Queen",
+   "aliases": [
+    "DQ"
+   ],
+   "description": "American multinational fast food chain from Illinois",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 32,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dairyqueen.com/",
+   "wikipedia": {
+    "title": "Dairy Queen",
+    "url": "https://en.wikipedia.org/wiki/Dairy_Queen",
+    "extract": "International Dairy Queen, Inc. (DQ) is an American multinational fast food restaurant chain founded in 1940 and headquartered in Bloomington, Minnesota. The first Dairy Queen was owned and operated by Sherb Noble and opened on June 22, 1940, in Joliet, Illinois. It serves a variety of hot and fried food, as well as original frozen dairy products that vary from location to location.\nThe company has been owned by Berkshire Hathaway since 1998.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-06-22",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Edina; Bloomington",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P159"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Berkshire Hathaway",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1141226 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1141226 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1141226"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1920px-Dairy_Queen_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dairy_Queen_logo.svg",
+     "alt": "Dairy Queen logo",
+     "credit": "International Dairy Queen",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q550258",
+   "slug": "wendys",
+   "name": "Wendy's",
+   "aliases": [
+    "Wendys"
+   ],
+   "description": "American international fast food chain restaurant",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 48,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wendys.com/",
+   "wikipedia": {
+    "title": "Wendy's",
+    "url": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "extract": "Wendy's International, LLC, is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. Its headquarters moved to Dublin, Ohio, on January 29, 2006. On September 29, 2008, the company merged with Triarc, the publicly traded parent company of Arby's. As of December 31, 2018, Wendy's was the world's third-largest hamburger fast-food chain, following McDonald's and Burger King.\nAs of November 2, 2023, there were 7,166 Wendy's outlets, of which 415 are company-owned and 6,751 franchised, 83% of which are in the United States. The company specifies stores' standards; owners control opening hours, decor, and staff uniforms and pay.\nThe chain serves square hamburger patties on circular buns, sea salt fries, and the Frosty, soft ice cream mixed with starches. The food menu consists primarily of hamburgers, chicken sandwiches, and French fries. The company discontinued its Big Classic signature sandwich.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1969-11-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dublin",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Dave Thomas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q550258 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q550258 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q550258"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wendy%27s_logo_black.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_black.jpg",
+     "alt": "Wendy's logo",
+     "credit": "Wendy's",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com/",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q5364003",
+   "slug": "super-8",
+   "name": "Super 8",
+   "aliases": [
+    "Super 8 Worldwide",
+    "Super 8 by Wyndham",
+    "Super 8 Worldwide, Inc."
+   ],
+   "description": "American economy motel chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wyndhamhotels.com/super-8",
+   "wikipedia": {
+    "title": "Super 8 (hotel)",
+    "url": "https://en.wikipedia.org/wiki/Super_8_(hotel)",
+    "extract": "Super 8 by Wyndham, commonly known as Super 8, is an American hotel brand. It is the world's largest budget hotel chain, with over 2,600 locations worldwide. The chain is a subsidiary of Wyndham Hotels and Resorts. The original room cost was $8.88 per night. As of December 2022, the brand website listed 2,691 hotels worldwide.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1974",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Travel + Leisure Co.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Parsippany-Troy Hills",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ron Rivett",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Travel + Leisure Co.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5364003 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5364003 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5364003"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Super_8.svg/1920px-Super_8.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Super_8.svg",
+     "alt": "Super 8 logo",
+     "credit": "Wyndham Hotels and Resorts",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q1047239",
+   "slug": "days-inn",
+   "name": "Days Inn",
+   "aliases": [],
+   "description": "economy hotel chain run by Wyndham Hotels & Resorts",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wyndhamhotels.com/days-inn",
+   "wikipedia": {
+    "title": "Days Inn",
+    "url": "https://en.wikipedia.org/wiki/Days_Inn",
+    "extract": "Days Inn is a hotel chain headquartered in the United States. It was founded in 1970 by Cecil B. Day, who opened the first location in Tybee Island, Georgia. The brand is now a part of the Wyndham Hotels and Resorts, headquartered in Parsippany, New Jersey, which used to be a part of Cendant. As of December 31, 2023, Days Inn includes 1,501 locations worldwide with 114,216 rooms.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1970",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Parsippany-Troy Hills",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Cecil B. Day",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Travel + Leisure Co.; Cendant",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1047239 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1047239 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1047239"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Days-inn-1.svg/1920px-Days-inn-1.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Days-inn-1.svg",
+     "alt": "Days Inn logo",
+     "credit": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q111631907",
+   "slug": "cat-scale",
+   "name": "CAT Scale",
+   "aliases": [
+    "CAT Scale Company",
+    "CAT Scale Co.",
+    "CAT"
+   ],
+   "description": "North American network of truck scales",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://catscale.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1977",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Walcott",
+     "sourceId": "wikidata",
+     "sourceRef": "Q111631907 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q111631907 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q111631907"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q17089620",
+   "slug": "tesla-supercharger-network",
+   "name": "Tesla Supercharger network",
+   "aliases": [
+    "Tesla Supercharger"
+   ],
+   "description": "global network of electric vehicle fast-charging stations operated by Tesla, Inc.",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 22,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.tesla.com/supercharger",
+   "wikipedia": {
+    "title": "Tesla Supercharger",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "extract": "The Tesla Supercharger network is an electric vehicle DC fast charging network built and operated by American vehicle manufacturer Tesla, Inc.\nThe Supercharger network was introduced on September 24, 2012, as the Tesla Model S entered production, with six stations in California. As of 1 October 2026, Tesla operates a global network of 9,007 Supercharger stations with over 85,000 connectors. The majority are located in three regions: Asia Pacific (3,610 stations), North America (3,594), and Europe (1,788).",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Tesla",
+     "sourceId": "wikidata",
+     "sourceRef": "Q17089620 P137"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q17089620 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q17089620"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1920px-Tesla_T_symbol.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_T_symbol.svg",
+     "alt": "Tesla Supercharger network logo",
+     "credit": "Tesla (logo), Fry1989 eh? (vectorization)",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q121587731",
+   "slug": "farm-bureau-financial-services",
+   "name": "Farm Bureau Financial Services",
+   "aliases": [],
+   "description": "Insurance and Financial Services",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.fbfs.com/",
+   "facts": [
+    {
+     "key": "owner",
+     "value": "FBL Financial Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q121587731 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q121587731 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q121587731"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q62065645",
+   "slug": "blink",
+   "name": "Blink",
+   "aliases": [
+    "Blink Charging",
+    "Blink Charging Co."
+   ],
+   "description": "electric car charger network in the United States, Uk, Ireland, Greece, Belgium",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "ev-charging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.blinkcharging.com/",
+   "wikipedia": {
+    "title": "Blink Charging",
+    "url": "https://en.wikipedia.org/wiki/Blink_Charging",
+    "extract": "Blink Charging Co. is an American electric vehicle charging network operator headquartered in Bowie, Maryland. One of the top three EV charging networks in the United States, it has over 90,000 chargers globally in 25 countries.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q62065645 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Florida; Miami Beach",
+     "sourceId": "wikidata",
+     "sourceRef": "Q62065645 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q62065645 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q62065645"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Blink-logo-wht.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Blink-logo-wht.png",
+     "alt": "Blink logo",
+     "credit": "Blink",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1872496",
+   "slug": "loves-travel-stops-and-country-stores",
+   "name": "Love's Travel Stops & Country Stores",
+   "aliases": [
+    "Love's Travel Stops",
+    "Love's"
+   ],
+   "description": "truck stop chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 9,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.loves.com/",
+   "wikipedia": {
+    "title": "Love's",
+    "url": "https://en.wikipedia.org/wiki/Love%27s",
+    "extract": "Love's Travel Stops, doing business as Love's (or stylized as Loves), is an American family owned-and-operated chain of more than 670 travel stops in 42 states in the United States. The company is privately owned and headquartered in Oklahoma City. Love's ranked No. 15 on the 2025 Forbes list of America's largest private companies. Love's has two primary kinds of stores: country stores and travel stops. Country stores are fueling stations with a convenience store attached. The larger travel stops are located along highways and offer additional amenities such as food from restaurant chains such as Arby's, Bojangles, Burger King, Chester's, Dunkin' Donuts, McDonald's, Taco John's, Subway, Wendy's, Hardee's/Carl's Jr., truck parking spaces, showers and laundry. The company started adding RV hookups and RV Stops in 2022. Love's had more than 40,000 employees in 2023.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1964",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oklahoma City",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Tom Love; Judy Love",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1872496 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1872496 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1872496"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Love%27s_logo.svg/1920px-Love%27s_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Love%27s_logo.svg",
+     "alt": "Love's Travel Stops & Country Stores logo",
+     "credit": "Love's Travel Stops &amp; Country Stores",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q38623383",
+   "slug": "best-western-plus",
+   "name": "Best Western Plus",
+   "aliases": [],
+   "description": "international chain of independently operated hotels",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2011",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38623383 P571"
+    },
+    {
+     "key": "owner",
+     "value": "Best Western",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38623383 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38623383 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38623383"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q1701206",
+   "slug": "waffle-house",
+   "name": "Waffle House",
+   "aliases": [],
+   "description": "restaurant chain in the United States",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "restaurants",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.wafflehouse.com/",
+   "wikipedia": {
+    "title": "Waffle House",
+    "url": "https://en.wikipedia.org/wiki/Waffle_House",
+    "extract": "Waffle House, Inc. is an American restaurant chain with over 2,000 locations in 25 states in the United States. The bulk of the locations are in the Midwest and the South, where the chain is a regional cultural icon. The menu consists mainly of Southern breakfast food. Waffle House is headquartered in Norcross, Georgia, in the Atlanta metropolitan area.",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1955",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1701206 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Gwinnett County",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1701206 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1701206 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1701206"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Waffle_House_Logo.svg/1920px-Waffle_House_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Waffle_House_Logo.svg",
+     "alt": "Waffle House logo",
+     "credit": "Waffle House",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q110716465",
+   "slug": "shell-q110716465",
+   "name": "Shell",
+   "aliases": [],
+   "description": "multinational fuel station chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.shell.com/",
+   "facts": [
+    {
+     "key": "operator",
+     "value": "Showa Shell Sekiyu; Idemitsu Kosan",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P137"
+    },
+    {
+     "key": "owner",
+     "value": "Shell",
+     "sourceId": "wikidata",
+     "sourceRef": "Q110716465 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q110716465 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q110716465"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Shell_wordmark_2019.svg/1920px-Shell_wordmark_2019.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+     "alt": "Shell logo",
+     "credit": "Royal Dutch Shell",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q1423218",
+   "slug": "sunoco",
+   "name": "Sunoco",
+   "aliases": [
+    "Sunoco Inc.",
+    "Japan Sun Oil",
+    "Sun Oil Company"
+   ],
+   "description": "American petroleum and petrochemical manufacturer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sunoco.com/",
+   "wikipedia": {
+    "title": "Sunoco",
+    "url": "https://en.wikipedia.org/wiki/Sunoco",
+    "extract": "Sunoco LP  is an American vehicle gasoline master limited partnership company organized under Delaware state law and headquartered in Dallas, Texas. Dating back to 1886, the company has transformed from a vertically integrated energy company to a distributor of fuels and operator of energy infrastructure. It was previously engaged in oil, natural gas exploration and production, refining, chemical manufacturing, and retail fuel sales, but divested these businesses.\nThe partnership was known as Sun Oil Company from 1890 to 1976, and as Sun Company Inc. from 1976 to 1998. The Sunoco name is a contraction of SUN Oil COmpany.\nIts current operational focus dates back to 2018, when it divested the non–core convenience store operations to 7-Eleven for $3.2 billion, which allowed for Sunoco LP to improve its financial position. The transaction also provided a long-term take or pay fuel supply agreement with 7-Eleven to generate consistent earnings and cash flows. As of 2024, Sunoco still operates 76 retail locations, all of which are located in New Jersey and Hawaii, the latter branded as Aloha Petroleum, Ltd..",
+    "retrievedAt": "2026-11-27T20:28:39.607Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dallas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Newton Pew",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1423218 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1423218"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg/1920px-Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunoco_station,_Saratoga_Springs,_NY.jpg",
+     "alt": "Photograph of Sunoco",
+     "credit": "NNECAPA Photo Library",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q109676002",
+   "slug": "mobil",
+   "name": "Mobil",
+   "aliases": [
+    "Mobilgas",
+    "Mobiloil"
+   ],
+   "description": "American retail brand of oil products and gas stations owned by ExxonMobil",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "madison-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mobil.com/",
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1920",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109676002 P571"
+    },
+    {
+     "key": "owner",
+     "value": "ExxonMobil Fuels & Lubricants Company",
+     "sourceId": "wikidata",
+     "sourceRef": "Q109676002 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q109676002 inside Madison County boundary",
+     "scopeAreaSlug": "madison-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q109676002"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mobil_logo.svg/1920px-Mobil_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Mobil_logo.svg",
+     "alt": "Mobil logo",
+     "credit": "The original uploader was Cheeselouise at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "madison-county-fl",
+  "wikidataCandidates": 44,
+  "places": 22,
+  "brands": 17,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 33,
+  "withFreeImage": 29,
+  "withCoordinates": 22,
+  "osmBrandedLocations": 22,
+  "unmappedClasses": 2
+ }
+}

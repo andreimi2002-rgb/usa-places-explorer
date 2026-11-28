@@ -5,6 +5,7 @@ import type {
   CategoryRow,
   Dataset,
   EntityAreaRow,
+  EntityRow,
   EntityRelationRow,
   FactRow,
   ReviewIssueRow,
@@ -14,6 +15,18 @@ import type {
 import type { SeedInputs } from "./inputs";
 
 export const siteSourceId = (entitySlug: string) => `site-${entitySlug}`;
+/** Source id for a county's official website (checked by ingest:links). */
+export const countyWebsiteSourceId = (countySlug: string) => `site-${countySlug}`;
+/** County short name used as link-check evidence: "st-johns-county-fl" -> "St. Johns", "miami-dade-county-fl" -> "Miami-Dade". */
+export function countyShortName(countySlug: string): string {
+  return countySlug
+    .replace(/-county-fl$/, "")
+    .split("-")
+    .map((w) => (w === "st" ? "St." : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(" ")
+    .replace(/^Desoto$/, "DeSoto")
+    .replace(/^Miami Dade$/, "Miami-Dade");
+}
 
 export function primarySourceId(e: EntityInput): string | null {
   return e.officialUrl ? siteSourceId(e.slug) : (e.sourceIds[0] ?? null);
@@ -125,8 +138,22 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       checksumSha256: c.bodySha256,
     }));
 
-  // ---- areas
-  const allAreas = [...census.areas, ...curated.neighborhoods];
+  // ---- areas (Census registry + curated neighborhoods + Phase 2 geography)
+  const geo = inputs.geography;
+  for (const s of geo?.sources ?? []) addSource(s, null);
+  const overrides = new Map((geo?.parentOverrides ?? []).map((o) => [o.slug, o.parentSlug]));
+  const enrich = new Map<string, NonNullable<typeof geo>["areaEnrichments"][number]>();
+  for (const e of geo?.areaEnrichments ?? []) if (!enrich.has(e.slug)) enrich.set(e.slug, e);
+  const allAreas = [...census.areas, ...curated.neighborhoods, ...(geo?.areas ?? [])].map((a) => {
+    const parentSlug = overrides.get(a.slug) ?? a.parentSlug;
+    const en = enrich.get(a.slug);
+    if (!en) return { ...a, parentSlug };
+    return {
+      ...a, parentSlug, internalPoint: a.internalPoint ?? en.internalPoint,
+      codes: { ...a.codes, ansi: a.codes.ansi ?? en.ansi },
+      sourceIds: a.sourceIds.includes(en.sourceId) ? a.sourceIds : [...a.sourceIds, en.sourceId],
+    };
+  });
   const areaIdBySlug = new Map<string, string>();
   for (const a of allAreas) {
     if (areaIdBySlug.has(a.slug)) throw new DatasetError(`duplicate area slug ${a.slug}`);
@@ -164,15 +191,26 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       aliases: a.aliases,
     };
   });
-  const areaRelations = census.areaRelations.map((r) => ({
+  // Geometric intersections (Phase 2) replace the bundle-1 approximations for the same places.
+  const geometric = new Set(geo?.placesWithGeometry ?? []);
+  const censusRelations = census.areaRelations.filter(
+    (r) => !(geometric.has(r.areaSlug) && (r.relationType === "intersects" || r.relationType === "contains_internal_point_of")),
+  );
+  const areaRelations = [...censusRelations, ...(geo?.areaRelations ?? [])].map((r) => ({
     id: stableId("relation", `area:${r.areaSlug}:${r.relationType}:${r.relatedSlug}`),
     areaId: areaId(r.areaSlug, "areaRelation"),
     relatedAreaId: areaId(r.relatedSlug, "areaRelation"),
     relationType: r.relationType,
     sourceId: r.sourceId,
     method: r.method ?? null,
+    share: r.share ?? null,
     reviewStatus: r.reviewStatus,
   }));
+  const relKeys = new Set<string>();
+  for (const r of areaRelations) {
+    if (relKeys.has(r.id)) throw new DatasetError(`duplicate area relation ${r.id}`);
+    relKeys.add(r.id);
+  }
 
   // ---- categories
   const categories = flattenCategories(taxonomy.domains);
@@ -189,7 +227,7 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     entityIdBySlug.set(e.slug, stableId("entity", e.slug));
   }
 
-  const facts: FactRow[] = census.facts.map((f) => ({
+  const facts: FactRow[] = [...census.facts, ...(geo?.facts ?? [])].map((f) => ({
     id: stableId("fact", `${f.subjectKind}:${f.subjectSlug}:${f.key}:${f.sourceId}:${f.asOf ?? f.asOfLabel ?? ""}`),
     areaId: f.subjectKind === "area" ? areaId(f.subjectSlug, `fact ${f.key}`) : null,
     entityId: f.subjectKind === "entity" ? (entityIdBySlug.get(f.subjectSlug) ?? null) : null,
@@ -278,6 +316,8 @@ export function buildDataset(inputs: SeedInputs): Dataset {
       sensitiveLocation: e.sensitiveLocation, visibility: e.visibility, reviewStatus,
       verifiedAt: latestVerified, createdAt, updatedAt: primaryCheck?.checkedAt ?? createdAt,
       aliases: e.aliases, primarySourceId: primary,
+      lat: null as number | null, lon: null as number | null, wikidataId: null as string | null, prominence: 0,
+      wikipedia: null as { title: string; url: string; extract: string; retrievedAt: string } | null,
     };
   });
 
@@ -307,11 +347,154 @@ export function buildDataset(inputs: SeedInputs): Dataset {
     year: m.year ?? null, aiGenerated: m.aiGenerated,
   }));
 
-  const coverageUniverses = census.coverageUniverses.map((u) => ({
+  // ---- enrichment bundles (Wikidata places, OSM brands): enrich curated entities or add new ones
+  const entityIdByQid = new Map<string, string>();
+  // Indexes so merging tens of thousands of records stays linear (no find/some inside loops).
+  const entityRowById = new Map(entities.map((x) => [x.id, x]));
+  const entityRowBySlug = new Map(entities.map((x) => [x.slug, x]));
+  const factIds = new Set(facts.map((x) => x.id));
+  const eaKey = (e: string, a: string, r: string) => `${e}|${a}|${r}`;
+  const entityAreaByKey = new Map(entityAreas.map((x) => [eaKey(x.entityId, x.areaId, x.relationType), x]));
+  const pushEntityArea = (row: (typeof entityAreas)[number]) => {
+    const k = eaKey(row.entityId, row.areaId, row.relationType);
+    if (entityAreaByKey.has(k)) return;
+    entityAreaByKey.set(k, row);
+    entityAreas.push(row);
+  };
+  const pendingRelations: { from: string; type: string; toQid: string }[] = [];
+  const relKeys2 = new Set(entityRelations.map((r) => `${r.fromEntityId}|${r.relationType}|${r.toEntityId}`));
+  for (const bundle of inputs.enrichments) {
+    for (const s of bundle.sources) if (!sourceIds.has(s.id)) addSource(s, null);
+    const bundleTime = bundle.generatedAt;
+    for (const r of bundle.entities) {
+      if (entityIdByQid.has(r.qid)) {
+        // Already added by an earlier bundle (another area): add its area links and per-area (scoped) facts only.
+        const id = entityIdByQid.get(r.qid)!;
+        const slugOf = entityRowById.get(id)!.slug;
+        for (const f of r.facts) {
+          if (!f.scopeAreaSlug) continue;
+          const fid = stableId("fact", `entity:${slugOf}:${f.key}:${f.sourceId}:${f.scopeAreaSlug}`);
+          if (factIds.has(fid)) continue;
+          factIds.add(fid);
+          facts.push({
+            id: fid, areaId: null, entityId: id, key: f.key, valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
+            unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
+            reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: areaId(f.scopeAreaSlug, `fact ${f.key}`),
+          });
+        }
+        const row0 = entityRowById.get(id)!;
+        row0.prominence = Math.max(row0.prominence, r.prominence ?? 0);
+        for (const a of r.areas)
+          pushEntityArea({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+        continue;
+      }
+      let row = r.curatedSlug ? entityRowBySlug.get(r.curatedSlug) : undefined;
+      if (!row) {
+        if (entityIdBySlug.has(r.slug) || areaIdBySlug.has(r.slug)) throw new DatasetError(`enrichment slug collision ${r.slug}`);
+        const id = stableId("entity", r.slug);
+        entityIdBySlug.set(r.slug, id);
+        const desc = r.description ? r.description.charAt(0).toUpperCase() + r.description.slice(1) : null;
+        row = {
+          id, slug: r.slug, name: r.name, entityType: r.entityType as EntityRow["entityType"], status: r.status,
+          shortDescription: desc && desc.length <= 280 ? desc : null, officialUrl: r.officialUrl ?? null,
+          sensitiveLocation: false, visibility: "public", reviewStatus: "imported", verifiedAt: null,
+          createdAt: bundleTime, updatedAt: bundleTime, aliases: r.aliases, primarySourceId: "wikidata",
+          lat: null, lon: null, wikidataId: null, wikipedia: null, prominence: 0,
+        };
+        entities.push(row);
+        entityRowById.set(row.id, row);
+        entityRowBySlug.set(row.slug, row);
+        r.categories.forEach((c) => {
+          const categoryId = categoryIdBySlug.get(c.slug);
+          if (!categoryId) throw new DatasetError(`enrichment ${r.slug}: unknown category ${c.slug}`);
+          entityCategories.push({ entityId: id, categoryId, isPrimary: c.primary });
+        });
+        for (const a of r.areas)
+          pushEntityArea({ entityId: id, areaId: areaId(a.slug, `enrich ${r.slug}`), relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: r.origin === "osm-brand" ? "Mapped locations in OpenStreetMap" : "Wikidata coordinates / statements" });
+      } else {
+        row.officialUrl ??= r.officialUrl ?? null;
+        // Add the Wikidata-backed area links (coordinates / statements) the curated record lacks or has only unverified.
+        const curatedId = row.id;
+        for (const a of r.areas) {
+          const aId = areaId(a.slug, `enrich ${r.slug}`);
+          const existing = entityAreaByKey.get(eaKey(curatedId, aId, a.relation));
+          if (!existing) pushEntityArea({ entityId: curatedId, areaId: aId, relationType: a.relation, reviewStatus: "imported", evidence: null, verifiedAt: null, note: "Wikidata coordinates / statements" });
+          else if (existing.reviewStatus === "unreviewed") {
+            existing.reviewStatus = "imported";
+            existing.note = "Confirmed by Wikidata coordinates / statements";
+          }
+        }
+      }
+      const id = row.id;
+      entityIdByQid.set(r.qid, id);
+      if (r.coords && !row.sensitiveLocation) {
+        row.lat = r.coords.lat;
+        row.lon = r.coords.lon;
+      }
+      row.wikidataId = r.qid;
+      row.prominence = Math.max(row.prominence, r.prominence ?? 0);
+      if (r.wikipedia?.extract) row.wikipedia = r.wikipedia;
+      for (const f of r.facts) {
+        const fid = stableId("fact", `entity:${row.slug}:${f.key}:${f.sourceId}:${f.scopeAreaSlug ?? ""}`);
+        if (factIds.has(fid)) continue;
+        factIds.add(fid);
+        facts.push({
+          id: fid, areaId: null, entityId: id, key: f.key,
+          valueText: typeof f.value === "string" ? f.value : null, valueNum: typeof f.value === "number" ? f.value : null,
+          unit: f.unit ?? null, asOf: f.asOf ?? null, asOfLabel: null, sourceId: f.sourceId, sourceRef: f.sourceRef,
+          reviewStatus: "imported", verifiedAt: null, note: null, scopeAreaId: f.scopeAreaSlug ? areaId(f.scopeAreaSlug, `fact ${f.key}`) : null,
+        });
+      }
+      for (const x of r.externalIds) {
+        const k = `${x.provider}:${x.id}`;
+        if (extKeys.has(k)) continue;
+        extKeys.add(k);
+        externalIds.push({ entityId: id, provider: x.provider, externalId: x.id });
+      }
+      r.media.forEach((m, i) => mediaRows.push({
+        id: stableId("media", `${r.qid}:${i}`), areaId: null, entityId: id, kind: m.kind, url: m.url, pageUrl: m.pageUrl, alt: m.alt,
+        credit: m.credit, license: m.license, licenseUrl: m.licenseUrl, year: null, aiGenerated: false,
+      }));
+      for (const rel of r.relations) pendingRelations.push({ from: id, type: rel.type, toQid: rel.targetQid });
+    }
+  }
+  for (const p of pendingRelations) {
+    const to = entityIdByQid.get(p.toQid);
+    if (!to || to === p.from || relKeys2.has(`${p.from}|${p.type}|${to}`)) continue;
+    relKeys2.add(`${p.from}|${p.type}|${to}`);
+    entityRelations.push({ id: stableId("relation", `entity-id:${p.from}:${p.type}:${to}`), fromEntityId: p.from, toEntityId: to, relationType: p.type, sourceId: "wikidata", evidence: null, reviewStatus: "imported", verifiedAt: null });
+  }
+
+  const coverageUniverses = [...census.coverageUniverses, ...(geo?.coverageUniverses ?? [])].map((u) => ({
     id: u.id, areaId: areaId(u.areaSlug, `universe ${u.id}`), label: u.label, definition: u.definition,
     areaType: u.areaType ?? null, categoryId: u.categorySlug ? (categoryIdBySlug.get(u.categorySlug) ?? null) : null,
-    denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId,
+    denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId, metric: u.metric, relationType: u.relationType ?? null,
   }));
+
+  // County websites (Wikidata): register each as an official_website source and apply its link check.
+  for (const f of facts) {
+    if (f.key !== "official-website" || !f.areaId || !f.valueText) continue;
+    const county = areas.find((a) => a.id === f.areaId)!;
+    const sid = countyWebsiteSourceId(county.slug);
+    if (!sourceIds.has(sid)) {
+      addSource({
+        id: sid, kind: "official_website", title: `${county.name} — official website`, publisher: county.name, url: f.valueText,
+        license: "Cited as a reference link; page content is not redisplayed", redisplayPermitted: false, expectedFields: [],
+        retrievalMethod: "Automated link check (single GET, robots.txt respected)", refreshInterval: "Quarterly link check",
+      }, null);
+    }
+    const check = checks.get(sid);
+    const v = judge(check, countyShortName(county.slug), f.reviewStatus);
+    f.reviewStatus = v.status;
+    f.verifiedAt = v.verifiedAt;
+    if (check && check.url === f.valueText && !sourceRecords.some((r) => r.sourceId === sid)) {
+      sourceRecords.push({
+        id: stableId("fact", `linkcheck:${sid}:${check.checkedAt}`), sourceId: sid, importRunId: null, externalRef: check.url, retrievedAt: check.checkedAt,
+        httpStatus: check.httpStatus, outcome: check.outcome, pageTitle: check.pageTitle, finalUrl: check.finalUrl, checksumSha256: check.bodySha256,
+      });
+    }
+    if (v.issue) reviewIssues.push({ id: stableId("fact", `issue:${v.issue}:${county.slug}:website`), kind: v.issue === "claim_unverified" ? "claim_unverified" : v.issue, entityId: null, areaId: county.id, sourceId: sid, detail: `official website ${f.valueText}: ${v.detail}`, status: "open", createdAt });
+  }
 
   for (const f of facts) if (!sourceIds.has(f.sourceId)) throw new DatasetError(`fact ${f.key}: unknown source ${f.sourceId}`);
 

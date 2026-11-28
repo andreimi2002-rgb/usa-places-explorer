@@ -125,7 +125,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       expect([b.entities, b.verifiedEntities, b.facts, b.sources, b.categories]).toEqual([a.entities, a.verifiedEntities, a.facts, a.sources, a.categories]);
     });
 
-    it.each(["florida", "duval-county-fl", "jacksonville-fl", "southside-jacksonville-fl", "midway-cdp-seminole-fl"])("same area detail: %s", async (slug) => {
+    it.each(["florida", "duval-county-fl", "leon-county-fl", "jacksonville-fl", "southside-jacksonville-fl", "mandarin-jacksonville-fl", "midway-cdp-seminole-fl", "duval-jacksonville-fl"])("same area detail: %s", async (slug) => {
       const [a, b] = [await fx.getArea(slug), await reader.getArea(slug)];
       expect(b!.breadcrumbs).toEqual(a!.breadcrumbs);
       expect(b!.childCounts).toEqual(a!.childCounts);
@@ -133,7 +133,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       expect(b!.populationEstimate).toBe(a!.populationEstimate);
       expect(b!.lat).toBeCloseTo(a!.lat ?? 0, 5);
       expect(new Set(b!.facts.map((f) => `${f.key}=${f.valueNum ?? f.valueText}`))).toEqual(new Set(a!.facts.map((f) => `${f.key}=${f.valueNum ?? f.valueText}`)));
-      expect(new Set(b!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}`))).toEqual(new Set(a!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}`)));
+      expect(new Set(b!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}:${r.share}`))).toEqual(new Set(a!.related.map((r) => `${r.direction}:${r.relationType}:${r.area.slug}:${r.share}`)));
       expect(new Set(b!.sources.map((s) => s.id))).toEqual(new Set(a!.sources.map((s) => s.id)));
     });
 
@@ -164,7 +164,7 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       if (query.q) expect(b.items[0]?.slug).toBe(a.items[0]?.slug);
     });
 
-    it.each(["jaguars", "duval", "JSO", "st johns", "supermarkets", "big talbot"])("same top search hit: %s", async (q) => {
+    it.each(["jaguars", "duval", "JSO", "st johns", "supermarkets", "big talbot", "mandarin", "tallahassee"])("same top search hit: %s", async (q) => {
       const [a, b] = [await fx.search(q), await reader.search(q)];
       expect(b[0]?.slug).toBe(a[0]?.slug);
       expect(new Set(b.map((h) => `${h.kind}:${h.slug}`))).toEqual(new Set(a.map((h) => `${h.kind}:${h.slug}`)));
@@ -189,6 +189,44 @@ describe.skipIf(!available)("database mode (PostgreSQL + PostGIS)", () => {
       const [a, b] = [await fx.listChildAreas("florida", q), await reader.listChildAreas("florida", q)];
       expect(b.total).toBe(a.total);
       expect(b.items.length).toBe(a.items.length);
+    });
+
+    it.each(["st-johns-town-center", "cummer-museum-of-art-and-gardens", "everbank-stadium"])("same enrichment detail: %s", async (slug) => {
+      const [a, b] = [await fx.getEntity(slug), await reader.getEntity(slug)];
+      expect(b!.wikidataId).toBe(a!.wikidataId);
+      expect(b!.wikipedia?.extract).toBe(a!.wikipedia?.extract);
+      expect(b!.lat).toBeCloseTo(a!.lat ?? 0, 5);
+      expect(b!.image).toEqual(a!.image);
+      expect(b!.media.map((m) => m.url)).toEqual(a!.media.map((m) => m.url));
+    });
+
+    it.each(["st-johns-town-center", "everbank-stadium", "cummer-museum-of-art-and-gardens"])("same nearby entities: %s", async (slug) => {
+      const [a, b] = [await fx.nearbyEntities(slug, { limit: 8 }), await reader.nearbyEntities(slug, { limit: 8 })];
+      expect(b.map((n) => n.slug)).toEqual(a.map((n) => n.slug));
+      b.forEach((n, i) => expect(n.distanceKm).toBeCloseTo(a[i]!.distanceKm, 1));
+    });
+
+    it.each([{ areaSlug: "jacksonville-fl" }, { areaSlug: "jacksonville-fl", categorySlug: "sports" }, { categorySlug: "museums" }])("same featured ordering: %o", async (q) => {
+      const [a, b] = [await fx.listEntities({ ...q, sort: "featured", pageSize: 24 }), await reader.listEntities({ ...q, sort: "featured", pageSize: 24 })];
+      // photo + type rank must agree exactly; names may tie-break differently between JS and SQL collations
+      const key = (e: { image: unknown; entityType: string; prominence: number }) => `${e.prominence}:${e.image ? 1 : 0}:${e.entityType}`;
+      expect(b.items.map(key)).toEqual(a.items.map(key));
+      expect(b.total).toBe(a.total);
+    });
+
+    it.each(["florida", "duval-county-fl"])("same brand presence totals and fame ranking: %s", async (slug) => {
+      const [a, b] = [await fx.listBrandPresence(slug, { limit: 500 }), await reader.listBrandPresence(slug, { limit: 500 })];
+      expect(new Map(b.map((x) => [x.entity.slug, x.count]))).toEqual(new Map(a.map((x) => [x.entity.slug, x.count])));
+      const [af, bf] = [await fx.listBrandPresence(slug, { sort: "prominence", limit: 10 }), await reader.listBrandPresence(slug, { sort: "prominence", limit: 10 })];
+      expect(bf.map((x) => `${x.entity.prominence}:${x.count}`)).toEqual(af.map((x) => `${x.entity.prominence}:${x.count}`));
+    });
+
+    it("same brand presence (OSM counts) for Jacksonville", async () => {
+      const [a, b] = [await fx.listBrandPresence("jacksonville-fl"), await reader.listBrandPresence("jacksonville-fl")];
+      expect(b.length).toBe(a.length);
+      expect(new Map(b.map((x) => [x.entity.slug, x.count]))).toEqual(new Map(a.map((x) => [x.entity.slug, x.count])));
+      const [af, bf] = [await fx.listBrandPresence("jacksonville-fl", { categorySlug: "fast-food" }), await reader.listBrandPresence("jacksonville-fl", { categorySlug: "fast-food" })];
+      expect(new Set(bf.map((x) => x.entity.slug))).toEqual(new Set(af.map((x) => x.entity.slug)));
     });
 
     it("same source registry usage counts", async () => {

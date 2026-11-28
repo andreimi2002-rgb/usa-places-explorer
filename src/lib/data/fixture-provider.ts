@@ -1,9 +1,10 @@
-import { normalize, tokens } from "@/lib/text";
+import { nameKey, normalize, tokens } from "@/lib/text";
 import type { AreaType, ReviewStatus } from "@/lib/domain/schemas";
-import type { AreaRow, Dataset, EntityRow } from "./dataset";
+import type { AreaRow, Dataset, EntityRow, MediaRow } from "./dataset";
 import { areaSearchText, categoryRef, DatasetIndex, entitySearchText } from "./derive";
 import {
   emptyStatusCounts,
+  FEATURED_TYPES,
   type AreaDetail,
   type AreaSummary,
   type CategoryNode,
@@ -13,6 +14,8 @@ import {
   type EntityDetail,
   type EntityQuery,
   type EntitySummary,
+  type BrandPresence,
+  type NearbyEntity,
   type Page,
   type SearchHit,
   type SiteStats,
@@ -21,7 +24,7 @@ import {
 
 const AREA_DEPTH_RANK: Record<AreaType, number> = {
   country: 0, state: 1, federal_district: 1, territory: 1, region: 2, metro_area: 2, tribal_area: 2,
-  county: 3, municipality: 4, cdp: 4, neighborhood: 5,
+  county: 3, municipality: 4, cdp: 4, community: 4, neighborhood: 5,
 };
 const TRUSTED: ReviewStatus[] = ["verified", "reviewed", "imported"];
 
@@ -31,16 +34,39 @@ export function clampPage(page?: number, pageSize?: number, max = 100) {
   return { page: p, pageSize: size, offset: (p - 1) * size };
 }
 
+/**
+ * Area ranking adjustment shared with the SQL in postgres-provider.ts: actively covered
+ * places get a small boost; thousands of GNIS named points must not outrank real
+ * jurisdictions with the same name (e.g. the "Duval" point vs. Duval County).
+ */
+export function areaBoost(areaType: AreaType, programStatus: "active" | "registry_only"): number {
+  return (programStatus === "active" ? 8 : 0) + (areaType === "community" ? -40 : 0);
+}
+
+/** Great-circle distance in km (matches PostGIS geography ST_Distance closely enough for ranking). */
+export function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const r = Math.PI / 180;
+  const a = Math.sin(((lat2 - lat1) * r) / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(((lon2 - lon1) * r) / 2) ** 2;
+  return 2 * 6371.0088 * Math.asin(Math.sqrt(a));
+}
+
+/** Search hit order (both modes): score, then how well known (Wikipedia editions), then name. */
+export function byScore(a: SearchHit, b: SearchHit): number {
+  const pa = a.kind === "entity" ? (a.prominence ?? 0) : 0;
+  const pb = b.kind === "entity" ? (b.prominence ?? 0) : 0;
+  return b.score - a.score || pb - pa || a.name.localeCompare(b.name, "en");
+}
+
 /** Shared scoring so fixture and database search rank comparably. */
-export function scoreText(query: string, name: string, doc: string): number {
+export function scoreText(query: string, names: string | string[], doc: string): number {
   const q = normalize(query);
   const qt = tokens(query);
   if (!qt.length) return 0;
-  const n = normalize(name);
+  const ns = (Array.isArray(names) ? names : [names]).map(normalize).filter(Boolean);
   const d = normalize(doc);
-  if (n === q) return 100;
-  if (n.startsWith(q)) return 70;
-  const nameTokens = n.split(" ");
+  if (ns.some((n) => n === q)) return 100;
+  if (ns.some((n) => n.startsWith(q))) return 70;
+  const nameTokens = ns.flatMap((n) => n.split(" "));
   if (qt.every((t) => nameTokens.some((w) => w.startsWith(t)))) return 50;
   if (qt.every((t) => d.includes(t))) return 25;
   return 0;
@@ -75,7 +101,7 @@ export class FixtureProvider implements DataProvider {
 
   /** Most specific trustworthy area for display ("Jacksonville", "Southside"). */
   private placeOf(e: EntityRow): AreaRow | null {
-    const links = this.ds.entityAreas.filter((ea) => ea.entityId === e.id).map((ea) => ({ ea, area: this.idx.areaById.get(ea.areaId)! }));
+    const links = (this.idx.areasByEntity.get(e.id) ?? []).map((ea) => ({ ea, area: this.idx.areaById.get(ea.areaId)! }));
     if (!links.length) return null;
     links.sort((x, y) => {
       const tx = TRUSTED.includes(x.ea.reviewStatus) ? 1 : 0;
@@ -87,13 +113,78 @@ export class FixtureProvider implements DataProvider {
   }
 
   private entitySummary(e: EntityRow): EntitySummary {
-    const primary = this.ds.entityCategories.find((ec) => ec.entityId === e.id && ec.isPrimary)!;
+    const primary = (this.idx.categoriesByEntity.get(e.id) ?? []).find((ec) => ec.isPrimary)!;
     const cat = this.idx.categoryById.get(primary.categoryId)!;
     const place = this.placeOf(e);
+    const img = this.imageOf(e.id);
     return {
       slug: e.slug, name: e.name, entityType: e.entityType, shortDescription: e.shortDescription, reviewStatus: e.reviewStatus,
       primaryCategory: categoryRef(cat), domain: categoryRef(this.idx.domainOf(cat)), placeLabel: place?.name ?? null,
+      image: img ? { url: img.url, alt: img.alt } : null,
+      prominence: e.prominence,
     };
+  }
+
+  private imageCache: Map<string, MediaRow> | null = null;
+  /** Same rule as the SQL view: photos before logos, then lowest id. */
+  private imageOf(entityId: string): MediaRow | undefined {
+    if (!this.imageCache) {
+      this.imageCache = new Map();
+      const sorted = this.ds.media
+        .filter((m) => m.entityId && !m.aiGenerated)
+        .sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+      for (const m of sorted) if (!this.imageCache.has(m.entityId!)) this.imageCache.set(m.entityId!, m);
+    }
+    return this.imageCache.get(entityId);
+  }
+
+  async nearbyEntities(slug: string, opts: { limit?: number; radiusKm?: number } = {}): Promise<NearbyEntity[]> {
+    const e = this.idx.entityBySlug.get(slug);
+    if (!e || e.lat === null || e.lon === null || e.sensitiveLocation) return [];
+    const limit = Math.min(Math.max(opts.limit ?? 8, 1), 30);
+    const radius = Math.min(opts.radiusKm ?? 3, 25);
+    const out: { o: EntityRow; d: number }[] = [];
+    for (const o of this.ds.entities) {
+      if (o.id === e.id || o.lat === null || o.lon === null || o.sensitiveLocation || !this.visible(o)) continue;
+      const d = haversineKm(e.lat, e.lon, o.lat, o.lon);
+      if (d <= radius) out.push({ o, d });
+    }
+    return out
+      .sort((a, b) => a.d - b.d || (a.o.slug < b.o.slug ? -1 : 1))
+      .slice(0, limit)
+      .map(({ o, d }) => ({ ...this.entitySummary(o), distanceKm: Math.round(d * 100) / 100 }));
+  }
+
+  async listBrandPresence(areaSlug: string, opts: { categorySlug?: string; limit?: number; sort?: "count" | "prominence" } = {}): Promise<BrandPresence[]> {
+    const area = this.idx.areaBySlug.get(areaSlug);
+    if (!area) return [];
+    const limit = Math.min(Math.max(opts.limit ?? 200, 1), 500);
+    const allowed = opts.categorySlug && this.idx.categoryBySlug.get(opts.categorySlug)
+      ? this.idx.descendantCategoryIds(this.idx.categoryBySlug.get(opts.categorySlug)!.id)
+      : null;
+    // Counts scoped to this exact area; otherwise (e.g. a state) the sum of its counties' counts.
+    const counts = this.ds.facts.filter((f) => f.key === "osm-location-count" && f.entityId && f.valueNum !== null);
+    let scoped = counts.filter((f) => f.scopeAreaId === area.id);
+    if (!scoped.length) {
+      const inside = this.idx.descendantAreaIds(area.id);
+      scoped = counts.filter((f) => f.scopeAreaId && inside.has(f.scopeAreaId) && this.idx.areaById.get(f.scopeAreaId)!.areaType === "county");
+    }
+    const byEntity = new Map<string, { n: number; asOf: string | null }>();
+    for (const f of scoped) {
+      const prev = byEntity.get(f.entityId!) ?? { n: 0, asOf: null };
+      byEntity.set(f.entityId!, { n: prev.n + f.valueNum!, asOf: !prev.asOf || (f.asOf && f.asOf > prev.asOf) ? f.asOf : prev.asOf });
+    }
+    const rows: BrandPresence[] = [];
+    for (const [id, v] of byEntity) {
+      const e = this.idx.entityById.get(id)!;
+      if (!this.visible(e)) continue;
+      if (allowed && !(this.idx.categoriesByEntity.get(e.id) ?? []).some((ec) => allowed.has(ec.categoryId))) continue;
+      rows.push({ entity: this.entitySummary(e), count: v.n, asOf: v.asOf });
+    }
+    const byName = (a: BrandPresence, b: BrandPresence) => a.entity.name.localeCompare(b.entity.name, "en");
+    return rows
+      .sort((a, b) => (opts.sort === "prominence" ? b.entity.prominence - a.entity.prominence || b.count - a.count : b.count - a.count) || byName(a, b))
+      .slice(0, limit);
   }
 
   private lastCheck(sourceId: string): SourceCheck | null {
@@ -130,8 +221,8 @@ export class FixtureProvider implements DataProvider {
     for (const c of this.idx.areaChildren.get(a.id) ?? []) childCounts[c.areaType] = (childCounts[c.areaType] ?? 0) + 1;
     const related: AreaDetail["related"] = [];
     for (const r of this.ds.areaRelations) {
-      if (r.areaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.relatedAreaId)!), relationType: r.relationType, method: r.method, direction: "out" });
-      else if (r.relatedAreaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.areaId)!), relationType: r.relationType, method: r.method, direction: "in" });
+      if (r.areaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.relatedAreaId)!), relationType: r.relationType, method: r.method, share: r.share, direction: "out" });
+      else if (r.relatedAreaId === a.id) related.push({ area: this.areaSummary(this.idx.areaById.get(r.areaId)!), relationType: r.relationType, method: r.method, share: r.share, direction: "in" });
     }
     const facts = this.ds.facts.filter((f) => f.areaId === a.id && f.reviewStatus !== "rejected");
     const sourceIds = new Set([...a.sourceIds, ...facts.map((f) => f.sourceId)]);
@@ -153,7 +244,7 @@ export class FixtureProvider implements DataProvider {
     if (opts.areaType) kids = kids.filter((k) => k.areaType === opts.areaType);
     if (opts.q) {
       const q = normalize(opts.q);
-      kids = kids.filter((k) => normalize([k.name, ...k.aliases].join(" ")).includes(q));
+      kids = kids.filter((k) => nameKey(k.name, k.aliases).includes(q));
     }
     kids = [...kids].sort((x, y) => x.name.localeCompare(y.name, "en"));
     return { items: kids.slice(offset, offset + pageSize).map((k) => this.areaSummary(k)), total: kids.length, page, pageSize };
@@ -163,14 +254,14 @@ export class FixtureProvider implements DataProvider {
     const e = this.idx.entityBySlug.get(slug);
     if (!e || !this.visible(e)) return null;
     const summary = this.entitySummary(e);
-    const cats = this.ds.entityCategories
+    const cats = (this.idx.categoriesByEntity.get(e.id) ?? [])
       .filter((ec) => ec.entityId === e.id)
       .map((ec) => {
         const c = this.idx.categoryById.get(ec.categoryId)!;
         return { ...categoryRef(c), isPrimary: ec.isPrimary, path: this.idx.categoryPath(c).map(categoryRef) };
       })
       .sort((x, y) => Number(y.isPrimary) - Number(x.isPrimary));
-    const areas = this.ds.entityAreas
+    const areas = (this.idx.areasByEntity.get(e.id) ?? [])
       .filter((ea) => ea.entityId === e.id)
       .map((ea) => {
         const a = this.idx.areaById.get(ea.areaId)!;
@@ -178,7 +269,7 @@ export class FixtureProvider implements DataProvider {
       })
       .sort((x, y) => AREA_DEPTH_RANK[x.areaType] - AREA_DEPTH_RANK[y.areaType]);
     const relations: EntityDetail["relations"] = [];
-    for (const r of this.ds.entityRelations) {
+    for (const r of this.idx.relationsByEntity.get(e.id) ?? []) {
       if (r.reviewStatus === "rejected") continue;
       const other = r.fromEntityId === e.id ? r.toEntityId : r.toEntityId === e.id ? r.fromEntityId : null;
       if (!other) continue;
@@ -186,7 +277,7 @@ export class FixtureProvider implements DataProvider {
       if (!this.visible(o)) continue;
       relations.push({ entity: this.entitySummary(o), relationType: r.relationType, direction: r.fromEntityId === e.id ? "out" : "in", reviewStatus: r.reviewStatus, verifiedAt: r.verifiedAt, evidence: r.evidence, sourceId: r.sourceId });
     }
-    const facts = this.ds.facts.filter((f) => f.entityId === e.id && f.reviewStatus !== "rejected");
+    const facts = (this.idx.factsByEntity.get(e.id) ?? []).filter((f) => f.reviewStatus !== "rejected");
     const sourceIds = new Set<string>([...(e.primarySourceId ? [e.primarySourceId] : []), ...facts.map((f) => f.sourceId)]);
     for (const s of this.ds.sources) if (s.entityId === e.id) sourceIds.add(s.id);
     for (const r of this.ds.entityRelations) if (r.fromEntityId === e.id && r.sourceId) sourceIds.add(r.sourceId);
@@ -198,6 +289,12 @@ export class FixtureProvider implements DataProvider {
       sources: this.ds.sources.filter((s) => sourceIds.has(s.id)).map((s) => ({ ...s, lastCheck: this.lastCheck(s.id) })),
       externalIds: this.ds.externalIds.filter((x) => x.entityId === e.id).map((x) => ({ provider: x.provider, externalId: x.externalId })),
       openIssues: this.ds.reviewIssues.filter((i) => i.entityId === e.id && i.status === "open").length,
+      lat: e.sensitiveLocation ? null : e.lat, lon: e.sensitiveLocation ? null : e.lon, wikidataId: e.wikidataId, wikipedia: e.wikipedia,
+      presence: (this.idx.factsByEntity.get(e.id) ?? [])
+        .filter((f) => f.entityId === e.id && f.key === "osm-location-count" && f.scopeAreaId && f.valueNum !== null)
+        .map((f) => ({ areaSlug: this.idx.areaById.get(f.scopeAreaId!)!.slug, areaName: this.idx.areaById.get(f.scopeAreaId!)!.name, count: f.valueNum!, asOf: f.asOf }))
+        .sort((x, y) => y.count - x.count || (x.areaSlug < y.areaSlug ? -1 : 1)),
+      media: [...(this.idx.mediaByEntity.get(e.id) ?? [])].sort((a, b) => Number(b.kind === "photo") - Number(a.kind === "photo") || (a.id < b.id ? -1 : 1)),
     };
   }
 
@@ -212,10 +309,14 @@ export class FixtureProvider implements DataProvider {
       rows = rows.filter((e) => ents.has(e.id));
     }
     if (query.entityType) rows = rows.filter((e) => e.entityType === query.entityType);
+    if (query.excludeEntityType) rows = rows.filter((e) => e.entityType !== query.excludeEntityType);
     if (query.reviewStatus) rows = rows.filter((e) => e.reviewStatus === query.reviewStatus);
-    let scored = rows.map((e) => ({ e, s: query.q ? scoreText(query.q, e.name + " " + e.aliases.join(" "), this.entitySearch.get(e.id)!) : 1 }));
+    let scored = rows.map((e) => ({ e, s: query.q ? scoreText(query.q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!) : 1 }));
     if (query.q) scored = scored.filter((x) => x.s > 0);
-    scored.sort((a, b) => b.s - a.s || a.e.name.localeCompare(b.e.name, "en"));
+    if (query.sort === "featured") {
+      const rank = (t: string) => (FEATURED_TYPES.indexOf(t) === -1 ? 999 : FEATURED_TYPES.indexOf(t));
+      scored.sort((a, b) => b.s - a.s || b.e.prominence - a.e.prominence || Number(!!this.imageOf(b.e.id)) - Number(!!this.imageOf(a.e.id)) || rank(a.e.entityType) - rank(b.e.entityType) || a.e.name.localeCompare(b.e.name, "en"));
+    } else scored.sort((a, b) => b.s - a.s || a.e.name.localeCompare(b.e.name, "en"));
     return { items: scored.slice(offset, offset + pageSize).map((x) => this.entitySummary(x.e)), total: scored.length, page, pageSize };
   }
 
@@ -262,26 +363,26 @@ export class FixtureProvider implements DataProvider {
     if (!tokens(q).length) return [];
     const hits: SearchHit[] = [];
     for (const e of this.scopedEntities(opts.areaSlug)) {
-      const s = scoreText(q, e.name + " " + e.aliases.join(" "), this.entitySearch.get(e.id)!);
+      const s = scoreText(q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!);
       if (s > 0) {
         const sum = this.entitySummary(e);
-        hits.push({ kind: "entity", slug: e.slug, name: e.name, subtitle: [sum.primaryCategory.name, sum.placeLabel].filter(Boolean).join(" · "), score: s + 5 });
+        hits.push({ kind: "entity", slug: e.slug, name: e.name, subtitle: [sum.primaryCategory.name, sum.placeLabel].filter(Boolean).join(" · "), score: s + 5, prominence: e.prominence });
       }
     }
     const scopeIds = opts.areaSlug && this.idx.areaBySlug.get(opts.areaSlug) ? this.idx.descendantAreaIds(this.idx.areaBySlug.get(opts.areaSlug)!.id) : null;
     for (const a of this.ds.areas) {
       if (scopeIds && !scopeIds.has(a.id)) continue;
-      const s = scoreText(q, a.name + " " + a.aliases.join(" "), this.areaSearch.get(a.id)!);
+      const s = scoreText(q, [a.name, ...a.aliases], this.areaSearch.get(a.id)!);
       if (s > 0) {
         const parent = a.parentId ? this.idx.areaById.get(a.parentId)?.name : null;
-        hits.push({ kind: "area", slug: a.slug, name: a.name, subtitle: [a.typeLabel, parent].filter(Boolean).join(" · "), score: s + (a.programStatus === "active" ? 8 : 0) });
+        hits.push({ kind: "area", slug: a.slug, name: a.name, subtitle: [a.typeLabel, parent].filter(Boolean).join(" · "), score: s + areaBoost(a.areaType, a.programStatus) });
       }
     }
     for (const c of this.ds.categories) {
       const s = scoreText(q, c.name, `${c.name} ${c.nameRo ?? ""} ${c.description ?? ""}`);
       if (s > 0) hits.push({ kind: "category", slug: c.slug, name: c.name, subtitle: c.parentId ? this.idx.domainOf(c).name : "Domain", score: s });
     }
-    return hits.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "en")).slice(0, limit);
+    return hits.filter((h) => h.score > 0).sort(byScore).slice(0, limit);
   }
 
   async getCoverage(areaSlug: string): Promise<CoverageReport | null> {
@@ -304,7 +405,7 @@ export class FixtureProvider implements DataProvider {
       .filter((u) => scope.has(u.areaId))
       .map((u) => ({
         id: u.id, label: u.label, definition: u.definition, denominator: u.denominator, asOf: u.asOf, sourceId: u.sourceId,
-        numerator: this.ds.areas.filter((a) => a.areaType === u.areaType && this.idx.descendantAreaIds(u.areaId).has(a.id) && a.id !== u.areaId).length,
+        numerator: this.ds.areas.filter((a) => a.areaType === u.areaType && this.idx.descendantAreaIds(u.areaId).has(a.id) && a.id !== u.areaId && (u.metric === "area_count" || this.ds.areaRelations.some((r) => r.areaId === a.id && r.relationType === u.relationType))).length,
       }));
     const entIds = new Set(ents.map((e) => e.id));
     const issueCounts = new Map<string, number>();

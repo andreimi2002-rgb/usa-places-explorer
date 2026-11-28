@@ -8,6 +8,7 @@ const NAV = [
   { href: "/topics", key: "nav.topics" },
   { href: "/coverage", key: "nav.coverage" },
   { href: "/sources", key: "nav.sources" },
+  { href: "/play", key: "nav.play" },
 ] as const;
 
 export function SiteHeader({ mode }: { mode: DataMode }) {

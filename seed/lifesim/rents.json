@@ -1,0 +1,78 @@
+{
+ "source": {
+  "id": "hud-fmr-fy2026",
+  "title": "HUD Fair Market Rents, FY2026",
+  "url": "https://www.huduser.gov/portal/datasets/fmr.html",
+  "license": "Public domain (U.S. federal government work); credit U.S. Department of Housing and Urban Development",
+  "checksumSha256": "ed9f59a601f47451ee3e7e6c466fba1c606b0f54d5807c89698594710616332d",
+  "notes": "FMRs are gross rents (rent + utilities) at about the 40th percentile of standard-quality rentals in the area. Each metro uses its anchor county's HUD area (Miami: Miami-Dade HMFA)."
+ },
+ "metros": {
+  "jacksonville": {
+   "hudArea": "Jacksonville, FL HUD Metro FMR Area",
+   "county": "Duval County",
+   "monthly": {
+    "studio": 1355,
+    "br1": 1382,
+    "br2": 1658,
+    "br3": 2043,
+    "br4": 2561
+   }
+  },
+  "tampa": {
+   "hudArea": "Tampa-St. Petersburg-Clearwater, FL MSA",
+   "county": "Hillsborough County",
+   "monthly": {
+    "studio": 1593,
+    "br1": 1696,
+    "br2": 1977,
+    "br3": 2527,
+    "br4": 3077
+   }
+  },
+  "tallahassee": {
+   "hudArea": "Tallahassee, FL HUD Metro FMR Area",
+   "county": "Leon County",
+   "monthly": {
+    "studio": 1097,
+    "br1": 1204,
+    "br2": 1352,
+    "br3": 1674,
+    "br4": 1790
+   }
+  },
+  "miami": {
+   "hudArea": "Miami-Miami Beach-Kendall, FL HUD Metro FMR Area",
+   "county": "Miami-Dade County",
+   "monthly": {
+    "studio": 1828,
+    "br1": 1995,
+    "br2": 2436,
+    "br3": 3127,
+    "br4": 3613
+   }
+  },
+  "destin": {
+   "hudArea": "Crestview-Fort Walton Beach-Destin, FL HUD Metro FMR Area",
+   "county": "Okaloosa County",
+   "monthly": {
+    "studio": 1362,
+    "br1": 1581,
+    "br2": 1785,
+    "br3": 2448,
+    "br4": 2979
+   }
+  },
+  "orlando": {
+   "hudArea": "Orlando-Kissimmee-Sanford, FL MSA",
+   "county": "Orange County",
+   "monthly": {
+    "studio": 1650,
+    "br1": 1731,
+    "br2": 1972,
+    "br3": 2476,
+    "br4": 2924
+   }
+  }
+ }
+}

@@ -1,0 +1,1760 @@
+{
+ "generatedAt": "2026-11-27T19:35:38.482Z",
+ "generator": "scripts/ingest/enrich-area.ts",
+ "areaSlug": "gilchrist-county-fl",
+ "sources": [
+  {
+   "id": "wikidata",
+   "kind": "reference",
+   "title": "Wikidata",
+   "publisher": "Wikimedia Foundation (community-edited)",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0 1.0 (public domain dedication)",
+   "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "redisplayPermitted": true,
+   "coverage": "Structured data on notable entities",
+   "expectedFields": [
+    "P31",
+    "P625",
+    "P571",
+    "P1619",
+    "P137",
+    "P127",
+    "P1083",
+    "P856",
+    "P18"
+   ],
+   "retrievalMethod": "Wikidata API (wbgetentities) and SPARQL",
+   "refreshInterval": "Quarterly",
+   "limitations": "Community-edited secondary source. Values are shown as imported, not verified.",
+   "retrievedAt": "2026-11-27T19:35:38.482Z"
+  },
+  {
+   "id": "wikipedia-en",
+   "kind": "reference",
+   "title": "English Wikipedia (lead summaries)",
+   "publisher": "Wikimedia Foundation (community-written)",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0 — text shown verbatim with attribution and a link to the article",
+   "termsUrl": "https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content",
+   "redisplayPermitted": true,
+   "coverage": "Articles on notable entities",
+   "expectedFields": [
+    "summary"
+   ],
+   "retrievalMethod": "Wikimedia REST API page/summary",
+   "refreshInterval": "Quarterly",
+   "limitations": "Encyclopedic summary, not a primary source. It may lag behind recent changes.",
+   "retrievedAt": "2026-11-27T19:35:38.482Z"
+  },
+  {
+   "id": "openstreetmap-overpass",
+   "kind": "dataset",
+   "title": "OpenStreetMap — branded locations (brand:wikidata)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0 — © OpenStreetMap contributors",
+   "termsUrl": "https://osmfoundation.org/wiki/Licence",
+   "redisplayPermitted": true,
+   "coverage": "Mapped shops, restaurants, fuel stations and services tagged with a brand inside Gilchrist County",
+   "expectedFields": [
+    "brand:wikidata",
+    "amenity",
+    "shop"
+   ],
+   "retrievalMethod": "Overpass API (single bounding-box query, filtered to the area boundary)",
+   "refreshInterval": "Monthly",
+   "limitations": "Counts mapped locations only; OSM can be incomplete or out of date. Not an official store count.",
+   "retrievedAt": "2026-11-27T19:35:38.482Z",
+   "checksumSha256": "303ac631dca0747714857cdd2cb89db639b97e333110899472484ea9560609ca"
+  }
+ ],
+ "entities": [
+  {
+   "qid": "Q43371127",
+   "slug": "gilchrist-blue-springs-state-park",
+   "name": "Gilchrist Blue Springs State Park",
+   "aliases": [
+    "Ruth B. Kirby Gilchrist Blue Spring State Park",
+    "Gilchrist Blue Springs State Park"
+   ],
+   "description": "State park in Florida",
+   "entityType": "state_park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 3,
+   "categories": [
+    {
+     "slug": "state-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.82673,
+    "lon": -82.68304
+   },
+   "officialUrl": "https://www.floridastateparks.org/parks-and-trails/ruth-b-kirby-gilchrist-blue-springs-state-park",
+   "wikipedia": {
+    "title": "Ruth B. Kirby Gilchrist Blue Springs State Park",
+    "url": "https://en.wikipedia.org/wiki/Ruth_B._Kirby_Gilchrist_Blue_Springs_State_Park",
+    "extract": "Gilchrist Blue Springs State Park is a state park in Gilchrist County, Florida, along the Santa Fe River. Operated as a private park for many years, the park was purchased by the state of Florida for $5.2 million and opened as Florida's 175th state park on November 1, 2017. It contains six natural springs, including Gilchrist Blue Spring, Little Blue Spring, Naked Spring, Kiefer Spring, and Johnson Spring. The park's full name is Ruth B. Kirby Gilchrist Blue Springs State Park.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "area",
+     "value": 407,
+     "unit": "acres",
+     "sourceId": "wikidata",
+     "sourceRef": "Q43371127 P2046"
+    },
+    {
+     "key": "street-address",
+     "value": "7450 N.E. 60th St.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q43371127 P6375"
+    },
+    {
+     "key": "owner",
+     "value": "Blue Springs Properties Inc.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q43371127 P127"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q43371127"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_Springs_FL_%2830381160%29.jpg/1920px-Blue_Springs_FL_%2830381160%29.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Springs_FL_(30381160).jpg",
+     "alt": "Photograph of Gilchrist Blue Springs State Park",
+     "credit": "KlipschFan",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7419560",
+   "slug": "santa-fe-river",
+   "name": "Santa Fe River",
+   "aliases": [],
+   "description": "river in Florida, United States",
+   "entityType": "waterway",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "waterways",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.887257,
+    "lon": -82.879563
+   },
+   "wikipedia": {
+    "title": "Santa Fe River (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Santa_Fe_River_(Florida)",
+    "extract": "The Santa Fe River is a 75-mile (121 km) river in northern Florida.  The watershed of the river is approximately 1,380 square miles (3,574 km2) and spreads across southern Columbia, southern Suwannee, western Bradford, far southern Baker, Union, northern and eastern Gilchrist, and northern Alachua counties.  The headwaters of the river are Lake Santa Fe, near Keystone Heights.  The Santa Fe River is usually a slow-flowing river.  This slow speed, combined with the abundant leaf-drop from nearby trees, especially Bald Cypress, leads to a very dark-brown river due to dissolved tannins.\nThe tributaries of the Santa Fe include the New River, Olustee Creek, and the Ichetucknee River, another spring-fed river.  The Santa Fe empties into the Suwannee River near Branford, Florida.\nThe river derives its name from a Franciscan mission named Santa Fé de Toloca formerly located near the river.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7419560"
+    },
+    {
+     "provider": "geonames",
+     "id": "4172085"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Santa_Fe_River_High_Springs_east03.jpg/1920px-Santa_Fe_River_High_Springs_east03.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Fe_River_High_Springs_east03.jpg",
+     "alt": "Photograph of Santa Fe River",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+   ]
+  },
+  {
+   "qid": "Q16851569",
+   "slug": "cannon-farm",
+   "name": "Cannon Farm",
+   "aliases": [],
+   "description": "historic house in Florida, United States",
+   "entityType": "historic_site",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "historic-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.8175,
+    "lon": -82.8711
+   },
+   "wikipedia": {
+    "title": "Cannon Farm",
+    "url": "https://en.wikipedia.org/wiki/Cannon_Farm",
+    "extract": "The Cannon Farm is a historic farmstead at 5470 NW 37th Court in Bell, Florida.  The main house is a vernacular wood-frame structure that was originally built in 1898 as a schoolhouse when the area was part of Alachua County.  The 10-acre (4.0 ha) parcel includes, in addition to the main house, a sugar cane grinder dating to the turn of the 20th century, and a corn crib and sugar kettle shed dating to the early years of the farm, c. 1932.  The complex is a well-preserved small rural farmstead.\nThe farmstead was listed on the National Register of Historic Places in 2013.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "heritage-designation",
+     "value": "National Register of Historic Places listed place",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16851569 P1435"
+    },
+    {
+     "key": "nrhp-reference",
+     "value": "13000851",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16851569 P649"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16851569"
+    },
+    {
+     "provider": "nrhp",
+     "id": "13000851"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Cannon_Farm%2C_Bell_FL.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Cannon_Farm,_Bell_FL.jpg",
+     "alt": "Photograph of Cannon Farm",
+     "credit": "National Park Service",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16887763",
+   "slug": "ginnie-springs",
+   "name": "Ginnie Springs",
+   "aliases": [],
+   "description": "privately owned park in Gilchrist County, Florida, USA",
+   "entityType": "park",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "municipal-parks",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.836,
+    "lon": -82.7
+   },
+   "wikipedia": {
+    "title": "Ginnie Springs",
+    "url": "https://en.wikipedia.org/wiki/Ginnie_Springs",
+    "extract": "Ginnie Springs is a privately owned park in Gilchrist County about 6.5 miles (10.5 km) northwest of High Springs, Florida, USA. It is located on the south side of the Santa Fe River, to which it is connected. According to the Springs Eternal Project, the Santa Fe River and the springs attached are categorized as an \"Outstanding Florida Waterway\" by the Florida Department of Environmental Protection (FLDEP), meaning that, following the law, the rivers must receive water quality protection. This designation highlights the ecological importance of the area and emphasizes the need for careful management to preserve its natural conditions. \nThe size of the spring pool itself is about 90 feet in diameter, and about 12 feet deep. This makes it large enough for visitors to swim comfortably and explore the open water area. The spring outflow, however, is about 35 feet wide, and about 3 feet deep. It continuously flows for about 500 feet before it reaches the river floodplain. Continuing, an environmental analysis report from 2021 reports that the average flow for Ginnie Springs was about 40 cubic feet per second from 1995 to 2019. Such a steady flow is typical of many Florida springs and helps to maintain the clear, moving water that the area is known for. The water is clear and cold and there are accessible caverns with a sand and limestone bottom.\nGinnie Springs has been privately owned by the Wray family since 1971 and began functioning in 1976. In the mid-1990s when scuba diving grew in popularity, Bob Wray opened the springs to the public. Due to the increasing number of scuba diver deaths, Wray took precautions by putting in an iron grate over the most dangerous part of the cave, in the Ginnie Ballroom cavern, and placing warning signs for divers in the entrances to the nearby Devil's Spring system. The popularity of Ginnie took off and it became a nationally renowned diving spot which is still largely popular today.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "street-address",
+     "value": "Gilchrist County, Florida",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16887763 P6375"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16887763"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ginnie_Springs-3.jpg/1920px-Ginnie_Springs-3.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ginnie_Springs-3.jpg",
+     "alt": "Photograph of Ginnie Springs",
+     "credit": "(WT-de) Mistoffeles",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q28449858",
+   "slug": "fort-white-wildlife-and-environmental-area",
+   "name": "Fort White Wildlife and Environmental Area",
+   "aliases": [],
+   "entityType": "protected_area",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "protected-areas",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.908611,
+    "lon": -82.781667
+   },
+   "wikipedia": {
+    "title": "Fort White Wildlife and Environmental Area",
+    "url": "https://en.wikipedia.org/wiki/Fort_White_Wildlife_and_Environmental_Area",
+    "extract": "Fort White Wildlife and Environmental Area (WEA) protects 1,610 acres of primarily sandhill habitat four miles west of Fort White in Gilchrist County, Florida.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q28449858"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q4883205",
+   "slug": "bell-middle-high-school",
+   "name": "Bell Middle/High School",
+   "aliases": [],
+   "description": "high school in Florida, United States",
+   "entityType": "school",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "k12-schools",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "bell-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.7518,
+    "lon": -82.8595
+   },
+   "wikipedia": {
+    "title": "Bell Middle/High School (Florida)",
+    "url": "https://en.wikipedia.org/wiki/Bell_Middle/High_School_(Florida)",
+    "extract": "Bell Middle/High School is a school in Bell, Florida. It serves more than 700 students spread out in grades 6 through 12. Its mascot is the bulldog, previously the bullfrog. It is part of the Gilchrist Country School District. The school has earned an A grade since Year 5 with 2024 still pending, and has been rated as one of the top 1 combination middle/high schools in the state of Florida.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4883205"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q5139067",
+   "slug": "coca-cola-bottling-plant",
+   "name": "Coca-Cola Bottling Plant",
+   "aliases": [],
+   "description": "historic building in Trenton, Florida, USA",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "trenton-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6167,
+    "lon": -82.8187
+   },
+   "wikipedia": {
+    "title": "Coca-Cola Bottling Plant (Trenton, Florida)",
+    "url": "https://en.wikipedia.org/wiki/Coca-Cola_Bottling_Plant_(Trenton,_Florida)",
+    "extract": "The Coca-Cola Bottling Plant (also known as the Coca-Cola Building and the Florida Coca-Cola Bottling Company) is an historic one-story redbrick building located at 517 North Main Street in Trenton, Gilchrist County, Florida. Built in 1925,  the building was listed in 1989 in A Guide to Florida's Historic Architecture, published by the University of Florida Press. It is the first Coca-Cola bottling plant built in Florida. At the time of its listing, it was \"in disrepair and not in use.\"  Today it has been renovated and is being used by the Off The Beet Restaurant",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5139067 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5139067"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Trenton_Coca_Cola_bldg06.jpg/1920px-Trenton_Coca_Cola_bldg06.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Trenton_Coca_Cola_bldg06.jpg",
+     "alt": "Photograph of Coca-Cola Bottling Plant",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7838539",
+   "slug": "trenton",
+   "name": "Trenton",
+   "aliases": [],
+   "description": "ACL station",
+   "entityType": "transit_station",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "public-transit",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "trenton-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.61598,
+    "lon": -82.81872
+   },
+   "wikipedia": {
+    "title": "Trenton station (Atlantic Coast Line Railroad)",
+    "url": "https://en.wikipedia.org/wiki/Trenton_station_(Atlantic_Coast_Line_Railroad)",
+    "extract": "Trenton is a historic train station in Trenton, Florida. It was built in 1905 as a stop on the Atlantic Coast Line Railroad line from Newberry to Wilcox and on to Cross City.\nIn 1989, the Trenton Depot was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.\nIn 2004, the Florida West Coast Railroad, which then operated the line through Trenton, was allowed to abandon all of its lines except for a short section leading west from Newberry. In March 2010 the city of Trenton was approved for a 2011 state acquisition and development grant for the Trenton Depot. In June 2010 Florida's governor and cabinet approved the state's purchase of a 9.33-mile corridor from Trenton Depot almost to Newberry for the Trenton-Newberry Rail Trail project.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7838539"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Trenton_Depot01.jpg/1920px-Trenton_Depot01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Trenton_Depot01.jpg",
+     "alt": "Photograph of Trenton",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7838557",
+   "slug": "trenton-church-of-christ",
+   "name": "Trenton Church of Christ",
+   "aliases": [],
+   "description": "building in Florida, United States",
+   "entityType": "building",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 2,
+   "categories": [
+    {
+     "slug": "notable-buildings",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "trenton-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.612417,
+    "lon": -82.818056
+   },
+   "wikipedia": {
+    "title": "Trenton Church of Christ",
+    "url": "https://en.wikipedia.org/wiki/Trenton_Church_of_Christ",
+    "extract": "The old Trenton Church of Christ  is an historic one-story Church of Christ church building located on the southeast corner of South Main Street and Southeast 1st Avenue, just south of the Gilchrist County Courthouse, in Trenton, Gilchrist County, Florida. It was built in 1920 of \"Florida field limestone, rubble masonry, with brick quoins at openings, arched windows, triple-arched entry porch,\" etc. Additions have been made to the rear and to the south. In 1989, the building was listed in A Guide to Florida's Historic Architecture, published by the University of Florida Press.\nThe congregation of the Trenton Church of Christ now meets at 502 Northeast 7th Street. This historic church building has been adapted for use for meetings of the Gilchrist County Board of County Commissioners.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1936",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7838557 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7838557"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Trenton_Church_of_Christ01.jpg/1920px-Trenton_Church_of_Christ01.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Trenton_Church_of_Christ01.jpg",
+     "alt": "Photograph of Trenton Church of Christ",
+     "credit": "Ebyabe",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q7948627",
+   "slug": "wdvh-fm",
+   "name": "WDVH-FM",
+   "aliases": [],
+   "description": "radio station in Trenton, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6088,
+    "lon": -82.8495
+   },
+   "officialUrl": "https://www.iamcountryradio.com",
+   "wikipedia": {
+    "title": "WDVH-FM",
+    "url": "https://en.wikipedia.org/wiki/WDVH-FM",
+    "extract": "WDVH-FM (101.7 FM), is a non-commercial Christian  radio station licensed to Trenton, Florida and broadcasting to the Gainesville-Ocala, Florida radio market.  It is owned by the Radio Training Network and airs a Contemporary Christian radio format known as The Joy FM. The Radio Training Network owns about a dozen FM stations and translators in Florida as part of \"The Joy FM\" network originating from WJIS in Bradenton.  While WDVH-FM is a licensed as a commercial station, The Joy FM Network operates as a non-commercial organization, asking for donations during on-air fundraisers.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1987",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7948627 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7948627"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7950192",
+   "slug": "whhz",
+   "name": "WHHZ",
+   "aliases": [],
+   "description": "radio station in Newberry, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6088,
+    "lon": -82.8495
+   },
+   "officialUrl": "https://www.1005thebuzz.com/",
+   "wikipedia": {
+    "title": "WHHZ",
+    "url": "https://en.wikipedia.org/wiki/WHHZ",
+    "extract": "WHHZ (100.5 FM), branded as \"Rock It 100.5\", is a commercial radio station licensed to Newberry, Florida, broadcasting to the Gainesville area.  The station is owned by the MARC Radio Group and transmits with an Effective radiated power of 44 kw from a tower site 2 miles west of Trenton.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1986",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7950192 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7950192"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q7954360",
+   "slug": "wpll",
+   "name": "WPLL",
+   "aliases": [],
+   "description": "radio station in Cross City, Florida",
+   "entityType": "media_outlet",
+   "status": "active",
+   "origin": "wikidata-place",
+   "prominence": 1,
+   "categories": [
+    {
+     "slug": "media-outlets",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "located_in"
+    }
+   ],
+   "coords": {
+    "lat": 29.6088,
+    "lon": -82.8495
+   },
+   "officialUrl": "https://iamcountryradio.com",
+   "wikipedia": {
+    "title": "WPLL",
+    "url": "https://en.wikipedia.org/wiki/WPLL",
+    "extract": "WPLL (106.9 MHz) is a commercial FM radio station licensed to Cross City, Florida, and broadcasting to the Gainesville area.  The station is owned by MARC Radio Gainesville and airs a classic country radio format.  WPLL uses the slogan \"I Am Country 106.9.\"\nThe studios and offices are on NW 76th Drive in Gainesville.  The transmitter is on SW 25th Avenue in Trenton.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1987",
+     "sourceId": "wikidata",
+     "sourceRef": "Q7954360 P571"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q7954360"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q1423218",
+   "slug": "sunoco",
+   "name": "Sunoco",
+   "aliases": [
+    "Sunoco Inc.",
+    "Japan Sun Oil",
+    "Sun Oil Company"
+   ],
+   "description": "American petroleum and petrochemical manufacturer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 17,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.sunoco.com/",
+   "wikipedia": {
+    "title": "Sunoco",
+    "url": "https://en.wikipedia.org/wiki/Sunoco",
+    "extract": "Sunoco LP  is an American vehicle gasoline master limited partnership company organized under Delaware state law and headquartered in Dallas, Texas. Dating back to 1886, the company has transformed from a vertically integrated energy company to a distributor of fuels and operator of energy infrastructure. It was previously engaged in oil, natural gas exploration and production, refining, chemical manufacturing, and retail fuel sales, but divested these businesses.\nThe partnership was known as Sun Oil Company from 1890 to 1976, and as Sun Company Inc. from 1976 to 1998. The Sunoco name is a contraction of SUN Oil COmpany.\nIts current operational focus dates back to 2018, when it divested the non–core convenience store operations to 7-Eleven for $3.2 billion, which allowed for Sunoco LP to improve its financial position. The transaction also provided a long-term take or pay fuel supply agreement with 7-Eleven to generate consistent earnings and cash flows. As of 2024, Sunoco still operates 76 retail locations, all of which are located in New Jersey and Hawaii, the latter branded as Aloha Petroleum, Ltd..",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1886",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Dallas",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Joseph Newton Pew",
+     "sourceId": "wikidata",
+     "sourceRef": "Q1423218 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q1423218 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q1423218"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg/1920px-Sunoco_station%2C_Saratoga_Springs%2C_NY.jpg",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunoco_station,_Saratoga_Springs,_NY.jpg",
+     "alt": "Photograph of Sunoco",
+     "credit": "NNECAPA Photo Library",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q458363",
+   "slug": "marathon-petroleum",
+   "name": "Marathon Petroleum",
+   "aliases": [
+    "Marathon oil company"
+   ],
+   "description": "American petroleum refining, marketing, and transportation company",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 16,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.marathonpetroleum.com/",
+   "wikipedia": {
+    "title": "Marathon Petroleum",
+    "url": "https://en.wikipedia.org/wiki/Marathon_Petroleum",
+    "extract": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.\nMarathon Petroleum traces its origin from a number of small oil companies in Ohio that banded together in 1887. These formed The Ohio Oil Company established in Lima, Ohio. It became the largest oil producer in the state. By 1889, the company was acquired by the Standard Oil Trust and six years later its headquarters was moved to Findlay. In 1906, the company built its first oil pipeline, which connected its facilities in Martinsville, Illinois, and Preble, Indiana.\nAfter the United States Supreme Court ordered its parent company to break up as a result of the Sherman Anti-Trust Act in 1911, Ohio Oil again became independent. It expanded its operations by purchasing oil fields outside of Ohio. The company also started oil refining. In 1924, the company discovered oil in Texas. In the same year, it acquired Lincoln Oil Refining Company. This purchase included a refinery and 17 brand service stations in Indiana. Several years later, Ohio Oil acquired Transcontinental Oil, which included – in addition to refineries, storage facilities, and filling stations – the Marathon product name.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "2009",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Findlay",
+     "sourceId": "wikidata",
+     "sourceRef": "Q458363 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q458363 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q458363"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Marathon_Petroleum_logo_2022.svg/1920px-Marathon_Petroleum_logo_2022.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Marathon_Petroleum_logo_2022.svg",
+     "alt": "Marathon Petroleum logo",
+     "credit": "Marathon Petroleum, Inc.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q6970842",
+   "slug": "napa",
+   "name": "NAPA",
+   "aliases": [
+    "NAPA Auto Parts",
+    "National Automotive Parts Association"
+   ],
+   "description": "American automotive retailers' cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "auto-parts",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.napaonline.com/",
+   "wikipedia": {
+    "title": "NAPA Auto Parts",
+    "url": "https://en.wikipedia.org/wiki/NAPA_Auto_Parts",
+    "extract": "The National Automotive Parts Association (NAPA, also known as NAPA Auto Parts), is an American retailers' cooperative distributing automotive replacement parts, accessories, and service items throughout North America. Established in 1925, NAPA is a division of Atlanta-based Genuine Parts Company.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1925",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Atlanta",
+     "sourceId": "wikidata",
+     "sourceRef": "Q6970842 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q6970842 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q6970842"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/NAPA_Auto_Parts_logo.svg/1920px-NAPA_Auto_Parts_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:NAPA_Auto_Parts_logo.svg",
+     "alt": "NAPA logo",
+     "credit": "National Automotive Parts Association",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q244457",
+   "slug": "subway",
+   "name": "Subway",
+   "aliases": [
+    "SUBWAY",
+    "Subway (restaurant)",
+    "Subway IP LLC"
+   ],
+   "description": "American sandwich restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 58,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://subway.com",
+   "wikipedia": {
+    "title": "Subway (restaurant)",
+    "url": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "extract": "Subway IP LLC, trading as Subway, is an American multinational fast food restaurant franchise that specializes in made-to-order submarine sandwiches (subs) and wraps. It was founded by Fred DeLuca and financed by Peter Buck in 1965 as Pete's Super Submarine Sandwiches in Bridgeport, Connecticut. After several name changes, it was renamed as Subway in 1972, and a franchise operation began in 1974 with a second restaurant in Wallingford, Connecticut.\nIt was the fastest-growing franchise in the world in 2015 and, as of September 2023, has over 37,000 locations in more than 102 countries and territories. More than half its locations (21,796 or 61.1%) are in the United States. It is the largest single-brand restaurant chain and the largest restaurant operator in the world. Its international headquarters are in Shelton, Connecticut.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1965-08-28",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P571"
+    },
+    {
+     "key": "street-address",
+     "value": "1 Corporate Drive Suite 1000, Shelton, CT 06484 USA",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P6375"
+    },
+    {
+     "key": "headquarters",
+     "value": "Milford",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Fred DeLuca; Peter Buck",
+     "sourceId": "wikidata",
+     "sourceRef": "Q244457 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q244457 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q244457"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Alternative_subway_logo.svg/1920px-Alternative_subway_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alternative_subway_logo.svg",
+     "alt": "Subway logo",
+     "credit": "The original uploader was Koman90 at English Wikipedia.",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q4672981",
+   "slug": "ace-hardware",
+   "name": "Ace Hardware",
+   "aliases": [
+    "Ace Hardware Corporation"
+   ],
+   "description": "American hardware cooperative",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "hardware-stores",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.acehardware.com/",
+   "wikipedia": {
+    "title": "Ace Hardware",
+    "url": "https://en.wikipedia.org/wiki/Ace_Hardware",
+    "extract": "Ace Hardware Corporation is an American hardware retailers' cooperative based in Oak Brook, Illinois, United States. It is the largest non-grocery retail cooperative in the United States.\nFounded on October 25, 1924, as \"Ace Stores\", the company changed its name to \"Ace Hardware Corporation\" in 1931. It grew dramatically following World War II, more than tripling its sales between the late 1940s and 1959. After the retirement of longtime president and founder Richard Hesse in 1973, Ace was sold to its retailers, becoming a retailer-owned cooperative. It first reached $1 billion in wholesale sales in 1985 and $5 billion in 2015. As of 2019, it has over 5,200 locations in 60 countries. Ace operates 17 distribution centers in the United States, and additional distribution facilities in China, Panama, and the United Arab Emirates.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1924",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Oak Brook",
+     "sourceId": "wikidata",
+     "sourceRef": "Q4672981 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q4672981 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q4672981"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ace_Hardware_Logo.svg/1920px-Ace_Hardware_Logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Ace_Hardware_Logo.svg",
+     "alt": "Ace Hardware logo",
+     "credit": "Ace Hardware",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q16985303",
+   "slug": "hungry-howies-pizza",
+   "name": "Hungry Howie's Pizza",
+   "aliases": [
+    "Hungry Howie's"
+   ],
+   "description": "American pizza chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 6,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.hungryhowies.com",
+   "wikipedia": {
+    "title": "Hungry Howie's Pizza",
+    "url": "https://en.wikipedia.org/wiki/Hungry_Howie%27s_Pizza",
+    "extract": "Hungry Howie's Pizza & Subs, Inc., also known as Hungry Howie's Pizza, is a franchise and the 11th largest pizza chain in the United States, with nearly 500 locations.  Hungry Howie's products include pizza, calzone-style subs, chicken wings and tenders, bread, salads, cookies, and brookies. Its headquarters are located in Madison Heights, Michigan in Metro Detroit.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1973",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Madison Heights",
+     "sourceId": "wikidata",
+     "sourceRef": "Q16985303 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q16985303 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q16985303"
+    }
+   ],
+   "media": [
+    {
+     "kind": "photo",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hungry_Howies_Athens_OH_USA.JPG/1920px-Hungry_Howies_Athens_OH_USA.JPG",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Hungry_Howies_Athens_OH_USA.JPG",
+     "alt": "Photograph of Hungry Howie's Pizza",
+     "credit": "Ed!(talk)(Hall of Fame) (Transferred by Cloudbound/Originally uploaded by Ed!)",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q5433101",
+   "slug": "family-dollar",
+   "name": "Family Dollar",
+   "aliases": [
+    "Family Dollar Stores, Inc.",
+    "FDO",
+    "Family Dollar Stores"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 7,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.familydollar.com/",
+   "wikipedia": {
+    "title": "Family Dollar",
+    "url": "https://en.wikipedia.org/wiki/Family_Dollar",
+    "extract": "Family Dollar Stores, Inc. is an American variety store chain founded in 1959 by Leon Levine in Charlotte, North Carolina. With over 8,000 locations in all states except Alaska and Hawaii, it was once the second largest retailer of its type in the United States until it was acquired by Dollar Tree in 2015. Its headquarters operations were then moved from Matthews, North Carolina, to Chesapeake, Virginia.\nIn June 2014, activist investor and major shareholder Carl Icahn demanded that Family Dollar be immediately put up for sale. On July 28, Dollar Tree announced that it would buy Family Dollar for $8.5 billion. The sale delivered a windfall to Icahn, who had acquired his 9.4 percent stake in June. In January 2015, Family Dollar shareholders approved the Dollar Tree bid.\nFamily Dollar, and dollar stores in general, have been alleged to create food deserts: areas with poor access to healthy and affordable food. In 2022, Family Dollar was sued by the Arkansas Attorney General following an investigation by the FDA into a rat infestation at its West Memphis, Arkansas, distribution center. The lawsuit ended in a $41 million fine to the company and the temporary closure of 400 stores.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1959",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P571"
+    },
+    {
+     "key": "founded-by",
+     "value": "Leon Levine",
+     "sourceId": "wikidata",
+     "sourceRef": "Q5433101 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 2,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q5433101 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q5433101"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Family-Dollar-Logo-2.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Family-Dollar-Logo-2.png",
+     "alt": "Family Dollar logo",
+     "credit": "Tellermate 2021",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
+  },
+  {
+   "qid": "Q501542",
+   "slug": "united-states-department-of-agriculture",
+   "name": "United States Department of Agriculture",
+   "aliases": [
+    "USDA",
+    "Agriculture Department",
+    "U.S. Department of Agriculture",
+    "Department of Agriculture",
+    "U. S. Department of Agriculture"
+   ],
+   "description": "department of the US government",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 46,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://usda.gov",
+   "wikipedia": {
+    "title": "United States Department of Agriculture",
+    "url": "https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture",
+    "extract": "The United States Department of Agriculture (USDA) is an executive department of the United States federal government that aims to meet the needs of commercial farming and livestock food production, promotes agricultural trade and production, works to assure food safety, protects natural resources, fosters rural communities and works to end hunger in the United States and internationally. It is headed by the secretary of agriculture, who reports directly to the president of the United States and is a member of the president's Cabinet. The current secretary is Brooke Rollins, who has served since February 13, 2025.\nApproximately 71% of the USDA's $213 billion budget goes towards nutrition assistance programs administered by the Food and Nutrition Service (FNS). The largest component of the FNS budget is the Supplemental Nutrition Assistance Program (formerly known as the 'Food Stamp' program), which is the cornerstone of USDA's nutrition assistance. The United States Forest Service is the largest agency within the department, which administers national forests and national grasslands that together comprise about 25% of federal lands.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1862-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q501542 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Washington, D.C.",
+     "sourceId": "wikidata",
+     "sourceRef": "Q501542 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Abraham Lincoln; Henry Leavitt Ellsworth",
+     "sourceId": "wikidata",
+     "sourceRef": "Q501542 P112"
+    },
+    {
+     "key": "parent-organization",
+     "value": "Federal Government of the United States",
+     "sourceId": "wikidata",
+     "sourceRef": "Q501542 P749"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q501542 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q501542"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Logo_of_the_United_States_Department_of_Agriculture.svg/1920px-Logo_of_the_United_States_Department_of_Agriculture.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_United_States_Department_of_Agriculture.svg",
+     "alt": "United States Department of Agriculture logo",
+     "credit": "United States Department of Agriculture",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q135248460",
+   "slug": "best-western-premier",
+   "name": "Best Western Premier",
+   "aliases": [
+    "Best Western Premier Hotels"
+   ],
+   "description": "hotel chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "other-brands",
+     "primary": true
+    },
+    {
+     "slug": "hotels-lodging",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.bestwestern.com/en_US/hotels/discover-best-western/brands/best-western-premier.html",
+   "facts": [
+    {
+     "key": "owner",
+     "value": "Best Western",
+     "sourceId": "wikidata",
+     "sourceRef": "Q135248460 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q135248460 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q135248460"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q145168",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "aliases": [
+    "Dollar General Corporation",
+    "DolGenCorp",
+    "Dollar General Store"
+   ],
+   "description": "discount variety store chain in the USA",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 13,
+   "categories": [
+    {
+     "slug": "retail-chains",
+     "primary": true
+    },
+    {
+     "slug": "supercenters",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.dollargeneral.com/",
+   "wikipedia": {
+    "title": "Dollar General",
+    "url": "https://en.wikipedia.org/wiki/Dollar_General",
+    "extract": "Dollar General Corporation is an American chain of discount stores headquartered in Goodlettsville, Tennessee. As of January 2024, Dollar General operated 20,388 stores in the contiguous United States and Mexico.\nThe company began in 1939 in Scottsville, Kentucky, as a family-owned business called J.L. Turner and Son, owned by James Luther Turner and Cal Turner. In 1955, the firm opened the first Dollar General store, and in 1968 the company went public on the New York Stock Exchange as the Dollar General Corporation. The Fortune 500 recognized Dollar General in 1999, and in 2020 it reached No. 112 on the list. Dollar General has grown to become one of the most profitable stores in the rural United States, with revenue reaching around $42 billion in 2025.\nThe company and its business practices have been subject to criticism, particularly regarding how it may be creating and perpetuating food deserts and stifling local businesses while offering fewer and lower-paying jobs.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1939",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Goodlettsville",
+     "sourceId": "wikidata",
+     "sourceRef": "Q145168 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 3,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q145168 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q145168"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dollar_General_logo.svg/1920px-Dollar_General_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Dollar_General_logo.svg",
+     "alt": "Dollar General logo",
+     "credit": "Dollar General",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q2974437",
+   "slug": "citgo",
+   "name": "Citgo",
+   "aliases": [
+    "Citgo Petroleum Corporation"
+   ],
+   "description": "oil company and gasoline retailer",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 15,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.citgo.com",
+   "wikipedia": {
+    "title": "Citgo",
+    "url": "https://en.wikipedia.org/wiki/Citgo",
+    "extract": "Citgo Petroleum Corporation, or Citgo (stylized as CITGO), is a U.S.-based downstream petroleum company formed in 1983 as a spinoff of the retail, marketing, and transportation assets of Cities Service, which had been acquired by Occidental Petroleum the year before. Headquartered in the Energy Corridor area of Houston, it is majority-owned by PDVSA, a state-owned company of the Venezuelan government (although due to U.S. sanctions in 2019, Citgo no longer provides payments or services to PDVSA).",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1910",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2974437 P571"
+    },
+    {
+     "key": "headquarters",
+     "value": "Houston",
+     "sourceId": "wikidata",
+     "sourceRef": "Q2974437 P159"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q2974437 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q2974437"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Citgo_logo.svg/1920px-Citgo_logo.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Citgo_logo.svg",
+     "alt": "Citgo logo",
+     "credit": "Citgo",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  },
+  {
+   "qid": "Q61747408",
+   "slug": "kangaroo-express",
+   "name": "Kangaroo Express",
+   "aliases": [
+    "Kangaroo"
+   ],
+   "description": "convenience store and gas station brand",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 0,
+   "categories": [
+    {
+     "slug": "fuel-brands",
+     "primary": true
+    },
+    {
+     "slug": "gas-stations",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://kangarooexpress.com/",
+   "facts": [
+    {
+     "key": "owner",
+     "value": "The Pantry",
+     "sourceId": "wikidata",
+     "sourceRef": "Q61747408 P127"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q61747408 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q61747408"
+    }
+   ],
+   "media": []
+  },
+  {
+   "qid": "Q38076",
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "aliases": [
+    "McDonald's Restaurant",
+    "Mickey D's",
+    "Macca's",
+    "Maccas"
+   ],
+   "description": "American fast food restaurant chain",
+   "entityType": "brand",
+   "status": "active",
+   "origin": "osm-brand",
+   "prominence": 138,
+   "categories": [
+    {
+     "slug": "restaurant-chains",
+     "primary": true
+    },
+    {
+     "slug": "fast-food",
+     "primary": false
+    }
+   ],
+   "areas": [
+    {
+     "slug": "gilchrist-county-fl",
+     "relation": "operates_in"
+    }
+   ],
+   "officialUrl": "https://www.mcdonalds.com",
+   "wikipedia": {
+    "title": "McDonald's",
+    "url": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "extract": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.\nThe McDonald brothers introduced their streamlined food-production system, later known as the Speedee Service System, during the 1940s. The Golden Arches design was introduced in 1953. Businessman Ray Kroc became a McDonald's franchise agent in 1955 and opened a restaurant in Des Plaines, Illinois. He purchased the brothers' ownership stake in the company in 1961 and oversaw its domestic and international global expansion.\nMcDonald's generates revenue from sales at company-operated restaurants and from rent, royalties, and fees paid by franchisees. At the end of 2025, the company owned approximately 56% of the land and 80% of the restaurant buildings within its consolidated markets. McDonald's directly employed more than 150,000 people, while more than two million additional people worked at independently operated franchised restaurants.",
+    "retrievedAt": "2026-11-27T19:35:38.482Z"
+   },
+   "facts": [
+    {
+     "key": "inception",
+     "value": "1940-05-15",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P571"
+    },
+    {
+     "key": "owner",
+     "value": "BlackRock; State Street Corporation; The Vanguard Group",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P127"
+    },
+    {
+     "key": "headquarters",
+     "value": "Chicago",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P159"
+    },
+    {
+     "key": "founded-by",
+     "value": "Ray Kroc; Richard and Maurice McDonald",
+     "sourceId": "wikidata",
+     "sourceRef": "Q38076 P112"
+    },
+    {
+     "key": "osm-location-count",
+     "value": 1,
+     "unit": "locations",
+     "asOf": "2026-11-27",
+     "sourceId": "openstreetmap-overpass",
+     "sourceRef": "brand:wikidata=Q38076 inside Gilchrist County boundary",
+     "scopeAreaSlug": "gilchrist-county-fl"
+    }
+   ],
+   "relations": [],
+   "externalIds": [
+    {
+     "provider": "wikidata",
+     "id": "Q38076"
+    }
+   ],
+   "media": [
+    {
+     "kind": "illustration",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/McDonald%27s_with_slogan_2020.svg/1920px-McDonald%27s_with_slogan_2020.svg.png",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:McDonald%27s_with_slogan_2020.svg",
+     "alt": "McDonald's logo",
+     "credit": "ProTheGoodGuy",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "area": "gilchrist-county-fl",
+  "wikidataCandidates": 44,
+  "places": 12,
+  "brands": 13,
+  "enrichCurated": 0,
+  "withWikipediaSummary": 23,
+  "withFreeImage": 18,
+  "withCoordinates": 12,
+  "osmBrandedLocations": 18,
+  "unmappedClasses": 3
+ }
+}

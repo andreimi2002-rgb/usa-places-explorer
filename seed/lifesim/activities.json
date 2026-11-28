@@ -1,0 +1,3502 @@
+{
+ "source": {
+  "note": "Places from the America 360 encyclopedia (Wikidata, CC0; Wikipedia summaries CC BY-SA; photos per-file licenses). Effects and cost bands are game assumptions, not facts."
+ },
+ "local": {
+  "jacksonville": [
+   {
+    "slug": "everbank-field",
+    "name": "EverBank Field",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 26,
+    "lat": 30.323889,
+    "lon": -81.6375,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/EverBank1.jpg/1920px-EverBank1.jpg",
+    "blurb": "EverBank Stadium is an American football stadium in Jacksonville, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "amelia-island",
+    "name": "Amelia Island",
+    "category": "islands",
+    "kind": "outdoor",
+    "prominence": 15,
+    "lat": 30.607778,
+    "lon": -81.46,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Amelia_Island_Marshes.jpg/1920px-Amelia_Island_Marshes.jpg",
+    "blurb": "Amelia Island is a part of the Sea Islands chain that stretches along the East Coast of the United States from South Carolina to Florida; it is the southernmost of the Sea Islands, and the northernmost of the barrier isl",
+    "effects": {
+     "mood": 6,
+     "vitality": 3
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fort-caroline",
+    "name": "Fort Caroline",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 14,
+    "lat": 30.3869,
+    "lon": -81.5006,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Fort_Caroline_moat_FOCA1566.jpg/1920px-Fort_Caroline_moat_FOCA1566.jpg",
+    "blurb": "Fort Caroline was an attempted French colonial settlement in Florida, located on the banks of the St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "vystar-veterans-memorial-arena",
+    "name": "VyStar Veterans Memorial Arena",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 13,
+    "lat": 30.325833,
+    "lon": -81.645,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Jacksonville_Veterans_Memorial_Arena.JPG/1920px-Jacksonville_Veterans_Memorial_Arena.JPG",
+    "blurb": "VyStar Veterans Memorial Arena (originally Jacksonville Veterans Memorial Arena) is a multi-purpose arena located in Jacksonville, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "castillo-de-san-marcos",
+    "name": "Castillo de San Marcos",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 10,
+    "lat": 29.897778,
+    "lon": -81.311389,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Castillo_de_San_Marcos.jpg/1920px-Castillo_de_San_Marcos.jpg",
+    "blurb": "The Castillo de San Marcos (Spanish for “St.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fort-mose-historic-state-park",
+    "name": "Fort Mose Historic State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 8,
+    "lat": 29.927778,
+    "lon": -81.325278,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/St_Aug_Fort_Mose01.jpg/1920px-St_Aug_Fort_Mose01.jpg",
+    "blurb": "Fort Mose (originally known as Gracia Real de Santa Teresa de Mose [Royal Grace of Saint Teresa of Mose], and later as Fort Mose, or alternatively Fort Moosa or Fort Mossa) is a former Spanish fort in St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "anastasia-island",
+    "name": "Anastasia Island",
+    "category": "islands",
+    "kind": "outdoor",
+    "prominence": 8,
+    "lat": 29.826637,
+    "lon": -81.277292,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/St._Augustine_Lighthouse_located_in_Florida.jpg/1920px-St._Augustine_Lighthouse_located_in_Florida.jpg",
+    "blurb": "Anastasia Island is a barrier island located off the northeast Atlantic coast of Florida in the United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 3
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "cummer-museum-of-art-and-gardens",
+    "name": "Cummer Museum of Art and Gardens",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 7,
+    "lat": 30.3149,
+    "lon": -81.6769,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Jax_FL_Cummer_Gardens_msm01.jpg/1920px-Jax_FL_Cummer_Gardens_msm01.jpg",
+    "blurb": "The Cummer Museum of Art and Gardens is a museum located in Jacksonville, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "uss-orleck",
+    "name": "USS Orleck",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 7,
+    "lat": 30.322972,
+    "lon": -81.650667,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/USS_Orleck_%28DD-886%29_underway_off_Point_Loma%2C_in_1964.jpg",
+    "blurb": "USS Orleck (DD-886), is a Gearing-class destroyer that was in service with the United States Navy from 1945 to 1982.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "vystar-ballpark",
+    "name": "VyStar Ballpark",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 6,
+    "lat": 30.325156,
+    "lon": -81.642576,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/FloridaVsFSUBaseballGroundsJacksonville.jpg/1920px-FloridaVsFSUBaseballGroundsJacksonville.jpg",
+    "blurb": "VyStar Ballpark (originally known as the Baseball Grounds of Jacksonville) is a baseball park in Jacksonville, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "moca-jacksonville",
+    "name": "Museum of Contemporary Art Jacksonville",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 6,
+    "lat": 30.3293,
+    "lon": -81.6586,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/10-moca-jacksonville.jpg",
+    "blurb": "The Museum of Contemporary Art Jacksonville, also known as MOCA Jacksonville, is a contemporary art museum in Jacksonville, Florida, funded and operated as a \"cultural institute\" of the University of North Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "anastasia-state-park",
+    "name": "Anastasia State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 6,
+    "lat": 29.861944,
+    "lon": -81.273056,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/St_Aug_Anastasia_SP_bdwk03.jpg/1920px-St_Aug_Anastasia_SP_bdwk03.jpg",
+    "blurb": "Anastasia State Park is a 1,600-acre (6.5 km2) state park in Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "jacksonville-zoo-and-gardens",
+    "name": "Jacksonville Zoo and Gardens",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 30.4041,
+    "lon": -81.6433,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tragelaphus_eurycerus_isaaciPCCA20071227-8374B.jpg",
+    "blurb": "The Jacksonville Zoo and Botanical Gardens is located at the mouth of the Trout River, near where it flows into the St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "amelia-island-state-park",
+    "name": "Amelia Island State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 30.520528,
+    "lon": -81.4393,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Amelia_Island_SP_entr01.jpg/1920px-Amelia_Island_SP_entr01.jpg",
+    "blurb": "Amelia Island State Recreation Area is a state park in Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "st-augustine-alligator-farm-zoological-park",
+    "name": "St. Augustine Alligator Farm Zoological Park",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 29.881389,
+    "lon": -81.288333,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/St_Aug_Alligator_Farm01.jpg/1920px-St_Aug_Alligator_Farm01.jpg",
+    "blurb": "The St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "st-augustine-light",
+    "name": "St. Augustine Light",
+    "category": "landmarks",
+    "kind": "culture",
+    "prominence": 5,
+    "lat": 29.8856,
+    "lon": -81.2886,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/St._Augustine_Lighthouse_Main_View.jpg/1920px-St._Augustine_Lighthouse_Main_View.jpg",
+    "blurb": "The St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "florida-theatre",
+    "name": "Florida Theatre",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 30.3263,
+    "lon": -81.65576,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Florida_Theater_at_night.jpg",
+    "blurb": "The Florida Theatre is a historic performing arts venue in downtown Jacksonville, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "hodges-stadium",
+    "name": "Hodges Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 4,
+    "lat": 30.275269,
+    "lon": -81.5117,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hodges_Stadium_at_night.JPG/1920px-Hodges_Stadium_at_night.JPG",
+    "blurb": "Hodges Stadium is a stadium at the University of North Florida (UNF), and the home field for the North Florida Ospreys soccer, track and field, and cross country teams.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "big-talbot-island-state-park",
+    "name": "Big Talbot Island State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 30.4831,
+    "lon": -81.44,
+    "image": null,
+    "blurb": "Big Talbot Island State Park is a state park in Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fort-george-island-cultural-state-park",
+    "name": "Fort George Island Cultural State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 30.4261,
+    "lon": -81.4319,
+    "image": null,
+    "blurb": "Fort George Island Cultural State Park is a  Florida state park located on Fort George Island in far northeast Duval County/Jacksonville, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "amelia-island-light",
+    "name": "Amelia Island Light",
+    "category": "landmarks",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 30.6732,
+    "lon": -81.4424,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Amelia_Island_Lighthouse_and_building%2C_FL%2C_US.jpg/1920px-Amelia_Island_Lighthouse_and_building%2C_FL%2C_US.jpg",
+    "blurb": "The Amelia Island Light is the oldest existing lighthouse in the state of Florida in the United States.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "gonzalez-alvarez-house",
+    "name": "González-Alvarez House",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 29.888056,
+    "lon": -81.31,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/St_Aug_NHL_Gonzalez-Alvarez01.jpg/1920px-St_Aug_NHL_Gonzalez-Alvarez01.jpg",
+    "blurb": "The González–Álvarez House, also known as The Oldest House, is a historic house museum at 14 St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "lightner-museum",
+    "name": "Lightner Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 29.891667,
+    "lon": -81.314167,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/StAugCityHall_LichtnerMuseum.jpg/1920px-StAugCityHall_LichtnerMuseum.jpg",
+    "blurb": "The Lightner Museum is a museum of antiques, mostly American Gilded Age pieces, housed within the historic Hotel Alcazar building in downtown St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "olustee-battlefield-historic-state-park",
+    "name": "Olustee Battlefield Historic State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.208056,
+    "lon": -82.417222,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Olustee_Battlefield_Historic_State_Park01.jpg/1920px-Olustee_Battlefield_Historic_State_Park01.jpg",
+    "blurb": "Olustee Battlefield Historic State Park is a Florida State Park in the Osceola National Forest, near the town of Olustee.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "mike-roess-gold-head-branch-state-park",
+    "name": "Mike Roess Gold Head Branch State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 29.8319,
+    "lon": -81.9531,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Gold_Head_Branch_SP_ravine02.jpg/1920px-Gold_Head_Branch_SP_ravine02.jpg",
+    "blurb": "Gold Head Branch State Park, a Florida State Park, is just shy of 2400 acres (8 km²) of rolling sandhills, marshes, ravines, lakes and scrub located midway between Gainesville and Jacksonville, six miles (10 km) north of",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "jennings-state-forest",
+    "name": "Jennings State Forest",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.15663,
+    "lon": -81.86927,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/JenningsStateForestFL.JPG/1920px-JenningsStateForestFL.JPG",
+    "blurb": "The Jennings State Forest is in the U.S.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "murray-hill-theatre",
+    "name": "Murray Hill Theatre",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.3128,
+    "lon": -81.7188,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Murrayhilltheatre2009.jpg",
+    "blurb": "The Murray Hill Theatre is a Christian music venue located in the Murray Hill neighborhood of Jacksonville, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "james-weldon-johnson-park",
+    "name": "James Weldon Johnson Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.3292,
+    "lon": -81.6592,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/HemmingPark.jpg/1920px-HemmingPark.jpg",
+    "blurb": "James Weldon Johnson Park is a 1.54-acre (6,200 m2) public park in Downtown Jacksonville, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "unf-arena",
+    "name": "UNF Arena",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 3,
+    "lat": 30.2734,
+    "lon": -81.5079,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UNF_Arena_inside.JPG/1920px-UNF_Arena_inside.JPG",
+    "blurb": "UNF Arena is a multi-purpose arena located on the campus of the University of North Florida in Jacksonville, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "dailys-place",
+    "name": "Daily's Place",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.322088,
+    "lon": -81.637983,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/DailysPlace_Jax_Edited1.jpg",
+    "blurb": "Daily's Place is an amphitheater in Downtown Jacksonville, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   }
+  ],
+  "orlando": [
+   {
+    "slug": "walt-disney-world-resort",
+    "name": "Walt Disney World Resort",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 56,
+    "lat": 28.3722,
+    "lon": -81.5494,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Walt_Disney_World_Epcot_Spaceship_Earth_%2850099574831%29.jpg/1920px-Walt_Disney_World_Epcot_Spaceship_Earth_%2850099574831%29.jpg",
+    "blurb": "Walt Disney World Resort (commonly known as Walt Disney World or Disney World) is an entertainment and vacation resort complex located about 20 miles (32 km) southwest of Orlando, Florida, United States.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "magic-kingdom",
+    "name": "Magic Kingdom",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 29,
+    "lat": 28.418611,
+    "lon": -81.581111,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Magic_Kingdom_castle.jpg",
+    "blurb": "Magic Kingdom Park, or simply Magic Kingdom, is a theme park at Walt Disney World Resort in Bay Lake, Florida, near Orlando.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "camping-world-stadium",
+    "name": "Camping World Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 28,
+    "lat": 28.539167,
+    "lon": -81.402778,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Camping_World_Stadium.jpg/1920px-Camping_World_Stadium.jpg",
+    "blurb": "Camping World Stadium is a multi-purpose stadium in Orlando, Florida, United States, located in the West Lakes neighborhood of Downtown Orlando.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "kia-center",
+    "name": "Kia Center",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 28,
+    "lat": 28.539167,
+    "lon": -81.383611,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kia_Center_12-22-24.jpg/1920px-Kia_Center_12-22-24.jpg",
+    "blurb": "Kia Center (formerly Amway Center) is a multi-purpose indoor arena located in the downtown core of Orlando, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "epcot",
+    "name": "Epcot",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 27,
+    "lat": 28.371,
+    "lon": -81.55,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Epcot07.jpg",
+    "blurb": "EPCOT (an acronym for its original concept, the Experimental Prototype Community of Tomorrow) is a theme park at Walt Disney World Resort in Bay Lake, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "disneys-animal-kingdom",
+    "name": "Disney's Animal Kingdom",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 26,
+    "lat": 28.358,
+    "lon": -81.59,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/At_Disney%27s_Animal_Kingdom_1.JPG/1920px-At_Disney%27s_Animal_Kingdom_1.JPG",
+    "blurb": "Disney's Animal Kingdom Theme Park is a zoological theme park at Walt Disney World Resort in Bay Lake, Florida, near Orlando.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "disneys-hollywood-studios",
+    "name": "Disney's Hollywood Studios",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 26,
+    "lat": 28.3575,
+    "lon": -81.56,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Great_Movie_Ride_and_Chinese_Theater_at_Walt_Disney_World.jpg",
+    "blurb": "Disney's Hollywood Studios is a theme park at the Walt Disney World Resort in Bay Lake, Florida, near Orlando.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "inter-and-co-stadium",
+    "name": "Inter&Co Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 26,
+    "lat": 28.541065,
+    "lon": -81.389035,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Orlando_City_Stadium_%2804-21-18%29_1.jpg/1920px-Orlando_City_Stadium_%2804-21-18%29_1.jpg",
+    "blurb": "Inter.co Stadium is a soccer-specific stadium in downtown Orlando, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "universal-studios-florida",
+    "name": "Universal Studios Florida",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 19,
+    "lat": 28.475,
+    "lon": -81.47,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/USF_Entrance.jpg/1920px-USF_Entrance.jpg",
+    "blurb": "Universal Studios Florida is a theme park in Orlando, Florida, United States.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "universals-islands-of-adventure",
+    "name": "Universal's Islands of Adventure",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 15,
+    "lat": 28.471667,
+    "lon": -81.471389,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/IoA_Tower.jpg",
+    "blurb": "Universal Islands of Adventure, commonly shortened to Islands of Adventure, is a theme park in Orlando, Florida, United States.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "seaworld-orlando",
+    "name": "SeaWorld Orlando",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 15,
+    "lat": 28.4108,
+    "lon": -81.4625,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/SeaWorldORL08-04-01a.JPG",
+    "blurb": "SeaWorld Orlando is an animal theme park located just outside Orlando, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "universal-epic-universe",
+    "name": "Universal Epic Universe",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 12,
+    "lat": 28.442222,
+    "lon": -81.449167,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Milst1_-_54563964350.jpg/1920px-Milst1_-_54563964350.jpg",
+    "blurb": "Universal Epic Universe is a theme park located in Orlando, Florida, United States.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "disneys-typhoon-lagoon",
+    "name": "Disney's Typhoon Lagoon",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 11,
+    "lat": 28.365671,
+    "lon": -81.529588,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Florida_Tour%2C_August_2006_%2818960924689%29.jpg/1920px-Florida_Tour%2C_August_2006_%2818960924689%29.jpg",
+    "blurb": "Disney's Typhoon Lagoon is a water theme park located at the Walt Disney World Resort in Lake Buena Vista, Florida, near Orlando, and is one of two operating water parks at the resort.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "disneys-blizzard-beach",
+    "name": "Disney's Blizzard Beach",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 10,
+    "lat": 28.3518,
+    "lon": -81.5754,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ski_Patrol_Disney_Blizzard_Beach_Florida.jpg",
+    "blurb": "Disney's Blizzard Beach is a water theme park located at the Walt Disney World Resort in Bay Lake, Florida, near Orlando.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "espn-wide-world-of-sports-complex",
+    "name": "ESPN Wide World of Sports Complex",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 10,
+    "lat": 28.337083,
+    "lon": -81.556,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Disney%27s_Wide_World_of_Sports_%287426504780%29.jpg/1920px-Disney%27s_Wide_World_of_Sports_%287426504780%29.jpg",
+    "blurb": "The ESPN Wide World of Sports Complex is an approximately 230-acre (90 ha) multi-purpose sports complex at Walt Disney World Resort in Osceola County, Florida, near Orlando.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "discovery-island",
+    "name": "Discovery Island",
+    "category": "islands",
+    "kind": "outdoor",
+    "prominence": 9,
+    "lat": 28.4144,
+    "lon": -81.5669,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/WreckOfTheWalrus.JPG",
+    "blurb": "Discovery Island (Previously known as Treasure Island) is an 11.5-acre (4.7 ha) island located on the property of Walt Disney World in Bay Lake, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 3
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "disneyquest",
+    "name": "DisneyQuest",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 8,
+    "lat": 28.3703,
+    "lon": -81.5221,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Disney_Quest_%283431840973%29.jpg/1920px-Disney_Quest_%283431840973%29.jpg",
+    "blurb": "DisneyQuest was a chain of indoor interactive theme parks in the United States operated by the Disney Regional Entertainment subsidiary of Walt Disney Parks and Resorts.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "impact-wrestling-zone",
+    "name": "Impact Wrestling Zone",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 8,
+    "lat": 28.474722,
+    "lon": -81.468889,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/TNA_ring.jpg",
+    "blurb": "The Impact Zone is the nickname for any one of three sound stages at Universal Studios Florida in Orlando; they received this nickname due to their use by the professional wrestling promotion Total Nonstop Action Wrestli",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "the-american-adventure",
+    "name": "The American Adventure",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 7,
+    "lat": 28.367472,
+    "lon": -81.549444,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_American_Adventure_%2823860708488%29.jpg/1920px-The_American_Adventure_%2823860708488%29.jpg",
+    "blurb": "The American Adventure is the host pavilion of the World Showcase area of EPCOT at the Walt Disney World Resort near Orlando, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "the-seas-with-nemo-and-friends",
+    "name": "The Seas with Nemo & Friends",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 7,
+    "lat": 28.3754,
+    "lon": -81.5509,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/The_entrance_to_%27The_Seas_With_Nemo_%26_Friends%27_at_Epcot.jpg/1920px-The_entrance_to_%27The_Seas_With_Nemo_%26_Friends%27_at_Epcot.jpg",
+    "blurb": "The Seas with Nemo & Friends (formerly The Living Seas) is a pavilion and aquarium located in the World Nature section of Epcot, a theme park at the Walt Disney World Resort in Bay Lake, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "acrisure-bounce-house",
+    "name": "Acrisure Bounce House",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 6,
+    "lat": 28.6091,
+    "lon": -81.1924,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Spectrum_Stadium_-_2017_AAC_Championship_Game.jpg/1920px-Spectrum_Stadium_-_2017_AAC_Championship_Game.jpg",
+    "blurb": "The Acrisure Bounce House (also known as simply the Bounce House) is an American football stadium located in the Orlando metropolitan area in Orange County, Florida, United States, on the main campus of the University of",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "universals-volcano-bay",
+    "name": "Universal's Volcano Bay",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 6,
+    "lat": 28.461381,
+    "lon": -81.473144,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Krakatau_at_Volcano_Bay.jpg",
+    "blurb": "Universal Volcano Bay, or simply Volcano Bay, is a tropical-themed water park at Universal Orlando Resort in Orlando, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "osceola-county-stadium",
+    "name": "Osceola County Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 6,
+    "lat": 28.298333,
+    "lon": -81.363889,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Osceola_County_Stadium_main.JPG",
+    "blurb": "Osceola County Stadium is an outdoor sports venue located in Kissimmee, Florida, part of the wider Orlando City SC Training Ground at Osceola Heritage Park.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "discovery-cove",
+    "name": "Discovery Cove",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 28.4054,
+    "lon": -81.4617,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/DisccoveDolphin.jpg/1920px-DisccoveDolphin.jpg",
+    "blurb": "Discovery Cove is a theme park owned and operated by United Parks & Resorts, and located in Orlando, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "gatorland",
+    "name": "Gatorland",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 28.3556,
+    "lon": -81.4042,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gatorland_entrance_-Florida-23Feb2006.jpg",
+    "blurb": "Gatorland is a 110-acre (45 ha) theme park and wildlife preserve in Florida, located along South Orange Blossom Trail south of Orlando.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "lake-eola-park",
+    "name": "Lake Eola Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 28.543889,
+    "lon": -81.369722,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/1920px-Lake-eola-park-orlando-florida.jpg",
+    "blurb": "Lake Eola Park is a public park located in Downtown Orlando, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "wet-n-wild-orlando",
+    "name": "Wet 'n Wild Orlando",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 28.4609,
+    "lon": -81.4648,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WetandWildOrlando.jpg/1920px-WetandWildOrlando.jpg",
+    "blurb": "Wet 'n Wild Orlando was the flagship water park of Wet 'n Wild owned by NBCUniversal, located on International Drive in Orlando, Florida.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "charles-hosmer-morse-museum-of-american-art",
+    "name": "Charles Hosmer Morse Museum of American Art",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 5,
+    "lat": 28.6009,
+    "lon": -81.3514,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Winter_Park_FL_CH_Morse_Museum01.jpg/1920px-Winter_Park_FL_CH_Morse_Museum01.jpg",
+    "blurb": "The Charles Hosmer Morse Museum of American Art, a museum noted for its Art Nouveau collection, houses the most comprehensive collection of the works of Louis Comfort Tiffany found anywhere, a major collection of America",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "champion-stadium",
+    "name": "Champion Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 5,
+    "lat": 28.337083,
+    "lon": -81.556,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Home_Of_The_Braves.jpg/1920px-Home_Of_The_Braves.jpg",
+    "blurb": "The Stadium at the ESPN Wide World of Sports is a baseball stadium located at the ESPN Wide World of Sports Complex in the Walt Disney World Resort.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "lake-louisa-state-park",
+    "name": "Lake Louisa State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 28.4669,
+    "lon": -81.7581,
+    "image": null,
+    "blurb": "Lake Louisa State Park is a 4,372-acre (17.69 km2) Florida State Park located south of Clermont, in the northeast corner of the Green Swamp and the southwestern shore of Lake Louisa.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   }
+  ],
+  "miami": [
+   {
+    "slug": "hard-rock-stadium",
+    "name": "Hard Rock Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 46,
+    "lat": 25.958056,
+    "lon": -80.238889,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606707583%29.jpg/1920px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606707583%29.jpg",
+    "blurb": "Hard Rock Stadium is a multi-purpose stadium in Miami Gardens, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "kaseya-center",
+    "name": "Kaseya Center",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 31,
+    "lat": 25.781389,
+    "lon": -80.188056,
+    "image": null,
+    "blurb": "Kaseya Center is a multi-purpose arena on Biscayne Bay in Miami, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "amerant-bank-arena",
+    "name": "Amerant Bank Arena",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 29,
+    "lat": 26.158333,
+    "lon": -80.325556,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/BB%26TCenterAerial.jpg/1920px-BB%26TCenterAerial.jpg",
+    "blurb": "Amerant Bank Arena is a multi-purpose indoor arena in Sunrise, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "loandepot-park",
+    "name": "LoanDepot Park",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 22,
+    "lat": 25.778056,
+    "lon": -80.219722,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Marlins_First_Pitch_at_Marlins_Park%2C_April_4%2C_2012.jpg/1920px-Marlins_First_Pitch_at_Marlins_Park%2C_April_4%2C_2012.jpg",
+    "blurb": "LoanDepot Park (officially stylized as loanDepot park, and named Marlins Park until 2021) is a stadium with a retractable roof located in Miami, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "chase-stadium",
+    "name": "Chase Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 21,
+    "lat": 26.193056,
+    "lon": -80.161111,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/DRV_PNK_Stadium_%2851704895544%29_%28cropped%29.jpg/1920px-DRV_PNK_Stadium_%2851704895544%29_%28cropped%29.jpg",
+    "blurb": "Inter Miami CF Stadium is a soccer-specific stadium in Fort Lauderdale, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "international-swimming-hall-of-fame",
+    "name": "International Swimming Hall of Fame",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 19,
+    "lat": 26.116281,
+    "lon": -80.107569,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/USA.FL.FtLauderdale.ISHOF.01.jpg",
+    "blurb": "The International Swimming Hall of Fame and Museum (ISHOF) is a history museum and hall of fame, located at One Hall of Fame Drive, Fort Lauderdale, Florida, United States, operated by private interests and serving as th",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "nu-stadium",
+    "name": "Nu Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 16,
+    "lat": 25.780556,
+    "lon": -80.205556,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nu_Stadium_2026.jpg/1920px-Nu_Stadium_2026.jpg",
+    "blurb": "Nu Stadium is a soccer-specific stadium in Miami, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "vizcaya-museum-and-gardens",
+    "name": "Vizcaya Museum and Gardens",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 15,
+    "lat": 25.743611,
+    "lon": -80.210278,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Coco_Grove_FL_Vizcaya_mansion01.jpg/1920px-Coco_Grove_FL_Vizcaya_mansion01.jpg",
+    "blurb": "The Vizcaya Museum and Gardens, previously known as Villa Vizcaya, is the former villa and estate of businessman James Deering, of the Deering McCormick-International Harvester fortune, on Biscayne Bay in the present-day",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "pitbull-stadium",
+    "name": "Pitbull Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 13,
+    "lat": 25.7525,
+    "lon": -80.377778,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/FIU_Stadium.JPG/1920px-FIU_Stadium.JPG",
+    "blurb": "Pitbull Stadium is a college football and soccer stadium on the campus of Florida International University (FIU) in unincorporated Miami-Dade County, Florida, with a Miami mailing address.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "miami-seaquarium",
+    "name": "Miami Seaquarium",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 13,
+    "lat": 25.733,
+    "lon": -80.165525,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Miamiseaquariumlolita.jpg",
+    "blurb": "The Miami Seaquarium was a 38-acre (15 ha) oceanarium located on the island of Virginia Key in Biscayne Bay, Miami-Dade County, Florida, located near downtown Miami.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "perez-art-museum-miami",
+    "name": "Pérez Art Museum Miami",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 12,
+    "lat": 25.7743,
+    "lon": -80.1963,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/PAMM_MRD_23.jpg/1920px-PAMM_MRD_23.jpg",
+    "blurb": "Pérez Art Museum Miami (PAMM)—officially known as the Jorge M.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "norton-museum-of-art",
+    "name": "Norton Museum of Art",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 12,
+    "lat": 26.700651,
+    "lon": -80.053355,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/West_PB_FL_Norton_MoA01.jpg/1920px-West_PB_FL_Norton_MoA01.jpg",
+    "blurb": "The Norton Museum of Art is an art museum in West Palm Beach, Florida, United States.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "zoo-miami",
+    "name": "Zoo Miami",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 11,
+    "lat": 25.61,
+    "lon": -80.4,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Flamingos_Miami_MetroZoo.jpg/1920px-Flamingos_Miami_MetroZoo.jpg",
+    "blurb": "The Miami-Dade Zoological Park and Gardens, also known as Zoo Miami, is a zoological park and garden in Miami and is the largest zoo in Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "butterfly-world",
+    "name": "Butterfly World",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 10,
+    "lat": 26.2684,
+    "lon": -80.1713,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Archaeoprepona_Demophon_027.jpg/1920px-Archaeoprepona_Demophon_027.jpg",
+    "blurb": "Butterfly World is located in Tradewinds Park in Coconut Creek, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "bayfront-park-q812537",
+    "name": "Bayfront Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 9,
+    "lat": 25.775,
+    "lon": -80.186,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Miami-downtown-from-intercontinental-hotel.jpg/1920px-Miami-downtown-from-intercontinental-hotel.jpg",
+    "blurb": "Bayfront Park is a 32-acre (13 ha) public, urban park in the Central Business District of Downtown Miami, Florida on Biscayne Bay.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "north-miami-museum-of-contemporary-art",
+    "name": "North Miami Museum of Contemporary Art",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 8,
+    "lat": 25.8904,
+    "lon": -80.1833,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/MOCA_North_Miami.jpg",
+    "blurb": "The Museum of Contemporary Art (MOCA) is a collecting museum located in North Miami, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "lowe-art-museum",
+    "name": "Lowe Art Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 8,
+    "lat": 25.719425,
+    "lon": -80.275657,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lowe.jpg/1920px-Lowe.jpg",
+    "blurb": "The Lowe Art Museum is the art museum of the University of Miami in Coral Gables, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "haulover-park",
+    "name": "Haulover Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 8,
+    "lat": 25.91009,
+    "lon": -80.12421,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/A1A-Haulover-park..JPG/1920px-A1A-Haulover-park..JPG",
+    "blurb": "Haulover Park is a 177-acre (72 ha) urban park owned and operated by Miami-Dade County Parks, Recreation & Open Spaces Department, located in metropolitan Miami, just north of Bal Harbour, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "new-world-center",
+    "name": "New World Center",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 8,
+    "lat": 25.792,
+    "lon": -80.133,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/New_World_Center_main_entrance_and_lobby.jpg/1920px-New_World_Center_main_entrance_and_lobby.jpg",
+    "blurb": "The New World Center is a concert hall in the South Beach section of Miami Beach, Florida, designed by Frank Gehry.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "flagler-museum",
+    "name": "Flagler Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 8,
+    "lat": 26.714167,
+    "lon": -80.041667,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Henry_Flagler_House.jpg",
+    "blurb": "Whitehall is a 75-room, 60,000 square foot (5575 square meter) Gilded Age palace type mansion open to the public in Palm Beach, Florida in the United States.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "morikami-museum-and-japanese-gardens",
+    "name": "Morikami Museum and Japanese Gardens",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 8,
+    "lat": 26.4258,
+    "lon": -80.1488,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/MorikamiLakeHouse.jpg",
+    "blurb": "The Morikami Museum and Japanese Gardens is a center for Japanese arts and culture located west of Delray Beach in Palm Beach County, Florida, United States.",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "museum-of-art-fort-lauderdale",
+    "name": "Museum of Art Fort Lauderdale",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 7,
+    "lat": 26.1196,
+    "lon": -80.1429,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fort_Laud_FL_MoA01.jpg/1920px-Fort_Laud_FL_MoA01.jpg",
+    "blurb": "The NSU Art Museum Fort Lauderdale is an art museum in Fort Lauderdale, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "central-broward-regional-park",
+    "name": "Central Broward Regional Park",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 7,
+    "lat": 26.14,
+    "lon": -80.1987,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/CBRegionalPark.jpg",
+    "blurb": "Central Broward Park & Broward County Stadium, formerly Central Broward Regional Park and Central Broward Stadium, is a large county park in Lauderhill, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "maurice-a-ferre-park",
+    "name": "Maurice A. Ferré Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 7,
+    "lat": 25.784,
+    "lon": -80.187,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bicentennial_Park_June_2014.JPG/1920px-Bicentennial_Park_June_2014.JPG",
+    "blurb": "Maurice A.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "society-of-the-four-arts",
+    "name": "Society of the Four Arts",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 7,
+    "lat": 26.7064,
+    "lon": -80.0422,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg/1920px-Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg",
+    "blurb": "The Society of the Four Arts is a non-profit charity organization that was founded in 1936.",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "hugh-taylor-birch-state-park",
+    "name": "Hugh Taylor Birch State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 6,
+    "lat": 26.145,
+    "lon": -80.105,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Hugh_Taylor_Birch_State_Park.jpg/1920px-Hugh_Taylor_Birch_State_Park.jpg",
+    "blurb": "Hugh Taylor Birch State Park is a Florida State Park located in Fort Lauderdale, on East Sunrise Boulevard (SR 838), between the Intracoastal Waterway and SR A1A.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "wolfsonian-fiu",
+    "name": "Wolfsonian-FIU",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 6,
+    "lat": 25.7808,
+    "lon": -80.1326,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Wolfsonian_FL1.jpg/1920px-Wolfsonian_FL1.jpg",
+    "blurb": "The Wolfsonian–Florida International University or The Wolfsonian–FIU, located in the heart of the Art Deco District of Miami Beach, Florida, is a museum, library and research center with collections intended to illustra",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "the-bass-museum-of-art",
+    "name": "The Bass Museum of Art",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 6,
+    "lat": 25.797561,
+    "lon": -80.130107,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Bass_Museum.jpg/1920px-Bass_Museum.jpg",
+    "blurb": "The Bass Museum of Art is a contemporary art museum located in Miami Beach, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "jungle-island",
+    "name": "Jungle Island",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 6,
+    "lat": 25.786111,
+    "lon": -80.174167,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Parrotjungleisland.jpg",
+    "blurb": "Jungle Island, formerly Parrot Jungle, is a relaunched eco-adventure park on Watson Island, Miami, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "fairchild-tropical-botanic-garden",
+    "name": "Fairchild Tropical Botanic Garden",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 6,
+    "lat": 25.6787,
+    "lon": -80.2737,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Fairchild.jpg",
+    "blurb": "Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden with extensive collections of rare tropical plants including palms, cycads, flowering trees, and vines.",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   }
+  ],
+  "tampa": [
+   {
+    "slug": "raymond-james-stadium",
+    "name": "Raymond James Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 28,
+    "lat": 27.975833,
+    "lon": -82.503333,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Raymond_James_Stadium_aerial.jpg",
+    "blurb": "Raymond James Stadium is a multi-purpose stadium in Tampa, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "tropicana-field",
+    "name": "Tropicana Field",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 25,
+    "lat": 27.768333,
+    "lon": -82.653333,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Tropicana_Field_Playing_Field_Opening_Day_2010.JPG/1920px-Tropicana_Field_Playing_Field_Opening_Day_2010.JPG",
+    "blurb": "Tropicana Field, nicknamed \"The Trop\", is a domed multi-purpose stadium in the southeastern United States, located in St.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "salvador-dali-museum",
+    "name": "Salvador Dalí Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 16,
+    "lat": 27.766,
+    "lon": -82.6315,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Salvador_Dal%C3%AD_Museum.JPG/1920px-Salvador_Dal%C3%AD_Museum.JPG",
+    "blurb": "The Salvador Dalí Museum is an American art museum in St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "yuengling-center",
+    "name": "Yuengling Center",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 8,
+    "lat": 28.059236,
+    "lon": -82.406472,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sundomecloseup.JPG",
+    "blurb": "Yuengling Center (formerly the USF Sun Dome) is an indoor arena on the main campus of the University of South Florida (USF) in Tampa, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "busch-gardens-tampa",
+    "name": "Busch Gardens Tampa",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 8,
+    "lat": 28.0375,
+    "lon": -82.4225,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Busch_Gardens_1967_Tampa_7.JPG",
+    "blurb": "Busch Gardens Tampa Bay is a 335-acre (136 ha) animal theme park in Tampa, Florida, United States, with the entire park landscaped and designed around an African theme.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "al-lang-stadium",
+    "name": "Al Lang Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 8,
+    "lat": 27.7685,
+    "lon": -82.6331,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rowdies_Soccer_Config_2015.jpg/1920px-Rowdies_Soccer_Config_2015.jpg",
+    "blurb": "Al Lang Stadium is a 7,500-seat sports stadium along the waterfront of downtown St.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "hillsborough-river-state-park",
+    "name": "Hillsborough River State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 7,
+    "lat": 28.1039,
+    "lon": -82.2781,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Paddling_on_the_Hillsborough_River.jpg/1920px-Paddling_on_the_Hillsborough_River.jpg",
+    "blurb": "Hillsborough River State Park is located in the northeast corner of Hillsborough County, Florida near Zephyrhills (which is itself in Pasco County).",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "florida-holocaust-museum",
+    "name": "Florida Holocaust Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 7,
+    "lat": 27.7705,
+    "lon": -82.6406,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/St._Pete_Holocaust_Museum01.jpg/1920px-St._Pete_Holocaust_Museum01.jpg",
+    "blurb": "The Florida Holocaust Museum is a Holocaust museum located at 55 Fifth Street South in St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "george-m-steinbrenner-field",
+    "name": "George M. Steinbrenner Field",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 6,
+    "lat": 27.980278,
+    "lon": -82.506667,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/MacDill_Aircrew%2C_service_members_kick_off_opening_day_ceremony_for_TB_Rays_%28250328-F-YW699-1029%29.jpg/1920px-MacDill_Aircrew%2C_service_members_kick_off_opening_day_ceremony_for_TB_Rays_%28250328-F-YW699-1029%29.jpg",
+    "blurb": "George M.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "little-manatee-river-state-park",
+    "name": "Little Manatee River State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 27.6711,
+    "lon": -82.3561,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Little_Manatee_River_SP_river01.jpg/1920px-Little_Manatee_River_SP_river01.jpg",
+    "blurb": "Little Manatee River State Park is a 2,433-acre (985 ha) Florida State Park located 5 miles (8.0 km) south of Sun City, off U.S.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "museum-of-science-and-innovation",
+    "name": "Museum of Science & Innovation",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 5,
+    "lat": 28.0533,
+    "lon": -82.4039,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Bio-Works_Butterfly_Garden.jpg/1920px-The_Bio-Works_Butterfly_Garden.jpg",
+    "blurb": "The Museum of Science & Innovation (MOSI) is a non-profit science museum located in Tampa, Florida's Uptown Innovation District, connected via pedestrian bridge to the neighboring University of South Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "alafia-river-state-park",
+    "name": "Alafia River State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 27.7801,
+    "lon": -82.1447,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hurrah_Lake_-_Alafia_River_State_Park.jpg/1920px-Hurrah_Lake_-_Alafia_River_State_Park.jpg",
+    "blurb": "Alafia River State Park is a Florida State Park, located near Picnic in Hillsborough County in central Florida, 17 miles or 27 kilometers southeast of Tampa on County Road 39.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "florida-aquarium",
+    "name": "Florida Aquarium",
+    "category": "zoos-aquariums",
+    "kind": "attraction",
+    "prominence": 5,
+    "lat": 27.9442,
+    "lon": -82.445,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Florida_aquarium_exterior.jpg",
+    "blurb": "The Florida Aquarium is a 501(c)(3) non-profit organization, publicly operated institution located in downtown Tampa, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 1
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "withlacoochee-state-forest",
+    "name": "Withlacoochee State Forest",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 28.47083,
+    "lon": -82.05786,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Withlacoochee_State_Forest%3B_US_41_Welcome_Sign.JPG/1920px-Withlacoochee_State_Forest%3B_US_41_Welcome_Sign.JPG",
+    "blurb": "The Withlacoochee State Forest is 157,479-acre (637 km2) in the western central part in the US state of Florida, near Lecanto, Inverness, Floral City, Brooksville, Ridge Manor, and Dade City.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "museum-of-fine-arts-st-petersburg-florida-usa",
+    "name": "Museum of Fine Arts, St. Petersburg, Florida, USA",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 5,
+    "lat": 27.77497,
+    "lon": -82.63221,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/St._Pete_MOFA_front01.jpg/1920px-St._Pete_MOFA_front01.jpg",
+    "blurb": "The Museum of Fine Arts, St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "caladesi-island-state-park",
+    "name": "Caladesi Island State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 28.02,
+    "lon": -82.821111,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Caladesi_island_beach_01.jpg/1920px-Caladesi_island_beach_01.jpg",
+    "blurb": "Caladesi Island State Park is a Florida State Park located on Caladesi Island in the Gulf of Mexico, across St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "honeymoon-island-state-park",
+    "name": "Honeymoon Island State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 28.061301,
+    "lon": -82.826529,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Honeymoon_Island_State_Park_%28Image_2%29.jpg/1920px-Honeymoon_Island_State_Park_%28Image_2%29.jpg",
+    "blurb": "Honeymoon Island State Park is a 2,824.52-acre (1,143.04 ha) Florida state park protecting most of Honeymoon Island, a barrier island on Florida's Gulf coast in Pinellas County, west of Dunedin.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "baycare-ballpark",
+    "name": "BayCare Ballpark",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 5,
+    "lat": 27.971667,
+    "lon": -82.731667,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bright_House_Networks_Field_20070318_01.jpg/1920px-Bright_House_Networks_Field_20070318_01.jpg",
+    "blurb": "BayCare Ballpark is a baseball stadium located in Clearwater, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "weeki-wachee-springs",
+    "name": "Weeki Wachee Springs",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 28.5175,
+    "lon": -82.5725,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Weeki_Wachee_Springs_State_Park_001.jpg/1920px-Weeki_Wachee_Springs_State_Park_001.jpg",
+    "blurb": "Weeki Wachee Springs (Officially: Weeki Wachee Springs State Park) is a natural tourist attraction located in Weeki Wachee, Florida, where underwater performances by \"mermaids\", women wearing fish tails as well as other ",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "egmont-key-state-park",
+    "name": "Egmont Key State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 27.59,
+    "lon": -82.762778,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Egmont_Key_lighthouse01.jpg/1920px-Egmont_Key_lighthouse01.jpg",
+    "blurb": null,
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "ybor-city-museum-state-park",
+    "name": "Ybor City Museum State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 27.9611,
+    "lon": -82.4381,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tampa_Ybor_City_Museum01.jpg/1920px-Tampa_Ybor_City_Museum01.jpg",
+    "blurb": "Ybor City Museum State Park is a Florida State Park in Tampa, Florida's Ybor City.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "expo-hall",
+    "name": "Expo Hall",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 4,
+    "lat": 27.990703,
+    "lon": -82.362547,
+    "image": null,
+    "blurb": "Expo Hall is an indoor arena located at the Florida State Fairgrounds in East Lake-Orient Park, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "midflorida-credit-union-amphitheatre",
+    "name": "MidFlorida Credit Union Amphitheatre",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 27.994061,
+    "lon": -82.364608,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ford_Amphitheater_East.jpg/1920px-Ford_Amphitheater_East.jpg",
+    "blurb": "The MidFlorida Credit Union Amphitheatre (originally Ford Amphitheatre and formerly 1-800-ASK-GARY Amphitheatre and Live Nation Amphitheatre) is an outdoor amphitheater in East Lake-Orient Park, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "tampa-museum-of-art",
+    "name": "Tampa Museum of Art",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 27.949469,
+    "lon": -82.462558,
+    "image": null,
+    "blurb": "The Tampa Museum of Art is located in downtown Tampa, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fort-de-soto-park",
+    "name": "Fort De Soto Park",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 27.615499,
+    "lon": -82.735902,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sunset_on_North_Beach_at_Fort_De_Soto_Park.jpg/1920px-Sunset_on_North_Beach_at_Fort_De_Soto_Park.jpg",
+    "blurb": "Fort De Soto Park is a county park located south-southwest of St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "td-ballpark",
+    "name": "TD Ballpark",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 4,
+    "lat": 28.003611,
+    "lon": -82.786389,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Knology_Park.jpg",
+    "blurb": "TD Ballpark, originally Dunedin Stadium at Grant Field, is a baseball stadium located in Dunedin, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "safety-harbor-site",
+    "name": "Safety Harbor Site",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 28.008889,
+    "lon": -82.6775,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Safety_Harbor_Site_top-down_01.jpg/1920px-Safety_Harbor_Site_top-down_01.jpg",
+    "blurb": "The Safety Harbor Site is an archaeological site in Philippe Park at 2525 Philippe Parkway in Safety Harbor, Florida, United States.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "withlacoochee-state-trail",
+    "name": "Withlacoochee State Trail",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 28.5231,
+    "lon": -82.2181,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/WST_Great_Train_Wreck_of_1956%28Pineola%2C_Florida%29.jpg",
+    "blurb": "Withlacoochee State Trail is a 46-mile (74 km) long paved, multi-use, non-motorized rail trail in Florida located in Citrus, Hernando and Pasco counties.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "cockroach-bay-aquatic-preserve",
+    "name": "Cockroach Bay Aquatic Preserve",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 27.684,
+    "lon": -82.524,
+    "image": null,
+    "blurb": "Cockroach Bay Aquatic Preserve is a protected area that includes 4,800 acres of partially submerged lands in Hillsborough County near Ruskin, Florida south of Tampa, Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "egmont-key-light",
+    "name": "Egmont Key Light",
+    "category": "landmarks",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 27.600833,
+    "lon": -82.760833,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Egmont_Key_lighthouse01.jpg/1920px-Egmont_Key_lighthouse01.jpg",
+    "blurb": "The current Egmont Key Light dates from 1858.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "free"
+   }
+  ],
+  "destin": [
+   {
+    "slug": "eden-gardens-state-park",
+    "name": "Eden Gardens State Park",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 6,
+    "lat": 30.3781,
+    "lon": -86.1219,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/SR_Beach_Eden_Gardens_SP_Wesley08.jpg/1920px-SR_Beach_Eden_Gardens_SP_Wesley08.jpg",
+    "blurb": "Eden Gardens State Park is a 161.04 acres (65.17 ha) Florida State Park and historic site located in Point Washington, south of Freeport, off U.S.",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "henderson-beach-state-park",
+    "name": "Henderson Beach State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 30.393889,
+    "lon": -86.583056,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Destin_Henderson_Beach_SP06.jpg/1920px-Destin_Henderson_Beach_SP06.jpg",
+    "blurb": "Henderson Beach State Park is a Florida State Park located near Destin, in northwestern Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fred-gannon-rocky-bayou-state-park",
+    "name": "Fred Gannon Rocky Bayou State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 30.4969,
+    "lon": -86.4269,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Fred_Gannon_Rocky_Bayou_State_Park_entrance_sign.jpg/1920px-Fred_Gannon_Rocky_Bayou_State_Park_entrance_sign.jpg",
+    "blurb": "Fred Gannon Rocky Bayou State Park is a Florida State Park located on the northwestern coast of the U.S.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "grayton-beach-state-park",
+    "name": "Grayton Beach State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 4,
+    "lat": 30.303889,
+    "lon": -86.078889,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grayton_beach.jpg",
+    "blurb": "Grayton Beach State Park is a Florida State Park located between Panama City Beach and Destin, near the unincorporated area of Grayton Beach, on CR 30A, in northwestern Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "fort-walton-mound",
+    "name": "Fort Walton Mound",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.40443,
+    "lon": -86.60732,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/FortWaltonBeachTempleMound3.jpg/1920px-FortWaltonBeachTempleMound3.jpg",
+    "blurb": "The Fort Walton Mound (8OK6) is an archaeological site located in present-day Fort Walton Beach, Florida, United States.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "topsail-hill-preserve-state-park",
+    "name": "Topsail Hill Preserve State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.3669,
+    "lon": -86.2989,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Topsail_Hill_Preserve_State_Park_main_entrance.JPG/1920px-Topsail_Hill_Preserve_State_Park_main_entrance.JPG",
+    "blurb": "Topsail Hill Preserve State Park is a Florida state park of about 1,637 acres (662 ha) along the Gulf of Mexico in Walton County, northwestern Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "heritage-museum-of-northwest-florida",
+    "name": "Heritage Museum of Northwest Florida",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.504722,
+    "lon": -86.49,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Valparaiso_FL_Heritage_msm01.jpg/1920px-Valparaiso_FL_Heritage_msm01.jpg",
+    "blurb": "Heritage Museum of Northwest Florida was founded in 1971 in Valparaiso, Florida, Okaloosa County, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "baker-block-museum",
+    "name": "Baker Block Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.7974,
+    "lon": -86.6819,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Baker_FL_msm02.jpg/1920px-Baker_FL_msm02.jpg",
+    "blurb": "The Baker Block Museum is a local history and genealogy museum located in Baker, Florida, focused on the history of the Florida panhandle with emphasis on Okaloosa County.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "air-force-armament-museum",
+    "name": "Air Force Armament Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.4662,
+    "lon": -86.5615,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/MOAB_glide_bomb.jpg",
+    "blurb": "The Air Force Armament Museum is a military aviation museum adjacent to Eglin Air Force Base in Valparaiso, Florida, dedicated to the display of Air Force armament.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "okaloosa-island",
+    "name": "Okaloosa Island",
+    "category": "islands",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.3975,
+    "lon": -86.5994,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Okaloosa_Island%2C_FL%2C_USA_-_panoramio_%281%29.jpg/1920px-Okaloosa_Island%2C_FL%2C_USA_-_panoramio_%281%29.jpg",
+    "blurb": "Okaloosa Island is an area on Santa Rosa Island, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 3
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "deer-lake-state-park",
+    "name": "Deer Lake State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.303889,
+    "lon": -86.078889,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/DeerLakeSP.JPG/1920px-DeerLakeSP.JPG",
+    "blurb": "Deer Lake State Park is a Florida State Park located in Santa Rosa Beach, on CR 30A, in northwestern Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "shoal-river-headwaters-state-park",
+    "name": "Shoal River Headwaters State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.77341,
+    "lon": -86.2061,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Park_Title_Sign.jpg/1920px-Park_Title_Sign.jpg",
+    "blurb": "Shoal River Headwaters State Park is a Florida state park in Walton County, Florida, United States, west of DeFuniak Springs.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "walton-county-heritage-museum",
+    "name": "Walton County Heritage Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.72,
+    "lon": -86.1146,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/DeFuniak_Springs_Hist_Dist_depot01.jpg/1920px-DeFuniak_Springs_Hist_Dist_depot01.jpg",
+    "blurb": "The Walton County Heritage Museum is located at 1140 Circle Drive, DeFuniak Springs, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "john-c-beasley-park",
+    "name": "John C. Beasley Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 1,
+    "lat": 30.393889,
+    "lon": -86.584167,
+    "image": null,
+    "blurb": "John C.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "big-kahunas",
+    "name": "Big Kahuna's",
+    "category": "theme-parks",
+    "kind": "attraction",
+    "prominence": 1,
+    "lat": 30.388961,
+    "lon": -86.47164,
+    "image": null,
+    "blurb": "Big Kahuna's Water and Adventure Park is a water park located in Destin, Florida, United States.",
+    "effects": {
+     "mood": 9,
+     "vitality": 0
+    },
+    "costBand": "high"
+   },
+   {
+    "slug": "destin-history-and-fishing-museum",
+    "name": "Destin History & Fishing Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 1,
+    "lat": 30.39642,
+    "lon": -86.50903,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Destin_Fishing_Museum01.jpg/1920px-Destin_Fishing_Museum01.jpg",
+    "blurb": "The Destin History & Fishing Museum is located at 108 Stahlman Avenue in Destin, Florida, at the foot of the Destin Bridge.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   }
+  ],
+  "tallahassee": [
+   {
+    "slug": "doak-campbell-stadium",
+    "name": "Doak Campbell Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 6,
+    "lat": 30.438056,
+    "lon": -84.304444,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Doak_Campbell_Stadium.jpg/1920px-Doak_Campbell_Stadium.jpg",
+    "blurb": "Doak S.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "alfred-b-maclay-gardens-state-park",
+    "name": "Alfred B. Maclay Gardens State Park",
+    "category": "botanical-gardens",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 30.5189,
+    "lon": -84.2511,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/07-09-30_LkHall2.JPG",
+    "blurb": "The Alfred B.",
+    "effects": {
+     "mood": 5,
+     "vitality": 2
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "san-marcos-de-apalache-historic-state-park",
+    "name": "San Marcos de Apalache Historic State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 5,
+    "lat": 30.155,
+    "lon": -84.211111,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/StMarksFrtBombproofWall.JPG",
+    "blurb": "San Marcos de Apalache Historic State Park is a Florida State Park in Wakulla County, Florida, organized around the historic site of a Spanish colonial fort (known as Fort St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "bragg-memorial-stadium",
+    "name": "Bragg Memorial Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 4,
+    "lat": 30.426111,
+    "lon": -84.291667,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bragg_Memorial_Stadium_inside_2.jpg/1920px-Bragg_Memorial_Stadium_inside_2.jpg",
+    "blurb": "Ken Riley Field at Bragg Memorial Stadium is a 25,500-seat football stadium in Tallahassee, Florida, United States.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "tallahassee-automobile-museum",
+    "name": "Tallahassee Automobile Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 4,
+    "lat": 30.48642,
+    "lon": -84.16245,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Tallahassee_Automobile_Museum.JPG/1920px-Tallahassee_Automobile_Museum.JPG",
+    "blurb": "The Tallahassee Automobile Museum\t(TACM), also known as the Tallahassee Automobile and Collectibles Museum, is an automobile museum in Tallahassee, Leon County, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "page-ladson-prehistory-site",
+    "name": "Page-Ladson prehistory site",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.1702,
+    "lon": -83.9577,
+    "image": null,
+    "blurb": "The Page–Ladson archaeological and paleontological site (8JE591) is a deep sinkhole in the bed of the karstic Aucilla River (between Jefferson and Taylor counties in the Big Bend region of Florida) that contains stratifi",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "aucilla-wildlife-management-area",
+    "name": "Aucilla Wildlife Management Area",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.275278,
+    "lon": -83.995,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Aucilla_WMA_-_Boundary_Road_-_entrance_sign.jpg/1920px-Aucilla_WMA_-_Boundary_Road_-_entrance_sign.jpg",
+    "blurb": "Aucilla Wildlife Management Area conserves 50,549 acres of hydric hammock, mesic flatwoods, upland forest, and spring-run river twelve miles southeast of Tallahassee in Jefferson and Taylor Counties in Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "mike-martin-field-at-dick-howser-stadium",
+    "name": "Mike Martin Field at Dick Howser Stadium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 3,
+    "lat": 30.440589,
+    "lon": -84.304064,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/MMF%26DHS.JPG/1920px-MMF%26DHS.JPG",
+    "blurb": "Mike Martin Field at Dick Howser Stadium is a baseball venue located in Tallahassee, Florida, United States, located adjacent to Doak Campbell Stadium on the campus of Florida State University.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "lake-jackson-mounds-archaeological-state-park",
+    "name": "Lake Jackson Mounds Archaeological State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.5,
+    "lon": -84.3136,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Lake_Jackson_Mound_4.jpg/1920px-Lake_Jackson_Mound_4.jpg",
+    "blurb": "Lake Jackson Mounds Archaeological State Park is a 199.81-acre (80.86 ha) Florida state park in Leon County, Florida, about 5 miles (8.0 km) north of downtown Tallahassee.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "tom-brown-park",
+    "name": "Tom Brown Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.4468,
+    "lon": -84.2146,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Tom_Brown_Park_welcome_sign.JPG/1920px-Tom_Brown_Park_welcome_sign.JPG",
+    "blurb": "Tom Brown Park is a 255-acre (1.03 km2) city park in Tallahassee, Florida, United States.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "lafayette-heritage-trail-park",
+    "name": "Lafayette Heritage Trail Park",
+    "category": "municipal-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.439729,
+    "lon": -84.192272,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hiking_trail_at_LHTP.jpg",
+    "blurb": "Lake Lafayette is a prairie lake located in the coastal lowland in eastern Tallahassee, Leon County, Florida with US 27 / State Road 20 running close on its south side.",
+    "effects": {
+     "mood": 4,
+     "vitality": 3
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "anhaica",
+    "name": "Anhaica",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.43405,
+    "lon": -84.273355,
+    "image": null,
+    "blurb": "Anhaica (also known as Iviahica, Yniahico, and pueblo of Apalache) was the principal town of the Apalachee people, located in what is now Tallahassee, Florida.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "carnegie-library-at-famu",
+    "name": "Carnegie Library at FAMU",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.4275,
+    "lon": -84.286389,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/CarnegieLibraryTLH.JPG",
+    "blurb": "The Carnegie Library at FAMU  is a historic building on the campus of Florida A&M University in Tallahassee, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "tallahassee-st-marks-historic-railroad-trail-state-park",
+    "name": "Tallahassee-St. Marks Historic Railroad Trail State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.4,
+    "lon": -84.2811,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/St_Marks_FL_RR_trail_sign01.jpg/1920px-St_Marks_FL_RR_trail_sign01.jpg",
+    "blurb": "The Tallahassee–St.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "natural-bridge-battlefield-historic-state-park",
+    "name": "Natural Bridge Battlefield Historic State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.2839,
+    "lon": -84.1519,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Natural_Bridge_Battlefield_SP01.jpg/1920px-Natural_Bridge_Battlefield_SP01.jpg",
+    "blurb": "Natural Bridge Battlefield Historic State Park is a 2,121.37 acres (858.49 ha) Florida state park in unincorporated Leon County, about 15 mi (24 km) southeast of Tallahassee and near the community of Woodville.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "lake-talquin-state-park",
+    "name": "Lake Talquin State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.4365,
+    "lon": -84.5301,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lake_Talquin_SP_bdwk03.jpg/1920px-Lake_Talquin_SP_bdwk03.jpg",
+    "blurb": "Lake Talquin State Park is a Florida state park in Leon County, about 15 miles (24 km) west of Tallahassee.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "ochlockonee-river-state-park",
+    "name": "Ochlockonee River State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 29.9991,
+    "lon": -84.485,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ochlockonee_River_SP_sign01b.jpg/1920px-Ochlockonee_River_SP_sign01b.jpg",
+    "blurb": "Ochlockonee River State Park is a Florida State Park located in Wakulla County, Florida, south of the town of Sopchoppy in the Florida Panhandle.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "edward-ball-wakulla-springs-state-park",
+    "name": "Edward Ball Wakulla Springs State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 3,
+    "lat": 30.2328,
+    "lon": -84.2922,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Wakulla_entrance_sign.jpg",
+    "blurb": "Edward Ball Wakulla Springs State Park is a Florida State Park in Wakulla County, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "st-marks-light",
+    "name": "St. Marks Light",
+    "category": "landmarks",
+    "kind": "culture",
+    "prominence": 3,
+    "lat": 30.073333,
+    "lon": -84.179167,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/St._Marks_Lighthouse_-_Renovated_2018_2.jpg",
+    "blurb": "The St.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "leaf-theater",
+    "name": "Leaf Theater",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.589512,
+    "lon": -84.574821,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/The_Leaf_Theatre.jpg/960px-The_Leaf_Theatre.jpg",
+    "blurb": "The Leaf Theater is a historical theater in Quincy, Florida, run by the non-profit group Quincy Music Theater.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "lyndhurst-plantation",
+    "name": "Lyndhurst Plantation",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.5875,
+    "lon": -83.653056,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Monticello_FL_Lyndhurst_Plantation_bldg01.jpg/1920px-Monticello_FL_Lyndhurst_Plantation_bldg01.jpg",
+    "blurb": "The Lyndhurst Plantation is a historic slave plantation in unincorporated Jefferson County, Florida.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "letchworth-love-mounds-archaeological-state-park",
+    "name": "Letchworth-Love Mounds Archaeological State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.5177,
+    "lon": -83.9916,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Letchworth_Mound_1_Main.jpg/1920px-Letchworth_Mound_1_Main.jpg",
+    "blurb": "Letchworth-Love Mounds Archaeological State Park is a 190.11-acre (76.93 ha) Florida state park in Jefferson County, Florida, United States, about six miles (9.7 km) west of Monticello.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "perkins-opera-house",
+    "name": "Perkins Opera House",
+    "category": "performing-arts",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.544722,
+    "lon": -83.870833,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Monticello_opera_house01.jpg/1920px-Monticello_opera_house01.jpg",
+    "blurb": "The Perkins Opera House (also known as the Monticello Opera House) is a historic theater in Monticello, Florida, United States.",
+    "effects": {
+     "mood": 6,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "gf-and-a-trail",
+    "name": "GF&A Trail",
+    "category": "trails",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.320429,
+    "lon": -84.398046,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/GF%26A_Trail_south_end.jpg/1920px-GF%26A_Trail_south_end.jpg",
+    "blurb": "The Georgia Florida and Alabama (Railroad) Trail (GF&A) is section of the proposed 52-mile rail-trail from Tallahassee to Carrabelle on the Gulf of Mexico.",
+    "effects": {
+     "mood": 5,
+     "vitality": 5
+    },
+    "costBand": "free"
+   },
+   {
+    "slug": "jake-gaither-gymnasium",
+    "name": "Jake Gaither Gymnasium",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 2,
+    "lat": 30.424318,
+    "lon": -84.290473,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Jake_Gaither_Gymnasium%2C_Tallahassee%2C_Florida_%28front_view%29.jpg/1920px-Jake_Gaither_Gymnasium%2C_Tallahassee%2C_Florida_%28front_view%29.jpg",
+    "blurb": "Jake Gaither Gymnasium is a 3,365-seat multi-purpose arena in Tallahassee, Florida.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   },
+   {
+    "slug": "bellevue-plantation",
+    "name": "Bellevue Plantation",
+    "category": "historic-sites",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.4125,
+    "lon": -84.344722,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/TlhMusBellevue.JPG",
+    "blurb": "Bellevue Plantation was the U.S.",
+    "effects": {
+     "mood": 3,
+     "vitality": 1
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "lake-talquin-state-forest",
+    "name": "Lake Talquin State Forest",
+    "category": "protected-areas",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.451971,
+    "lon": -84.452914,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Turkey_Flat_Road_in_Lake_Talquin_State_Forest.jpg/1920px-Turkey_Flat_Road_in_Lake_Talquin_State_Forest.jpg",
+    "blurb": "Lake Talquin is a reservoir located on the Ochlockonee River between Leon County and Gadsden County in north Florida.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "tallahassee-museum",
+    "name": "Tallahassee Museum",
+    "category": "museums",
+    "kind": "culture",
+    "prominence": 2,
+    "lat": 30.4098,
+    "lon": -84.3455,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/TlhMusFarmHs.JPG",
+    "blurb": "The Tallahassee Museum is a privately funded, non-profit corporation in Tallahassee, Florida.",
+    "effects": {
+     "mood": 4,
+     "vitality": 0
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "lake-jackson-archaeological-state-park",
+    "name": "Lake Jackson Archaeological State Park",
+    "category": "state-parks",
+    "kind": "outdoor",
+    "prominence": 2,
+    "lat": 30.5,
+    "lon": -84.313611,
+    "image": null,
+    "blurb": "The Florida state park system consists of 176 units managed by the Florida Park Service (FPS), a division of the Florida Department of Environmental Protection.",
+    "effects": {
+     "mood": 6,
+     "vitality": 4
+    },
+    "costBand": "low"
+   },
+   {
+    "slug": "al-lawson-center",
+    "name": "Al Lawson Center",
+    "category": "stadiums-arenas",
+    "kind": "sports",
+    "prominence": 2,
+    "lat": 30.424318,
+    "lon": -84.290473,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/FAMU_Arena.jpg/1920px-FAMU_Arena.jpg",
+    "blurb": "The Alfred Lawson Jr.",
+    "effects": {
+     "mood": 7,
+     "vitality": 0
+    },
+    "costBand": "medium"
+   }
+  ]
+ },
+ "statewide": [
+  {
+   "slug": "everglades-national-park",
+   "name": "Everglades National Park",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 70,
+   "lat": 25.3125,
+   "lon": -80.6875,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg/1920px-Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg",
+   "blurb": "Everglades National Park  is a United States national park that protects the southern 20% of the original Everglades ecosystem in Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Park",
+   "distanceKm": {
+    "jacksonville": 567,
+    "orlando": 357,
+    "miami": 70,
+    "tampa": 345,
+    "destin": 802,
+    "tallahassee": 670
+   }
+  },
+  {
+   "slug": "biscayne-national-park",
+   "name": "Biscayne National Park",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 38,
+   "lat": 25.501855,
+   "lon": -80.180969,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Biscayne_NP_snorkeling.jpg/1920px-Biscayne_NP_snorkeling.jpg",
+   "blurb": "Biscayne National Park is a national park of the United States located south of Miami, Florida, in Miami-Dade County.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Park",
+   "distanceKm": {
+    "jacksonville": 557,
+    "orlando": 349,
+    "miami": 31,
+    "tampa": 356,
+    "destin": 823,
+    "tallahassee": 680
+   }
+  },
+  {
+   "slug": "dry-tortugas-national-park",
+   "name": "Dry Tortugas National Park",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 32,
+   "lat": 24.628611,
+   "lon": -82.873333,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fort-Jefferson_Dry-Tortugas.jpg",
+   "blurb": null,
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Park",
+   "distanceKm": {
+    "jacksonville": 646,
+    "orlando": 454,
+    "miami": 297,
+    "tampa": 373,
+    "destin": 733,
+    "tallahassee": 662
+   }
+  },
+  {
+   "slug": "fort-matanzas-national-monument",
+   "name": "Fort Matanzas National Monument",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 11,
+   "lat": 29.715278,
+   "lon": -81.239167,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Fort_Matanzas_river_view-2.jpg/1920px-Fort_Matanzas_river_view-2.jpg",
+   "blurb": "Fort Matanzas National Monument (Spanish: Fuerte Matanzas) is the site where the Spanish built a fort.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Monument",
+   "distanceKm": {
+    "jacksonville": 80,
+    "orlando": 138,
+    "miami": 450,
+    "tampa": 229,
+    "destin": 509,
+    "tallahassee": 301
+   }
+  },
+  {
+   "slug": "big-cypress-national-preserve",
+   "name": "Big Cypress National Preserve",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 9,
+   "lat": 25.858889,
+   "lon": -81.033889,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Taxodium_ascendens_Big_Cypress_National_Preserve_2.jpg/1920px-Taxodium_ascendens_Big_Cypress_National_Preserve_2.jpg",
+   "blurb": "Big Cypress National Preserve is a United States national preserve located in South Florida, about 45 miles (72 km) west of Miami on the Atlantic coastal plain.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Preserve",
+   "distanceKm": {
+    "jacksonville": 502,
+    "orlando": 292,
+    "miami": 83,
+    "tampa": 275,
+    "destin": 734,
+    "tallahassee": 600
+   }
+  },
+  {
+   "slug": "de-soto-national-memorial",
+   "name": "De Soto National Memorial",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 8,
+   "lat": 27.523889,
+   "lon": -82.644444,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bradenton_FL_DeSoto_Natl_Mem07.jpg/1920px-Bradenton_FL_DeSoto_Natl_Mem07.jpg",
+   "blurb": "De Soto National Memorial is a national memorial located in Manatee County, approximately five miles (eight kilometers) west of Bradenton, Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Memorial",
+   "distanceKm": {
+    "jacksonville": 327,
+    "orlando": 167,
+    "miami": 310,
+    "tampa": 52,
+    "destin": 491,
+    "tallahassee": 361
+   }
+  },
+  {
+   "slug": "canaveral-national-seashore",
+   "name": "Canaveral National Seashore",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 6,
+   "lat": 28.7675,
+   "lon": -80.7769,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/CanaveralNationalSeashore1.jpg/1920px-CanaveralNationalSeashore1.jpg",
+   "blurb": "The Canaveral National Seashore (CANA) is a National Seashore located between New Smyrna Beach and Titusville, Florida, in Volusia and Brevard Counties.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Seashore",
+   "distanceKm": {
+    "jacksonville": 194,
+    "orlando": 63,
+    "miami": 337,
+    "tampa": 188,
+    "destin": 579,
+    "tallahassee": 385
+   }
+  },
+  {
+   "slug": "florida-panther-national-wildlife-refuge",
+   "name": "Florida Panther National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 6,
+   "lat": 26.1722,
+   "lon": -81.3772,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fl_panther.jpg",
+   "blurb": "The Florida Panther National Wildlife Refuge is part of the United States National Wildlife Refuge System, located in southwestern Florida, twenty miles east of Naples, in the upper segment of the Fakahatchee Strand of t",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 464,
+    "orlando": 256,
+    "miami": 125,
+    "tampa": 227,
+    "destin": 685,
+    "tallahassee": 553
+   }
+  },
+  {
+   "slug": "pelican-island-national-wildlife-refuge",
+   "name": "Pelican Island National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 6,
+   "lat": 27.81,
+   "lon": -80.441111,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/PelicanIslandNWR.jpg/1920px-PelicanIslandNWR.jpg",
+   "blurb": "Pelican Island National Wildlife Refuge is a United States National Wildlife Refuge (NWR), and part of the Everglades Headwaters NWR complex, located just off the western coast of Orchid Island, Florida in the Indian Riv",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 305,
+    "orlando": 114,
+    "miami": 227,
+    "tampa": 201,
+    "destin": 652,
+    "tallahassee": 473
+   }
+  },
+  {
+   "slug": "osceola-national-forest",
+   "name": "Osceola National Forest",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 5,
+   "lat": 30.2906,
+   "lon": -82.3217,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pinus_palustris_forest%2C_Osceola_National_Forest.jpg/1920px-Pinus_palustris_forest%2C_Osceola_National_Forest.jpg",
+   "blurb": "Osceola National Forest is a National Forest located in northeast Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Forest",
+   "distanceKm": {
+    "jacksonville": 64,
+    "orlando": 224,
+    "miami": 543,
+    "tampa": 259,
+    "destin": 398,
+    "tallahassee": 186
+   }
+  },
+  {
+   "slug": "merritt-island-national-wildlife-refuge",
+   "name": "Merritt Island National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 5,
+   "lat": 28.5167,
+   "lon": -80.6667,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Birds_at_Merritt_Island_NWR.jpg/1920px-Birds_at_Merritt_Island_NWR.jpg",
+   "blurb": "Merritt Island National Wildlife Refuge is a 140,000-acre (57,000 ha) U.S.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 224,
+    "orlando": 64,
+    "miami": 308,
+    "tampa": 187,
+    "destin": 599,
+    "tallahassee": 408
+   }
+  },
+  {
+   "slug": "ten-thousand-islands-national-wildlife-refuge",
+   "name": "Ten Thousand Islands National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 25.91477,
+   "lon": -81.56592,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ten_Thousand_Islands_National_Wildlife_Refuge_Panorama%2C_Florida_2014.jpg/1920px-Ten_Thousand_Islands_National_Wildlife_Refuge_Panorama%2C_Florida_2014.jpg",
+   "blurb": "The Ten Thousand Islands National Wildlife Refuge is located in Southwest Florida in Collier County, between Marco Island and Everglades City, Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 492,
+    "orlando": 285,
+    "miami": 137,
+    "tampa": 245,
+    "destin": 693,
+    "tallahassee": 569
+   }
+  },
+  {
+   "slug": "gulf-islands-national-seashore",
+   "name": "Gulf Islands National Seashore",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 30.3644,
+   "lon": -86.9675,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Gulf_Islands_NS.jpg",
+   "blurb": "Gulf Islands National Seashore is an American national seashore that offers recreation opportunities and preserves natural and historic resources along the Gulf of Mexico barrier islands of Florida, Alabama, and Mississi",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Seashore",
+   "distanceKm": {
+    "jacksonville": 509,
+    "orlando": 586,
+    "miami": 836,
+    "tampa": 511,
+    "destin": 48,
+    "tallahassee": 261
+   }
+  },
+  {
+   "slug": "j-n-ding-darling-national-wildlife-refuge",
+   "name": "J.N. \"Ding\" Darling National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 26.458333,
+   "lon": -82.1,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/J._N._%22Ding%22_Darling_National_Wildlife_Refuge_-_Diversity%21.jpg",
+   "blurb": "The J.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 433,
+    "orlando": 237,
+    "miami": 204,
+    "tampa": 172,
+    "destin": 612,
+    "tallahassee": 492
+   }
+  },
+  {
+   "slug": "lower-suwannee-national-wildlife-refuge",
+   "name": "Lower Suwannee National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 29.3167,
+   "lon": -83.1,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lower_Suwannee_National_Wildlife_Refuge.jpg",
+   "blurb": "The Lower Suwannee National Wildlife Refuge (LSNWR) is part of the United States National Wildlife Refuge System.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 179,
+    "orlando": 197,
+    "miami": 486,
+    "tampa": 162,
+    "destin": 346,
+    "tallahassee": 168
+   }
+  },
+  {
+   "slug": "great-white-heron-national-wildlife-refuge",
+   "name": "Great White Heron National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 24.701478,
+   "lon": -81.548673,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/A_great_white_heron_rests_on_a_piling_at_sunset_in_the_Great_White_Heron_National_Wildlife_Refuge_%2824623622630%29.jpg",
+   "blurb": "The Great White Heron National Wildlife Refuge is part of the United States National Wildlife Refuge System, located in a region known as the 'Backcountry', which reaches from north of Marathon to north of Key West.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 627,
+    "orlando": 420,
+    "miami": 180,
+    "tampa": 375,
+    "destin": 798,
+    "tallahassee": 693
+   }
+  },
+  {
+   "slug": "crocodile-lake-national-wildlife-refuge",
+   "name": "Crocodile Lake National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 25.2711,
+   "lon": -80.3208,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Crocodile_Lake_Refuge.jpg",
+   "blurb": "The Crocodile Lake National Wildlife Refuge is part of the United States National Wildlife Refuge System, located in north Key Largo, less than 40 miles (64 km) south of Miami off SR 905 (Card Sound Road).",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 578,
+    "orlando": 370,
+    "miami": 57,
+    "tampa": 368,
+    "destin": 831,
+    "tallahassee": 694
+   }
+  },
+  {
+   "slug": "choctawhatchee-national-forest",
+   "name": "Choctawhatchee National Forest",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 30.575,
+   "lon": -86.541667,
+   "image": null,
+   "blurb": "Choctawhatchee National Forest is a United States National Forest established by President Theodore Roosevelt on November 27, 1908.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Forest",
+   "distanceKm": {
+    "jacksonville": 468,
+    "orlando": 556,
+    "miami": 818,
+    "tampa": 489,
+    "destin": 20,
+    "tallahassee": 220
+   }
+  },
+  {
+   "slug": "everglades-headwaters-national-wildlife-refuge-and-conservation-area",
+   "name": "Everglades Headwaters National Wildlife Refuge and Conservation Area",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 27.6334,
+   "lon": -80.96337,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Everglades_Headwaters_National_Wildlife_Refuge_and_Conservation_Area.jpg",
+   "blurb": "The Everglades Headwaters National Wildlife Refuge and Conservation Area, created in 2012, is the newest addition and 556th unit of the United States National Wildlife Refuge (NWR) System.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 308,
+    "orlando": 100,
+    "miami": 220,
+    "tampa": 153,
+    "destin": 617,
+    "tallahassee": 448
+   }
+  },
+  {
+   "slug": "arthur-r-marshall-loxahatchee-national-wildlife-refuge",
+   "name": "Arthur R. Marshall Loxahatchee National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 26.5083,
+   "lon": -80.3333,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Loxahatcheeplatform.jpg",
+   "blurb": "The Arthur R.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 445,
+    "orlando": 239,
+    "miami": 82,
+    "tampa": 267,
+    "destin": 739,
+    "tallahassee": 582
+   }
+  },
+  {
+   "slug": "lake-woodruff-national-wildlife-refuge",
+   "name": "Lake Woodruff National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 4,
+   "lat": 29.0833,
+   "lon": -81.4333,
+   "image": null,
+   "blurb": "The Lake Woodruff National Wildlife Refuge is part of the United States National Wildlife Refuge System, located in north central Florida, twenty-five miles west of Daytona Beach, off U.S.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 141,
+    "orlando": 69,
+    "miami": 387,
+    "tampa": 160,
+    "destin": 508,
+    "tallahassee": 312
+   }
+  },
+  {
+   "slug": "archie-carr-national-wildlife-refuge",
+   "name": "Archie Carr National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 27.916667,
+   "lon": -80.483333,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Archie_Carr_National_Wildlife_Refuge_002.jpg/1920px-Archie_Carr_National_Wildlife_Refuge_002.jpg",
+   "blurb": "The Archie Carr National Wildlife Refuge is part of the United States National Wildlife Refuge (NWR) System, located along a twenty-mile (30 km) section of coastline from Melbourne Beach to Wabasso Beach, Florida, along ",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 292,
+    "orlando": 103,
+    "miami": 240,
+    "tampa": 196,
+    "destin": 643,
+    "tallahassee": 462
+   }
+  },
+  {
+   "slug": "st-johns-national-wildlife-refuge",
+   "name": "St. Johns National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 28.5583,
+   "lon": -80.8875,
+   "image": null,
+   "blurb": "The St.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 211,
+    "orlando": 44,
+    "miami": 317,
+    "tampa": 169,
+    "destin": 578,
+    "tallahassee": 388
+   }
+  },
+  {
+   "slug": "crystal-river-national-wildlife-refuge",
+   "name": "Crystal River National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 28.8875,
+   "lon": -82.6,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crystal_River_NWR.jpg",
+   "blurb": "The Crystal River National Wildlife Refuge is part of the United States National Wildlife Refuge (NWR) System, located in Kings Bay, in the town of Crystal River, and consists of 20 islands and several small parcels of l",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 185,
+    "orlando": 133,
+    "miami": 419,
+    "tampa": 103,
+    "destin": 410,
+    "tallahassee": 236
+   }
+  },
+  {
+   "slug": "st-vincent-national-wildlife-refuge",
+   "name": "St. Vincent National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 29.6444,
+   "lon": -85.1298,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Endangered_Red_Wolf_By_Carole_Robertson.jpg",
+   "blurb": "The St.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 343,
+    "orlando": 392,
+    "miami": 648,
+    "tampa": 319,
+    "destin": 154,
+    "tallahassee": 123
+   }
+  },
+  {
+   "slug": "lake-wales-ridge-national-wildlife-refuge",
+   "name": "Lake Wales Ridge National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 27.3684,
+   "lon": -81.331,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ancient_florida_scrub_lwr.jpg/1920px-Ancient_florida_scrub_lwr.jpg",
+   "blurb": "The Lake Wales Ridge National Wildlife Refuge is part of the United States National Wildlife Refuge (NWR) System, located in four separated areas on the Lake Wales Ridge east of US 27 between Davenport and Sebring in Flo",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 332,
+    "orlando": 123,
+    "miami": 209,
+    "tampa": 131,
+    "destin": 603,
+    "tallahassee": 446
+   }
+  },
+  {
+   "slug": "caloosahatchee-national-wildlife-refuge",
+   "name": "Caloosahatchee National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 26.698333,
+   "lon": -81.797222,
+   "image": null,
+   "blurb": "The Caloosahatchee National Wildlife Refuge is part of the United States National Wildlife Refuge System, located on the Caloosahatchee River, beneath the I-75 Caloosahatchee Bridge, within the city of North Fort Myers.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 405,
+    "orlando": 203,
+    "miami": 189,
+    "tampa": 156,
+    "destin": 614,
+    "tallahassee": 481
+   }
+  },
+  {
+   "slug": "nathaniel-p-reed-hobe-sound-national-wildlife-refuge",
+   "name": "Nathaniel P. Reed Hobe Sound National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 27.0406,
+   "lon": -80.1136,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Hobe_Sound_National_Wildlife_Refuge_beach_at_dawn.jpg",
+   "blurb": "The Hobe Sound National Wildlife Refuge, a part of the United States National Wildlife Refuge System, is a refuge on Jupiter Island in Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 396,
+    "orlando": 199,
+    "miami": 141,
+    "tampa": 255,
+    "destin": 723,
+    "tallahassee": 554
+   }
+  },
+  {
+   "slug": "pinellas-national-wildlife-refuge",
+   "name": "Pinellas National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 27.66631,
+   "lon": -82.69289,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Pinellas_National_Wildlife_Refuge_from_I-275_causeway.JPG/1920px-Pinellas_National_Wildlife_Refuge_from_I-275_causeway.JPG",
+   "blurb": "The Pinellas National Wildlife Refuge is part of the United States National Wildlife Refuge (NWR) System, located offshore from mainland St.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 313,
+    "orlando": 162,
+    "miami": 324,
+    "tampa": 40,
+    "destin": 477,
+    "tallahassee": 345
+   }
+  },
+  {
+   "slug": "fort-matanzas-national-monument-headquarters-and-visitor-center",
+   "name": "Fort Matanzas National Monument Headquarters and Visitor Center",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 29.71495,
+   "lon": -81.23459,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Fort_Matanzas_Visitor_Center_01.jpg/1920px-Fort_Matanzas_Visitor_Center_01.jpg",
+   "blurb": "Fort Matanzas National Monument (Spanish: Fuerte Matanzas) is the site where the Spanish built a fort.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Monument",
+   "distanceKm": {
+    "jacksonville": 80,
+    "orlando": 138,
+    "miami": 450,
+    "tampa": 229,
+    "destin": 509,
+    "tallahassee": 302
+   }
+  },
+  {
+   "slug": "st-marks-national-wildlife-refuge",
+   "name": "St. Marks National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 3,
+   "lat": 30.150833,
+   "lon": -84.147222,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/StMarksNWR5July03.jpg",
+   "blurb": "St.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 240,
+    "orlando": 331,
+    "miami": 621,
+    "tampa": 292,
+    "destin": 225,
+    "tallahassee": 35
+   }
+  },
+  {
+   "slug": "matlacha-pass-national-wildlife-refuge",
+   "name": "Matlacha Pass National Wildlife Refuge",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 2,
+   "lat": 26.559167,
+   "lon": -82.071389,
+   "image": null,
+   "blurb": "The Matlacha Pass National Wildlife Refuge is part of the United States National Wildlife Refuge System, located within the Matlacha Pass estuary, approximately 8 miles northwest of Fort Myers, Florida.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Wildlife Refuge",
+   "distanceKm": {
+    "jacksonville": 422,
+    "orlando": 225,
+    "miami": 205,
+    "tampa": 162,
+    "destin": 606,
+    "tallahassee": 483
+   }
+  },
+  {
+   "slug": "florida-national-forest",
+   "name": "Florida National Forest",
+   "category": "protected-areas",
+   "kind": "trip",
+   "prominence": 1,
+   "lat": 30.5646,
+   "lon": -86.6013,
+   "image": null,
+   "blurb": "Florida National Forest was established by the U.S.",
+   "effects": {
+    "mood": 10,
+    "vitality": 5
+   },
+   "costBand": "medium",
+   "designation": "National Forest",
+   "distanceKm": {
+    "jacksonville": 474,
+    "orlando": 561,
+    "miami": 822,
+    "tampa": 493,
+    "destin": 22,
+    "tallahassee": 225
+   }
+  }
+ ]
+}

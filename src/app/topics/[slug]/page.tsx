@@ -36,7 +36,7 @@ export default async function TopicPage({ params, searchParams }: Props) {
   const place = param(sp, "place");
   const scope = SCOPES.some((s) => s.slug === place) ? place : undefined;
   const page = pageParam(sp);
-  const entities = await db.listEntities({ categorySlug: slug, areaSlug: scope, page, pageSize: 12 });
+  const entities = await db.listEntities({ categorySlug: slug, areaSlug: scope, page, pageSize: 12, sort: "featured" });
   const base = `/topics/${slug}`;
 
   return (

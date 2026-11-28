@@ -1,0 +1,143 @@
+{
+  "source": {
+    "note": "Curated by hand for the game (2026). Employers are well-known major employers in each metro; teams are real professional and college teams with their home venue where certain. Ticket prices, car prices and car running costs are GAME ESTIMATES (approximate 2026 starting MSRP / typical costs), not sourced facts. SOC groups map each employer to the occupation groups it hires for (game assumption).",
+    "verify": ["Venue names change often (naming rights)", "Car prices are approximate starting MSRP", "Florida car insurance is among the most expensive in the US; values are rough averages"]
+  },
+  "employers": {
+    "jacksonville": [
+      { "name": "Mayo Clinic Florida", "groups": ["29", "31", "19", "43"] },
+      { "name": "Baptist Health", "groups": ["29", "31", "43", "37"] },
+      { "name": "Naval Air Station Jacksonville", "groups": ["47", "49", "17", "13", "33"] },
+      { "name": "Duval County Public Schools", "groups": ["25", "43", "53", "37"] },
+      { "name": "CSX", "groups": ["53", "49", "13", "15", "43"] },
+      { "name": "Florida Blue", "groups": ["13", "43", "15", "41", "11"] },
+      { "name": "FIS", "groups": ["15", "13", "43", "11"] },
+      { "name": "JEA", "groups": ["47", "49", "17", "51"] },
+      { "name": "Jacksonville Sheriff's Office", "groups": ["33"] },
+      { "name": "Amazon (fulfillment centers)", "groups": ["53", "43", "49"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ],
+    "orlando": [
+      { "name": "Walt Disney World Resort", "groups": ["35", "39", "41", "27", "33", "49", "43", "37"] },
+      { "name": "Universal Orlando Resort", "groups": ["35", "39", "41", "27", "33", "37"] },
+      { "name": "AdventHealth", "groups": ["29", "31", "43"] },
+      { "name": "Orlando Health", "groups": ["29", "31", "43"] },
+      { "name": "Lockheed Martin", "groups": ["17", "15", "51", "13", "11"] },
+      { "name": "Orange County Public Schools", "groups": ["25", "43", "53", "37"] },
+      { "name": "Darden Restaurants", "groups": ["13", "15", "43", "11"] },
+      { "name": "Orlando International Airport", "groups": ["53", "43", "33"] },
+      { "name": "Orange County Sheriff's Office", "groups": ["33"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ],
+    "miami": [
+      { "name": "Jackson Health System", "groups": ["29", "31", "43", "37"] },
+      { "name": "Baptist Health South Florida", "groups": ["29", "31", "43"] },
+      { "name": "University of Miami", "groups": ["25", "19", "29", "43"] },
+      { "name": "Miami-Dade County Public Schools", "groups": ["25", "43", "53", "37"] },
+      { "name": "Carnival Corporation", "groups": ["13", "15", "35", "43", "11"] },
+      { "name": "Royal Caribbean Group", "groups": ["13", "15", "43", "11"] },
+      { "name": "American Airlines (Miami hub)", "groups": ["53", "49", "43"] },
+      { "name": "Lennar", "groups": ["47", "13", "41", "11"] },
+      { "name": "Miami-Dade Police Department", "groups": ["33"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ],
+    "tampa": [
+      { "name": "Tampa General Hospital", "groups": ["29", "31", "43", "37"] },
+      { "name": "BayCare Health System", "groups": ["29", "31", "43"] },
+      { "name": "Moffitt Cancer Center", "groups": ["29", "19", "31"] },
+      { "name": "Raymond James Financial", "groups": ["13", "41", "15", "43", "11"] },
+      { "name": "Hillsborough County Public Schools", "groups": ["25", "43", "53", "37"] },
+      { "name": "MacDill Air Force Base", "groups": ["47", "49", "13", "33"] },
+      { "name": "Jabil", "groups": ["51", "17", "13", "15"] },
+      { "name": "Citi", "groups": ["13", "43", "15"] },
+      { "name": "Busch Gardens Tampa Bay", "groups": ["35", "39", "41", "37"] },
+      { "name": "Tampa Police Department", "groups": ["33"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ],
+    "destin": [
+      { "name": "Eglin Air Force Base", "groups": ["47", "49", "13", "15", "17", "33"] },
+      { "name": "Hurlburt Field", "groups": ["47", "49", "13", "43"] },
+      { "name": "Okaloosa County School District", "groups": ["25", "43", "53", "37"] },
+      { "name": "Sandestin Golf and Beach Resort", "groups": ["35", "39", "37", "41"] },
+      { "name": "HCA Florida Fort Walton-Destin Hospital", "groups": ["29", "31", "43"] },
+      { "name": "Okaloosa County Sheriff's Office", "groups": ["33"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ],
+    "tallahassee": [
+      { "name": "State of Florida", "groups": ["13", "43", "23", "15", "21", "11"] },
+      { "name": "Florida State University", "groups": ["25", "19", "43", "11"] },
+      { "name": "Florida A&M University", "groups": ["25", "43", "19"] },
+      { "name": "Tallahassee Memorial HealthCare", "groups": ["29", "31", "43", "37"] },
+      { "name": "Leon County Schools", "groups": ["25", "43", "53"] },
+      { "name": "City of Tallahassee", "groups": ["47", "49", "43", "13"] },
+      { "name": "Tallahassee Police Department", "groups": ["33"] },
+      { "name": "Danfoss Turbocor", "groups": ["51", "17"] },
+      { "name": "Publix", "groups": ["41", "35", "53", "43", "51"] }
+    ]
+  },
+  "teams": {
+    "jacksonville": [
+      { "name": "Jacksonville Jaguars", "league": "NFL", "sport": "football", "venue": "EverBank Stadium", "ticket": 140 },
+      { "name": "Jacksonville Jumbo Shrimp", "league": "Minor League Baseball", "sport": "baseball", "ticket": 15 },
+      { "name": "Jacksonville Icemen", "league": "ECHL", "sport": "hockey", "ticket": 25 },
+      { "name": "Florida vs. Georgia (annual college rivalry game)", "league": "College football", "sport": "football", "venue": "EverBank Stadium", "ticket": 120 }
+    ],
+    "orlando": [
+      { "name": "Orlando Magic", "league": "NBA", "sport": "basketball", "venue": "Kia Center", "ticket": 85 },
+      { "name": "Orlando City SC", "league": "MLS", "sport": "soccer", "venue": "Inter&Co Stadium", "ticket": 45 },
+      { "name": "Orlando Pride", "league": "NWSL", "sport": "soccer", "venue": "Inter&Co Stadium", "ticket": 30 },
+      { "name": "UCF Knights", "league": "College football", "sport": "football", "ticket": 50 },
+      { "name": "Orlando Solar Bears", "league": "ECHL", "sport": "hockey", "venue": "Kia Center", "ticket": 25 }
+    ],
+    "miami": [
+      { "name": "Miami Dolphins", "league": "NFL", "sport": "football", "venue": "Hard Rock Stadium", "ticket": 150 },
+      { "name": "Miami Heat", "league": "NBA", "sport": "basketball", "venue": "Kaseya Center", "ticket": 95 },
+      { "name": "Miami Marlins", "league": "MLB", "sport": "baseball", "venue": "loanDepot park", "ticket": 30 },
+      { "name": "Florida Panthers", "league": "NHL", "sport": "hockey", "ticket": 90 },
+      { "name": "Inter Miami CF", "league": "MLS", "sport": "soccer", "ticket": 90 },
+      { "name": "Miami Hurricanes", "league": "College football", "sport": "football", "venue": "Hard Rock Stadium", "ticket": 60 }
+    ],
+    "tampa": [
+      { "name": "Tampa Bay Buccaneers", "league": "NFL", "sport": "football", "venue": "Raymond James Stadium", "ticket": 140 },
+      { "name": "Tampa Bay Lightning", "league": "NHL", "sport": "hockey", "ticket": 85 },
+      { "name": "Tampa Bay Rays", "league": "MLB", "sport": "baseball", "ticket": 30 },
+      { "name": "USF Bulls", "league": "College football", "sport": "football", "venue": "Raymond James Stadium", "ticket": 35 },
+      { "name": "Tampa Bay Rowdies", "league": "USL Championship", "sport": "soccer", "venue": "Al Lang Stadium", "ticket": 25 }
+    ],
+    "destin": [
+      { "name": "Pensacola Blue Wahoos", "league": "Minor League Baseball", "sport": "baseball", "ticket": 15, "distanceKm": 75 },
+      { "name": "Pensacola Ice Flyers", "league": "SPHL", "sport": "hockey", "ticket": 20, "distanceKm": 75 },
+      { "name": "Florida State Seminoles", "league": "College football", "sport": "football", "venue": "Doak Campbell Stadium", "ticket": 70, "distanceKm": 230 }
+    ],
+    "tallahassee": [
+      { "name": "Florida State Seminoles", "league": "College football", "sport": "football", "venue": "Doak Campbell Stadium", "ticket": 70 },
+      { "name": "Florida State Seminoles basketball", "league": "College basketball", "sport": "basketball", "ticket": 25 },
+      { "name": "FAMU Rattlers", "league": "College football", "sport": "football", "venue": "Bragg Memorial Stadium", "ticket": 30 }
+    ]
+  },
+  "cars": [
+    { "id": "altima-2012", "name": "2012 Nissan Altima (used, 140k miles)", "price": 6500, "kind": "used", "class": "economy" },
+    { "id": "civic-2016", "name": "2016 Honda Civic (used, 95k miles)", "price": 12000, "kind": "used", "class": "economy" },
+    { "id": "camry-2017", "name": "2017 Toyota Camry (used, 80k miles)", "price": 15000, "kind": "used", "class": "midsize" },
+    { "id": "f150-2015", "name": "2015 Ford F-150 (used, 110k miles)", "price": 17500, "kind": "used", "class": "truck" },
+    { "id": "corolla", "name": "Toyota Corolla", "price": 23500, "kind": "new", "class": "economy" },
+    { "id": "civic", "name": "Honda Civic", "price": 25500, "kind": "new", "class": "economy" },
+    { "id": "camry", "name": "Toyota Camry", "price": 29500, "kind": "new", "class": "midsize" },
+    { "id": "rav4", "name": "Toyota RAV4", "price": 30500, "kind": "new", "class": "midsize" },
+    { "id": "wrangler", "name": "Jeep Wrangler", "price": 34500, "kind": "new", "class": "truck" },
+    { "id": "f150", "name": "Ford F-150", "price": 39500, "kind": "new", "class": "truck" },
+    { "id": "model3", "name": "Tesla Model 3", "price": 42500, "kind": "new", "class": "ev" },
+    { "id": "bmw3", "name": "BMW 3 Series", "price": 47500, "kind": "new", "class": "luxury" },
+    { "id": "corvette", "name": "Chevrolet Corvette Stingray", "price": 70000, "kind": "new", "class": "sports" },
+    { "id": "porsche911", "name": "Porsche 911 Carrera", "price": 125000, "kind": "new", "class": "sports" }
+  ],
+  "carRunningCosts": {
+    "note": "Per year: insurance (Florida full coverage, adult driver) and fuel+maintenance. Game estimates.",
+    "economy": { "insurance": 2600, "fuel": 1800 },
+    "midsize": { "insurance": 2900, "fuel": 2100 },
+    "truck": { "insurance": 3000, "fuel": 3000 },
+    "ev": { "insurance": 3400, "fuel": 900 },
+    "luxury": { "insurance": 3800, "fuel": 2400 },
+    "sports": { "insurance": 4600, "fuel": 2800 }
+  }
+}

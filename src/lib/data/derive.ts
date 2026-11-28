@@ -14,6 +14,12 @@ export class DatasetIndex {
   private readonly descendantAreaCache = new Map<string, Set<string>>();
   private readonly descendantCategoryCache = new Map<string, Set<string>>();
   readonly populationByArea = new Map<string, number>();
+  /** Per-entity indexes so lookups stay O(1) at state scale. */
+  readonly categoriesByEntity = new Map<string, Dataset["entityCategories"]>();
+  readonly areasByEntity = new Map<string, Dataset["entityAreas"]>();
+  readonly factsByEntity = new Map<string, Dataset["facts"]>();
+  readonly mediaByEntity = new Map<string, Dataset["media"]>();
+  readonly relationsByEntity = new Map<string, Dataset["entityRelations"]>();
 
   constructor(readonly ds: Dataset) {
     for (const a of ds.areas) {
@@ -31,6 +37,14 @@ export class DatasetIndex {
       this.entityBySlug.set(e.slug, e);
     }
     for (const f of ds.facts) if (f.areaId && f.key === "population-estimate" && f.valueNum !== null) this.populationByArea.set(f.areaId, f.valueNum);
+    for (const ec of ds.entityCategories) push(this.categoriesByEntity, ec.entityId, ec);
+    for (const ea of ds.entityAreas) push(this.areasByEntity, ea.entityId, ea);
+    for (const fa of ds.facts) if (fa.entityId) push(this.factsByEntity, fa.entityId, fa);
+    for (const m of ds.media) if (m.entityId) push(this.mediaByEntity, m.entityId, m);
+    for (const r of ds.entityRelations) {
+      push(this.relationsByEntity, r.fromEntityId, r);
+      if (r.toEntityId !== r.fromEntityId) push(this.relationsByEntity, r.toEntityId, r);
+    }
   }
 
   areaAncestors(area: AreaRow): AreaRow[] {
@@ -112,10 +126,9 @@ function push<K, V>(m: Map<K, V[]>, k: K, v: V) {
 
 /** Search document text for an entity — identical in fixture and database mode. */
 export function entitySearchText(idx: DatasetIndex, e: EntityRow): string {
-  const cats = idx.ds.entityCategories
-    .filter((ec) => ec.entityId === e.id)
+  const cats = (idx.categoriesByEntity.get(e.id) ?? [])
     .flatMap((ec) => idx.categoryPath(idx.categoryById.get(ec.categoryId)!).map((c) => c.name));
-  const areas = idx.ds.entityAreas.filter((ea) => ea.entityId === e.id).map((ea) => idx.areaById.get(ea.areaId)!.name);
+  const areas = (idx.areasByEntity.get(e.id) ?? []).map((ea) => idx.areaById.get(ea.areaId)!.name);
   return [e.name, ...e.aliases, e.shortDescription ?? "", e.entityType.replace(/_/g, " "), ...new Set(cats), ...new Set(areas)].join(" | ");
 }
 

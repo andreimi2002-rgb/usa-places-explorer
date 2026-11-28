@@ -40,15 +40,14 @@ describe("fixture provider — entities, filters, search", () => {
     expect(jax.total).toBeGreaterThan(30);
     const southside = await db.listEntities({ areaSlug: "southside-jacksonville-fl", pageSize: 100 });
     expect(southside.total).toBeGreaterThan(0);
-    for (const e of southside.items) expect(jax.items.some((x) => x.slug === e.slug)).toBe(true);
+    for (const e of southside.items) expect((await db.listEntities({ areaSlug: "jacksonville-fl", q: e.name })).items.some((x) => x.slug === e.slug)).toBe(true);
   });
 
   it("filters by a domain including all nested subcategories", async () => {
-    const retail = await db.listEntities({ categorySlug: "retail", areaSlug: "jacksonville-fl", pageSize: 100 });
-    const slugs = retail.items.map((e) => e.slug);
-    expect(slugs).toContain("ikea-jacksonville");
-    expect(slugs).toContain("st-johns-town-center"); // open-air-centers ⊂ shopping-centers ⊂ retail
-    expect(slugs).not.toContain("jacksonville-jaguars");
+    const inRetail = async (q: string) => (await db.listEntities({ categorySlug: "retail", areaSlug: "jacksonville-fl", q })).items.map((e) => e.slug);
+    expect(await inRetail("IKEA Jacksonville")).toContain("ikea-jacksonville");
+    expect(await inRetail("St. Johns Town Center")).toContain("st-johns-town-center"); // open-air-centers ⊂ shopping-centers ⊂ retail
+    expect(await inRetail("Jacksonville Jaguars")).not.toContain("jacksonville-jaguars");
   });
 
   it("paginates with bounded page sizes", async () => {
@@ -61,6 +60,7 @@ describe("fixture provider — entities, filters, search", () => {
 
   it("ranks exact names first and finds aliases", async () => {
     expect((await db.search("Jacksonville Jaguars"))[0]?.slug).toBe("jacksonville-jaguars");
+    expect((await db.search("jaguars"))[0]?.slug).toBe("jacksonville-jaguars"); // exact alias beats a name that merely starts with it
     expect((await db.search("JSO")).some((h) => h.slug === "jacksonville-sheriffs-office")).toBe(true);
     expect((await db.search("duval"))[0]?.slug).toBe("duval-county-fl");
     expect(await db.search("   ")).toEqual([]);

@@ -292,22 +292,7 @@ Each state becomes a **state pack** with the same structure, so the engine never
 Moving between states becomes a life decision (taxes, climate, costs, jobs).
 
 ## 13. Development stages
-Each stage ships to the PR preview for the owner to play and review.
-
-| # | Stage | Contents |
-|---|---|---|
-| 1 | **Foundation** | Systems architecture, events-as-data with choices and delayed consequences, NPC model, inflation and economy over time, IndexedDB saves with slots |
-| 2 | **Family of origin and relationships** | Family classes from Census income data, parents and siblings, friends, dating, marriage, divorce, children |
-| 3 | **Money depth** | Banking, credit score, credit cards, loans, taxes by filing status, investing, bankruptcy |
-| 4 | **Shopping, possessions and brands** | Vehicles (dealers, used, lease, boats, motorcycles…), everyday purchases, brand places from the encyclopedia, habits |
-| 5 | **Homes** | Buying, mortgages, Florida insurance, HOAs, landlording |
-| 6 | **Health and mind** | Diseases by real incidence, insurance types, addiction, mental health |
-| 7 | **Law and crime** | Florida penalties, courts, records |
-| 8 | **Career depth** | Promotion ladders, military, licenses, business ownership |
-| 9 | **Content flood** | Hundreds of events, neighborhoods, more brands, more species and spots |
-| 10 | **Balance pass** | Thousands of simulated lives vs. real statistics |
-| 11 | **Childhood mode, generations** | Optional birth start; continue as your child |
-| 12 | **Next state** | First state pack after Florida |
+The full phased plan (short to long term, including the fixes from the external play-test) is in [LIFE_SIM_ROADMAP.md](LIFE_SIM_ROADMAP.md).
 
 ## 14. Ideas backlog
 Add anything here, even half-formed. Items move into sections 4–11 when designed.

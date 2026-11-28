@@ -1,0 +1,4997 @@
+{
+ "source": {
+  "id": "bls-ep-occupational-characteristics",
+  "title": "BLS Employment Projections — Occupational projections and worker characteristics (typical entry-level education)",
+  "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+  "license": "Public domain (U.S. federal government work); credit U.S. Bureau of Labor Statistics",
+  "checksumSha256": "000f9244a7afcd91d2e6f46e2cd91e65449f47e95dce1adbb6403125a0349b68"
+ },
+ "occupations": {
+  "11-1011": {
+   "title": "Chief executives",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-1021": {
+   "title": "General and operations managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-2011": {
+   "title": "Advertising and promotions managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-2021": {
+   "title": "Marketing managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-2022": {
+   "title": "Sales managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-2032": {
+   "title": "Public relations managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-2033": {
+   "title": "Fundraising managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3012": {
+   "title": "Administrative services managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-3013": {
+   "title": "Facilities managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-3021": {
+   "title": "Computer and information systems managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3031": {
+   "title": "Financial managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3051": {
+   "title": "Industrial production managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3061": {
+   "title": "Purchasing managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3071": {
+   "title": "Transportation, storage, and distribution managers",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3111": {
+   "title": "Compensation and benefits managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3121": {
+   "title": "Human resources managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-3131": {
+   "title": "Training and development managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9013": {
+   "title": "Farmers, ranchers, and other agricultural managers",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9021": {
+   "title": "Construction managers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "11-9031": {
+   "title": "Education and childcare administrators, preschool and daycare",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9032": {
+   "title": "Education administrators, kindergarten through secondary",
+   "education": "Master's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9033": {
+   "title": "Education administrators, postsecondary",
+   "education": "Master's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9039": {
+   "title": "Education administrators, all other",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9041": {
+   "title": "Architectural and engineering managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9051": {
+   "title": "Food service managers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "11-9071": {
+   "title": "Gambling managers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9072": {
+   "title": "Entertainment and recreation managers, except gambling",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9081": {
+   "title": "Lodging managers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9111": {
+   "title": "Medical and health services managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9121": {
+   "title": "Natural sciences managers",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9131": {
+   "title": "Postmasters and mail superintendents",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "11-9141": {
+   "title": "Property, real estate, and community association managers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "11-9151": {
+   "title": "Social and community service managers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9161": {
+   "title": "Emergency management directors",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "11-9171": {
+   "title": "Funeral home managers",
+   "education": "Associate's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9179": {
+   "title": "Personal service managers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "11-9199": {
+   "title": "Managers, all other",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1011": {
+   "title": "Agents and business managers of artists, performers, and athletes",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1020": {
+   "title": "Buyers and purchasing agents",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-1031": {
+   "title": "Claims adjusters, examiners, and investigators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "13-1032": {
+   "title": "Insurance appraisers, auto damage",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-1041": {
+   "title": "Compliance officers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-1051": {
+   "title": "Cost estimators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-1071": {
+   "title": "Human resources specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1074": {
+   "title": "Farm labor contractors",
+   "education": "No formal educational credential",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "13-1075": {
+   "title": "Labor relations specialists",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1081": {
+   "title": "Logisticians",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1082": {
+   "title": "Project management specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1111": {
+   "title": "Management analysts",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1121": {
+   "title": "Meeting, convention, and event planners",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1131": {
+   "title": "Fundraisers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1141": {
+   "title": "Compensation, benefits, and job analysis specialists",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1151": {
+   "title": "Training and development specialists",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "13-1161": {
+   "title": "Market research analysts and marketing specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-1199": {
+   "title": "Business operations specialists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2011": {
+   "title": "Accountants and auditors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2020": {
+   "title": "Property appraisers and assessors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "13-2031": {
+   "title": "Budget analysts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2041": {
+   "title": "Credit analysts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2051": {
+   "title": "Financial and investment analysts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2052": {
+   "title": "Personal financial advisors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "13-2053": {
+   "title": "Insurance underwriters",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-2054": {
+   "title": "Financial risk specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "13-2061": {
+   "title": "Financial examiners",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "13-2071": {
+   "title": "Credit counselors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-2072": {
+   "title": "Loan officers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-2081": {
+   "title": "Tax examiners and collectors, and revenue agents",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-2082": {
+   "title": "Tax preparers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "13-2099": {
+   "title": "Financial specialists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1211": {
+   "title": "Computer systems analysts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1212": {
+   "title": "Information security analysts",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "15-1221": {
+   "title": "Computer and information research scientists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1231": {
+   "title": "Computer network support specialists",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "15-1232": {
+   "title": "Computer user support specialists",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "15-1241": {
+   "title": "Computer network architects",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "15-1242": {
+   "title": "Database administrators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1243": {
+   "title": "Database architects",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "15-1244": {
+   "title": "Network and computer systems administrators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1251": {
+   "title": "Computer programmers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1252": {
+   "title": "Software developers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1253": {
+   "title": "Software quality assurance analysts and testers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1254": {
+   "title": "Web developers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1255": {
+   "title": "Web and digital interface designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-1299": {
+   "title": "Computer occupations, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-2011": {
+   "title": "Actuaries",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "15-2021": {
+   "title": "Mathematicians",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-2031": {
+   "title": "Operations research analysts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-2041": {
+   "title": "Statisticians",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-2051": {
+   "title": "Data scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "15-2099": {
+   "title": "Mathematical science occupations, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-1011": {
+   "title": "Architects, except landscape and naval",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "17-1012": {
+   "title": "Landscape architects",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "17-1021": {
+   "title": "Cartographers and photogrammetrists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-1022": {
+   "title": "Surveyors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "17-2011": {
+   "title": "Aerospace engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2021": {
+   "title": "Agricultural engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2031": {
+   "title": "Bioengineers and biomedical engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2041": {
+   "title": "Chemical engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2051": {
+   "title": "Civil engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2061": {
+   "title": "Computer hardware engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2071": {
+   "title": "Electrical engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2072": {
+   "title": "Electronics engineers, except computer",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2081": {
+   "title": "Environmental engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2111": {
+   "title": "Health and safety engineers, except mining safety engineers and inspectors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2112": {
+   "title": "Industrial engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2121": {
+   "title": "Marine engineers and naval architects",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2131": {
+   "title": "Materials engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2141": {
+   "title": "Mechanical engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2151": {
+   "title": "Mining and geological engineers, including mining safety engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2161": {
+   "title": "Nuclear engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2171": {
+   "title": "Petroleum engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-2199": {
+   "title": "Engineers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3011": {
+   "title": "Architectural and civil drafters",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3012": {
+   "title": "Electrical and electronics drafters",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3013": {
+   "title": "Mechanical drafters",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3019": {
+   "title": "Drafters, all other",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3021": {
+   "title": "Aerospace engineering and operations technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3022": {
+   "title": "Civil engineering technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3023": {
+   "title": "Electrical and electronic engineering technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3024": {
+   "title": "Electro-mechanical and mechatronics technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3025": {
+   "title": "Environmental engineering technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3026": {
+   "title": "Industrial engineering technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3027": {
+   "title": "Mechanical engineering technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3028": {
+   "title": "Calibration technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3029": {
+   "title": "Engineering technologists and technicians, except drafters, all other",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "17-3031": {
+   "title": "Surveying and mapping technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-1011": {
+   "title": "Animal scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1012": {
+   "title": "Food scientists and technologists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1013": {
+   "title": "Soil and plant scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1021": {
+   "title": "Biochemists and biophysicists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1022": {
+   "title": "Microbiologists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1023": {
+   "title": "Zoologists and wildlife biologists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1029": {
+   "title": "Biological scientists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1031": {
+   "title": "Conservation scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1032": {
+   "title": "Foresters",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1041": {
+   "title": "Epidemiologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1042": {
+   "title": "Medical scientists, except epidemiologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-1099": {
+   "title": "Life scientists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2011": {
+   "title": "Astronomers",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2012": {
+   "title": "Physicists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2021": {
+   "title": "Atmospheric and space scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2031": {
+   "title": "Chemists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2032": {
+   "title": "Materials scientists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2041": {
+   "title": "Environmental scientists and specialists, including health",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2042": {
+   "title": "Geoscientists, except hydrologists and geographers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2043": {
+   "title": "Hydrologists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-2099": {
+   "title": "Physical scientists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3011": {
+   "title": "Economists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3022": {
+   "title": "Survey researchers",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3032": {
+   "title": "Industrial-organizational psychologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "19-3033": {
+   "title": "Clinical and counseling psychologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "19-3034": {
+   "title": "School psychologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "19-3039": {
+   "title": "Psychologists, all other",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "19-3041": {
+   "title": "Sociologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3051": {
+   "title": "Urban and regional planners",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3091": {
+   "title": "Anthropologists and archeologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3092": {
+   "title": "Geographers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3093": {
+   "title": "Historians",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3094": {
+   "title": "Political scientists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-3099": {
+   "title": "Social scientists and related workers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-4012": {
+   "title": "Agricultural technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4013": {
+   "title": "Food science technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4021": {
+   "title": "Biological technicians",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-4031": {
+   "title": "Chemical technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4042": {
+   "title": "Environmental science and protection technicians, including health",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-4043": {
+   "title": "Geological technicians, except hydrologic technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4044": {
+   "title": "Hydrologic technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4051": {
+   "title": "Nuclear technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4061": {
+   "title": "Social science research assistants",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-4071": {
+   "title": "Forest and conservation technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-4092": {
+   "title": "Forensic science technicians",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "19-4099": {
+   "title": "Life, physical, and social science technicians, all other",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-5011": {
+   "title": "Occupational health and safety specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "19-5012": {
+   "title": "Occupational health and safety technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "21-1012": {
+   "title": "Educational, guidance, and career counselors and advisors",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1013": {
+   "title": "Marriage and family therapists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "21-1015": {
+   "title": "Rehabilitation counselors",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1018": {
+   "title": "Substance abuse, behavioral disorder, and mental health counselors",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "21-1019": {
+   "title": "Counselors, all other",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1021": {
+   "title": "Child, family, and school social workers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1022": {
+   "title": "Healthcare social workers",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "21-1023": {
+   "title": "Mental health and substance abuse social workers",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "21-1029": {
+   "title": "Social workers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1091": {
+   "title": "Health education specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-1092": {
+   "title": "Probation officers and correctional treatment specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "21-1093": {
+   "title": "Social and human service assistants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "21-1094": {
+   "title": "Community health workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "21-1099": {
+   "title": "Community and social service specialists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "21-2011": {
+   "title": "Clergy",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "21-2021": {
+   "title": "Directors, religious activities and education",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "21-2099": {
+   "title": "Religious workers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "23-1011": {
+   "title": "Lawyers",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "23-1012": {
+   "title": "Judicial law clerks",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "23-1021": {
+   "title": "Administrative law judges, adjudicators, and hearing officers",
+   "education": "Doctoral or professional degree",
+   "experience": "5 years or more",
+   "training": "Short-term on-the-job training"
+  },
+  "23-1022": {
+   "title": "Arbitrators, mediators, and conciliators",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "23-1023": {
+   "title": "Judges, magistrate judges, and magistrates",
+   "education": "Doctoral or professional degree",
+   "experience": "5 years or more",
+   "training": "Short-term on-the-job training"
+  },
+  "23-2011": {
+   "title": "Paralegals and legal assistants",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "23-2093": {
+   "title": "Title examiners, abstractors, and searchers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "23-2099": {
+   "title": "Legal support workers, all other",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1011": {
+   "title": "Business teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1021": {
+   "title": "Computer science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1022": {
+   "title": "Mathematical science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1031": {
+   "title": "Architecture teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1032": {
+   "title": "Engineering teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1041": {
+   "title": "Agricultural sciences teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1042": {
+   "title": "Biological science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1043": {
+   "title": "Forestry and conservation science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1051": {
+   "title": "Atmospheric, earth, marine, and space sciences teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1052": {
+   "title": "Chemistry teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1053": {
+   "title": "Environmental science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1054": {
+   "title": "Physics teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1061": {
+   "title": "Anthropology and archeology teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1062": {
+   "title": "Area, ethnic, and cultural studies teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1063": {
+   "title": "Economics teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1064": {
+   "title": "Geography teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1065": {
+   "title": "Political science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1066": {
+   "title": "Psychology teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1067": {
+   "title": "Sociology teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1069": {
+   "title": "Social sciences teachers, postsecondary, all other",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1071": {
+   "title": "Health specialties teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-1072": {
+   "title": "Nursing instructors and teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-1081": {
+   "title": "Education teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-1082": {
+   "title": "Library science teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1111": {
+   "title": "Criminal justice and law enforcement teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1112": {
+   "title": "Law teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-1113": {
+   "title": "Social work teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1121": {
+   "title": "Art, drama, and music teachers, postsecondary",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1122": {
+   "title": "Communications teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1123": {
+   "title": "English language and literature teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1124": {
+   "title": "Foreign language and literature teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1125": {
+   "title": "History teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1126": {
+   "title": "Philosophy and religion teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1192": {
+   "title": "Family and consumer sciences teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1193": {
+   "title": "Recreation and fitness studies teachers, postsecondary",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-1194": {
+   "title": "Career/technical education teachers, postsecondary",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-1199": {
+   "title": "Postsecondary teachers, all other",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2011": {
+   "title": "Preschool teachers, except special education",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2012": {
+   "title": "Kindergarten teachers, except special education",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2021": {
+   "title": "Elementary school teachers, except special education",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2022": {
+   "title": "Middle school teachers, except special and career/technical education",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2023": {
+   "title": "Career/technical education teachers, middle school",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-2031": {
+   "title": "Secondary school teachers, except special and career/technical education",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2032": {
+   "title": "Career/technical education teachers, secondary school",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-2051": {
+   "title": "Special education teachers, preschool",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2052": {
+   "title": "Special education teachers, kindergarten and elementary school",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2057": {
+   "title": "Special education teachers, middle school",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2058": {
+   "title": "Special education teachers, secondary school",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-2059": {
+   "title": "Special education teachers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-3011": {
+   "title": "Adult basic education, adult secondary education, and english as a second language instructors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-3021": {
+   "title": "Self-enrichment teachers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "25-3031": {
+   "title": "Substitute teachers, short-term",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-3041": {
+   "title": "Tutors",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-3099": {
+   "title": "Teachers and instructors, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-4011": {
+   "title": "Archivists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-4012": {
+   "title": "Curators",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-4013": {
+   "title": "Museum technicians and conservators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-4022": {
+   "title": "Librarians and media collections specialists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-4031": {
+   "title": "Library technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-9021": {
+   "title": "Farm and home management educators",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-9031": {
+   "title": "Instructional coordinators",
+   "education": "Master's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "25-9044": {
+   "title": "Teaching assistants, postsecondary",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-9045": {
+   "title": "Teaching assistants, except postsecondary",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "25-9099": {
+   "title": "Educational instruction and library workers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1011": {
+   "title": "Art directors",
+   "education": "Bachelor's degree",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "27-1012": {
+   "title": "Craft artists",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-1013": {
+   "title": "Fine artists, including painters, sculptors, and illustrators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-1014": {
+   "title": "Special effects artists and animators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1019": {
+   "title": "Artists and related workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-1021": {
+   "title": "Commercial and industrial designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1022": {
+   "title": "Fashion designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1023": {
+   "title": "Floral designers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "27-1024": {
+   "title": "Graphic designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1025": {
+   "title": "Interior designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1026": {
+   "title": "Merchandise displayers and window trimmers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-1027": {
+   "title": "Set and exhibit designers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-1029": {
+   "title": "Designers, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-2011": {
+   "title": "Actors",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-2012": {
+   "title": "Producers and directors",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "27-2021": {
+   "title": "Athletes and sports competitors",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-2022": {
+   "title": "Coaches and scouts",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-2023": {
+   "title": "Umpires, referees, and other sports officials",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "27-2031": {
+   "title": "Dancers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-2032": {
+   "title": "Choreographers",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "Long-term on-the-job training"
+  },
+  "27-2041": {
+   "title": "Music directors and composers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "27-2042": {
+   "title": "Musicians and singers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-2091": {
+   "title": "Disc jockeys, except radio",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-2099": {
+   "title": "Entertainers and performers, sports and related workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-3011": {
+   "title": "Broadcast announcers and radio disc jockeys",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-3023": {
+   "title": "News analysts, reporters, and journalists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-3031": {
+   "title": "Public relations specialists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-3041": {
+   "title": "Editors",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "27-3042": {
+   "title": "Technical writers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "27-3043": {
+   "title": "Writers and authors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "27-3091": {
+   "title": "Interpreters and translators",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-3092": {
+   "title": "Court reporters and simultaneous captioners",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-3099": {
+   "title": "Media and communication workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-4011": {
+   "title": "Audio and video technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-4012": {
+   "title": "Broadcast technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-4014": {
+   "title": "Sound engineering technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-4015": {
+   "title": "Lighting technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "27-4021": {
+   "title": "Photographers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "27-4031": {
+   "title": "Camera operators, television, video, and film",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-4032": {
+   "title": "Film and video editors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "27-4099": {
+   "title": "Media and communication equipment workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "29-1011": {
+   "title": "Chiropractors",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1021": {
+   "title": "Dentists, general",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1022": {
+   "title": "Oral and maxillofacial surgeons",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1023": {
+   "title": "Orthodontists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1024": {
+   "title": "Prosthodontists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1029": {
+   "title": "Dentists, all other specialists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1031": {
+   "title": "Dietitians and nutritionists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1041": {
+   "title": "Optometrists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1051": {
+   "title": "Pharmacists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1071": {
+   "title": "Physician assistants",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1081": {
+   "title": "Podiatrists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1122": {
+   "title": "Occupational therapists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1123": {
+   "title": "Physical therapists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1124": {
+   "title": "Radiation therapists",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1125": {
+   "title": "Recreational therapists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1126": {
+   "title": "Respiratory therapists",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1127": {
+   "title": "Speech-language pathologists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1128": {
+   "title": "Exercise physiologists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1129": {
+   "title": "Therapists, all other",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1131": {
+   "title": "Veterinarians",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1141": {
+   "title": "Registered nurses",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1151": {
+   "title": "Nurse anesthetists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1161": {
+   "title": "Nurse midwives",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1171": {
+   "title": "Nurse practitioners",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1181": {
+   "title": "Audiologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1211": {
+   "title": "Anesthesiologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1212": {
+   "title": "Cardiologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1213": {
+   "title": "Dermatologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1214": {
+   "title": "Emergency medicine physicians",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1215": {
+   "title": "Family medicine physicians",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1216": {
+   "title": "General internal medicine physicians",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1217": {
+   "title": "Neurologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1218": {
+   "title": "Obstetricians and gynecologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1221": {
+   "title": "Pediatricians, general",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1222": {
+   "title": "Physicians, pathologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1223": {
+   "title": "Psychiatrists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1224": {
+   "title": "Radiologists",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1229": {
+   "title": "Physicians, all other",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1241": {
+   "title": "Ophthalmologists, except pediatric",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1242": {
+   "title": "Orthopedic surgeons, except pediatric",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1243": {
+   "title": "Pediatric surgeons",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1249": {
+   "title": "Surgeons, all other",
+   "education": "Doctoral or professional degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-1291": {
+   "title": "Acupuncturists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1292": {
+   "title": "Dental hygienists",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-1299": {
+   "title": "Healthcare diagnosing or treating practitioners, all other",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2010": {
+   "title": "Clinical laboratory technologists and technicians",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2031": {
+   "title": "Cardiovascular technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2032": {
+   "title": "Diagnostic medical sonographers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2033": {
+   "title": "Nuclear medicine technologists",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2034": {
+   "title": "Radiologic technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2035": {
+   "title": "Magnetic resonance imaging technologists",
+   "education": "Associate's degree",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "29-2036": {
+   "title": "Medical dosimetrists",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2042": {
+   "title": "Emergency medical technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2043": {
+   "title": "Paramedics",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "29-2051": {
+   "title": "Dietetic technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2052": {
+   "title": "Pharmacy technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "29-2053": {
+   "title": "Psychiatric technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "29-2055": {
+   "title": "Surgical technologists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2056": {
+   "title": "Veterinary technologists and technicians",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2057": {
+   "title": "Ophthalmic medical technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2061": {
+   "title": "Licensed practical and licensed vocational nurses",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2072": {
+   "title": "Medical records specialists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-2081": {
+   "title": "Opticians, dispensing",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "29-2091": {
+   "title": "Orthotists and prosthetists",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "Internship/residency"
+  },
+  "29-2092": {
+   "title": "Hearing aid specialists",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "29-2099": {
+   "title": "Health technologists and technicians, all other",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-9021": {
+   "title": "Health information technologists and medical registrars",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-9091": {
+   "title": "Athletic trainers",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-9092": {
+   "title": "Genetic counselors",
+   "education": "Master's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-9093": {
+   "title": "Surgical assistants",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "29-9099": {
+   "title": "Healthcare practitioners and technical workers, all other",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-1120": {
+   "title": "Home health and personal care aides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-1131": {
+   "title": "Nursing assistants",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-1132": {
+   "title": "Orderlies",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-1133": {
+   "title": "Psychiatric aides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-2011": {
+   "title": "Occupational therapy assistants",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-2012": {
+   "title": "Occupational therapy aides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-2021": {
+   "title": "Physical therapist assistants",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-2022": {
+   "title": "Physical therapist aides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-9011": {
+   "title": "Massage therapists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-9091": {
+   "title": "Dental assistants",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-9092": {
+   "title": "Medical assistants",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-9093": {
+   "title": "Medical equipment preparers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "31-9094": {
+   "title": "Medical transcriptionists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-9095": {
+   "title": "Pharmacy aides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-9096": {
+   "title": "Veterinary assistants and laboratory animal caretakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "31-9097": {
+   "title": "Phlebotomists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "31-9099": {
+   "title": "Healthcare support workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "None"
+  },
+  "33-1011": {
+   "title": "First-line supervisors of correctional officers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "33-1012": {
+   "title": "First-line supervisors of police and detectives",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-1021": {
+   "title": "First-line supervisors of firefighting and prevention workers",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-1091": {
+   "title": "First-line supervisors of security workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "33-1099": {
+   "title": "First-line supervisors of protective service workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "33-2011": {
+   "title": "Firefighters",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "33-2021": {
+   "title": "Fire inspectors and investigators",
+   "education": "Postsecondary nondegree award",
+   "experience": "5 years or more",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-2022": {
+   "title": "Forest fire inspectors and prevention specialists",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3011": {
+   "title": "Bailiffs",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3012": {
+   "title": "Correctional officers and jailers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3021": {
+   "title": "Detectives and criminal investigators",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3031": {
+   "title": "Fish and game wardens",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3041": {
+   "title": "Parking enforcement workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-3051": {
+   "title": "Police and sheriff's patrol officers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-3052": {
+   "title": "Transit and railroad police",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-9011": {
+   "title": "Animal control workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-9021": {
+   "title": "Private detectives and investigators",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-9031": {
+   "title": "Gambling surveillance officers and gambling investigators",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "33-9032": {
+   "title": "Security guards",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-9091": {
+   "title": "Crossing guards and flaggers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-9092": {
+   "title": "Lifeguards, ski patrol, and other recreational protective service workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-9093": {
+   "title": "Transportation security screeners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-9094": {
+   "title": "School bus monitors",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "33-9099": {
+   "title": "Protective service workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-1011": {
+   "title": "Chefs and head cooks",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "35-1012": {
+   "title": "First-line supervisors of food preparation and serving workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "35-2011": {
+   "title": "Cooks, fast food",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-2012": {
+   "title": "Cooks, institution and cafeteria",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-2013": {
+   "title": "Cooks, private household",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "35-2014": {
+   "title": "Cooks, restaurant",
+   "education": "No formal educational credential",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "35-2015": {
+   "title": "Cooks, short order",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-2019": {
+   "title": "Cooks, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "35-2021": {
+   "title": "Food preparation workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-3011": {
+   "title": "Bartenders",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-3023": {
+   "title": "Fast food and counter workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-3031": {
+   "title": "Waiters and waitresses",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-3041": {
+   "title": "Food servers, nonrestaurant",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-9011": {
+   "title": "Dining room and cafeteria attendants and bartender helpers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-9021": {
+   "title": "Dishwashers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-9031": {
+   "title": "Hosts and hostesses, restaurant, lounge, and coffee shop",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "35-9099": {
+   "title": "Food preparation and serving related workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-1011": {
+   "title": "First-line supervisors of housekeeping and janitorial workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "37-1012": {
+   "title": "First-line supervisors of landscaping, lawn service, and groundskeeping workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "37-2011": {
+   "title": "Janitors and cleaners, except maids and housekeeping cleaners",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-2012": {
+   "title": "Maids and housekeeping cleaners",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-2019": {
+   "title": "Building cleaning workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-2021": {
+   "title": "Pest control workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "37-3011": {
+   "title": "Landscaping and groundskeeping workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-3012": {
+   "title": "Pesticide handlers, sprayers, and applicators, vegetation",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "37-3013": {
+   "title": "Tree trimmers and pruners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "37-3019": {
+   "title": "Grounds maintenance workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-1013": {
+   "title": "First-line supervisors of gambling services workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "39-1014": {
+   "title": "First-line supervisors of entertainment and recreation workers, except gambling services",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "39-1022": {
+   "title": "First-line supervisors of personal service workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "39-2011": {
+   "title": "Animal trainers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "39-2021": {
+   "title": "Animal caretakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3011": {
+   "title": "Gambling dealers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3012": {
+   "title": "Gambling and sports book writers and runners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3019": {
+   "title": "Gambling service workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3021": {
+   "title": "Motion picture projectionists",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3031": {
+   "title": "Ushers, lobby attendants, and ticket takers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3091": {
+   "title": "Amusement and recreation attendants",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3092": {
+   "title": "Costume attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3093": {
+   "title": "Locker room, coatroom, and dressing room attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-3099": {
+   "title": "Entertainment attendants and related workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-4011": {
+   "title": "Embalmers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "39-4012": {
+   "title": "Crematory operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-4021": {
+   "title": "Funeral attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-4031": {
+   "title": "Morticians, undertakers, and funeral arrangers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "39-5011": {
+   "title": "Barbers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "39-5012": {
+   "title": "Hairdressers, hairstylists, and cosmetologists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "39-5091": {
+   "title": "Makeup artists, theatrical and performance",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "39-5092": {
+   "title": "Manicurists and pedicurists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "39-5093": {
+   "title": "Shampooers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-5094": {
+   "title": "Skincare specialists",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "39-6011": {
+   "title": "Baggage porters and bellhops",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-6012": {
+   "title": "Concierges",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "39-7010": {
+   "title": "Tour and travel guides",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "39-9011": {
+   "title": "Childcare workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-9031": {
+   "title": "Exercise trainers and group fitness instructors",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-9032": {
+   "title": "Recreation workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-9041": {
+   "title": "Residential advisors",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "39-9099": {
+   "title": "Personal care and service workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-1011": {
+   "title": "First-line supervisors of retail sales workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "41-1012": {
+   "title": "First-line supervisors of non-retail sales workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "41-2011": {
+   "title": "Cashiers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-2012": {
+   "title": "Gambling change persons and booth cashiers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-2021": {
+   "title": "Counter and rental clerks",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-2022": {
+   "title": "Parts salespersons",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-2031": {
+   "title": "Retail salespersons",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-3011": {
+   "title": "Advertising sales agents",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-3021": {
+   "title": "Insurance sales agents",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-3031": {
+   "title": "Securities, commodities, and financial services sales agents",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-3041": {
+   "title": "Travel agents",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-3091": {
+   "title": "Sales representatives of services, except advertising, insurance, financial services, and travel",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-4011": {
+   "title": "Sales representatives, wholesale and manufacturing, technical and scientific products",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-4012": {
+   "title": "Sales representatives, wholesale and manufacturing, except technical and scientific products",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-9011": {
+   "title": "Demonstrators and product promoters",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-9012": {
+   "title": "Models",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "None"
+  },
+  "41-9021": {
+   "title": "Real estate brokers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "41-9022": {
+   "title": "Real estate sales agents",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-9031": {
+   "title": "Sales engineers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "41-9041": {
+   "title": "Telemarketers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-9091": {
+   "title": "Door-to-door sales workers, news and street vendors, and related workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "41-9099": {
+   "title": "Sales and related workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "None"
+  },
+  "43-1011": {
+   "title": "First-line supervisors of office and administrative support workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "43-2011": {
+   "title": "Switchboard operators, including answering service",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-2021": {
+   "title": "Telephone operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-2099": {
+   "title": "Communications equipment operators, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-3011": {
+   "title": "Bill and account collectors",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-3021": {
+   "title": "Billing and posting clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-3031": {
+   "title": "Bookkeeping, accounting, and auditing clerks",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-3041": {
+   "title": "Gambling cage workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-3051": {
+   "title": "Payroll and timekeeping clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-3061": {
+   "title": "Procurement clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-3071": {
+   "title": "Tellers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-3099": {
+   "title": "Financial clerks, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4011": {
+   "title": "Brokerage clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-4021": {
+   "title": "Correspondence clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4031": {
+   "title": "Court, municipal, and license clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "43-4041": {
+   "title": "Credit authorizers, checkers, and clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-4051": {
+   "title": "Customer service representatives",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4061": {
+   "title": "Eligibility interviewers, government programs",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-4071": {
+   "title": "File clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4081": {
+   "title": "Hotel, motel, and resort desk clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4111": {
+   "title": "Interviewers, except eligibility and loan",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4121": {
+   "title": "Library assistants, clerical",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4131": {
+   "title": "Loan interviewers and clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4141": {
+   "title": "New accounts clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-4151": {
+   "title": "Order clerks",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4161": {
+   "title": "Human resources assistants, except payroll and timekeeping",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "43-4171": {
+   "title": "Receptionists and information clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4181": {
+   "title": "Reservation and transportation ticket agents and travel clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-4199": {
+   "title": "Information and record clerks, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5011": {
+   "title": "Cargo and freight agents",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5021": {
+   "title": "Couriers and messengers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5031": {
+   "title": "Public safety telecommunicators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-5032": {
+   "title": "Dispatchers, except police, fire, and ambulance",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-5041": {
+   "title": "Meter readers, utilities",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5051": {
+   "title": "Postal service clerks",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5052": {
+   "title": "Postal service mail carriers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5053": {
+   "title": "Postal service mail sorters, processors, and processing machine operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5061": {
+   "title": "Production, planning, and expediting clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-5071": {
+   "title": "Shipping, receiving, and inventory clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-5111": {
+   "title": "Weighers, measurers, checkers, and samplers, recordkeeping",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-6011": {
+   "title": "Executive secretaries and executive administrative assistants",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "43-6012": {
+   "title": "Legal secretaries and administrative assistants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-6013": {
+   "title": "Medical secretaries and administrative assistants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-6014": {
+   "title": "Secretaries and administrative assistants, except legal, medical, and executive",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9021": {
+   "title": "Data entry keyers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9022": {
+   "title": "Word processors and typists",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9031": {
+   "title": "Desktop publishers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9041": {
+   "title": "Insurance claims and policy processing clerks",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "43-9051": {
+   "title": "Mail clerks and mail machine operators, except postal service",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9061": {
+   "title": "Office clerks, general",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9071": {
+   "title": "Office machine operators, except computer",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "43-9081": {
+   "title": "Proofreaders and copy markers",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "43-9111": {
+   "title": "Statistical assistants",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "None"
+  },
+  "43-9199": {
+   "title": "Office and administrative support workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-1011": {
+   "title": "First-line supervisors of farming, fishing, and forestry workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "45-2011": {
+   "title": "Agricultural inspectors",
+   "education": "Bachelor's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-2021": {
+   "title": "Animal breeders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-2041": {
+   "title": "Graders and sorters, agricultural products",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-2091": {
+   "title": "Agricultural equipment operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-2092": {
+   "title": "Farmworkers and laborers, crop, nursery, and greenhouse",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-2093": {
+   "title": "Farmworkers, farm, ranch, and aquacultural animals",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-2099": {
+   "title": "Agricultural workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "45-3031": {
+   "title": "Fishing and hunting workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-4011": {
+   "title": "Forest and conservation workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-4021": {
+   "title": "Fallers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-4022": {
+   "title": "Logging equipment operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-4023": {
+   "title": "Log graders and scalers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "45-4029": {
+   "title": "Logging workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-1011": {
+   "title": "First-line supervisors of construction trades and extraction workers",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "None"
+  },
+  "47-2011": {
+   "title": "Boilermakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2021": {
+   "title": "Brickmasons and blockmasons",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2022": {
+   "title": "Stonemasons",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2031": {
+   "title": "Carpenters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2041": {
+   "title": "Carpet installers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-2042": {
+   "title": "Floor layers, except carpet, wood, and hard tiles",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2043": {
+   "title": "Floor sanders and finishers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2044": {
+   "title": "Tile and stone setters",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "47-2051": {
+   "title": "Cement masons and concrete finishers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2053": {
+   "title": "Terrazzo workers and finishers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2061": {
+   "title": "Construction laborers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-2071": {
+   "title": "Paving, surfacing, and tamping equipment operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2072": {
+   "title": "Pile driver operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2073": {
+   "title": "Operating engineers and other construction equipment operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2081": {
+   "title": "Drywall and ceiling tile installers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2082": {
+   "title": "Tapers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2111": {
+   "title": "Electricians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2121": {
+   "title": "Glaziers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2131": {
+   "title": "Insulation workers, floor, ceiling, and wall",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-2132": {
+   "title": "Insulation workers, mechanical",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2141": {
+   "title": "Painters, construction and maintenance",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2142": {
+   "title": "Paperhangers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "47-2151": {
+   "title": "Pipelayers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-2152": {
+   "title": "Plumbers, pipefitters, and steamfitters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2161": {
+   "title": "Plasterers and stucco masons",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "47-2171": {
+   "title": "Reinforcing iron and rebar workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2181": {
+   "title": "Roofers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-2211": {
+   "title": "Sheet metal workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2221": {
+   "title": "Structural iron and steel workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-2231": {
+   "title": "Solar photovoltaic installers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-3011": {
+   "title": "Helpers--brickmasons, blockmasons, stonemasons, and tile and marble setters",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3012": {
+   "title": "Helpers--carpenters",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3013": {
+   "title": "Helpers--electricians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3014": {
+   "title": "Helpers--painters, paperhangers, plasterers, and stucco masons",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3015": {
+   "title": "Helpers--pipelayers, plumbers, pipefitters, and steamfitters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3016": {
+   "title": "Helpers--roofers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-3019": {
+   "title": "Helpers, construction trades, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-4011": {
+   "title": "Construction and building inspectors",
+   "education": "High school diploma or equivalent",
+   "experience": "5 years or more",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4021": {
+   "title": "Elevator and escalator installers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "47-4031": {
+   "title": "Fence erectors",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4041": {
+   "title": "Hazardous materials removal workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4051": {
+   "title": "Highway maintenance workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4061": {
+   "title": "Rail-track laying and maintenance equipment operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4071": {
+   "title": "Septic tank servicers and sewer pipe cleaners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-4090": {
+   "title": "Miscellaneous construction and related workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5011": {
+   "title": "Derrick operators, oil and gas",
+   "education": "No formal educational credential",
+   "experience": "Less than 5 years",
+   "training": "Short-term on-the-job training"
+  },
+  "47-5012": {
+   "title": "Rotary drill operators, oil and gas",
+   "education": "No formal educational credential",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5013": {
+   "title": "Service unit operators, oil and gas",
+   "education": "No formal educational credential",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5022": {
+   "title": "Excavating and loading machine and dragline operators, surface mining",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5023": {
+   "title": "Earth drillers, except oil and gas",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Long-term on-the-job training"
+  },
+  "47-5032": {
+   "title": "Explosives workers, ordnance handling experts, and blasters",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Long-term on-the-job training"
+  },
+  "47-5041": {
+   "title": "Continuous mining machine operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5043": {
+   "title": "Roof bolters, mining",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5044": {
+   "title": "Loading and moving machine operators, underground mining",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-5049": {
+   "title": "Underground mining machine operators, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5051": {
+   "title": "Rock splitters, quarry",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "47-5071": {
+   "title": "Roustabouts, oil and gas",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5081": {
+   "title": "Helpers--extraction workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "47-5099": {
+   "title": "Extraction workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-1011": {
+   "title": "First-line supervisors of mechanics, installers, and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "49-2011": {
+   "title": "Computer, automated teller, and office machine repairers",
+   "education": "Some college, no degree",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-2021": {
+   "title": "Radio, cellular, and tower equipment installers and repairers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2022": {
+   "title": "Telecommunications equipment installers and repairers, except line installers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2091": {
+   "title": "Avionics technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "49-2092": {
+   "title": "Electric motor, power tool, and related repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2093": {
+   "title": "Electrical and electronics installers and repairers, transportation equipment",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2094": {
+   "title": "Electrical and electronics repairers, commercial and industrial equipment",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-2095": {
+   "title": "Electrical and electronics repairers, powerhouse, substation, and relay",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2096": {
+   "title": "Electronic equipment installers and repairers, motor vehicles",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-2097": {
+   "title": "Audiovisual equipment installers and repairers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-2098": {
+   "title": "Security and fire alarm systems installers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-3011": {
+   "title": "Aircraft mechanics and service technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "49-3021": {
+   "title": "Automotive body and related repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3022": {
+   "title": "Automotive glass installers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-3023": {
+   "title": "Automotive service technicians and mechanics",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-3031": {
+   "title": "Bus and truck mechanics and diesel engine specialists",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3041": {
+   "title": "Farm equipment mechanics and service technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3042": {
+   "title": "Mobile heavy equipment mechanics, except engines",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3043": {
+   "title": "Rail car repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3051": {
+   "title": "Motorboat mechanics and service technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3052": {
+   "title": "Motorcycle mechanics",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-3053": {
+   "title": "Outdoor power equipment and other small engine mechanics",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-3091": {
+   "title": "Bicycle repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-3092": {
+   "title": "Recreational vehicle service technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-3093": {
+   "title": "Tire repairers and changers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-9011": {
+   "title": "Mechanical door repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9012": {
+   "title": "Control and valve installers and repairers, except mechanical door",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9021": {
+   "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9031": {
+   "title": "Home appliance repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9041": {
+   "title": "Industrial machinery mechanics",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9043": {
+   "title": "Maintenance workers, machinery",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9044": {
+   "title": "Millwrights",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "49-9045": {
+   "title": "Refractory materials repairers, except brickmasons",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9051": {
+   "title": "Electrical power-line installers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9052": {
+   "title": "Telecommunications line installers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9061": {
+   "title": "Camera and photographic equipment repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9062": {
+   "title": "Medical equipment repairers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9063": {
+   "title": "Musical instrument repairers and tuners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Apprenticeship"
+  },
+  "49-9064": {
+   "title": "Watch and clock repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9069": {
+   "title": "Precision instrument and equipment repairers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9071": {
+   "title": "Maintenance and repair workers, general",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9081": {
+   "title": "Wind turbine service technicians",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9091": {
+   "title": "Coin, vending, and amusement machine servicers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-9092": {
+   "title": "Commercial divers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9094": {
+   "title": "Locksmiths and safe repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "49-9095": {
+   "title": "Manufactured building and mobile home installers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-9096": {
+   "title": "Riggers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9097": {
+   "title": "Signal and track switch repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "49-9098": {
+   "title": "Helpers--installation, maintenance, and repair workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "49-9099": {
+   "title": "Installation, maintenance, and repair workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-1011": {
+   "title": "First-line supervisors of production and operating workers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "51-2011": {
+   "title": "Aircraft structure, surfaces, rigging, and systems assemblers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2021": {
+   "title": "Coil winders, tapers, and finishers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2028": {
+   "title": "Electrical, electronic, and electromechanical assemblers, except coil winders, tapers, and finishers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2031": {
+   "title": "Engine and other machine assemblers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2041": {
+   "title": "Structural metal fabricators and fitters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2051": {
+   "title": "Fiberglass laminators and fabricators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2061": {
+   "title": "Timing device assemblers and adjusters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-2090": {
+   "title": "Miscellaneous assemblers and fabricators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3011": {
+   "title": "Bakers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3021": {
+   "title": "Butchers and meat cutters",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3022": {
+   "title": "Meat, poultry, and fish cutters and trimmers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-3023": {
+   "title": "Slaughterers and meat packers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-3091": {
+   "title": "Food and tobacco roasting, baking, and drying machine operators and tenders",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3092": {
+   "title": "Food batchmakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3093": {
+   "title": "Food cooking machine operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-3099": {
+   "title": "Food processing workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4021": {
+   "title": "Extruding and drawing machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4022": {
+   "title": "Forging machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4023": {
+   "title": "Rolling machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4031": {
+   "title": "Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4032": {
+   "title": "Drilling and boring machine tool setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4033": {
+   "title": "Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4034": {
+   "title": "Lathe and turning machine tool setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4035": {
+   "title": "Milling and planing machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4041": {
+   "title": "Machinists",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-4051": {
+   "title": "Metal-refining furnace operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4052": {
+   "title": "Pourers and casters, metal",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4061": {
+   "title": "Model makers, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4062": {
+   "title": "Patternmakers, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4071": {
+   "title": "Foundry mold and coremakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4072": {
+   "title": "Molding, coremaking, and casting machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4081": {
+   "title": "Multiple machine tool setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4111": {
+   "title": "Tool and die makers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-4121": {
+   "title": "Welders, cutters, solderers, and brazers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4122": {
+   "title": "Welding, soldering, and brazing machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4191": {
+   "title": "Heat treating equipment setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4192": {
+   "title": "Layout workers, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4193": {
+   "title": "Plating machine setters, operators, and tenders, metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4194": {
+   "title": "Tool grinders, filers, and sharpeners",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-4199": {
+   "title": "Metal workers and plastic workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-5111": {
+   "title": "Prepress technicians and workers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "None"
+  },
+  "51-5112": {
+   "title": "Printing press operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-5113": {
+   "title": "Print binding and finishing workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6011": {
+   "title": "Laundry and dry-cleaning workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6021": {
+   "title": "Pressers, textile, garment, and related materials",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6031": {
+   "title": "Sewing machine operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6041": {
+   "title": "Shoe and leather workers and repairers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6042": {
+   "title": "Shoe machine operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6051": {
+   "title": "Sewers, hand",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6052": {
+   "title": "Tailors, dressmakers, and custom sewers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6061": {
+   "title": "Textile bleaching and dyeing machine operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6062": {
+   "title": "Textile cutting machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6063": {
+   "title": "Textile knitting and weaving machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-6064": {
+   "title": "Textile winding, twisting, and drawing out machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6091": {
+   "title": "Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6092": {
+   "title": "Fabric and apparel patternmakers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6093": {
+   "title": "Upholsterers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-6099": {
+   "title": "Textile, apparel, and furnishings workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-7011": {
+   "title": "Cabinetmakers and bench carpenters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-7021": {
+   "title": "Furniture finishers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-7031": {
+   "title": "Model makers, wood",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-7032": {
+   "title": "Patternmakers, wood",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-7041": {
+   "title": "Sawing machine setters, operators, and tenders, wood",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-7042": {
+   "title": "Woodworking machine setters, operators, and tenders, except sawing",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-7099": {
+   "title": "Woodworkers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-8011": {
+   "title": "Nuclear power reactor operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8012": {
+   "title": "Power distributors and dispatchers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8013": {
+   "title": "Power plant operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8021": {
+   "title": "Stationary engineers and boiler operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8031": {
+   "title": "Water and wastewater treatment plant and system operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8091": {
+   "title": "Chemical plant and system operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-8092": {
+   "title": "Gas plant operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-8093": {
+   "title": "Petroleum pump system operators, refinery operators, and gaugers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-8099": {
+   "title": "Plant and system operators, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9011": {
+   "title": "Chemical equipment operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9012": {
+   "title": "Separating, filtering, clarifying, precipitating, and still machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9021": {
+   "title": "Crushing, grinding, and polishing machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9022": {
+   "title": "Grinding and polishing workers, hand",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9023": {
+   "title": "Mixing and blending machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9031": {
+   "title": "Cutters and trimmers, hand",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-9032": {
+   "title": "Cutting and slicing machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9041": {
+   "title": "Extruding, forming, pressing, and compacting machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9051": {
+   "title": "Furnace, kiln, oven, drier, and kettle operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9061": {
+   "title": "Inspectors, testers, sorters, samplers, and weighers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9071": {
+   "title": "Jewelers and precious stone and metal workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-9081": {
+   "title": "Dental laboratory technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9082": {
+   "title": "Medical appliance technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9083": {
+   "title": "Ophthalmic laboratory technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9111": {
+   "title": "Packaging and filling machine operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9123": {
+   "title": "Painting, coating, and decorating workers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9124": {
+   "title": "Coating, painting, and spraying machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9141": {
+   "title": "Semiconductor processing technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9151": {
+   "title": "Photographic process workers and processing machine operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-9161": {
+   "title": "Computer numerically controlled tool operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9162": {
+   "title": "Computer numerically controlled tool programmers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9191": {
+   "title": "Adhesive bonding machine operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9192": {
+   "title": "Cleaning, washing, and metal pickling equipment operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9193": {
+   "title": "Cooling and freezing equipment operators and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9194": {
+   "title": "Etchers and engravers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9195": {
+   "title": "Molders, shapers, and casters, except metal and plastic",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "51-9196": {
+   "title": "Paper goods machine setters, operators, and tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9197": {
+   "title": "Tire builders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "51-9198": {
+   "title": "Helpers--production workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "51-9199": {
+   "title": "Production workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-1041": {
+   "title": "Aircraft cargo handling supervisors",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "53-1047": {
+   "title": "First-line supervisors of transportation and material moving workers, except aircraft cargo handling supervisors",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "53-2011": {
+   "title": "Airline pilots, copilots, and flight engineers",
+   "education": "Bachelor's degree",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-2012": {
+   "title": "Commercial pilots",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-2021": {
+   "title": "Air traffic controllers",
+   "education": "Associate's degree",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "53-2022": {
+   "title": "Airfield operations specialists",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Long-term on-the-job training"
+  },
+  "53-2031": {
+   "title": "Flight attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-3011": {
+   "title": "Ambulance drivers and attendants, except emergency medical technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-3031": {
+   "title": "Driver/sales workers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3032": {
+   "title": "Heavy and tractor-trailer truck drivers",
+   "education": "Postsecondary nondegree award",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3033": {
+   "title": "Light truck drivers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3051": {
+   "title": "Bus drivers, school",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3052": {
+   "title": "Bus drivers, transit and intercity",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-3053": {
+   "title": "Shuttle drivers and chauffeurs",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3054": {
+   "title": "Taxi drivers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-3099": {
+   "title": "Motor vehicle operators, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-4011": {
+   "title": "Locomotive engineers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-4013": {
+   "title": "Rail yard engineers, dinkey operators, and hostlers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-4022": {
+   "title": "Railroad brake, signal, and switch operators and locomotive firers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-4031": {
+   "title": "Railroad conductors and yardmasters",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-4041": {
+   "title": "Subway and streetcar operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-4099": {
+   "title": "Rail transportation workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-5011": {
+   "title": "Sailors and marine oilers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-5021": {
+   "title": "Captains, mates, and pilots of water vessels",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "53-5022": {
+   "title": "Motorboat operators",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "53-5031": {
+   "title": "Ship engineers",
+   "education": "Postsecondary nondegree award",
+   "experience": "Less than 5 years",
+   "training": "None"
+  },
+  "53-6011": {
+   "title": "Bridge and lock tenders",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-6021": {
+   "title": "Parking attendants",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-6031": {
+   "title": "Automotive and watercraft service attendants",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-6032": {
+   "title": "Aircraft service attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-6041": {
+   "title": "Traffic technicians",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-6051": {
+   "title": "Transportation inspectors",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-6061": {
+   "title": "Passenger attendants",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-6099": {
+   "title": "Transportation workers, all other",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7011": {
+   "title": "Conveyor operators and tenders",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7021": {
+   "title": "Crane and tower operators",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-7031": {
+   "title": "Dredge operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-7041": {
+   "title": "Hoist and winch operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7051": {
+   "title": "Industrial truck and tractor operators",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7061": {
+   "title": "Cleaners of vehicles and equipment",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7062": {
+   "title": "Laborers and freight, stock, and material movers, hand",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7063": {
+   "title": "Machine feeders and offbearers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7064": {
+   "title": "Packers and packagers, hand",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7065": {
+   "title": "Stockers and order fillers",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7071": {
+   "title": "Gas compressor and gas pumping station operators",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-7072": {
+   "title": "Pump operators, except wellhead pumpers",
+   "education": "High school diploma or equivalent",
+   "experience": "None",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-7073": {
+   "title": "Wellhead pumpers",
+   "education": "High school diploma or equivalent",
+   "experience": "Less than 5 years",
+   "training": "Moderate-term on-the-job training"
+  },
+  "53-7081": {
+   "title": "Refuse and recyclable material collectors",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7121": {
+   "title": "Tank car, truck, and ship loaders",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  },
+  "53-7199": {
+   "title": "Material moving workers, all other",
+   "education": "No formal educational credential",
+   "experience": "None",
+   "training": "Short-term on-the-job training"
+  }
+ }
+}

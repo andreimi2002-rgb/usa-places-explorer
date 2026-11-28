@@ -150,6 +150,36 @@ test.describe("America 360 smoke", () => {
     await page.screenshot({ path: `test-results/screens/${info.project.name}-play-cities.png`, fullPage: true });
   });
 
+  test("life sim: start a life, get a job, fish, age up, and the save survives a reload", async ({ page }, info) => {
+    await page.goto("/play");
+    await page.evaluate(() => window.localStorage.clear());
+    await page.reload();
+    await expect(page.getByTestId("city-option")).toHaveCount(6);
+    await page.getByTestId("name-input").fill("Test Player");
+    await page.getByTestId("city-option").filter({ hasText: "Tallahassee" }).click();
+    await page.getByTestId("start-life").click();
+    await expect(page.getByTestId("life-name")).toHaveText("Test Player");
+    await expect(page.getByTestId("life-status")).toContainText("Age 18");
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-play-start.png`, fullPage: true });
+
+    await page.getByRole("button", { name: "Jobs", exact: true }).click();
+    await expect(page.getByTestId("job-row").first()).toBeVisible();
+    await page.getByTestId("job-row").first().getByRole("button", { name: /Apply/ }).click();
+    await expect(page.getByTestId("toast")).toBeVisible();
+
+    await page.getByRole("button", { name: "Outdoors", exact: true }).click();
+    await page.getByRole("button", { name: /Buy fishing license/ }).click();
+    await page.getByTestId("spot").filter({ hasText: "Lake Talquin" }).getByRole("button", { name: "Fish" }).click();
+    await expect(page.getByTestId("toast")).toContainText("Lake Talquin");
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-play-outdoors.png`, fullPage: true });
+
+    await page.getByTestId("age-up").click();
+    await expect(page.getByTestId("life-status")).toContainText(/Age 19|died/);
+    await page.reload();
+    await expect(page.getByTestId("life-name").or(page.getByTestId("obituary"))).toBeVisible();
+    await expect(page.getByTestId("life-status")).toContainText("Age 19");
+  });
+
   test("unknown pages return 404", async ({ page }) => {
     const r1 = await page.goto("/entities/does-not-exist");
     expect(r1?.status()).toBe(404);
@@ -159,7 +189,7 @@ test.describe("America 360 smoke", () => {
   });
 
   test("no horizontal overflow on key pages", async ({ page }) => {
-    for (const path of ["/", "/places/florida", "/places/jacksonville-fl", "/places/jacksonville-fl/directory", "/entities/jacksonville-jaguars", "/coverage"]) {
+    for (const path of ["/", "/play", "/places/florida", "/places/jacksonville-fl", "/places/jacksonville-fl/directory", "/entities/jacksonville-jaguars", "/coverage"]) {
       await page.goto(path);
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
       expect(overflow, path).toBeLessThanOrEqual(1);

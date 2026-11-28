@@ -2,14 +2,15 @@
 
 import { useMemo, useState, useSyncExternalStore } from "react";
 import {
-  ACTIONS_PER_YEAR, ASSUME, BEDROOMS, activityCost, ageUp, applyForJob, askForRaise, buyLicense, doActivity, dropOut, enroll, fmtMoney,
-  goOutdoors, jobCheck, metroOf, moveBackHome, moveCity, needsFishingLicense, netWorth, newLife, nightOut, programs, quitJob, rentCheck,
-  rentHome, retire, seeDoctor, setLifestyle, socialize, spotSpecies, study, takeHunterSafety, workHarder, workout, type Result,
+  ACTIONS_PER_YEAR, ASSUME, BEDROOMS, activityCost, ageUp, applyForJob, askForRaise, attendGame, buyCar, buyLicense, carQuote, doActivity, dropOut,
+  enroll, fmtMoney, gameCost, goOutdoors, jobCheck, metroOf, moveBackHome, moveCity, needsFishingLicense, netWorth, newLife, nightOut,
+  normalizeLife, programs, quitJob, rentCheck, rentHome, retire, seeDoctor, sellCar, setLifestyle, sideGig, socialize, spotSpecies, study,
+  takeHunterSafety, workHarder, workout, type Result,
 } from "../engine/life";
-import { EDUCATION_LABELS, type GameActivity, type GameData, type Life, type Lifestyle, type Stats } from "../engine/types";
+import { EDUCATION_LABELS, type Difficulty, type GameActivity, type GameData, type Life, type Lifestyle, type Stats } from "../engine/types";
 
 const SAVE_KEY = "a360-life-v1";
-const TABS = ["Life", "Jobs", "School", "Home", "Activities", "Outdoors", "Health"] as const;
+const TABS = ["Life", "Jobs", "School", "Home", "Car", "Activities", "Outdoors", "Health"] as const;
 type Tab = (typeof TABS)[number];
 
 const FIRST = { male: ["James", "Michael", "David", "Daniel", "Carlos", "Jayden", "Ethan", "Luis", "Marcus", "Tyler"], female: ["Olivia", "Emma", "Sophia", "Isabella", "Mia", "Ava", "Camila", "Aaliyah", "Madison", "Gabriela"] };
@@ -22,7 +23,7 @@ function loadSave(): Life | null {
   try {
     const raw = window.localStorage.getItem(SAVE_KEY);
     const l = raw ? (JSON.parse(raw) as Life) : null;
-    return l && typeof l.lifestyle === "string" ? l : null;
+    return l && typeof l.name === "string" && l.stats ? normalizeLife(l) : null;
   } catch {
     return null;
   }
@@ -60,7 +61,8 @@ export function Game({ data }: { data: GameData }) {
 
   if (!hydrated) return <p className="container-page pt-10 text-muted">Loading…</p>;
   if (!life) return <NewLife data={data} onStart={start} />;
-  if (!life.alive) return <Obituary data={data} life={life} onRestart={() => { writeSave(null); setLife(null); }} />;
+  const restart = () => { writeSave(null); setLife(null); setToast(null); };
+  if (!life.alive) return <Obituary data={data} life={life} onRestart={restart} />;
 
   const m = metroOf(data, life);
   return (
@@ -80,6 +82,12 @@ export function Game({ data }: { data: GameData }) {
           <strong className={life.debt > 0 ? "text-danger" : "text-ink"}>{fmtMoney(life.debt)}</strong>
           <span className="text-muted">Net worth</span>
           <strong>{fmtMoney(netWorth(life))}</strong>
+          <span className="col-span-2 mt-1 sm:text-right">
+            <button type="button" className="text-xs text-muted underline hover:text-gold" data-testid="new-life-anytime"
+              onClick={() => { if (window.confirm("Start a new life? This one will be lost.")) restart(); }}>
+              New life
+            </button>
+          </span>
         </div>
       </header>
 
@@ -114,6 +122,7 @@ export function Game({ data }: { data: GameData }) {
             {tab === "Jobs" && <Jobs data={data} life={life} commit={commit} />}
             {tab === "School" && <School life={life} commit={commit} />}
             {tab === "Home" && <HomeTab data={data} life={life} commit={commit} />}
+            {tab === "Car" && <Garage data={data} life={life} commit={commit} />}
             {tab === "Activities" && <Activities data={data} life={life} commit={commit} />}
             {tab === "Outdoors" && <Outdoors data={data} life={life} commit={commit} />}
             {tab === "Health" && <Health life={life} commit={commit} />}
@@ -130,6 +139,7 @@ function NewLife({ data, onStart }: { data: GameData; onStart: (l: Life) => void
   const [gender, setGender] = useState<"male" | "female">("female");
   const [name, setName] = useState("Olivia Garcia");
   const [metro, setMetro] = useState("jacksonville");
+  const [difficulty, setDifficulty] = useState<Difficulty>("relaxed");
   return (
     <div className="container-page pt-8" data-testid="new-life">
       <p className="eyebrow">America 360: Life</p>
@@ -154,6 +164,15 @@ function NewLife({ data, onStart }: { data: GameData; onStart: (l: Life) => void
         </fieldset>
         <button type="button" className="btn" onClick={() => setName(randomName(gender))}>Random name</button>
       </div>
+      <fieldset className="mt-4 flex flex-wrap items-center gap-2">
+        <legend className="mb-1 text-xs text-muted">Difficulty</legend>
+        {([["relaxed", "Relaxed", "Lower living costs, 4% debt interest, easier hiring"], ["realistic", "Realistic", "Full costs, 7% debt interest"]] as const).map(([k, label, hint]) => (
+          <button key={k} type="button" className={difficulty === k ? "btn-primary" : "btn"} aria-pressed={difficulty === k} onClick={() => setDifficulty(k)} title={hint}>
+            {label}
+          </button>
+        ))}
+        <span className="text-xs text-muted">{difficulty === "relaxed" ? "Lower living costs, 4% debt interest, easier hiring." : "Full costs, 7% debt interest."}</span>
+      </fieldset>
       <h2 className="mt-8 font-serif text-2xl">Where do you grow up?</h2>
       <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {data.metros.map((x) => (
@@ -170,7 +189,7 @@ function NewLife({ data, onStart }: { data: GameData; onStart: (l: Life) => void
         ))}
       </ul>
       <button type="button" className="btn-primary mt-6 min-h-12 px-8 text-base" data-testid="start-life"
-        onClick={() => onStart(newLife(data, { name, gender, metro, seed: (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0 }))}>
+        onClick={() => onStart(newLife(data, { name, gender, metro, difficulty, seed: (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0 }))}>
         Start life
       </button>
       <Sources data={data} />
@@ -199,10 +218,11 @@ function Status({ data, life, onLifestyle }: { data: GameData; life: Life; onLif
   const ly = life.lastYear;
   return (
     <div className="card p-4 text-sm" data-testid="status">
-      <Row k="Job" v={life.job ? `${life.job.title} · ${fmtMoney(life.job.salary)}/yr` : life.retirementIncome ? `Retired · ${fmtMoney(life.retirementIncome)}/yr` : "Unemployed"} />
+      <Row k="Job" v={life.job ? `${life.job.title} at ${life.job.employer} · ${fmtMoney(life.job.salary)}/yr` : life.retirementIncome ? `Retired · ${fmtMoney(life.retirementIncome)}/yr` : "Unemployed"} />
       <Row k="Education" v={EDUCATION_LABELS[life.education]} />
       {life.study && <Row k="Studying" v={`${life.study.label} · ${life.study.yearsLeft} yr left`} />}
-      <Row k="Home" v={life.home.kind === "parents" ? "With parents" : `${["Studio", "1-bedroom", "2-bedroom", "3-bedroom", "4-bedroom"][life.home.bedrooms]} · ${fmtMoney(life.home.monthlyRent)}/mo`} />
+      <Row k="Home" v={life.home.kind === "parents" ? "With parents" : `${["Studio", "1-bedroom", "2-bedroom", "3-bedroom", "4-bedroom"][life.home.bedrooms]} · ${fmtMoney(life.home.monthlyRent)}/mo${life.home.roommate ? " (with roommate)" : ""}`} />
+      <Row k="Car" v={life.car ? life.car.name : "No car"} />
       {life.conditions.length > 0 && <Row k="Health" v={life.conditions.join(", ")} />}
       <div className="mt-3">
         <p className="text-xs text-muted">Lifestyle</p>
@@ -222,9 +242,10 @@ function Status({ data, life, onLifestyle }: { data: GameData; life: Life; onLif
           <Row k="Take-home (after IRS 2026 + FICA)" v={fmtMoney(ly.takeHome)} />
           <Row k="Rent (HUD FMR)" v={`−${fmtMoney(ly.housing)}`} />
           <Row k="Living & lifestyle (estimate)" v={`−${fmtMoney(ly.living)}`} />
+          {ly.car > 0 && <Row k="Car: insurance, gas, payments" v={`−${fmtMoney(ly.car)}`} />}
           {ly.tuition > 0 && <Row k="Tuition (estimate)" v={`−${fmtMoney(ly.tuition)}`} />}
           {ly.other > 0 && <Row k="Activities & purchases" v={`−${fmtMoney(ly.other)}`} />}
-          {ly.interest > 0 && <Row k={`Interest on debt (${ASSUME.debtInterest * 100}%)`} v={`+${fmtMoney(ly.interest)} debt`} />}
+          {ly.interest > 0 && <Row k={`Interest on debt (${ASSUME.debtInterest[life.difficulty] * 100}%)`} v={`+${fmtMoney(ly.interest)} debt`} />}
           <p className="mt-1 text-muted">{data.metros.find((x) => x.slug === life.metro)?.name} costs index {metroOf(data, life).costIndex} (estimate)</p>
         </details>
       )}
@@ -282,6 +303,7 @@ function Jobs({ data, life, commit }: TabProps) {
       {life.job && (
         <div className="card mb-4 p-4">
           <p className="font-serif text-lg">{life.job.title}</p>
+          <p className="text-sm text-gold">{life.job.employer}</p>
           <p className="text-sm text-ink-soft">{fmtMoney(life.job.salary)}/yr · {life.job.years} yr here · performance {Math.round(life.job.performance)}/100</p>
           <div className="mt-3 flex flex-wrap gap-2">
             <button type="button" className="btn" onClick={() => commit(workHarder(life))}>Work harder</button>
@@ -291,6 +313,14 @@ function Jobs({ data, life, commit }: TabProps) {
           </div>
         </div>
       )}
+      <div className="card mb-4 flex flex-col gap-2 p-3 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="font-medium">Side gig</p>
+          <p className="text-xs text-muted">{life.car && life.age >= 21 ? "Drive for Uber / DoorDash: about $3,000–6,000" : "Deliver for DoorDash: about $1,200–2,500"} (one action, taxed as self-employment)</p>
+        </div>
+        <button type="button" className="btn shrink-0" onClick={() => commit(sideGig(life))} data-testid="side-gig">Work a side gig</button>
+      </div>
+      <p className="mb-3 text-xs text-muted">Big employers in {metroOf(data, life).name}: {metroOf(data, life).employers.map((e) => e.name).join(" · ")}</p>
       {!life.job && life.age >= 62 && !life.retirementIncome && <button type="button" className="btn mb-4" onClick={() => commit(retire(life))}>Claim Social Security</button>}
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <input className="field sm:max-w-xs" placeholder="Search jobs in this city" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Search jobs" />
@@ -370,11 +400,26 @@ function HomeTab({ data, life, commit }: TabProps) {
                 <p className="text-xs text-muted">{fmtMoney(monthly)}/month</p>
                 {!c.ok && <p className="text-xs text-danger">{c.reason}</p>}
               </div>
-              {current ? <span className="chip">Current</span> : <button type="button" className="btn" disabled={!c.ok} onClick={() => commit(rentHome(data, life, b.bedrooms))}>Rent</button>}
+              {current && !(life.home.kind === "rent" && life.home.roommate) ? <span className="chip">Current</span> : <button type="button" className="btn" disabled={!c.ok} onClick={() => commit(rentHome(data, life, b.bedrooms))}>Rent</button>}
             </li>
           );
         })}
       </ul>
+      {(() => {
+        const share = Math.round(m.rent.br2 / 2);
+        const c = rentCheck(life, share);
+        const current = life.home.kind === "rent" && !!life.home.roommate;
+        return (
+          <div className="card mt-2 flex items-center justify-between gap-2 p-3">
+            <div>
+              <p className="font-medium">2-bedroom with a roommate</p>
+              <p className="text-xs text-muted">Your half: {fmtMoney(share)}/month</p>
+              {!c.ok && <p className="text-xs text-danger">{c.reason}</p>}
+            </div>
+            {current ? <span className="chip">Current</span> : <button type="button" className="btn" disabled={!c.ok} onClick={() => commit(rentHome(data, life, 2, true))} data-testid="roommate">Find a roommate</button>}
+          </div>
+        );
+      })()}
       {life.home.kind === "rent" && <button type="button" className="btn mt-3" onClick={() => commit(moveBackHome(life))}>Move back in with parents</button>}
 
       <h3 className="mt-8 font-serif text-xl">Move to another city</h3>
@@ -390,6 +435,48 @@ function HomeTab({ data, life, commit }: TabProps) {
           </li>
         ))}
       </ul>
+    </div>
+  );
+}
+
+function Garage({ data, life, commit }: TabProps) {
+  const [financed, setFinanced] = useState(true);
+  return (
+    <div data-testid="garage">
+      {life.car ? (
+        <div className="card mb-4 p-4">
+          <p className="font-serif text-lg">{life.car.name}</p>
+          <p className="text-sm text-ink-soft">
+            Worth about {fmtMoney(life.car.value)}{life.car.loan > 0 ? ` · loan balance ${fmtMoney(life.car.loan)} (${fmtMoney(life.car.annualPayment / 12)}/month)` : " · paid off"}
+          </p>
+          <button type="button" className="btn mt-3" onClick={() => commit(sellCar(life))}>Sell it</button>
+        </div>
+      ) : (
+        <p className="mb-4 text-sm text-ink-soft">No car. In Florida that means buses, rides and a lot of waiting (about {fmtMoney(ASSUME.noCarTransport)}/yr).</p>
+      )}
+      <div className="flex items-center gap-2 text-sm">
+        <span className="text-muted">Pay with</span>
+        <button type="button" className={financed ? "btn-primary" : "btn"} onClick={() => setFinanced(true)}>Auto loan (60 mo, {ASSUME.carLoanRate[life.difficulty] * 100}%)</button>
+        <button type="button" className={!financed ? "btn-primary" : "btn"} onClick={() => setFinanced(false)}>Cash</button>
+      </div>
+      <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+        {data.cars.map((c) => {
+          const q = carQuote(data, life, c.id);
+          return (
+            <li key={c.id} className="card flex flex-col gap-1 p-3" data-testid="car">
+              <p className="font-medium">{c.name}</p>
+              <p className="text-xs text-muted">
+                {fmtMoney(c.price)} · {fmtMoney(q.total)} with tax and fees{q.tradeIn ? ` · trade-in ${fmtMoney(q.tradeIn)}` : ""}
+              </p>
+              <p className="text-xs text-ink-soft">
+                {financed ? `${fmtMoney(q.down)} down + ${fmtMoney(q.monthly)}/month · ` : ""}insurance + gas ~{fmtMoney(q.yearlyRunning)}/yr
+              </p>
+              <button type="button" className="btn mt-1 min-h-8 self-start px-3 py-1 text-xs" onClick={() => commit(buyCar(data, life, c.id, financed))}>Buy</button>
+            </li>
+          );
+        })}
+      </ul>
+      <p className="mt-3 text-xs text-muted">Prices are approximate 2026 starting prices; insurance and running costs are estimates (Florida insurance is among the priciest in the US; drivers under 25 pay more).</p>
     </div>
   );
 }
@@ -420,7 +507,20 @@ function Activities({ data, life, commit }: TabProps) {
   const m = metroOf(data, life);
   return (
     <div data-testid="activities">
-      <h3 className="font-serif text-xl">Around {m.name}</h3>
+      <h3 className="font-serif text-xl">Go to a game</h3>
+      <p className="text-xs text-muted">Local teams. Ticket prices are estimates (cheap seats + parking and food).</p>
+      <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+        {m.teams.map((t) => (
+          <li key={t.name} className="card flex items-center justify-between gap-2 p-3" data-testid="team">
+            <div className="min-w-0">
+              <p className="font-medium">{t.name}{life.gamesSeen.includes(t.name) && <span className="ml-1 text-xs text-mint">✓</span>}</p>
+              <p className="text-xs text-muted">{t.league}{t.venue ? ` · ${t.venue}` : ""}{t.distanceKm ? ` · ${t.distanceKm} km` : ""} · ~{fmtMoney(gameCost(t))}</p>
+            </div>
+            <button type="button" className="btn min-h-8 shrink-0 px-3 py-1 text-xs" onClick={() => commit(attendGame(data, life, t.name))}>Go</button>
+          </li>
+        ))}
+      </ul>
+      <h3 className="mt-8 font-serif text-xl">Around {m.name}</h3>
       <p className="text-xs text-muted">Real places (Wikidata/Wikipedia). Costs and effects are game estimates.</p>
       <ul className="mt-3 grid gap-2 sm:grid-cols-2">
         {m.activities.map((a) => <ActivityCard key={a.slug} a={a} life={life} onGo={() => commit(doActivity(data, life, a.slug))} />)}
@@ -535,6 +635,7 @@ function Obituary({ data, life, onRestart }: { data: GameData; life: Life; onRes
         <Row k="Jobs held" v={String(jobs)} />
         <Row k="Net worth" v={fmtMoney(netWorth(life))} />
         <Row k="Places visited" v={String(life.visited.length)} />
+        <Row k="Teams seen live" v={String(life.gamesSeen.length)} />
         <Row k="Species on life list" v={String(Object.keys(life.lifeList).length)} />
         <Row k="Arrests / tickets" v={`${life.record.arrests} / ${life.record.tickets}`} />
       </div>

@@ -178,6 +178,17 @@ test.describe("America 360 smoke", () => {
     await page.reload();
     await expect(page.getByTestId("life-name").or(page.getByTestId("obituary"))).toBeVisible();
     await expect(page.getByTestId("life-status")).toContainText("Age 19");
+
+    await page.getByRole("button", { name: "Car", exact: true }).click();
+    await expect(page.getByTestId("car")).not.toHaveCount(0);
+    await page.getByRole("button", { name: "Activities", exact: true }).click();
+    await page.getByTestId("team").filter({ hasText: "Florida State Seminoles" }).first().getByRole("button", { name: "Go" }).click();
+    await expect(page.getByTestId("toast")).toContainText("Seminoles");
+    await page.screenshot({ path: `test-results/screens/${info.project.name}-play-games.png`, fullPage: true });
+
+    page.once("dialog", (d) => d.accept());
+    await page.getByTestId("new-life-anytime").click();
+    await expect(page.getByTestId("city-option")).toHaveCount(6);
   });
 
   test("unknown pages return 404", async ({ page }) => {

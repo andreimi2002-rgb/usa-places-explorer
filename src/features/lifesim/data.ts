@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import type { TaxTable } from "./engine/tax";
-import type { EducationLevel, GameActivity, GameData, GameMetro, GameSpecies, GameSpot } from "./engine/types";
+import type { CarClass, EducationLevel, GameActivity, GameCar, GameData, GameEmployer, GameMetro, GameSpecies, GameSpot, GameTeam } from "./engine/types";
 import { commonsThumb } from "@/lib/media";
 
 /** Server-only loaders for the life sim data snapshots (seed/lifesim/*.json). */
@@ -58,6 +58,8 @@ type ActivityRec = GameActivity & { prominence: number; distanceKm?: number | Re
 type ActivitiesFile = { local: Record<string, ActivityRec[]>; statewide: (ActivityRec & { distanceKm: Record<string, number> })[] };
 type OutdoorsFile = { licenses: { fishingFreshwater: { annualCost: number }; hunting: { annualCost: number }; hunterSafety: { requiredIfBornAfter: number } }; species: GameSpecies[]; spots: (GameSpot & { metro: string })[] };
 
+type LocalFile = { employers: Record<string, GameEmployer[]>; teams: Record<string, GameTeam[]>; cars: GameCar[]; carRunningCosts: Record<CarClass, { insurance: number; fuel: number }> };
+
 const EDU: Record<string, EducationLevel> = {
   "No formal educational credential": 0,
   "High school diploma or equivalent": 1,
@@ -87,6 +89,7 @@ export function buildGameData(): GameData {
   const lt = load<LifeTableFile>("life-table.json").ages;
   const acts = load<ActivitiesFile>("activities.json");
   const out = load<OutdoorsFile>("outdoors.json");
+  const local = load<LocalFile>("local.json");
 
   const metros: GameMetro[] = GAME_METROS.map((gm) => {
     const jobs = wages.metros[gm.slug]!.occupations
@@ -111,6 +114,8 @@ export function buildGameData(): GameData {
       trips,
       spots: out.spots.filter((s) => s.metro === gm.slug).map((s) => ({ name: s.name, habitats: s.habitats, region: s.region, distanceKm: s.distanceKm })),
       costIndex: COST_INDEX[gm.slug] ?? 1,
+      employers: local.employers[gm.slug] ?? [],
+      teams: local.teams[gm.slug] ?? [],
     };
   });
 
@@ -122,6 +127,8 @@ export function buildGameData(): GameData {
     taxes,
     species: out.species.map((s) => ({ sci: s.sci, common: s.common, mode: s.mode, habitats: s.habitats, regions: s.regions, rarity: s.rarity, note: s.note, wikipedia: s.wikipedia })),
     licenses: { fishing: out.licenses.fishingFreshwater.annualCost, hunting: out.licenses.hunting.annualCost, hunterSafetyBornAfter: out.licenses.hunterSafety.requiredIfBornAfter },
+    cars: local.cars,
+    carRunningCosts: local.carRunningCosts,
     sources: [
       { label: "Wages: BLS OEWS May 2024", url: wages.source.url },
       { label: "Entry education: BLS Employment Projections", url: "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm" },

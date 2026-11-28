@@ -7,7 +7,7 @@
  */
 import { Rng } from "./rng";
 import { takeHomePay } from "./tax";
-import type { EducationLevel, GameActivity, GameData, GameJob, GameMetro, GameSpot, Life, Lifestyle, LogEntry, Stats } from "./types";
+import type { Difficulty, EducationLevel, GameActivity, GameData, GameJob, GameMetro, GameSpot, GameTeam, Life, Lifestyle, LogEntry, Stats } from "./types";
 import { EDUCATION_LABELS } from "./types";
 
 export const START_YEAR = 2026;
@@ -15,13 +15,22 @@ export const ACTIONS_PER_YEAR = 4;
 
 /** Game assumptions (not sourced). Dollar amounts are 2026 estimates. */
 export const ASSUME = {
-  livingCostRenting: 15000, // food, transport, phone, insurance for a single adult, per year
-  livingCostWithParents: 4500,
+  livingCostRenting: 10500, // food, phone, clothes, health out-of-pocket for a single adult, per year (no transport)
+  livingCostWithParents: 3500,
+  noCarTransport: 1800, // bus passes, rides, a cheap bike
+  relaxedCostFactor: 0.85,
+  cashBuffer: 1500, // cash kept as an emergency fund before paying down debt
+  carLoanRate: { relaxed: 0.05, realistic: 0.075 } as const,
+  carFees: 400, // tag, title and dealer fees
+  youngDriverInsurance: 1.5, // under 25
+  gigCarRange: [3000, 6000] as const,
+  gigBikeRange: [1200, 2500] as const,
+  gameExtras: 30, // parking, food and a drink at the game
   /** Share of discretionary money (take-home minus rent and basics) spent, by lifestyle. */
   lifestyleShare: { frugal: 0.5, normal: 0.82, lavish: 1.05 } as const,
   lifestyleMood: { frugal: -3, normal: 0, lavish: 3 } as const,
   employerHealthSaving: 2000, // employer coverage lowers out-of-pocket health spending
-  debtInterest: 0.07,
+  debtInterest: { relaxed: 0.04, realistic: 0.07 } as const,
   activityCost: { free: 0, low: 15, medium: 75, high: 160 } as const,
   tripCostPerKm: 0.12, // gas and wear, round trip counted twice
   tripLodging: 180,
@@ -105,17 +114,18 @@ function done(l: Life, rng: Rng, usesAction = true) {
 }
 
 // ------------------------------------------------------------------ new life
-export function newLife(data: GameData, opts: { name: string; gender: "male" | "female"; metro: string; seed: number }): Life {
+export function newLife(data: GameData, opts: { name: string; gender: "male" | "female"; metro: string; seed: number; difficulty?: Difficulty }): Life {
+  const difficulty = opts.difficulty ?? "relaxed";
   const rng = new Rng(opts.seed);
   const stats: Stats = { vitality: rng.int(55, 90), mood: rng.int(45, 80), smarts: rng.int(30, 90), drive: rng.int(30, 85), charisma: rng.int(30, 85) };
   const metro = data.metros.find((m) => m.slug === opts.metro) ?? data.metros[0]!;
   const l: Life = {
     seed: opts.seed, rngState: rng.state, name: opts.name.trim() || "Alex Rivera", gender: opts.gender,
     birthYear: START_YEAR - 18, year: START_YEAR, age: 18, metro: metro.slug, alive: true,
-    stats, education: 1, study: null, job: null, workYears: 0, cash: rng.int(400, 2500), debt: 0,
+    stats, education: 1, study: null, job: null, workYears: 0, cash: difficulty === "relaxed" ? rng.int(2000, 4500) : rng.int(400, 2500), debt: 0,
     home: { kind: "parents" }, actionsLeft: ACTIONS_PER_YEAR, lastYear: null, spentThisYear: 0, log: [], visited: [],
     licenses: { fishing: null, hunting: null }, hunterSafety: false, lifeList: {}, conditions: [], record: { arrests: 0, tickets: 0 },
-    retirementIncome: 0, brightFutures: stats.smarts >= ASSUME.brightFuturesSmarts, lifestyle: "normal",
+    retirementIncome: 0, brightFutures: stats.smarts >= ASSUME.brightFuturesSmarts, lifestyle: "normal", difficulty, car: null, gamesSeen: [],
   };
   log(l, `You turn 18 in ${metro.name}, Florida. High school is behind you; you still live with your parents.`, "neutral");
   if (l.brightFutures) log(l, "Your grades and test scores qualify you for the Florida Bright Futures scholarship (tuition at Florida public colleges).", "good");
@@ -129,7 +139,7 @@ export function jobCheck(l: Life, j: GameJob): JobCheck {
   if (l.education < j.education) return { ok: false, reason: `Requires ${EDUCATION_LABELS[j.education]}`, odds: 0 };
   if (l.workYears < j.experienceYears) return { ok: false, reason: `Requires ${j.experienceYears}+ years of work experience`, odds: 0 };
   const competitive = j.wage.p50 > 100000 ? 0.15 : j.wage.p50 > 70000 ? 0.07 : 0;
-  const odds = clamp(0.55 + (l.stats.charisma - 50) / 200 + (l.stats.smarts - 50) / 300 + Math.min(0.15, (l.workYears - j.experienceYears) * 0.02) - competitive - l.record.arrests * 0.1, 0.05, 0.95);
+  const odds = clamp((l.difficulty === "relaxed" ? 0.65 : 0.55) + (l.stats.charisma - 50) / 200 + (l.stats.smarts - 50) / 300 + Math.min(0.15, (l.workYears - j.experienceYears) * 0.02) - competitive - l.record.arrests * 0.1, 0.05, 0.95);
   return { ok: true, odds };
 }
 
@@ -150,11 +160,14 @@ export function applyForJob(data: GameData, life: Life, soc: string): Result {
   const lo = j.wage.p10 + (j.wage.p50 - j.wage.p10) * exp;
   const hi = j.wage.p25 + (j.wage.p75 - j.wage.p25) * exp;
   const salary = Math.round(rng.range(lo, hi) / 100) * 100;
-  if (l.job) log(l, `You quit your job as ${l.job.title}.`);
-  l.job = { soc: j.soc, title: j.title, salary, years: 0, performance: 55 };
+  if (l.job) log(l, `You quit your job as ${l.job.title} at ${l.job.employer}.`);
+  const m = metroOf(data, l);
+  const fits = m.employers.filter((e) => e.groups.includes(j.soc.slice(0, 2)));
+  const employer = fits.length ? rng.pick(fits).name : "a local employer";
+  l.job = { soc: j.soc, title: j.title, employer, salary, years: 0, performance: 55 };
   done(l, rng);
   bump(l, { mood: 6 });
-  return act(l, `Hired! You are now a ${j.title} earning ${money(salary)} a year (local median for this job: ${money(j.wage.p50)}).`, "good");
+  return act(l, `Hired! You are now a ${j.title} at ${employer}, earning ${money(salary)} a year (local median for this job: ${money(j.wage.p50)}).`, "good");
 }
 
 export function quitJob(life: Life): Result {
@@ -251,19 +264,19 @@ export function rentCheck(l: Life, monthly: number): { ok: boolean; reason?: str
   if (l.cash >= monthly * 12) return { ok: true };
   return { ok: false, reason: `Landlords want income of 3× rent (${money(monthly * 36)}/yr) or a year of rent in savings.` };
 }
-export function rentHome(data: GameData, life: Life, bedrooms: 0 | 1 | 2 | 3): Result {
+export function rentHome(data: GameData, life: Life, bedrooms: 0 | 1 | 2 | 3, roommate = false): Result {
   const { l, rng, err } = begin(life);
   if (err) return fail(l, err);
   const b = BEDROOMS.find((x) => x.bedrooms === bedrooms)!;
-  const monthly = metroOf(data, l).rent[b.key];
+  const monthly = Math.round(metroOf(data, l).rent[b.key] / (roommate ? 2 : 1));
   const c = rentCheck(l, monthly);
   if (!c.ok) return fail(l, c.reason!);
   spend(l, monthly); // security deposit; first month is part of the year's housing cost
   const first = l.home.kind === "parents";
-  l.home = { kind: "rent", bedrooms, monthlyRent: monthly };
+  l.home = { kind: "rent", bedrooms, monthlyRent: monthly, ...(roommate ? { roommate: true } : {}) };
   bump(l, { mood: first ? 8 : 3 });
   done(l, rng);
-  return act(l, `You signed a lease on a ${b.label.toLowerCase()} apartment in ${metroOf(data, l).name}: ${money(monthly)}/month (security deposit paid).`, "good");
+  return act(l, `You signed a lease on a ${b.label.toLowerCase()} apartment in ${metroOf(data, l).name}${roommate ? " with a roommate" : ""}: ${money(monthly)}/month for your share (security deposit paid).`, "good");
 }
 export function moveBackHome(life: Life): Result {
   const { l, rng, err } = begin(life);
@@ -500,25 +513,28 @@ export function ageUp(data: GameData, life: Life): Result {
   const pay = takeHomePay(l.job?.salary ?? 0, data.taxes);
   const takeHome = pay.takeHome + l.retirementIncome * 0.95;
   const housing = l.home.kind === "rent" ? l.home.monthlyRent * 12 : 0;
-  const basics = Math.round((l.home.kind === "rent" ? ASSUME.livingCostRenting : ASSUME.livingCostWithParents) * m.costIndex - (insured(l) ? ASSUME.employerHealthSaving : 0));
-  const discretionary = Math.max(0, takeHome - housing - basics - (l.study?.tuitionPerYear ?? 0));
-  const living = basics + Math.round(ASSUME.lifestyleShare[l.lifestyle] * discretionary);
+  const cf = l.difficulty === "relaxed" ? ASSUME.relaxedCostFactor : 1;
+  const carCost = carYear(data, l);
+  const basics = Math.max(0, Math.round(((l.home.kind === "rent" ? ASSUME.livingCostRenting : ASSUME.livingCostWithParents) + (l.car ? 0 : ASSUME.noCarTransport)) * m.costIndex * cf - (insured(l) ? ASSUME.employerHealthSaving : 0)));
   const tuition = l.study?.tuitionPerYear ?? 0;
-  const interest = Math.round(l.debt * ASSUME.debtInterest);
-  l.cash += takeHome - housing - living - tuition;
+  const discretionary = Math.max(0, takeHome - housing - basics - tuition - carCost);
+  const living = basics + Math.round(ASSUME.lifestyleShare[l.lifestyle] * discretionary);
+  const interest = Math.round(l.debt * ASSUME.debtInterest[l.difficulty]);
+  l.cash += takeHome - housing - living - tuition - carCost;
   l.debt += interest;
   if (l.cash < 0) {
     l.debt += -l.cash;
     log(l, `You came up ${money(-l.cash)} short this year and covered it with ${tuition ? "student loans" : "credit cards"}.`, "bad");
     l.cash = 0;
   } else if (l.debt > 0) {
-    const paydown = Math.min(l.debt, Math.max(0, l.cash - 1000) * 0.5);
+    const paydown = Math.min(l.debt, Math.max(0, l.cash - ASSUME.cashBuffer));
     l.debt -= paydown;
     l.cash -= paydown;
+    if (paydown > 0) log(l, l.debt <= 0 ? `You paid off your debt (${money(paydown)} this year). Debt-free!` : `You paid ${money(paydown)} toward your debt.`, "good");
   }
   l.cash = Math.round(l.cash);
   l.debt = Math.round(l.debt);
-  l.lastYear = { income, takeHome: Math.round(takeHome), housing, living, tuition, interest, other: Math.round(l.spentThisYear) };
+  l.lastYear = { income, takeHome: Math.round(takeHome), housing, living, tuition, interest, car: carCost, other: Math.round(l.spentThisYear) };
 
   // --- job
   if (l.job) {
@@ -609,9 +625,9 @@ export function ageUp(data: GameData, life: Life): Result {
 function yearEvents(l: Life, m: GameMetro, rng: Rng) {
   const events: { p: number; run: () => void; when?: boolean }[] = [
     { p: 0.12, run: () => { l.conditions.push("Flu"); bump(l, { vitality: -4, mood: -2 }); log(l, "You came down with the flu and missed a week.", "bad"); } },
-    { p: 0.12, run: () => { const c = rng.int(400, 1800); l.cash -= c; log(l, `Your car broke down in the Florida heat. Repair bill: ${money(c)}.`, "bad"); } },
-    { p: 0.06, run: () => { const c = rng.int(160, 280); l.cash -= c; l.record.tickets++; log(l, `Speeding ticket on the interstate: ${money(c)}.`, "bad"); } },
-    { p: 0.035, run: () => { const bill = insured(l) ? ASSUME.erBillInsured : ASSUME.erBillUninsured; l.cash -= 1000 + bill; bump(l, { vitality: -rng.int(8, 20), mood: -6 }); l.conditions.push(rng.pick(["Broken wrist", "Back injury"])); log(l, `You were in a car crash. Insurance deductible plus medical bills: ${money(1000 + bill)}.`, "bad"); } },
+    { p: l.car?.used ? 0.14 : 0.04, when: !!l.car, run: () => { const c = rng.int(400, 1800); l.cash -= c; log(l, `Your ${l.car!.name.replace(/ \(.*\)$/, "")} broke down in the Florida heat. Repair bill: ${money(c)}.`, "bad"); } },
+    { p: 0.06, when: !!l.car, run: () => { const c = rng.int(160, 280); l.cash -= c; l.record.tickets++; log(l, `Speeding ticket on the interstate: ${money(c)}.`, "bad"); } },
+    { p: 0.035, when: !!l.car, run: () => { if (l.car) l.car.value = Math.round(l.car.value * 0.8); const bill = insured(l) ? ASSUME.erBillInsured : ASSUME.erBillUninsured; l.cash -= 1000 + bill; bump(l, { vitality: -rng.int(8, 20), mood: -6 }); l.conditions.push(rng.pick(["Broken wrist", "Back injury"])); log(l, `You were in a car crash. Insurance deductible plus medical bills: ${money(1000 + bill)}.`, "bad"); } },
     { p: 0.04, run: () => { l.cash -= 450; bump(l, { mood: 5, charisma: 1 }); log(l, "You went to a friend's wedding (gift, outfit and travel: $450).", "good"); } },
     { p: 0.03, run: () => { bump(l, { smarts: 1 }); log(l, "You were summoned for jury duty at the county courthouse."); } },
     { p: 0.03, run: () => { l.cash -= 600; log(l, "Your identity was stolen; cleaning it up cost you $600.", "bad"); } },
@@ -659,7 +675,7 @@ function hurricane(l: Life, m: GameMetro, rng: Rng) {
 }
 
 export function netWorth(l: Life) {
-  return l.cash - l.debt;
+  return l.cash - l.debt + (l.car ? l.car.value - l.car.loan : 0);
 }
 
 export function setLifestyle(life: Life, lifestyle: Lifestyle): Result {
@@ -667,4 +683,135 @@ export function setLifestyle(life: Life, lifestyle: Lifestyle): Result {
   l.lifestyle = lifestyle;
   const text = { frugal: "You cut back: cooking at home, no subscriptions, a cheap used car.", normal: "You live a normal lifestyle.", lavish: "You upgraded: dining out, a new car lease, nice vacations." }[lifestyle];
   return act(l, text);
+}
+
+// ------------------------------------------------------------------ cars
+/** Yearly running cost of the car (insurance, fuel, loan payment); also depreciates it and amortizes the loan. */
+function carYear(data: GameData, l: Life): number {
+  const car = l.car;
+  if (!car) return 0;
+  const rc = data.carRunningCosts[car.class];
+  const insurance = rc.insurance * (l.age < 25 ? ASSUME.youngDriverInsurance : 1) * (l.record.arrests ? 1.6 : 1);
+  let payment = 0;
+  if (car.loan > 0) {
+    const interest = car.loan * ASSUME.carLoanRate[l.difficulty];
+    payment = Math.min(car.annualPayment, car.loan + interest);
+    car.loan = Math.max(0, Math.round(car.loan + interest - payment));
+    if (car.loan === 0) log(l, `You made the last payment on your ${car.name}. It's all yours.`, "good");
+  }
+  car.value = Math.round(car.value * (car.used ? 0.9 : 0.85));
+  return Math.round(insurance + rc.fuel + payment);
+}
+
+export function carQuote(data: GameData, l: Life, id: string) {
+  const c = data.cars.find((x) => x.id === id)!;
+  const total = Math.round(c.price * (1 + data.taxes.florida.stateSalesTaxRate) + ASSUME.carFees);
+  // trade-in equity (negative equity rolls into the new loan, as dealers do)
+  const tradeIn = l.car ? l.car.value - l.car.loan : 0;
+  const down = Math.max(0, Math.round(total * 0.1) - Math.max(0, tradeIn));
+  const principal = Math.max(0, total - tradeIn - down);
+  const r = ASSUME.carLoanRate[l.difficulty] / 12;
+  const monthly = principal > 0 ? (principal * r) / (1 - Math.pow(1 + r, -60)) : 0;
+  const rc = data.carRunningCosts[c.class];
+  return { car: c, total, tradeIn, down, principal, monthly: Math.round(monthly), yearlyRunning: Math.round(rc.insurance * (l.age < 25 ? ASSUME.youngDriverInsurance : 1) + rc.fuel) };
+}
+
+export function buyCar(data: GameData, life: Life, id: string, financed: boolean): Result {
+  const { l, rng, err } = begin(life);
+  if (err) return fail(l, err);
+  const q = carQuote(data, l, id);
+  if (financed) {
+    if (!l.job) return fail(l, "Lenders want proof of income. Get a job first, or pay cash.");
+    if (q.monthly * 12 > l.job.salary * 0.2) return fail(l, `Loan denied: ${money(q.monthly)}/month is too much for your income.`);
+    if (l.cash < q.down) return fail(l, `You need ${money(q.down)} down.`);
+  } else if (l.cash + q.tradeIn < q.total) {
+    return fail(l, `You need ${money(q.total - Math.max(0, q.tradeIn))} in cash (price + ${Math.round(data.taxes.florida.stateSalesTaxRate * 100)}% sales tax + fees${q.tradeIn > 0 ? ", minus trade-in" : ""}).`);
+  }
+  const old = l.car?.name;
+  spend(l, financed ? q.down : q.total - q.tradeIn);
+  l.car = {
+    id: q.car.id, name: q.car.name, class: q.car.class, value: q.car.price, used: q.car.kind === "used", boughtYear: l.year,
+    loan: financed ? q.principal : 0, annualPayment: financed ? q.monthly * 12 : 0,
+  };
+  bump(l, { mood: q.car.class === "sports" || q.car.class === "luxury" ? 10 : 6 });
+  done(l, rng);
+  return act(l, `You bought a ${q.car.name}${old ? `, trading in your ${old}` : ""}. ${financed ? `Financed: ${money(q.monthly)}/month for 60 months.` : `Paid ${money(q.total)} including sales tax and fees.`}`, "good");
+}
+
+export function sellCar(life: Life): Result {
+  const { l, rng, err } = begin(life, false);
+  if (err) return fail(l, err);
+  if (!l.car) return fail(l, "You don't have a car.");
+  const net = l.car.value - l.car.loan;
+  if (net < 0 && l.cash < -net) return fail(l, `You owe ${money(l.car.loan)} but it is only worth ${money(l.car.value)}. You need ${money(-net)} to sell it.`);
+  l.cash += net;
+  const name = l.car.name;
+  l.car = null;
+  done(l, rng, false);
+  return act(l, net >= 0 ? `You sold your ${name}; ${money(net)} to you after paying off any loan.` : `You sold your ${name} and paid ${money(-net)} to cover the rest of the loan.`);
+}
+
+// ------------------------------------------------------------------ side gigs and games
+export function sideGig(life: Life): Result {
+  const { l, rng, err } = begin(life);
+  if (err) return fail(l, err);
+  const drive = !!l.car && l.age >= 21;
+  const [lo, hi] = drive ? ASSUME.gigCarRange : ASSUME.gigBikeRange;
+  const gross = rng.int(lo, hi);
+  const net = Math.round(gross * 0.8); // self-employment tax and fees
+  l.cash += net;
+  bump(l, { vitality: -2, mood: -1, drive: 1 });
+  if (drive && l.car) l.car.value = Math.max(500, l.car.value - 600);
+  done(l, rng);
+  const what = drive ? "You drove for Uber and DoorDash on nights and weekends" : l.car ? "You delivered for DoorDash (Uber requires drivers to be 21)" : "You delivered for DoorDash on an e-bike";
+  return act(l, `${what}: ${money(gross)} earned, ${money(net)} after self-employment taxes.`, "good");
+}
+
+function score(rng: Rng, sport: GameTeam["sport"]): [number, number] {
+  const f = {
+    football: () => rng.pick([0, 3, 6, 7, 10, 13, 14, 17, 20, 21, 23, 24, 27, 28, 30, 31, 34, 35, 38]),
+    basketball: () => rng.int(92, 128),
+    baseball: () => rng.int(0, 9),
+    hockey: () => rng.int(0, 6),
+    soccer: () => rng.int(0, 4),
+  }[sport];
+  let a = f();
+  let b = f();
+  if (a === b && sport !== "soccer") a++;
+  if (a < b) [a, b] = [b, a];
+  return [a, b];
+}
+export function gameCost(t: GameTeam) {
+  return t.ticket + ASSUME.gameExtras + (t.distanceKm ? Math.round(t.distanceKm * 2 * ASSUME.tripCostPerKm) : 0);
+}
+export function attendGame(data: GameData, life: Life, team: string): Result {
+  const { l, rng, err } = begin(life);
+  if (err) return fail(l, err);
+  const t = metroOf(data, l).teams.find((x) => x.name === team);
+  if (!t) return fail(l, "No such team here.");
+  const cost = gameCost(t);
+  if (l.cash < cost) return fail(l, `Tickets and parking cost about ${money(cost)}.`);
+  spend(l, cost);
+  const [hi, lo] = score(rng, t.sport);
+  const won = rng.chance(0.5);
+  const first = !l.gamesSeen.includes(t.name);
+  if (first) l.gamesSeen.push(t.name);
+  bump(l, { mood: won ? rng.int(6, 10) : rng.int(1, 4), charisma: 1 });
+  done(l, rng);
+  const result = hi === lo ? `It ended in a ${hi}–${lo} draw.` : won ? `They won ${hi}–${lo}!` : `They lost ${hi}–${lo}.`;
+  return act(l, `You went to a ${t.name} game${t.venue ? ` at ${t.venue}` : ""} (${money(cost)}). ${result}${first ? " Your first one!" : ""}`, won ? "good" : "neutral");
+}
+
+/** Upgrade saves from older versions of the game. */
+export function normalizeLife(l: Life): Life {
+  const x = l as Life & Partial<Pick<Life, "difficulty" | "car" | "gamesSeen" | "lifestyle">>;
+  return {
+    ...x,
+    lifestyle: x.lifestyle ?? "normal",
+    difficulty: x.difficulty ?? "relaxed",
+    car: x.car ?? null,
+    gamesSeen: x.gamesSeen ?? [],
+    job: x.job ? { ...x.job, employer: x.job.employer ?? "a local employer" } : null,
+    lastYear: x.lastYear ? { ...x.lastYear, car: x.lastYear.car ?? 0 } : null,
+  };
 }

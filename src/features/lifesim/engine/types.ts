@@ -43,6 +43,11 @@ export type GameSpecies = { sci: string; common: string; mode: "fish" | "hunt"; 
 /** Real fishing/hunting spot near a metro, with the real distance from the city. */
 export type GameSpot = { name: string; habitats: Habitat[]; region: Region; distanceKm: number | null };
 
+export type GameEmployer = { name: string; groups: string[] };
+export type GameTeam = { name: string; league: string; sport: "football" | "basketball" | "baseball" | "hockey" | "soccer"; venue?: string; ticket: number; distanceKm?: number };
+export type CarClass = "economy" | "midsize" | "truck" | "ev" | "luxury" | "sports";
+export type GameCar = { id: string; name: string; price: number; kind: "new" | "used"; class: CarClass };
+
 export type GameMetro = {
   slug: string;
   name: string;
@@ -54,6 +59,10 @@ export type GameMetro = {
   activities: GameActivity[];
   trips: GameActivity[];
   spots: GameSpot[];
+  /** Well-known major employers (curated). */
+  employers: GameEmployer[];
+  /** Local pro and college teams (curated; ticket prices are estimates). */
+  teams: GameTeam[];
   /** Game estimate: multiplier on baseline living costs (food, transport, insurance). */
   costIndex: number;
 };
@@ -66,14 +75,18 @@ export type GameData = {
   taxes: TaxTable;
   species: GameSpecies[];
   licenses: { fishing: number; hunting: number; hunterSafetyBornAfter: number };
+  cars: GameCar[];
+  carRunningCosts: Record<CarClass, { insurance: number; fuel: number }>;
   sources: { label: string; url: string }[];
 };
 
 // ---------------------------------------------------------------- player state
 export type Lifestyle = "frugal" | "normal" | "lavish";
 export type Stats = { vitality: number; mood: number; smarts: number; drive: number; charisma: number };
-export type Home = { kind: "parents" } | { kind: "rent"; bedrooms: 0 | 1 | 2 | 3 | 4; monthlyRent: number };
-export type Job = { soc: string; title: string; salary: number; years: number; performance: number };
+export type Home = { kind: "parents" } | { kind: "rent"; bedrooms: 0 | 1 | 2 | 3 | 4; monthlyRent: number; roommate?: boolean };
+export type Car = { id: string; name: string; class: CarClass; value: number; loan: number; annualPayment: number; boughtYear: number; used: boolean };
+export type Difficulty = "relaxed" | "realistic";
+export type Job = { soc: string; title: string; employer: string; salary: number; years: number; performance: number };
 export type Study = { target: EducationLevel; label: string; yearsLeft: number; tuitionPerYear: number };
 
 export type LogEntry = { year: number; age: number; text: string; tone?: "good" | "bad" | "neutral" };
@@ -98,7 +111,7 @@ export type Life = {
   debt: number;
   home: Home;
   actionsLeft: number;
-  lastYear: { income: number; takeHome: number; housing: number; living: number; tuition: number; interest: number; other: number } | null;
+  lastYear: { income: number; takeHome: number; housing: number; living: number; tuition: number; interest: number; car: number; other: number } | null;
   /** Money spent this year on actions (activities, trips, licenses, moving...). */
   spentThisYear: number;
   log: LogEntry[];
@@ -114,4 +127,7 @@ export type Life = {
   retirementIncome: number;
   brightFutures: boolean;
   lifestyle: Lifestyle;
+  difficulty: Difficulty;
+  car: Car | null;
+  gamesSeen: string[];
 };

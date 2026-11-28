@@ -2,7 +2,7 @@ import pg from "pg";
 import type { AreaType, EntityType, ReviewStatus } from "@/lib/domain/schemas";
 import { normalize, tokens } from "@/lib/text";
 import type { FactRow, MediaRow, SourceRow } from "./dataset";
-import { clampPage, scoreText } from "./fixture-provider";
+import { byScore, clampPage, scoreText } from "./fixture-provider";
 import {
   emptyStatusCounts,
   FEATURED_TYPES,
@@ -310,7 +310,7 @@ export class PostgresProvider implements DataProvider {
     const [ents, areas, cats] = await Promise.all([
       this.q(`${SCOPE_CTE(3)} select s.*, ${SCORE("s.name_norm", "s.search_text")} + 5 as score from entity_summaries s
         where ${MATCH("s.search_text")} and ($3::text is null or s.id in (select entity_id from scope_ids))
-        order by score desc, s.name limit $4`, [qn, qt, scope, limit]),
+        order by score desc, s.prominence desc, s.name limit $4`, [qn, qt, scope, limit]),
       this.q(`select a.slug, a.name, a.type_label, p.name as parent_name,
           ${SCORE("a.name_norm", "a.search_text")} + case when a.program_status = 'active' then 8 else 0 end + case when a.area_type = 'community' then -40 else 0 end as score
         from areas a left join areas p on p.id = a.parent_id
@@ -322,7 +322,7 @@ export class PostgresProvider implements DataProvider {
     const hits: SearchHit[] = [
       ...ents.map((r): SearchHit => {
         const s = entitySummary(r);
-        return { kind: "entity", slug: s.slug, name: s.name, subtitle: [s.primaryCategory.name, s.placeLabel].filter(Boolean).join(" · "), score: Number(r.score) };
+        return { kind: "entity", slug: s.slug, name: s.name, subtitle: [s.primaryCategory.name, s.placeLabel].filter(Boolean).join(" · "), score: Number(r.score), prominence: s.prominence };
       }),
       ...areas.map((r): SearchHit => ({ kind: "area", slug: String(r.slug), name: String(r.name), subtitle: [r.type_label, r.parent_name].filter(Boolean).join(" · "), score: Number(r.score) })),
       ...cats
@@ -330,7 +330,7 @@ export class PostgresProvider implements DataProvider {
         .filter((x) => x.s > 0)
         .map(({ c, s }): SearchHit => ({ kind: "category", slug: String(c.slug), name: String(c.name), subtitle: c.parent_id ? String(c.domain_name) : "Domain", score: s })),
     ];
-    return hits.filter((h) => h.score > 0).sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "en")).slice(0, limit);
+    return hits.filter((h) => h.score > 0).sort(byScore).slice(0, limit);
   }
 
   async getCoverage(areaSlug: string): Promise<CoverageReport | null> {

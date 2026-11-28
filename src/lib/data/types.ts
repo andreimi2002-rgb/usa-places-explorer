@@ -131,7 +131,7 @@ export type EntityQuery = {
 };
 
 export type SearchHit =
-  | { kind: "entity"; slug: string; name: string; subtitle: string; score: number }
+  | { kind: "entity"; slug: string; name: string; subtitle: string; score: number; /** tie-breaker: Wikipedia editions */ prominence?: number }
   | { kind: "area"; slug: string; name: string; subtitle: string; score: number }
   | { kind: "category"; slug: string; name: string; subtitle: string; score: number };
 

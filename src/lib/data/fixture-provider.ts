@@ -50,6 +50,13 @@ export function haversineKm(lat1: number, lon1: number, lat2: number, lon2: numb
   return 2 * 6371.0088 * Math.asin(Math.sqrt(a));
 }
 
+/** Search hit order (both modes): score, then how well known (Wikipedia editions), then name. */
+export function byScore(a: SearchHit, b: SearchHit): number {
+  const pa = a.kind === "entity" ? (a.prominence ?? 0) : 0;
+  const pb = b.kind === "entity" ? (b.prominence ?? 0) : 0;
+  return b.score - a.score || pb - pa || a.name.localeCompare(b.name, "en");
+}
+
 /** Shared scoring so fixture and database search rank comparably. */
 export function scoreText(query: string, names: string | string[], doc: string): number {
   const q = normalize(query);
@@ -359,7 +366,7 @@ export class FixtureProvider implements DataProvider {
       const s = scoreText(q, [e.name, ...e.aliases], this.entitySearch.get(e.id)!);
       if (s > 0) {
         const sum = this.entitySummary(e);
-        hits.push({ kind: "entity", slug: e.slug, name: e.name, subtitle: [sum.primaryCategory.name, sum.placeLabel].filter(Boolean).join(" · "), score: s + 5 });
+        hits.push({ kind: "entity", slug: e.slug, name: e.name, subtitle: [sum.primaryCategory.name, sum.placeLabel].filter(Boolean).join(" · "), score: s + 5, prominence: e.prominence });
       }
     }
     const scopeIds = opts.areaSlug && this.idx.areaBySlug.get(opts.areaSlug) ? this.idx.descendantAreaIds(this.idx.areaBySlug.get(opts.areaSlug)!.id) : null;
@@ -375,7 +382,7 @@ export class FixtureProvider implements DataProvider {
       const s = scoreText(q, c.name, `${c.name} ${c.nameRo ?? ""} ${c.description ?? ""}`);
       if (s > 0) hits.push({ kind: "category", slug: c.slug, name: c.name, subtitle: c.parentId ? this.idx.domainOf(c).name : "Domain", score: s });
     }
-    return hits.filter((h) => h.score > 0).sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "en")).slice(0, limit);
+    return hits.filter((h) => h.score > 0).sort(byScore).slice(0, limit);
   }
 
   async getCoverage(areaSlug: string): Promise<CoverageReport | null> {
